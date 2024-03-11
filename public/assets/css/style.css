@@ -941,7 +941,19 @@ textarea {
     overflow-y: hidden;
   }
 }
-
+/* header */
+@media screen and (max-width: 420px) {
+  .header-logo img {
+    width: 280px;
+    height: 69px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .header-logo img {
+    width: 240px;
+    height: 59px;
+  }
+}
 /* ----------contact page ends*/
 .form form textarea {
   margin-bottom: 10px;
