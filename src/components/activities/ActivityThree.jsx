@@ -10,7 +10,7 @@ const ActivityThree = () => {
         <section className="banner-style-one">
           <div
             className="parallax"
-            style={{ backgroundImage: 'url(/src/assets/images/pattren-3.png)' }}
+            style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
           />
           <div className="container">
             <div className="row">
@@ -169,7 +169,7 @@ const ActivityThree = () => {
                 <div className="data">
                   <figure>
                     <img
-                      src="/src/assets/svg4/industrial construction tools and equipment (2).svg"
+                      src="assets/svg4/industrial construction tools and equipment (2).svg"
                       alt="Our Project One Image 1"
                     />
                   </figure>
@@ -206,7 +206,7 @@ const ActivityThree = () => {
                 <div className="data">
                   <figure>
                     <img
-                      src="/src/assets/svg/3.svg"
+                      src="assets/svg/3.svg"
                       alt="Our Project One Image 2"
                     />
                   </figure>

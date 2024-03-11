@@ -10,7 +10,7 @@ const ActivityOne = () => {
         <section className="banner-style-one">
           <div
             className="parallax"
-            style={{ backgroundImage: 'url(/src/assets/images/pattren-3.png)' }}
+            style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
           />
           <div className="container">
             <div className="row">
@@ -180,7 +180,7 @@ const ActivityOne = () => {
                   <div className="data">
                     <figure>
                       <img
-                        src="/src/assets/svg/2.svg"
+                        src="assets/svg/2.svg"
                         alt="Our Project One Image 1"
                       />
                     </figure>
@@ -219,7 +219,7 @@ const ActivityOne = () => {
                   <div className="data">
                     <figure>
                       <img
-                        src="/src/assets/svg/3.svg"
+                        src="assets/svg/3.svg"
                         alt="Our Project One Image 2"
                       />
                     </figure>
@@ -258,7 +258,7 @@ const ActivityOne = () => {
                   <div className="data">
                     <figure>
                       <img
-                        src="/src/assets/svg/4.svg"
+                        src="assets/svg/4.svg"
                         alt="Our Project One Image 3"
                       />
                     </figure>
@@ -297,7 +297,7 @@ const ActivityOne = () => {
                   <div className="data">
                     <figure>
                       <img
-                        src="/src/assets/svg/2.svg"
+                        src="assets/svg/2.svg"
                         alt="Our Project One Image 4"
                       />
                     </figure>
@@ -335,7 +335,7 @@ const ActivityOne = () => {
                   <div className="data">
                     <figure>
                       <img
-                        src="/src/assets/svg/4.svg"
+                        src="assets/svg/4.svg"
                         alt="Our Project One Image 5"
                       />
                     </figure>
@@ -374,7 +374,7 @@ const ActivityOne = () => {
                   <div className="data">
                     <figure>
                       <img
-                        src="/src/assets/svg/3.svg"
+                        src="assets/svg/3.svg"
                         alt="Our Project One Image 6"
                       />
                     </figure>
@@ -414,7 +414,7 @@ const ActivityOne = () => {
                   <div className="data">
                     <figure>
                       <img
-                        src="/src/assets/svg/3.svg"
+                        src="assets/svg/3.svg"
                         alt="Our Project One Image 6"
                       />
                     </figure>

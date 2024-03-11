@@ -15,8 +15,8 @@ const Header = () => {
                         <a href="/">
                           <figure>
                             <img
-                              //   src="/src/assets/images/Builty-Logo.svg"
-                              src="/src/assets/images/OMDYS_LOGO_Horizontal.png"
+                              //   src="assets/images/Builty-Logo.svg"
+                              src="assets/images/OMDYS_LOGO_Horizontal.png"
                               //   width={'306'}
                               //   height={'75'}
                               width={'326'}
@@ -185,7 +185,7 @@ const Header = () => {
                         <div className="extras">
                           {/* <div className="theme-color">
                             <img
-                              src="/src/assets/images/sun.png"
+                              src="assets/images/sun.png"
                               alt=""
                               id="theme-icon"
                             />
@@ -270,7 +270,7 @@ const Header = () => {
               <div className="res-log">
                 <Link to={'/'}>
                   <img
-                    src="/src/assets/images/OMDYS LOGO - Horizontal.png"
+                    src="assets/images/OMDYS LOGO - Horizontal.png"
                     width={'253'}
                     height={'93'}
                     alt="Responsive Logo"
@@ -408,7 +408,7 @@ const Header = () => {
                 <span style={{ color: '#33cc33' }}>&nbsp;&nbsp;-OMDYS</span>
                 {/* <span>
                   <img
-                    src="/src/assets/images/OMDYS LOGO - Horizontal - Without ICON.png"
+                    src="assets/images/OMDYS LOGO - Horizontal - Without ICON.png"
                     alt=""
                     width={'319px'}
                     height={'100px'}
@@ -428,7 +428,7 @@ const Header = () => {
               </p>
               <figure>
                 <img
-                  src="/src/assets/images/desktop-menu-img.jpg"
+                  src="assets/images/desktop-menu-img.jpg"
                   alt="Desktop Menu Image"
                 />
               </figure>

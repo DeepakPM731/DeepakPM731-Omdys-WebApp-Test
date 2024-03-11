@@ -11,7 +11,7 @@ const ActivityFour = () => {
         <section className="banner-style-one">
           <div
             className="parallax"
-            style={{ backgroundImage: 'url(/src/assets/images/pattren-3.png)' }}
+            style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
           />
           <div className="container">
             <div className="row">
@@ -188,7 +188,7 @@ const ActivityFour = () => {
                 <div className="data">
                   <figure>
                     <img
-                      src="/src/assets/svg4/petroleum and petrochemical products (2).svg"
+                      src="assets/svg4/petroleum and petrochemical products (2).svg"
                       alt="Our Project One Image 1"
                     />
                   </figure>
@@ -302,7 +302,7 @@ const ActivityFour = () => {
                 <div className="data">
                   <figure>
                     <img
-                      src="/src/assets/svg4/petroleum and petrochemical products.svg"
+                      src="assets/svg4/petroleum and petrochemical products.svg"
                       alt="Our Project One Image 1"
                     />
                   </figure>
@@ -339,7 +339,7 @@ const ActivityFour = () => {
                 <div className="data">
                   <figure>
                     <img
-                      src="/src/assets/svg/3.svg"
+                      src="assets/svg/3.svg"
                       alt="Our Project One Image 2"
                     />
                   </figure>

@@ -13,7 +13,7 @@ const AboutPage = () => {
         <section className="banner-style-one">
           <div
             className="parallax"
-            style={{ backgroundImage: 'url(/src/assets/images/pattren-3.png)' }}
+            style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
           />
           <div className="container">
             <div className="row">

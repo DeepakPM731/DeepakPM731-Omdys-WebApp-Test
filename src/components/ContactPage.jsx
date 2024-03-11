@@ -505,8 +505,8 @@ const ContactPage = () => {
                       <img
                         className="author"
                         // src="https://via.placeholder.com/110x110"
-                        src="/src/assets/images/828.jpg"
-                        // src="/src/assets/images/profiledef.jpg"
+                        src="assets/images/828.jpg"
+                        // src="assets/images/profiledef.jpg"
                         alt="Bio Image"
                         style={{ zoom: '100%', objectFit: '' }}
                       />
@@ -684,7 +684,7 @@ const ContactPage = () => {
           <div className="heading">
             <figure>
               <img
-                src="/src/assets/images/heading-icon2.png"
+                src="assets/images/heading-icon2.png"
                 alt="Heading Icon"
               />
             </figure>

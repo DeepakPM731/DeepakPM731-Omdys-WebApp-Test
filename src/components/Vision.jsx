@@ -9,12 +9,12 @@ const Vision = () => {
                 <div className="svg-icon d-flex-all">
                   <img
                     className="light-icon"
-                    src="/src/assets/images/icon-1.svg"
+                    src="assets/images/icon-1.svg"
                     alt="Icon"
                   />
                   <img
                     className="dark-icon"
-                    src="/src/assets/images/1-icon.png"
+                    src="assets/images/1-icon.png"
                     alt="Icon"
                   />
                 </div>
@@ -36,12 +36,12 @@ const Vision = () => {
                 <div className="svg-icon d-flex-all">
                   <img
                     className="light-icon"
-                    src="/src/assets/images/icon-2.svg"
+                    src="assets/images/icon-2.svg"
                     alt="Icon"
                   />
                   <img
                     className="dark-icon"
-                    src="/src/assets/images/2-icon.png"
+                    src="assets/images/2-icon.png"
                     alt="Icon"
                   />
                 </div>
@@ -62,12 +62,12 @@ const Vision = () => {
                 <div className="svg-icon d-flex-all">
                   <img
                     className="light-icon"
-                    src="/src/assets/images/icon-3.svg"
+                    src="assets/images/icon-3.svg"
                     alt="Icon"
                   />
                   <img
                     className="dark-icon"
-                    src="/src/assets/images/3-icon.png"
+                    src="assets/images/3-icon.png"
                     alt="Icon"
                   />
                 </div>

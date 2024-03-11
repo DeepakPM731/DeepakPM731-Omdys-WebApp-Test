@@ -5,7 +5,7 @@ const Articles = () => {
         <div className="heading">
           <figure>
             <img
-              src="/src/assets/images/heading-icon2.png"
+              src="assets/images/heading-icon2.png"
               alt="heading-icon"
             />
           </figure>

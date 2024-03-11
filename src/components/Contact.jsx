@@ -43,7 +43,7 @@ const Contact = () => {
                   <figure>
                     <img
                       className="w-auto circle-layer"
-                      src="/src/assets/images/circle-text.png"
+                      src="assets/images/circle-text.png"
                       alt="Circle Text"
                     />
                   </figure>

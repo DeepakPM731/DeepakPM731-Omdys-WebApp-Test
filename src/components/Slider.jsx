@@ -9,7 +9,7 @@ const Slider = () => {
                 style={{ objectFit: 'cover', width: '2769px' }}
                 src="https://s3.ap-south-1.amazonaws.com/omdys.com/Untitled+design.svg"
                 // src="https://res.cloudinary.com/dww9vwyaq/image/upload/v1709195420/OMDYS/xcylq23mdvlonicgtv8g.svg"
-                // src="/src/assets/svg/Untitled design.svg"
+                // src="assets/svg/Untitled design.svg"
                 // src="https://winsfolio.net/html/builty/assets/images/f-slider-one-1.jpg"
                 alt="Slider 1"
               />

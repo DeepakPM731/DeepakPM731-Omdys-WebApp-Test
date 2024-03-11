@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="footer-logo">
                   <a href="/">
                     <img
-                      src="/src/assets/images/OMDYS LOGO - Horizontal.png"
+                      src="assets/images/OMDYS LOGO - Horizontal.png"
                       alt="logoo"
                       // width={'253'}
                       // height={'93'}

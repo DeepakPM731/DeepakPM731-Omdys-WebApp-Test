@@ -10,7 +10,7 @@ const ActivityTwo = () => {
         <section className="banner-style-one">
           <div
             className="parallax"
-            style={{ backgroundImage: 'url(/src/assets/images/pattren-3.png)' }}
+            style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
           />
           <div className="container">
             <div className="row">
@@ -86,7 +86,7 @@ const ActivityTwo = () => {
           <figure style={{ position: 'relative', zIndex: 9 }}>
             <img
               className="w-100"
-              src="/src/assets/svg4/Electronic Components 2.svg"
+              src="assets/svg4/Electronic Components 2.svg"
               height={'500px'}
               width={'538px '}
               // src="https://winsfolio.net/html/builty/assets/images/about-h-i-w.jpg"

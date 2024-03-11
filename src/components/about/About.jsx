@@ -18,7 +18,7 @@ const About = () => {
                 <figure className="about-image">
                   <img
                     // src="https://winsfolio.net/html/builty/assets/images/about-two.png"
-                    src="/src/assets/svg3/Second Page 265x325.svg"
+                    src="assets/svg3/Second Page 265x325.svg"
                     alt="About Two"
                   />
                 </figure>

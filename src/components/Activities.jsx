@@ -49,7 +49,7 @@ const Activities = () => {
           <div className="heading">
             <figure>
               <img
-                src="/src/assets/images/heading-icon2.png"
+                src="assets/images/heading-icon2.png"
                 alt="Heading Icon"
               />
             </figure>
@@ -72,7 +72,7 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="/src/assets/svg4/Printing Solutions.svg"
+                        src="assets/svg4/Printing Solutions.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -83,7 +83,7 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="/src/assets/svg4/Electronic Components 1.svg"
+                        src="assets/svg4/Electronic Components 1.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -114,7 +114,7 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="/src/assets/svg4/industrial construction tools and equipment (3).svg"
+                        src="assets/svg4/industrial construction tools and equipment (3).svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -125,7 +125,7 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="/src/assets/svg4/petroleum and petrochemical products (2).svg"
+                        src="assets/svg4/petroleum and petrochemical products (2).svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -153,7 +153,7 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="/src/assets/svg4/Medical PPE 1.svg"
+                        src="assets/svg4/Medical PPE 1.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -164,7 +164,7 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="/src/assets/svg4/Pulses & Grains.svg"
+                        src="assets/svg4/Pulses & Grains.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
