@@ -950,8 +950,8 @@ textarea {
 }
 @media screen and (max-width: 390px) {
   .header-logo img {
-    width: 240px;
-    height: 59px;
+    width: 250px;
+    height: 61px;
   }
 }
 /* ----------contact page ends*/

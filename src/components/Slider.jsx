@@ -8,9 +8,6 @@ const Slider = () => {
               <img
                 style={{ objectFit: 'cover', width: '2769px' }}
                 src="https://s3.ap-south-1.amazonaws.com/omdys.com/Untitled+design.svg"
-                // src="https://res.cloudinary.com/dww9vwyaq/image/upload/v1709195420/OMDYS/xcylq23mdvlonicgtv8g.svg"
-                // src="assets/svg/Untitled design.svg"
-                // src="https://winsfolio.net/html/builty/assets/images/f-slider-one-1.jpg"
                 alt="Slider 1"
               />
               <div className="f-slider-one-data">
@@ -33,10 +30,9 @@ const Slider = () => {
                 </a>
               </div>
             </div>
-            <div className="f-slider-layer">
+            {/* <div className="f-slider-layer">
               <img
-                // src="https://winsfolio.net/html/builty/assets/images/f-slider-one-1.jpg"
-                src="https://s3.ap-south-1.amazonaws.com/omdys.com/f-slider-one-1.jpg"
+                // src="https://s3.ap-south-1.amazonaws.com/omdys.com/f-slider-one-1.jpg"
                 alt="Project Img"
               />
               <div className="f-slider-one-data">
@@ -54,10 +50,11 @@ const Slider = () => {
                   data-bs-target="#exampleModal1"
                   className="theme-btn"
                 >
-                  Estimate Price <i className="fa-solid fa-angles-right" />
+                  Browse More About Us{' '}
+                  <i className="fa-solid fa-angles-right" />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
