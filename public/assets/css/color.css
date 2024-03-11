@@ -120,7 +120,9 @@ button.scrollTopStick.active,
   /* background-color: #ff000042;no */
 }
 .about-style-one .about-data-left:before {
-  background-color: #ff00009e;
+  /* background-color: #ff00009e; */
+  background-color: #ffee02;
+
 }
 
 /*Border color*/

@@ -1149,7 +1149,7 @@ button.scrollTopStick:hover i {
 .about-style-one .about-data-left:before {
   content: '';
   width: 350px;
-  height: 680px;
+  height: 680px;  
   position: absolute;
   top: 0;
   left: 50%;
