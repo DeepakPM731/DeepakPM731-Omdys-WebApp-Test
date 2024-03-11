@@ -16,7 +16,7 @@ const Header = () => {
                           <figure>
                             <img
                               //   src="/src/assets/images/Builty-Logo.svg"
-                              src="/src/assets/images/OMDYS LOGO - Horizontal.png"
+                              src="/src/assets/images/OMDYS_LOGO_Horizontal.png"
                               //   width={'306'}
                               //   height={'75'}
                               width={'326'}
