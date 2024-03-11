@@ -270,7 +270,7 @@ const Header = () => {
               <div className="res-log">
                 <Link to={'/'}>
                   <img
-                    src="assets/images/OMDYS LOGO - Horizontal.png"
+                    src="assets/images/OMDYS_LOGO_Horizontal.png"
                     width={'253'}
                     height={'93'}
                     alt="Responsive Logo"
