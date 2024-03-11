@@ -256,9 +256,9 @@ const ContactPage = () => {
           position: 'center-right',
           duration: 3000,
           style: {
-            width: '400px', // Adjust the width as needed
-            fontSize: '24px', // Adjust the font size as needed
-            background: 'black', // Adjust the background color for dark theme
+            width: '400px', 
+            fontSize: '24px', 
+            background: 'green',
             color: '#fff',
           },
         });
