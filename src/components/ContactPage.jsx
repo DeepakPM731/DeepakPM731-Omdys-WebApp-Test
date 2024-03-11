@@ -251,7 +251,7 @@ const ContactPage = () => {
         formDatas.append('subject', formData.subject);
         formDatas.append('message', formData.message);
 
-        toast.success('Sent', {
+        toast.success('Thank you for your response, Our sales team will contact you soon!', {
           // position: 'bottom-center',
           position: 'center-right',
           duration: 3000,
