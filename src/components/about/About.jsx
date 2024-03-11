@@ -11,7 +11,7 @@ const About = () => {
                 <figure>
                   <img
                     // src="https://winsfolio.net/html/builty/assets/images/about-one.png"
-                    src="/src/assets/svg2/2.svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/Untitled+design.svg"
                     alt="About One"
                   />
                 </figure>
