@@ -1,8 +1,6 @@
 const About = () => {
-  
   return (
     <>
-
       <section className="gap no-top about-style-one">
         <div className="container">
           <div className="row">
@@ -11,7 +9,7 @@ const About = () => {
                 <figure>
                   <img
                     // src="https://winsfolio.net/html/builty/assets/images/about-one.png"
-                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/Untitled+design.svg"
+                    src="assets/svg2/2.svg"
                     alt="About One"
                   />
                 </figure>
