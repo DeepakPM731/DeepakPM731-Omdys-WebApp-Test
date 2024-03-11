@@ -586,8 +586,8 @@ textarea {
   position: absolute;
   bottom: 0;
   right: 0px;
-  border-top: 76px solid #ff0000f0;
-  /* border-top: 76px solid #ffee02; */
+  /* border-top: 76px solid #ff0000f0; */
+  border-top: 76px solid #ffee02;
   border-left: 0px solid #eee;
   border-right: 30px solid transparent;
   border-bottom: 0px solid #eee;
@@ -905,8 +905,10 @@ textarea {
 }
 
 .dropdown-toggle.active {
-  background: #ff0000f0;
-  border: 1px solid #ff0000f0;
+  background: #ffee02;
+  border: 1px solid #ffee02;
+  /* background: #ff0000f0;
+  border: 1px solid #ff0000f0; */
 }
 
 .dropdown-menu {

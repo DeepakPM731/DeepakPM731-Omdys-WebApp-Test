@@ -3,8 +3,8 @@
 .contact-form-2 .info ul li svg,
 /* .video-play-btn svg , */
 .team-detail .team-data .t-tel .data svg {
-  fill: #ff0000f0;
-  /* fill: #ffee02; */
+  fill: #ffee02;
+  /* fill: #ff0000f0; */
 }
 
 .video-play-btn svg {
@@ -115,12 +115,13 @@ button.scrollTopStick.active,
 .cart .cart-table .c-c .c-data .cr-svg:hover,
 .first .tab-data .map-pin,
 .first .tab-data .map-pin .location {
-  /* background-color: #ffee02; */
-  background-color: #ff0000f0;
+  background-color: #ffee02;
+  /* background-color: #ff0000f0; */
   /* background-color: #ff000042; */
 }
 .about-style-one .about-data-left:before {
-  background-color: #ff00009e;
+  /* background-color: #ff00009e; */
+  background-color: #ffee02;
 }
 
 /*Border color*/
@@ -168,8 +169,8 @@ textarea:focus-visible,
 .featured-slider-one .owl-nav button.owl-next:before,
 .cart .cart-table .c-c .c-data .cr-svg:hover,
 .first .tab-data .map-pin .location {
-  /* border-color: #ffee02; */
-  border-color: #ff0000f0;
+  border-color: #ffee02;
+  /* border-color: #ff0000f0; */
   /* border-color: #33cc33; */
 }
 

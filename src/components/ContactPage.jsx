@@ -683,10 +683,7 @@ const ContactPage = () => {
         <section className="contact-faqs" style={{ marginBottom: '185px' }}>
           <div className="heading">
             <figure>
-              <img
-                src="assets/images/heading-icon2.png"
-                alt="Heading Icon"
-              />
+              <img src="assets/images/heading-icon2.png" alt="Heading Icon" />
             </figure>
             <span style={{ fontSize: '22px' }}>Frequently asked questions</span>
             <h2>Finding Solutions For Your Dream Project</h2>
@@ -737,12 +734,19 @@ const ContactPage = () => {
                   //             }}
 
                   style={{
-                    background: dropdownOpen ? '#ff0000f0' : '',
+                    background: dropdownOpen ? '#ffee02' : '',
                     border: dropdownOpen
-                      ? '1px solid #ff0000f0'
+                      ? '1px solid #ffee02'
                       : '1px solid transparent',
                     fontWeight: 'bold',
                   }}
+                  // style={{
+                  //   background: dropdownOpen ? '#ff0000f0' : '',
+                  //   border: dropdownOpen
+                  //     ? '1px solid #ff0000f0'
+                  //     : '1px solid transparent',
+                  //   fontWeight: 'bold',
+                  // }}
                 >
                   {selectedCategory}
                 </button>
