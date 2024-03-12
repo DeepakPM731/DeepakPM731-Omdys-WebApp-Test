@@ -1714,7 +1714,7 @@ span.counter {
 /* 7. Featured Slider One End */
 
 /* 7. Client Slider One Start*/
-. .client-style-one .client-slider .owl-stage {
+ .client-style-one .client-slider .owl-stage {
   display: flex !important;
   align-items: center !important;
 }

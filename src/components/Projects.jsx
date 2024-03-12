@@ -1,13 +1,11 @@
+import { Link } from 'react-router-dom';
 const Projects = () => {
   return (
     <>
       <section className="gap project-style-one light-bg-color">
         <div className="heading">
           <figure>
-            <img
-              src="assets/images/heading-icon.png"
-              alt="Heading Icon"
-            />
+            <img src="assets/images/heading-icon.png" alt="Heading Icon" />
           </figure>
           <span>Company Projects</span>
           <h2>Our Main Activities</h2>
@@ -25,9 +23,9 @@ const Projects = () => {
                 </figure>
                 <div className="project-data">
                   <h3>
-                    <a href="project-detail.html">
-                      Complete Printing Solutions
-                    </a>
+                    <Link to={'/activity-one'}>
+                      <a href="">Complete Printing Solutions</a>
+                    </Link>
                   </h3>
                   {/* <p>
             This project was successfully completed against an extremely
