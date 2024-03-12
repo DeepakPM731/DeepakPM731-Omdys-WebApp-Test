@@ -6,8 +6,11 @@ const Slider = () => {
           <div className="ro f-slider-one owl-carousel">
             <div className="f-slider-layer">
               <img
-                style={{ objectFit: 'cover', width: '2769px' }}
-                src="https://s3.ap-south-1.amazonaws.com/omdys.com/Untitled+design.svg"
+                // style={{ objectFit: 'cover', width: '2769px' }}
+                style={{ objectFit: 'cover', width: '100%' }}
+                // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Untitled+design.svg"
+                // src="https://s3.ap-south-1.amazonaws.com/omdys.com/f-slider-one-1.jpg"
+                src="https://winsfolio.net/html/builty/assets/images/f-slider-one-1.jpg"
                 alt="Slider 1"
               />
               <div className="f-slider-one-data">
@@ -30,9 +33,9 @@ const Slider = () => {
                 </a>
               </div>
             </div>
-            {/* <div className="f-slider-layer">
+            <div className="f-slider-layer">
               <img
-                // src="https://s3.ap-south-1.amazonaws.com/omdys.com/f-slider-one-1.jpg"
+                src="https://s3.ap-south-1.amazonaws.com/omdys.com/f-slider-one-1.jpg"
                 alt="Project Img"
               />
               <div className="f-slider-one-data">
@@ -54,7 +57,7 @@ const Slider = () => {
                   <i className="fa-solid fa-angles-right" />
                 </a>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>

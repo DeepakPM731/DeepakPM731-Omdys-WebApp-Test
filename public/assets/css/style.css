@@ -450,8 +450,8 @@ button.scrollTopStick.active:before,
   background: transparent;
   border-left: 0 solid transparent;
   border-right: 30px solid transparent;
-  /* border-top: 65px solid #ffee02; */
-  border-top: 65px solid #33cc33;
+  border-top: 65px solid #ffee02;
+  /* border-top: 65px solid #33cc33; */
 }
 .desktop-nav .nav-bar .extras .theme-btn.simple:after {
   display: none;
@@ -2631,8 +2631,8 @@ span.counter {
   top: -2px;
   right: -32px;
   border-right: 28px solid transparent;
-  /* border-top: 60px solid #ffee02; */
-  border-top: 60px solid #33cc33;
+  border-top: 60px solid #ffee02;
+  /* border-top: 60px solid #33cc33; */
 }
 .desktop-nav .nav-bar .extras .theme-btn svg {
   width: 25px;

@@ -1491,8 +1491,8 @@
     margin-right: 0;
   }
   .team-detail .team-data .t-tel .theme-btn:after {
-    /* border-top: 65px solid #ffee02; */
-    border-top: 65px solid #33cc33;
+    border-top: 65px solid #ffee02;
+    /* border-top: 65px solid #33cc33; */
   }
   .cart .cart-table .c-c .c-quality,
   .cart .cart-table .c-c .c-price,
@@ -1789,8 +1789,8 @@
     padding: 15px 60px 15px 35px;
   }
   .theme-btn:after {
-    /* border-top: 59px solid #ffee02; */
-    border-top: 59px solid #33cc33;
+    border-top: 59px solid #ffee02;
+    /* border-top: 59px solid #33cc33; */
   }
   .featured-slider-one .owl-nav {
     position: absolute;

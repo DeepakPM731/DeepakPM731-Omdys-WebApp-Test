@@ -44,7 +44,7 @@ const News = () => {
         <div className="heading">
           <figure>
             <img
-              src="assets/images/heading-icon2.png"
+              src="assets/images/heading-icon.png"
               alt="heading-icon"
             />
           </figure>

@@ -162,7 +162,7 @@ const Header = () => {
                           </li>
                           <li className="menu-item-has-children">
                             <Link to={'/news'}>
-                            <a href="">News</a>
+                              <a href="">News</a>
                             </Link>
                             {/* <ul className="sub-menu">
                               <li>
@@ -190,11 +190,7 @@ const Header = () => {
                               id="theme-icon"
                             />
                           </div> */}
-                          <a
-                            href="javascript:void(0)"
-                            id="mobile-menu"
-                            className="menu-start"
-                          >
+                          <a href="" id="mobile-menu" className="menu-start">
                             <svg id="ham-menu" viewBox="0 0 100 100">
                               <path
                                 className="line line1"
@@ -207,11 +203,7 @@ const Header = () => {
                               />
                             </svg>
                           </a>
-                          <a
-                            href="javascript:void(0)"
-                            id="desktop-menu"
-                            className="menu-start"
-                          >
+                          <a href="" id="desktop-menu" className="menu-start">
                             <svg id="ham-menue" viewBox="0 0 100 100">
                               <path
                                 className="line line1"
@@ -280,7 +272,7 @@ const Header = () => {
               <ul>
                 <li className="menu-item-has-children">
                   <a href="javascript:void(0)">Home</a>
-                  <ul className="sub-menu">
+                  {/* <ul className="sub-menu">
                     <li>
                       <a href="index.html">Home One</a>
                     </li>
@@ -290,10 +282,12 @@ const Header = () => {
                     <li>
                       <a href="index-3.html">Home Three</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li className="menu-item-has-children">
-                  <a href="javascript:void(0)">About</a>
+                  <Link to={'/about'}>
+                    <a href="javascript:void(0)">About</a>
+                  </Link>
                   <ul className="sub-menu">
                     <li>
                       <a href="about.html">About Company</a>

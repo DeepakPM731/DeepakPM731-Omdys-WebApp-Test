@@ -65,15 +65,19 @@ const About = () => {
                     promptly and efficiently. We believe in building long-term
                     relationships with our clients based on trust, transparency,
                     and mutual growth
+                    <br />
+                    <br />
+                    <span style={{ textAlign: 'end', opacity: '0.7' }}>
+                      <h3>- Chairman</h3>
+                      <h4>OMDYS Company</h4>
+                    </span>
                   </p>
-                  <figure>
+                  {/* <figure>
                     <img
                       src="https://winsfolio.net/html/builty/assets/images/signature.png"
                       alt="Signature"
                     />
-                  </figure>
-                  <h3>Chairman</h3>
-                  <h4>OMDYS Company</h4>
+                  </figure> */}
                 </div>
               </div>
             </div>

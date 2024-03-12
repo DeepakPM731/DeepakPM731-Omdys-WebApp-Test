@@ -8,7 +8,9 @@
 }
 
 .video-play-btn svg {
-  fill: #33cc33;
+  fill: #ffee02;
+
+  /* fill: #33cc33; */
 }
 /*Color*/
 .video-play-btn i,
@@ -122,7 +124,6 @@ button.scrollTopStick.active,
 .about-style-one .about-data-left:before {
   /* background-color: #ff00009e; */
   background-color: #ffee02;
-
 }
 
 /*Border color*/
@@ -177,5 +178,6 @@ textarea:focus-visible,
 
 .featured-slider-one .owl-nav button.owl-prev:before,
 .featured-slider-one .owl-nav button.owl-next:before {
-  border-color: #33cc33;
+  border-color: #ffee02;
+  /* border-color: #33cc33; */
 }
