@@ -1,4 +1,32 @@
+import AOS from 'aos';
+import { useEffect } from 'react';
 const Counter = () => {
+  useEffect(() => {
+    AOS.init({
+      // AOS configuration options
+
+      offset: 120,
+      delay: 0,
+      easing: 'ease',
+      duration: 400,
+      disable: false,
+      once: false,
+      mirror: false,
+      anchorPlacement: 'top-bottom',
+      startEvent: 'DOMContentLoaded',
+      animatedClassName: 'aos-animate',
+      initClassName: 'aos-init',
+      useClassNames: false,
+      disableMutationObserver: false,
+      throttleDelay: 99,
+      debounceDelay: 50,
+    });
+
+    // Cleanup AOS when component unmounts
+    return () => {
+      AOS.refreshHard();
+    };
+  }, []);
   return (
     <>
       <section className="gap no-top counter-style-one">

@@ -85,19 +85,17 @@ const Header = () => {
                               </li>
                               <li>
                                 <Link to={'/service-two'}>
-                                  <a href="product-detail.html">
-                                    Product Management
-                                  </a>
+                                  <a href="">Product Management</a>
                                 </Link>
                               </li>
                               <li>
                                 <Link to={'/service-three'}>
-                                  <a href="cart.html">Logistics & Shipping</a>
+                                  <a href="">Logistics & Shipping</a>
                                 </Link>
                               </li>
                               <li>
                                 <Link to={'/service-four'}>
-                                  <a href="checkout.html">Risk Management</a>
+                                  <a href="">Risk Management</a>
                                 </Link>
                               </li>
                             </ul>
@@ -190,7 +188,11 @@ const Header = () => {
                               id="theme-icon"
                             />
                           </div> */}
-                          <a href="" id="mobile-menu" className="menu-start">
+                          <a
+                            href="javascript:void(0)"
+                            id="mobile-menu"
+                            className="menu-start"
+                          >
                             <svg id="ham-menu" viewBox="0 0 100 100">
                               <path
                                 className="line line1"
@@ -203,7 +205,11 @@ const Header = () => {
                               />
                             </svg>
                           </a>
-                          <a href="" id="desktop-menu" className="menu-start">
+                          <a
+                            href="javascript:void(0)"
+                            id="desktop-menu"
+                            className="menu-start"
+                          >
                             <svg id="ham-menue" viewBox="0 0 100 100">
                               <path
                                 className="line line1"
@@ -260,18 +266,20 @@ const Header = () => {
             </div>
             <div className="mobile-nav" id="mobile-nav">
               <div className="res-log">
-                <Link to={'/'}>
-                  <img
-                    src="assets/images/OMDYS_LOGO_Horizontal.png"
-                    width={'253'}
-                    height={'93'}
-                    alt="Responsive Logo"
-                  />
-                </Link>
+                {/* <Link to={''}> */}
+                <img
+                  src="assets/images/OMDYS_LOGO_Horizontal.png"
+                  width={'253'}
+                  height={'93'}
+                  alt="Responsive Logo"
+                />
+                {/* </Link> */}
               </div>
               <ul>
                 <li className="menu-item-has-children">
-                  <a href="javascript:void(0)">Home</a>
+                  <Link to={''}>
+                    <a href="javascript:void(0)">Home</a>
+                  </Link>
                   {/* <ul className="sub-menu">
                     <li>
                       <a href="index.html">Home One</a>
@@ -285,46 +293,38 @@ const Header = () => {
                   </ul> */}
                 </li>
                 <li className="menu-item-has-children">
-                  <Link to={'/about'}>
-                    <a href="javascript:void(0)">About</a>
-                  </Link>
+                  <Link to={'/about'}>About</Link>
                   <ul className="sub-menu">
                     <li>
-                      <a href="about.html">About Company</a>
+                      <Link to={'/about'}>About Company</Link>
                     </li>
                     <li>
-                      <a href="core-values.html">Core Values</a>
+                      <Link to={'/core-values'}>Core Values</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="leadership.html">Leadership</a>
                     </li>
                     <li>
                       <a href="history.html">History</a>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
-                  <a href="JavaScript:void(0)">Shop</a>
+                  <a href="JavaScript:void(0)">Services</a>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <a href="javascript:void(0)">Our Products</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="product-list.html">Product List</a>
-                        </li>
-                        <li>
-                          <a href="product-grid.html">Product Grid</a>
-                        </li>
-                      </ul>
+                      <Link to={'/service-one'}>
+                        Supplier Identification & Sourcing
+                      </Link>
                     </li>
                     <li>
-                      <a href="product-detail.html">Product Details</a>
+                      <Link to={'/service-two'}>Product Management</Link>
                     </li>
                     <li>
-                      <a href="cart.html">Shop Cart</a>
+                      <Link to={'/service-three'}>Logistics & Shipping</Link>
                     </li>
                     <li>
-                      <a href="checkout.html">Cart Checkout</a>
+                      <Link to={'/service-four'}>Risk Management</Link>
                     </li>
                   </ul>
                 </li>
@@ -332,17 +332,19 @@ const Header = () => {
                   <a href="JavaScript:void(0)">Pages</a>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <a href="javascript:void(0)">Services</a>
-                      <ul className="sub-menu">
+                      <Link to={'/activities'}>
+                        Our Main Activities
+                      </Link>
+                      {/* <ul className="sub-menu">
                         <li>
-                          <a href="services.html">what we do</a>
+                          <a href="/team">Team</a>
                         </li>
                         <li>
                           <a href="service-detail.html">Service Detail</a>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
-                    <li className="menu-item-has-children">
+                    {/* <li className="menu-item-has-children">
                       <a href="javascript:void(0)">Projects</a>
                       <ul className="sub-menu">
                         <li>
@@ -355,27 +357,25 @@ const Header = () => {
                           <a href="project-detail.html">Project Detail</a>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     <li className="menu-item-has-children">
-                      <a href="javascript:void(0)">Team</a>
-                      <ul className="sub-menu">
+                      <a href="/team">Team</a>
+                      {/* <ul className="sub-menu">
                         <li>
                           <a href="our-team.html">Our Team</a>
                         </li>
                         <li>
                           <a href="team-detail.html">Team Detail</a>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="login.html">Login &amp; Register</a>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
-                  <Link to={'/news'}>
-                    <a href="">News</a>
-                  </Link>
+                  <Link to={'/news'}>News</Link>
                   {/* <ul className="sub-menu">
                     <li>
                       <a href="our-blog-1.html">Our Blog One</a>
@@ -389,12 +389,10 @@ const Header = () => {
                   </ul> */}
                 </li>
                 <li>
-                  <Link to={'/contact'}>
-                    <a href="contact.html">Contact</a>
-                  </Link>
+                  <Link to={'/contact'}>Contact</Link>
                 </li>
               </ul>
-              <a href="JavaScript:void(0)" id="res-cross" />
+              <a href="" id="res-cross" />
             </div>
             <div className="mobile-nav desktop-menu">
               <h2>

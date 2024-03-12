@@ -77,12 +77,12 @@ const AboutPage = () => {
                   </div>
                   <figure>
                     <img
-                      className=""
-                      // src="https://winsfolio.net/html/builty/assets/images/about-d-1.jpg"
-                      src="assets/svg/1.svg"
+                      className="w-100"
+                      src="https://winsfolio.net/html/builty/assets/images/about-d-1.jpg"
+                      // src="assets/svg/1.svg"
                       alt="About Image One"
                       width={'500px'}
-                      height={'780px'}
+                      // height={'780px'}
                     />
                   </figure>
                 </div>
@@ -137,7 +137,7 @@ const AboutPage = () => {
             <div className="heading">
               <figure>
                 <img
-                  src="src/assets/images/heading-icon.png"
+                  src="assets/images/heading-icon.png"
                   alt="Heading Icon"
                 />
               </figure>

@@ -31,9 +31,11 @@ const Projects = () => {
             This project was successfully completed against an extremely
             tight programme.
           </p> */}
-                  <a className="project-icon" href="#">
-                    <i className="fa-solid fa-angles-right" />
-                  </a>
+                  <Link to={'/activity-one'}>
+                    <a className="project-icon" href="">
+                      <i className="fa-solid fa-angles-right" />
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -47,15 +49,19 @@ const Projects = () => {
                 </figure>
                 <div className="project-data">
                   <h3>
-                    <a href="project-detail.html">Electronics Components</a>
+                    <Link to={'/activity-two'}>
+                      <a href="project-detail.html">Electronics Components</a>
+                    </Link>
                   </h3>
                   {/* <p>
             This project was successfully completed against an extremely
             tight programme.
           </p> */}
-                  <a className="project-icon" href="#">
-                    <i className="fa-solid fa-angles-right" />
-                  </a>
+                  <Link to={'/activity-two'}>
+                    <a className="project-icon" href="#">
+                      <i className="fa-solid fa-angles-right" />
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -70,17 +76,21 @@ const Projects = () => {
                 </figure>
                 <div className="project-data">
                   <h3>
-                    <a href="javascript:void(0)">
-                      Industrial Construction Tools and Equipment
-                    </a>
+                    <Link to={'/activity-three'}>
+                      <a href="javascript:void(0)">
+                        Industrial Construction Tools and Equipment
+                      </a>
+                    </Link>
                   </h3>
                   {/* <p>
             This project was successfully completed against an extremely
             tight programme.
           </p> */}
-                  <a className="project-icon" href="#">
-                    <i className="fa-solid fa-angles-right" />
-                  </a>
+                  <Link to={'/activity-three'}>
+                    <a className="project-icon" href="#">
+                      <i className="fa-solid fa-angles-right" />
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -94,17 +104,21 @@ const Projects = () => {
                 </figure>
                 <div className="project-data">
                   <h3>
-                    <a href="project-detail.html">
-                      Petroleum and Petrochemical Products - Importing
-                    </a>
+                    <Link to={'/activity-four'}>
+                      <a href="project-detail.html">
+                        Petroleum and Petrochemical Products - Importing
+                      </a>
+                    </Link>
                   </h3>
                   {/* <p>
             This project was successfully completed against an extremely
             tight programme.
           </p> */}
-                  <a className="project-icon" href="#">
-                    <i className="fa-solid fa-angles-right" />
-                  </a>
+                  <Link to={'/activity-four'}>
+                    <a className="project-icon" href="#">
+                      <i className="fa-solid fa-angles-right" />
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -118,15 +132,19 @@ const Projects = () => {
                 </figure>
                 <div className="project-data">
                   <h3>
-                    <a href="javascript:void(0)">Medical PPE Products</a>
+                    <Link to={'/activity-five'}>
+                      <a href="javascript:void(0)">Medical PPE Products</a>
+                    </Link>
                   </h3>
                   {/* <p>
             This project was successfully completed against an extremely
             tight programme.
           </p> */}
-                  <a className="project-icon" href="#">
-                    <i className="fa-solid fa-angles-right" />
-                  </a>
+                  <Link to={'/activity-five'}>
+                    <a className="project-icon" href="#">
+                      <i className="fa-solid fa-angles-right" />
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -141,15 +159,19 @@ const Projects = () => {
                 </figure>
                 <div className="project-data">
                   <h3>
-                    <a href="javascript:void(0)">Pulses and Grains</a>
+                    <Link to={'/activity-six'}>
+                      <a href="javascript:void(0)">Pulses and Grains</a>
+                    </Link>
                   </h3>
                   {/* <p>
             This project was successfully completed against an extremely
             tight programme.
           </p> */}
-                  <a className="project-icon" href="#">
-                    <i className="fa-solid fa-angles-right" />
-                  </a>
+                  <Link to={'/activity-six'}>
+                    <a className="project-icon" href="#">
+                      <i className="fa-solid fa-angles-right" />
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
