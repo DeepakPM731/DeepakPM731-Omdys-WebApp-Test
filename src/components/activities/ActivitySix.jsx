@@ -22,8 +22,8 @@ const ActivitySix = () => {
               </div>
             </div>
           </div>
-          <div className="breadcrums">
-            {/* <div className="container">
+          {/* <div className="breadcrums"> */}
+          {/* <div className="container">
               <div className="row">
                 <ul>
                   <li>
@@ -38,7 +38,7 @@ const ActivitySix = () => {
                 </ul>
               </div>
             </div> */}
-          </div>
+          {/* </div> */}
         </section>
       </div>
 

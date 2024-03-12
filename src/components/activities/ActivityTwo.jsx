@@ -22,7 +22,7 @@ const ActivityTwo = () => {
               </div>
             </div>
           </div>
-          <div className="breadcrums">
+          {/* <div className="breadcrums"> */}
             {/* <div className="container">
               <div className="row">
                 <ul>
@@ -38,7 +38,7 @@ const ActivityTwo = () => {
                 </ul>
               </div>
             </div> */}
-          </div>
+          {/* </div> */}
         </section>
       </div>
 

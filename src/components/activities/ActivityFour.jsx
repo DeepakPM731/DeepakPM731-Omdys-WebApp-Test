@@ -23,7 +23,7 @@ const ActivityFour = () => {
               </div>
             </div>
           </div>
-          <div className="breadcrums">
+          {/* <div className="breadcrums"> */}
             {/* <div className="container">
               <div className="row">
                 <ul>
@@ -39,7 +39,7 @@ const ActivityFour = () => {
                 </ul>
               </div>
             </div> */}
-          </div>
+          {/* </div> */}
         </section>
       </div>
 

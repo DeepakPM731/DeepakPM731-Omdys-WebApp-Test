@@ -89,7 +89,7 @@ jQuery(document).ready(function ($) {
       if ($(document).scrollTop() > parent_section_top - 300) {
         if ($(this).data('status') == 'yes') {
           var $this = $(this);
-          var delayTime = 200; // Delay time in milliseconds
+          var delayTime = 100; // Delay time in milliseconds
           // Set initial opacity to 0
           $this.css('opacity', '0');
           setTimeout(function () {
@@ -526,11 +526,13 @@ jQuery(document).ready(function ($) {
       new_scroll_position < last_scroll_position &&
       last_scroll_position > 100
     ) {
-      // header.removeClass('slideDown').addClass('slideUp');
+      // header.removeClass('slideDown').addClass('slideUp'); //not me
 
-      header.classList.remove('slideDown');
+      //   header.classList.remove('slideDown');
+      header.classList.add('slideDown');
 
-      header.classList.add('slideUp');
+      //   header.classList.add('slideUp');
+      header.classList.remove('slideUp');
 
       // Scroll top
     } else if (last_scroll_position < 100) {
