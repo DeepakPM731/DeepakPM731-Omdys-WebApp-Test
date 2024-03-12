@@ -15,7 +15,7 @@ const ActivityFive = () => {
           <div className="container">
             <div className="row">
               <div className="banner-details">
-                <h2 style={{ textAlign: 'center' }}>TRADING OF MEDICAL PPE</h2>
+                <h2 style={{ textAlign: 'center' }}>Trading Of Medical PPE</h2>
                 {/* <p>our values and vaulted us to the top of our industry.</p> */}
               </div>
             </div>

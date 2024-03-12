@@ -109,16 +109,34 @@ const Header = () => {
                                     Our Main Activities
                                   </a>
                                 </Link>
-                                {/* <ul className="sub-menu">
+                                <ul className="sub-menu">
                                   <li>
-                                    <a href="services.html">what we do</a>
+                                    <Link to={'/activity-one'}>
+                                      Printing Solutions
+                                    </Link>
                                   </li>
                                   <li>
-                                    <a href="service-detail.html">
-                                      Service Detail
-                                    </a>
+                                    <Link to={'/activity-two'}>
+                                      Electronics Components
+                                    </Link>
                                   </li>
-                                </ul> */}
+                                  <li>
+                                    <Link to={'/activity-three'}>
+                                      Industrial Construction Tools and
+                                      Equipment
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link to={'/activity-four'}>
+                                      Petroleum and Petrochemical Products
+                                    </Link>
+                                  </li>
+                                  <li>
+                                    <Link to={'/activity-five'}>
+                                      Medical-PPE
+                                    </Link>
+                                  </li>
+                                </ul>
                               </li>
                               {/* <li className="menu-item-has-children">
                                 <a href="javascript:void(0)">Projects</a>
@@ -332,9 +350,7 @@ const Header = () => {
                   <a href="JavaScript:void(0)">Pages</a>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link to={'/activities'}>
-                        Our Main Activities
-                      </Link>
+                      <Link to={'/activities'}>Our Main Activities</Link>
                       {/* <ul className="sub-menu">
                         <li>
                           <a href="/team">Team</a>

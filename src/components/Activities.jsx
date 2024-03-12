@@ -2,9 +2,9 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const Activities = () => {
-   useEffect(() => {
-     window.scrollTo(0, 0);
-   }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       {/* Banner Style One Start */}
@@ -48,10 +48,7 @@ const Activities = () => {
         <section className="gap no-top core-values">
           <div className="heading">
             <figure>
-              <img
-                src="assets/images/heading-icon.png"
-                alt="Heading Icon"
-              />
+              <img src="assets/images/heading-icon.png" alt="Heading Icon" />
             </figure>
             <span>Our Main </span>
             <h2>Activities</h2>
@@ -159,7 +156,7 @@ const Activities = () => {
                     </figure>
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <div className="image">
                     <figure>
                       <img
@@ -178,7 +175,7 @@ const Activities = () => {
                       <Link to={'/activity-six'}>( Read More )</Link>
                     </p>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -189,10 +186,3 @@ const Activities = () => {
 };
 
 export default Activities;
-
-
-
-
-
-
- 

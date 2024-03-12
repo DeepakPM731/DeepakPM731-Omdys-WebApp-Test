@@ -16,7 +16,7 @@ const ActivityTwo = () => {
             <div className="row">
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>
-                  TRADING OF ELECTRONICS COMPONENTS – IMPORTING
+                  Trading Of Electronics Components – Importing
                 </h2>
                 {/* <p>our values and vaulted us to the top of our industry.</p> */}
               </div>
@@ -60,7 +60,7 @@ const ActivityTwo = () => {
                     our clients.
                   </p>
                   <br />
-                  <p>
+                  <p style={{ fontSize: '20px', textAlign: 'center' }}>
                     At OMDYS International LLP, we understand the critical role
                     that electronic components play in today's technology-driven
                     world. Whether you are a small-scale electronics hobbyist or

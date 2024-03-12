@@ -15,7 +15,7 @@ const ActivityOne = () => {
           <div className="container">
             <div className="row">
               <div className="banner-details">
-                <h2>COMPREHENSIVE PRINTING SOLUTIONS</h2>
+                <h2>Comprehensive Printing Solutions</h2>
                 {/* <p>our values and vaulted us to the top of our industry.</p> */}
               </div>
             </div>
@@ -55,7 +55,16 @@ const ActivityOne = () => {
                 <div>
                   {/* <h3>Who We Are?</h3> */}
                   {/* <p style={{ textAlign: 'justify' }}> */}
-                  <p style={{ fontSize: '20px', textAlign: 'center' }}>
+                  <p
+                    className="text-center"
+                    // style={{ fontSize: '20px', textAlign: 'justify' }}
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: '0 auto' /* to center align */,
+                      // maxWidth: '600px' /* optional: adjust as needed */,
+                    }}
+                  >
                     We provide a wide range of printing solutions, customized to
                     meet various printing needs. Our offerings include a supply
                     of high-quality inks, state-of-the-art printing equipment,

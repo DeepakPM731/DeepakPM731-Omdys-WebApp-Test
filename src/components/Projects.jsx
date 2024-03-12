@@ -157,22 +157,19 @@ const Projects = () => {
                     alt="project-img-2"
                   />
                 </figure>
-                <div className="project-data">
+                {/* <div className="project-data">
                   <h3>
                     <Link to={'/activity-six'}>
                       <a href="javascript:void(0)">Pulses and Grains</a>
                     </Link>
                   </h3>
-                  {/* <p>
-            This project was successfully completed against an extremely
-            tight programme.
-          </p> */}
+
                   <Link to={'/activity-six'}>
                     <a className="project-icon" href="#">
                       <i className="fa-solid fa-angles-right" />
                     </a>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
             {/* <div className="col-lg-12">
