@@ -25,9 +25,9 @@ const Activities = () => {
             </div>
           </div>
         </div>
-        <div className="breadcrums">
-          <div className="container">
-            {/* <div className="row">
+        {/* <div className="breadcrums">
+          <div className="container"> */}
+        {/* <div className="row">
               <ul>
                 <li>
                   <a href="/">
@@ -40,8 +40,8 @@ const Activities = () => {
                 </li>
               </ul>
             </div> */}
-          </div>
-        </div>
+        {/* </div>
+        </div> */}
       </section>
       {/* Banner Style One End */}
       <div style={{ marginTop: '20px' }}>

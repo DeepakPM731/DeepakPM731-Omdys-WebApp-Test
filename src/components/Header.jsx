@@ -1,6 +1,64 @@
+// import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+  // useEffect(() => {
+  //   console.log('hoiiii');
+  //   // Event handler for mobile menu toggle
+  //   const handleMobileMenuClick = (event) => {
+  //     const mobileMenu = document.getElementById('mobile-nav');
+  //     const mobileMenuButton = document.getElementById('mobile-menu');
+  //     if (mobileMenu && mobileMenuButton) {
+  //       mobileMenu.classList.toggle('open');
+  //       mobileMenuButton.classList.toggle('open');
+  //     }
+  //   };
+
+  //   // Event handler for desktop menu toggle
+  //   const handleDesktopMenuClick = (event) => {
+  //     const desktopMenu = document.querySelector('.desktop-menu');
+  //     const desktopMenuButton = document.getElementById('desktop-menu');
+  //     if (desktopMenu && desktopMenuButton) {
+  //       desktopMenu.classList.toggle('open');
+  //       desktopMenuButton.classList.toggle('open');
+  //     }
+  //   };
+
+  //   // Event handler for close button
+  //   const handleResCrossClick = (event) => {
+  //     const mobileMenu = document.getElementById('mobile-nav');
+  //     const mobileMenuButton = document.getElementById('mobile-menu');
+  //     if (mobileMenu && mobileMenuButton) {
+  //       mobileMenu.classList.remove('open');
+  //       mobileMenuButton.classList.remove('open');
+  //     }
+  //   };
+
+  //   // Attach event handlers
+  //   document.addEventListener('click', (event) => {
+  //     // Mobile menu toggle
+  //     if (event.target.matches('#mobile-menu')) {
+  //       handleMobileMenuClick(event);
+  //     }
+
+  //     // Desktop menu toggle
+  //     if (event.target.matches('#desktop-menu')) {
+  //       handleDesktopMenuClick(event);
+  //     }
+
+  //     // Close button
+  //     if (event.target.matches('#res-cross')) {
+  //       handleResCrossClick(event);
+  //     }
+  //   });
+
+  //   // Clean up event listeners when the component is unmounted
+  //   return () => {
+  //     document.removeEventListener('click', handleMobileMenuClick);
+  //     document.removeEventListener('click', handleDesktopMenuClick);
+  //     document.removeEventListener('click', handleResCrossClick);
+  //   };
+  // }, []);
   return (
     <>
       <header className="header-style-one">
@@ -210,6 +268,7 @@ const Header = () => {
                             href="javascript:void(0)"
                             id="mobile-menu"
                             className="menu-start"
+                            // onClick={handleMobileMenuClick}
                           >
                             <svg id="ham-menu" viewBox="0 0 100 100">
                               <path
@@ -282,6 +341,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
+
             <div className="mobile-nav" id="mobile-nav">
               <div className="res-log">
                 {/* <Link to={''}> */}

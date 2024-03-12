@@ -380,14 +380,28 @@ jQuery(document).ready(function ($) {
     }
   };
   // // Just add #scrollTop to the footer
-  document.querySelector('#scrollTop').addEventListener('click', function () {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'smooth',
-    });
-  });
+//   document.querySelector('#scrollTop').addEventListener('click', function () {
+//     window.scrollTo({
+//       top: 0,
+//       left: 0,
+//       behavior: 'smooth',
+//     });
+//   });
+// -----------------------------------------
+document.addEventListener('DOMContentLoaded', function () {
+  var scrollTopButton = document.querySelector('#scrollTop');
 
+  if (scrollTopButton) {
+    scrollTopButton.addEventListener('click', function () {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth',
+      });
+    });
+  }
+});
+// -----------------------------------------
   // Contact Us
   $('.contact-us .c-data ul li').click(function () {
     $('.contact-us .c-data a').removeClass('active');
@@ -459,20 +473,37 @@ jQuery(document).ready(function ($) {
     event.stopPropagation();
   });
 
-  $('#mobile-menu').click(function () {
-    $(this).toggleClass('open');
-    $('#mobile-nav').toggleClass('open');
-  });
+//   $('#mobile-menu').click(function () {
+//     $(this).toggleClass('open');
+//     $('#mobile-nav').toggleClass('open');
+//   });
 
-  $('#desktop-menu').click(function () {
-    $(this).toggleClass('open');
-    $('.desktop-menu').toggleClass('open');
-  });
+//   $('#desktop-menu').click(function () {
+//     $(this).toggleClass('open');
+//     $('.desktop-menu').toggleClass('open');
+//   });
 
-  $('#res-cross').click(function () {
-    $('#mobile-nav').removeClass('open');
-    $('#mobile-menu').removeClass('open');
-  });
+//   $('#res-cross').click(function () {
+//     $('#mobile-nav').removeClass('open');
+//     $('#mobile-menu').removeClass('open');
+//   });
+
+// --------------------------------------------
+$(document).on('click', '#mobile-menu', function () {
+  $(this).toggleClass('open');
+  $('#mobile-nav').toggleClass('open');
+});
+
+$(document).on('click', '#desktop-menu', function () {
+  $(this).toggleClass('open');
+  $('.desktop-menu').toggleClass('open');
+});
+
+$(document).on('click', '#res-cross', function () {
+  $('#mobile-nav').removeClass('open');
+  $('#mobile-menu').removeClass('open');
+});
+// --------------------------------------------
 
   // PD Gallery
   $('.li-pd-imgs').on('click', function () {
