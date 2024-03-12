@@ -38,7 +38,7 @@
 -----------------------------------------------------------------------------------*/
 
 jQuery(document).ready(function ($) {
-  'use strict';
+  ('use strict');
 
   // Counter Style One
   /* if ($(".counter")[0]){
@@ -50,13 +50,52 @@ jQuery(document).ready(function ($) {
 */
 
   // COUNTER
+  //   -----oG start----
+  //   $(document).scroll(function () {
+  //     $('.odometer').each(function () {
+  //       var parent_section_postion = $(this).closest('section').position();
+  //       var parent_section_top = parent_section_postion.top;
+  //       if ($(document).scrollTop() > parent_section_top - 300) {
+  //         if ($(this).data('status') == 'yes') {
+  //           $(this).html($(this).data('count'));
+  //           $(this).data('status', 'no');
+  //         }
+  //       }
+  //     });
+  //   });
+  //   -----oG ends----
+  // $(document).scroll(function () {
+  //     $('.odometer').each(function () {
+  //         var parent_section_postion = $(this).closest('section').position();
+  //         var parent_section_top = parent_section_postion.top;
+  //         if ($(document).scrollTop() > parent_section_top - 300) {
+  //             if ($(this).data('status') == 'yes') {
+  //                 var $this = $(this);
+  //                 // Adjust the delay time in milliseconds (e.g., 500 for half a second)
+  //                 var delayTime = 500;
+  //                 setTimeout(function () {
+  //                     $this.html($this.data('count'));
+  //                 }, delayTime);
+  //                 $(this).data('status', 'no');
+  //             }
+  //         }
+  //     });
+  // });
+
   $(document).scroll(function () {
     $('.odometer').each(function () {
-      var parent_section_postion = $(this).closest('section').position();
-      var parent_section_top = parent_section_postion.top;
+      var parent_section_position = $(this).closest('section').position();
+      var parent_section_top = parent_section_position.top;
       if ($(document).scrollTop() > parent_section_top - 300) {
         if ($(this).data('status') == 'yes') {
-          $(this).html($(this).data('count'));
+          var $this = $(this);
+          var delayTime = 200; // Delay time in milliseconds
+          // Set initial opacity to 0
+          $this.css('opacity', '0');
+          setTimeout(function () {
+            // Fade in with animation
+            $this.html($this.data('count')).animate({ opacity: 1 }, 'slow');
+          }, delayTime);
           $(this).data('status', 'no');
         }
       }

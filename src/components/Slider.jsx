@@ -11,8 +11,8 @@ const Slider = () => {
                 // style={{ objectFit: 'cover', width: '1900px' }}
                 // style={{ objectFit: 'cover', width: '100%' }}
                 // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Untitled+design.svg"
-                // src="https://s3.ap-south-1.amazonaws.com/omdys.com/f-slider-one-1.jpg"
-                src="assets/svg/6.svg"
+                src="https://s3.ap-south-1.amazonaws.com/omdys.com/f-slider-one-1.jpg"
+                // src="assets/svg/6.svg"
                 alt="Slider 1"
               />
               <div className="f-slider-one-data">
