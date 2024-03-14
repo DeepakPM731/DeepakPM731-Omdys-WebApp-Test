@@ -355,9 +355,10 @@ const Header = () => {
               </div>
               <ul>
                 <li className="menu-item-has-children">
-                  <Link to={''}>
-                    <a href="javascript:void(0)">Home</a>
-                  </Link>
+                  <a href="/" style={{ color: 'white' }}>
+                    Home
+                  </a>
+
                   {/* <ul className="sub-menu">
                     <li>
                       <a href="index.html">Home One</a>
@@ -371,7 +372,11 @@ const Header = () => {
                   </ul> */}
                 </li>
                 <li className="menu-item-has-children">
-                  <Link to={'/about'}>About</Link>
+                  <Link to={'/about'}>
+                    <a href="javascript:void(0)" style={{ color: 'white' }}>
+                      About
+                    </a>
+                  </Link>
                   <ul className="sub-menu">
                     <li>
                       <Link to={'/about'}>About Company</Link>
@@ -435,7 +440,7 @@ const Header = () => {
                       </ul>
                     </li> */}
                     <li className="menu-item-has-children">
-                      <a href="/team">Team</a>
+                      <Link to={'/team'}>Team</Link>
                       {/* <ul className="sub-menu">
                         <li>
                           <a href="our-team.html">Our Team</a>

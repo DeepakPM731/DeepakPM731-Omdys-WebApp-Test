@@ -58,7 +58,9 @@ const ServiceFour = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="data">
+              <div className="data" style={{ marginTop: '-150px' }}>
+                {' '}
+                {/* <div className="data"> */}
                 <h2>Risk Management</h2>
                 <ul>
                   <li>

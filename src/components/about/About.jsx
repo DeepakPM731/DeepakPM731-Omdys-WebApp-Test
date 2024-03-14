@@ -68,8 +68,9 @@ const About = () => {
                     <br />
                     <br />
                     <span style={{ textAlign: 'end', opacity: '0.7' }}>
-                      <h3>- Chairman</h3>
-                      <h4>OMDYS Company</h4>
+                      <h4>- Chairman</h4>
+                      {/* <h4>OMDYS </h4> */}
+                      <h4>OMDYS Group of Companies </h4>
                     </span>
                   </p>
                   {/* <figure>

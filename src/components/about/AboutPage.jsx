@@ -9,7 +9,8 @@ const AboutPage = () => {
   }, []);
   return (
     <>
-      <div style={{ marginBottom: '100px' }}>
+      <div >
+      {/* <div style={{ marginBottom: '100px' }}> */}
         <section className="banner-style-one">
           <div
             className="parallax"
