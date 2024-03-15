@@ -468,10 +468,10 @@ jQuery(document).ready(function ($) {
     $(this).addClass('active');
   });
 
-  $('.mobile-nav .menu-item-has-children').on('click', function (event) {
-    $(this).toggleClass('active');
-    event.stopPropagation();
-  });
+  // $('.mobile-nav .menu-item-has-children').on('click', function (event) {
+  //   $(this).toggleClass('active');
+  //   event.stopPropagation();
+  // });
 
   //   $('#mobile-menu').click(function () {
   //     $(this).toggleClass('open');
@@ -488,22 +488,41 @@ jQuery(document).ready(function ($) {
   //     $('#mobile-menu').removeClass('open');
   //   });
 
+  // -------------1st norm try-------------------------------
+  // $(document).on('click', '#mobile-menu', function () {
+  //   $(this).toggleClass('open');
+  //   $('#mobile-nav').toggleClass('open');
+  // });
+
+  // $(document).on('click', '#desktop-menu', function () {
+  //   $(this).toggleClass('open');
+  //   $('.desktop-menu').toggleClass('open');
+  // });
+
+  // $(document).on('click', '#res-cross', function () {
+  //   $('#mobile-nav').removeClass('open');
+  //   $('#mobile-menu').removeClass('open');
+  // });
   // --------------------------------------------
-  $(document).on('click', '#mobile-menu', function () {
+  // -----------------2nd norm try---------------------------
+  // Handle mobile menu toggle
+  $(document).on('click touchstart', '#mobile-menu', function () {
     $(this).toggleClass('open');
     $('#mobile-nav').toggleClass('open');
   });
 
-  $(document).on('click', '#desktop-menu', function () {
+  // Handle desktop menu toggle
+  $(document).on('click touchstart', '#desktop-menu', function () {
     $(this).toggleClass('open');
     $('.desktop-menu').toggleClass('open');
   });
 
-  $(document).on('click', '#res-cross', function () {
+  // Handle closing mobile menu
+  $(document).on('click touchstart', '#res-cross', function () {
     $('#mobile-nav').removeClass('open');
     $('#mobile-menu').removeClass('open');
   });
-  // --------------------------------------------
+  // -------------------------------------------------------
 
   // PD Gallery
   $('.li-pd-imgs').on('click', function () {
