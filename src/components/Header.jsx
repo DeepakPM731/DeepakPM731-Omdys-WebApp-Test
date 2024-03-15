@@ -347,8 +347,8 @@ const Header = () => {
                 {/* <Link to={''}> */}
                 <img
                   src="assets/images/OMDYS_LOGO_Horizontal.png"
-                  width={'253'}
-                  height={'93'}
+                  width={'230'}
+                  height={'85'}
                   alt="Responsive Logo"
                 />
                 {/* </Link> */}
@@ -372,14 +372,17 @@ const Header = () => {
                   </ul> */}
                 </li>
                 <li className="menu-item-has-children">
-                  <Link to={'/about'}>
-                    <a href="javascript:void(0)" style={{ color: 'white' }}>
-                      About
-                    </a>
-                  </Link>
+                  {/* <Link to={'/about'}> */}
+                  <a href="javascript:void(0)" style={{ color: 'white' }}>
+                    About
+                  </a>
+                  {/* </Link>  */}
                   <ul className="sub-menu">
                     <li>
-                      <Link to={'/about'}>About Company</Link>
+                      <Link to={'/about'}>
+                        {' '}
+                        <a href="">About Company </a>
+                      </Link>
                     </li>
                     <li>
                       <Link to={'/core-values'}>Core Values</Link>
@@ -473,7 +476,7 @@ const Header = () => {
                   <Link to={'/contact'}>Contact</Link>
                 </li>
               </ul>
-              <a href="" id="res-cross" />
+              <a href="javascript:void(0)" id="res-cross" />
             </div>
             <div className="mobile-nav desktop-menu">
               <h2>

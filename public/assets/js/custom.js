@@ -506,19 +506,19 @@ jQuery(document).ready(function ($) {
   // --------------------------------------------
   // -----------------2nd norm try---------------------------
   // Handle mobile menu toggle
-  $(document).on('click touchstart', '#mobile-menu', function () {
+  $(document).on('click ', '#mobile-menu', function () {
     $(this).toggleClass('open');
     $('#mobile-nav').toggleClass('open');
   });
 
   // Handle desktop menu toggle
-  $(document).on('click touchstart', '#desktop-menu', function () {
+  $(document).on('click ', '#desktop-menu', function () {
     $(this).toggleClass('open');
     $('.desktop-menu').toggleClass('open');
   });
 
   // Handle closing mobile menu
-  $(document).on('click touchstart', '#res-cross', function () {
+  $(document).on('click ', '#res-cross', function () {
     $('#mobile-nav').removeClass('open');
     $('#mobile-menu').removeClass('open');
   });

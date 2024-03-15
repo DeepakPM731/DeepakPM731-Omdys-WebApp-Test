@@ -942,16 +942,24 @@ textarea {
   }
 }
 /* header */
+@media screen and (max-width: 570px) {
+  .header-logo img {
+    width: 250px;
+    height: 92px;
+  }
+}
 @media screen and (max-width: 420px) {
   .header-logo img {
-    width: 280px;
-    height: 69px;
+    width: 250px;
+    height: 92px;
   }
 }
 @media screen and (max-width: 390px) {
   .header-logo img {
-    width: 250px;
-    height: 61px;
+    /* width: 250px; */
+    /* height: 61px; */
+    width: 230px;
+    height: 85px;
   }
 }
 /* ----------contact page ends*/
