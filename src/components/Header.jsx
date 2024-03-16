@@ -380,13 +380,18 @@ const Header = () => {
                   <ul className="sub-menu">
                     <li>
                       <Link to={'/about'}>
-                        <a href="/about">About Company </a>
+                        <a href="/about" style={{ color: 'white' }}>
+                          About Company{' '}
+                        </a>
                       </Link>
                     </li>
                     <li>
                       <Link to={'/core-values'}>
                         {' '}
-                        <a href="/core-values"> Core Values</a>
+                        <a href="/core-values" style={{ color: 'white' }}>
+                          {' '}
+                          Core Values
+                        </a>
                       </Link>
                     </li>
                     {/* <li>
@@ -402,24 +407,30 @@ const Header = () => {
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
                       <Link to={'/service-one'}>
-                        <a href="/service-one">
+                        <a href="/service-one" style={{ color: 'white' }}>
                           Supplier Identification & Sourcing
                         </a>
                       </Link>
                     </li>
                     <li>
                       <Link to={'/service-two'}>
-                        <a href="/service-two">Product Management</a>
+                        <a href="/service-two" style={{ color: 'white' }}>
+                          Product Management
+                        </a>
                       </Link>
                     </li>
                     <li>
                       <Link to={'/service-three'}>
-                        <a href="/service-three">Logistics & Shipping</a>
+                        <a href="/service-three" style={{ color: 'white' }}>
+                          Logistics & Shipping
+                        </a>
                       </Link>
                     </li>
                     <li>
                       <Link to={'/service-four'}>
-                        <a href="/service-four">Risk Management</a>
+                        <a href="/service-four" style={{ color: 'white' }}>
+                          Risk Management
+                        </a>
                       </Link>
                     </li>
                   </ul>
@@ -429,7 +440,9 @@ const Header = () => {
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
                       <Link to={'/activities'}>
-                        <a href="/activities">Our Main Activities</a>
+                        <a href="/activities" style={{ color: 'white' }}>
+                          Our Main Activities
+                        </a>
                       </Link>
                       {/* <ul className="sub-menu">
                         <li>
@@ -456,7 +469,9 @@ const Header = () => {
                     </li> */}
                     <li className="menu-item-has-children">
                       <Link to={'/team'}>
-                        <a href="/team">Team</a>
+                        <a href="/team" style={{ color: 'white' }}>
+                          Team
+                        </a>
                       </Link>
                       {/* <ul className="sub-menu">
                         <li>
@@ -474,7 +489,9 @@ const Header = () => {
                 </li>
                 <li className="menu-item-has-children">
                   <Link to={'/news'}>
-                    <a href="/news">News</a>
+                    <a href="/news" style={{ color: 'white' }}>
+                      News
+                    </a>
                   </Link>
                   {/* <ul className="sub-menu">
                     <li>
@@ -489,7 +506,11 @@ const Header = () => {
                   </ul> */}
                 </li>
                 <li>
-                  <Link to={'/contact'}>Contact</Link>
+                  <Link to={'/contact'}>
+                    <a href="/contact" style={{ color: 'white' }}>
+                      Contact
+                    </a>
+                  </Link>
                 </li>
               </ul>
               <a href="javascript:void(0)" id="res-cross" />
