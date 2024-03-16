@@ -198,6 +198,23 @@ jQuery(document).ready(function ($) {
       mouseDrag: false,
     });
   }
+  // if ($('.f-slider-one')[0]) {
+  //   $('.f-slider-one.owl-carousel').owlCarousel({
+  //     items: 1,
+  //     loop: false,
+  //     margin: 0,
+  //     stagePadding: 0,
+  //     nav: true,
+  //     navText: [
+  //       "<button><i class='fa-solid fa-angles-left'></i></button>",
+  //       "<button><i class='fa-solid fa-angles-right'></i></button>",
+  //     ],
+  //     dots: false,
+  //     animateOut: 'fadeOut',
+  //     touchDrag: false,
+  //     mouseDrag: false,
+  //   });
+  // }
 
   // Client Slider
   if ($('.client-slider')[0]) {
@@ -337,22 +354,22 @@ jQuery(document).ready(function ($) {
   }
 
   // Featured Slider Two
-  // if ($('.f-2-slider')[0]) {
-  //   $('.f-2-slider.owl-carousel').owlCarousel({
-  //     items: 1,
-  //     loop: true,
-  //     nav: true,
-  //     navText: [
-  //       "<i class='fa-solid fa-arrow-left'></i>",
-  //       "<i class='fa-solid fa-arrow-right'></i>",
-  //     ],
-  //     dots: false,
-  //     touchDrag: false,
-  //     mouseDrag: false,
-  //     margin: 10,
-  //     navContainer: '.f-2-s-nav',
-  //   });
-  // }
+  if ($('.f-2-slider')[0]) {
+    $('.f-2-slider.owl-carousel').owlCarousel({
+      items: 1,
+      loop: true,
+      nav: true,
+      navText: [
+        "<i class='fa-solid fa-arrow-left'></i>",
+        "<i class='fa-solid fa-arrow-right'></i>",
+      ],
+      dots: false,
+      touchDrag: false,
+      mouseDrag: false,
+      margin: 10,
+      navContainer: '.f-2-s-nav',
+    });
+  }
 
   // Project Detail Slider
   if ($('.p-d-slider')[0]) {
