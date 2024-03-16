@@ -363,22 +363,52 @@ jQuery(document).ready(function ($) {
   }
 
   // Scroll Top  +  Timeline
-  window.onscroll = function () {
-    var num = window.pageYOffset;
-    $('#timeline').waypoint(
-      function () {
-        $('.fill').css('height', num);
-      },
-      {
-        offset: '100%',
+  // --------------og start----------------------
+  // window.onscroll = function () {
+  //   var num = window.pageYOffset;
+  //   $('#timeline').waypoint(
+  //     function () {
+  //       $('.fill').css('height', num);
+  //     },
+  //     {
+  //       offset: '100%',
+  //     }
+  //   );
+  //   if (num >= 160) {
+  //     document.querySelector('#scrollTop').classList.add('active');
+  //   } else {
+  //     document.querySelector('#scrollTop').classList.remove('active');
+  //   }
+  // };
+  // --------------------og end -------------------
+  // -------------------try1--------------------------
+  $(document).ready(function () {
+    // Scroll to top when #scrollTop element is clicked
+    $('#scrollTop').on('click', function () {
+      $('html, body').animate({ scrollTop: 0 }, 'medium');
+    });
+
+    // Handle scrolling events
+    window.onscroll = function () {
+      var num = window.pageYOffset;
+      $('#timeline').waypoint(
+        function () {
+          $('.fill').css('height', num);
+        },
+        {
+          offset: '100%',
+        }
+      );
+      if (num >= 160) {
+        $('#scrollTop').addClass('active');
+      } else {
+        $('#scrollTop').removeClass('active');
       }
-    );
-    if (num >= 160) {
-      document.querySelector('#scrollTop').classList.add('active');
-    } else {
-      document.querySelector('#scrollTop').classList.remove('active');
-    }
-  };
+    };
+  });
+
+  // -------------------try1--------------------------
+
   // // Just add #scrollTop to the footer
   //   document.querySelector('#scrollTop').addEventListener('click', function () {
   //     window.scrollTo({
@@ -532,7 +562,6 @@ jQuery(document).ready(function ($) {
   });
   // -------------------------------------------------------
 
-  
   // ------------------------------sub=menu--------------------------
   // PD Gallery
   $('.li-pd-imgs').on('click', function () {
@@ -605,38 +634,38 @@ jQuery(document).ready(function ($) {
 
     new_scroll_position = last_scroll_position;
   });
-});
 
-// theme-icon/moon
-// let lightmode = localStorage.getItem('light-d');
-//     const lightmodeToggle = document.querySelector('#theme-icon');
-//     const enableLightMode = () => {
-//         document.body.classList.add('light-d');
-//         localStorage.setItem('light-d', 'enabled');
-//         lightmodeToggle.src = 'assets/images/moon.png';
-//     }
+  // theme-icon/moon
+  // let lightmode = localStorage.getItem('light-d');
+  //     const lightmodeToggle = document.querySelector('#theme-icon');
+  //     const enableLightMode = () => {
+  //         document.body.classList.add('light-d');
+  //         localStorage.setItem('light-d', 'enabled');
+  //         lightmodeToggle.src = 'assets/images/moon.png';
+  //     }
 
-//     const disablelightmode = () => {
-//         document.body.classList.remove('light-d');
-//         localStorage.setItem('light-d', null);
-//         lightmodeToggle.src = 'assets/images/sun.png';
-//     }
+  //     const disablelightmode = () => {
+  //         document.body.classList.remove('light-d');
+  //         localStorage.setItem('light-d', null);
+  //         lightmodeToggle.src = 'assets/images/sun.png';
+  //     }
 
-//     if (lightmode === 'enabled') {
-//         enableLightMode();
-//     }
+  //     if (lightmode === 'enabled') {
+  //         enableLightMode();
+  //     }
 
-//     lightmodeToggle.addEventListener('click', () => {
-//         lightmode = localStorage.getItem('light-d');
+  //     lightmodeToggle.addEventListener('click', () => {
+  //         lightmode = localStorage.getItem('light-d');
 
-//         if (lightmode !== 'enabled') {
-//             enableLightMode();
-//         } else {
-//             disablelightmode();
-//         }
-//     });
+  //         if (lightmode !== 'enabled') {
+  //             enableLightMode();
+  //         } else {
+  //             disablelightmode();
+  //         }
+  //     });
 
-// Preloader
-$(window).on('load', function () {
-  $('body').addClass('page-loaded');
+  // Preloader
+  $(window).on('load', function () {
+    $('body').addClass('page-loaded');
+  });
 });
