@@ -379,10 +379,9 @@ const Header = () => {
                   {/* </Link>  */}
                   <ul className="sub-menu">
                     <li>
-                      <Link to={'/about'}>
-                        {' '}
-                        <a href="">About Company </a>
-                      </Link>
+                      {/* <Link to={'/about'}> */}{' '}
+                      <a href="javascript:void(0)">About Company </a>
+                      {/* </Link> */}
                     </li>
                     <li>
                       <Link to={'/core-values'}>Core Values</Link>

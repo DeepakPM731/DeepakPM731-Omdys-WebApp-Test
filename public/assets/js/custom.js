@@ -468,25 +468,25 @@ jQuery(document).ready(function ($) {
     $(this).addClass('active');
   });
 
-  // $('.mobile-nav .menu-item-has-children').on('click', function (event) {
-  //   $(this).toggleClass('active');
-  //   event.stopPropagation();
-  // });
+  $('.mobile-nav .menu-item-has-children').on('click', function (event) {
+    $(this).toggleClass('active');
+    event.stopPropagation();
+  });
 
-  //   $('#mobile-menu').click(function () {
-  //     $(this).toggleClass('open');
-  //     $('#mobile-nav').toggleClass('open');
-  //   });
+    $('#mobile-menu').click(function () {
+      $(this).toggleClass('open');
+      $('#mobile-nav').toggleClass('open');
+    });
 
-  //   $('#desktop-menu').click(function () {
-  //     $(this).toggleClass('open');
-  //     $('.desktop-menu').toggleClass('open');
-  //   });
+    $('#desktop-menu').click(function () {
+      $(this).toggleClass('open');
+      $('.desktop-menu').toggleClass('open');
+    });
 
-  //   $('#res-cross').click(function () {
-  //     $('#mobile-nav').removeClass('open');
-  //     $('#mobile-menu').removeClass('open');
-  //   });
+    $('#res-cross').click(function () {
+      $('#mobile-nav').removeClass('open');
+      $('#mobile-menu').removeClass('open');
+    });
 
   // -------------1st norm try-------------------------------
   // $(document).on('click', '#mobile-menu', function () {
@@ -506,24 +506,24 @@ jQuery(document).ready(function ($) {
   // --------------------------------------------
   // -----------------2nd norm try---------------------------
   // Handle mobile menu toggle
-  $(document).on('click ', '#mobile-menu', function () {
-    $(this).toggleClass('open');
-    $('#mobile-nav').toggleClass('open');
-  });
+  // $(document).on('click ', '#mobile-menu', function () {
+  //   $(this).toggleClass('open');
+  //   $('#mobile-nav').toggleClass('open');
+  // });
 
-  // Handle desktop menu toggle
-  $(document).on('click ', '#desktop-menu', function () {
-    $(this).toggleClass('open');
-    $('.desktop-menu').toggleClass('open');
-  });
+  // // Handle desktop menu toggle
+  // $(document).on('click ', '#desktop-menu', function () {
+  //   $(this).toggleClass('open');
+  //   $('.desktop-menu').toggleClass('open');
+  // });
 
-  // Handle closing mobile menu
-  $(document).on('click ', '#res-cross', function () {
-    $('#mobile-nav').removeClass('open');
-    $('#mobile-menu').removeClass('open');
-  });
+  // // Handle closing mobile menu
+  // $(document).on('click ', '#res-cross', function () {
+  //   $('#mobile-nav').removeClass('open');
+  //   $('#mobile-menu').removeClass('open');
+  // });
   // -------------------------------------------------------
-
+  // ------------------------------sub=menu--------------------------
   // PD Gallery
   $('.li-pd-imgs').on('click', function () {
     var img_src = '';
