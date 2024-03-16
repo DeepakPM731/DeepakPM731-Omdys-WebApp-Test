@@ -86,7 +86,8 @@ const Header = () => {
                       </div>
                       <div className="nav-bar">
                         <ul>
-                          <li className="menu-item-has-children">
+                          <li className="">
+                            {/* <li className="menu-item-has-children"> */}
                             <a href="/">Home</a>
                             {/* <ul className="sub-menu">
                               <li>
@@ -234,7 +235,8 @@ const Header = () => {
                               </li> */}
                             </ul>
                           </li>
-                          <li className="menu-item-has-children">
+                          {/* <li className="menu-item-has-children"> */}
+                          <li className="">
                             <Link to={'/news'}>
                               <a href="">News</a>
                             </Link>

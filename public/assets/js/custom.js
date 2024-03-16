@@ -337,22 +337,22 @@ jQuery(document).ready(function ($) {
   }
 
   // Featured Slider Two
-  if ($('.f-2-slider')[0]) {
-    $('.f-2-slider.owl-carousel').owlCarousel({
-      items: 1,
-      loop: true,
-      nav: true,
-      navText: [
-        "<i class='fa-solid fa-arrow-left'></i>",
-        "<i class='fa-solid fa-arrow-right'></i>",
-      ],
-      dots: false,
-      touchDrag: false,
-      mouseDrag: false,
-      margin: 10,
-      navContainer: '.f-2-s-nav',
-    });
-  }
+  // if ($('.f-2-slider')[0]) {
+  //   $('.f-2-slider.owl-carousel').owlCarousel({
+  //     items: 1,
+  //     loop: true,
+  //     nav: true,
+  //     navText: [
+  //       "<i class='fa-solid fa-arrow-left'></i>",
+  //       "<i class='fa-solid fa-arrow-right'></i>",
+  //     ],
+  //     dots: false,
+  //     touchDrag: false,
+  //     mouseDrag: false,
+  //     margin: 10,
+  //     navContainer: '.f-2-s-nav',
+  //   });
+  // }
 
   // Project Detail Slider
   if ($('.p-d-slider')[0]) {

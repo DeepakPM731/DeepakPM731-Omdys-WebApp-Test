@@ -2,10 +2,10 @@ const Slider = () => {
   return (
     <>
       <section className="featured-slider-one" style={{ background: 'grey' }}>
-        <h1>Test</h1>
+        {/* <h1>Test</h1>  */}
         <div className="containe">
           <div className="ro f-slider-one owl-carousel">
-            <h1>Test 2</h1>
+            {/* <h1>Test 2</h1> */}
             <div className="f-slider-layer">
               {/* <h1>test 3</h1> */}
               <img
