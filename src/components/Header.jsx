@@ -356,7 +356,8 @@ const Header = () => {
                 {/* </Link> */}
               </div>
               <ul>
-                <li className="menu-item-has-children">
+                <li>
+                  {/* <li className="menu-item-has-children"> */}
                   <a href="/" style={{ color: 'white' }}>
                     Home
                   </a>
@@ -406,7 +407,7 @@ const Header = () => {
                 <li className="menu-item-has-children">
                   <a href="JavaScript:void(0)">Services</a>
                   <ul className="sub-menu">
-                    <li className="menu-item-has-children">
+                    <li className="">
                       {/* <Link to={'/service-one'}> */}
                       <a href="/service-one" style={{ color: 'white' }}>
                         Supplier Identification & Sourcing
@@ -439,7 +440,7 @@ const Header = () => {
                 <li className="menu-item-has-children">
                   <a href="JavaScript:void(0)">Pages</a>
                   <ul className="sub-menu">
-                    <li className="menu-item-has-children">
+                    <li className="">
                       {/* <Link to={'/activities'}> */}
                       <a href="/activities" style={{ color: 'white' }}>
                         Our Main Activities
@@ -468,7 +469,7 @@ const Header = () => {
                         </li>
                       </ul>
                     </li> */}
-                    <li className="menu-item-has-children">
+                    <li className="">
                       {/* <Link to={'/team'}> */}
                       <a href="/team" style={{ color: 'white' }}>
                         Team
@@ -488,7 +489,7 @@ const Header = () => {
                     </li> */}
                   </ul>
                 </li>
-                <li className="menu-item-has-children">
+                <li>
                   {/* <Link to={'/news'}> */}
                   <a href="/news" style={{ color: 'white' }}>
                     News

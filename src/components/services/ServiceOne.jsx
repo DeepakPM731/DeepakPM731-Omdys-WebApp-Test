@@ -23,8 +23,8 @@ const ServiceOne = () => {
               </div>
             </div>
           </div>
-          <div className="breadcrums">
-            {/* <div className="container">
+          {/* <div className="breadcrums"> */}
+          {/* <div className="container">
               <div className="row">
                 <ul>
                   <li>
@@ -39,7 +39,7 @@ const ServiceOne = () => {
                 </ul>
               </div>
             </div> */}
-          </div>
+          {/* </div> */}
         </section>
       </div>
       {/* service starts */}
@@ -59,7 +59,7 @@ const ServiceOne = () => {
             </div>
             <div className="col-lg-6">
               <div className="data" style={{ marginTop: '-150px' }}>
-              {/* <div className="data"> */}
+                {/* <div className="data"> */}
                 <h2>Supplier Identification & Sourcing</h2>
                 <ul>
                   <li>
