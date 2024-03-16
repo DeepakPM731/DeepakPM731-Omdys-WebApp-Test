@@ -505,49 +505,53 @@ jQuery(document).ready(function ($) {
   // });
   // --------------------------------------------
   // -----------------2nd norm try---------------------------
-  // Handle mobile menu toggle
-  // $(document).on('click ', '#mobile-menu', function () {
-  //   $(this).toggleClass('open');
-  //   $('#mobile-nav').toggleClass('open');
-  // });
-
-  // // Handle desktop menu toggle
-  // $(document).on('click ', '#desktop-menu', function () {
-  //   $(this).toggleClass('open');
-  //   $('.desktop-menu').toggleClass('open');
-  // });
-
-  // // Handle closing mobile menu
-  // $(document).on('click ', '#res-cross', function () {
-  //   $('#mobile-nav').removeClass('open');
-  //   $('#mobile-menu').removeClass('open');
-  // });
-  // -------------------------------------------------------
-
-  // -------------------------3rd -----------------------------
-  // Using 'on' method to bind event listeners for mobile-nav menu items
   $('.mobile-nav .menu-item-has-children').on('click', function (event) {
     $(this).toggleClass('active');
     event.stopPropagation();
   });
-
-  // Using 'on' method to bind event listener for mobile-menu click
-  $('#mobile-menu').on('click', function () {
+  // Handle mobile menu toggle
+  $(document).on('click ', '#mobile-menu ', function () {
     $(this).toggleClass('open');
     $('#mobile-nav').toggleClass('open');
   });
 
-  // Using 'on' method to bind event listener for desktop-menu click
-  $('#desktop-menu').on('click', function () {
+  // Handle desktop menu toggle
+  $(document).on('click ', '#desktop-menu', function () {
     $(this).toggleClass('open');
     $('.desktop-menu').toggleClass('open');
   });
 
-  // Using 'on' method to bind event listener for res-cross click
-  $('#res-cross').on('click', function () {
+  // Handle closing mobile menu
+  $(document).on('click ', '#res-cross', function () {
     $('#mobile-nav').removeClass('open');
     $('#mobile-menu').removeClass('open');
   });
+  // -------------------------------------------------------
+
+  // -------------------------3rd -----------------------------
+  // Using 'on' method to bind event listeners for mobile-nav menu items
+  // $('.mobile-nav .menu-item-has-children').on('click', function (event) {
+  //   $(this).toggleClass('active');
+  //   event.stopPropagation();
+  // });
+
+  // // Using 'on' method to bind event listener for mobile-menu click
+  // $('#mobile-menu').on('click', function () {
+  //   $(this).toggleClass('open');
+  //   $('#mobile-nav').toggleClass('open');
+  // });
+
+  // // Using 'on' method to bind event listener for desktop-menu click
+  // $('#desktop-menu').on('click', function () {
+  //   $(this).toggleClass('open');
+  //   $('.desktop-menu').toggleClass('open');
+  // });
+
+  // // Using 'on' method to bind event listener for res-cross click
+  // $('#res-cross').on('click', function () {
+  //   $('#mobile-nav').removeClass('open');
+  //   $('#mobile-menu').removeClass('open');
+  // });
 
   // -------------------------3rd -----------------------------
 
