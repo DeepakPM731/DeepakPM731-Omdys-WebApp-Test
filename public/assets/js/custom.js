@@ -505,10 +505,14 @@ jQuery(document).ready(function ($) {
   // });
   // --------------------------------------------
   // -----------------2nd norm try---------------------------
-  $('.mobile-nav .menu-item-has-children').on('click', function (event) {
-    $(this).toggleClass('active');
-    event.stopPropagation();
-  });
+  $(document).on(
+    'click',
+    '.mobile-nav .menu-item-has-children',
+    function (event) {
+      $(this).toggleClass('active');
+      event.stopPropagation();
+    }
+  );
   // Handle mobile menu toggle
   $(document).on('click ', '#mobile-menu ', function () {
     $(this).toggleClass('open');
