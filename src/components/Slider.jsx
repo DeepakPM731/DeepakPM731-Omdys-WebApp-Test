@@ -5,7 +5,9 @@ const Slider = () => {
         <h1>Test</h1>
         <div className="containe">
           <div className="ro f-slider-one owl-carousel">
+            <h1>Test 2</h1>
             <div className="f-slider-layer">
+              {/* <h1>test 3</h1> */}
               <img
                 // style={{ objectFit: 'cover', width: '2769px' }} //for aws untitled
                 style={{ objectFit: 'cover', width: '1920px' }} //for 6.svg
