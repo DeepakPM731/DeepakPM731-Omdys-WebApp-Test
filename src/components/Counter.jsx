@@ -50,7 +50,7 @@ const Counter = () => {
                     0
                   </span>
                   <i>
-                    <nbr>+ OEM Partners</nbr>
+                    <span>+ OEM Partners</span>
                   </i>
                 </div>
                 {/* <h4>Tie Up</h4> */}
