@@ -468,25 +468,25 @@ jQuery(document).ready(function ($) {
     $(this).addClass('active');
   });
 
-  $('.mobile-nav .menu-item-has-children').on('click', function (event) {
-    $(this).toggleClass('active');
-    event.stopPropagation();
-  });
+  // $('.mobile-nav .menu-item-has-children').on('click', function (event) {
+  //   $(this).toggleClass('active');
+  //   event.stopPropagation();
+  // });
 
-    $('#mobile-menu').click(function () {
-      $(this).toggleClass('open');
-      $('#mobile-nav').toggleClass('open');
-    });
+  //   $('#mobile-menu').click(function () {
+  //     $(this).toggleClass('open');
+  //     $('#mobile-nav').toggleClass('open');
+  //   });
 
-    $('#desktop-menu').click(function () {
-      $(this).toggleClass('open');
-      $('.desktop-menu').toggleClass('open');
-    });
+  //   $('#desktop-menu').click(function () {
+  //     $(this).toggleClass('open');
+  //     $('.desktop-menu').toggleClass('open');
+  //   });
 
-    $('#res-cross').click(function () {
-      $('#mobile-nav').removeClass('open');
-      $('#mobile-menu').removeClass('open');
-    });
+  //   $('#res-cross').click(function () {
+  //     $('#mobile-nav').removeClass('open');
+  //     $('#mobile-menu').removeClass('open');
+  //   });
 
   // -------------1st norm try-------------------------------
   // $(document).on('click', '#mobile-menu', function () {
@@ -523,6 +523,34 @@ jQuery(document).ready(function ($) {
   //   $('#mobile-menu').removeClass('open');
   // });
   // -------------------------------------------------------
+
+  // -------------------------3rd -----------------------------
+  // Using 'on' method to bind event listeners for mobile-nav menu items
+  $('.mobile-nav .menu-item-has-children').on('click', function (event) {
+    $(this).toggleClass('active');
+    event.stopPropagation();
+  });
+
+  // Using 'on' method to bind event listener for mobile-menu click
+  $('#mobile-menu').on('click', function () {
+    $(this).toggleClass('open');
+    $('#mobile-nav').toggleClass('open');
+  });
+
+  // Using 'on' method to bind event listener for desktop-menu click
+  $('#desktop-menu').on('click', function () {
+    $(this).toggleClass('open');
+    $('.desktop-menu').toggleClass('open');
+  });
+
+  // Using 'on' method to bind event listener for res-cross click
+  $('#res-cross').on('click', function () {
+    $('#mobile-nav').removeClass('open');
+    $('#mobile-menu').removeClass('open');
+  });
+
+  // -------------------------3rd -----------------------------
+
   // ------------------------------sub=menu--------------------------
   // PD Gallery
   $('.li-pd-imgs').on('click', function () {
