@@ -23,8 +23,6 @@ const Home = () => {
       <Clients />
       <Contact />
       <Review />
-      <Slider />
-
       <Articles />
       <button id="scrollTop" className="scrollTopStick">
         <i className="fa-solid fa-arrow-up"></i>
