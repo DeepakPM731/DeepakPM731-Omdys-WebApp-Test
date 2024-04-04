@@ -437,8 +437,8 @@ button.scrollTopStick.active:before,
   font-weight: bold;
 }
 .desktop-nav .nav-bar .extras .theme-btn {
-  color: black;
-  /* color: white; */
+  /* color: black; */
+  color: white;
 }
 .theme-btn:after {
   content: '';

@@ -128,7 +128,7 @@ const Activities = () => {
                     </figure>
                   </div>
                   <div className="data">
-                    <h3>Trading of petroleum and petrochemical products</h3>
+                    <h3>Trading of Industrial Chemical products</h3>
                     <p>
                       We offer expertise in exporting specialized petrochemical
                       mechanical products, ensuring safe and efficient project

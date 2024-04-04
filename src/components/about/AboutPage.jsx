@@ -9,8 +9,8 @@ const AboutPage = () => {
   }, []);
   return (
     <>
-      <div >
-      {/* <div style={{ marginBottom: '100px' }}> */}
+      <div>
+        {/* <div style={{ marginBottom: '100px' }}> */}
         <section className="banner-style-one">
           <div
             className="parallax"
@@ -79,8 +79,9 @@ const AboutPage = () => {
                   <figure>
                     <img
                       className="w-100"
-                      src="https://winsfolio.net/html/builty/assets/images/about-d-1.jpg"
+                      // src="https://winsfolio.net/html/builty/assets/images/about-d-1.jpg"
                       // src="assets/svg/1.svg"
+                      src="assets/svg4/whoweare1.svg"
                       alt="About Image One"
                       width={'500px'}
                       // height={'780px'}
@@ -117,9 +118,12 @@ const AboutPage = () => {
                   </div>
                   <figure>
                     <img
-                      className="w-100"
-                      src="https://winsfolio.net/html/builty/assets/images/about-d-2.jpg"
+                      // className="w-100"
+                      // src="https://winsfolio.net/html/builty/assets/images/about-d-2.jpg"
+                      src="assets/svg4/whoweare2.svg"
                       alt="About Image Two "
+                      width={'520px'}
+                      height={'450px'}
                     />
                   </figure>
                 </div>
@@ -137,10 +141,7 @@ const AboutPage = () => {
           <section className="gap about-how-it-works light-bg-color">
             <div className="heading">
               <figure>
-                <img
-                  src="assets/images/heading-icon.png"
-                  alt="Heading Icon"
-                />
+                <img src="assets/images/heading-icon.png" alt="Heading Icon" />
               </figure>
               <span>Plan + Control</span>
               <h2>How it Works</h2>
@@ -149,7 +150,8 @@ const AboutPage = () => {
               <figure style={{ position: 'relative', zIndex: 9 }}>
                 <img
                   className="w-100"
-                  src="https://winsfolio.net/html/builty/assets/images/about-h-i-w.jpg"
+                  // src="https://winsfolio.net/html/builty/assets/images/about-h-i-w.jpg"
+                  src="assets/svg4/howitworks.svg"
                   alt="About How It Works"
                 />
               </figure>

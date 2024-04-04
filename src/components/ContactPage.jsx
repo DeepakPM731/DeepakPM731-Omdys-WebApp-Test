@@ -448,8 +448,8 @@ const ContactPage = () => {
                         <option value="Industrial Construction Tools and Equipment">
                           Industrial Construction Tools and Equipment
                         </option>
-                        <option value="Petroleum and Petrochemical products">
-                          Petroleum and Petrochemical products
+                        <option value="Industrial Chemical products">
+                          Industrial Chemical products
                         </option>
                         <option value="Medical-PPE">Medical-PPE</option>
                         <option value="Pulses and Grains">
@@ -797,13 +797,10 @@ const ContactPage = () => {
                       activeAccordion === 4 ? 'active' : ''
                     }`}
                     onClick={() =>
-                      handleAccordionToggle(
-                        4,
-                        'Petroleum and Petrochemical Products'
-                      )
+                      handleAccordionToggle(4, 'Industrial Chemical Products')
                     }
                   >
-                    Petroleum and Petrochemical Products
+                    Industrial Chemical Products
                   </button>
                   <button
                     className={`dropdown-item ${
@@ -2219,7 +2216,7 @@ const ContactPage = () => {
                             }
                             aria-controls="collapse-4"
                           >
-                            Petroleum and Petrochemical Products
+                            Industrial Chemical Products
                           </button>
                         </h2>
                         <div
@@ -2247,7 +2244,7 @@ const ContactPage = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-1"
                                   >
-                                    1. What types of petroleum and petrochemical
+                                    1. What types of Industrial Chemical
                                     mechanical parts do you source?
                                   </button>
                                 </h2>
@@ -2261,10 +2258,10 @@ const ContactPage = () => {
                                     <p>
                                       We specialize in sourcing a wide range of
                                       mechanical parts and components used in
-                                      the petroleum and petrochemical
-                                      industries, including valves, pumps,
-                                      pipes, fittings, compressors, and
-                                      filtration systems, among others.
+                                      the Industrial Chemical industries,
+                                      including valves, pumps, pipes, fittings,
+                                      compressors, and filtration systems, among
+                                      others.
                                     </p>
                                   </div>
                                 </div>

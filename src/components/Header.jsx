@@ -187,7 +187,7 @@ const Header = () => {
                                   </li>
                                   <li>
                                     <Link to={'/activity-four'}>
-                                      Petroleum and Petrochemical Products
+                                      Industrial Chemical Products
                                     </Link>
                                   </li>
                                   <li>

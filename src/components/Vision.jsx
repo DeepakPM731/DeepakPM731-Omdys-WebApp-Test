@@ -19,14 +19,14 @@ const Vision = () => {
                   />
                 </div>
                 <h3>
-                  <a href="service-detail.html">AIM</a>
+                  <a href="">AIM</a>
                 </h3>
                 <p>
                   To be the trusted partner for seamless international trade,
                   exceeding customer expectations by delivering high-quality
                   products and exceptional service at competitive prices
                 </p>
-                <a className="icon" href="service-detail.html">
+                <a className="icon" href="">
                   <i className="fa-solid fa-angles-right" />
                 </a>
               </div>
@@ -46,13 +46,13 @@ const Vision = () => {
                   />
                 </div>
                 <h3>
-                  <a href="service-detail.html">VISION</a>
+                  <a href="">VISION</a>
                 </h3>
                 <p>
                   To empower our clients to achieve their business goals through
                   unparalleled expertise and unwavering dedication
                 </p>
-                <a className="icon" href="service-detail.html">
+                <a className="icon" href="">
                   <i className="fa-solid fa-angles-right" />
                 </a>
               </div>
@@ -72,13 +72,13 @@ const Vision = () => {
                   />
                 </div>
                 <h3>
-                  <a href="service-detail.html">PROMISE</a>
+                  <a href="">PROMISE</a>
                 </h3>
                 <p>
                   Your global trading partner, committed to delivering
                   exceptional value and seamless experiences
                 </p>
-                <a className="icon" href="service-detail.html">
+                <a className="icon" href="">
                   <i className="fa-solid fa-angles-right" />
                 </a>
               </div>

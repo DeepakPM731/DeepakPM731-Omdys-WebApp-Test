@@ -106,7 +106,7 @@ const Projects = () => {
                   <h3>
                     <Link to={'/activity-four'}>
                       <a href="project-detail.html">
-                        Petroleum and Petrochemical Products - Importing
+                        Industrial Chemical Products
                       </a>
                     </Link>
                   </h3>

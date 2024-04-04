@@ -16,7 +16,7 @@ const ActivityFour = () => {
             <div className="row">
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>
-                  Petroleum and Petrochemical Products
+                  Industrial Chemical Products
                 </h2>
                 {/* <p>our values and vaulted us to the top of our industry.</p> */}
               </div>
@@ -59,8 +59,7 @@ const ActivityFour = () => {
                   International Standard working practices in all our business
                   operations. At Omdys International LLP, we believe in building
                   long-term relationships with our clients and look forward to
-                  serving you and meeting your petroleum and petrochemical
-                  needs.
+                  serving you and meeting your Industrial Chemical needs.
                 </p>
               </div>
               <figure>
@@ -360,8 +359,8 @@ const ActivityFour = () => {
               </div>
               <p className="m-4" style={{ fontSize: '20px' }}>
                 We are committed to providing high-quality products. All the
-                petroleum and petrochemical products that are supplied by us
-                undergo rigorous quality checks to ensure they meet the highest
+                Industrial Chemical products that are supplied by us undergo
+                rigorous quality checks to ensure they meet the highest
                 standards.
               </p>
             </div>

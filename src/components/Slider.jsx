@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 const Slider = () => {
   return (
     <>
@@ -28,8 +29,8 @@ const Slider = () => {
                   anything you need.
                 </p>
                 <a
-                  href="javascript:void(0)"
-                  data-bs-toggle="modal"
+                  href="/contact"
+                  // data-bs-toggle="modal"
                   data-bs-target="#exampleModal"
                   className="theme-btn"
                 >

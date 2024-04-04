@@ -9,7 +9,6 @@ import Slider from './Slider';
 import Team from './Team';
 import Vision from './Vision';
 import Review from './Review';
-
 const Home = () => {
   return (
     <>
