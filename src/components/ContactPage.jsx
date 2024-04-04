@@ -15,7 +15,7 @@ const ContactPage = () => {
   // const REACT_APP_CLIENT_EMAIL = import.meta.env.VITE_REACT_APP_CLIENT_EMAIL;
   // const REACT_APP_SPREADSHEET_ID = import.meta.env
   //   .VITE_REACT_APP_SPREADSHEET_ID;
-  // const REACT_APP_SHEET_ID = import.meta.env.VITE_REACT_APP_SHEET_ID;
+  // const REACT_APP_SHEET_ID = import.meta.env.  ;
   // console.log(REACT_APP_PRIVATE_KEY);
   // console.log(REACT_APP_CLIENT_EMAIL);
   // console.log(REACT_APP_SPREADSHEET_ID);
@@ -251,17 +251,20 @@ const ContactPage = () => {
         formDatas.append('subject', formData.subject);
         formDatas.append('message', formData.message);
 
-        toast.success('Thank you for your enquiry, Our sales team will contact you soon!', {
-          // position: 'bottom-center',
-          position: 'center-right',
-          duration: 3000,
-          style: {
-            width: '400px', 
-            fontSize: '24px', 
-            background: 'green',
-            color: '#fff',
-          },
-        });
+        toast.success(
+          'Thank you for your enquiry, Our sales team will contact you soon!',
+          {
+            // position: 'bottom-center',
+            position: 'center-right',
+            duration: 3000,
+            style: {
+              width: '400px',
+              fontSize: '24px',
+              background: 'green',
+              color: '#fff',
+            },
+          }
+        );
 
         await axios
           .post(

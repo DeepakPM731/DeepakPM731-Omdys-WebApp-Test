@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 
 const ActivityFour = () => {
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -24,7 +23,7 @@ const ActivityFour = () => {
             </div>
           </div>
           {/* <div className="breadcrums"> */}
-            {/* <div className="container">
+          {/* <div className="container">
               <div className="row">
                 <ul>
                   <li>
@@ -52,7 +51,7 @@ const ActivityFour = () => {
                   Wide Range of Products
                 </h3> */}
                 {/* <p style={{ textAlign: 'justify' }}> */}
-                <p style={{ fontSize: '20px', textAlign: 'center' }}>
+                <p style={{ fontSize: '20px', textAlign: 'justify' }}>
                   Omdys International LLP is committed to offering comprehensive
                   service support in the oil and gas sector. Our primary focus
                   is on the procurement and distribution of petroleum and

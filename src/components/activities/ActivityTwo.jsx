@@ -52,7 +52,7 @@ const ActivityTwo = () => {
                 </h3> */}
                 {/* <p style={{ textAlign: 'justify' }}> */}
                 <div style={{ textAlign: 'justify' }}>
-                  <p style={{ fontSize: '20px', textAlign: 'center' }}>
+                  <p style={{ fontSize: '20px', textAlign: 'justify' }}>
                     Welcome to our Electronics Components Sourcing wing, your
                     one-stop destination for all your electronic component
                     needs. We specialize in sourcing and trading a wide range of
@@ -60,7 +60,7 @@ const ActivityTwo = () => {
                     our clients.
                   </p>
                   <br />
-                  <p style={{ fontSize: '20px', textAlign: 'center' }}>
+                  <p style={{ fontSize: '20px', textAlign: 'justify' }}>
                     At OMDYS International LLP, we understand the critical role
                     that electronic components play in today's technology-driven
                     world. Whether you are a small-scale electronics hobbyist or

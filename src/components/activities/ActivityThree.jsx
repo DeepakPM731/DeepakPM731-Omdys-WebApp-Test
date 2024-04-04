@@ -23,7 +23,7 @@ const ActivityThree = () => {
             </div>
           </div>
           {/* <div className="breadcrums"> */}
-            {/* <div className="container">
+          {/* <div className="container">
               <div className="row">
                 <ul>
                   <li>
@@ -51,7 +51,7 @@ const ActivityThree = () => {
                   Wide Range of Products
                 </h3>
                 {/* <p style={{ textAlign: 'justify' }}> */}
-                <p style={{ fontSize: '20px', textAlign: 'center' }}>
+                <p style={{ fontSize: '20px', textAlign: 'justify' }}>
                   We offer a broad selection of tools and equipment, ensuring
                   that our customers have the best resources tailored to their
                   unique needs. Our unwavering commitment to quality and

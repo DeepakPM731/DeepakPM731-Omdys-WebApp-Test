@@ -21,7 +21,7 @@ const ActivityFive = () => {
             </div>
           </div>
           {/* <div className="breadcrums"> */}
-            {/* <div className="container">
+          {/* <div className="container">
               <div className="row">
                 <ul>
                   <li>
@@ -50,7 +50,7 @@ const ActivityFive = () => {
                 </h3> */}
                 {/* <p style={{ textAlign: 'justify' }}> */}
                 <div style={{ textAlign: 'justify' }}>
-                  <p style={{ fontSize: '20px', textAlign: 'center' }}>
+                  <p style={{ fontSize: '20px', textAlign: 'justify' }}>
                     At OMDYS, we understand the critical importance of personal
                     protective equipment (PPE) in safeguarding frontline workers
                     and healthcare professionals. As a trusted sourcing and

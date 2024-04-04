@@ -21,7 +21,7 @@ const ActivityOne = () => {
             </div>
           </div>
           {/* <div className="breadcrums"> */}
-            {/* <div className="container">
+          {/* <div className="container">
               <div className="row">
                 <ul>
                   <li>
@@ -56,7 +56,8 @@ const ActivityOne = () => {
                   {/* <h3>Who We Are?</h3> */}
                   {/* <p style={{ textAlign: 'justify' }}> */}
                   <p
-                    className="text-center"
+                    className=""
+                    // className="text-center"
                     // style={{ fontSize: '20px', textAlign: 'justify' }}
                     style={{
                       fontSize: '20px',

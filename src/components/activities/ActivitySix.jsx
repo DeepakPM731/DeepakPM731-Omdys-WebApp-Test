@@ -52,7 +52,7 @@ const ActivitySix = () => {
                 </h3> */}
                 {/* <p style={{ textAlign: 'justify' }}> */}
                 <div style={{ textAlign: 'justify' }}>
-                  <p style={{ fontSize: '20px', textAlign: 'center' }}>
+                  <p style={{ fontSize: '20px', textAlign: 'justify' }}>
                     At OMDYS International LLP we take pride in being a premier
                     exporter of high-quality pulses and grains to markets around
                     the world. With years of experience and a commitment to
