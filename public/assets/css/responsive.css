@@ -430,7 +430,7 @@
     margin-top: 0;
   }
   .innovation ul li {
-    width: 50%;
+    width: 40%;
   }
   .banner-style-one {
     padding-top: 80px;
@@ -1546,6 +1546,7 @@
   }
   .about-first.service-detail-first .innovation ul li:not(:last-child) {
     margin-bottom: 10px;
+    height: 250px;
   }
   .video-popup:before {
     width: 200px;
@@ -1626,6 +1627,7 @@
   }
   .innovation ul li {
     width: 100%;
+    height: 250px;
   }
   .innovation ul li:not(:last-child) {
     margin-bottom: 10px;

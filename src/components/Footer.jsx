@@ -129,7 +129,15 @@ const Footer = () => {
                           />
                         </g>
                       </svg>
-                      <p>(+91) 84310 6789 3</p>
+                      <a
+                        // href="tel:+91 84310 6789 3"
+                        href="https://wa.me/+918431067893"
+                        className=""
+                        target="_blank"
+                        // style={{ textShadow: '2px 2px 5px  black' }}
+                      >
+                        <p>+91 84310 6789 3</p>
+                      </a>
                     </li>
                     <li>
                       <svg

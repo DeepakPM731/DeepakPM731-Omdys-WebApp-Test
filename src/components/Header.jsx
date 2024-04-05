@@ -127,7 +127,7 @@ const Header = () => {
                           <li className="menu-item-has-children">
                             <a href="JavaScript:void(0)">Services</a>
                             <ul className="sub-menu">
-                              <li className="menu-item-has-children">
+                              <li>
                                 <Link to={'/service-one'}>
                                   <a href="javascript:void(0)">
                                     Supplier Identification & Sourcing
@@ -217,11 +217,17 @@ const Header = () => {
                                   </li>
                                 </ul>
                               </li> */}
-                              <li className="menu-item-has-children">
+
+                              <li className="">
                                 {/* <Link to={'/team'}>Team */}
-                                <a href="/team">Team</a>
-                                {/* </Link> */}
-                                {/* <ul className="sub-menu">
+                                <a href="/team">
+                                  <span style={{ marginLeft: '23px' }}>
+                                    Team
+                                  </span>
+                                </a>
+                              </li>
+                              {/* </Link> */}
+                              {/* <ul className="sub-menu">
                                   <li>
                                     <a href="our-team.html">Our Team</a>
                                   </li>
@@ -229,7 +235,7 @@ const Header = () => {
                                     <a href="team-detail.html">Team Detail</a>
                                   </li>
                                 </ul> */}
-                              </li>
+
                               {/* <li>
                                 <a href="login.html">Login &amp; Register</a>
                               </li> */}
@@ -301,7 +307,13 @@ const Header = () => {
                               />
                             </svg>
                           </a>
-                          <a href="tel:+91 84310 6789 3" className="theme-btn">
+                          <a
+                            // href="tel:+91 84310 6789 3"
+                            href="https://wa.me/+918431067893"
+                            className="theme-btn"
+                            target="_blank"
+                            // style={{ textShadow: '2px 2px 5px  black' }}
+                          >
                             +91 84310 6789 3
                             <i>
                               <svg
@@ -549,7 +561,7 @@ const Header = () => {
               </figure>
               <h3>Get in touch</h3>
               <a href="tel:+91 84310 6789 3">
-                <p className="num">(+91) 84310 6789 3</p>
+                <p className="num">+91 84310 6789 3</p>
               </a>
               <p className="adrs">
                 #614, Phase 10, RK Hudco,Hosur, Tamil Nadu, India

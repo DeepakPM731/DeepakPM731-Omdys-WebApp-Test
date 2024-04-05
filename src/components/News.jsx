@@ -5,23 +5,39 @@ import { Link } from 'react-router-dom';
 const News = () => {
   const [data, setData] = useState([]);
 
+  // useEffect(() => {
+  //   axios
+  //     .get(
+  //       'https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=ebb12aa1ab2f471b9c3e45d77717b73c',
+  //       {
+  //         headers: {
+  //           'access-control-allow-origin': '*',
+  //           'Content-Type': 'application/json; charset=UTF-8',
+  //         },
+  //       }
+  //     )
+  //     .then((data) => {
+  //       console.log(data);
+  //       setData(data.data.articles);
+  //     })
+  //     .catch((error) => {
+  //       console.log(error);
+  //     });
+  // }, []);
+
   useEffect(() => {
+    const corsAnywhereUrl = 'https://cors-anywhere.herokuapp.com/';
+    const apiUrl =
+      'https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=ebb12aa1ab2f471b9c3e45d77717b73c';
+
     axios
-      .get(
-        'https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=ebb12aa1ab2f471b9c3e45d77717b73c',
-        {
-          headers: {
-            'access-control-allow-origin': '*',
-            'Content-Type': 'application/json; charset=UTF-8',
-          },
-        }
-      )
-      .then((data) => {
-        console.log(data);
-        setData(data.data.articles);
+      .get(corsAnywhereUrl + apiUrl)
+      .then((response) => {
+        console.log(response.data);
+        setData(response.data.articles);
       })
       .catch((error) => {
-        console.log(error);
+        console.error('Error fetching data: ', error);
       });
   }, []);
 

@@ -6,6 +6,10 @@ const ActivityTwo = () => {
   }, []);
   return (
     <>
+      {/* =========================================================== */}
+
+      {/* =========================================================== */}
+
       <div>
         <section className="banner-style-one">
           <div
@@ -23,7 +27,7 @@ const ActivityTwo = () => {
             </div>
           </div>
           {/* <div className="breadcrums"> */}
-            {/* <div className="container">
+          {/* <div className="container">
               <div className="row">
                 <ul>
                   <li>
@@ -41,6 +45,278 @@ const ActivityTwo = () => {
           {/* </div> */}
         </section>
       </div>
+
+      {/*============================================================== */}
+      <section className="gap innovation">
+        <div className="heading">
+          <div className="container" style={{ textAlign: 'justify' }}>
+            <p style={{ fontSize: '20px', textAlign: 'justify' }}>
+              Welcome to our Electronics Components Sourcing wing, your one-stop
+              destination for all your electronic component needs. We specialize
+              in sourcing and trading a wide range of electronic components to
+              meet the diverse requirements of our clients.
+            </p>
+            <br />
+            <p style={{ fontSize: '20px', textAlign: 'justify' }}>
+              At OMDYS International LLP, we understand the critical role that
+              electronic components play in today's technology-driven world.
+              Whether you are a small-scale electronics hobbyist or a
+              large-scale manufacturer, we have the products and services to
+              support your projects and businesses.
+            </p>
+          </div>
+          <br />
+          <div className="row align-items-center">
+            <div className="col-lg-12">
+              <div className="proj-data">
+                <h1 className="mt-4">
+                  <a href="" style={{ color: 'black' }}>
+                    Our Product Range
+                  </a>
+                </h1>
+              </div>
+              <div className="container">
+                <p className="m-4" style={{ fontSize: '20px' }}>
+                  At OMDYS International LLP, we offer an extensive range of
+                  electronic components to cater to diverse needs and
+                  applications. Our product catalogue includes:
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row">
+            <ul>
+              <li style={{ overflow: '' }}>
+                
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '5%',
+                      }}
+                    >
+                      Integrated Circuits (ICs)
+                    </p>
+                    <br />
+                    <b>{/* <b> Integrated Circuits (ICs):</b> */}</b>
+                  </span>{' '}
+                  From microcontrollers to application-specific ICs, we carry a
+                  wide variety of integrated circuits from leading
+                  manufacturers.
+                  <br />
+                  <br />
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '5%',
+                      }}
+                    >
+                      Passive Components
+                    </p>
+                    <br />
+                    <b> {/* <b> Passive Components:</b> */}</b>
+                  </span>{' '}
+                  Our selection of passive components includes resistors,
+                  capacitors, inductors, and filters to support various circuit
+                  designs and applications.
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '13%',
+                      }}
+                    >
+                      Active Components
+                    </p>
+                    <br />
+                    <b> {/* <b>Active Components:</b> */}</b>
+                  </span>{' '}
+                  We stock a comprehensive range of active components such as
+                  transistors, diodes, thyristors, and voltage regulators to
+                  meet your requirements for signal processing and
+                  amplification.
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '10%',
+                      }}
+                    >
+                      Connectors and Cables
+                    </p>
+                    <br />
+                    <b>{/* <b>Connectors and Cables: </b> */}</b>
+                  </span>
+                  Whether you need standard connectors or custom cable
+                  assemblies, we offer a diverse range of connectors, cables,
+                  and harnesses for seamless integration into your projects.
+                  <br />
+                  <br />
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '12%',
+                      }}
+                    >
+                      Sensors and Modules
+                    </p>
+                    <br /> <b>{/* <b>Sensors and Modules: </b> */}</b>
+                  </span>
+                  Explore our selection of sensors and sensor modules for
+                  measuring and monitoring various environmental parameters,
+                  including temperature, humidity, pressure, and motion.
+                  <br />
+                  <br />
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '5%',
+                      }}
+                    >
+                      LEDs and Displays
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> LEDs and Displays: </b> */}</b>
+                  </span>
+                  Illuminate your projects with our selection of LEDs, LCD
+                  displays, OLED displays, and segment displays available in
+                  different sizes, colors, and configurations.
+                </p>
+              </li>
+              <li>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '40px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '5%',
+                      }}
+                    >
+                      Power Supplies and Batteries
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> Power Supplies and Batteries: </b> */}</b>
+                  </span>
+                  Ensure reliable power delivery with our range of power
+                  supplies, batteries, chargers, and DC-DC converters designed
+                  for diverse applications.
+                </p>
+              </li>
+              <li>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '40px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '14%',
+                      }}
+                    >
+                      Switches and Relays
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> Switches and Relays: </b> */}</b>
+                  </span>
+                  Find the right switches, relays, and contactors for your
+                  control and automation needs, including tactile switches,
+                  rocker switches, and electromechanical relays
+                </p>
+              </li>
+              <li>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '40px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '14%',
+                      }}
+                    >
+                      Semiconductors
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> Semiconductors: </b> */}</b>
+                  </span>
+                  Browse through our collection of discrete semiconductors,
+                  including power MOSFETs, IGBTs, Schottky diodes, and voltage
+                  regulators, for efficient power management and control.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      {/*============================================================== */}
 
       <div className="container mt-5 mb-5">
         <div className="row">

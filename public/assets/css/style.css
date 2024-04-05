@@ -64,7 +64,8 @@
 
 */
 /* GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -72,7 +73,7 @@ html {
 }
 body {
   overflow-x: hidden;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 *,
 p,
@@ -92,11 +93,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   font-weight: bold;
 }
 a {
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   font-weight: bold !important;
 }
 h2 {
@@ -104,7 +105,7 @@ h2 {
   color: #111;
 }
 p {
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   /* font-size: 16px; */
   font-size: 18px;
   line-height: 30px;
@@ -112,14 +113,14 @@ p {
   font-weight: 400;
 }
 span {
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 
 .counttt .odometer {
   font-size: 80px;
   /* font-size: 75px; */
   color: #080808;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #080808;
@@ -165,7 +166,7 @@ a:hover {
 .heading-style-2 .data span {
   font-size: 16px;
   color: #444;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 900;
@@ -219,7 +220,7 @@ a:hover {
   font-size: 16px;
   line-height: 30px;
   font-weight: 500;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   text-transform: none;
   border-bottom: 1px solid #bcbcbc;
   color: #444;
@@ -427,7 +428,7 @@ button.scrollTopStick.active:before,
   padding: 18px 70px 18px 50px;
   background: #ffcd00;
   font-size: 16px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   /* font-weight: 400; */
   color: black;
   /* color: white; */
@@ -438,7 +439,9 @@ button.scrollTopStick.active:before,
 }
 .desktop-nav .nav-bar .extras .theme-btn {
   /* color: black; */
-  color: white;
+  /* color: green; */
+  /* color: red; */
+  /* color: white; */
 }
 .theme-btn:after {
   content: '';
@@ -561,7 +564,7 @@ textarea {
 .acc2 .accordion-item button {
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   color: black;
   background: #f7f6f2;
   height: 80px;
@@ -663,7 +666,7 @@ textarea {
   font-size: 16px;
   font-weight: bold;
   color: #303030;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   height: 90px;
   display: flex;
   align-items: center;
@@ -813,7 +816,7 @@ textarea {
 }
 .comment .c-data h4 {
   font-size: 20px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   font-weight: bold;
   color: #000;
 }
@@ -821,7 +824,7 @@ textarea {
 .comment .c-data p {
   font-size: 14px;
   line-height: 24px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   color: #444;
 }
 .comment .c-data span {
@@ -830,7 +833,7 @@ textarea {
 }
 .comment .c-data .c-r-btn {
   font-size: 14px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   color: #000;
   padding: 11px 17px;
   position: absolute;
@@ -852,7 +855,7 @@ textarea {
 .category.shape.form h3 {
   margin-top: 0;
   margin-bottom: 25px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   font-size: 20px;
 }
 .category.shape.form {
@@ -980,7 +983,7 @@ textarea {
   font-size: 16px;
   line-height: 16px;
   color: #000;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .form form .form-check {
   padding: 0;
@@ -1005,7 +1008,7 @@ textarea {
 .ratings span {
   font-weight: bold;
   font-size: 16px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .sm-circle li {
   position: relative;
@@ -1180,7 +1183,7 @@ button.scrollTopStick:hover i {
 .about-style-one .about-data-right span {
   font-size: 16px;
   color: #444;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 900;
@@ -1205,7 +1208,7 @@ button.scrollTopStick:hover i {
 .about-style-one .about-data-right .about-info h4 {
   font-size: 16px;
   line-height: 26px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .about-style-one .about-data-right .about-info h3 {
   font-weight: bold;
@@ -1228,7 +1231,7 @@ button.scrollTopStick:hover i {
 .counter-style-one .counter-data .counttt {
   font-size: 85px;
   color: #080808;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #080808;
@@ -1265,7 +1268,7 @@ span.counter {
 .counter-style-one .counter-data h4 {
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   color: #161616;
 }
 .counter-style-one .counter-data:before {
@@ -1768,7 +1771,7 @@ span.counter {
   background: white;
 }
 .core-features button.accordion-button span {
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   font-size: 16px;
   font-weight: 900;
   color: #444;
@@ -1932,7 +1935,7 @@ span.counter {
   color: #444;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   font-weight: 900;
 }
 .client-review-style-one .head-review h3 {
@@ -1958,7 +1961,7 @@ span.counter {
   font-size: 24px;
   color: #161616;
   margin-bottom: 0;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   font-weight: bold;
 }
 .client-review-slider .slider-data .bio .details p {
@@ -2003,7 +2006,7 @@ span.counter {
 .blog-style-one .blog-data .blog-date {
   font-size: 16px;
   color: #000;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   padding: 8px 40px 8px 20px;
   display: inline-flex;
   margin-bottom: 17px;
@@ -2236,7 +2239,7 @@ span.counter {
   margin: 0 5px;
 }
 .footer-style-one .footer-p-3 .footer-col a {
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   font-size: 16px;
   line-height: 30px;
   color: #b7b7b7;
@@ -2290,7 +2293,7 @@ span.counter {
 .header-style-one .nav-bar ul li a {
   font-size: 16px;
   color: white;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .header-style-one .nav-bar > ul > li:not(:last-child) {
   margin-right: 40px;
@@ -2337,7 +2340,7 @@ span.counter {
   visibility: hidden;
 }
 .desktop-nav .nav-bar ul > li ul.sub-menu li a {
-  padding: 15px 21px;
+  padding: 7px 21px;
   display: flex;
   align-items: center;
   color: #545454;
@@ -2504,7 +2507,7 @@ span.counter {
   transform: translateX(-47%);
   z-index: 1;
   font-size: 10px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .desktop-nav .nav-bar .extras a.pr-cart svg {
   width: 25px;
@@ -2608,7 +2611,7 @@ span.counter {
   text-align: center;
   padding: 10px;
   border: 1px solid #c1c1c1;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .cart-popup .cart-btns a:not(:last-child) {
   margin-right: 8px;
@@ -2915,7 +2918,7 @@ span.counter {
   font-size: 20px;
   font-weight: 900;
   margin-bottom: 17px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .our-goal .data.p2 {
   margin-top: 43px;
@@ -2995,7 +2998,7 @@ span.counter {
 }
 .pricing-plans .price-box h2,
 .pricing-plans .price-box h3 {
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   font-weight: bold;
 }
 .pricing-plans .price {
@@ -3195,7 +3198,7 @@ span.counter {
 .service-style-two .service-two-box.last a {
   color: black;
   font-size: 18px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .service-style-two .service-two-box.last span {
   width: 50px;
@@ -3262,7 +3265,7 @@ span.counter {
 .certificates .data .extras h3,
 .certificates .data .extras p {
   color: white;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .certificates .data .extras h3 {
   font-size: 45px;
@@ -3273,7 +3276,7 @@ span.counter {
 .certificates .data span {
   font-size: 16px;
   color: #444;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   text-transform: uppercase;
 }
 .certificates .data h2 {
@@ -3316,7 +3319,7 @@ span.counter {
 .certificates .c-slider .c-main .c-second span {
   font-size: 16px;
   color: #444;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   border-bottom: 1px solid black;
 }
 .certificates .c-slider .c-main .c-second h3 {
@@ -3364,7 +3367,7 @@ span.counter {
 }
 .blog-style-two .blog-item .blog-date {
   font-size: 16px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   color: black;
   position: relative;
   font-weight: bold;
@@ -3381,7 +3384,7 @@ span.counter {
 .blog-style-two .blog-item .blog-post-num {
   display: flex;
   font-size: 50px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000;
@@ -3458,7 +3461,7 @@ span.counter {
   align-items: center;
   justify-content: center;
   border: 1px solid;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -3479,7 +3482,7 @@ span.counter {
   margin-bottom: 38px;
 }
 .estimated-price .est-form label {
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -3502,7 +3505,7 @@ span.counter {
 .estimated-price .est-form .est-main .est-price span {
   font-size: 46px;
   font-weight: 700;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   line-height: 46px;
   display: inline-flex;
 }
@@ -3640,7 +3643,7 @@ span.counter {
 }
 .contact-us .c-cards .card .details > span {
   font-size: 16px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .contact-us .c-cards .card .details,
 .contact-us .c-cards .card .contacts-info {
@@ -3848,7 +3851,7 @@ span.counter {
 }
 .shop-style-one .product .price-range span {
   font-size: 20px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   color: #000;
 }
 .shop-style-one .product .price-range {
@@ -4143,7 +4146,7 @@ span.counter {
   margin-bottom: 7px;
 }
 .project-completed .proj-data .loc-date > div span {
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .project-completed .proj-data .loc-date > div span:last-child {
   font-weight: 900;
@@ -4342,7 +4345,7 @@ span.counter {
 .blog-style-three .blog-heading span {
   font-size: 16px;
   color: #444;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -4362,7 +4365,7 @@ span.counter {
 }
 .blog-style-three .blog-posts .date {
   font-size: 16px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   position: relative;
   display: inline-flex;
 }
@@ -4501,7 +4504,7 @@ span.counter {
   font-size: 22px;
   color: #444;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   margin-bottom: 20px;
 }
 .about-first .who-we-are p {
@@ -4510,7 +4513,7 @@ span.counter {
 .about-first .who-we-are ul li {
   font-size: 16px;
   color: #444;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   margin-bottom: 18px;
 }
 .about-first .who-we-are ul li i {
@@ -4581,7 +4584,7 @@ span.counter {
   width: 90px;
   height: 90px;
   font-size: 40px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   margin-bottom: 40px;
 }
 .about-how-it-works .plans h3 {
@@ -4639,7 +4642,7 @@ span.counter {
 .contact-form-2 .data span {
   font-size: 16px;
   color: #444;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .contact-form-2 .data h2 {
   font-size: 50px;
@@ -4673,7 +4676,7 @@ span.counter {
 .contact-form-2 .info ul.social-medias li p {
   font-size: 16px;
   line-height: 26px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .contact-form-2 .bio .data h3,
 .contact-form-2 .info ul.contact li h3,
@@ -4750,7 +4753,7 @@ ul.social-medias {
   font-size: 22px;
   color: #111;
   font-weight: 500;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   border-bottom: 1px solid #e1e1e1;
   padding-left: 0;
   padding-top: 18px;
@@ -4793,7 +4796,7 @@ ul.social-medias {
   margin-bottom: 15px;
   font-size: 22px;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .construction-services .tab-content > .tab-pane figure figcaption p {
   color: #c2c1c1;
@@ -4830,9 +4833,13 @@ ul.social-medias {
 .innovation ul li {
   display: flex;
   align-items: center;
-  width: 33.3333333%;
-  height: 250px;
+  /* width: 33.3333333%; */
+  width: 32.3333333%;
+  /* height: 250px; */
+  height: 295px;
   border: 1px solid #c1c1c1;
+  border-radius: 30px;
+  margin: 5px;
   /* padding-left: 30px; */
   padding: 15px;
 }
@@ -4844,8 +4851,9 @@ ul.social-medias {
 .innovation ul li p {
   font-size: 15px;
   /* font-weight: bold; */
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   color: #161616;
+  line-height: 24px;
 }
 /* 39. Innovation End */
 
@@ -4904,7 +4912,7 @@ ul.social-medias {
 .revolution .head span {
   font-size: 16px;
   color: #444;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
@@ -5077,7 +5085,7 @@ ul.social-medias {
   font-size: 16px;
   color: #000;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   margin-bottom: 5px;
 }
 .sidebar .box.recent-cmnts ul li {
@@ -5238,7 +5246,7 @@ ul.social-medias {
 .what-we-build .wwb-ul li:before {
   content: counter(my-awesome-counter) '. ';
   font-size: 16px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   position: absolute;
   top: 65px;
   left: 0;
@@ -5309,7 +5317,7 @@ ul.social-medias {
   font-size: 22px;
   color: #444;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .service-detail-first .who-we-are h3 {
   margin-top: 0;
@@ -5391,7 +5399,7 @@ ul.social-medias {
 .detail-page .include li {
   font-size: 16px;
   color: #444;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   margin-bottom: 18px;
   font-weight: 600;
 }
@@ -5527,7 +5535,7 @@ ul.social-medias {
 .team-detail .team-data h3 {
   font-size: 40px;
   color: #000;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   margin-bottom: 5px;
 }
 .team-detail .team-data p {
@@ -5659,7 +5667,7 @@ ul.social-medias {
   bottom: 17px;
   right: 30px;
   color: #999;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   font-weight: bold;
 }
 .team-detail .fav-project .row .col-lg-4:nth-child(1):before {
@@ -5731,7 +5739,7 @@ ul.pd-price li.pd-sale-price,
 ul.pd-price li.pd-sale-price span {
   font-size: 28px;
   color: #000;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   line-height: 30px;
   font-weight: bold;
 }
@@ -5740,7 +5748,7 @@ ul.pd-price li.pd-regular-price span {
   font-size: 20px;
   color: #444;
   font-weight: 500;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   line-height: 23px;
 }
 ul.pd-price li.pd-regular-price span,
@@ -5857,7 +5865,7 @@ ul.pd-price li:not(:last-child) {
   font-size: 18px;
   padding: 0;
   margin-right: 8px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   font-weight: bold;
 }
 .pd-cat-tags ul li {
@@ -5905,7 +5913,7 @@ ul.pd-price li:not(:last-child) {
   padding: 25px;
   font-size: 20px;
   color: #8a8a8a;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .pd-quality input:focus {
   outline: 0;
@@ -5915,7 +5923,7 @@ ul.pd-price li:not(:last-child) {
   font-size: 18px;
   color: #2b2b2b;
   text-transform: uppercase;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   margin-right: 28px;
 }
 .pd-quality {
@@ -5937,7 +5945,7 @@ ul.pd-price li:not(:last-child) {
   font-size: 18px;
   color: #000;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
   clip-path: polygon(0 0, 100% 0%, 93% 100%, 0% 100%);
   border-radius: 0;
   background: #fafafa;
@@ -6001,7 +6009,7 @@ ul.pd-price li:not(:last-child) {
   align-items: center;
   height: 65px;
   margin-top: 20px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .review.comments ul li:not(:last-child) .comment {
   margin-bottom: 20px;
@@ -6109,7 +6117,7 @@ ul.pd-price li:not(:last-child) {
 .cart .update-cart form button,
 .cart-total-box .final h4,
 .cart-total-box .total ul li span {
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .cart .cart-table .c-c .c-data .cr-svg img {
   width: 10px;
@@ -6281,7 +6289,7 @@ ul.pd-price li:not(:last-child) {
 .checkout .billing input::placeholder {
   font-size: 16px;
   color: #333;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .checkout .billing input,
 .checkout .billing .nice-select {
@@ -6329,7 +6337,7 @@ ul.pd-price li:not(:last-child) {
   font-size: 16px;
   font-weight: 500;
   color: #333;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .checkout .billing .checkk {
   margin-top: 38px;
@@ -6367,7 +6375,7 @@ ul.pd-price li:not(:last-child) {
 }
 .cart-t-payment-m .payment-method h3,
 .cart-t-payment-m .payment-method button {
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .checkout
   .cart-t-payment-m
@@ -6771,7 +6779,7 @@ ul.pd-price li:not(:last-child) {
 }
 .w-counter ul li p {
   line-height: 36px;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .w-counter ul li p,
 .where-we-work .heading-style-2 .data h2 {
@@ -6797,7 +6805,7 @@ ul.pd-price li:not(:last-child) {
 }
 .first .nav-tabs li button {
   padding: 0;
-  font-family: 'Poppins';
+  font-family: 'Montserrat';
 }
 .first .nav-tabs li {
   margin-right: 35px;
