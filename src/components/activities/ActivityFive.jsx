@@ -275,6 +275,7 @@ const ActivityFive = () => {
                   for maintaining hygiene protocols.
                 </p>
               </div>
+              <br />
               <p className="mx-1 my-2" style={{ fontSize: '20px' }}>
                 <strong>
                   Trust OMDYS International LLP for all your medical PPE
@@ -282,6 +283,7 @@ const ActivityFive = () => {
                   protect what matters most.
                 </strong>
               </p>
+              <br />
             </div>
           </div>
         </section>

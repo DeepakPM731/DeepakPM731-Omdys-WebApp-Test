@@ -63,7 +63,7 @@ const AboutPage = () => {
                 <div className="who-we-are">
                   <div>
                     <h3>Who We Are?</h3>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       Born in the heart of industrial Tamil Nadu, OMDYS
                       International LLP is a young and dynamic sourcing and
                       trading company. With a wealth of experience under our

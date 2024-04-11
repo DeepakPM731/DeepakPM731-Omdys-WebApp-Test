@@ -111,7 +111,7 @@ p {
   line-height: 30px;
   color: #444;
   font-weight: 400;
-  text-align:'justify'
+  /* text-align:justify */
 }
 span {
   font-family: 'Montserrat';
@@ -6917,11 +6917,9 @@ img.light-icon {
   color: #222;
 }
 
-
 /* -=============================================================================- */
-.at-innov-ul-li{
-  height:250px
+.at-innov-ul-li {
+  height: 250px;
 }
-
 
 /* -=============================================================================- */

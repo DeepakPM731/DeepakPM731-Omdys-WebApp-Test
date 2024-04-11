@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const News = () => {
   const [data, setData] = useState([]);
 
+  const key = import.meta.env.VITE_API_KEY;
   // useEffect(() => {
   //   axios
   //     .get(
@@ -28,7 +29,7 @@ const News = () => {
   useEffect(() => {
     // const corsAnywhereUrl = 'https://cors-anywhere.herokuapp.com/';
     const apiUrl =
-      'https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=ebb12aa1ab2f471b9c3e45d77717b73c';
+      `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=${key}`;
 
     axios
       .get(apiUrl)
@@ -118,7 +119,9 @@ const News = () => {
                       <span className="blog-date">{news.publishedAt}</span>
                       {/* <span className="blog-date">January 9, 2022</span> */}
                       <h2>
-                        <a href={news.url} target='_blank'>{news.title}</a>
+                        <a href={news.url} target="_blank">
+                          {news.title}
+                        </a>
                       </h2>
                       <div className="blog-author d-flex-all justify-content-start">
                         <div className="author-img">
@@ -220,7 +223,7 @@ const News = () => {
             </div> */}
           </div>
           <div className="common-btn">
-            <a href="our-blog-1.html" className="theme-btn">
+            <a href="javascript:void(0)" className="theme-btn">
               View All Posts <i className="fa-solid fa-angles-right" />
             </a>
           </div>
