@@ -84,7 +84,7 @@ const ServiceFour = () => {
                     <i className="fa-solid fa-check" />
                     <p>
                       <b>
-                        • Implementing risk management strategies, such as
+                        Implementing risk management strategies, such as
                         insurance or alternative suppliers, to minimize
                         potential losses.
                       </b>

@@ -82,10 +82,13 @@ const ActivityFive = () => {
       </div>
 
       <section className=" no-top project-completed our-projects-one">
-        <div className="container mb-4">
+        <div
+          className="container mb-4"
+          style={{ display: 'flex', justifyContent: 'center' }}
+        >
           <figure style={{ position: 'relative', zIndex: 9 }}>
             <img
-              className="w-100"
+              className=""
               src="assets/svg4/Medical PPE 2.svg"
               // src="https://winsfolio.net/html/builty/assets/images/about-h-i-w.jpg"
               alt="About How It Works"

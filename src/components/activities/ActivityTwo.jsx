@@ -20,7 +20,8 @@ const ActivityTwo = () => {
             <div className="row">
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>
-                  Trading Of Electronics Components – Importing
+                  Trading Of Electronics Components
+                  {/* Trading Of Electronics Components – Importing */}
                 </h2>
                 {/* <p>our values and vaulted us to the top of our industry.</p> */}
               </div>
@@ -47,7 +48,29 @@ const ActivityTwo = () => {
       </div>
 
       {/*============================================================== */}
-      <section className="gap innovation">
+
+      <div
+        className=""
+        style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
+      />
+
+      <div
+        // className="container"
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          objectFit: 'cover',
+          marginTop: '30px',
+        }}
+      >
+        <img
+          src="assets/svg4/Electronic Components 1.svg"
+          alt=""
+          // width={'100%'}
+          // height={'500px'}
+        />
+      </div>
+      <section className="gap innovation" style={{ marginTop: '-5%' }}>
         <div className="heading">
           <div className="container" style={{ textAlign: 'justify' }}>
             <p style={{ fontSize: '20px', textAlign: 'justify' }}>
@@ -90,7 +113,6 @@ const ActivityTwo = () => {
           <div className="row">
             <ul>
               <li style={{ overflow: '' }}>
-                
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -273,7 +295,7 @@ const ActivityTwo = () => {
                         fontWeight: '800',
                         textAlign: 'center',
                         color: 'green',
-                        marginTop: '14%',
+                        marginTop: '5%',
                       }}
                     >
                       Switches and Relays
@@ -299,7 +321,7 @@ const ActivityTwo = () => {
                         fontWeight: '800',
                         textAlign: 'center',
                         color: 'green',
-                        marginTop: '14%',
+                        marginTop: '5%',
                       }}
                     >
                       Semiconductors
@@ -318,16 +340,16 @@ const ActivityTwo = () => {
       </section>
       {/*============================================================== */}
 
-      <div className="container mt-5 mb-5">
+      {/* <div className="container mt-5 mb-5">
         <div className="row">
           <div className="col-lg-12">
             <div className="who-we-are">
-              <div>
-                {/* <h3 className="mb-5 text-center" style={{ fontSize: '48px' }}>
+              <div> */}
+      {/* <h3 className="mb-5 text-center" style={{ fontSize: '48px' }}>
                   Wide Range of Products
                 </h3> */}
-                {/* <p style={{ textAlign: 'justify' }}> */}
-                <div style={{ textAlign: 'justify' }}>
+      {/* <p style={{ textAlign: 'justify' }}> */}
+      {/* <div style={{ textAlign: 'justify' }}>
                   <p style={{ fontSize: '20px', textAlign: 'justify' }}>
                     Welcome to our Electronics Components Sourcing wing, your
                     one-stop destination for all your electronic component
@@ -344,34 +366,34 @@ const ActivityTwo = () => {
                     services to support your projects and businesses.
                   </p>
                 </div>
-              </div>
-              <figure>
-                {/* <img
+              </div> */}
+      {/* <figure> */}
+      {/* <img
                     className="w-100"
                     src="https://winsfolio.net/html/builty/assets/images/about-d-1.jpg"
                     alt="About Image One"
                   /> */}
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
+      {/* </figure> */}
+      {/* </div> */}
+      {/* </div> */}
+      {/* </div> */}
+      {/* </div> */}
 
-      <section className=" no-top project-completed our-projects-one">
-        <div className="container mb-4">
-          <figure style={{ position: 'relative', zIndex: 9 }}>
-            <img
+      {/* <section className=" no-top project-completed our-projects-one"> */}
+      {/* <div className="container mb-4">
+          <figure style={{ position: 'relative', zIndex: 9 }}> */}
+      {/* <img
               className="w-100"
               src="assets/svg4/Electronic Components 2.svg"
               height={'500px'}
               width={'538px '}
               // src="https://winsfolio.net/html/builty/assets/images/about-h-i-w.jpg"
               alt="About How It Works"
-            />
-          </figure>
-        </div>
+            /> */}
+      {/* </figure>
+        </div> */}
 
-        <div className="prj-post mb-2">
+      {/* <div className="prj-post mb-2">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6">
@@ -386,10 +408,10 @@ const ActivityTwo = () => {
                 electronic components to cater to diverse needs and
                 applications. Our product catalogue includes:
               </p>
-            </div>
+            </div> */}
 
-            {/* sub starts */}
-            <div className="mx-5">
+      {/* sub starts */}
+      {/* <div className="mx-5">
               <div className="row align-items-center">
                 <div className="col-lg-6">
                   <div className="proj-data">
@@ -553,63 +575,61 @@ const ActivityTwo = () => {
               </div>
             </div>
           </div>
+        </div> */}
+      <section className=" no-top project-completed our-projects-one">
+        <div className="prj-post mb-2">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-8">
+                <div className="proj-data">
+                  <h3 className="mt-4">
+                    <a href="project-detail.html">Our Commitment to Quality:</a>
+                  </h3>
+                </div>
+              </div>
+              <p className="m-4" style={{ fontSize: '20px' }}>
+                At OMDYS International LLP, we understand the importance of
+                quality and reliability in electronic components. That's why we
+                source our products from reputable manufacturers and authorized
+                distributors known for their commitment to excellence and
+                adherence to industry standards.
+              </p>
+              <p className="m-4" style={{ fontSize: '20px' }}>
+                Before adding any product to our catalog, our team of experts
+                conducts rigorous quality assurance checks to ensure that each
+                component meets our stringent criteria for performance,
+                reliability, and durability.
+              </p>
+            </div>
+          </div>
         </div>
-        <section className=" no-top project-completed our-projects-one">
-          <div className="prj-post mb-2">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-lg-8">
-                  <div className="proj-data">
-                    <h3 className="mt-4">
-                      <a href="project-detail.html">
-                        Our Commitment to Quality:
-                      </a>
-                    </h3>
-                  </div>
-                </div>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  At OMDYS International LLP, we understand the importance of
-                  quality and reliability in electronic components. That's why
-                  we source our products from reputable manufacturers and
-                  authorized distributors known for their commitment to
-                  excellence and adherence to industry standards.
-                </p>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  Before adding any product to our catalog, our team of experts
-                  conducts rigorous quality assurance checks to ensure that each
-                  component meets our stringent criteria for performance,
-                  reliability, and durability.
-                </p>
+        {/* <div className="prj-post mb-2"> */}
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-8">
+              <div className="proj-data">
+                <h3 className="mt-4">
+                  <a href="project-detail.html">Contact Us:</a>
+                </h3>
               </div>
             </div>
+            <p className="m-4" style={{ fontSize: '20px' }}>
+              Ready to experience the difference with OMDYS International, Get
+              in touch with us today to discuss your requirements, request a
+              quote, or learn more about our products and services. Our
+              dedicated team is here to assist you every step of the way and
+              help you find the perfect electronic components for your projects
+              and productions.
+            </p>
+            <p className="m-4" style={{ fontSize: '20px' }}>
+              Thank you for choosing OMDYS International LLP as your trusted
+              partner in electronic component procurement and sourcing. We look
+              forward to serving you!
+            </p>
           </div>
-          <div className="prj-post mb-2">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-lg-8">
-                  <div className="proj-data">
-                    <h3 className="mt-4">
-                      <a href="project-detail.html">Contact Us:</a>
-                    </h3>
-                  </div>
-                </div>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  Ready to experience the difference with OMDYS International,
-                  Get in touch with us today to discuss your requirements,
-                  request a quote, or learn more about our products and
-                  services. Our dedicated team is here to assist you every step
-                  of the way and help you find the perfect electronic components
-                  for your projects and productions.
-                </p>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  Thank you for choosing OMDYS International LLP as your trusted
-                  partner in electronic component procurement and sourcing. We
-                  look forward to serving you!
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
+        {/* </div> */}
+        {/* </section> */}
         {/* </div>
         </div> */}
       </section>

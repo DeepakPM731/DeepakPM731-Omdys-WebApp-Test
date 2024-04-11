@@ -4,6 +4,10 @@ const ActivityThree = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const styles = {
+    height: '250px',
+  };
   return (
     <>
       <div>
@@ -50,6 +54,18 @@ const ActivityThree = () => {
                 <h3 className="mb-5 text-center" style={{ fontSize: '48px' }}>
                   Wide Range of Products
                 </h3>
+                <figure
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <img
+                    src="assets/svg4/industrial construction tools and equipment (2).svg"
+                    alt="Our Project One Image 1"
+                  />
+                </figure>
+                <br />
                 {/* <p style={{ textAlign: 'justify' }}> */}
                 <p style={{ fontSize: '20px', textAlign: 'justify' }}>
                   We offer a broad selection of tools and equipment, ensuring
@@ -74,9 +90,285 @@ const ActivityThree = () => {
         </div>
       </div>
 
+      {/* ============================================================================== */}
+      <section className="gap innovation">
+        <div className="heading">
+          {/* <div className="container" style={{ textAlign: 'justify' }}>
+            <p style={{ fontSize: '20px', textAlign: 'justify' }}>
+              Welcome to our Electronics Components Sourcing wing, your one-stop
+              destination for all your electronic component needs. We specialize
+              in sourcing and trading a wide range of electronic components to
+              meet the diverse requirements of our clients.
+            </p>
+            <br />
+            <p style={{ fontSize: '20px', textAlign: 'justify' }}>
+              At OMDYS International LLP, we understand the critical role that
+              electronic components play in today's technology-driven world.
+              Whether you are a small-scale electronics hobbyist or a
+              large-scale manufacturer, we have the products and services to
+              support your projects and businesses.
+            </p>
+          </div> */}
+          {/* <br /> */}
+          <div className="row align-items-center" style={{ marginTop: '-5%' }}>
+            <div className="col-lg-12">
+              <div className="proj-data">
+                <h1 className="mb-4">
+                  <a href="" style={{ color: 'black' }}>
+                    List of tools that we provide:
+                  </a>
+                </h1>
+              </div>
+              <div className="container">
+                {/* <p className="m-4" style={{ fontSize: '20px' }}>
+                  At OMDYS International LLP, we offer an extensive range of
+                  electronic components to cater to diverse needs and
+                  applications. Our product catalogue includes:
+                </p> */}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row" style={{ marginBottom: '-5%' }}>
+            <ul>
+              <li style={styles} className="ath-innov-ul-li">
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        // marginTop: '5%',
+                      }}
+                    >
+                      Hand Tools
+                    </p>
+                    <br />
+                    <b>{/* <b> Integrated Circuits (ICs):</b> */}</b>
+                  </span>{' '}
+                  This includes hammers, screwdrivers, pliers, wrenches, and
+                  tape measures.
+                  <br />
+                  <br />
+                </p>
+              </li>
+              <li style={styles}>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '20px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        // marginTop: '5%',
+                      }}
+                    >
+                      Power Tools
+                    </p>
+                    <br />
+                    <b> {/* <b> Passive Components:</b> */}</b>
+                  </span>{' '}
+                  Drills, circular saws, jigsaws, and angle grinders are some
+                  examples.
+                </p>
+              </li>
+              <li style={styles}>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '20px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        // marginTop: '13%',
+                      }}
+                    >
+                      Gardening Tools
+                    </p>
+                    <br />
+                    <b> {/* <b>Active Components:</b> */}</b>
+                  </span>{' '}
+                  Shovels, rakes, pruning shears, and garden hoses are typically
+                  available.
+                </p>
+              </li>
+              <li style={styles}>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        // marginTop: '10%',
+                      }}
+                    >
+                      Electrical Tools and Supplies
+                    </p>
+                    <br />
+                    <b>{/* <b>Connectors and Cables: </b> */}</b>
+                  </span>
+                  This includes wire strippers, voltage testers, extension
+                  cords, and light bulbs.
+                  <br />
+                  <br />
+                </p>
+              </li>
+              <li style={styles}>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        // marginTop: '12%',
+                      }}
+                    >
+                      Plumbing Tools and Supplies
+                    </p>
+                    <br /> <b>{/* <b>Sensors and Modules: </b> */}</b>
+                  </span>
+                  Pipe wrenches, pipe cutters, washers, and sealants can be
+                  found.
+                  <br />
+                  <br />
+                </p>
+              </li>
+              <li style={styles}>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '-6%',
+                      }}
+                    >
+                      Safety Equipment
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> LEDs and Displays: </b> */}</b>
+                  </span>
+                  Safety glasses, work gloves, earplugs, and hard hats are often
+                  sold.
+                </p>
+              </li>
+              <li style={styles}>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '20px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        // marginTop: '5%',
+                      }}
+                    >
+                      Fasteners
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> Power Supplies and Batteries: </b> */}</b>
+                  </span>
+                  Nails, screws, nuts, and bolts of various sizes are typically
+                  available.
+                </p>
+              </li>
+              <li style={styles}>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '20px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        // marginTop: '5%',
+                      }}
+                    >
+                      Building Materials
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> Switches and Relays: </b> */}</b>
+                  </span>
+                  This can include items like cement, sand, bricks, and tiles.
+                </p>
+              </li>
+              <li style={styles}>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '20px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        // marginTop: '5%',
+                      }}
+                    >
+                      Hardware Accessories
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> Semiconductors: </b> */}</b>
+                  </span>
+                  Items such as hinges, handles, hooks, and shelf brackets are
+                  usually available.
+                </p>
+              </li>
+            </ul>
+            <p className="m-4" style={{ fontSize: '20px' }}>
+              Remember, the type of PPE needed can vary depending on the
+              specific job and work environment. Always ensure that the PPE is
+              appropriate for the task at hand, fits properly, and meets
+              industry safety standards. Trust Omdys International Group for all
+              your personal protection and safety equipment needs.
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* ============================================================================== */}
+
       {/* starts */}
-      {/* <section className="gap no-top project-completed our-projects-one"> */}
-      <section className=" no-top project-completed our-projects-one">
+      <section
+        className="gap no-top project-completed our-projects-one"
+        style={{ marginBottom: '-6.5%' }}
+      >
+        {/* <section className=" no-top project-completed our-projects-one">
         <div className="prj-post mb-2">
           <div className="container">
             <div className="row align-items-center">
@@ -86,18 +378,18 @@ const ActivityThree = () => {
                     <a href="project-detail.html">
                       List of tools that we provide:
                     </a>
-                  </h3>
-                  {/* <p>
+                  </h3> */}
+        {/* <p>
                     We provide high-quality eco-solvent inks that are perfect
                     for a wide range of printing tasks. Our inks ensure vibrant
                     colors and excellent adhesion on various media types.
                   </p> */}
 
-                  {/* ----------------------- */}
+        {/* ----------------------- */}
 
-                  {/* ----------------------- */}
+        {/* ----------------------- */}
 
-                  <div
+        {/* <div
                     className="loc-date"
                     style={{
                       height: '',
@@ -163,9 +455,9 @@ const ActivityThree = () => {
                       </ol>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div className="col-lg-6">
+                </div> */}
+        {/* </div> */}
+        {/* <div className="col-lg-6">
                 <div className="data">
                   <figure>
                     <img
@@ -174,17 +466,17 @@ const ActivityThree = () => {
                     />
                   </figure>
                 </div>
-              </div>
-              <p className="m-4" style={{ fontSize: '20px' }}>
+              </div> */}
+        {/* <p className="m-4" style={{ fontSize: '20px' }}>
                 Remember, the type of PPE needed can vary depending on the
                 specific job and work environment. Always ensure that the PPE is
                 appropriate for the task at hand, fits properly, and meets
                 industry safety standards. Trust Omdys International Group for
                 all your personal protection and safety equipment needs.
               </p>
-            </div>
-          </div>
-        </div>
+            </div> */}
+        {/* </div> */}
+        {/* </div> */}
         {/* <div className="prj-post">
           <div className="container">
             <div className="row align-items-center">

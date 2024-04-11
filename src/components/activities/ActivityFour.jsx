@@ -1,9 +1,9 @@
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 const ActivityFour = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  //   useEffect(() => {
+  //     window.scrollTo(0, 0);
+  //   }, []);
   return (
     <>
       <div>
@@ -76,11 +76,677 @@ const ActivityFour = () => {
 
       {/* starts */}
       {/* <section className="gap no-top project-completed our-projects-one"> */}
+
+      {/* ============================================ */}
+      <section className="gap innovation" style={{ marginTop: '-5%' }}>
+        <div className="heading">
+          <br />
+          <div className="row align-items-center">
+            <div className="col-lg-12"></div>
+          </div>
+        </div>
+
+        <div className="container">
+          <h2 style={{ textAlign: 'center' }}>Chemical Products</h2>
+          <br />
+          <div className="row">
+            <ul>
+              <li style={{ overflow: '' }}>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '5%',
+                      }}
+                    >
+                      Integrated Circuits (ICs)
+                    </p>
+                    <br />
+                    <b>{/* <b> Integrated Circuits (ICs):</b> */}</b>
+                  </span>{' '}
+                  From microcontrollers to application-specific ICs, we carry a
+                  wide variety of integrated circuits from leading
+                  manufacturers.
+                  <br />
+                  <br />
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '5%',
+                      }}
+                    >
+                      Passive Components
+                    </p>
+                    <br />
+                    <b> {/* <b> Passive Components:</b> */}</b>
+                  </span>{' '}
+                  Our selection of passive components includes resistors,
+                  capacitors, inductors, and filters to support various circuit
+                  designs and applications.
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '13%',
+                      }}
+                    >
+                      Active Components
+                    </p>
+                    <br />
+                    <b> {/* <b>Active Components:</b> */}</b>
+                  </span>{' '}
+                  We stock a comprehensive range of active components such as
+                  transistors, diodes, thyristors, and voltage regulators to
+                  meet your requirements for signal processing and
+                  amplification.
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '10%',
+                      }}
+                    >
+                      Connectors and Cables
+                    </p>
+                    <br />
+                    <b>{/* <b>Connectors and Cables: </b> */}</b>
+                  </span>
+                  Whether you need standard connectors or custom cable
+                  assemblies, we offer a diverse range of connectors, cables,
+                  and harnesses for seamless integration into your projects.
+                  <br />
+                  <br />
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '12%',
+                      }}
+                    >
+                      Sensors and Modules
+                    </p>
+                    <br /> <b>{/* <b>Sensors and Modules: </b> */}</b>
+                  </span>
+                  Explore our selection of sensors and sensor modules for
+                  measuring and monitoring various environmental parameters,
+                  including temperature, humidity, pressure, and motion.
+                  <br />
+                  <br />
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '5%',
+                      }}
+                    >
+                      LEDs and Displays
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> LEDs and Displays: </b> */}</b>
+                  </span>
+                  Illuminate your projects with our selection of LEDs, LCD
+                  displays, OLED displays, and segment displays available in
+                  different sizes, colors, and configurations.
+                </p>
+              </li>
+              <li>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '40px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '5%',
+                      }}
+                    >
+                      Power Supplies and Batteries
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> Power Supplies and Batteries: </b> */}</b>
+                  </span>
+                  Ensure reliable power delivery with our range of power
+                  supplies, batteries, chargers, and DC-DC converters designed
+                  for diverse applications.
+                </p>
+              </li>
+              <li>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '40px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '5%',
+                      }}
+                    >
+                      Switches and Relays
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> Switches and Relays: </b> */}</b>
+                  </span>
+                  Find the right switches, relays, and contactors for your
+                  control and automation needs, including tactile switches,
+                  rocker switches, and electromechanical relays
+                </p>
+              </li>
+              <li>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '40px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '5%',
+                      }}
+                    >
+                      Semiconductors
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> Semiconductors: </b> */}</b>
+                  </span>
+                  Browse through our collection of discrete semiconductors,
+                  including power MOSFETs, IGBTs, Schottky diodes, and voltage
+                  regulators, for efficient power management and control.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      {/* ============================================ */}
+
+      <section className="gap innovation" style={{ marginTop: '-12%' }}>
+        <div className="heading">
+          <br />
+          <div className="row align-items-center">
+            <div className="col-lg-12"></div>
+          </div>
+        </div>
+
+        <div className="container">
+          <h2 style={{ textAlign: 'center' }}>Petroleum Products</h2>
+          <div className="container">
+            <p
+              className="m-4"
+              style={{ fontSize: '20px', textAlign: 'center' }}
+            >
+              We offer a wide range of petroleum products, including crude oil,
+              gasoline, diesel, jet fuel, and heating oil. Our products are
+              sourced from reliable suppliers, ensuring quality and consistency.
+            </p>
+            <br />
+            <p style={{ fontSize: '24px', textAlign: 'center' }}>
+              <b>
+                Here is a list of major materials that we can provide / supply
+                to you:
+              </b>
+            </p>
+            <br />
+          </div>
+          <div className="row">
+            <ul>
+              <li style={{ overflow: '' }}>
+                <i className="fa-solid fa-check" style={{ marginTop: '5px' }} />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        // marginTop: '1%',
+                      }}
+                    >
+                      Drilling Equipment
+                    </p>
+                    <br />
+                    <b>{/* <b> Integrated Circuits (ICs):</b> */}</b>
+                  </span>{' '}
+                  This includes drill pipes, drill collars, and drilling bits.
+                  <br />
+                  <br />
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" style={{ marginTop: '5px' }} />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '7%',
+                      }}
+                    >
+                      Safety Equipment
+                    </p>
+                    <br />
+                    <b> {/* <b> Passive Components:</b> */}</b>
+                  </span>{' '}
+                  Personal Protective Equipment (PPE) such as helmets, safety
+                  shoes, gloves, and safety harnesses are essential for the
+                  safety of the workers.
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" style={{ marginTop: '5px' }} />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '-8%',
+                      }}
+                    >
+                      Valves and Pumps
+                    </p>
+                    <br />
+                    <b> {/* <b>Active Components:</b> */}</b>
+                  </span>{' '}
+                  These are used for controlling the flow of oil and gas in the
+                  refinery or rig.
+                </p>
+              </li>
+              <li>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '10px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '12%',
+                      }}
+                    >
+                      Pipes and Tubing
+                    </p>
+                    <br />
+                    <b>{/* <b>Connectors and Cables: </b> */}</b>
+                  </span>
+                  These are used for transporting oil and gas from the well to
+                  the processing facilities.
+                  <br />
+                  <br />
+                </p>
+              </li>
+              <li>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '12px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '5%',
+                      }}
+                    >
+                      Seals and Gaskets
+                    </p>
+                    <br /> <b>{/* <b>Sensors and Modules: </b> */}</b>
+                  </span>
+                  These are used to prevent leaks in the various equipment and
+                  piping systems.
+                  <br />
+                  <br />
+                </p>
+              </li>
+              <li>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '12px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '5%',
+                      }}
+                    >
+                      Catalysts
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> LEDs and Displays: </b> */}</b>
+                  </span>
+                  These are used in various refining processes to speed up
+                  chemical reactions.
+                </p>
+              </li>
+              <li>
+                <i
+                  className="fa-solid fa-check"
+                  style={{ marginTop: '10px' }}
+                />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '5%',
+                      }}
+                    >
+                      Chemicals
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> Power Supplies and Batteries: </b> */}</b>
+                  </span>
+                  Various chemicals are used in the drilling process, for
+                  treating oil and gas, and for maintaining equipment
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" style={{ marginTop: '5px' }} />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '-4%',
+                      }}
+                    >
+                      Electrical Equipment
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> Switches and Relays: </b> */}</b>
+                  </span>
+                  This includes generators, motors, cables, and lighting
+                  equipment.
+                </p>
+              </li>
+              <li>
+                <i className="fa-solid fa-check" style={{ marginTop: '5px' }} />
+                <p>
+                  <span style={{ color: 'green' }}>
+                    <p
+                      style={{
+                        fontSize: '20px',
+                        fontWeight: '800',
+                        textAlign: 'center',
+                        color: 'green',
+                        marginTop: '12%',
+                      }}
+                    >
+                      Instrumentation Equipment
+                    </p>{' '}
+                    <br />
+                    <b>{/* <b> Semiconductors: </b> */}</b>
+                  </span>
+                  Instruments for measuring pressure, temperature, flow rate,
+                  and other parameters are crucial for the safe and efficient
+                  operation of the refinery or rig.
+                </p>
+              </li>
+              <div className="container">
+                <p
+                  className="m-4"
+                  style={{ fontSize: '16px', textAlign: 'center' }}
+                >
+                  Please note that the specific materials required can vary
+                  depending on the type of refinery or rig, the nature of the
+                  operations, and the specific requirements of the project.
+                </p>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================================= */}
+      <div style={{ marginTop: '-2%' }}>
+        <section className="gap no-top core-values">
+          <div className="container" style={{ textAlign: 'center' }}>
+            <h3 className="mb-5 mt-5 text-center" style={{ fontSize: '48px' }}>
+              PETROCHEMICAL PRODUCTS
+            </h3>
+            <p style={{ fontSize: '20px' }}>
+              Our portfolio of petrochemical products includes ethylene,
+              propylene, butadiene, and aromatics. These are essential raw
+              materials for a variety of industries, including plastics, rubber,
+              and synthetic fibers.
+            </p>
+            <br />
+            <p style={{ fontSize: '20px', textAlign: 'center' }}>
+              <b>
+                Here is a list of common materials required for Petrochemical
+                companies:
+              </b>
+            </p>
+            {/* <br /> */}
+            {/* <div className="row"> */}
+            <ul>
+              <li>
+                <div className="data">
+                  <h3> Catalysts</h3>
+                  <p>
+                    Catalysts are substances that speed up chemical reactions
+                    without being consumed in the process. They are crucial in
+                    many petrochemical processes.
+                  </p>
+                </div>
+                <div className="image">
+                  <figure>
+                    <img
+                      className="w-100"
+                      src="assets/svg4/Medical PPE 1.svg"
+                      alt="Core Values Image 1"
+                    />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div className="image">
+                  <figure>
+                    <img
+                      className="w-100"
+                      src="assets/svg4/Medical PPE 1.svg"
+                      alt="Core Values Image 1"
+                    />
+                  </figure>
+                </div>
+                <div className="data">
+                  <h3> Chemicals</h3>
+                  <p>
+                    A variety of chemicals are used in the petrochemical
+                    industry for various processes. These include acids, bases,
+                    solvents, and salts.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="data">
+                  <h3>Pipes and Valves</h3>
+                  <p>
+                    These are used for transporting raw materials,
+                    intermediates, and finished products within the plant.
+                  </p>
+                </div>
+                <div className="image">
+                  <figure>
+                    <img
+                      className="w-100"
+                      src="assets/svg4/petroleum and petrochemical products (2).svg"
+                      alt="Core Values Image 1"
+                    />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div className="image">
+                  <figure>
+                    <img
+                      className="w-100"
+                      src="assets/svg4/Medical PPE 1.svg"
+                      alt="Core Values Image 1"
+                    />
+                  </figure>
+                </div>
+                <div className="data">
+                  <h3>Tanks and Vessels</h3>
+                  <p>
+                    These are used for storing raw materials, intermediates, and
+                    finished products.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="data">
+                  <h3>Safety Equipment</h3>
+                  <p>
+                    Personal Protective Equipment (PPE) such as helmets, safety
+                    shoes, gloves, and safety harnesses are essential for the
+                    safety of the workers.
+                  </p>
+                </div>
+                <div className="image">
+                  <figure>
+                    <img
+                      className="w-100"
+                      src="assets/svg4/petroleum and petrochemical products (2).svg"
+                      alt="Core Values Image 1"
+                    />
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <div className="image">
+                  <figure>
+                    <img
+                      className="w-100"
+                      src="assets/svg4/Medical PPE 1.svg"
+                      alt="Core Values Image 1"
+                    />
+                  </figure>
+                </div>
+                <div className="data">
+                  <h3>Instrumentation Equipment</h3>
+                  <p>
+                    Instruments for measuring pressure, temperature, flow rate,
+                    and other parameters are crucial for the safe and efficient
+                    operation of the plant.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="data">
+                  <h3>Instrumentation Equipment</h3>
+                  <p>
+                    Instruments for measuring pressure, temperature, flow rate,
+                    and other parameters are crucial for the safe and efficient
+                    operation of the plant.
+                  </p>
+                </div>
+                <div className="image">
+                  <figure>
+                    <img
+                      className="w-100"
+                      src="assets/svg4/Medical PPE 1.svg"
+                      alt="Core Values Image 1"
+                    />
+                  </figure>
+                </div>
+              </li>
+            </ul>
+            {/* </div> */}
+          </div>
+        </section>
+      </div>
+
+      {/* ============================================================= */}
+
       <section className=" no-top project-completed our-projects-one">
-        <div className="prj-post mb-2">
+        {/* <div className="prj-post mb-2">
           <div className="container">
             <h3 className="mb-5 mt-5 text-center" style={{ fontSize: '48px' }}>
-              PETROLEUM PRODUCTS
+              Petroleum Products
             </h3>
             <p style={{ fontSize: '20px' }}>
               We offer a wide range of petroleum products, including crude oil,
@@ -88,6 +754,7 @@ const ActivityFour = () => {
               sourced from reliable suppliers, ensuring quality and consistency.
             </p>
             <br />
+
             <p>
               <b>
                 Here is a list of major materials that we can provide / supply
@@ -97,21 +764,7 @@ const ActivityFour = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="proj-data">
-                  {/* <h3 className="mt-4">
-                    <a href="project-detail.html">
-                      Here is a list of major materials that we can provide /
-                      supply to you:
-                    </a>
-                  </h3> */}
-                  {/* <p>
-                    We provide high-quality eco-solvent inks that are perfect
-                    for a wide range of printing tasks. Our inks ensure vibrant
-                    colors and excellent adhesion on various media types.
-                  </p> */}
-
-                  {/* ----------------------- */}
-
-                  {/* ----------------------- */}
+                  
 
                   <div
                     className="loc-date"
@@ -199,8 +852,8 @@ const ActivityFour = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div className="prj-post mb-2">
+        </div> */}
+        {/* <div className="prj-post mb-2">
           <div className="container">
             <h3 className="mb-5 mt-5 text-center" style={{ fontSize: '48px' }}>
               PETROCHEMICAL PRODUCTS
@@ -217,27 +870,27 @@ const ActivityFour = () => {
                 Here is a list of common materials required for Petrochemical
                 companies:
               </b>
-            </p>
-            <div className="row align-items-center">
+            </p> */}
+        {/* <div className="row align-items-center">
               <div className="col-lg-6">
-                <div className="proj-data">
-                  {/* <h3 className="mt-4">
+                <div className="proj-data"> */}
+        {/* <h3 className="mt-4">
                     <a href="project-detail.html">
                       Here is a list of major materials that we can provide /
                       supply to you:
                     </a>
                   </h3> */}
-                  {/* <p>
+        {/* <p>
                     We provide high-quality eco-solvent inks that are perfect
                     for a wide range of printing tasks. Our inks ensure vibrant
                     colors and excellent adhesion on various media types.
                   </p> */}
 
-                  {/* ----------------------- */}
+        {/* ----------------------- */}
 
-                  {/* ----------------------- */}
+        {/* ----------------------- */}
 
-                  <div
+        {/* <div
                     className="loc-date"
                     style={{
                       height: '',
@@ -314,7 +967,7 @@ const ActivityFour = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <div className="prj-post">
           <div className="container">
@@ -347,11 +1000,11 @@ const ActivityFour = () => {
           </div>
         </div> */}
 
-        <div className="prj-post mb-2">
+        <div className="prj-post mb-2" style={{ marginTop: '-7.6rem' }}>
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6">
-                <div className="proj-data">
+                <div className="proj-data" style={{ marginTop: '1rem' }}>
                   <h3 className="mt-4">
                     <a href="project-detail.html">Quality Assurance</a>
                   </h3>

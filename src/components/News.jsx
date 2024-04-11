@@ -26,12 +26,12 @@ const News = () => {
   // }, []);
 
   useEffect(() => {
-    const corsAnywhereUrl = 'https://cors-anywhere.herokuapp.com/';
+    // const corsAnywhereUrl = 'https://cors-anywhere.herokuapp.com/';
     const apiUrl =
       'https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=ebb12aa1ab2f471b9c3e45d77717b73c';
 
     axios
-      .get(corsAnywhereUrl + apiUrl)
+      .get(apiUrl)
       .then((response) => {
         console.log(response.data);
         setData(response.data.articles);
@@ -110,7 +110,7 @@ const News = () => {
                           height={'280px'}
                         />
                       </figure>
-                      <a href={news.url}>
+                      <a href={news.url} target="_blank">
                         <i className="fa-solid fa-angles-right" />
                       </a>
                     </div>
@@ -118,7 +118,7 @@ const News = () => {
                       <span className="blog-date">{news.publishedAt}</span>
                       {/* <span className="blog-date">January 9, 2022</span> */}
                       <h2>
-                        <a href={news.url}>{news.title}</a>
+                        <a href={news.url} target='_blank'>{news.title}</a>
                       </h2>
                       <div className="blog-author d-flex-all justify-content-start">
                         <div className="author-img">
