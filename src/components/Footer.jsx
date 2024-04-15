@@ -1,6 +1,27 @@
 import { Link } from 'react-router-dom';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Footer = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_kn4xgji', 'template_6ax7wdj', form.current, {
+        publicKey: 'IC9_7chZnJVX9bo8Z',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          e.target.reset();
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        }
+      );
+  };
   return (
     <>
       <footer className="footer-style-one">
@@ -193,7 +214,7 @@ const Footer = () => {
                   <p>
                     Signup for our weekly newsletter to get the latest news.
                   </p>
-                  <form>
+                  <form ref={form} onSubmit={sendEmail}>
                     <input
                       type="email"
                       name="email"

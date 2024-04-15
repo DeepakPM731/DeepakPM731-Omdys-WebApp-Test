@@ -6,6 +6,7 @@ const News = () => {
   const [data, setData] = useState([]);
 
   const key = import.meta.env.VITE_API_KEY;
+
   // useEffect(() => {
   //   axios
   //     .get(
@@ -28,8 +29,7 @@ const News = () => {
 
   useEffect(() => {
     // const corsAnywhereUrl = 'https://cors-anywhere.herokuapp.com/';
-    const apiUrl =
-      `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=${key}`;
+    const apiUrl = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=${key}`;
 
     axios
       .get(apiUrl)

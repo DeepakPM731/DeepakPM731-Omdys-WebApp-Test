@@ -46,7 +46,7 @@ const ActivityOne = () => {
       {/* ============================================================================= */}
       <div style={{ marginTop: '20px' }}>
         <section className="gap no-top core-values">
-          <div className="container">
+          <div className="container" style={{ marginBottom: '-5%' }}>
             <br />
             <p
               className=""
