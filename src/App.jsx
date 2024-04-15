@@ -23,10 +23,9 @@ import ActivityFive from './components/activities/ActivityFive';
 import ActivitySix from './components/activities/ActivitySix';
 import TeamPage from './components/TeamPage';
 import ActivityFour from './components/activities/ActivityFour';
-// import ContactPage from './components/ContactPage';
+import ContactPage from './components/ContactPage';
 import News from './components/News';
 // import Contact from './components/Contact';
-import ContactPage from './components/contact/ContactPage';
 const App = () => {
   return (
     <>
