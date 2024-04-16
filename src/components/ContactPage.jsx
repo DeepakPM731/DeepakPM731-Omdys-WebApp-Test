@@ -207,7 +207,7 @@ const ContactPage = () => {
                   </span>
                   <h2>
                     Welcome - Reach Out to Us with Your Inquiries.
-                    We're Here to Help!
+                    We&apos;re Here to Help!
                   </h2>
                   <p>
                     Have questions or want to chat? Fill out our contact form,
