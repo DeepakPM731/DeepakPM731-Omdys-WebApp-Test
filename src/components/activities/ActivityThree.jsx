@@ -131,7 +131,7 @@ const ActivityThree = () => {
         </div>
 
         <div className="container">
-          <div className="row" style={{ marginBottom: '-5%' }}>
+          <div className="row" style={{ marginBottom: '-8%' }}>
             <ul>
               <li style={styles} className="ath-innov-ul-li">
                 <i className="fa-solid fa-check" />

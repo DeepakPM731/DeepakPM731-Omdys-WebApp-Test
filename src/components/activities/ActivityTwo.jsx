@@ -70,7 +70,10 @@ const ActivityTwo = () => {
           // height={'500px'}
         />
       </div>
-      <section className="gap innovation" style={{ marginTop: '-5%' }}>
+      <section
+        className="gap innovation"
+        style={{ marginTop: '-5%', marginBottom: '-7%' }}
+      >
         <div className="heading">
           <div className="container" style={{ textAlign: 'justify' }}>
             <p style={{ fontSize: '20px', textAlign: 'justify' }}>
