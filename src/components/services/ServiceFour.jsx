@@ -62,7 +62,7 @@ const ServiceFour = () => {
                 {' '}
                 {/* <div className="data"> */}
                 <h2>Risk Management</h2>
-                <ul>
+                <ul data-aos="fade-down">
                   <li>
                     <i className="fa-solid fa-check" />
                     <p>

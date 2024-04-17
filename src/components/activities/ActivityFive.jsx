@@ -98,7 +98,7 @@ const ActivityFive = () => {
 
         <div className="prj-post mb-2">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center" data-aos="fade-up-left">
               <div className="col-lg-12">
                 <div className="proj-data">
                   <h3 className="mt-4">
@@ -134,7 +134,7 @@ const ActivityFive = () => {
         <section className=" no-top project-completed our-projects-one">
           <div className="prj-post mb-2">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row align-items-center" data-aos="fade-up-right">
                 <div className="col-lg-8">
                   <div className="proj-data">
                     <h3 className="mt-4">
@@ -166,7 +166,7 @@ const ActivityFive = () => {
           </div>
           <div className="prj-post mb-2">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row align-items-center" data-aos="fade-up-left">
                 <div className="col-lg-8">
                   <div className="proj-data">
                     <h3 className="mt-4">
@@ -193,7 +193,7 @@ const ActivityFive = () => {
           </div>
           <div className="prj-post mb-2">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row align-items-center" data-aos="fade-up-right">
                 <div className="col-lg-8">
                   <div className="proj-data">
                     <h3 className="mt-4">
@@ -241,7 +241,7 @@ const ActivityFive = () => {
           </div>
           <div className="prj-post mb-2">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row align-items-center" data-aos="fade-up-left">
                 <div className="col-lg-8">
                   <div className="proj-data">
                     <h3 className="mt-4">

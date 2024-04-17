@@ -56,6 +56,7 @@ const ActivityTwo = () => {
 
       <div
         // className="container"
+        data-aos="zoom-in"
         style={{
           display: 'flex',
           justifyContent: 'center',
@@ -76,14 +77,14 @@ const ActivityTwo = () => {
       >
         <div className="heading">
           <div className="container" style={{ textAlign: 'justify' }}>
-            <p style={{ fontSize: '20px', textAlign: 'justify' }}>
+            <p style={{ fontSize: '18px', textAlign: 'justify' }}>
               Welcome to our Electronics Components Sourcing wing, your one-stop
               destination for all your electronic component needs. We specialize
               in sourcing and trading a wide range of electronic components to
               meet the diverse requirements of our clients.
             </p>
             <br />
-            <p style={{ fontSize: '20px', textAlign: 'justify' }}>
+            <p style={{ fontSize: '18px', textAlign: 'justify' }}>
               At OMDYS International LLP, we understand the critical role that
               electronic components play in today's technology-driven world.
               Whether you are a small-scale electronics hobbyist or a
@@ -102,7 +103,7 @@ const ActivityTwo = () => {
                 </h1>
               </div>
               <div className="container">
-                <p className="m-4" style={{ fontSize: '20px' }}>
+                <p className="m-4" style={{ fontSize: '18px' }}>
                   At OMDYS International LLP, we offer an extensive range of
                   electronic components to cater to diverse needs and
                   applications. Our product catalogue includes:
@@ -115,7 +116,7 @@ const ActivityTwo = () => {
         <div className="container">
           <div className="row">
             <ul>
-              <li style={{ overflow: '' }}>
+              <li style={{ overflow: '' }} data-aos="fade-up-right">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -140,7 +141,7 @@ const ActivityTwo = () => {
                   <br />
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -163,7 +164,7 @@ const ActivityTwo = () => {
                   designs and applications.
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-up-left">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -187,7 +188,7 @@ const ActivityTwo = () => {
                   amplification.
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-up-right">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -212,7 +213,7 @@ const ActivityTwo = () => {
                   <br />
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -236,7 +237,7 @@ const ActivityTwo = () => {
                   <br />
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-up-left">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -259,7 +260,7 @@ const ActivityTwo = () => {
                   different sizes, colors, and configurations.
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-up-right">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '40px' }}
@@ -285,7 +286,7 @@ const ActivityTwo = () => {
                   for diverse applications.
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '40px' }}
@@ -311,7 +312,7 @@ const ActivityTwo = () => {
                   rocker switches, and electromechanical relays
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-up-left">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '40px' }}
@@ -582,7 +583,7 @@ const ActivityTwo = () => {
       <section className=" no-top project-completed our-projects-one">
         <div className="prj-post mb-2">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center" data-aos="fade-left">
               <div className="col-lg-8">
                 <div className="proj-data">
                   <h3 className="mt-4">
@@ -590,14 +591,14 @@ const ActivityTwo = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '20px' }}>
+              <p className="m-4" style={{ fontSize: '18px' }}>
                 At OMDYS International LLP, we understand the importance of
                 quality and reliability in electronic components. That's why we
                 source our products from reputable manufacturers and authorized
                 distributors known for their commitment to excellence and
                 adherence to industry standards.
               </p>
-              <p className="m-4" style={{ fontSize: '20px' }}>
+              <p className="m-4" style={{ fontSize: '18px' }}>
                 Before adding any product to our catalog, our team of experts
                 conducts rigorous quality assurance checks to ensure that each
                 component meets our stringent criteria for performance,
@@ -608,7 +609,7 @@ const ActivityTwo = () => {
         </div>
         {/* <div className="prj-post mb-2"> */}
         <div className="container">
-          <div className="row align-items-center">
+          <div className="row align-items-center" data-aos="fade-right">
             <div className="col-lg-8">
               <div className="proj-data">
                 <h3 className="mt-4">
@@ -616,7 +617,7 @@ const ActivityTwo = () => {
                 </h3>
               </div>
             </div>
-            <p className="m-4" style={{ fontSize: '20px' }}>
+            <p className="m-4" style={{ fontSize: '18px' }}>
               Ready to experience the difference with OMDYS International, Get
               in touch with us today to discuss your requirements, request a
               quote, or learn more about our products and services. Our
@@ -624,7 +625,7 @@ const ActivityTwo = () => {
               help you find the perfect electronic components for your projects
               and productions.
             </p>
-            <p className="m-4" style={{ fontSize: '20px' }}>
+            <p className="m-4" style={{ fontSize: '18px' }}>
               Thank you for choosing OMDYS International LLP as your trusted
               partner in electronic component procurement and sourcing. We look
               forward to serving you!

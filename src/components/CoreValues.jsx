@@ -44,10 +44,7 @@ const CoreValues = () => {
           <section className="gap no-top core-values">
             <div className="heading">
               <figure>
-                <img
-                  src="assets/images/heading-icon.png"
-                  alt="Heading Icon"
-                />
+                <img src="assets/images/heading-icon.png" alt="Heading Icon" />
               </figure>
               <span>MAKE A DIFFERENCE</span>
               <h2>Our Core Values</h2>
@@ -66,7 +63,7 @@ const CoreValues = () => {
                         transaction
                       </p>
                     </div>
-                    <div className="image">
+                    <div className="image" data-aos="fade-up-left">
                       <figure>
                         <img
                           className="w-100"
@@ -77,7 +74,7 @@ const CoreValues = () => {
                     </div>
                   </li>
                   <li>
-                    <div className="image">
+                    <div className="image" data-aos="fade-up-right">
                       <figure>
                         <img
                           className="w-100"
@@ -108,7 +105,7 @@ const CoreValues = () => {
                         extension of your team.
                       </p>
                     </div>
-                    <div className="image">
+                    <div className="image" data-aos="fade-up-left">
                       <figure>
                         <img
                           className="w-100"
@@ -137,7 +134,7 @@ const CoreValues = () => {
               <div className="container">
                 <div className="row">
                   <ul>
-                    <li style={{ overflow: '' }}>
+                    <li style={{ overflow: '' }} data-aos="fade-up-left">
                       <i className="fa-solid fa-check" />
                       <p>
                         <span style={{ color: 'green' }}>
@@ -154,7 +151,7 @@ const CoreValues = () => {
                         <br />
                       </p>
                     </li>
-                    <li>
+                    <li data-aos="fade-down">
                       <i className="fa-solid fa-check" />
                       <p>
                         <span style={{ color: 'green' }}>
@@ -170,7 +167,7 @@ const CoreValues = () => {
                         sourcing practices, and environmental impact.
                       </p>
                     </li>
-                    <li>
+                    <li data-aos="fade-up-right">
                       <i className="fa-solid fa-check" />
                       <p>
                         <span style={{ color: 'green' }}>
@@ -186,7 +183,7 @@ const CoreValues = () => {
                         significant cost savings and improved profitability.
                       </p>
                     </li>
-                    <li>
+                    <li data-aos="fade-up-left">
                       <i className="fa-solid fa-check" />
                       <p>
                         <span style={{ color: 'green' }}>
@@ -202,7 +199,7 @@ const CoreValues = () => {
                         <br />
                       </p>
                     </li>
-                    <li>
+                    <li data-aos="fade-down">
                       <i className="fa-solid fa-check" />
                       <p>
                         <span style={{ color: 'green' }}>
@@ -219,7 +216,7 @@ const CoreValues = () => {
                         <br />
                       </p>
                     </li>
-                    <li>
+                    <li data-aos="fade-up-right">
                       <i className="fa-solid fa-check" />
                       <p>
                         <span style={{ color: 'green' }}>
@@ -244,7 +241,7 @@ const CoreValues = () => {
 
           <section className="cta-section">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row align-items-center" data-aos="fade-left">
                 <div className="col-lg-7">
                   <div className="cta-data">
                     <h2>Ready to work together?</h2>

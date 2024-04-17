@@ -62,7 +62,7 @@ const ServiceOne = () => {
               <div className="data" style={{ marginTop: '-150px' }}>
                 {/* <div className="data"> */}
                 <h2>Supplier Identification & Sourcing</h2>
-                <ul>
+                <ul data-aos="fade-down">
                   <li>
                     <i className="fa-solid fa-check" />
                     <p>

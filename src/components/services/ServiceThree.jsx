@@ -62,7 +62,7 @@ const ServiceThree = () => {
                 {' '}
                 {/* <div className="data"> */}
                 <h2>Logistics & Shipping</h2>
-                <ul>
+                <ul data-aos="fade-down">
                   <li>
                     <i className="fa-solid fa-check" />
                     <p>

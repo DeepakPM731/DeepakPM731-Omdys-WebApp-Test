@@ -67,7 +67,7 @@ const ActivityThree = () => {
                 </figure>
                 <br />
                 {/* <p style={{ textAlign: 'justify' }}> */}
-                <p style={{ fontSize: '20px', textAlign: 'justify' }}>
+                <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                   We offer a broad selection of tools and equipment, ensuring
                   that our customers have the best resources tailored to their
                   unique needs. Our unwavering commitment to quality and
@@ -133,7 +133,11 @@ const ActivityThree = () => {
         <div className="container">
           <div className="row" style={{ marginBottom: '-8%' }}>
             <ul>
-              <li style={styles} className="ath-innov-ul-li">
+              <li
+                style={styles}
+                className="ath-innov-ul-li"
+                data-aos="fade-up-left"
+              >
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -157,7 +161,7 @@ const ActivityThree = () => {
                   <br />
                 </p>
               </li>
-              <li style={styles}>
+              <li style={styles} data-aos="fade-down">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '20px' }}
@@ -182,7 +186,7 @@ const ActivityThree = () => {
                   examples.
                 </p>
               </li>
-              <li style={styles}>
+              <li style={styles} data-aos="fade-up-right">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '20px' }}
@@ -207,7 +211,7 @@ const ActivityThree = () => {
                   available.
                 </p>
               </li>
-              <li style={styles}>
+              <li style={styles} data-aos="fade-up-left">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -231,7 +235,7 @@ const ActivityThree = () => {
                   <br />
                 </p>
               </li>
-              <li style={styles}>
+              <li style={styles} data-aos="fade-down">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -254,7 +258,7 @@ const ActivityThree = () => {
                   <br />
                 </p>
               </li>
-              <li style={styles}>
+              <li style={styles} data-aos="fade-up-right">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -276,7 +280,7 @@ const ActivityThree = () => {
                   sold.
                 </p>
               </li>
-              <li style={styles}>
+              <li style={styles} data-aos="fade-up-left">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '20px' }}
@@ -301,7 +305,7 @@ const ActivityThree = () => {
                   available.
                 </p>
               </li>
-              <li style={styles}>
+              <li style={styles} data-aos="fade-down">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '20px' }}
@@ -325,7 +329,7 @@ const ActivityThree = () => {
                   This can include items like cement, sand, bricks, and tiles.
                 </p>
               </li>
-              <li style={styles}>
+              <li style={styles} data-aos="fade-up-right">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '20px' }}
@@ -351,7 +355,7 @@ const ActivityThree = () => {
                 </p>
               </li>
             </ul>
-            <p className="m-4" style={{ fontSize: '20px' }}>
+            <p className="m-4" style={{ fontSize: '18px' }}>
               Remember, the type of PPE needed can vary depending on the
               specific job and work environment. Always ensure that the PPE is
               appropriate for the task at hand, fits properly, and meets
@@ -510,7 +514,7 @@ const ActivityThree = () => {
 
         <div className="prj-post mb-2">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center" data-aos="fade-left">
               <div className="col-lg-6">
                 <div className="proj-data">
                   <h3 className="mt-4">
@@ -518,7 +522,7 @@ const ActivityThree = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '20px' }}>
+              <p className="m-4" style={{ fontSize: '18px' }}>
                 Remember, the type of PPE needed can vary depending on the
                 specific job and work environment. Always ensure that the PPE is
                 appropriate for the task at hand, fits properly, and meets
@@ -526,7 +530,7 @@ const ActivityThree = () => {
                 all your personal protection and safety equipment needs.
               </p>
             </div>
-            <div className="row align-items-center">
+            <div className="row align-items-center" data-aos="fade-right">
               <div className="col-lg-6">
                 <div className="proj-data">
                   <h3 className="mt-4">
@@ -534,13 +538,13 @@ const ActivityThree = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '20px' }}>
+              <p className="m-4" style={{ fontSize: '18px' }}>
                 We understand the importance of cost-effectiveness in your
                 business. That’s why we offer our products at competitive
                 prices, ensuring you get the best value for your money.
               </p>
             </div>
-            <div className="row align-items-center">
+            <div className="row align-items-center" data-aos="fade-left">
               <div className="col-lg-6">
                 <div className="proj-data">
                   <h3 className="mt-4">
@@ -548,13 +552,13 @@ const ActivityThree = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '20px' }}>
+              <p className="m-4" style={{ fontSize: '18px' }}>
                 We have efficient logistics in place to ensure timely delivery
                 of your orders. We understand that in your business, time is of
                 the essence.
               </p>
             </div>
-            <div className="row align-items-center">
+            <div className="row align-items-center" data-aos="fade-right">
               <div className="col-lg-6">
                 <div className="proj-data">
                   <h3 className="mt-4">
@@ -562,13 +566,13 @@ const ActivityThree = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '20px' }}>
+              <p className="m-4" style={{ fontSize: '18px' }}>
                 Our dedicated customer support team is always ready to assist
                 you with any queries or issues. We strive to provide excellent
                 customer service and ensure your satisfaction
               </p>
             </div>
-            <div className="row align-items-center">
+            <div className="row align-items-center" data-aos="fade-left">
               <div className="col-lg-7">
                 <div className="proj-data">
                   <h3 className="mt-4">
@@ -576,7 +580,7 @@ const ActivityThree = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4 " style={{ fontSize: '20px' }}>
+              <p className="m-4 " style={{ fontSize: '18px' }}>
                 We provide training on the use of our tools and equipment. We
                 also offer consultation services to help you choose the right
                 tools and equipment for your specific needs. With our diverse

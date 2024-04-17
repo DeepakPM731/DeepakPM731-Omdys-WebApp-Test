@@ -42,7 +42,7 @@ const ActivityFour = () => {
         </section>
       </div>
 
-      <div className="container mt-5 mb-5">
+      <div className="container mt-5 mb-2">
         <div className="row">
           <div className="col-lg-12">
             <div className="who-we-are">
@@ -51,7 +51,7 @@ const ActivityFour = () => {
                   Wide Range of Products
                 </h3> */}
                 {/* <p style={{ textAlign: 'justify' }}> */}
-                <p style={{ fontSize: '20px', textAlign: 'justify' }}>
+                <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                   Omdys International LLP is committed to offering comprehensive
                   service support in the oil and gas sector. Our primary focus
                   is on the procurement and distribution of petroleum and
@@ -62,12 +62,16 @@ const ActivityFour = () => {
                   serving you and meeting your Industrial Chemical needs.
                 </p>
               </div>
-              <figure>
-                {/* <img
-                    className="w-100"
-                    src="https://winsfolio.net/html/builty/assets/images/about-d-1.jpg"
-                    alt="About Image One"
-                  /> */}
+              <figure
+                style={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                }}
+              >
+                <img
+                  src="assets/svg4/petroleum and petrochemical products (2).svg"
+                  alt="Our Project One Image 1"
+                />
               </figure>
             </div>
           </div>
@@ -91,7 +95,7 @@ const ActivityFour = () => {
           <br />
           <div className="row">
             <ul>
-              <li style={{ overflow: '' }}>
+              <li style={{ overflow: '' }} data-aos="fade-down">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -116,7 +120,7 @@ const ActivityFour = () => {
                   <br />
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -139,7 +143,7 @@ const ActivityFour = () => {
                   designs and applications.
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -163,7 +167,7 @@ const ActivityFour = () => {
                   amplification.
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -188,7 +192,7 @@ const ActivityFour = () => {
                   <br />
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -212,7 +216,7 @@ const ActivityFour = () => {
                   <br />
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <i className="fa-solid fa-check" />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -235,7 +239,7 @@ const ActivityFour = () => {
                   different sizes, colors, and configurations.
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '40px' }}
@@ -261,7 +265,7 @@ const ActivityFour = () => {
                   for diverse applications.
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '40px' }}
@@ -287,7 +291,7 @@ const ActivityFour = () => {
                   rocker switches, and electromechanical relays
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '40px' }}
@@ -332,14 +336,14 @@ const ActivityFour = () => {
           <div className="container">
             <p
               className="m-4"
-              style={{ fontSize: '20px', textAlign: 'center' }}
+              style={{ fontSize: '18px', textAlign: 'center' }}
             >
               We offer a wide range of petroleum products, including crude oil,
               gasoline, diesel, jet fuel, and heating oil. Our products are
               sourced from reliable suppliers, ensuring quality and consistency.
             </p>
             <br />
-            <p style={{ fontSize: '24px', textAlign: 'center' }}>
+            <p style={{ fontSize: '20px', textAlign: 'center' }}>
               <b>
                 Here is a list of major materials that we can provide / supply
                 to you:
@@ -349,7 +353,7 @@ const ActivityFour = () => {
           </div>
           <div className="row">
             <ul>
-              <li style={{ overflow: '' }}>
+              <li style={{ overflow: '' }} data-aos="fade-down">
                 <i className="fa-solid fa-check" style={{ marginTop: '5px' }} />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -372,7 +376,7 @@ const ActivityFour = () => {
                   <br />
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <i className="fa-solid fa-check" style={{ marginTop: '5px' }} />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -395,7 +399,7 @@ const ActivityFour = () => {
                   safety of the workers.
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <i className="fa-solid fa-check" style={{ marginTop: '5px' }} />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -417,7 +421,7 @@ const ActivityFour = () => {
                   refinery or rig.
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '10px' }}
@@ -444,7 +448,7 @@ const ActivityFour = () => {
                   <br />
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '12px' }}
@@ -470,7 +474,7 @@ const ActivityFour = () => {
                   <br />
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '12px' }}
@@ -495,7 +499,7 @@ const ActivityFour = () => {
                   chemical reactions.
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '10px' }}
@@ -520,7 +524,7 @@ const ActivityFour = () => {
                   treating oil and gas, and for maintaining equipment
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <i className="fa-solid fa-check" style={{ marginTop: '5px' }} />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -542,7 +546,7 @@ const ActivityFour = () => {
                   equipment.
                 </p>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <i className="fa-solid fa-check" style={{ marginTop: '5px' }} />
                 <p>
                   <span style={{ color: 'green' }}>
@@ -581,13 +585,13 @@ const ActivityFour = () => {
       </section>
 
       {/* ============================================================= */}
-      <div style={{ marginTop: '-2%' }}>
+      <div style={{ marginTop: '-6%' }}>
         <section className="gap no-top core-values">
           <div className="container" style={{ textAlign: 'center' }}>
             <h3 className="mb-5 mt-5 text-center" style={{ fontSize: '48px' }}>
               PETROCHEMICAL PRODUCTS
             </h3>
-            <p style={{ fontSize: '20px' }}>
+            <p style={{ fontSize: '18px' }}>
               Our portfolio of petrochemical products includes ethylene,
               propylene, butadiene, and aromatics. These are essential raw
               materials for a variety of industries, including plastics, rubber,
@@ -603,7 +607,7 @@ const ActivityFour = () => {
             {/* <br /> */}
             {/* <div className="row"> */}
             <ul>
-              <li>
+              <li data-aos="fade-down">
                 <div className="data">
                   <h3> Catalysts</h3>
                   <p>
@@ -612,7 +616,7 @@ const ActivityFour = () => {
                     many petrochemical processes.
                   </p>
                 </div>
-                <div className="image">
+                <div className="image" data-aos="fade-right">
                   <figure>
                     <img
                       className="w-100"
@@ -622,7 +626,7 @@ const ActivityFour = () => {
                   </figure>
                 </div>
               </li>
-              <li>
+              <li data-aos="fade-left">
                 <div className="image">
                   <figure>
                     <img
@@ -641,7 +645,7 @@ const ActivityFour = () => {
                   </p>
                 </div>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <div className="data">
                   <h3>Pipes and Valves</h3>
                   <p>
@@ -649,7 +653,7 @@ const ActivityFour = () => {
                     intermediates, and finished products within the plant.
                   </p>
                 </div>
-                <div className="image">
+                <div className="image" data-aos="fade-left">
                   <figure>
                     <img
                       className="w-100"
@@ -660,7 +664,7 @@ const ActivityFour = () => {
                 </div>
               </li>
               <li>
-                <div className="image">
+                <div className="image" data-aos="fade-right">
                   <figure>
                     <img
                       className="w-100"
@@ -686,7 +690,7 @@ const ActivityFour = () => {
                     safety of the workers.
                   </p>
                 </div>
-                <div className="image">
+                <div className="image" data-aos="fade-left">
                   <figure>
                     <img
                       className="w-100"
@@ -697,7 +701,7 @@ const ActivityFour = () => {
                 </div>
               </li>
               <li>
-                <div className="image">
+                <div className="image" data-aos="fade-right">
                   <figure>
                     <img
                       className="w-100"
@@ -724,7 +728,7 @@ const ActivityFour = () => {
                     operation of the plant.
                   </p>
                 </div>
-                <div className="image">
+                <div className="image" data-aos="fade-left">
                   <figure>
                     <img
                       className="w-100"
@@ -1002,7 +1006,7 @@ const ActivityFour = () => {
 
         <div className="prj-post mb-2" style={{ marginTop: '-7.6rem' }}>
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center" data-aos="fade-left">
               <div className="col-lg-6">
                 <div className="proj-data" style={{ marginTop: '1rem' }}>
                   <h3 className="mt-4">
@@ -1010,14 +1014,14 @@ const ActivityFour = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '20px' }}>
+              <p className="m-4" style={{ fontSize: '18px' }}>
                 We are committed to providing high-quality products. All the
                 Industrial Chemical products that are supplied by us undergo
                 rigorous quality checks to ensure they meet the highest
                 standards.
               </p>
             </div>
-            <div className="row align-items-center">
+            <div className="row align-items-center" data-aos="fade-right">
               <div className="col-lg-6">
                 <div className="proj-data">
                   <h3 className="mt-4">
@@ -1025,13 +1029,13 @@ const ActivityFour = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '20px' }}>
+              <p className="m-4" style={{ fontSize: '18px' }}>
                 We understand the importance of cost-effectiveness in your
                 business. That’s why we offer our products at competitive
                 prices, ensuring you get the best value for your money.
               </p>
             </div>
-            <div className="row align-items-center">
+            <div className="row align-items-center" data-aos="fade-left">
               <div className="col-lg-6">
                 <div className="proj-data">
                   <h3 className="mt-4">
@@ -1039,13 +1043,13 @@ const ActivityFour = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '20px' }}>
+              <p className="m-4" style={{ fontSize: '18px' }}>
                 We have efficient logistics in place to ensure timely delivery
                 of your orders. We understand that in your business, time is of
                 the essence.
               </p>
             </div>
-            <div className="row align-items-center">
+            <div className="row align-items-center" data-aos="fade-right">
               <div className="col-lg-6">
                 <div className="proj-data">
                   <h3 className="mt-4">
@@ -1053,7 +1057,7 @@ const ActivityFour = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '20px' }}>
+              <p className="m-4" style={{ fontSize: '18px' }}>
                 Our dedicated customer support team is always ready to assist
                 you with any queries or issues. We strive to provide excellent
                 customer service and ensure your satisfaction.

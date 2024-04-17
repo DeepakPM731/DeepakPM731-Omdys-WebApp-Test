@@ -52,7 +52,7 @@ const ActivityOne = () => {
               // className="text-center"
               // style={{ fontSize: '20px', textAlign: 'justify' }}
               style={{
-                fontSize: '20px',
+                fontSize: '18px',
                 textAlign: 'justify',
                 margin: '0 auto' /* to center align */,
                 // maxWidth: '600px' /* optional: adjust as needed */,
@@ -73,37 +73,55 @@ const ActivityOne = () => {
                 <li>
                   <div className="data">
                     <h3> Ink Supply</h3>
-                    <p style={{ textAlign: 'justify' }}>
+                    <p style={{ textAlign: 'justify', fontSize: '18px' }}>
                       We provide high-quality eco-solvent inks that are perfect
                       for a wide range of printing tasks. Our inks ensure
                       vibrant colors and excellent adhesion on various media
                       types.
                     </p>
                     <br />
-                    <h5>Eco-Solvent Inks</h5>
-                    <p style={{ textAlign: 'justify', fontSize: '1rem' }}>
+                    <h5>• Eco-Solvent Inks</h5>
+                    <p
+                      style={{
+                        textAlign: 'justify',
+                        fontSize: '16px',
+                        marginLeft: '25px',
+                      }}
+                    >
                       We offer a range of eco-solvent inks that are perfect for
                       a wide variety of printing tasks. These inks are
                       environmentally friendly and ensure vibrant colors and
                       excellent adhesion on various media types.
                     </p>
                     <br />
-                    <h5>UV Inks</h5>{' '}
-                    <p style={{ textAlign: 'justify', fontSize: '1rem' }}>
+                    <h5>• UV Inks</h5>{' '}
+                    <p
+                      style={{
+                        textAlign: 'justify',
+                        fontSize: '16px',
+                        marginLeft: '25px',
+                      }}
+                    >
                       Our UV inks are designed for applications that require
                       high print quality and durability. These inks are cured by
                       UV light, making them resistant to fading and weathering.
                     </p>
                     <br />
-                    <h5>Solvent-Based Inks</h5>{' '}
-                    <p style={{ textAlign: 'justify', fontSize: '1rem' }}>
+                    <h5>• Solvent-Based Inks</h5>{' '}
+                    <p
+                      style={{
+                        textAlign: 'justify',
+                        fontSize: '16px',
+                        marginLeft: '25px',
+                      }}
+                    >
                       We supply high-quality solvent-based inks that are ideal
                       for outdoor applications. These inks are durable and
                       resistant to various environmental conditions.
                     </p>
                     <br />
                   </div>
-                  <div className="image">
+                  <div className="image" data-aos="fade-right">
                     <figure>
                       <img
                         className="w-100"
@@ -115,7 +133,7 @@ const ActivityOne = () => {
                 </li>
 
                 <li>
-                  <div className="image">
+                  <div className="image" data-aos="fade-right">
                     <figure>
                       <img
                         className="w-100"
@@ -126,7 +144,7 @@ const ActivityOne = () => {
                   </div>
                   <div className="data">
                     <h3>Printing Equipment</h3>
-                    <p>
+                    <p style={{ fontSize: '18px' }}>
                       We offer a selection of top-notch eco-solvent, UV, and
                       solvent-based printers. These machines are designed for
                       efficiency and reliability, enabling you to deliver
@@ -137,14 +155,14 @@ const ActivityOne = () => {
                 <li>
                   <div className="data">
                     <h3> Media Supplies</h3>
-                    <p>
+                    <p style={{ fontSize: '18px' }}>
                       Our range of media supplies includes everything from
                       vinyl, and canvas, to banner materials. These are
                       specially designed to work with eco-solvent inks, ensuring
                       high-quality prints every time.
                     </p>
                   </div>
-                  <div className="image">
+                  <div className="image" data-aos="fade-left">
                     <figure>
                       <img
                         className="w-100"
@@ -155,7 +173,7 @@ const ActivityOne = () => {
                   </div>
                 </li>
                 <li>
-                  <div className="image">
+                  <div className="image" data-aos="fade-right">
                     <figure>
                       <img
                         className="w-100"
@@ -166,7 +184,7 @@ const ActivityOne = () => {
                   </div>
                   <div className="data">
                     <h3> Product Quality</h3>
-                    <p>
+                    <p style={{ fontSize: '18px' }}>
                       We are committed to providing high-quality products. Our
                       inks are sourced from reputable manufacturers and undergo
                       rigorous quality checks to ensure they meet the highest
@@ -177,13 +195,13 @@ const ActivityOne = () => {
                 <li>
                   <div className="data">
                     <h3>Technical Support</h3>
-                    <p>
+                    <p style={{ fontSize: '18px' }}>
                       Our dedicated team of experts is always ready to assist
                       you with any technical issues. We aim to ensure your
                       printing operations run smoothly.
                     </p>
                   </div>
-                  <div className="image">
+                  <div className="image" data-aos="fade-left">
                     <figure>
                       <img
                         className="w-100"
@@ -194,7 +212,7 @@ const ActivityOne = () => {
                   </div>
                 </li>
                 <li>
-                  <div className="image">
+                  <div className="image" data-aos="fade-right">
                     <figure>
                       <img
                         className="w-100"
@@ -205,7 +223,7 @@ const ActivityOne = () => {
                   </div>
                   <div className="data">
                     <h3>Training</h3>
-                    <p>
+                    <p style={{ fontSize: '18px' }}>
                       We provide comprehensive training on the use of our
                       eco-solvent, UV, and solvent-based printers and supplies.
                       This will equip you with the necessary skills to deliver
@@ -216,7 +234,7 @@ const ActivityOne = () => {
                 <li>
                   <div className="data">
                     <h3>Sustainability</h3>
-                    <p>
+                    <p style={{ fontSize: '18px' }}>
                       We believe in doing business responsibly. Our inks are
                       environmentally friendly, aligning with our commitment to
                       sustainability. With our diverse product range and
@@ -224,7 +242,7 @@ const ActivityOne = () => {
                       significant impact.
                     </p>
                   </div>
-                  <div className="image">
+                  <div className="image" data-aos="fade-left">
                     <figure>
                       <img
                         className="w-100"
@@ -235,7 +253,7 @@ const ActivityOne = () => {
                   </div>
                 </li>
                 <li>
-                  <div className="image">
+                  <div className="image" data-aos="fade-right">
                     <figure>
                       <img
                         className="w-100"
@@ -246,7 +264,7 @@ const ActivityOne = () => {
                   </div>
                   <div className="data">
                     <h3>Our Promise</h3>
-                    <p>
+                    <p style={{ fontSize: '18px' }}>
                       By using our products, you are guaranteed 100% technical
                       support, both online and offline, led by a team of over
                       17+ experienced engineers.
