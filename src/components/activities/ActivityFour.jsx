@@ -69,7 +69,8 @@ const ActivityFour = () => {
                 }}
               >
                 <img
-                  src="assets/svg4/petroleum and petrochemical products (2).svg"
+                  // src="assets/svg4/petroleum and petrochemical products (2).svg"
+                  src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                   alt="Our Project One Image 1"
                 />
               </figure>
@@ -620,7 +621,8 @@ const ActivityFour = () => {
                   <figure>
                     <img
                       className="w-100"
-                      src="assets/svg4/Medical PPE 1.svg"
+                      // src="assets/svg4/Medical PPE 1.svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                       alt="Core Values Image 1"
                     />
                   </figure>
@@ -631,7 +633,7 @@ const ActivityFour = () => {
                   <figure>
                     <img
                       className="w-100"
-                      src="assets/svg4/Medical PPE 1.svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                       alt="Core Values Image 1"
                     />
                   </figure>
@@ -657,7 +659,7 @@ const ActivityFour = () => {
                   <figure>
                     <img
                       className="w-100"
-                      src="assets/svg4/petroleum and petrochemical products (2).svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                       alt="Core Values Image 1"
                     />
                   </figure>
@@ -668,7 +670,7 @@ const ActivityFour = () => {
                   <figure>
                     <img
                       className="w-100"
-                      src="assets/svg4/Medical PPE 1.svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                       alt="Core Values Image 1"
                     />
                   </figure>
@@ -694,7 +696,7 @@ const ActivityFour = () => {
                   <figure>
                     <img
                       className="w-100"
-                      src="assets/svg4/petroleum and petrochemical products (2).svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                       alt="Core Values Image 1"
                     />
                   </figure>
@@ -705,7 +707,7 @@ const ActivityFour = () => {
                   <figure>
                     <img
                       className="w-100"
-                      src="assets/svg4/Medical PPE 1.svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                       alt="Core Values Image 1"
                     />
                   </figure>
@@ -732,7 +734,7 @@ const ActivityFour = () => {
                   <figure>
                     <img
                       className="w-100"
-                      src="assets/svg4/Medical PPE 1.svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                       alt="Core Values Image 1"
                     />
                   </figure>

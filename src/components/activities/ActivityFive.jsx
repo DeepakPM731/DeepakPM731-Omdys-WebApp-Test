@@ -89,7 +89,8 @@ const ActivityFive = () => {
           <figure style={{ position: 'relative', zIndex: 9 }}>
             <img
               className=""
-              src="assets/svg4/Medical PPE 2.svg"
+              // src="assets/svg4/Medical PPE 2.svg"
+              src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+2.svg"
               // src="https://winsfolio.net/html/builty/assets/images/about-h-i-w.jpg"
               alt="About How It Works"
             />

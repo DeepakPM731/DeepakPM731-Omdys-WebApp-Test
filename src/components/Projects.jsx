@@ -46,7 +46,8 @@ const Projects = () => {
               <div className="project-post">
                 <figure>
                   <img
-                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+1.svg"
+                    // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+1.svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+2.svg"
                     // src="assets/svg4/Electronic Components 1.svg"
                     alt="project-img-1"
                   />

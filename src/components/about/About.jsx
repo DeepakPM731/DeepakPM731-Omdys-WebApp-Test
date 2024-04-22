@@ -9,14 +9,16 @@ const About = () => {
                 <figure>
                   <img
                     // src="https://winsfolio.net/html/builty/assets/images/about-one.png"
-                    src="assets/svg2/2.svg"
+                    // src="assets/svg2/2.svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/2.svg"
                     alt="About One"
                   />
                 </figure>
                 <figure className="about-image">
                   <img
                     // src="https://winsfolio.net/html/builty/assets/images/about-two.png"
-                    src="assets/svg3/Second Page 265x325.svg"
+                    // src="assets/svg3/Second Page 265x325.svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/Second+Page+265x325.svg"
                     alt="About Two"
                   />
                 </figure>

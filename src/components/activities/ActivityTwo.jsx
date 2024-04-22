@@ -65,7 +65,8 @@ const ActivityTwo = () => {
         }}
       >
         <img
-          src="assets/svg4/Electronic Components 1.svg"
+          // src="assets/svg4/Electronic Components 1.svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+2.svg"
           alt=""
           // width={'100%'}
           // height={'500px'}

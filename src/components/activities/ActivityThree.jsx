@@ -61,7 +61,8 @@ const ActivityThree = () => {
                   }}
                 >
                   <img
-                    src="assets/svg4/industrial construction tools and equipment (2).svg"
+                    // src="assets/svg4/industrial construction tools and equipment (2).svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipment+(3).svg"
                     alt="Our Project One Image 1"
                   />
                 </figure>

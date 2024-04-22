@@ -81,7 +81,8 @@ const AboutPage = () => {
                       className="w-100"
                       // src="https://winsfolio.net/html/builty/assets/images/about-d-1.jpg"
                       // src="assets/svg/1.svg"
-                      src="assets/svg4/whoweare1.svg"
+                      // src="assets/svg4/whoweare1.svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare1.svg"
                       alt="About Image One"
                       width={'500px'}
                       // height={'780px'}
@@ -120,7 +121,8 @@ const AboutPage = () => {
                     <img
                       // className="w-100"
                       // src="https://winsfolio.net/html/builty/assets/images/about-d-2.jpg"
-                      src="assets/svg4/whoweare2.svg"
+                      // src="assets/svg4/whoweare2.svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare2.svg"
                       alt="About Image Two "
                       width={'520px'}
                       height={'450px'}
@@ -151,7 +153,8 @@ const AboutPage = () => {
                 <img
                   className="w-100"
                   // src="https://winsfolio.net/html/builty/assets/images/about-h-i-w.jpg"
-                  src="assets/svg4/howitworks.svg"
+                  // src="assets/svg4/howitworks.svg"
+                  src="https://s3.ap-south-1.amazonaws.com/omdys.com/howitworks.svg"
                   alt="About How It Works"
                 />
               </figure>
