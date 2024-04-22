@@ -17,7 +17,8 @@ const Projects = () => {
                 <figure>
                   <img
                     // src="https://winsfolio.net/html/builty/assets/images/project-img-2.jpg"
-                    src="assets/svg4/Printing Solutions.svg"
+                    // src="assets/svg4/Printing Solutions.svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/Printing+Solutions.svg"
                     alt="project-img-1"
                   />
                 </figure>
@@ -45,7 +46,8 @@ const Projects = () => {
               <div className="project-post">
                 <figure>
                   <img
-                    src="assets/svg4/Electronic Components 1.svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+1.svg"
+                    // src="assets/svg4/Electronic Components 1.svg"
                     alt="project-img-1"
                   />
                 </figure>
@@ -74,7 +76,8 @@ const Projects = () => {
                 <figure>
                   <img
                     // src="https://winsfolio.net/html/builty/assets/images/project-img-1.jpg"
-                    src="assets/svg4/industrial construction tools and equipment (3).svg"
+                    // src="assets/svg4/industrial construction tools and equipment (3).svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipment+(3).svg"
                     alt="project-img-2"
                   />
                 </figure>
@@ -104,7 +107,8 @@ const Projects = () => {
               <div className="project-post">
                 <figure>
                   <img
-                    src="assets/svg4/petroleum and petrochemical products (2).svg"
+                    // src="assets/svg4/petroleum and petrochemical products (2).svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                     alt="project-img-1"
                   />
                 </figure>
@@ -134,7 +138,8 @@ const Projects = () => {
               <div className="project-post">
                 <figure>
                   <img
-                    src="assets/svg4/Medical PPE 1.svg"
+                    // src="assets/svg4/Medical PPE 1.svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                     alt="project-img-2"
                   />
                 </figure>
