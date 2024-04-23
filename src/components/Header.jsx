@@ -172,11 +172,11 @@ const Header = () => {
                             <a href="JavaScript:void(0)">Pages</a>
                             <ul className="sub-menu">
                               <li className="menu-item-has-children">
-                                <Link to={'javascript:void(0)'}>
-                                  <a className="tag" href="/activities">
-                                    Our Main Activities
-                                  </a>
-                                </Link>
+                                {/* <Link to={'javascript:void(0)'}> */}
+                                <a className="tag" href="JavaScript:void(0)">
+                                  Our Main Activities
+                                </a>
+                                {/* </Link> */}
                                 <ul className="sub-menu">
                                   <li>
                                     {/* <Link to={'/activity-one'}> */}
