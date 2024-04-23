@@ -62,7 +62,9 @@ const Activities = () => {
                     <p>
                       We provide a wide range of printing solutions, customized
                       to meet various printing needs.
-                      <Link to={'/activity-one'}>( Read More )</Link>
+                      {/* <Link to={'/activity-one'}> */}
+                      <a href="/activity-one">( Read More )</a>
+                      {/* </Link> */}
                     </p>
                   </div>
                   <div className="image">
@@ -92,8 +94,9 @@ const Activities = () => {
                     <p>
                       We partner with leading manufacturers to deliver reliable
                       and authentic electronic components for diverse
-                      applications.{' '}
-                      <Link to={'/activity-two'}>( Read More )</Link>
+                      applications. {/* <Link to={'/activity-two'}> */}
+                      <a href="/activity-two">( Read More )</a>
+                      {/* </Link> */}
                     </p>
                   </div>
                 </li>
@@ -106,7 +109,9 @@ const Activities = () => {
                       We provide a comprehensive range of certified safety
                       equipment for the construction industry, ensuring worker
                       protection and regulatory compliance.
-                      <Link to={'/activity-three'}>( Read More )</Link>
+                      {/* <Link to={'/activity-three'}> */}
+                      <a href="/activity-three">( Read More )</a>
+                      {/* </Link> */}
                     </p>
                   </div>
                   <div className="image">
@@ -136,8 +141,9 @@ const Activities = () => {
                     <p>
                       We offer expertise in exporting specialized petrochemical
                       mechanical products, ensuring safe and efficient project
-                      execution.{' '}
-                      <Link to={'/activity-four'}>( Read More )</Link>
+                      execution. {/* <Link to={'/activity-four'}> */}
+                      <a href="/activity-four">( Read More )</a>
+                      {/* </Link> */}
                     </p>
                   </div>
                 </li>
@@ -147,7 +153,9 @@ const Activities = () => {
                     <p>
                       We import certified medical PPE, meeting the needs of
                       healthcare facilities and professionals.{' '}
-                      <Link to={'/activity-five'}>( Read More )</Link>
+                      {/* <Link to={'/activity-five'}> */}
+                      <a href="/activity-five">( Read More )</a>
+                      {/* </Link> */}
                     </p>
                   </div>
                   <div className="image">
