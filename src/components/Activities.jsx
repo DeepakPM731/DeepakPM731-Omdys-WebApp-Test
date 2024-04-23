@@ -56,7 +56,7 @@ const Activities = () => {
           <div className="container">
             <div className="row">
               <ul>
-                <li>
+                <li data-aos="zoom-in-up">
                   <div className="data">
                     <h3> Trading of complete printing solutions – Importing</h3>
                     <p>
@@ -78,7 +78,7 @@ const Activities = () => {
                     </figure>
                   </div>
                 </li>
-                <li>
+                <li data-aos="zoom-in-up">
                   <div className="image">
                     <figure>
                       <img
@@ -100,7 +100,7 @@ const Activities = () => {
                     </p>
                   </div>
                 </li>
-                <li>
+                <li data-aos="zoom-in-up">
                   <div className="data">
                     <h3>
                       Trading of industrial construction tools and equipment
@@ -125,7 +125,7 @@ const Activities = () => {
                     </figure>
                   </div>
                 </li>
-                <li>
+                <li data-aos="zoom-in-up">
                   <div className="image">
                     <figure>
                       <img
@@ -147,7 +147,7 @@ const Activities = () => {
                     </p>
                   </div>
                 </li>
-                <li>
+                <li data-aos="zoom-in-up">
                   <div className="data">
                     <h3> Trading of medical-PPE – Importing</h3>
                     <p>

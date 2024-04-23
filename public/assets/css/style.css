@@ -2343,6 +2343,17 @@ span.counter {
 }
 .desktop-nav .nav-bar ul > li ul.sub-menu li a {
   padding: 7px 21px;
+  /* padding: 7px 21px; */
+  display: flex;
+  align-items: center;
+  color: #545454;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  justify-content: space-between;
+}
+.desktop-nav .nav-bar ul > li ul.sub-menu li > a .tag {
+  padding: 7px 2px;
   display: flex;
   align-items: center;
   color: #545454;

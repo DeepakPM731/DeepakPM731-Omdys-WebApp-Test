@@ -53,7 +53,8 @@ const ServiceOne = () => {
                     className="w-100"
                     // src="	https://winsfolio.net/html/builty/assets/images/about-k-b.jpg"
                     // src="assets/svg4/supplieridentification.svg"
-                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/supplieridentification.svg"
+                    // src="https://s3.ap-south-1.amazonaws.com/omdys.com/supplieridentification.svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/supplieridentification2.svg"
                     alt="About key Benefits"
                   />
                 </figure>

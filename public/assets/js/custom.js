@@ -554,7 +554,7 @@ jQuery(document).ready(function ($) {
   // -----------------2nd norm try---------------------------
   $(document).on(
     'click',
-    '.mobile-nav .menu-item-has-children',
+    '.mobile-nav .menu-item-has-children .sub-menu',
     function (event) {
       $(this).toggleClass('active');
       event.stopPropagation();
