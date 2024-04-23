@@ -172,11 +172,11 @@ const Header = () => {
                             <a href="JavaScript:void(0)">Pages</a>
                             <ul className="sub-menu">
                               <li className="menu-item-has-children">
-                                {/* <Link to={'javascript:void(0)'}> */}
-                                <a className="tag" href="JavaScript:void(0)">
-                                  Our Main Activities
-                                </a>
-                                {/* </Link> */}
+                                <Link to={'javascript:void(0)'}>
+                                  <a className="tag" href="/activities">
+                                    Our Main Activities
+                                  </a>
+                                </Link>
                                 <ul className="sub-menu">
                                   <li>
                                     {/* <Link to={'/activity-one'}> */}
@@ -469,20 +469,43 @@ const Header = () => {
                 <li className="menu-item-has-children">
                   <a href="JavaScript:void(0)">Pages</a>
                   <ul className="sub-menu">
-                    <li className="">
+                    <li className="menu-item-has-children">
                       {/* <Link to={'/activities'}> */}
                       <a href="/activities" style={{ color: 'white' }}>
                         Our Main Activities
                       </a>
                       {/* </Link> */}
-                      {/* <ul className="sub-menu">
+                      <ul className="sub-menu">
                         <li>
-                          <a href="/team">Team</a>
+                          {/* <Link to={'/activity-one'}> */}
+                          <a href="/activity-one">Printing Solutions</a>
+                          {/* </Link> */}
                         </li>
                         <li>
-                          <a href="service-detail.html">Service Detail</a>
+                          {/* <Link to={'/activity-two'}> */}
+                          <a href="/activity-two">Electronics Components</a>
+                          {/* </Link> */}
                         </li>
-                      </ul> */}
+                        <li>
+                          {/* <Link to={'/activity-three'}> */}
+                          <a href="/activity-three">
+                            Industrial Construction Tools and Equipment
+                          </a>
+                          {/* </Link> */}
+                        </li>
+                        <li>
+                          {/* <Link to={'/activity-four'}> */}
+                          <a href="/activity-four">
+                            Industrial Chemical Products
+                          </a>
+                          {/* </Link> */}
+                        </li>
+                        <li>
+                          {/* <Link to={'/activity-five'}> */}
+                          <a href="/activity-five">Medical-PPE</a>
+                          {/* </Link> */}
+                        </li>
+                      </ul>
                     </li>
                     {/* <li className="menu-item-has-children">
                       <a href="javascript:void(0)">Projects</a>
