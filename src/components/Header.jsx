@@ -170,30 +170,38 @@ const Header = () => {
                                 </Link>
                                 <ul className="sub-menu">
                                   <li>
-                                    <Link to={'/activity-one'}>
+                                    {/* <Link to={'/activity-one'}> */}
+                                    <a href="/activity-one">
                                       Printing Solutions
-                                    </Link>
+                                    </a>
+                                    {/* </Link> */}
                                   </li>
                                   <li>
-                                    <Link to={'/activity-two'}>
+                                    {/* <Link to={'/activity-two'}> */}
+                                    <a href="/activity-two">
                                       Electronics Components
-                                    </Link>
+                                    </a>
+                                    {/* </Link> */}
                                   </li>
                                   <li>
-                                    <Link to={'/activity-three'}>
+                                    {/* <Link to={'/activity-three'}> */}
+                                    <a href="/activity-three">
                                       Industrial Construction Tools and
                                       Equipment
-                                    </Link>
+                                    </a>
+                                    {/* </Link> */}
                                   </li>
                                   <li>
-                                    <Link to={'/activity-four'}>
+                                    {/* <Link to={'/activity-four'}> */}
+                                    <a href="/activity-four">
                                       Industrial Chemical Products
-                                    </Link>
+                                    </a>
+                                    {/* </Link> */}
                                   </li>
                                   <li>
-                                    <Link to={'/activity-five'}>
-                                      Medical-PPE
-                                    </Link>
+                                    {/* <Link to={'/activity-five'}> */}
+                                      <a href="/activity-five">Medical-PPE</a>
+                                    {/* </Link> */}
                                   </li>
                                 </ul>
                               </li>
