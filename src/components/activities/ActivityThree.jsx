@@ -62,13 +62,26 @@ const ActivityThree = () => {
                 >
                   <img
                     // src="assets/svg4/industrial construction tools and equipment (2).svg"
-                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipment+(3).svg"
+                    // src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipment+(3).svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipmentimg+(3).png"
                     alt="Our Project One Image 1"
                   />
                 </figure>
                 <br />
                 {/* <p style={{ textAlign: 'justify' }}> */}
-                <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                <p
+                  style={{
+                    fontSize: '18px',
+                    textAlign: 'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
                   We offer a broad selection of tools and equipment, ensuring
                   that our customers have the best resources tailored to their
                   unique needs. Our unwavering commitment to quality and
@@ -356,13 +369,28 @@ const ActivityThree = () => {
                 </p>
               </li>
             </ul>
-            <p className="m-4" style={{ fontSize: '18px' }}>
-              Remember, the type of PPE needed can vary depending on the
-              specific job and work environment. Always ensure that the PPE is
-              appropriate for the task at hand, fits properly, and meets
-              industry safety standards. Trust Omdys International Group for all
-              your personal protection and safety equipment needs.
-            </p>
+            <div className="container" style={{ textAlign: '' }}>
+              <p
+                className="m-4"
+                style={{
+                  fontSize: '18px',
+                  textAlign: 'justify',
+                  margin: 0,
+                  padding: 0,
+                  whiteSpace: 'normal',
+                  wordBreak: 'break-all',
+                  lineHeight: '1.5',
+                  wordSpacing: '0.5px',
+                  hyphens: 'auto',
+                }}
+              >
+                Remember, the type of PPE needed can vary depending on the
+                specific job and work environment. Always ensure that the PPE is
+                appropriate for the task at hand, fits properly, and meets
+                industry safety standards. Trust Omdys International Group for
+                all your personal protection and safety equipment needs.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -523,13 +551,28 @@ const ActivityThree = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '18px' }}>
-                Remember, the type of PPE needed can vary depending on the
-                specific job and work environment. Always ensure that the PPE is
-                appropriate for the task at hand, fits properly, and meets
-                industry safety standards. Trust Omdys International Group for
-                all your personal protection and safety equipment needs.
-              </p>
+              <div className="container" style={{ textAlign: '' }}>
+                <p
+                  className="m-4"
+                  style={{
+                    fontSize: '18px',
+                    textAlign: 'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
+                  Remember, the type of PPE needed can vary depending on the
+                  specific job and work environment. Always ensure that the PPE
+                  is appropriate for the task at hand, fits properly, and meets
+                  industry safety standards. Trust Omdys International Group for
+                  all your personal protection and safety equipment needs.
+                </p>
+              </div>
             </div>
             <div className="row align-items-center" data-aos="fade-right">
               <div className="col-lg-6">
@@ -539,11 +582,26 @@ const ActivityThree = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '18px' }}>
-                We understand the importance of cost-effectiveness in your
-                business. That’s why we offer our products at competitive
-                prices, ensuring you get the best value for your money.
-              </p>
+              <div className="container" style={{ textAlign: '' }}>
+                <p
+                  className="m-4"
+                  style={{
+                    fontSize: '18px',
+                    textAlign:'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
+                  We understand the importance of cost-effectiveness in your
+                  business. That’s why we offer our products at competitive
+                  prices, ensuring you get the best value for your money.
+                </p>
+              </div>
             </div>
             <div className="row align-items-center" data-aos="fade-left">
               <div className="col-lg-6">
@@ -553,11 +611,26 @@ const ActivityThree = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '18px' }}>
-                We have efficient logistics in place to ensure timely delivery
-                of your orders. We understand that in your business, time is of
-                the essence.
-              </p>
+              <div className="container" style={{ textAlign: '' }}>
+                <p
+                  className="m-4"
+                  style={{
+                    fontSize: '18px',
+                    textAlign: 'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
+                  We have efficient logistics in place to ensure timely delivery
+                  of your orders. We understand that in your business, time is
+                  of the essence.
+                </p>
+              </div>
             </div>
             <div className="row align-items-center" data-aos="fade-right">
               <div className="col-lg-6">
@@ -567,11 +640,27 @@ const ActivityThree = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '18px' }}>
-                Our dedicated customer support team is always ready to assist
-                you with any queries or issues. We strive to provide excellent
-                customer service and ensure your satisfaction
-              </p>
+              <div className="container" style={{ textAlign: '' }}>
+                <p
+                  className="m-4"
+                  style={{
+                    fontSize: '18px',
+                    textAlign: 'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    // textWrap:'balance',
+                    hyphens: 'auto',
+                  }}
+                >
+                  Our dedicated customer support team is always ready to assist
+                  you with any queries or issues. We strive to provide excellent
+                  customer <nobr>service and ensure your satisfaction</nobr>
+                </p>
+              </div>
             </div>
             <div className="row align-items-center" data-aos="fade-left">
               <div className="col-lg-7">
@@ -581,13 +670,28 @@ const ActivityThree = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4 " style={{ fontSize: '18px' }}>
-                We provide training on the use of our tools and equipment. We
-                also offer consultation services to help you choose the right
-                tools and equipment for your specific needs. With our diverse
-                product range, quality assurance, and dedicated support, you’ll
-                be well-equipped to make a significant impact.
-              </p>
+              <div className="container" style={{ textAlign: '' }}>
+                <p
+                  className="m-4 "
+                  style={{
+                    fontSize: '18px',
+                    textAlign: 'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
+                  We provide training on the use of our tools and equipment. We
+                  also offer consultation services to help you choose the right
+                  tools and equipment for your specific needs. With our diverse
+                  product range, quality assurance, and dedicated support,
+                  you’ll be well-equipped to make a significant impact.
+                </p>
+              </div>
             </div>
           </div>
         </div>

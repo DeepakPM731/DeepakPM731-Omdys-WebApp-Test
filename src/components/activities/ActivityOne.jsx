@@ -56,6 +56,12 @@ const ActivityOne = () => {
                 textAlign: 'justify',
                 margin: '0 auto' /* to center align */,
                 // maxWidth: '600px' /* optional: adjust as needed */,
+                padding: 0,
+                whiteSpace: 'normal',
+                wordBreak: 'break-all',
+                lineHeight: '1.5',
+                wordSpacing: '0.5px',
+                hyphens: 'auto',
               }}
             >
               We provide a wide range of printing solutions, customized to meet

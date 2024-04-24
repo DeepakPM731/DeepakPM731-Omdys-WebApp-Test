@@ -1,9 +1,10 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 const ActivityTwo = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <>
       {/* =========================================================== */}
@@ -77,15 +78,40 @@ const ActivityTwo = () => {
         style={{ marginTop: '-5%', marginBottom: '-7%' }}
       >
         <div className="heading">
-          <div className="container" style={{ textAlign: 'justify' }}>
-            <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+          <div className="container" style={{ textAlign: '' }}>
+            <p
+              style={{
+                fontSize: '18px',
+                textAlign: 'justify',
+                // color: 'red',
+                margin: 0,
+                padding: 0,
+                whiteSpace: 'normal',
+                wordBreak: 'break-all',
+                lineHeight: '1.5',
+                wordSpacing: '0.5px',
+                hyphens: 'auto',
+              }}
+            >
               Welcome to our Electronics Components Sourcing wing, your one-stop
               destination for all your electronic component needs. We specialize
               in sourcing and trading a wide range of electronic components to
               meet the diverse requirements of our clients.
             </p>
             <br />
-            <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+            <p
+              style={{
+                fontSize: '18px',
+                textAlign: 'justify',
+                margin: 0,
+                padding: 0,
+                whiteSpace: 'normal',
+                wordBreak: 'break-all',
+                lineHeight: '1.5',
+                wordSpacing: '0.5px',
+                hyphens: 'auto',
+              }}
+            >
               At OMDYS International LLP, we understand the critical role that
               electronic components play in today's technology-driven world.
               Whether you are a small-scale electronics hobbyist or a
@@ -104,10 +130,16 @@ const ActivityTwo = () => {
                 </h1>
               </div>
               <div className="container">
-                <p className="m-4" style={{ fontSize: '18px' }}>
+                <p
+                  className="twop m-4"
+                  style={{
+                    fontSize: '18px',
+                    textAlign: 'center',
+                  }}
+                >
                   At OMDYS International LLP, we offer an extensive range of
                   electronic components to cater to diverse needs and
-                  applications. Our product catalogue includes:
+                  applications.Our product catalogue:
                 </p>
               </div>
             </div>
@@ -592,19 +624,46 @@ const ActivityTwo = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '18px' }}>
-                At OMDYS International LLP, we understand the importance of
-                quality and reliability in electronic components. That's why we
-                source our products from reputable manufacturers and authorized
-                distributors known for their commitment to excellence and
-                adherence to industry standards.
-              </p>
-              <p className="m-4" style={{ fontSize: '18px' }}>
-                Before adding any product to our catalog, our team of experts
-                conducts rigorous quality assurance checks to ensure that each
-                component meets our stringent criteria for performance,
-                reliability, and durability.
-              </p>
+              <div className="container" style={{ textAlign: 'justify' }}>
+                <p
+                  className="m-4"
+                  style={{
+                    fontSize: '18px',
+                    textAlign: 'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
+                  At OMDYS International LLP, we understand the importance of
+                  quality and reliability in electronic components. That's why
+                  we source our products from reputable manufacturers and
+                  authorized distributors known for their commitment to
+                  excellence and adherence to industry standards.
+                </p>
+                <p
+                  className="m-4"
+                  style={{
+                    fontSize: '18px',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
+                  Before adding any product to our catalog, our team of experts
+                  conducts rigorous quality assurance checks to ensure that each
+                  component meets our stringent criteria for performance,
+                  reliability, and durability.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -618,19 +677,34 @@ const ActivityTwo = () => {
                 </h3>
               </div>
             </div>
-            <p className="m-4" style={{ fontSize: '18px' }}>
-              Ready to experience the difference with OMDYS International, Get
-              in touch with us today to discuss your requirements, request a
-              quote, or learn more about our products and services. Our
-              dedicated team is here to assist you every step of the way and
-              help you find the perfect electronic components for your projects
-              and productions.
-            </p>
-            <p className="m-4" style={{ fontSize: '18px' }}>
-              Thank you for choosing OMDYS International LLP as your trusted
-              partner in electronic component procurement and sourcing. We look
-              forward to serving you!
-            </p>
+            <div
+              className="container"
+              style={{
+                textAlign: 'justify',
+                fontSize: '18px',
+                margin: 0,
+                padding: 0,
+                whiteSpace: 'normal',
+                wordBreak: 'break-all',
+                lineHeight: '1.5',
+                wordSpacing: '0.5px',
+                hyphens: 'auto',
+              }}
+            >
+              <p className="m-4" style={{ fontSize: '18px' }}>
+                Ready to experience the difference with OMDYS International, Get
+                in touch with us today to discuss your requirements, request a
+                quote, or learn more about our products and services. Our
+                dedicated team is here to assist you every step of the way and
+                help you find the perfect electronic components for your
+                projects and productions.
+              </p>
+              <p className="m-4" style={{ fontSize: '18px' }}>
+                Thank you for choosing OMDYS International LLP as your trusted
+                partner in electronic component procurement and sourcing. We
+                look forward to serving you!
+              </p>
+            </div>
           </div>
         </div>
         {/* </div> */}
