@@ -50,7 +50,19 @@ const ActivityFive = () => {
                 </h3> */}
                 {/* <p style={{ textAlign: 'justify' }}> */}
                 <div style={{ textAlign: 'justify' }}>
-                  <p style={{ fontSize: '20px', textAlign: 'justify' }}>
+                  <p
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: 0,
+                      padding: 0,
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-all',
+                      lineHeight: '1.5',
+                      wordSpacing: '0.5px',
+                      hyphens: 'auto',
+                    }}
+                  >
                     At OMDYS, we understand the critical importance of personal
                     protective equipment (PPE) in safeguarding frontline workers
                     and healthcare professionals. As a trusted sourcing and
@@ -110,24 +122,53 @@ const ActivityFive = () => {
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '20px' }}>
-                At OMDYS, quality and compliance are at the forefront of
-                everything we do. We understand the critical importance of
-                reliable and effective PPE in protecting against infectious
-                diseases and workplace hazards. That's why we adhere to
-                stringent quality control measures and partner with reputable
-                manufacturers who maintain the highest standards of production
-                and safety.
-              </p>
+              <div className="container">
+                <p
+                  className="m-4"
+                  style={{
+                    fontSize: '20px',
+                    textAlign: 'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
+                  At OMDYS, quality and compliance are at the forefront of
+                  everything we do. We understand the critical importance of
+                  reliable and effective PPE in protecting against infectious
+                  diseases and workplace hazards. That's why we adhere to
+                  stringent quality control measures and partner with reputable
+                  manufacturers who maintain the highest standards of production
+                  and safety.
+                </p>
 
-              <p className="m-4" style={{ fontSize: '20px' }}>
-                All our PPE products undergo rigorous testing and certification
-                to ensure compliance with global regulatory requirements,
-                including FDA, CE, ISO, and ASTM standards. Whether it's
-                surgical masks, respirators, gloves, or protective apparel, you
-                can trust OMDYS to deliver PPE solutions that meet or exceed
-                industry benchmarks for safety and performance.
-              </p>
+                <p
+                  className="m-4"
+                  style={{
+                    fontSize: '20px',
+                    textAlign: 'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
+                  All our PPE products undergo rigorous testing and
+                  certification to ensure compliance with global regulatory
+                  requirements, including FDA, CE, ISO, and ASTM standards.
+                  Whether it's surgical masks, respirators, gloves, or
+                  protective apparel, you can trust OMDYS to deliver PPE
+                  solutions that meet or exceed industry benchmarks for safety
+                  and performance.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -144,25 +185,40 @@ const ActivityFive = () => {
                     </h3>
                   </div>
                 </div>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  {/* From microcontrollers to application-specific ICs, we carry a
+                <div className="container">
+                  <p
+                    className="m-4"
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: 0,
+                      padding: 0,
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-all',
+                      lineHeight: '1.5',
+                      wordSpacing: '0.5px',
+                      hyphens: 'auto',
+                    }}
+                  >
+                    {/* From microcontrollers to application-specific ICs, we carry a
                   wide variety of integrated circuits from leading
                   manufacturers. */}
-                  <ul>
-                    <li>
-                      • Providing high-quality, certified PPE that meets
-                      industry standards.
-                    </li>
-                    <li>
-                      • Offering competitive prices and transparent business
-                      practices.
-                    </li>
-                    <li>
-                      • Ensuring timely delivery and exceptional customer
-                      service.
-                    </li>
-                  </ul>
-                </p>
+                    <ul style={{ listStyleType: 'circle' }}>
+                      <li style={{ listStyleType: 'disc' }}>
+                        Providing high-quality, certified PPE that meets
+                        industry standards.
+                      </li>
+                      <li style={{ listStyleType: 'disc' }}>
+                        Offering competitive prices and transparent business
+                        practices.
+                      </li>
+                      <li style={{ listStyleType: 'disc' }}>
+                        Ensuring timely delivery and exceptional customer
+                        service.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -180,15 +236,19 @@ const ActivityFive = () => {
                   {/* Our selection of passive components includes resistors,
                   capacitors, inductors, and filters to support various circuit
                   designs and applications. */}
-                  <li>
-                    • Individual areas of expertise (e.g., sourcing, logistics,
-                    regulatory compliance).
-                  </li>
-                  <li>• Relevant certifications or qualifications.</li>
-                  <li>
-                    • Combined experience in the medical field and supply chain
-                    management.
-                  </li>
+                  <ul style={{ listStyleType: 'circle' }}>
+                    <li style={{ listStyleType: 'disc' }}>
+                      Individual areas of expertise (e.g., sourcing, logistics,
+                      regulatory compliance).
+                    </li>
+                    <li style={{ listStyleType: 'disc' }}>
+                      Relevant certifications or qualifications.
+                    </li>
+                    <li style={{ listStyleType: 'disc' }}>
+                      Combined experience in the medical field and supply chain
+                      management.
+                    </li>
+                  </ul>
                 </p>
               </div>
             </div>
@@ -203,41 +263,116 @@ const ActivityFive = () => {
                     </h3>
                   </div>
                 </div>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  <b style={{ color: 'red' }}> Quality Assurance:</b> We
-                  prioritize quality and compliance with international standards
-                  in all our products. Our stringent quality control measures
-                  guarantee the reliability and effectiveness of the PPE items
-                  we source and trade.
-                </p>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  <b style={{ color: 'red' }}>Diverse Product Range:</b> From
-                  face masks and gloves to protective suits and goggles, we
-                  offer a comprehensive range of medical PPE products to address
-                  various safety requirements across different industries and
-                  sectors.
-                </p>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  <b style={{ color: 'red' }}> Global Sourcing Network: </b>
-                  Leveraging our extensive network of trusted manufacturers and
-                  suppliers worldwide, we are able to source PPE products
-                  efficiently and cost-effectively, ensuring timely delivery to
-                  our clients.
-                </p>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  <b style={{ color: 'red' }}> Customized Solutions:</b> We
-                  understand that every client's needs are unique. That's why we
-                  offer personalized solutions tailored to your specific
-                  requirements, whether you need bulk orders, customized
-                  packaging, or specialized PPE items.
-                </p>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  <b style={{ color: 'red' }}>Reliability and Trust:</b> With
-                  years of experience in the industry, we have earned a
-                  reputation for reliability, transparency, and integrity in all
-                  our business dealings. Our clients trust us to deliver
-                  high-quality products consistently.
-                </p>
+                <div className="container">
+                  <p
+                    className="m-4"
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: 0,
+                      padding: 0,
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-all',
+                      lineHeight: '1.5',
+                      wordSpacing: '0.5px',
+                      hyphens: 'auto',
+                    }}
+                  >
+                    <b
+                      style={{
+                        color: 'red',
+                      }}
+                    >
+                      {' '}
+                      Quality Assurance:
+                    </b>{' '}
+                    We prioritize quality and compliance with international
+                    standards in all our products. Our stringent quality control
+                    measures guarantee the reliability and effectiveness of the
+                    PPE items we source and trade.
+                  </p>
+
+                  <p
+                    className="m-4"
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: 0,
+                      padding: 0,
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-all',
+                      lineHeight: '1.5',
+                      wordSpacing: '0.5px',
+                      hyphens: 'auto',
+                    }}
+                  >
+                    <b style={{ color: 'red' }}>Diverse Product Range:</b> From
+                    face masks and gloves to protective suits and goggles, we
+                    offer a comprehensive range of medical PPE products to
+                    address various safety requirements across different
+                    industries and sectors.
+                  </p>
+                  <p
+                    className="m-4"
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: 0,
+                      padding: 0,
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-all',
+                      lineHeight: '1.5',
+                      wordSpacing: '0.5px',
+                      hyphens: 'auto',
+                    }}
+                  >
+                    <b style={{ color: 'red' }}> Global Sourcing Network: </b>
+                    Leveraging our extensive network of trusted manufacturers
+                    and suppliers worldwide, we are able to source PPE products
+                    efficiently and cost-effectively, ensuring timely delivery
+                    to our clients.
+                  </p>
+                  <p
+                    className="m-4"
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: 0,
+                      padding: 0,
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-all',
+                      lineHeight: '1.5',
+                      wordSpacing: '0.5px',
+                      hyphens: 'auto',
+                    }}
+                  >
+                    <b style={{ color: 'red' }}> Customized Solutions:</b> We
+                    understand that every client's needs are unique. That's why
+                    we offer personalized solutions tailored to your specific
+                    requirements, whether you need bulk orders, customized
+                    packaging, or specialized PPE items.
+                  </p>
+                  <p
+                    className="m-4"
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: 0,
+                      padding: 0,
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-all',
+                      lineHeight: '1.5',
+                      wordSpacing: '0.5px',
+                      hyphens: 'auto',
+                    }}
+                  >
+                    <b style={{ color: 'red' }}>Reliability and Trust:</b> With
+                    years of experience in the industry, we have earned a
+                    reputation for reliability, transparency, and integrity in
+                    all our business dealings. Our clients trust us to deliver
+                    high-quality products consistently.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -253,38 +388,122 @@ const ActivityFive = () => {
                     </h3>
                   </div>
                 </div>
-                <p className="m-4 " style={{ fontSize: '20px' }}>
-                  At OMDYS, we offer a diverse range of medical PPE products
-                  designed to address the specific needs of various industries
-                  and sectors. Our comprehensive product portfolio includes:
-                </p>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  <b style={{ color: 'red' }}>Protective Apparel: </b>Disposable
-                  gowns, coveralls, aprons, and lab coats.
-                </p>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  <b style={{ color: 'red' }}>Gloves:</b> Latex, nitrile, and
-                  vinyl gloves for medical and non-medical use.
-                </p>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  <b style={{ color: 'red' }}>Eye Protection:</b> Safety goggles
-                  and face shields to protect against splashes and airborne
-                  particles.
-                </p>
-                <p className="m-4" style={{ fontSize: '20px' }}>
-                  <b style={{ color: 'red' }}>Sanitizers and Disinfectants: </b>{' '}
-                  Hand sanitizers, disinfectant wipes, and surface disinfectants
-                  for maintaining hygiene protocols.
-                </p>
+                <div className="container">
+                  <p
+                    className="m-4 "
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: 0,
+                      padding: 0,
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-all',
+                      lineHeight: '1.5',
+                      wordSpacing: '0.5px',
+                      hyphens: 'auto',
+                    }}
+                  >
+                    At OMDYS, we offer a diverse range of medical PPE products
+                    designed to address the specific needs of various industries
+                    and sectors. Our comprehensive product portfolio includes:
+                  </p>
+                  <p
+                    className="m-4"
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: 0,
+                      padding: 0,
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-all',
+                      lineHeight: '1.5',
+                      wordSpacing: '0.5px',
+                      hyphens: 'auto',
+                    }}
+                  >
+                    <b style={{ color: 'red' }}>Protective Apparel: </b>
+                    Disposable gowns, coveralls, aprons, and lab coats.
+                  </p>
+                  <p
+                    className="m-4"
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: 0,
+                      padding: 0,
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-all',
+                      lineHeight: '1.5',
+                      wordSpacing: '0.5px',
+                      hyphens: 'auto',
+                    }}
+                  >
+                    <b style={{ color: 'red' }}>Gloves:</b> Latex, nitrile, and
+                    vinyl gloves for medical and non-medical use.
+                  </p>
+                  <p
+                    className="m-4"
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: 0,
+                      padding: 0,
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-all',
+                      lineHeight: '1.5',
+                      wordSpacing: '0.5px',
+                      hyphens: 'auto',
+                    }}
+                  >
+                    <b style={{ color: 'red' }}>Eye Protection:</b> Safety
+                    goggles and face shields to protect against splashes and
+                    airborne particles.
+                  </p>
+                  <p
+                    className="m-4"
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: 0,
+                      padding: 0,
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-all',
+                      lineHeight: '1.5',
+                      wordSpacing: '0.5px',
+                      hyphens: 'auto',
+                    }}
+                  >
+                    <b style={{ color: 'red' }}>
+                      Sanitizers and Disinfectants:{' '}
+                    </b>{' '}
+                    Hand sanitizers, disinfectant wipes, and surface
+                    disinfectants for maintaining hygiene protocols.
+                  </p>
+                </div>
+                <br />
+                <div className="container">
+                  <p
+                    className="mx-1 my-2"
+                    style={{
+                      fontSize: '20px',
+                      textAlign: 'justify',
+                      margin: 0,
+                      padding: 0,
+                      whiteSpace: 'normal',
+                      wordBreak: 'break-all',
+                      lineHeight: '1.5',
+                      wordSpacing: '0.5px',
+                      hyphens: 'auto',
+                    }}
+                  >
+                    <strong>
+                      Trust OMDYS International LLP for all your medical PPE
+                      sourcing requirements. Together, let's prioritize safety
+                      and protect what matters most.
+                    </strong>
+                  </p>
+                </div>
               </div>
-              <br />
-              <p className="mx-1 my-2" style={{ fontSize: '20px' }}>
-                <strong>
-                  Trust OMDYS International LLP for all your medical PPE
-                  sourcing requirements. Together, let's prioritize safety and
-                  protect what matters most.
-                </strong>
-              </p>
               <br />
             </div>
           </div>

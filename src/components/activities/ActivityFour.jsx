@@ -51,7 +51,19 @@ const ActivityFour = () => {
                   Wide Range of Products
                 </h3> */}
                 {/* <p style={{ textAlign: 'justify' }}> */}
-                <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                <p
+                  style={{
+                    fontSize: '18px',
+                    textAlign: 'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
                   Omdys International LLP is committed to offering comprehensive
                   service support in the oil and gas sector. Our primary focus
                   is on the procurement and distribution of petroleum and
@@ -61,6 +73,7 @@ const ActivityFour = () => {
                   long-term relationships with our clients and look forward to
                   serving you and meeting your Industrial Chemical needs.
                 </p>
+                <br />
               </div>
               <figure
                 style={{
@@ -336,12 +349,23 @@ const ActivityFour = () => {
           <h2 style={{ textAlign: 'center' }}>Petroleum Products</h2>
           <div className="container">
             <p
-              className="m-4"
-              style={{ fontSize: '18px', textAlign: 'center' }}
+              className="twop m-4"
+              style={{
+                fontSize: '18px',
+                textAlign: 'center',
+                // margin: 0,
+                // padding: 0,
+                // whiteSpace: 'normal',
+                // wordBreak: 'break-all',
+                // lineHeight: '1.5',
+                // wordSpacing: '0.5px',
+                // hyphens: 'auto',
+              }}
             >
               We offer a wide range of petroleum products, including crude oil,
               gasoline, diesel, jet fuel, and heating oil. Our products are
-              sourced from reliable suppliers, ensuring quality and consistency.
+              sourced from reliable suppliers,
+              <nobr>ensuring quality and consistency.</nobr>
             </p>
             <br />
             <p style={{ fontSize: '20px', textAlign: 'center' }}>
@@ -570,16 +594,16 @@ const ActivityFour = () => {
                   operation of the refinery or rig.
                 </p>
               </li>
-              <div className="container">
-                <p
-                  className="m-4"
-                  style={{ fontSize: '16px', textAlign: 'center' }}
-                >
-                  Please note that the specific materials required can vary
-                  depending on the type of refinery or rig, the nature of the
-                  operations, and the specific requirements of the project.
-                </p>
-              </div>
+              {/* <div className="container"> */}
+              <p
+                className="twop m-4"
+                style={{ fontSize: '16px', textAlign: 'center' }}
+              >
+                Please note that the specific materials required can vary
+                depending on the type of refinery or rig, the nature of the
+                operations, and the specific requirements of the project.
+              </p>
+              {/* </div> */}
             </ul>
           </div>
         </div>
@@ -589,159 +613,175 @@ const ActivityFour = () => {
       <div style={{ marginTop: '-6%' }}>
         <section className="gap no-top core-values">
           <div className="container" style={{ textAlign: 'center' }}>
-            <h3 className="mb-5 mt-5 text-center" style={{ fontSize: '48px' }}>
-              PETROCHEMICAL PRODUCTS
-            </h3>
-            <p style={{ fontSize: '18px' }}>
-              Our portfolio of petrochemical products includes ethylene,
-              propylene, butadiene, and aromatics. These are essential raw
-              materials for a variety of industries, including plastics, rubber,
-              and synthetic fibers.
-            </p>
-            <br />
-            <p style={{ fontSize: '20px', textAlign: 'center' }}>
-              <b>
-                Here is a list of common materials required for Petrochemical
-                companies:
-              </b>
-            </p>
-            {/* <br /> */}
-            {/* <div className="row"> */}
-            <ul>
-              <li data-aos="fade-down">
-                <div className="data">
-                  <h3> Catalysts</h3>
-                  <p>
-                    Catalysts are substances that speed up chemical reactions
-                    without being consumed in the process. They are crucial in
-                    many petrochemical processes.
-                  </p>
-                </div>
-                <div className="image" data-aos="fade-right">
-                  <figure>
-                    <img
-                      className="w-100"
-                      // src="assets/svg4/Medical PPE 1.svg"
-                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                      alt="Core Values Image 1"
-                    />
-                  </figure>
-                </div>
-              </li>
-              <li data-aos="fade-left">
-                <div className="image">
-                  <figure>
-                    <img
-                      className="w-100"
-                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                      alt="Core Values Image 1"
-                    />
-                  </figure>
-                </div>
-                <div className="data">
-                  <h3> Chemicals</h3>
-                  <p>
-                    A variety of chemicals are used in the petrochemical
-                    industry for various processes. These include acids, bases,
-                    solvents, and salts.
-                  </p>
-                </div>
-              </li>
-              <li data-aos="fade-down">
-                <div className="data">
-                  <h3>Pipes and Valves</h3>
-                  <p>
-                    These are used for transporting raw materials,
-                    intermediates, and finished products within the plant.
-                  </p>
-                </div>
-                <div className="image" data-aos="fade-left">
-                  <figure>
-                    <img
-                      className="w-100"
-                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                      alt="Core Values Image 1"
-                    />
-                  </figure>
-                </div>
-              </li>
-              <li>
-                <div className="image" data-aos="fade-right">
-                  <figure>
-                    <img
-                      className="w-100"
-                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                      alt="Core Values Image 1"
-                    />
-                  </figure>
-                </div>
-                <div className="data">
-                  <h3>Tanks and Vessels</h3>
-                  <p>
-                    These are used for storing raw materials, intermediates, and
-                    finished products.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div className="data">
-                  <h3>Safety Equipment</h3>
-                  <p>
-                    Personal Protective Equipment (PPE) such as helmets, safety
-                    shoes, gloves, and safety harnesses are essential for the
-                    safety of the workers.
-                  </p>
-                </div>
-                <div className="image" data-aos="fade-left">
-                  <figure>
-                    <img
-                      className="w-100"
-                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                      alt="Core Values Image 1"
-                    />
-                  </figure>
-                </div>
-              </li>
-              <li>
-                <div className="image" data-aos="fade-right">
-                  <figure>
-                    <img
-                      className="w-100"
-                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                      alt="Core Values Image 1"
-                    />
-                  </figure>
-                </div>
-                <div className="data">
-                  <h3>Instrumentation Equipment</h3>
-                  <p>
-                    Instruments for measuring pressure, temperature, flow rate,
-                    and other parameters are crucial for the safe and efficient
-                    operation of the plant.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div className="data">
-                  <h3>Instrumentation Equipment</h3>
-                  <p>
-                    Instruments for measuring pressure, temperature, flow rate,
-                    and other parameters are crucial for the safe and efficient
-                    operation of the plant.
-                  </p>
-                </div>
-                <div className="image" data-aos="fade-left">
-                  <figure>
-                    <img
-                      className="w-100"
-                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                      alt="Core Values Image 1"
-                    />
-                  </figure>
-                </div>
-              </li>
-            </ul>
-            {/* </div> */}
+            <div className="container">
+              <h3
+                className="mb-5 mt-5 text-center"
+                style={{ fontSize: '46px' }}
+              >
+                Petrochemical Products
+              </h3>
+              <p
+                style={{
+                  fontSize: '18px',
+                  textAlign: 'justify',
+                  margin: 0,
+                  padding: 0,
+                  whiteSpace: 'normal',
+                  wordBreak: 'break-all',
+                  lineHeight: '1.5',
+                  wordSpacing: '0.5px',
+                  hyphens: 'auto',
+                }}
+              >
+                Our portfolio of petrochemical products includes ethylene,
+                propylene, butadiene, and aromatics. These are essential raw
+                materials for a variety of industries, including plastics,
+                rubber, and synthetic fibers.
+              </p>
+              <br />
+              <p style={{ fontSize: '20px', textAlign: 'center' }}>
+                <b>
+                  Here is a list of common materials required for Petrochemical
+                  companies:
+                </b>
+              </p>
+              {/* <br /> */}
+              {/* <div className="row"> */}
+              <ul>
+                <li data-aos="fade-down">
+                  <div className="data">
+                    <h3> Catalysts</h3>
+                    <p>
+                      Catalysts are substances that speed up chemical reactions
+                      without being consumed in the process. They are crucial in
+                      many petrochemical processes.
+                    </p>
+                  </div>
+                  <div className="image" data-aos="fade-right">
+                    <figure>
+                      <img
+                        className="w-100"
+                        // src="assets/svg4/Medical PPE 1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                </li>
+                <li data-aos="fade-left">
+                  <div className="image">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                  <div className="data">
+                    <h3> Chemicals</h3>
+                    <p>
+                      A variety of chemicals are used in the petrochemical
+                      industry for various processes. These include acids,
+                      bases, solvents, and salts.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-down">
+                  <div className="data">
+                    <h3>Pipes and Valves</h3>
+                    <p>
+                      These are used for transporting raw materials,
+                      intermediates, and finished products within the plant.
+                    </p>
+                  </div>
+                  <div className="image" data-aos="fade-left">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                </li>
+                <li>
+                  <div className="image" data-aos="fade-right">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                  <div className="data">
+                    <h3>Tanks and Vessels</h3>
+                    <p>
+                      These are used for storing raw materials, intermediates,
+                      and finished products.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div className="data">
+                    <h3>Safety Equipment</h3>
+                    <p>
+                      Personal Protective Equipment (PPE) such as helmets,
+                      safety shoes, gloves, and safety harnesses are essential
+                      for the safety of the workers.
+                    </p>
+                  </div>
+                  <div className="image" data-aos="fade-left">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                </li>
+                <li>
+                  <div className="image" data-aos="fade-right">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                  <div className="data">
+                    <h3>Instrumentation Equipment</h3>
+                    <p>
+                      Instruments for measuring pressure, temperature, flow
+                      rate, and other parameters are crucial for the safe and
+                      efficient operation of the plant.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div className="data">
+                    <h3>Maintenance Supplies</h3>
+                    <p>
+                      These include tools, lubricants, gaskets, seals, and
+                      cleaning supplies.
+                    </p>
+                  </div>
+                  <div className="image" data-aos="fade-left">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                </li>
+              </ul>
+              {/* </div> */}
+            </div>
           </div>
         </section>
       </div>
@@ -1012,58 +1052,118 @@ const ActivityFour = () => {
               <div className="col-lg-6">
                 <div className="proj-data" style={{ marginTop: '1rem' }}>
                   <h3 className="mt-4">
-                    <a href="project-detail.html">Quality Assurance</a>
+                    <a href="Javascript:void(0)">Quality Assurance</a>
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '18px' }}>
-                We are committed to providing high-quality products. All the
-                Industrial Chemical products that are supplied by us undergo
-                rigorous quality checks to ensure they meet the highest
-                standards.
-              </p>
+              <div className="container">
+                <p
+                  className="m-4"
+                  style={{
+                    fontSize: '18px',
+                    textAlign: 'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
+                  We are committed to providing high-quality products. All the
+                  Industrial Chemical products that are supplied by us undergo
+                  rigorous quality checks to ensure they meet the highest
+                  standards.
+                </p>
+              </div>
             </div>
             <div className="row align-items-center" data-aos="fade-right">
               <div className="col-lg-6">
                 <div className="proj-data">
                   <h3 className="mt-4">
-                    <a href="project-detail.html">Competitive Pricing</a>
+                    <a href="Javascript:void(0)">Competitive Pricing</a>
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '18px' }}>
-                We understand the importance of cost-effectiveness in your
-                business. That’s why we offer our products at competitive
-                prices, ensuring you get the best value for your money.
-              </p>
+              <div className="container">
+                <p
+                  className="m-4"
+                  style={{
+                    fontSize: '18px',
+                    textAlign: 'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
+                  We understand the importance of cost-effectiveness in your
+                  business. That’s why we offer our products at competitive
+                  prices, ensuring you get the best value for your money.
+                </p>
+              </div>
             </div>
             <div className="row align-items-center" data-aos="fade-left">
               <div className="col-lg-6">
                 <div className="proj-data">
                   <h3 className="mt-4">
-                    <a href="project-detail.html">Timely Delivery</a>
+                    <a href="Javascript:void(0)">Timely Delivery</a>
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '18px' }}>
-                We have efficient logistics in place to ensure timely delivery
-                of your orders. We understand that in your business, time is of
-                the essence.
-              </p>
+              <div className="container">
+                <p
+                  className="m-4"
+                  style={{
+                    fontSize: '18px',
+                    textAlign: 'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
+                  We have efficient logistics in place to ensure timely delivery
+                  of your orders. We understand that in your business, time is
+                  of the essence.
+                </p>
+              </div>
             </div>
             <div className="row align-items-center" data-aos="fade-right">
               <div className="col-lg-6">
                 <div className="proj-data">
                   <h3 className="mt-4">
-                    <a href="project-detail.html">Customer Support</a>
+                    <a href="Javascript:void(0)">Customer Support</a>
                   </h3>
                 </div>
               </div>
-              <p className="m-4" style={{ fontSize: '18px' }}>
-                Our dedicated customer support team is always ready to assist
-                you with any queries or issues. We strive to provide excellent
-                customer service and ensure your satisfaction.
-              </p>
+              <div className="container">
+                <p
+                  className="m-4"
+                  style={{
+                    fontSize: '18px',
+                    textAlign: 'justify',
+                    margin: 0,
+                    padding: 0,
+                    whiteSpace: 'normal',
+                    wordBreak: 'break-all',
+                    lineHeight: '1.5',
+                    wordSpacing: '0.5px',
+                    hyphens: 'auto',
+                  }}
+                >
+                  Our dedicated customer support team is always ready to assist
+                  you with any queries or issues. We strive to provide excellent
+                  customer service and ensure your satisfaction.
+                </p>
+              </div>
             </div>
           </div>
         </div>

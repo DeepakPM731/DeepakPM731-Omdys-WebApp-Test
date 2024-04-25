@@ -587,7 +587,7 @@ const ActivityThree = () => {
                   className="m-4"
                   style={{
                     fontSize: '18px',
-                    textAlign:'justify',
+                    textAlign: 'justify',
                     margin: 0,
                     padding: 0,
                     whiteSpace: 'normal',

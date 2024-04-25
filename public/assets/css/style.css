@@ -2823,12 +2823,7 @@ span.counter {
   line-height: 10px;
 }
 
-.mobile-nav
-  > ul
-  li.menu-item-has-children.menu-item-has-children.active
-  ul.sub-menu
-  li
-  a:before {
+.mobile-nav > ul li.menu-item-has-children.menu-item-has-children.active ul.sub-menu li a:before {
   content: '';
   width: 6px;
   height: 6px;
@@ -4598,17 +4593,17 @@ span.counter {
     height: 480px;
     /* background: red; */
   }
-  .twop {
-    font-size: 18px;
-    color: red;
-    text-align: justify;
-    margin: 0;
-    padding: 0;
-    white-space: normal;
-    word-break: break-all;
-    line-height: 1.5;
-    word-spacing: 0.5px;
-    hyphens: auto;
+   .twop{
+  font-size: 18px;
+  color: red;
+text-align: justify;
+margin: 0;
+padding: 0;
+white-space: normal;
+word-break: break-all;
+line-height: 1.5;
+word-spacing: 0.5px;
+hyphens: auto;
   }
 }
 @media screen and (max-width: 380px) {
@@ -4616,6 +4611,7 @@ span.counter {
     height: 590px;
     /* background: red; */
   }
+ 
 }
 
 /* -------------------- */
