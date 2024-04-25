@@ -84,8 +84,8 @@ const ServiceThree = () => {
                     <i className="fa-solid fa-check" />
                     <p>
                       <b>
-                        • Negotiating optimal shipping rates and securing
-                        reliable transportation partners.
+                        Negotiating optimal shipping rates and securing reliable
+                        transportation partners.
                       </b>
                     </p>
                   </li>
