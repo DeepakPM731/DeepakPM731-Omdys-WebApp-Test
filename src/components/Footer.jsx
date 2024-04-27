@@ -101,7 +101,11 @@ const Footer = () => {
                   </p>
                 </div>
 
-                <Link to={'/contact'} className="theme-btn">
+                <Link
+                  to={'/contact'}
+                  className="theme-btn"
+                  style={{ alignItems: 'center' }}
+                >
                   Place your enquiry <i className="fa-solid fa-angles-right" />
                 </Link>
               </div>
@@ -110,7 +114,7 @@ const Footer = () => {
         </div>
         <div className="footer-p-2">
           <div className="container">
-            <div className="row">
+            <div className="row" style={{ marginTop: '-3%' }}>
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-col">
                   <h3>Information</h3>
@@ -196,7 +200,7 @@ const Footer = () => {
                         target="_blank"
                         // style={{ textShadow: '2px 2px 5px  black' }}
                       >
-                        <p>+91 84310 6789 3</p>
+                        <p>+91&nbsp;84310&nbsp;6789&nbsp;3</p>
                       </a>
                     </li>
                     <li>
@@ -268,7 +272,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="footer-p-3 rights">
+        <div className="footer-p-3 rights" style={{ marginTop: '-5%' }}>
           <div className="container">
             <div className="row">
               <div className="footer-col">

@@ -64,7 +64,7 @@ const AboutPage = () => {
                   <div>
                     <h3>Who We Are?</h3>
                     <p style={{ textAlign: 'justify' }}>
-                      Born in the heart of industrial Tamil Nadu, OMDYS
+                      Born in the heart of industrial-Hosur, Tamil Nadu, OMDYS
                       International LLP is a young and dynamic sourcing and
                       trading company. With a wealth of experience under our
                       belt, we have a proven track record of connecting
@@ -78,13 +78,14 @@ const AboutPage = () => {
                   </div>
                   <figure>
                     <img
-                      className="w-100"
+                      // className="w-100"
                       // src="https://winsfolio.net/html/builty/assets/images/about-d-1.jpg"
                       // src="assets/svg/1.svg"
                       // src="assets/svg4/whoweare1.svg"
                       src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare1.svg"
                       alt="About Image One"
-                      width={'500px'}
+                      style={{ width: '580px', height: '500px' }}
+                      // width={'500px'}
                       // height={'780px'}
                     />
                   </figure>
@@ -124,8 +125,9 @@ const AboutPage = () => {
                       // src="assets/svg4/whoweare2.svg"
                       src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare2.svg"
                       alt="About Image Two "
-                      width={'520px'}
-                      height={'450px'}
+                      style={{ width: '580px', height: '500px' }}
+                      // width={'520px'}
+                      // height={'450px'}
                     />
                   </figure>
                 </div>

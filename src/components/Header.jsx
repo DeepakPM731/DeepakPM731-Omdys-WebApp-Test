@@ -188,7 +188,7 @@ const Header = () => {
                                   <li>
                                     {/* <Link to={'/activity-two'}> */}
                                     <a href="/activity-two">
-                                      Electronics Components
+                                      Electronics Components Trading
                                     </a>
                                     {/* </Link> */}
                                   </li>
@@ -196,20 +196,22 @@ const Header = () => {
                                     {/* <Link to={'/activity-three'}> */}
                                     <a href="/activity-three">
                                       Industrial Construction Tools and
-                                      Equipment
+                                      Equipment Trading
                                     </a>
                                     {/* </Link> */}
                                   </li>
                                   <li>
                                     {/* <Link to={'/activity-four'}> */}
                                     <a href="/activity-four">
-                                      Industrial Chemical Products
+                                      Industrial Chemical Products Supply
                                     </a>
                                     {/* </Link> */}
                                   </li>
                                   <li>
                                     {/* <Link to={'/activity-five'}> */}
-                                    <a href="/activity-five">Medical-PPE</a>
+                                    <a href="/activity-five">
+                                      Medical-PPE Supply
+                                    </a>
                                     {/* </Link> */}
                                   </li>
                                 </ul>
@@ -483,26 +485,28 @@ const Header = () => {
                         </li>
                         <li>
                           {/* <Link to={'/activity-two'}> */}
-                          <a href="/activity-two">Electronics Components</a>
+                          <a href="/activity-two">
+                            Electronics Components Trading
+                          </a>
                           {/* </Link> */}
                         </li>
                         <li>
                           {/* <Link to={'/activity-three'}> */}
                           <a href="/activity-three">
-                            Industrial Construction Tools and Equipment
+                            Industrial Construction Tools and Equipment Trading
                           </a>
                           {/* </Link> */}
                         </li>
                         <li>
                           {/* <Link to={'/activity-four'}> */}
                           <a href="/activity-four">
-                            Industrial Chemical Products
+                            Industrial Chemical Products Supply
                           </a>
                           {/* </Link> */}
                         </li>
                         <li>
                           {/* <Link to={'/activity-five'}> */}
-                          <a href="/activity-five">Medical-PPE</a>
+                          <a href="/activity-five">Medical-PPE Supply</a>
                           {/* </Link> */}
                         </li>
                       </ul>

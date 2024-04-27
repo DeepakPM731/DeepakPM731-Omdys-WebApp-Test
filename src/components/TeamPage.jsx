@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 
 const TeamPage = () => {
-  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -41,9 +40,10 @@ const TeamPage = () => {
                   <h2>Meet Our Team</h2>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-4">
+              {/* slider button */}
+              {/* <div className="col-lg-6 col-md-4">
                 <div className="team-slider-nav"></div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -228,6 +228,9 @@ const TeamPage = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="col-lg-6 col-md-4">
+              <div className="team-slider-nav"></div>
             </div>
           </div>
         </div>

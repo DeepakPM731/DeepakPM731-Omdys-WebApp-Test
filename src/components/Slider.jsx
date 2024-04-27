@@ -1,5 +1,15 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 const Slider = () => {
+    useEffect(() => {
+      let elements = document.querySelectorAll('[data-aos]');
+      for (let i = 0; i < elements.length; i++) {
+        //if ios remove the attribute
+        if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+          elements[i].removeAttribute('owl-carousel');
+        }
+      }
+    });
   return (
     <>
       <section className="featured-slider-one" style={{ background: 'grey' }}>

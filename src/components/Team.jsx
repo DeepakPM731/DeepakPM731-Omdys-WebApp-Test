@@ -11,9 +11,9 @@ const Team = () => {
                   <h2>Meet Our Team</h2>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-4">
+              {/* <div className="col-lg-6 col-md-4">
                 <div className="team-slider-nav"></div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -198,6 +198,9 @@ const Team = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="col-lg-6 col-md-4">
+              <div className="team-slider-nav"></div>
             </div>
           </div>
         </div>
