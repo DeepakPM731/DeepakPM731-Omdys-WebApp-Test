@@ -29,7 +29,8 @@ const News = () => {
 
   useEffect(() => {
     // const corsAnywhereUrl = 'https://cors-anywhere.herokuapp.com/';
-    const apiUrl = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=${key}`;
+    // const apiUrl = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=${key}`;
+    const apiUrl = `https://gnews.io/api/v4/top-headlines?category=business&lang=en&apikey=${key}`;
 
     axios
       .get(apiUrl)
@@ -101,7 +102,8 @@ const News = () => {
                       <figure>
                         {/* // src="https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg" */}
                         <img
-                          src={news.urlToImage}
+                          // src={news.urlToImage}
+                          src={news.image}
                           alt="blog-img-1"
                           onError={(e) => {
                             e.target.src =
