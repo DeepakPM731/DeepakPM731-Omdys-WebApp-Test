@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import '../App.css';
 const News = () => {
   const [data, setData] = useState([]);
 
@@ -47,106 +47,179 @@ const News = () => {
 
   return (
     <>
-      <section className="banner-style-one">
-        <div
-          className="parallax"
-          style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
-        />
-        <div className="container">
-          <div className="row">
-            <div className="banner-details">
-              <h2>News</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A nihil
-                iste blanditiis. Aspernatur adipisci vitae iure asperiores
-                laudantium fugiat cupiditate alias facilis! Adipisci quia
-                aperiam perferendis perspiciatis harum nisi sunt.
-              </p>
+      {data.length === 0 ? (
+        <>
+          <section className="banner-style-one">
+            <div
+              className="parallax"
+              style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
+            />
+            <div className="container">
+              <div className="row">
+                <div className="banner-details">
+                  <h2>News</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                    nihil iste blanditiis. Aspernatur adipisci vitae iure
+                    asperiores laudantium fugiat cupiditate alias facilis!
+                    Adipisci quia aperiam perferendis perspiciatis harum nisi
+                    sunt.
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div className="breadcrums">
-          <div className="container">
-            <div className="row">
-              <ul>
-                <li>
-                  <Link to={'/'}>
-                    <i className="fa-solid fa-house" />
-                    <p>Home</p>
-                  </Link>
-                </li>
-                <li className="current">
-                  <p>Contact Us</p>
-                </li>
-              </ul>
+            <div className="breadcrums">
+              <div className="container">
+                <div className="row">
+                  <ul>
+                    <li>
+                      <Link to={'/'}>
+                        <i className="fa-solid fa-house" />
+                        <p>Home</p>
+                      </Link>
+                    </li>
+                    <li className="current">
+                      <p>Contact Us</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        {/* news starts */}
-      </section>
-      <section className="gap no-top blog-style-one">
-        <div className="heading" style={{ marginTop: '30px' }}>
-          <figure>
-            <img src="assets/images/heading-icon.png" alt="heading-icon" />
-          </figure>
-          <span>Let us Help Guide</span>
-          <h2>Recent Articles</h2>
-        </div>
-        <div className="container">
-          <div className="row">
-            {data.map((news, key) => (
-              <>
-                <div key={key} className="col-lg-4 col-md-6 col-sm-12">
-                  <div className="blog-post">
-                    <div className="blog-image">
-                      <figure>
-                        {/* // src="https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg" */}
-                        <img
-                          // src={news.urlToImage}
-                          src={news.image}
-                          alt="blog-img-1"
-                          onError={(e) => {
-                            e.target.src =
-                              'https://cdn.pixabay.com/photo/2013/07/12/19/16/newspaper-154444_640.png';
-                          }}
-                          width={'400px'}
-                          height={'280px'}
-                        />
-                      </figure>
-                      <a href={news.url} target="_blank">
-                        <i className="fa-solid fa-angles-right" />
-                      </a>
-                    </div>
-                    <div className="blog-data">
-                      <span className="blog-date">{news.publishedAt}</span>
-                      {/* <span className="blog-date">January 9, 2022</span> */}
-                      <h2>
-                        <a href={news.url} target="_blank">
-                          {news.title}
-                        </a>
-                      </h2>
-                      <div className="blog-author d-flex-all justify-content-start">
-                        <div className="author-img">
+            {/* news starts */}
+          </section>
+          <section className="gap no-top blog-style-one">
+            <div className="heading" style={{ marginTop: '30px' }}>
+              <figure>
+                <img src="assets/images/heading-icon.png" alt="heading-icon" />
+              </figure>
+              <span>Let us Help Guide</span>
+              <h2>Recent Articles</h2>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div className="container">
+              <div className="text-center">
+                {/* Loader */}
+                <div className="loader">
+                  <div className="cube">
+                    <div className="side"></div>
+                    <div className="side"></div>
+                    <div className="side"></div>
+                    <div className="side"></div>
+                    <div className="side"></div>
+                    <div className="side"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </>
+      ) : (
+        <>
+          <section className="banner-style-one">
+            <div
+              className="parallax"
+              style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
+            />
+            <div className="container">
+              <div className="row">
+                <div className="banner-details">
+                  <h2>News</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                    nihil iste blanditiis. Aspernatur adipisci vitae iure
+                    asperiores laudantium fugiat cupiditate alias facilis!
+                    Adipisci quia aperiam perferendis perspiciatis harum nisi
+                    sunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="breadcrums">
+              <div className="container">
+                <div className="row">
+                  <ul>
+                    <li>
+                      <Link to={'/'}>
+                        <i className="fa-solid fa-house" />
+                        <p>Home</p>
+                      </Link>
+                    </li>
+                    <li className="current">
+                      <p>Contact Us</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {/* news starts */}
+          </section>
+          <section className="gap no-top blog-style-one">
+            <div className="heading" style={{ marginTop: '30px' }}>
+              <figure>
+                <img src="assets/images/heading-icon.png" alt="heading-icon" />
+              </figure>
+              <span>Let us Help Guide</span>
+              <h2>Recent Articles</h2>
+            </div>
+            <div className="container">
+              <div className="row">
+                {data.map((news, key) => (
+                  <>
+                    <div key={key} className="col-lg-4 col-md-6 col-sm-12">
+                      <div className="blog-post">
+                        <div className="blog-image">
                           <figure>
+                            {/* // src="https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg" */}
                             <img
-                              src="	https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg"
-                              alt="Blog Author Img"
+                              // src={news.urlToImage}
+                              src={news.image}
+                              alt="blog-img-1"
+                              onError={(e) => {
+                                e.target.src =
+                                  'https://cdn.pixabay.com/photo/2013/07/12/19/16/newspaper-154444_640.png';
+                              }}
+                              width={'400px'}
+                              height={'280px'}
                             />
                           </figure>
+                          <a href={news.url} target="_blank">
+                            <i className="fa-solid fa-angles-right" />
+                          </a>
                         </div>
-                        <div className="details">
-                          <h3>
-                            <span>by</span> {news.source.name}
-                          </h3>
+                        <div className="blog-data">
+                          <span className="blog-date">{news.publishedAt}</span>
+                          {/* <span className="blog-date">January 9, 2022</span> */}
+                          <h2>
+                            <a href={news.url} target="_blank">
+                              {news.title}
+                            </a>
+                          </h2>
+                          <div className="blog-author d-flex-all justify-content-start">
+                            <div className="author-img">
+                              <figure>
+                                <img
+                                  src="	https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg"
+                                  alt="Blog Author Img"
+                                />
+                              </figure>
+                            </div>
+                            <div className="details">
+                              <h3>
+                                <span>by</span> {news.source.name}
+                              </h3>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </>
-            ))}
+                  </>
+                ))}
 
-            {/* <div className="col-lg-4 col-md-6 col-sm-12">
+                {/* <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="blog-post">
                 <div className="blog-image">
                   <figure>
@@ -223,14 +296,20 @@ const News = () => {
                 </div>
               </div>
             </div> */}
-          </div>
-          <div className="common-btn">
-            <a href="javascript:void(0)" className="theme-btn">
-              View All Posts <i className="fa-solid fa-angles-right" />
-            </a>
-          </div>
-        </div>
-      </section>
+              </div>
+              <div className="common-btn">
+                <a
+                  href="https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US%3Aen"
+                  target="_blank"
+                  className="theme-btn"
+                >
+                  View All Posts <i className="fa-solid fa-angles-right" />
+                </a>
+              </div>
+            </div>
+          </section>
+        </>
+      )}
     </>
   );
 };
