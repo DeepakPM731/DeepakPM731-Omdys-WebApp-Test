@@ -134,7 +134,7 @@ const ContactPage = () => {
             (error) => {
               console.log('FAILED...', error.text);
             }
-          );
+            );
       } catch (error) {
         console.log(error);
       }

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import toast, { ToastBar, Toaster } from 'react-hot-toast';
 
 const Footer = () => {
   const form = useRef();
@@ -21,10 +22,48 @@ const Footer = () => {
           console.log('FAILED...', error.text);
         }
       );
+    emailjs
+      .sendForm('service_kn4xgji', 'template_49izg1a', e.target, {
+        publicKey: 'IC9_7chZnJVX9bo8Z',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          e.target.reset();
+          toast.success('Subscription Successful!', {
+            // position: 'bottom-center',
+            position: 'center-right',
+            duration: 3000,
+            style: {
+              width: '200px',
+              fontSize: '24px',
+              background: 'green',
+              color: '#fff',
+            },
+          });
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        }
+      );
   };
+
   return (
     <>
       <footer className="footer-style-one">
+        <Toaster>
+          {(t) => (
+            <ToastBar
+              toast={t}
+              style={{
+                ...t.style,
+                animation: t.visible
+                  ? 'custom-enter 3s ease'
+                  : 'custom-exit 1s ease',
+              }}
+            />
+          )}
+        </Toaster>
         <div className="footer-p-1">
           <div className="container">
             <div className="row">
