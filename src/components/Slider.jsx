@@ -1,15 +1,38 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+// import $ from 'jquery';
+// import 'owl.carousel';
 const Slider = () => {
-    useEffect(() => {
-      let elements = document.querySelectorAll('[data-aos]');
-      for (let i = 0; i < elements.length; i++) {
-        //if ios remove the attribute
-        if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
-          elements[i].removeAttribute('owl-carousel');
-        }
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
       }
-    });
+    }
+  });
+
+  // useEffect(() => {
+  //   if ($('.f-slider-one')[0]) {
+  //     $('.f-slider-one.owl-carousel').owlCarousel({
+  //       items: 1,
+  //       loop: true,
+  //       margin: 0,
+  //       stagePadding: 0,
+  //       nav: true,
+  //       navText: [
+  //         "<button><i class='fa-solid fa-angles-left'></i></button>",
+  //         "<button><i class='fa-solid fa-angles-right'></i></button>",
+  //       ],
+  //       dots: false,
+  //       animateOut: 'fadeOut',
+  //       touchDrag: false,
+  //       mouseDrag: false,
+  //     });
+  //   }
+  // }, []);
+
   return (
     <>
       <section className="featured-slider-one" style={{ background: 'grey' }}>
@@ -17,6 +40,7 @@ const Slider = () => {
         <div className="containe">
           <div className="ro f-slider-one owl-carousel">
             {/* <h1>Test 2</h1> */}
+            {/* <div className="f-slider-layer"> */}
             <div className="f-slider-layer">
               {/* <h1>test 3</h1> */}
               <img
@@ -82,3 +106,4 @@ const Slider = () => {
 };
 
 export default Slider;
+
