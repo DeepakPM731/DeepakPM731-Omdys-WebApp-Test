@@ -9,9 +9,25 @@ import Slider from './Slider';
 import Team from './Team';
 import Vision from './Vision';
 import Review from './Review';
+// import { useEffect, useState } from 'react';
+// import Loader from './Loader';
 const Home = () => {
+  // const [loading, setLoading] = useState(true);
+
+  // useEffect(() => {
+  //   // Simulate loading delay with setTimeout
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 3000);
+  // }, []);
   return (
     <>
+      {/* {loading ? (
+        <>
+          <Loader />
+        </>
+      ) : (
+        <> */}
       <Slider />
       <Vision />
       <About />
@@ -27,6 +43,8 @@ const Home = () => {
         <i className="fa-solid fa-arrow-up"></i>
       </button>
     </>
+    //   )}
+    // </>
   );
 };
 

@@ -1,7 +1,7 @@
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   BrowserRouter as Router,
   Routes,
@@ -25,8 +25,10 @@ import TeamPage from './components/TeamPage';
 import ActivityFour from './components/activities/ActivityFour';
 import ContactPage from './components/ContactPage';
 import News from './components/News';
+
 // import Contact from './components/Contact';
 const App = () => {
+  
   return (
     <>
       <Router>
