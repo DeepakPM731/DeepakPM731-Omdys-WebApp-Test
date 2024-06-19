@@ -195,7 +195,7 @@ const News = () => {
             </div>
             <div className="container">
               <div className="row">
-                {data.map((news, key) => (
+                {updatedApiResponse.map((news, key) => (
                   <>
                     <div key={key} className="col-lg-4 col-md-6 col-sm-12">
                       <div className="blog-post">
@@ -220,7 +220,10 @@ const News = () => {
                           </a>
                         </div>
                         <div className="blog-data">
-                          <span className="blog-date">{news.publishedAt}</span>
+                          <span className="blog-date">
+                            {news.formattedDate}
+                          </span>
+                          {/* <span className="blog-date">{news.publishedAt}</span> */}
                           {/* <span className="blog-date">January 9, 2022</span> */}
                           <h2>
                             <a href={news.url} target="_blank">
