@@ -46,33 +46,32 @@ const News = () => {
       });
   }, []);
 
-
   console.log(data);
-function convertTimestampToDate(apiRsetDataesponse) {
-  // Loop through each object in the array
-  data.forEach((news) => {
-    // Parse the timestamp to create a Date object
-    const date = new Date(news.publishedAt);
+  function convertTimestampToDate(data) {
+    // Loop through each object in the array
+    data.forEach((news) => {
+      // Parse the timestamp to create a Date object
+      const date = new Date(news.publishedAt);
 
-    // Extract the day, month, and year
-    const day = String(date.getDate()).padStart(2, '0');
-    const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-based
-    const year = date.getFullYear();
+      // Extract the day, month, and year
+      const day = String(date.getDate()).padStart(2, '0');
+      const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-based
+      const year = date.getFullYear();
 
-    // Format the date to dd-mm-yyyy
-    const formattedDate = `${day}-${month}-${year}`;
+      // Format the date to dd-mm-yyyy
+      const formattedDate = `${day}-${month}-${year}`;
 
-    // Add the formatted date back to the object (or replace the timestamp if needed)
-    news.formattedDate = formattedDate;
-  });
+      // Add the formatted date back to the object (or replace the timestamp if needed)
+      news.formattedDate = formattedDate;
+    });
 
-  return data;
-}
+    return data;
+  }
 
-const updatedApiResponse = convertTimestampToDate(data);
+  const updatedApiResponse = convertTimestampToDate(data);
 
-// Output the updated response
-console.log("time stamp",updatedApiResponse);
+  // Output the updated response
+  console.log('time stamp', updatedApiResponse);
 
   return (
     <>
