@@ -1,10 +1,11 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import toast, { ToastBar, Toaster } from 'react-hot-toast';
 import emailjs from '@emailjs/browser';
 
 const ContactPage = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -27,7 +28,7 @@ const ContactPage = () => {
     name: '',
     email: '',
     phone: '',
-    division: 'Select Division',
+    division: '',
     subject: '',
     message: '',
   });
@@ -60,15 +61,21 @@ const ContactPage = () => {
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = 'Please enter a valid email';
     }
-    if (!formData.phone) {
+    // if (!formData.phone) {
+    //   newErrors.phone = 'Please enter your phone number';
+    // }
+    if (!/^\d{10}$/.test(formData.phone)) {
       newErrors.phone = 'Please enter your phone number';
     }
-    // if (!formData.division) {
-    //   newErrors.division = 'Please select a division';
+    // else if (!/^\d{10}$/.test(formData.phone)) {
+    //   newErrors.phone = 'Phone number must be exactly 10 digits';
     // }
-    if (!formData.subject) {
-      newErrors.subject = 'Please enter a subject';
+    if (!formData.division) {
+      newErrors.division = 'Please select a division';
     }
+    // if (!formData.subject) {
+    //   newErrors.subject = 'Please enter a subject';
+    // }
     if (!formData.message) {
       newErrors.message = 'Please enter your message';
     }
@@ -110,8 +117,8 @@ const ContactPage = () => {
           });
         console.log('Form submitted:', formData);
         emailjs
-          .sendForm('service_kn4xgji', 'template_6ax7wdj', e.target, {
-            publicKey: 'IC9_7chZnJVX9bo8Z',
+          .sendForm('service_9kr6uou', 'template_45teqtk1', e.target, {
+            publicKey: '_A24ZdcP1Qn1j5x9B',
           })
           .then(
             () => {
@@ -123,8 +130,8 @@ const ContactPage = () => {
             }
           );
         emailjs
-          .sendForm('service_kn4xgji', 'template_49izg1a', e.target, {
-            publicKey: 'IC9_7chZnJVX9bo8Z',
+          .sendForm('service_9kr6uou', 'template_apvkpii1', e.target, {
+            publicKey: '_A24ZdcP1Qn1j5x9B',
           })
           .then(
             () => {
@@ -134,7 +141,8 @@ const ContactPage = () => {
             (error) => {
               console.log('FAILED...', error.text);
             }
-            );
+          );
+        // navigate('/activities');
       } catch (error) {
         console.log(error);
       }
@@ -206,8 +214,8 @@ const ContactPage = () => {
                     <b> How can we help?</b>
                   </span>
                   <h2>
-                    Welcome - Reach Out to Us with Your Inquiries.
-                    We&apos;re Here to Help!
+                    Welcome - Reach Out to Us with Your Inquiries. We&apos;re
+                    Here to Help!
                   </h2>
                   <p>
                     Have questions or want to chat? Fill out our contact form,
@@ -237,7 +245,7 @@ const ContactPage = () => {
                     </div>
                     <div className="row g-0">
                       <input
-                        type="email"
+                        type="text"
                         className={`form-control ${
                           errors.email && 'is-invalid'
                         }`}
@@ -278,47 +286,134 @@ const ContactPage = () => {
                       )}
                     </div>
 
-                    <div className="row g-0">
-                      <select
-                        // className={`form-control ${
-                        //   errors.division && 'is-invalid'
-                        // }`}
-                        name="division"
-                        value={formData.division}
-                        // onSelect={handleInputChange}
-                        onChange={(e) =>
-                          setFormData({
-                            ...formData,
-                            [e.target.name]: e.target.value,
-                          })
-                        }
+                    <div
+                      className="row g-0"
+                      style={{
+                        backgroundColor: '#FAFAFA',
+                        border: '1px solid #ced4da',
+                      }}
+                    >
+                      <h5
+                        className={` ${errors.division && 'is-invalid'}`}
+                        style={{
+                          color: '#6C757D',
+                          fontSize: '1rem',
+
+                          padding: '6px 12px 6px 20px',
+                        }}
                       >
-                        <option disabled={true} selected>
-                          Select Division
-                        </option>
-                        <option value="Complete Printing Solutions">
+                        Select Division:
+                      </h5>
+
+                      <div className="form-check">
+                        <input
+                          className="form-check-input radiobtn"
+                          type="radio"
+                          name="division"
+                          id="division1"
+                          value="Complete Printing Solutions"
+                          checked={
+                            formData.division === 'Complete Printing Solutions'
+                          }
+                          onChange={(e) =>
+                            setFormData({
+                              ...formData,
+                              [e.target.name]: e.target.value,
+                            })
+                          }
+                        />
+                        <h6
+                          className="form-check-label"
+                          htmlFor="division1"
+                          style={{ fontWeight: 'normal', color: '#6C757D' }}
+                        >
                           Complete Printing Solutions
-                        </option>
-                        <option value="Electronics Components">
+                        </h6>
+                      </div>
+                      <div className="form-check">
+                        <input
+                          className="form-check-input radiobtn"
+                          type="radio"
+                          name="division"
+                          id="division2"
+                          value="Electronics Components"
+                          checked={
+                            formData.division === 'Electronics Components'
+                          }
+                          onChange={(e) =>
+                            setFormData({
+                              ...formData,
+                              [e.target.name]: e.target.value,
+                            })
+                          }
+                        />
+                        <h6
+                          className="form-check-label"
+                          htmlFor="division2"
+                          style={{ fontWeight: 'normal', color: '#6C757D' }}
+                        >
                           Electronics Components
-                        </option>
-                        <option value="Industrial Construction Tools and Equipment">
+                        </h6>
+                      </div>
+                      <div className="form-check">
+                        <input
+                          className="form-check-input radiobtn"
+                          type="radio"
+                          name="division"
+                          id="division3"
+                          value="Industrial Construction Tools and Equipment"
+                          checked={
+                            formData.division ===
+                            'Industrial Construction Tools and Equipment'
+                          }
+                          onChange={(e) =>
+                            setFormData({
+                              ...formData,
+                              [e.target.name]: e.target.value,
+                            })
+                          }
+                        />
+                        <h6
+                          className="form-check-label"
+                          htmlFor="division3"
+                          style={{ fontWeight: 'normal', color: '#6C757D' }}
+                        >
                           Industrial Construction Tools and Equipment
-                        </option>
-                        <option value="Industrial Chemical products">
-                          Industrial Chemical products
-                        </option>
-                        <option value="Medical-PPE">Medical-PPE</option>
-                        <option value="Pulses and Grains">
-                          Pulses and Grains
-                        </option>
-                      </select>
-                      {/* {errors.division && (
-                        <div className="invalid-feedback">
+                        </h6>
+                      </div>
+                      <div className="form-check">
+                        <input
+                          className="form-check-input radiobtn"
+                          type="radio"
+                          name="division"
+                          id="division4"
+                          value="Medical-PPE"
+                          checked={formData.division === 'Medical-PPE'}
+                          onChange={(e) =>
+                            setFormData({
+                              ...formData,
+                              [e.target.name]: e.target.value,
+                            })
+                          }
+                        />
+                        <h6
+                          className="form-check-label"
+                          htmlFor="division4"
+                          style={{ fontWeight: 'normal', color: '#6C757D' }}
+                        >
+                          Medical-PPE
+                        </h6>
+                      </div>
+                      {errors.division && (
+                        <div
+                          className="invalid-feedback"
+                          style={{ fontSize: '20px' }}
+                        >
                           {errors.division}
                         </div>
-                      )} */}
+                      )}
                     </div>
+
                     <div className="row g-0">
                       <input
                         type="text"
@@ -649,7 +744,7 @@ const ContactPage = () => {
                     Medical-PPE
                   </button>
                   {/* Repeat the same for the remaining buttons */}
-                  <button
+                  {/* <button
                     className={`dropdown-item ${
                       activeAccordion === 4 ? 'active' : ''
                     }`}
@@ -658,7 +753,7 @@ const ContactPage = () => {
                     }
                   >
                     Industrial Chemical Products
-                  </button>
+                  </button> */}
                   <button
                     className={`dropdown-item ${
                       activeAccordion === 5 ? 'active' : ''

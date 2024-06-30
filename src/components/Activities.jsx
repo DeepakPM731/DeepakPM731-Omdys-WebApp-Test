@@ -5,6 +5,15 @@ const Activities = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
+      }
+    }
+  });
   return (
     <>
       {/* Banner Style One Start */}
@@ -55,7 +64,7 @@ const Activities = () => {
           </div>
           <div className="container">
             <div className="row">
-              <ul>
+              <ul style={{ marginBottom: '-8%' }}>
                 <li data-aos="zoom-in-up">
                   <div className="data">
                     <h3> Trading of complete printing solutions – Importing</h3>
@@ -125,12 +134,11 @@ const Activities = () => {
                     </figure>
                   </div>
                 </li>
-                <li data-aos="zoom-in-up">
+                {/* <li data-aos="zoom-in-up">
                   <div className="image">
                     <figure>
                       <img
                         className="w-100"
-                        // src="assets/svg4/petroleum and petrochemical products (2).svg"
                         src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
                       />
@@ -141,23 +149,12 @@ const Activities = () => {
                     <p>
                       We offer expertise in exporting specialized petrochemical
                       mechanical products, ensuring safe and efficient project
-                      execution. {/* <Link to={'/activity-four'}> */}
+                      execution.
                       <a href="/activity-four">( Read More )</a>
-                      {/* </Link> */}
                     </p>
                   </div>
-                </li>
+                </li> */}
                 <li data-aos="zoom-in-up">
-                  <div className="data">
-                    <h3> Trading of medical-PPE – Importing</h3>
-                    <p>
-                      We import certified medical PPE, meeting the needs of
-                      healthcare facilities and professionals.{' '}
-                      {/* <Link to={'/activity-five'}> */}
-                      <a href="/activity-five">( Read More )</a>
-                      {/* </Link> */}
-                    </p>
-                  </div>
                   <div className="image">
                     <figure>
                       <img
@@ -167,6 +164,16 @@ const Activities = () => {
                         alt="Core Values Image 1"
                       />
                     </figure>
+                  </div>
+                  <div className="data">
+                    <h3> Trading of medical-PPE – Importing</h3>
+                    <p>
+                      We import certified medical PPE, meeting the needs of
+                      healthcare facilities and professionals.{' '}
+                      {/* <Link to={'/activity-five'}> */}
+                      <a href="/activity-five">( Read More )</a>
+                      {/* </Link> */}
+                    </p>
                   </div>
                 </li>
                 {/* <li>

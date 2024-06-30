@@ -1,4 +1,3 @@
-
 const Features = () => {
   return (
     <>
@@ -140,7 +139,8 @@ const Features = () => {
                 <div className="video">
                   <figure>
                     <img
-                      src="https://winsfolio.net/html/builty/assets/images/core-feature.jpg"
+                      src="/assets/images/Ship.png"
+                      // src="https://winsfolio.net/html/builty/assets/images/core-feature.jpg"
                       alt="Core Feature Img"
                     />
                   </figure>
@@ -190,6 +190,6 @@ const Features = () => {
       </section>
     </>
   );
-}
+};
 
-export default Features
+export default Features;

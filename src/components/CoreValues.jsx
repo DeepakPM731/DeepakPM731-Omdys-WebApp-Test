@@ -67,7 +67,7 @@ const CoreValues = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="https://winsfolio.net/html/builty/assets/images/c-v-img-1.jpg"
+                          src="assets/images/integrity.png"
                           alt="Core Values Image 1"
                         />
                       </figure>
@@ -78,7 +78,7 @@ const CoreValues = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="https://winsfolio.net/html/builty/assets/images/c-v-img-1.jpg"
+                          src="assets/images/innovation.png"
                           alt="Core Values Image 1"
                         />
                       </figure>
@@ -109,7 +109,7 @@ const CoreValues = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="https://winsfolio.net/html/builty/assets/images/c-v-img-1.jpg"
+                          src="assets/images/partnership.png"
                           alt="Core Values Image 1"
                         />
                       </figure>
@@ -263,7 +263,8 @@ const CoreValues = () => {
                   <div className="cta-data">
                     <figure>
                       <img
-                        src="https://winsfolio.net/html/builty/assets/images/building-2.png"
+                        src="/assets/images/work_together.png"
+                        // src="https://winsfolio.net/html/builty/assets/images/building-2.png"
                         alt="Building-2 Pic"
                       />
                     </figure>

@@ -7,8 +7,8 @@ const Contact = () => {
         <div
           className="parallax"
           style={{
-            backgroundImage:
-              'url("https://winsfolio.net/html/builty/assets/images/reno-img.jpg")',
+            backgroundImage: 'url("/assets/images/bg_contact4.png")',
+            // 'url("https://winsfolio.net/html/builty/assets/images/reno-img.jpg")',
           }}
         />
         <div className="container">
@@ -57,16 +57,18 @@ const Contact = () => {
                     {/* </a> */}
                   </Link>
                 </div>
-                <h4
-                  style={{
-                    fontSize: '35px',
-                    color: 'white',
-                    fontWeight: '600',
-                    marginTop: '50px',
-                  }}
-                >
-                  Place Your Enquiry
-                </h4>
+                <Link to={'/contact'}>
+                  <h4
+                    style={{
+                      fontSize: '35px',
+                      color: 'white',
+                      fontWeight: '600',
+                      marginTop: '50px',
+                    }}
+                  >
+                    Place Your Enquiry
+                  </h4>
+                </Link>
               </div>
             </div>
           </div>

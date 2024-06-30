@@ -71,7 +71,7 @@ const News = () => {
   const updatedApiResponse = convertTimestampToDate(data);
 
   // Output the updated response
-  console.log('time stamp', updatedApiResponse);
+  // console.log('time stamp', updatedApiResponse);
 
   return (
     <>

@@ -20,6 +20,29 @@ const Articles = () => {
       });
   }, []);
 
+  function convertTimestampToDate(data) {
+    // Loop through each object in the array
+    data.forEach((news) => {
+      // Parse the timestamp to create a Date object
+      const date = new Date(news.publishedAt);
+
+      // Extract the day, month, and year
+      const day = String(date.getDate()).padStart(2, '0');
+      const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-based
+      const year = date.getFullYear();
+
+      // Format the date to dd-mm-yyyy
+      const formattedDate = `${day}-${month}-${year}`;
+
+      // Add the formatted date back to the object (or replace the timestamp if needed)
+      news.formattedDate = formattedDate;
+    });
+
+    return data;
+  }
+
+  const updatedApiResponse = convertTimestampToDate(data);
+
   console.log(data);
   return (
     <>
@@ -63,7 +86,7 @@ const Articles = () => {
             </div>
             <div className="container">
               <div className="row">
-                {data.map((news, key) => (
+                {updatedApiResponse.map((news, key) => (
                   <>
                     <div key={key} className="col-lg-4 col-md-6 col-sm-12">
                       <div className="blog-post">
@@ -87,7 +110,9 @@ const Articles = () => {
                           </a>
                         </div>
                         <div className="blog-data">
-                          <span className="blog-date">{news.publishedAt}</span>
+                          <span className="blog-date">
+                            {news.formattedDate}
+                          </span>
                           {/* <span className="blog-date">January 9, 2022</span> */}
                           <h2>
                             <a href={news.url} target="_blank">

@@ -200,13 +200,11 @@ const Header = () => {
                                     </a>
                                     {/* </Link> */}
                                   </li>
-                                  <li>
-                                    {/* <Link to={'/activity-four'}> */}
+                                  {/* <li>
                                     <a href="/activity-four">
                                       Industrial Chemical Products Supply
                                     </a>
-                                    {/* </Link> */}
-                                  </li>
+                                  </li> */}
                                   <li>
                                     {/* <Link to={'/activity-five'}> */}
                                     <a href="/activity-five">
