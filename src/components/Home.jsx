@@ -9,6 +9,7 @@ import Slider from './Slider';
 import Team from './Team';
 import Vision from './Vision';
 import Review from './Review';
+import Testimonials from './Testimonials';
 // import { useEffect, useState } from 'react';
 // import Loader from './Loader';
 const Home = () => {
@@ -37,7 +38,8 @@ const Home = () => {
       <Features />
       <Clients />
       <Contact />
-      <Review />
+      {/* <Review /> */}
+      <Testimonials />
       <Articles />
       <button id="scrollTop" className="scrollTopStick">
         <i className="fa-solid fa-arrow-up"></i>

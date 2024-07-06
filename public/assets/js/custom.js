@@ -219,9 +219,10 @@ jQuery(document).ready(function ($) {
   // Client Slider
   if ($('.client-slider')[0]) {
     $('.client-slider.owl-carousel').owlCarousel({
-      items: 5,
+      items: 6,
+      loop: true,
       autoplay: true,
-      autoplayTimeout: 3000,
+      autoplayTimeout: 5000,
       autoplayHoverPause: false,
       dots: false,
       responsive: {
@@ -246,6 +247,7 @@ jQuery(document).ready(function ($) {
     $('.client-review-slider.owl-carousel').owlCarousel({
       items: 1,
       autoplay: true,
+      loop: true,
       autoplayTimeout: 3000,
       autoplayHoverPause: false,
       dots: true,

@@ -121,16 +121,21 @@ const Articles = () => {
                           </h2>
                           <div className="blog-author d-flex-all justify-content-start">
                             <div className="author-img">
-                              <figure>
-                                <img
-                                  src="	https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg"
-                                  alt="Blog Author Img"
-                                />
-                              </figure>
+                              <a href={news.url} target="_blank">
+                                <figure>
+                                  <img
+                                    // src="	https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg"
+                                    src="/assets/images/arrowright.jpeg"
+                                    alt="Blog Author Img"
+                                  />
+                                </figure>
+                              </a>
                             </div>
                             <div className="details">
                               <h3>
-                                <span>by</span> {news.source.name}
+                                <a href={news.url} target="_blank">
+                                  <span>by</span> {news.source.name}
+                                </a>
                               </h3>
                             </div>
                           </div>

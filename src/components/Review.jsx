@@ -10,7 +10,10 @@ const Review = () => {
                 <h3>Client’s Reviews</h3>
               </div>
               <div className="client-review-slider owl-carousel">
-                <div className="slider-data">
+                <div
+                  className="slider-data"
+                  style={{ border: '2px solid red' }}
+                >
                   <p>
                     "We've been partnering with the management team for years
                     and their commitment to quality and service is unmatched. We
@@ -60,7 +63,10 @@ const Review = () => {
                     </div>
                   </div>
                 </div>
-                <div className="slider-data">
+                <div
+                  className="slider-data"
+                  style={{ border: '2px solid red' }}
+                >
                   <p>
                     "Their diverse product range and efficient logistics helped
                     us complete our project on time and within budget."
@@ -105,6 +111,11 @@ const Review = () => {
                     </div>
                   </div>
                 </div>
+
+                {/* ============================================================================ */}
+
+                {/* ============================================================================ */}
+
                 {/* <div class="slider-data">
           <p>
             To my mind, the greatest reward for any renovation project is
