@@ -235,9 +235,9 @@ const News = () => {
                               <a href={news.url} target="_blank">
                                 <figure>
                                   <img
-                                    // src="	https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg"
-                                    src="/assets/images/arrowright.jpeg"
+                                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/arrowright.jpeg"
                                     alt="Blog Author Img"
+                                    // src="	https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg"
                                   />
                                 </figure>
                               </a>
