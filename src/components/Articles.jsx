@@ -121,7 +121,6 @@ const Articles = () => {
                           </h2>
                           <div className="blog-author d-flex-all justify-content-start">
                             <div className="author-img">
-                              <a href={news.url} target="_blank">
                                 <figure>
                                   <img
                                     // src="	https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg"
@@ -129,7 +128,6 @@ const Articles = () => {
                                     alt="Blog Author Img"
                                   />
                                 </figure>
-                              </a>
                             </div>
                             <div className="details">
                               <h3>

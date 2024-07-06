@@ -232,7 +232,6 @@ const News = () => {
                           </h2>
                           <div className="blog-author d-flex-all justify-content-start">
                             <div className="author-img">
-                              <a href={news.url} target="_blank">
                                 <figure>
                                   <img
                                     src="https://s3.ap-south-1.amazonaws.com/omdys.com/arrowright.jpeg"
@@ -240,7 +239,6 @@ const News = () => {
                                     // src="	https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg"
                                   />
                                 </figure>
-                              </a>
                             </div>
                             <div className="details">
                               <h3>
