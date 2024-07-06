@@ -134,7 +134,8 @@ const Articles = () => {
                             <div className="details">
                               <h3>
                                 <a href={news.url} target="_blank">
-                                  <span>by</span> {news.source.name}
+                                  <span>by</span>{' '}
+                                  <span> {news.source.name}</span>
                                 </a>
                               </h3>
                             </div>
