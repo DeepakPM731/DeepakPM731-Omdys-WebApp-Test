@@ -109,7 +109,7 @@ const CoreValues = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Ship.png"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/partnership.png"
                           alt="Core Values Image 1"
                         />
                       </figure>

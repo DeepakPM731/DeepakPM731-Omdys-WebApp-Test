@@ -65,7 +65,7 @@ const ContactPage = () => {
     //   newErrors.phone = 'Please enter your phone number';
     // }
     if (!/^\d{10}$/.test(formData.phone)) {
-      newErrors.phone = 'Please enter your phone number';
+      newErrors.phone = 'Please enter a valid phone number';
     }
     // else if (!/^\d{10}$/.test(formData.phone)) {
     //   newErrors.phone = 'Phone number must be exactly 10 digits';
@@ -140,7 +140,7 @@ const ContactPage = () => {
             },
             (error) => {
               console.log('FAILED...', error.text);
-              console.log("222222");
+              console.log('222222');
             }
           );
         // navigate('/activities');
