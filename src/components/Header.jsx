@@ -237,11 +237,11 @@ const Header = () => {
 
                               <li className="">
                                 {/* <Link to={'/team'}>Team */}
-                                <a className="tag" href="/team">
+                                {/* <a className="tag" href="/team">
                                   <span style={{ marginLeft: '5px' }}>
                                     Team
                                   </span>
-                                </a>
+                                </a> */}
                               </li>
                               {/* </Link> */}
                               {/* <ul className="sub-menu">

@@ -117,7 +117,7 @@ const ContactPage = () => {
           });
         console.log('Form submitted:', formData);
         emailjs
-          .sendForm('service_9kr6uou', 'template_45teqtk1', e.target, {
+          .sendForm('service_9kr6uou', 'template_45teqtk', e.target, {
             publicKey: '_A24ZdcP1Qn1j5x9B',
           })
           .then(
@@ -130,7 +130,7 @@ const ContactPage = () => {
             }
           );
         emailjs
-          .sendForm('service_9kr6uou', 'template_apvkpii1', e.target, {
+          .sendForm('service_9kr6uou', 'template_apvkpii', e.target, {
             publicKey: '_A24ZdcP1Qn1j5x9B',
           })
           .then(
@@ -140,6 +140,7 @@ const ContactPage = () => {
             },
             (error) => {
               console.log('FAILED...', error.text);
+              console.log("222222");
             }
           );
         // navigate('/activities');
