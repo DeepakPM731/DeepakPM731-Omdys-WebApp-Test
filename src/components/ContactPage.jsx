@@ -143,7 +143,7 @@ const ContactPage = () => {
               console.log('222222');
             }
           );
-        // navigate('/activities');
+        navigate('/activities');
       } catch (error) {
         console.log(error);
       }
