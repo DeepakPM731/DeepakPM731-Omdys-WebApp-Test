@@ -139,7 +139,7 @@ const Features = () => {
                 <div className="video">
                   <figure>
                     <img
-                      src="/assets/images/Ship.png"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Ship.png"
                       // src="https://winsfolio.net/html/builty/assets/images/core-feature.jpg"
                       alt="Core Feature Img"
                     />

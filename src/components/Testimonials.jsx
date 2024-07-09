@@ -18,7 +18,8 @@ const Testimonials = () => {
                 <figure>
                   <img
                     // src="https://winsfolio.net/html/builty/assets/images/project-img-2.jpg"
-                    src="assets/images/user_default3.png"
+                    // src="assets/images/user_default3.png"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Printing+Solutions.svg"
                     alt="project-img-1"
                     width={'300px'}
@@ -62,7 +63,7 @@ const Testimonials = () => {
                   <img
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+1.svg"
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+2.svg"
-                    src="assets/images/user_default3.png"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
                     // src="assets/svg4/Electronic Components 1.svg"
                     alt="project-img-1"
                     width={'300px'}
@@ -106,7 +107,7 @@ const Testimonials = () => {
                     // src="https://winsfolio.net/html/builty/assets/images/project-img-1.jpg"
                     // src="assets/svg4/industrial construction tools and equipment (3).svg"
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipment+(3).svg"
-                    src="assets/images/user_default3.png"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
                     alt="project-img-2"
                     width={'300px'}
                     height={'200px'}
@@ -149,7 +150,7 @@ const Testimonials = () => {
                   <img
                     // src="assets/svg4/petroleum and petrochemical products (2).svg"
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                    src="assets/images/user_default3.png"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
                     alt="project-img-1"
                     width={'300px'}
                     height={'200px'}
@@ -190,7 +191,7 @@ const Testimonials = () => {
                   <img
                     // src="assets/svg4/Medical PPE 1.svg"
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                    src="assets/images/user_default3.png"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
                     alt="project-img-2"
                     width={'300px'}
                     height={'200px'}
@@ -233,7 +234,7 @@ const Testimonials = () => {
                   <img
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+1.svg"
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+2.svg"
-                    src="assets/images/user_default3.png"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
                     // src="assets/svg4/Electronic Components 1.svg"
                     alt="project-img-1"
                     width={'300px'}

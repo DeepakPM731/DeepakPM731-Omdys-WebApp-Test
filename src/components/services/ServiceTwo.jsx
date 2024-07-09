@@ -16,10 +16,10 @@ const ServiceTwo = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>Services</h2>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
                   tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ const ServiceTwo = () => {
                 <figure>
                   <img
                     className="w-100"
-                    src="assets/images/product_management.png"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/product_management.png"
                     // src="	https://winsfolio.net/html/builty/assets/images/about-k-b.jpg"
                     alt="About key Benefits"
                   />

@@ -226,7 +226,7 @@ const AboutPage = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="/assets/images/key_benefitsann.png"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/key_benefitsann.png"
                           // src="https://winsfolio.net/html/builty/assets/images/about-k-b.jpg"
                           alt="About key Benefits"
                         />

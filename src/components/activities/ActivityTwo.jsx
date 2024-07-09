@@ -387,7 +387,7 @@ const ActivityTwo = () => {
                       <img
                         className="w-100"
                         // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                        src="assets/images/quality_assuranceann.png"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
                       />
@@ -429,7 +429,7 @@ const ActivityTwo = () => {
                       <img
                         className="w-100"
                         // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                        src="assets/images/contact_ann.png"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/contact_ann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
                       />

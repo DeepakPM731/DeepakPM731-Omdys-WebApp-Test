@@ -16,14 +16,14 @@ const ServiceOne = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>Services</h2>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
                   tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
-          {/* <div className="breadcrums"> */}
+          <div className="breadcrums">
           {/* <div className="container">
               <div className="row">
                 <ul>
@@ -39,7 +39,7 @@ const ServiceOne = () => {
                 </ul>
               </div>
             </div> */}
-          {/* </div> */}
+          </div>
         </section>
       </div>
       {/* service starts */}

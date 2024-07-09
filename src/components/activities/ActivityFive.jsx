@@ -135,7 +135,7 @@ const ActivityFive = () => {
                         <img
                           className="w-100"
                           // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                          src="assets/images/quality_assuranceann.png"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                           alt="Core Values Image 1"
                         />
@@ -182,7 +182,7 @@ const ActivityFive = () => {
                         <img
                           className="w-100"
                           // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                          src="assets/images/pricing.png"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/pricing.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                           alt="Core Values Image 1"
                         />
@@ -195,7 +195,7 @@ const ActivityFive = () => {
                         <img
                           className="w-100"
                           // src="assets/svg4/Medical PPE 1.svg"
-                          src="assets/images/timely_delivery.png"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/timely_delivery.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                           alt="Core Values Image 1"
                         />
@@ -236,7 +236,7 @@ const ActivityFive = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="/assets/images/customer_support.png"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                           alt="Core Values Image 1"
                         />
@@ -248,7 +248,7 @@ const ActivityFive = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="/assets/images/training_ann.png"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                           alt="Core Values Image 1"
                         />
