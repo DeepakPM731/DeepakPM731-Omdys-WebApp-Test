@@ -82,12 +82,12 @@ const ContactPage = () => {
     if (Object.keys(newErrors).length === 0) {
       try {
         const formDatas = new FormData();
-        formDatas.append('name', formData.name);
-        formDatas.append('email', formData.email);
-        formDatas.append('phone', formData.phone);
-        formDatas.append('division', formData.division);
-        formDatas.append('subject', formData.subject);
-        formDatas.append('message', formData.message);
+        formDatas.append('Name', formData.name);
+        formDatas.append('Email', formData.email);
+        formDatas.append('Phone', formData.phone);
+        formDatas.append('Division', formData.division);
+        formDatas.append('Subject', formData.subject);
+        formDatas.append('Message', formData.message);
 
         toast.success(
           'Thank you for your enquiry, Our sales team will contact you soon!',
@@ -106,7 +106,8 @@ const ContactPage = () => {
 
         await axios
           .post(
-            'https://script.google.com/macros/s/AKfycbxRFJ_4O0aQQRBbx9Msfab75DB9PAvypXfBVYwH_DNfb3vh6R08NpGWU01a3VsWoJpkFA/exec',
+            'https://script.google.com/macros/s/AKfycbyrcdkh6RyRl-vj8VO3M0p3jkUi1hyMY35CHJHBfgJQiT2NEY_ojmli872tGwwT0nSa/exec',
+            // 'https://script.google.com/macros/s/AKfycbxRFJ_4O0aQQRBbx9Msfab75DB9PAvypXfBVYwH_DNfb3vh6R08NpGWU01a3VsWoJpkFA/exec',
             formDatas
           )
           .then((data) => {
@@ -117,8 +118,8 @@ const ContactPage = () => {
           });
         console.log('Form submitted:', formData);
         emailjs
-          .sendForm('service_9kr6uou', 'template_45teqtk', e.target, {
-            publicKey: '_A24ZdcP1Qn1j5x9B',
+          .sendForm('service_3lidczp', 'template_06gn6hy', e.target, {
+            publicKey: 'm35gea3sqOv63A_9h',
           })
           .then(
             () => {
@@ -130,8 +131,8 @@ const ContactPage = () => {
             }
           );
         emailjs
-          .sendForm('service_9kr6uou', 'template_apvkpii', e.target, {
-            publicKey: '_A24ZdcP1Qn1j5x9B',
+          .sendForm('service_3lidczp', 'template_23bcdd8', e.target, {
+            publicKey: 'm35gea3sqOv63A_9h',
           })
           .then(
             () => {
@@ -143,7 +144,7 @@ const ContactPage = () => {
               console.log('222222');
             }
           );
-        navigate('/activities');
+        // navigate('/activities');
       } catch (error) {
         console.log(error);
       }
