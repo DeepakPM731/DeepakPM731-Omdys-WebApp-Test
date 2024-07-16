@@ -106,9 +106,9 @@ const News = () => {
                         <p>Home</p>
                       </Link>
                     </li>
-                    <li className="current">
+                    {/* <li className="current">
                       <p>Contact Us</p>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
