@@ -496,13 +496,13 @@ const Header = () => {
                           </a>
                           {/* </Link> */}
                         </li>
-                        <li>
+                        {/* <li> */}
                           {/* <Link to={'/activity-four'}> */}
-                          <a href="/activity-four">
+                          {/* <a href="/activity-four">
                             Industrial Chemical Products Supply
-                          </a>
+                          </a> */}
                           {/* </Link> */}
-                        </li>
+                        {/* </li> */}
                         <li>
                           {/* <Link to={'/activity-five'}> */}
                           <a href="/activity-five">Medical-PPE Supply</a>
@@ -526,9 +526,9 @@ const Header = () => {
                     </li> */}
                     <li className="">
                       {/* <Link to={'/team'}> */}
-                      <a href="/team" style={{ color: 'white' }}>
+                      {/* <a href="/team" style={{ color: 'white' }}>
                         Team
-                      </a>
+                      </a> */}
                       {/* </Link> */}
                       {/* <ul className="sub-menu">
                         <li>

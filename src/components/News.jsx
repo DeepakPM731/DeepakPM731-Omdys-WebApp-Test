@@ -87,11 +87,11 @@ const News = () => {
                 <div className="banner-details">
                   <h2>News</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                    nihil iste blanditiis. Aspernatur adipisci vitae iure
-                    asperiores laudantium fugiat cupiditate alias facilis!
-                    Adipisci quia aperiam perferendis perspiciatis harum nisi
-                    sunt.
+                    Stay informed with the latest global news and updates. Our
+                    page brings you current events, industry trends, market
+                    insights, and significant developments from around the
+                    world. Keep up with the information that matters most to
+                    your business and interests.
                   </p>
                 </div>
               </div>
@@ -157,11 +157,11 @@ const News = () => {
                 <div className="banner-details">
                   <h2>News</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. A
                     nihil iste blanditiis. Aspernatur adipisci vitae iure
                     asperiores laudantium fugiat cupiditate alias facilis!
                     Adipisci quia aperiam perferendis perspiciatis harum nisi
-                    sunt.
+                    sunt.sssssss */}
                   </p>
                 </div>
               </div>
@@ -190,7 +190,7 @@ const News = () => {
               <figure>
                 <img src="assets/images/heading-icon.png" alt="heading-icon" />
               </figure>
-              <span>Let us Help Guide</span>
+              {/* <span>Let us Help Guide</span> */}
               <h2>Recent Articles</h2>
             </div>
             <div className="container">
@@ -232,13 +232,13 @@ const News = () => {
                           </h2>
                           <div className="blog-author d-flex-all justify-content-start">
                             <div className="author-img">
-                                <figure>
-                                  <img
-                                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/arrowright.jpeg"
-                                    alt="Blog Author Img"
-                                    // src="	https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg"
-                                  />
-                                </figure>
+                              <figure>
+                                <img
+                                  src="https://s3.ap-south-1.amazonaws.com/omdys.com/arrowright.jpeg"
+                                  alt="Blog Author Img"
+                                  // src="	https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg"
+                                />
+                              </figure>
                             </div>
                             <div className="details">
                               <h3>
