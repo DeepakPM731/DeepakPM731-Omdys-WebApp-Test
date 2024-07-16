@@ -964,10 +964,11 @@ textarea {
 }
 @media screen and (max-width: 390px) {
   .header-logo img {
-    /* width: 250px; */
-    /* height: 61px; */
-    width: 230px;
-    height: 85px;
+    width: 180px;
+    height: 65px;
+    /* ---------works under----- */
+    /* width: 230px;
+    height: 85px; */
   }
   /* .dropdown-toggle {
     width: 350px;
