@@ -966,9 +966,13 @@ textarea {
   .header-logo img {
     width: 180px;
     height: 65px;
-    /* ---------works under----- */
+    /* ---------before under----- */
     /* width: 230px;
     height: 85px; */
+  }
+  .responsive-logo {
+    width: 180px;
+    height: 65px;
   }
   /* .dropdown-toggle {
     width: 350px;
