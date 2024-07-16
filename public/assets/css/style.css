@@ -902,7 +902,7 @@ textarea {
   box-shadow: 0 6px 12px rgba(20, 20, 20, 0.5);
   transition: transform 0.5s ease;
   width: 450px;
-  max-width: 100%;
+  /* max-width: 100%; */
   padding-top: 15px;
   padding-bottom: 15px;
   white-space: nowrap;
@@ -924,15 +924,15 @@ textarea {
   .dropdown-menu {
     overflow-y: auto;
     /* white-space: normal;  */
-    text-wrap: wrap;
+    /* text-wrap: wrap; */
   }
   .dropdown-toggle {
     color: #fafafa;
     font-size: 16px;
     box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
     transition: transform 0.5s ease;
-    /* width: 100%; */
-    max-width: 400px;
+    width: 100%;
+    max-width: 450px;
     padding-top: 15px;
     padding-bottom: 15px;
     white-space: nowrap;
@@ -958,6 +958,9 @@ textarea {
     width: 250px;
     height: 92px;
   }
+  .dropdown-toggle {
+    width: 350px;
+  }
 }
 @media screen and (max-width: 390px) {
   .header-logo img {
@@ -966,6 +969,9 @@ textarea {
     width: 230px;
     height: 85px;
   }
+  /* .dropdown-toggle {
+    width: 350px;
+  } */
 }
 /* ----------contact page ends*/
 .form form textarea {
