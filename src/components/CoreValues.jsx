@@ -247,7 +247,8 @@ const CoreValues = () => {
                     <h2>Ready to work together?</h2>
                     <p>
                       Let's collaborate to streamline your procurement process
-                      and achieve your business goals. We're ready when you are.
+                      and achieve
+                      <br /> your business goals. We're ready when you are.
                     </p>
                     <a
                       href="javascript:void(0)"
@@ -261,7 +262,7 @@ const CoreValues = () => {
                 </div>
                 <div className="col-lg-5">
                   <div className="cta-data">
-                    <figure>
+                    <figure style={{ marginLeft: '100px' }}>
                       <img
                         src="https://s3.ap-south-1.amazonaws.com/omdys.com/work_together.png"
                         // src="/assets/images/work_together.png"
