@@ -27,9 +27,11 @@ const Activities = () => {
             <div className="banner-details">
               <h2>Our Main Activities</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
-                repudiandae doloremque fugit nulla modi eaque commodi laborum
-                inventore quasi in?
+                We specialize in trading comprehensive printing solutions,
+                importing electronic components, industrial construction tools
+                and equipment, and medical PPE. Our focus is on delivering
+                quality products across these sectors to meet diverse customer
+                needs efficiently.
               </p>
             </div>
           </div>
