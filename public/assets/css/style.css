@@ -955,8 +955,8 @@ textarea {
 }
 @media screen and (max-width: 420px) {
   .header-logo img {
-    width: 250px;
-    height: 92px;
+    width: 180px;
+    height: 65px;
   }
   .dropdown-toggle {
     width: 350px;
