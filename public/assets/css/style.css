@@ -979,8 +979,9 @@ textarea {
     
   }
   .responsive-logo {
-    width: 152px;
-    height: 55px;
+    width: 210px;
+    
+    height: 60px;
   }
   /* .dropdown-toggle {
     width: 350px;
