@@ -12,7 +12,7 @@ const Articles = () => {
     axios
       .get(apiUrl)
       .then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         setData(response.data.articles.splice(0, 3));
       })
       .catch((error) => {
@@ -43,7 +43,7 @@ const Articles = () => {
 
   const updatedApiResponse = convertTimestampToDate(data);
 
-  console.log(data);
+  // console.log(data);
   return (
     <>
       {data.length === 0 ? (

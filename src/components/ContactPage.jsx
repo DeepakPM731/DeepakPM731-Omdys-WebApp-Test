@@ -38,15 +38,15 @@ const ContactPage = () => {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    console.log('Name:', name);
-    console.log('Value:', value);
+    // console.log('Name:', name);
+    // console.log('Value:', value);
     setFormData({ ...formData, [name]: value });
     // Clear the error message for the current field
     setErrors({ ...errors, [name]: '' });
-    console.log(formData);
+    // console.log(formData);
   };
   useEffect(() => {
-    console.log('Form Data:', formData);
+    // console.log('Form Data:', formData);
   }, [formData]);
 
   const handleSubmit = async (e) => {
@@ -111,12 +111,12 @@ const ContactPage = () => {
             formDatas
           )
           .then((data) => {
-            console.log(data);
+            // console.log(data);
           })
           .catch((error) => {
             console.log(error);
           });
-        console.log('Form submitted:', formData);
+        // console.log('Form submitted:', formData);
         emailjs
           .sendForm('service_3lidczp', 'template_06gn6hy', e.target, {
             publicKey: 'm35gea3sqOv63A_9h',
@@ -141,7 +141,7 @@ const ContactPage = () => {
             },
             (error) => {
               console.log('FAILED...', error.text);
-              console.log('222222');
+              // console.log('222222');
             }
           );
         // navigate('/activities');

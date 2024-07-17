@@ -38,7 +38,7 @@ const News = () => {
     axios
       .get(apiUrl)
       .then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         setData(response.data.articles);
       })
       .catch((error) => {
@@ -46,7 +46,7 @@ const News = () => {
       });
   }, []);
 
-  console.log(data);
+  // console.log(data);
   function convertTimestampToDate(data) {
     // Loop through each object in the array
     data.forEach((news) => {

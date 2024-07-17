@@ -10,9 +10,22 @@ import Team from './Team';
 import Vision from './Vision';
 import Review from './Review';
 import Testimonials from './Testimonials';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel';
+import { useEffect } from 'react';
 // import { useEffect, useState } from 'react';
 // import Loader from './Loader';
 const Home = () => {
+  useEffect(() => {
+    setTimeout(() => {
+      window.$('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        items: 1,
+      });
+    }, 500); // Delay initialization
+  }, []);
   // const [loading, setLoading] = useState(true);
 
   // useEffect(() => {
