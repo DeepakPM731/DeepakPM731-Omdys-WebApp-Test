@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Review = () => {
   return (
     <>
@@ -6,7 +8,7 @@ const Review = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="head-review">
-                <span>Testimonials</span>
+                <span>Testimonialssss</span>
                 <h3>Client’s Reviews</h3>
               </div>
               <div className="client-review-slider owl-carousel">
@@ -60,6 +62,11 @@ const Review = () => {
                       <p>
                         Managing Director – Kattoorans Engineering and Services
                       </p>
+                      <Link to={''}>
+                        <a className="project-icon" href="">
+                          <i className="fa-solid fa-angles-right" />
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

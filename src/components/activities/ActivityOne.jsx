@@ -118,6 +118,7 @@ const ActivityOne = () => {
                       <img
                         className="w-100"
                         // src="assets/svg4/petroleum and petrochemical products (2).svg"
+
                         src="https://s3.ap-south-1.amazonaws.com/omdys.com/ink.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
@@ -148,9 +149,9 @@ const ActivityOne = () => {
                     <figure>
                       <img
                         className="w-100"
+                        src="assets/images/uv-inkanna.png"
                         // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/uv_inkann.png"
-                        // src="assets/images/uv_inkann.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/uv_inkann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
                       />
@@ -163,7 +164,8 @@ const ActivityOne = () => {
                       <img
                         className="w-100"
                         // src="assets/svg4/Medical PPE 1.svg"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/eco_solvent_inkann.png"
+                        src="assets/images/solvent_inks_annna.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/eco_solvent_inkann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                         alt="Core Values Image 1"
                       />
@@ -245,6 +247,15 @@ const ActivityOne = () => {
                 </li> */}
 
                 <li style={{ marginTop: '-5%' }}>
+                  <div className="data">
+                    <h3>Printing Equipment</h3>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      We offer a selection of top-notch eco-solvent, UV, and
+                      solvent-based printers. These machines are designed for
+                      efficiency and reliability, enabling you to deliver
+                      high-quality prints to your customers.
+                    </p>
+                  </div>
                   <div className="image" data-aos="fade-right">
                     <figure>
                       <img
@@ -256,26 +267,8 @@ const ActivityOne = () => {
                       />
                     </figure>
                   </div>
-                  <div className="data">
-                    <h3>Printing Equipment</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      We offer a selection of top-notch eco-solvent, UV, and
-                      solvent-based printers. These machines are designed for
-                      efficiency and reliability, enabling you to deliver
-                      high-quality prints to your customers.
-                    </p>
-                  </div>
                 </li>
                 <li>
-                  <div className="data">
-                    <h3> Media Supplies</h3>
-                    <p style={{ fontSize: '18px' }}>
-                      Our range of media supplies includes everything from
-                      vinyl, and canvas, to banner materials. These are
-                      specially designed to work with eco-solvent inks, ensuring
-                      high-quality prints every time.
-                    </p>
-                  </div>
                   <div className="image" data-aos="fade-left">
                     <figure>
                       <img
@@ -287,8 +280,26 @@ const ActivityOne = () => {
                       />
                     </figure>
                   </div>
+                  <div className="data">
+                    <h3> Media Supplies</h3>
+                    <p style={{ fontSize: '18px' }}>
+                      Our range of media supplies includes everything from
+                      vinyl, and canvas, to banner materials. These are
+                      specially designed to work with eco-solvent inks, ensuring
+                      high-quality prints every time.
+                    </p>
+                  </div>
                 </li>
                 <li>
+                  <div className="data">
+                    <h3> Product Quality</h3>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      We are committed to providing high-quality products. Our
+                      inks are sourced from reputable manufacturers and undergo
+                      rigorous quality checks to ensure they meet the highest
+                      standards
+                    </p>
+                  </div>
                   <div className="image" data-aos="fade-right">
                     <figure>
                       <img
@@ -299,25 +310,8 @@ const ActivityOne = () => {
                       />
                     </figure>
                   </div>
-                  <div className="data">
-                    <h3> Product Quality</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      We are committed to providing high-quality products. Our
-                      inks are sourced from reputable manufacturers and undergo
-                      rigorous quality checks to ensure they meet the highest
-                      standards
-                    </p>
-                  </div>
                 </li>
                 <li>
-                  <div className="data">
-                    <h3>Technical Support</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      Our dedicated team of experts is always ready to assist
-                      you with any technical issues. We aim to ensure your
-                      printing operations run smoothly.
-                    </p>
-                  </div>
                   <div className="image" data-aos="fade-left">
                     <figure>
                       <img
@@ -328,8 +322,25 @@ const ActivityOne = () => {
                       />
                     </figure>
                   </div>
+                  <div className="data">
+                    <h3>Technical Support</h3>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      Our dedicated team of experts is always ready to assist
+                      you with any technical issues. We aim to ensure your
+                      printing operations run smoothly.
+                    </p>
+                  </div>
                 </li>
                 <li>
+                  <div className="data">
+                    <h3>Training</h3>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      We provide comprehensive training on the use of our
+                      eco-solvent, UV, and solvent-based printers and supplies.
+                      This will equip you with the necessary skills to deliver
+                      outstanding printing services.
+                    </p>
+                  </div>
                   <div className="image" data-aos="fade-right">
                     <figure>
                       <img
@@ -340,27 +351,8 @@ const ActivityOne = () => {
                       />
                     </figure>
                   </div>
-                  <div className="data">
-                    <h3>Training</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      We provide comprehensive training on the use of our
-                      eco-solvent, UV, and solvent-based printers and supplies.
-                      This will equip you with the necessary skills to deliver
-                      outstanding printing services.
-                    </p>
-                  </div>
                 </li>
                 <li>
-                  <div className="data">
-                    <h3>Sustainability</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      We believe in doing business responsibly. Our inks are
-                      environmentally friendly, aligning with our commitment to
-                      sustainability. With our diverse product range and
-                      dedicated support, you’ll be well-equipped to make a
-                      significant impact.
-                    </p>
-                  </div>
                   <div className="image" data-aos="fade-left">
                     <figure>
                       <img
@@ -371,8 +363,26 @@ const ActivityOne = () => {
                       />
                     </figure>
                   </div>
+                  <div className="data">
+                    <h3>Sustainability</h3>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      We believe in doing business responsibly. Our inks are
+                      environmentally friendly, aligning with our commitment to
+                      sustainability. With our diverse product range and
+                      dedicated support, you’ll be well-equipped to make a
+                      significant impact.
+                    </p>
+                  </div>
                 </li>
                 <li style={{ marginBottom: '-2%' }}>
+                  <div className="data">
+                    <h3>Our Promise</h3>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      By using our products, you are guaranteed 100% technical
+                      support, both online and offline, led by a team of over
+                      17+ experienced engineers.
+                    </p>
+                  </div>
                   <div className="image" data-aos="fade-right">
                     <figure>
                       <img
@@ -382,14 +392,6 @@ const ActivityOne = () => {
                         alt="Core Values Image 1"
                       />
                     </figure>
-                  </div>
-                  <div className="data">
-                    <h3>Our Promise</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      By using our products, you are guaranteed 100% technical
-                      support, both online and offline, led by a team of over
-                      17+ experienced engineers.
-                    </p>
                   </div>
                 </li>
               </ul>
