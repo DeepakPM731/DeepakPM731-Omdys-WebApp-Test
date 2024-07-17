@@ -49,7 +49,7 @@ const Home = () => {
       <Projects />
       {/* <Team /> */}
       <Features />
-      <Clients />
+      {/* <Clients /> */}
       <Contact />
       {/* <Review /> */}
       <Testimonials />

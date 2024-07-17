@@ -144,11 +144,7 @@ const Features = () => {
                       alt="Core Feature Img"
                     />
                   </figure>
-                  <a
-                    className="video-play-btn"
-                    data-fancybox=""
-                    href="https://www.youtube.com/watch?v=uemObN8_dcw"
-                  >
+                  <a className="video-play-btn" data-fancybox="" href="">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       xmlnsXlink="http://www.w3.org/1999/xlink"
