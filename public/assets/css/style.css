@@ -949,30 +949,32 @@ textarea {
 /* header */
 @media screen and (max-width: 570px) {
   .header-logo img {
-    width: 250px;
-    height: 92px;
+     width: 210px;
+    
+    height: 60px;
   }
 }
 @media screen and (max-width: 420px) {
   .header-logo img {
-    width: 152px;
-    height: 55px;
+     width: 210px;
+    
+    height: 60px;
   }
   .dropdown-toggle {
     width: 350px;
   }
   .responsive-logo {
-    width: 152px;
-    height: 55px;
+       width: 210px;
+    
+    height: 60px;
   }
 }
 @media screen and (max-width: 390px) {
   .header-logo img {
     /* ---------before under----- */
-    width: 152px;
-    height: 55px;
-    /* width: 180px;
-    height: 65px; */
+    width: 210px;
+    
+    height: 60px;
 
     
   }
