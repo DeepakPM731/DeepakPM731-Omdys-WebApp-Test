@@ -961,6 +961,10 @@ textarea {
   .dropdown-toggle {
     width: 350px;
   }
+  .responsive-logo {
+    width: 180px;
+    height: 65px;
+  }
 }
 @media screen and (max-width: 390px) {
   .header-logo img {
