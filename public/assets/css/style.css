@@ -955,28 +955,30 @@ textarea {
 }
 @media screen and (max-width: 420px) {
   .header-logo img {
-    width: 180px;
-    height: 65px;
+    width: 152px;
+    height: 55px;
   }
   .dropdown-toggle {
     width: 350px;
   }
   .responsive-logo {
-    width: 180px;
-    height: 65px;
+    width: 152px;
+    height: 55px;
   }
 }
 @media screen and (max-width: 390px) {
   .header-logo img {
-    width: 180px;
-    height: 65px;
     /* ---------before under----- */
-    /* width: 230px;
-    height: 85px; */
+    width: 152px;
+    height: 55px;
+    /* width: 180px;
+    height: 65px; */
+
+    
   }
   .responsive-logo {
-    width: 180px;
-    height: 65px;
+    width: 152px;
+    height: 55px;
   }
   /* .dropdown-toggle {
     width: 350px;
