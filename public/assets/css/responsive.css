@@ -2558,7 +2558,7 @@
   }
   .renovation .reno-data h2 {
     font-size: 45px;
-    line-height: 55px;
+    /* line-height: 30px; */
   }
   .renovation .reno-data h3 {
     font-size: 25px;

@@ -696,6 +696,8 @@ const ContactPage = () => {
                       ? '1px solid #ffee02'
                       : '1px solid transparent',
                     fontWeight: 'bold',
+                    whiteSpace: 'normal',
+                    wordWrap: 'break-word',
                   }}
                   // style={{
                   //   background: dropdownOpen ? '#ff0000f0' : '',
@@ -766,6 +768,10 @@ const ContactPage = () => {
                         'Industrial Construction Tools and Equipment'
                       )
                     }
+                    style={{
+                      whiteSpace: 'normal' /* Allow the text to wrap */,
+                      wordWrap: 'break-word',
+                    }}
                   >
                     Industrial Construction Tools and Equipment
                   </button>

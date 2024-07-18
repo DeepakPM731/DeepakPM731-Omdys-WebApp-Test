@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
   return (
     <>
-      <section className="gap renovation">
+      <section className="gap renovation" style={{marginTop:'40px'}}>
         <div
           className="parallax"
           style={{
