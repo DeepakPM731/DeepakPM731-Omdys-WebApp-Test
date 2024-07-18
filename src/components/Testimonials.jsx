@@ -50,7 +50,7 @@ const Testimonials = () => {
                     </p>
                     <Link to={''}>
                       <a className="project-icon" href="">
-                        {/* <i className="fa-solid fa-angles-right" /> */}
+                        <i className="fa-solid fa-angles-right" />
                       </a>
                     </Link>
                   </div>
@@ -137,7 +137,7 @@ const Testimonials = () => {
                     </p>
                     <Link to={''}>
                       <a className="project-icon" href="#">
-                        {/* <i className="fa-solid fa-angles-right" /> */}
+                        <i className="fa-solid fa-angles-right" />
                       </a>
                     </Link>
                   </div>
@@ -178,7 +178,7 @@ const Testimonials = () => {
                     </p>
                     <Link to={''}>
                       <a className="project-icon" href="#">
-                        {/* <i className="fa-solid fa-angles-right" /> */}
+                        <i className="fa-solid fa-angles-right" />
                       </a>
                     </Link>
                   </div>
@@ -221,7 +221,7 @@ const Testimonials = () => {
                     </p>
                     <Link to={''}>
                       <a className="project-icon" href="#">
-                        {/* <i className="fa-solid fa-angles-right" /> */}
+                        <i className="fa-solid fa-angles-right" />
                       </a>
                     </Link>
                   </div>
@@ -263,7 +263,7 @@ const Testimonials = () => {
                     </p>
                     <Link to={''}>
                       <a className="project-icon" href="">
-                        {/* <i className="fa-solid fa-angles-right" /> */}
+                        <i className="fa-solid fa-angles-right" />
                       </a>
                     </Link>
                   </div>
