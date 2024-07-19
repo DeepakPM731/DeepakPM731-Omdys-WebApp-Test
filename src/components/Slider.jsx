@@ -63,7 +63,7 @@ const Slider = () => {
                   anything you need.
                 </p>
                 <a
-                  href="/contact"
+                  href="/about"
                   // data-bs-toggle="modal"
                   data-bs-target="#exampleModal"
                   className="theme-btn"

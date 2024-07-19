@@ -28,6 +28,9 @@ const Home = () => {
       });
     }, 100); // Delay initialization
   }, []);
+  const handleScrollTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <>
@@ -43,7 +46,11 @@ const Home = () => {
       {/* <Review /> */}
       <Testimonials />
       <Articles />
-      <button id="scrollTop" className="scrollTopStick">
+      <button
+        id="scrollTop"
+        className="scrollTopStick"
+        onClick={handleScrollTop}
+      >
         <i className="fa-solid fa-arrow-up"></i>
       </button>
     </>
