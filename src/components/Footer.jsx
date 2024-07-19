@@ -1,51 +1,108 @@
 import { Link } from 'react-router-dom';
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import { useRef, useState } from 'react';
+// import emailjs from '@emailjs/browser';
 import toast, { ToastBar, Toaster } from 'react-hot-toast';
+import axios from 'axios';
 
 const Footer = () => {
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (e) => {
+  const [formData, setFormData] = useState({ email: '' });
+  const [errors, setErrors] = useState({});
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+    setErrors({ ...errors, [name]: '' });
+  };
+  console.log(formData);
+
+  const sendEmail = async (e) => {
+    console.log('uuuuu');
+
     e.preventDefault();
 
-    emailjs
-      .sendForm('service_kn4xgji', 'template_6ax7wdj', form.current, {
-        publicKey: 'IC9_7chZnJVX9bo8Z',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-          e.target.reset();
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        }
-      );
-    emailjs
-      .sendForm('service_kn4xgji', 'template_49izg1a', e.target, {
-        publicKey: 'IC9_7chZnJVX9bo8Z',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-          e.target.reset();
-          toast.success('Subscription Successful!', {
+    const newErrors = {};
+    if (!formData.email) {
+      newErrors.email = 'Please enter your email';
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      newErrors.email = 'Please enter a valid email';
+    }
+    console.log(newErrors);
+
+    if (Object.keys(newErrors).length === 0) {
+      try {
+        const formDatas = new FormData();
+        formDatas.append('Email', formData.email);
+
+        toast.success(
+          'Thank you for your enquiry, Our sales team will contact you soon!',
+          {
             // position: 'bottom-center',
             position: 'center-right',
             duration: 3000,
             style: {
-              width: '200px',
+              width: '400px',
               fontSize: '24px',
               background: 'green',
               color: '#fff',
             },
+          }
+        );
+
+        await axios
+          .post(
+            'https://script.google.com/macros/s/AKfycbw985vC8fE-bTTKnAklohS6G3Nhotrw0ntUaqzukDwGZS_yNrM5fD1ulmfsezQ3ico-/exec',
+            formDatas
+          )
+          .then((data) => {
+            console.log(data);
+          })
+          .catch((error) => {
+            console.log(error);
           });
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        }
-      );
+      } catch (error) {
+        console.log(error);
+      }
+    }
+
+    // emailjs
+    //   .sendForm('service_kn4xgji', 'template_6ax7wdj', form.current, {
+    //     publicKey: 'IC9_7chZnJVX9bo8Z',
+    //   })
+    //   .then(
+    //     () => {
+    //       console.log('SUCCESS!');
+    //       e.target.reset();
+    //     },
+    //     (error) => {
+    //       console.log('FAILED...', error.text);
+    //     }
+    //   );
+    // emailjs
+    //   .sendForm('service_kn4xgji', 'template_49izg1a', e.target, {
+    //     publicKey: 'IC9_7chZnJVX9bo8Z',
+    //   })
+    //   .then(
+    //     () => {
+    //       console.log('SUCCESS!');
+    //       e.target.reset();
+    //       toast.success('Subscription Successful!', {
+    //         // position: 'bottom-center',
+    //         position: 'center-right',
+    //         duration: 3000,
+    //         style: {
+    //           width: '200px',
+    //           fontSize: '24px',
+    //           background: 'green',
+    //           color: '#fff',
+    //         },
+    //       });
+    //     },
+    //     (error) => {
+    //       console.log('FAILED...', error.text);
+    //     }
+    //   );
   };
 
   return (
@@ -257,16 +314,29 @@ const Footer = () => {
                   <p>
                     Signup for our weekly newsletter to get the latest news.
                   </p>
-                  <form ref={form} onSubmit={sendEmail}>
+                  {/* <form ref={form} onSubmit={sendEmail}> */}
+                  <form onSubmit={sendEmail}>
                     <input
-                      type="email"
+                      type="text"
+                      className={`form-control ${errors.email && 'is-invalid'}`}
+                      id="exampleInputEmail1"
                       name="email"
-                      placeholder="Enter your email."
+                      value={formData.email}
+                      placeholder="Enter Your Email"
+                      onChange={handleInputChange}
                     />
-                    <button>
+                    <button type="submit">
                       <i className="fa-solid fa-arrow-up-long" />
                     </button>
                   </form>
+                  {errors.email && (
+                    <div
+                      className="invalid-feedback"
+                      style={{ fontSize: '20px' }}
+                    >
+                      {errors.email}
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

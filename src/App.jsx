@@ -1,7 +1,7 @@
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
-import React, { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import {
   BrowserRouter as Router,
   Routes,
@@ -41,7 +41,7 @@ const App = () => {
           {/* <Route path="/team" element={<TeamPage />} /> */}
           <Route path="/core-values" element={<CoreValues />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/news" element={<News />} /> 
+          <Route path="/news" element={<News />} />
           <Route path="/service-one" element={<ServiceOne />} />
           <Route path="/service-two" element={<ServiceTwo />} />
           <Route path="/service-three" element={<ServiceThree />} />

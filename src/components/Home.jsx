@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react';
+
 import About from './about/About';
 import Articles from './Articles';
 import Clients from './Clients';
@@ -12,7 +14,7 @@ import Review from './Review';
 import Testimonials from './Testimonials';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel';
-import { useEffect } from 'react';
+import Loader from './Loader';
 // import { useEffect, useState } from 'react';
 // import Loader from './Loader';
 const Home = () => {
@@ -24,24 +26,11 @@ const Home = () => {
         nav: true,
         items: 1,
       });
-    }, 500); // Delay initialization
+    }, 100); // Delay initialization
   }, []);
-  // const [loading, setLoading] = useState(true);
 
-  // useEffect(() => {
-  //   // Simulate loading delay with setTimeout
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 3000);
-  // }, []);
   return (
     <>
-      {/* {loading ? (
-        <>
-          <Loader />
-        </>
-      ) : (
-        <> */}
       <Slider />
       <Vision />
       <About />
@@ -58,8 +47,6 @@ const Home = () => {
         <i className="fa-solid fa-arrow-up"></i>
       </button>
     </>
-    //   )}
-    // </>
   );
 };
 
