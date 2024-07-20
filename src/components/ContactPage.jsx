@@ -106,20 +106,19 @@ const ContactPage = () => {
 
         await axios
           .post(
-            'https://script.google.com/macros/s/AKfycbyrcdkh6RyRl-vj8VO3M0p3jkUi1hyMY35CHJHBfgJQiT2NEY_ojmli872tGwwT0nSa/exec',
-            // 'https://script.google.com/macros/s/AKfycbxRFJ_4O0aQQRBbx9Msfab75DB9PAvypXfBVYwH_DNfb3vh6R08NpGWU01a3VsWoJpkFA/exec',
+            'https://script.google.com/macros/s/AKfycbyyqpleAcg9DYWdEMZftRDPIbQNuOXx1o1xIDF7u3gz5EQqckONwEcbFj16TdME-2O4/exec',
             formDatas
           )
           .then((data) => {
-            // console.log(data);
+            console.log(data);
           })
           .catch((error) => {
             console.log(error);
           });
         // console.log('Form submitted:', formData);
         emailjs
-          .sendForm('service_3lidczp', 'template_06gn6hy', e.target, {
-            publicKey: 'm35gea3sqOv63A_9h',
+          .sendForm('service_oskoz46', 'template_9ydwb45', e.target, {
+            publicKey: 'FQX6Jy3MX8KCj-ib7',
           })
           .then(
             () => {
@@ -131,8 +130,8 @@ const ContactPage = () => {
             }
           );
         emailjs
-          .sendForm('service_3lidczp', 'template_23bcdd8', e.target, {
-            publicKey: 'm35gea3sqOv63A_9h',
+          .sendForm('service_oskoz46', 'template_tgl7sj1', e.target, {
+            publicKey: 'FQX6Jy3MX8KCj-ib7',
           })
           .then(
             () => {
@@ -725,11 +724,11 @@ const ContactPage = () => {
                     onClick={() =>
                       handleAccordionToggle(1, 'Printing Solutions')
                     }
-                    style={{fontWeight:'500'}}
+                    style={{ fontWeight: '500' }}
                   >
                     Printing Solutions
                   </button>
-                  <hr style={{marginTop:'-8px'}}/>
+                  <hr style={{ marginTop: '-8px' }} />
                   {/* Repeat the same for other buttons */}
                   <button
                     className={`dropdown-item ${
@@ -738,21 +737,21 @@ const ContactPage = () => {
                     onClick={() =>
                       handleAccordionToggle(2, 'Electronics Components')
                     }
-                    style={{fontWeight:'500'}}
+                    style={{ fontWeight: '500' }}
                   >
                     Electronics Components
                   </button>
-                  <hr style={{marginTop:'-8px'}}/>
+                  <hr style={{ marginTop: '-8px' }} />
                   <button
                     className={`dropdown-item ${
                       activeAccordion === 3 ? 'active' : ''
                     }`}
                     onClick={() => handleAccordionToggle(3, 'Medical-PPE')}
-                    style={{fontWeight:'500'}}
+                    style={{ fontWeight: '500' }}
                   >
                     Medical-PPE
                   </button>
-                  <hr style={{marginTop:'-8px',}}/>
+                  <hr style={{ marginTop: '-8px' }} />
                   {/* Repeat the same for the remaining buttons */}
                   {/* <button
                     className={`dropdown-item ${
@@ -777,7 +776,7 @@ const ContactPage = () => {
                     style={{
                       whiteSpace: 'normal' /* Allow the text to wrap */,
                       wordWrap: 'break-word',
-                      fontWeight:'500'
+                      fontWeight: '500',
                     }}
                   >
                     Industrial Construction Tools and Equipment

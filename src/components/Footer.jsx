@@ -52,7 +52,7 @@ const Footer = () => {
 
         await axios
           .post(
-            'https://script.google.com/macros/s/AKfycbw985vC8fE-bTTKnAklohS6G3Nhotrw0ntUaqzukDwGZS_yNrM5fD1ulmfsezQ3ico-/exec',
+            'https://script.google.com/macros/s/AKfycbw0P0feQILBfXIL85aRxuOEsJZBYyVnSJhWUeUwNpV2JQEkTAxI3DZL8i_H8toY2Cxn6g/exec',
             formDatas
           )
           .then((data) => {
