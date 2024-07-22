@@ -83,8 +83,8 @@ const AboutPage = () => {
                       // src="assets/svg/1.svg"
                       // src="assets/svg4/whoweare1.svg"
                       src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare1.svg"
+                      className="whoweare"
                       alt="About Image One"
-                      style={{ width: '580px', height: '500px' }}
                       // width={'500px'}
                       // height={'780px'}
                     />
@@ -125,7 +125,7 @@ const AboutPage = () => {
                       // src="assets/svg4/whoweare2.svg"
                       src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare2.svg"
                       alt="About Image Two "
-                      style={{ width: '580px', height: '500px' }}
+                      className="whowearetwo"
                       // width={'520px'}
                       // height={'450px'}
                     />
@@ -223,11 +223,12 @@ const AboutPage = () => {
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="data">
-                      <figure>
+                      <figure className="keybenefitsfig">
                         <img
-                          className="w-100"
+                          className="w-100 keybenefits"
                           src="https://s3.ap-south-1.amazonaws.com/omdys.com/key_benefitsann.png"
                           // src="https://winsfolio.net/html/builty/assets/images/about-k-b.jpg"
+
                           alt="About key Benefits"
                         />
                       </figure>

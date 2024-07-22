@@ -1,7 +1,7 @@
 const Features = () => {
   return (
     <>
-      <section className="core-features">
+      <section className="core-features " style={{ marginTop: '20px' }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -144,7 +144,7 @@ const Features = () => {
                       alt="Core Feature Img"
                     />
                   </figure>
-                  <a className="video-play-btn" data-fancybox="" href="">
+                  {/* <a className="video-play-btn" data-fancybox="" href="">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -177,7 +177,7 @@ const Features = () => {
                         />
                       </g>
                     </svg>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

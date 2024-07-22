@@ -4,15 +4,15 @@ const ServiceFour = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-   useEffect(() => {
-     let elements = document.querySelectorAll('[data-aos]');
-     for (let i = 0; i < elements.length; i++) {
-       //if ios remove the attribute
-       if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
-         elements[i].removeAttribute('data-aos');
-       }
-     }
-   });
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
+      }
+    }
+  });
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>
@@ -57,7 +57,7 @@ const ServiceFour = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="data">
-                <figure>
+                <figure className="servicefourfig">
                   <img
                     className="w-100"
                     src="https://s3.ap-south-1.amazonaws.com/omdys.com/risk_management.png"

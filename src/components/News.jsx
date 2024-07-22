@@ -103,7 +103,7 @@ const News = () => {
                     <li>
                       <Link to={'/'}>
                         <i className="fa-solid fa-house" />
-                        <p>Home</p>
+                        <p>Homee</p>
                       </Link>
                     </li>
                     {/* <li className="current">
@@ -176,9 +176,9 @@ const News = () => {
                         <p>Home</p>
                       </Link>
                     </li>
-                    <li className="current">
+                    {/* <li className="current">
                       <p>Contact Us</p>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

@@ -437,6 +437,8 @@ const ActivityThree = () => {
                     </p>
                   </div>
                 </li>
+                <br />
+                {/* <li></li> */}
                 <li>
                   <div className="data">
                     <h3>Competitive Pricing</h3>
@@ -482,6 +484,8 @@ const ActivityThree = () => {
                     </p>
                   </div>
                 </li>
+                <br />
+                {/* <li></li> */}
                 <li>
                   <div className="data">
                     <h3> Customer Support</h3>
@@ -503,6 +507,8 @@ const ActivityThree = () => {
                     </figure>
                   </div>
                 </li>
+                <br />
+                {/* <li></li> */}
                 <li>
                   <div className="image" data-aos="fade-left">
                     <figure>

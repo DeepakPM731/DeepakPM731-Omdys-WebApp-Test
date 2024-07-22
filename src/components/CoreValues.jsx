@@ -1,9 +1,19 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const CoreValues = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
+      }
+    }
+  });
   return (
     <>
       <>
@@ -250,14 +260,17 @@ const CoreValues = () => {
                       and achieve
                       <br /> your business goals. We're ready when you are.
                     </p>
-                    <a
-                      href="javascript:void(0)"
-                      data-bs-toggle="modal"
-                      data-bs-target="#exampleModal1"
-                      className="theme-btn"
-                    >
-                      Build a Project <i className="fa-solid fa-angles-right" />
-                    </a>
+                    <Link to={'/contact'} className="theme-btn">
+                      {/* <a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal1"
+                        className="theme-btn"
+                      > */}
+                      Build a Project
+                      <i className="fa-solid fa-angles-right" />
+                      {/* </a> */}
+                    </Link>
                   </div>
                 </div>
                 <div className="col-lg-5">

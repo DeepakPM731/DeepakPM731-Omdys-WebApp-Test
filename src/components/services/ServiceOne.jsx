@@ -57,9 +57,9 @@ const ServiceOne = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="data">
-                <figure>
+                <figure className='serviceonefig'>
                   <img
-                    className="w-100"
+                    className="w-100 serviceone"
                     // src="	https://winsfolio.net/html/builty/assets/images/about-k-b.jpg"
                     // src="assets/svg4/supplieridentification.svg"
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/supplieridentification.svg"

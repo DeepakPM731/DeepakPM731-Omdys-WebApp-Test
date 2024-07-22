@@ -57,7 +57,7 @@ const ServiceTwo = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="data">
-                <figure>
+                <figure className="servicetwofig">
                   <img
                     className="w-100"
                     src="https://s3.ap-south-1.amazonaws.com/omdys.com/product_management.png"

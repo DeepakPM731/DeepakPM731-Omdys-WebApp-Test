@@ -4638,6 +4638,91 @@ span.counter {
 
 /* -------------------- */
 
+/* ----------about page---------------- */
+/* who we are image */
+.whoweare {
+  width: 580px;
+  height: 500px;
+}
+.whowearetwo {
+  width: 580px;
+  height: 500px;
+}
+.keybenefitsfig {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1200px) {
+  .whoweare {
+    width: 580px;
+    height: 500px;
+  }
+  .whowearetwo {
+    width: 580px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .whoweare {
+    width: 580px;
+    height: 500px;
+  }
+  .whowearetwo {
+    width: 580px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .whoweare {
+    width: 580px;
+    height: 500px;
+  }
+  .whowearetwo {
+    width: 580px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .whoweare {
+    width: 100%;
+    height: 300px;
+  }
+  .whowearetwo {
+    width: 100%;
+    height: 500px;
+    margin-top: -150px;
+    margin-bottom: -120px;
+  }
+  .keybenefitsfig {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -150px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .whoweare {
+    width: 100%;
+    height: 500px;
+  }
+  .whowearetwo {
+    width: 100%;
+    height: 500px;
+    margin-top: -150px;
+    margin-bottom: -120px;
+  }
+  .keybenefitsfig {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -150px;
+  }
+}
+
+/* --------------about page end------------ */
+
 .about-how-it-works .plans:hover {
   box-shadow: 0px 5px 20px 0px rgb(0 0 0 / 10%);
   -webkit-box-shadow: 0px 5px 20px 0px rgb(0 0 0 / 10%);
@@ -5430,6 +5515,49 @@ ul.social-medias {
   margin-bottom: 70px;
 }
 /* 49. Service Detail Page End */
+
+/* --------service page starts---------- */
+.serviceonefig {
+  margin-left: auto;
+  margin-right: auto;
+}
+.servicetwofig {
+  margin-left: auto;
+  margin-right: auto;
+}
+.servicethreefig {
+  margin-left: auto;
+  margin-right: auto;
+}
+.servicefourfig {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1200px) {
+  .serviceonefig {
+  }
+}
+@media screen and (max-width: 992px) {
+  .serviceonefig {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .serviceonefig {
+  }
+}
+@media screen and (max-width: 480px) {
+  .serviceonefig {
+  }
+}
+@media screen and (max-width: 380px) {
+  .serviceonefig {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* ---------service page ends--------- */
 
 /* 50. Project Detail Page Start */
 .project-style-one.extra:before {
