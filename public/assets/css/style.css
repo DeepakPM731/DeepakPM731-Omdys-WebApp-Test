@@ -920,6 +920,35 @@ textarea {
   overflow-y: hidden;
 }
 
+@media screen and (max-width: 1800px) {
+.dropdown-menu {
+    width: 458px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .dropdown-menu {
+    width: 458px;
+  }
+}
+@media screen and (max-width: 1200px) {
+.dropdown-menu {
+    width: 458px;
+  }
+}
+@media screen and (max-width: 992px) {
+.dropdown-menu {
+    width: 458px;
+
+}
+}
+@media screen and (max-width: 768px) {
+.dropdown-menu {
+    width: 458px;
+    
+  }
+}
+  
+
 @media (max-width: 480px) {
   .dropdown-menu {
     overflow-y: auto;
@@ -952,6 +981,9 @@ textarea {
     width: 210px;
 
     height: 60px;
+  }
+  .dropdown-menu {
+  
   }
 }
 @media screen and (max-width: 420px) {

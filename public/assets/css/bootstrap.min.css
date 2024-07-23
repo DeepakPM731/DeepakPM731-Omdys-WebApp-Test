@@ -3358,8 +3358,9 @@ fieldset:disabled .btn {
   z-index: 1000;
   display: none;
   min-width: 10rem;
+  /* min-width: 456px; */
   /* padding: 0.5rem 0; */
-  padding: 0.5rem 2rem;
+  /* padding: 0.5rem 2rem; */
   margin: 0;
   font-size: 1rem;
   color: #212529;

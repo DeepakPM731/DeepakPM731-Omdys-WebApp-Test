@@ -727,11 +727,11 @@ const ContactPage = () => {
                     onClick={() =>
                       handleAccordionToggle(1, 'Printing Solutions')
                     }
-                    style={{ fontWeight: '500' }}
+                    style={{ fontWeight: '600',textAlign:'center' }}
                   >
                     Printing Solutions
                   </button>
-                  <hr style={{ marginTop: '-8px' }} />
+                  {/* <hr style={{ marginTop: '-8px' }} /> */}
                   {/* Repeat the same for other buttons */}
                   <button
                     className={`dropdown-item ${
@@ -740,21 +740,21 @@ const ContactPage = () => {
                     onClick={() =>
                       handleAccordionToggle(2, 'Electronics Components')
                     }
-                    style={{ fontWeight: '500' }}
+                    style={{ fontWeight: '600',textAlign:'center' }}
                   >
                     Electronics Components
                   </button>
-                  <hr style={{ marginTop: '-8px' }} />
+                  {/* <hr style={{ marginTop: '-8px' }} /> */}
                   <button
                     className={`dropdown-item ${
                       activeAccordion === 3 ? 'active' : ''
                     }`}
                     onClick={() => handleAccordionToggle(3, 'Medical-PPE')}
-                    style={{ fontWeight: '500' }}
+                    style={{ fontWeight: '600',textAlign:'center' }}
                   >
                     Medical-PPE
                   </button>
-                  <hr style={{ marginTop: '-8px' }} />
+                  {/* <hr style={{ marginTop: '-8px' }} /> */}
                   {/* Repeat the same for the remaining buttons */}
                   {/* <button
                     className={`dropdown-item ${
@@ -779,7 +779,8 @@ const ContactPage = () => {
                     style={{
                       whiteSpace: 'normal' /* Allow the text to wrap */,
                       wordWrap: 'break-word',
-                      fontWeight: '500',
+                      fontWeight: '600',
+                      textAlign:'center'
                     }}
                   >
                     Industrial Construction Tools and Equipment
