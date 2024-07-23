@@ -84,7 +84,10 @@ const Header = () => {
                           </figure>
                         </a>
                       </div>
-                      <div className="nav-bar">
+                      <div
+                        className="nav-bar"
+                        style={{ marginRight: 'auto', marginLeft: 'auto' }}
+                      >
                         <ul>
                           <li className="">
                             {/* <li className="menu-item-has-children"> */}
@@ -131,43 +134,37 @@ const Header = () => {
                               </li> */}
                             </ul>
                           </li>
-                          <li className="menu-item-has-children">
+                          {/* -----------services nav----------- */}
+                          {/* <li className="menu-item-has-children">
                             <a href="JavaScript:void(0)">Services</a>
                             <ul className="sub-menu">
+                              
                               <li>
-                                {/* <Link to={'/service-one'}> */}
+                              
                                 <a href="/service-one">
                                   Supplier Identification & Sourcing
                                 </a>
-                                {/* </Link> */}
-                                {/* <ul className="sub-menu">
-                                  <li>
-                                    <a href="product-list.html">Product List</a>
-                                  </li>
-                                  <li>
-                                    <a href="product-grid.html">Product Grid</a>
-                                  </li>
-                                </ul> */}
+                              
                               </li>
                               <li>
-                                {/* <Link to={'/service-two'}> */}
+                               
                                 <a href="/service-two">Product Management</a>
-                                {/* </Link> */}
+                                
                               </li>
                               <li>
-                                {/* <Link to={'/service-three'}> */}
+                                
                                 <a href="/service-three">
                                   Logistics & Shipping
                                 </a>
-                                {/* </Link> */}
+                               
                               </li>
                               <li>
-                                {/* <Link to={'/service-four'}> */}
+                              
                                 <a href="/service-four">Risk Management</a>
-                                {/* </Link> */}
+                               
                               </li>
                             </ul>
-                          </li>
+                          </li> */}
                           <li className="menu-item-has-children">
                             <a href="JavaScript:void(0)">Pages</a>
                             <ul className="sub-menu">
@@ -177,6 +174,7 @@ const Header = () => {
                                     Our Main Activities
                                   </a>
                                 </Link>
+
                                 <ul className="sub-menu">
                                   <li>
                                     {/* <Link to={'/activity-one'}> */}
@@ -213,6 +211,42 @@ const Header = () => {
                                     {/* </Link> */}
                                   </li>
                                 </ul>
+                              </li>
+                              <li className="menu-item-has-children">
+                                <Link to={'/service-single'}>
+                                  <a className="tag" href="/service-single">
+                                    Services
+                                  </a>
+                                </Link>
+
+                                {/* <ul className="sub-menu">
+                                  <li>
+                                    
+                                    <a href="/service-one">
+                                      Supplier Identification & Sourcing
+                                    </a>
+                                   
+                                  </li>
+                                  <li>
+                                    
+                                    <a href="/service-two">
+                                      Product Management
+                                    </a>
+                                   
+                                  </li>
+                                  <li>
+                                    
+                                    <a href="/service-three">
+                                      Logistics & Shipping
+                                    </a>
+                                    
+                                  </li>
+                                  <li>
+                                   
+                                    <a href="/service-four">Risk Management</a>
+                                    
+                                  </li>
+                                </ul> */}
                               </li>
                               {/* <li className="menu-item-has-children">
                                 <a href="javascript:void(0)">Projects</a>
@@ -377,7 +411,7 @@ const Header = () => {
               <div className="res-log">
                 {/* <Link to={''}> */}
                 <img
-                className='responsive-logo'
+                  className="responsive-logo"
                   src="assets/images/OMDYS_LOGO_Horizontal.png"
                   width={'230'}
                   height={'85'}
@@ -434,39 +468,32 @@ const Header = () => {
                     </li> */}
                   </ul>
                 </li>
-                <li className="menu-item-has-children">
+                {/* ------------services nav------------ */}
+                {/* <li className="menu-item-has-children">
                   <a href="JavaScript:void(0)">Services</a>
                   <ul className="sub-menu">
                     <li className="">
-                      {/* <Link to={'/service-one'}> */}
                       <a href="/service-one" style={{ color: 'white' }}>
                         Supplier Identification & Sourcing
                       </a>
-                      {/* </Link> */}
                     </li>
                     <li>
-                      {/* <Link to={'/service-two'}> */}
                       <a href="/service-two" style={{ color: 'white' }}>
                         Product Management
                       </a>
-                      {/* </Link> */}
                     </li>
                     <li>
-                      {/* <Link to={'/service-three'}> */}
                       <a href="/service-three" style={{ color: 'white' }}>
                         Logistics & Shipping
                       </a>
-                      {/* </Link> */}
                     </li>
                     <li>
-                      {/* <Link to={'/service-four'}> */}
                       <a href="/service-four" style={{ color: 'white' }}>
                         Risk Management
                       </a>
-                      {/* </Link> */}
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="menu-item-has-children">
                   <a href="JavaScript:void(0)">Pages</a>
                   <ul className="sub-menu">
@@ -496,13 +523,7 @@ const Header = () => {
                           </a>
                           {/* </Link> */}
                         </li>
-                        {/* <li> */}
-                          {/* <Link to={'/activity-four'}> */}
-                          {/* <a href="/activity-four">
-                            Industrial Chemical Products Supply
-                          </a> */}
-                          {/* </Link> */}
-                        {/* </li> */}
+                        
                         <li>
                           {/* <Link to={'/activity-five'}> */}
                           <a href="/activity-five">Medical-PPE Supply</a>
@@ -510,38 +531,13 @@ const Header = () => {
                         </li>
                       </ul>
                     </li>
-                    {/* <li className="menu-item-has-children">
-                      <a href="javascript:void(0)">Projects</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="our-projects-1.html">Our Projects One</a>
-                        </li>
-                        <li>
-                          <a href="our-projects-2.html">Our Projects Two</a>
-                        </li>
-                        <li>
-                          <a href="project-detail.html">Project Detail</a>
-                        </li>
-                      </ul>
-                    </li> */}
-                    <li className="">
-                      {/* <Link to={'/team'}> */}
-                      {/* <a href="/team" style={{ color: 'white' }}>
-                        Team
-                      </a> */}
-                      {/* </Link> */}
-                      {/* <ul className="sub-menu">
-                        <li>
-                          <a href="our-team.html">Our Team</a>
-                        </li>
-                        <li>
-                          <a href="team-detail.html">Team Detail</a>
-                        </li>
-                      </ul> */}
+                   
+                    <li className="menu-item-has-children">
+                      {/* <Link to={'/activities'}> */}
+                      <a href="/service-single" style={{ color: 'white' }}>
+                        Sevices
+                      </a>
                     </li>
-                    {/* <li>
-                      <a href="login.html">Login &amp; Register</a>
-                    </li> */}
                   </ul>
                 </li>
                 <li>

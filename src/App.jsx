@@ -25,10 +25,10 @@ import TeamPage from './components/TeamPage';
 import ActivityFour from './components/activities/ActivityFour';
 import ContactPage from './components/ContactPage';
 import News from './components/News';
+import ServiceSingle from './components/services/ServiceSingle';
 
 // import Contact from './components/Contact';
 const App = () => {
-  
   return (
     <>
       <Router>
@@ -42,6 +42,7 @@ const App = () => {
           <Route path="/core-values" element={<CoreValues />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/news" element={<News />} />
+          <Route path="/service-single" element={<ServiceSingle />} />
           <Route path="/service-one" element={<ServiceOne />} />
           <Route path="/service-two" element={<ServiceTwo />} />
           <Route path="/service-three" element={<ServiceThree />} />

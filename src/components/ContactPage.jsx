@@ -76,9 +76,9 @@ const ContactPage = () => {
     // if (!formData.subject) {
     //   newErrors.subject = 'Please enter a subject';
     // }
-    if (!formData.message) {
-      newErrors.message = 'Please enter your message';
-    }
+    // if (!formData.message) {
+    //   newErrors.message = 'Please enter your message';
+    // }
     if (Object.keys(newErrors).length === 0) {
       try {
         const formDatas = new FormData();
@@ -267,7 +267,9 @@ const ContactPage = () => {
                     </div>
                     <div className="row g-0">
                       <input
-                        type="number"
+                        type="text"
+                        pattern="\d{10}"
+                        title="Please enter exactly 10 digits"
                         className={`form-control ${
                           errors.phone && 'is-invalid'
                         }`}
@@ -276,6 +278,7 @@ const ContactPage = () => {
                         onChange={handleInputChange}
                         id="exampleInputPhone"
                         placeholder="Contact No."
+                        maxLength={'10'}
                       />
                       {errors.phone && (
                         <div
