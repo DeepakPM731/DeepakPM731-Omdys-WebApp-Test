@@ -166,7 +166,7 @@ const Header = () => {
                             </ul>
                           </li> */}
                           <li className="menu-item-has-children">
-                            <a href="JavaScript:void(0)">Pages</a>
+                            <a href="JavaScript:void(0)">Services</a>
                             <ul className="sub-menu">
                               <li className="menu-item-has-children">
                                 <Link to={'javascript:void(0)'}>
@@ -495,7 +495,7 @@ const Header = () => {
                   </ul>
                 </li> */}
                 <li className="menu-item-has-children">
-                  <a href="JavaScript:void(0)">Pages</a>
+                  <a href="JavaScript:void(0)">Services</a>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
                       {/* <Link to={'/activities'}> */}
