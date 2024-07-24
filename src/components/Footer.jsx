@@ -7,9 +7,10 @@ import axios from 'axios';
 const Footer = () => {
   // const form = useRef();
 
+  // const [formData, setFormData] = useState({ email: '' });
+  // const [errors, setErrors] = useState({});
   const [formData, setFormData] = useState({ email: '' });
   const [errors, setErrors] = useState({});
-
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -18,34 +19,29 @@ const Footer = () => {
   console.log(formData);
 
   const sendEmail = async (e) => {
-    console.log('uuuuu');
-
     e.preventDefault();
 
     const newErrors = {};
     const emailPattern = /\S+@\S+\.\S+/;
     const phonePattern = /^[0-9]{10}$/;
 
-    // Validate email
-    if (formData.email && !emailPattern.test(formData.email)) {
-      newErrors.email = 'Please enter a valid email';
-    }
-
-    // Validate phone
-    if (formData.phone && !phonePattern.test(formData.phone)) {
-      newErrors.phone = 'Please enter a valid 10-digit phone number';
+    if (!formData.email) {
+      newErrors.email = 'Please enter a valid Email or a 10-digit Phone number';
+    } else if (
+      !emailPattern.test(formData.email) &&
+      !phonePattern.test(formData.email)
+    ) {
+      newErrors.email = 'Please enter a valid Email or a 10-digit Phone number';
     }
 
     if (Object.keys(newErrors).length === 0) {
       try {
         const formDatas = new FormData();
-        formDatas.append('Email', formData.email);
-        formDatas.append('Phone', formData.phone);
+        formDatas.append('Email / Phone', formData.email);
 
         toast.success(
           'Thank you for your enquiry, Our sales team will contact you soon!',
           {
-            // position: 'bottom-center',
             position: 'center-right',
             duration: 3000,
             style: {
@@ -71,45 +67,19 @@ const Footer = () => {
       } catch (error) {
         console.log(error);
       }
+    } else {
+      setErrors(newErrors);
+      toast.error(newErrors.email, {
+        position: 'center-right',
+        duration: 3000,
+        style: {
+          width: '400px',
+          fontSize: '24px',
+          background: 'red',
+          color: '#fff',
+        },
+      });
     }
-
-    // emailjs
-    //   .sendForm('service_kn4xgji', 'template_6ax7wdj', form.current, {
-    //     publicKey: 'IC9_7chZnJVX9bo8Z',
-    //   })
-    //   .then(
-    //     () => {
-    //       console.log('SUCCESS!');
-    //       e.target.reset();
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error.text);
-    //     }
-    //   );
-    // emailjs
-    //   .sendForm('service_kn4xgji', 'template_49izg1a', e.target, {
-    //     publicKey: 'IC9_7chZnJVX9bo8Z',
-    //   })
-    //   .then(
-    //     () => {
-    //       console.log('SUCCESS!');
-    //       e.target.reset();
-    //       toast.success('Subscription Successful!', {
-    //         // position: 'bottom-center',
-    //         position: 'center-right',
-    //         duration: 3000,
-    //         style: {
-    //           width: '200px',
-    //           fontSize: '24px',
-    //           background: 'green',
-    //           color: '#fff',
-    //         },
-    //       });
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error.text);
-    //     }
-    //   );
   };
 
   return (
@@ -318,11 +288,10 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12">
+              {/* <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-col">
-                  <h3>Newsletter</h3>
+                  <h3>Callback Request</h3>
                   <p>Request a callback. Enter your Email or Phone.</p>
-                  {/* <form ref={form} onSubmit={sendEmail}> */}
                   <form onSubmit={sendEmail}>
                     <input
                       type="text"
@@ -345,6 +314,26 @@ const Footer = () => {
                       {errors.email}
                     </div>
                   )}
+                </div>
+              </div> */}
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="footer-col">
+                  <h3>Callback Request</h3>
+                  <p>Request a callback. Enter your Email or Phone.</p>
+                  <form onSubmit={sendEmail}>
+                    <input
+                      type="text"
+                      className={`form-control ${errors.email && 'is-invalid'}`}
+                      id="exampleInputEmailOrPhone"
+                      name="email"
+                      value={formData.email}
+                      placeholder="Enter Your Email or Phone"
+                      onChange={handleInputChange}
+                    />
+                    <button type="submit">
+                      <i className="fa-solid fa-arrow-up-long" />
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
