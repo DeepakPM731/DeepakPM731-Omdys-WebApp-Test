@@ -107,6 +107,204 @@ const ActivityFive = () => {
         </div>
       </div>
 
+      {/* ---------------test--------------- */}
+      <div className="container mt-5 mb-2">
+        <div style={{ marginTop: '20px' }}>
+          <section className="gap no-top core-values">
+            <div className="container" style={{ marginBottom: '-5%' }}>
+              <div className="row">
+                <ul>
+                  <li style={{ marginTop: '-5%' }}>
+                    <div className="data">
+                      <h3>Face Masks</h3>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        Surgical masks, N95 respirators, KN95 masks, and more.
+                      </p>
+                    </div>
+                    <div className="image" data-aos="fade-right">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="assets/images/activity-four/ic.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="image" data-aos="fade-left">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="assets/images/activity-four/passivec.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
+                    <div className="data">
+                      <h3> Protective Apparel</h3>
+                      <p style={{ fontSize: '18px' }}>
+                        Disposable gowns, coveralls, aprons, and lab coats.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="data">
+                      <h3> Gloves</h3>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        Latex, nitrile, and vinyl gloves for medical and
+                        non-medical use.
+                      </p>
+                    </div>
+                    <div className="image" data-aos="fade-right">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="assets/images/activity-four/activec.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="image" data-aos="fade-left">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="assets/images/activity-four/cables.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
+                    <div className="data">
+                      <h3>Eye Protection</h3>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        Safety goggles and face shields to protect against
+                        splashes and airborne particles.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="data">
+                      <h3>Sanitizers and Disinfectants</h3>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        Hand sanitizers, disinfectant wipes, and surface
+                        disinfectants for maintaining hygiene protocols.
+                      </p>
+                    </div>
+                    <div className="image" data-aos="fade-right">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="assets/images/activity-four/sensorsc.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="image" data-aos="fade-left">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="assets/images/activity-four/leds.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/sustainability.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
+                    <div className="data">
+                      <h3> LEDs and Displays</h3>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        Illuminate your projects with our selection of LEDs, LCD
+                        displays, OLED displays, and segment displays available
+                        in different sizes, colors, and configurations.
+                      </p>
+                    </div>
+                  </li>
+                  <li style={{ marginBottom: '-2%' }}>
+                    <div className="data">
+                      <h3>Power Supplies and Batteries</h3>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        Ensure reliable power delivery with our range of power
+                        supplies, batteries, chargers, and DC-DC converters
+                        designed for diverse applications.
+                      </p>
+                    </div>
+                    <div className="image" data-aos="fade-right">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="assets/images/activity-four/power.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/promise.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="image" data-aos="fade-left">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="assets/images/activity-four/relayc.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/sustainability.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
+                    <div className="data">
+                      <h3>Switches and Relays</h3>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        Find the right switches, relays, and contactors for your
+                        control and automation needs, including tactile
+                        switches, rocker switches, and electromechanical relays.
+                      </p>
+                    </div>
+                  </li>
+                  <li style={{ marginBottom: '-2%' }}>
+                    <div className="data">
+                      <h3>Semiconductors</h3>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        Browse through our collection of discrete
+                        semiconductors, including power MOSFETs, IGBTs, Schottky
+                        diodes, and voltage regulators, for efficient power
+                        management and control.
+                      </p>
+                    </div>
+                    <div className="image" data-aos="fade-right">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="assets/images/activity-four/semiconductor.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/promise.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      {/* ---------------test--------------- */}
+
       <section className=" no-top project-completed our-projects-one">
         <div
           className="container mb-4"
