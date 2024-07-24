@@ -57,6 +57,21 @@ const ActivityFive = () => {
       <div className="container mt-5 mb-5">
         <div className="row">
           <div className="col-lg-12">
+            <div
+              className="container mb-4"
+              style={{ display: 'flex', justifyContent: 'center' }}
+            >
+              <figure style={{ position: 'relative', zIndex: 9 }}>
+                <img
+                  className=""
+                  // src="assets/svg4/Medical PPE 2.svg"
+                  // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+2.svg"
+                  src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+22.svg"
+                  // src="https://winsfolio.net/html/builty/assets/images/about-h-i-w.jpg"
+                  alt="About How It Works"
+                />
+              </figure>
+            </div>
             <div className="who-we-are">
               <div>
                 {/* <h3 className="mb-5 text-center" style={{ fontSize: '48px' }}>
@@ -106,6 +121,11 @@ const ActivityFive = () => {
           </div>
         </div>
       </div>
+      <br />
+      <hr />
+      <h4 style={{ textAlign: 'center', marginBottom: '5%' }}>
+        Our Extensive Product Portfolio
+      </h4>
 
       {/* ---------------test--------------- */}
       <div className="container mt-5 mb-2">
@@ -219,24 +239,13 @@ const ActivityFive = () => {
         </div>
       </div>
       {/* ---------------test--------------- */}
-
-      <section className=" no-top project-completed our-projects-one">
-        <div
-          className="container mb-4"
-          style={{ display: 'flex', justifyContent: 'center' }}
-        >
-          <figure style={{ position: 'relative', zIndex: 9 }}>
-            <img
-              className=""
-              // src="assets/svg4/Medical PPE 2.svg"
-              // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+2.svg"
-              src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+22.svg"
-              // src="https://winsfolio.net/html/builty/assets/images/about-h-i-w.jpg"
-              alt="About How It Works"
-            />
-          </figure>
-        </div>
-
+      <br />
+      <br />
+      <br />
+      <section
+        className=" no-top project-completed our-projects-one"
+        style={{ marginTop: '-5%' }}
+      >
         <div style={{ marginTop: '20px' }}>
           <section className="gap no-top core-values">
             <div className="container" style={{ marginBottom: '-5%' }}>

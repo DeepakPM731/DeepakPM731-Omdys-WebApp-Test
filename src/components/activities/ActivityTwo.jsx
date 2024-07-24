@@ -330,73 +330,69 @@ const ActivityTwo = () => {
       </div>
 
       {/* ----------------------test-------------------------- */}
-
+      <br />
       {/*============================================================== */}
-      <div style={{ marginTop: '-3%' }}>
-        <section className="gap no-top core-values">
-          <div className="container" style={{ marginBottom: '-5%' }}>
-            <div className="row">
-              <ul>
-                <li>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                  <div className="data">
-                    <h3>Our Commitment to Quality</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      At OMDYS International LLP, we understand the importance
-                      of quality and reliability in electronic components.
-                      That's why we source our products from reputable
-                      manufacturers and authorized distributors known for their
-                      commitment to excellence and adherence to industry
-                      standards.
-                      <br />
-                      <br />
-                      Before adding any product to our catalog, our team of
-                      experts conducts rigorous quality assurance checks to
-                      ensure that each component meets our stringent criteria
-                      for performance, reliability, and durability.
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div className="data">
-                    <h3>Contact Us</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      Ready to experience the difference with OMDYS
-                      International, Get in touch with us today to discuss your
-                      requirements, request a quote, or learn more about our
-                      products and services. Our dedicated team is here to
-                      assist you every step of the way and help you find the
-                      perfect electronic components for your projects and
-                      productions.
-                    </p>
-                  </div>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/contact_ann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                </li>
-              </ul>
-            </div>
+      <section className="gap no-top core-values" style={{ marginBottom: '' }}>
+        <div className="container" style={{ marginBottom: '-5%' }}>
+          <div className="row">
+            <ul>
+              <li>
+                <div className="image" data-aos="fade-right">
+                  <figure>
+                    <img
+                      className="w-100"
+                      // src="assets/svg4/petroleum and petrochemical products (2).svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
+                      // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                      alt="Core Values Image 1"
+                    />
+                  </figure>
+                </div>
+                <div className="data">
+                  <h3>Our Commitment to Quality</h3>
+                  <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                    At OMDYS International LLP, we understand the importance of
+                    quality and reliability in electronic components. That's why
+                    we source our products from reputable manufacturers and
+                    authorized distributors known for their commitment to
+                    excellence and adherence to industry standards.
+                    <br />
+                    <br />
+                    Before adding any product to our catalog, our team of
+                    experts conducts rigorous quality assurance checks to ensure
+                    that each component meets our stringent criteria for
+                    performance, reliability, and durability.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="data">
+                  <h3>Contact Us</h3>
+                  <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                    Ready to experience the difference with OMDYS International,
+                    Get in touch with us today to discuss your requirements,
+                    request a quote, or learn more about our products and
+                    services. Our dedicated team is here to assist you every
+                    step of the way and help you find the perfect electronic
+                    components for your projects and productions.
+                  </p>
+                </div>
+                <div className="image" data-aos="fade-right">
+                  <figure>
+                    <img
+                      className="w-100"
+                      // src="assets/svg4/petroleum and petrochemical products (2).svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/contact_ann.png"
+                      // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                      alt="Core Values Image 1"
+                    />
+                  </figure>
+                </div>
+              </li>
+            </ul>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
       {/*============================================================== */}
     </>
   );
