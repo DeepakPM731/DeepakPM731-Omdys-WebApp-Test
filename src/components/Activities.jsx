@@ -136,26 +136,7 @@ const Activities = () => {
                     </figure>
                   </div>
                 </li>
-                {/* <li data-aos="zoom-in-up">
-                  <div className="image">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                  <div className="data">
-                    <h3>Trading of Industrial Chemical products</h3>
-                    <p>
-                      We offer expertise in exporting specialized petrochemical
-                      mechanical products, ensuring safe and efficient project
-                      execution.
-                      <a href="/activity-four">( Read More )</a>
-                    </p>
-                  </div>
-                </li> */}
+
                 <li data-aos="zoom-in-up">
                   <div className="image">
                     <figure>
@@ -176,6 +157,26 @@ const Activities = () => {
                       <a href="/activity-five">( Read More )</a>
                       {/* </Link> */}
                     </p>
+                  </div>
+                </li>
+                <li data-aos="zoom-in-up">
+                  <div className="data">
+                    <h3>Trading of Industrial Chemical products</h3>
+                    <p>
+                      We offer expertise in exporting specialized petrochemical
+                      mechanical products, ensuring safe and efficient project
+                      execution.
+                      <a href="/activity-four">( Read More )</a>
+                    </p>
+                  </div>
+                  <div className="image">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
                   </div>
                 </li>
                 {/* <li>

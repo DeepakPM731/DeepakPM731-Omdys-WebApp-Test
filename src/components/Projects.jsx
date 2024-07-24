@@ -12,36 +12,40 @@ const Projects = () => {
         </div>
         <div className="container">
           <div className="row project-slider owl-carousel">
-            <div className="col-lg-12">
-              <div className="project-post">
-                <figure>
-                  <img
-                    // src="https://winsfolio.net/html/builty/assets/images/project-img-2.jpg"
-                    // src="assets/svg4/Printing Solutions.svg"
-                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/Printing+Solutions.svg"
-                    alt="project-img-1"
-                  />
-                </figure>
-                <Link to={'/activity-one'}>
-                  <div className="project-data">
-                    <h3>
-                      <Link to={'/activity-one'}>
-                        <a href="">Complete Printing Solutions</a>
-                      </Link>
-                    </h3>
-                    {/* <p>
+            <Link to={'/activity-one'}>
+              <div className="col-lg-12">
+                <div className="project-post">
+                  <figure>
+                    <img
+                      // src="https://winsfolio.net/html/builty/assets/images/project-img-2.jpg"
+                      // src="assets/svg4/Printing Solutions.svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Printing+Solutions.svg"
+                      alt="project-img-1"
+                    />
+                  </figure>
+                  <Link to={'/activity-one'}>
+                    <div className="project-data">
+                      <h3>
+                        <Link to={'/activity-one'}>
+                          <a href="">Complete Printing Solutions</a>
+                        </Link>
+                      </h3>
+                      {/* <p>
                     This project was successfully completed against an extremely
                     tight programme.
                   </p> */}
-                    <Link to={'/activity-one'}>
-                      <a className="project-icon" href="">
-                        <i className="fa-solid fa-angles-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </Link>
+                      <Link to={'/activity-one'}>
+                        <a className="project-icon" href="">
+                          <i className="fa-solid fa-angles-right" />
+                        </a>
+                      </Link>
+                    </div>
+                  </Link>
+                </div>
               </div>
-            </div>
+            </Link>
+            <Link to={'/activity-two'}>
+
             <div className="col-lg-12">
               <div className="project-post">
                 <figure>
@@ -72,6 +76,9 @@ const Projects = () => {
                 </Link>
               </div>
             </div>
+            </Link>
+            <Link to={'/activity-three'}>
+
             <div className="col-lg-12">
               <div className="project-post">
                 <figure>
@@ -104,6 +111,9 @@ const Projects = () => {
                 </Link>
               </div>
             </div>
+            </Link>
+            <Link to={'/activity-four'}>
+
             <div className="col-lg-12">
               <div className="project-post">
                 <figure>
@@ -135,6 +145,9 @@ const Projects = () => {
                 </Link>
               </div>
             </div>
+            </Link>
+            <Link to={'/activity-five'}>
+
             <div className="col-lg-12">
               <div className="project-post">
                 <figure>
@@ -164,6 +177,7 @@ const Projects = () => {
                 </Link>
               </div>
             </div>
+            </Link>
 
             {/* <div className="col-lg-12">
               <div className="project-post">
