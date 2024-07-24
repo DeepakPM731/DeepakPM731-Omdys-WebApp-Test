@@ -239,9 +239,7 @@ const ActivityFive = () => {
         </div>
       </div>
       {/* ---------------test--------------- */}
-      <br />
-      <br />
-      <br />
+
       <section
         className=" no-top project-completed our-projects-one"
         style={{ marginTop: '-5%' }}
@@ -252,6 +250,17 @@ const ActivityFive = () => {
               <div className="row">
                 <ul>
                   <li>
+                    <div className="image" data-aos="fade-left">
+                      <figure>
+                        <img
+                          className="w-100"
+                          // src="assets/svg4/petroleum and petrochemical products (2).svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
                     <div className="data">
                       <h3>Quality Assurance</h3>
                       <p
@@ -269,30 +278,8 @@ const ActivityFive = () => {
                         protection and safety equipment needs.
                       </p>
                     </div>
-                    <div className="image" data-aos="fade-left">
-                      <figure>
-                        <img
-                          className="w-100"
-                          // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
-                    </div>
                   </li>
                   <li>
-                    <div className="image" data-aos="fade-right">
-                      <figure>
-                        <img
-                          className="w-100"
-                          // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/pricing.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
-                    </div>
                     <div className="data">
                       <h3>Competitive Pricing</h3>
                       <p
@@ -310,9 +297,31 @@ const ActivityFive = () => {
                         protection and safety equipment needs.
                       </p>
                     </div>
+                    <div className="image" data-aos="fade-right">
+                      <figure>
+                        <img
+                          className="w-100"
+                          // src="assets/svg4/petroleum and petrochemical products (2).svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/pricing.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
                   </li>
                   <hr />
                   <li>
+                    <div className="image" data-aos="fade-left">
+                      <figure>
+                        <img
+                          className="w-100"
+                          // src="assets/svg4/Medical PPE 1.svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/timely_delivery.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
                     <div className="data">
                       <h3> Timely Delivery</h3>
                       <p
@@ -327,30 +336,9 @@ const ActivityFive = () => {
                         medical field, time is of the essence.
                       </p>
                     </div>
-                    <div className="image" data-aos="fade-left">
-                      <figure>
-                        <img
-                          className="w-100"
-                          // src="assets/svg4/Medical PPE 1.svg"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/timely_delivery.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
-                    </div>
                   </li>
                   <hr />
                   <li>
-                    <div className="image" data-aos="fade-right">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
-                    </div>
                     <div className="data">
                       <h3> Customer Support</h3>
                       <p
@@ -366,8 +354,28 @@ const ActivityFive = () => {
                         satisfaction
                       </p>
                     </div>
+                    <div className="image" data-aos="fade-right">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
                   </li>
                   <li>
+                    <div className="image" data-aos="fade-left">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
                     <div className="data">
                       <h3>Training and Consultation</h3>
                       <p
@@ -383,16 +391,6 @@ const ActivityFive = () => {
                         product range, quality assurance, and dedicated support,
                         you’ll be well-equipped to make a significant impact.
                       </p>
-                    </div>
-                    <div className="image" data-aos="fade-left">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
                     </div>
                   </li>
                 </ul>

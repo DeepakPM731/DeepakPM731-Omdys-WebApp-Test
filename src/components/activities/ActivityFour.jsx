@@ -325,7 +325,7 @@ const ActivityFour = () => {
       </div>
       {/* ------------Petroleum Products Ends ------------------ */}
       {/* ------------Bottom Content Starts ------------------ */}
-      <div style={{ marginTop: '30px' }}>
+      <div style={{ marginTop: '-4%' }}>
         <section className="gap no-top core-values">
           <div className="container" style={{ marginBottom: '-5%' }}>
             <div className="row">

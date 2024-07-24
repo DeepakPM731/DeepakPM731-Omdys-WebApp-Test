@@ -23,17 +23,24 @@ const Footer = () => {
     e.preventDefault();
 
     const newErrors = {};
-    if (!formData.email) {
-      newErrors.email = 'Please enter your email';
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+    const emailPattern = /\S+@\S+\.\S+/;
+    const phonePattern = /^[0-9]{10}$/;
+
+    // Validate email
+    if (formData.email && !emailPattern.test(formData.email)) {
       newErrors.email = 'Please enter a valid email';
     }
-    console.log(newErrors);
+
+    // Validate phone
+    if (formData.phone && !phonePattern.test(formData.phone)) {
+      newErrors.phone = 'Please enter a valid 10-digit phone number';
+    }
 
     if (Object.keys(newErrors).length === 0) {
       try {
         const formDatas = new FormData();
         formDatas.append('Email', formData.email);
+        formDatas.append('Phone', formData.phone);
 
         toast.success(
           'Thank you for your enquiry, Our sales team will contact you soon!',
@@ -175,7 +182,7 @@ const Footer = () => {
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-col">
                   <h3>Information</h3>
-                  <p>
+                  <p style={{ textAlign: 'justify' }}>
                     OMDYS International LLP is a leading international sourcing
                     and trading company, dedicated to connecting businesses with
                     the best products and suppliers around the world. Contact us

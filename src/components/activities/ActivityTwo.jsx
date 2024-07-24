@@ -330,9 +330,12 @@ const ActivityTwo = () => {
       </div>
 
       {/* ----------------------test-------------------------- */}
-      <br />
+
       {/*============================================================== */}
-      <section className="gap no-top core-values" style={{ marginBottom: '' }}>
+      <section
+        className="gap no-top core-values"
+        style={{ marginTop: '-40px' }}
+      >
         <div className="container" style={{ marginBottom: '-5%' }}>
           <div className="row">
             <ul>
