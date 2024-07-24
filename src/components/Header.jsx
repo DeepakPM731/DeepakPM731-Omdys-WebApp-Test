@@ -86,7 +86,7 @@ const Header = () => {
                       </div>
                       <div
                         className="nav-bar"
-                        style={{ marginRight: 'auto', marginLeft: 'auto' }}
+                        // style={{ marginRight: 'auto', marginLeft: 'auto' }}
                       >
                         <ul>
                           <li className="">
@@ -207,6 +207,13 @@ const Header = () => {
                                     {/* <Link to={'/activity-five'}> */}
                                     <a href="/activity-five">
                                       Medical-PPE Supply
+                                    </a>
+                                    {/* </Link> */}
+                                  </li>
+                                  <li>
+                                    {/* <Link to={'/activity-five'}> */}
+                                    <a href="/activity-test">
+                                      Industrial Chemical Products
                                     </a>
                                     {/* </Link> */}
                                   </li>
@@ -523,15 +530,22 @@ const Header = () => {
                           </a>
                           {/* </Link> */}
                         </li>
-                        
+
                         <li>
                           {/* <Link to={'/activity-five'}> */}
                           <a href="/activity-five">Medical-PPE Supply</a>
                           {/* </Link> */}
                         </li>
+                        <li>
+                          {/* <Link to={'/activity-five'}> */}
+                          <a href="/activity-test">
+                            Industrial Chemical Products
+                          </a>
+                          {/* </Link> */}
+                        </li>
                       </ul>
                     </li>
-                   
+
                     <li className="menu-item-has-children">
                       {/* <Link to={'/activities'}> */}
                       <a href="/service-single" style={{ color: 'white' }}>
@@ -608,7 +622,9 @@ const Header = () => {
               <div className="social-medias">
                 <a href="javascript:void(0)">Facebook</a>
                 <a href="javascript:void(0)">Twitter</a>
-                <a href="javascript:void(0)">Linkedin</a>
+                <a href="https://www.linkedin.com/company/omdys-international-llp/">
+                  Linkedin
+                </a>
               </div>
             </div>
           </div>

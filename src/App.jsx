@@ -26,6 +26,7 @@ import ActivityFour from './components/activities/ActivityFour';
 import ContactPage from './components/ContactPage';
 import News from './components/News';
 import ServiceSingle from './components/services/ServiceSingle';
+import TestFour from './components/activities/TestFour';
 
 // import Contact from './components/Contact';
 const App = () => {
@@ -54,6 +55,7 @@ const App = () => {
           <Route path="/activity-four" element={<ActivityFour />} />
           <Route path="/activity-five" element={<ActivityFive />} />
           <Route path="/activity-six" element={<ActivitySix />} />
+          <Route path="/activity-test" element={<TestFour  />} />
         </Routes>
         <Footer />
       </Router>

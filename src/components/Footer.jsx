@@ -220,7 +220,10 @@ const Footer = () => {
                           />
                         </g>
                       </svg>
-                      <p>#614, Phase 10, RK Hudco,Hosur, Tamil Nadu, India.</p>
+                      <p>
+                        #614, Phase 10, RK Hudco, Hosur, Tamil Nadu, India,
+                        635109
+                      </p>
                     </li>
                     <li>
                       <svg
@@ -311,9 +314,7 @@ const Footer = () => {
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-col">
                   <h3>Newsletter</h3>
-                  <p>
-                    Signup for our weekly newsletter to get the latest news.
-                  </p>
+                  <p>Request a callback. Enter your Email or Phone.</p>
                   {/* <form ref={form} onSubmit={sendEmail}> */}
                   <form onSubmit={sendEmail}>
                     <input
@@ -322,7 +323,7 @@ const Footer = () => {
                       id="exampleInputEmail1"
                       name="email"
                       value={formData.email}
-                      placeholder="Enter Your Email"
+                      placeholder="Enter Your Email/Phone"
                       onChange={handleInputChange}
                     />
                     <button type="submit">
@@ -357,7 +358,9 @@ const Footer = () => {
                 <div className="social-medias">
                   <a href="javascript:void(0)">Facebook</a>
                   <a href="javascript:void(0)">Twitter</a>
-                  <a href="javascript:void(0)">Linkedin</a>
+                  <a href="https://www.linkedin.com/company/omdys-international-llp/">
+                    Linkedin
+                  </a>
                 </div>
               </div>
             </div>

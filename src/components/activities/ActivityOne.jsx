@@ -23,7 +23,7 @@ const ActivityOne = () => {
           />
           <div className="container">
             <div className="row">
-              <div className="banner-details">
+              <div className="banner-details" style={{ textAlign: 'center' }}>
                 <h2>Comprehensive Printing Solutions</h2>
                 {/* <p>our values and vaulted us to the top of our industry.</p> */}
               </div>
@@ -193,59 +193,6 @@ const ActivityOne = () => {
           <div className="container" style={{ marginBottom: '-5%' }}>
             <div className="row">
               <ul>
-                {/* <li>
-                  <div className="data">
-                    <h3> Ink Supply</h3>
-                    <p style={{ textAlign: 'justify', fontSize: '18px' }}>
-                      We provide high-quality eco-solvent inks that are perfect
-                      for a wide range of printing tasks. Our inks ensure
-                      vibrant colors and excellent adhesion on various media
-                      types.
-                    </p>
-                    <br />
-                    <h5>• Eco-Solvent Inks</h5>
-                    <p
-                      style={{
-                        textAlign: 'justify',
-                        fontSize: '16px',
-                        marginLeft: '25px',
-                      }}
-                    >
-                      We offer a range of eco-solvent inks that are perfect for
-                      a wide variety of printing tasks. These inks are
-                      environmentally friendly and ensure vibrant colors and
-                      excellent adhesion on various media types.
-                    </p>
-                    <br />
-                    <h5>• UV Inks</h5>{' '}
-                    <p
-                      style={{
-                        textAlign: 'justify',
-                        fontSize: '16px',
-                        marginLeft: '25px',
-                      }}
-                    >
-                      Our UV inks are designed for applications that require
-                      high print quality and durability. These inks are cured by
-                      UV light, making them resistant to fading and weathering.
-                    </p>
-                    <br />
-                    <h5>• Solvent-Based Inks</h5>{' '}
-                    <p
-                      style={{
-                        textAlign: 'justify',
-                        fontSize: '16px',
-                        marginLeft: '25px',
-                      }}
-                    >
-                      We supply high-quality solvent-based inks that are ideal
-                      for outdoor applications. These inks are durable and
-                      resistant to various environmental conditions.
-                    </p>
-                    <br />
-                  </div>
-                </li> */}
-
                 <li style={{ marginTop: '-5%' }}>
                   <div className="data">
                     <h3>Printing Equipment</h3>

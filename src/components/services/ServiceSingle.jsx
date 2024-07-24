@@ -56,6 +56,7 @@ const ServiceSingle = () => {
             </div>
           </section>
         </div>
+        <hr />
         {/* service starts */}
         <section className="gap about-key-benefits">
           <div className="container">
@@ -121,6 +122,7 @@ const ServiceSingle = () => {
           </div>
         </section>
       </>
+      <hr />
       {/* ------------2------------- */}
       <>
         {/* service starts */}
@@ -188,6 +190,7 @@ const ServiceSingle = () => {
             </div>
           </div>
         </section>
+        <hr />
       </>
       {/* ------------3------------- */}
       <>
@@ -258,6 +261,7 @@ const ServiceSingle = () => {
           </div>
         </section>
       </>
+      <hr />
       {/* ------------4------------- */}
       <>
         {/* service starts */}

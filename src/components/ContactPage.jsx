@@ -521,7 +521,7 @@ const ContactPage = () => {
                       <div>
                         <h3>Address:</h3>
                         <p>
-                          #614, Phase 10, RK Hudco,Hosur, Tamil Nadu, India.
+                          #614, Phase 10, RK Hudco, Hosur, Tamil Nadu, India, 635109
                         </p>
                       </div>
                     </li>
