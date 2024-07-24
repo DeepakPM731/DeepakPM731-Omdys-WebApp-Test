@@ -43,7 +43,7 @@ const Home = () => {
       <Features />
       {/* <Clients /> */}
       <Contact />
-      <Review />
+      {/* <Review /> */}
       <Testimonials />
       <Articles />
       <button
