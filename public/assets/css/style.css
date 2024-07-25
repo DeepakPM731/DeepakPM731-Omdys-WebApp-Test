@@ -1371,7 +1371,7 @@ span.counter {
   top: 0;
   right: -16px;
   color: black;
-  background: #c1c1c1;
+  /* background: #c1c1c1; */
 }
 .project-style-one .project-post .project-data:hover .project-icon {
   right: 45px;

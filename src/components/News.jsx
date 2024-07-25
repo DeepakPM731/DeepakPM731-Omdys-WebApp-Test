@@ -87,11 +87,11 @@ const News = () => {
                 <div className="banner-details">
                   <h2>News</h2>
                   <p>
-                    Stay informed with the latest global news and updates. Our
-                    page brings you current events, industry trends, market
-                    insights, and significant developments from around the
-                    world. Keep up with the information that matters most to
-                    your business and interests.
+                    STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
+                    PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET
+                    INSIGHTS, AND SIGNIFICANT DEVELOPMENTS FROM AROUND THE
+                    WORLD. KEEP UP WITH THE INFORMATION THAT MATTERS MOST TO
+                    YOUR BUSINESS AND INTERESTS.
                   </p>
                 </div>
               </div>

@@ -191,7 +191,7 @@ const ActivitySix = () => {
                       </p>
                     </div>
                     {/* <p className="mx-1 my-2" style={{ fontSize: '20px' }}>
-                      Trust OMDYS International LLP for all your medical PPE
+                      Trust OMDYS International LLP for all your HEALTH CARE PRODUCTS
                       sourcing requirements. Together, let's prioritize safety
                       and protect what matters most.
                     </p> */}

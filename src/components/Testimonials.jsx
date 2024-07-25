@@ -93,7 +93,6 @@ const Testimonials = () => {
                     <Link to={''}>
                       <a className="project-icon" href="">
                         <i className="fa-solid fa-angles-right" />
-                        
                       </a>
                     </Link>
                   </div>
@@ -189,7 +188,7 @@ const Testimonials = () => {
               <div className="project-post">
                 <figure>
                   <img
-                    // src="assets/svg4/Medical PPE 1.svg"
+                    // src="assets/svg4/HEALTH CARE PRODUCTS 1.svg"
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                     src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
                     alt="project-img-2"

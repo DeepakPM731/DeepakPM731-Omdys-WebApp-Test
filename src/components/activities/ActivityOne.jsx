@@ -163,7 +163,7 @@ const ActivityOne = () => {
                     <figure>
                       <img
                         className="w-100"
-                        // src="assets/svg4/Medical PPE 1.svg"
+                        // src="assets/svg4/HEALTH CARE PRODUCTS 1.svg"
                         src="assets/images/solvent_inks_annna.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/eco_solvent_inkann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
@@ -220,7 +220,7 @@ const ActivityOne = () => {
                     <figure>
                       <img
                         className="w-100"
-                        // src="assets/svg4/Medical PPE 1.svg"
+                        // src="assets/svg4/HEALTH CARE PRODUCTS 1.svg"
                         src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                         alt="Core Values Image 1"

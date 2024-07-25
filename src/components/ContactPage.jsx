@@ -180,7 +180,7 @@ const ContactPage = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>Contact Us</h2>
-                <p>our values and vaulted us to the top of our industry.</p>
+                <p>OUR VALUES AND VAULTED US TO THE TOP OF OUR INDUSTRY.</p>
               </div>
             </div>
           </div>
@@ -391,8 +391,10 @@ const ContactPage = () => {
                           type="radio"
                           name="division"
                           id="division4"
-                          value="Medical-PPE"
-                          checked={formData.division === 'Medical-PPE'}
+                          value="Healthcare PPE Products"
+                          checked={
+                            formData.division === 'Healthcare PPE Products'
+                          }
                           onChange={(e) =>
                             setFormData({
                               ...formData,
@@ -405,7 +407,7 @@ const ContactPage = () => {
                           htmlFor="division4"
                           style={{ fontWeight: 'normal', color: '#6C757D' }}
                         >
-                          Medical-PPE
+                          Healthcare PPE Products
                         </h6>
                       </div>
                       {errors.division && (
@@ -521,7 +523,8 @@ const ContactPage = () => {
                       <div>
                         <h3>Address:</h3>
                         <p>
-                          #614, Phase 10, RK Hudco, Hosur, Tamil Nadu, India, 635109
+                          #614, Phase 10, RK Hudco, Hosur, Tamil Nadu, India,
+                          635109
                         </p>
                       </div>
                     </li>
@@ -727,7 +730,7 @@ const ContactPage = () => {
                     onClick={() =>
                       handleAccordionToggle(1, 'Printing Solutions')
                     }
-                    style={{ fontWeight: '600',textAlign:'center' }}
+                    style={{ fontWeight: '600', textAlign: 'center' }}
                   >
                     Printing Solutions
                   </button>
@@ -740,7 +743,7 @@ const ContactPage = () => {
                     onClick={() =>
                       handleAccordionToggle(2, 'Electronics Components')
                     }
-                    style={{ fontWeight: '600',textAlign:'center' }}
+                    style={{ fontWeight: '600', textAlign: 'center' }}
                   >
                     Electronics Components
                   </button>
@@ -749,10 +752,12 @@ const ContactPage = () => {
                     className={`dropdown-item ${
                       activeAccordion === 3 ? 'active' : ''
                     }`}
-                    onClick={() => handleAccordionToggle(3, 'Medical-PPE')}
-                    style={{ fontWeight: '600',textAlign:'center' }}
+                    onClick={() =>
+                      handleAccordionToggle(3, 'Healthcare PPE Products')
+                    }
+                    style={{ fontWeight: '600', textAlign: 'center' }}
                   >
-                    Medical-PPE
+                    Healthcare PPE Products
                   </button>
                   {/* <hr style={{ marginTop: '-8px' }} /> */}
                   {/* Repeat the same for the remaining buttons */}
@@ -780,7 +785,7 @@ const ContactPage = () => {
                       whiteSpace: 'normal' /* Allow the text to wrap */,
                       wordWrap: 'break-word',
                       fontWeight: '600',
-                      textAlign:'center'
+                      textAlign: 'center',
                     }}
                   >
                     Industrial Construction Tools and Equipment
@@ -1805,7 +1810,7 @@ const ContactPage = () => {
                             }
                             aria-controls="collapse-3"
                           >
-                            Medical PPE
+                            Health Care Products
                           </button>
                         </h2>
                         <div
@@ -1833,8 +1838,8 @@ const ContactPage = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-1"
                                   >
-                                    1. What types of medical PPE does your
-                                    company supply?
+                                    1. What types of HEALTH CARE PRODUCTS does
+                                    your company supply?
                                   </button>
                                 </h2>
                                 <div
@@ -1846,8 +1851,8 @@ const ContactPage = () => {
                                   <div className="accordion-body">
                                     <p>
                                       Our company supplies a wide range of
-                                      medical PPE including masks, gloves,
-                                      gowns, face shields, goggles, hand
+                                      HEALTH CARE PRODUCTS including masks,
+                                      gloves, gowns, face shields, goggles, hand
                                       sanitizers, and more.
                                     </p>
                                   </div>
@@ -1867,8 +1872,8 @@ const ContactPage = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-2"
                                   >
-                                    2.Are your medical PPE products compliant
-                                    with regulatory standards?
+                                    2.Are your HEALTH CARE PRODUCTS products
+                                    compliant with regulatory standards?
                                   </button>
                                 </h2>
                                 <div
@@ -1879,10 +1884,11 @@ const ContactPage = () => {
                                 >
                                   <div className="accordion-body">
                                     <p>
-                                      Yes, all of our medical PPE products meet
-                                      or exceed regulatory standards set by
-                                      organizations such as the FDA, CE, and
-                                      other relevant regulatory bodies.
+                                      Yes, all of our HEALTH CARE PRODUCTS
+                                      products meet or exceed regulatory
+                                      standards set by organizations such as the
+                                      FDA, CE, and other relevant regulatory
+                                      bodies.
                                     </p>
                                   </div>
                                 </div>
@@ -1901,8 +1907,8 @@ const ContactPage = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-3"
                                   >
-                                    3. How can I place an order for medical PPE
-                                    with your company?
+                                    3. How can I place an order for HEALTH CARE
+                                    PRODUCTS with your company?
                                   </button>
                                 </h2>
                                 <div
@@ -1936,7 +1942,7 @@ const ContactPage = () => {
                                     aria-controls="nestedCollapse-1-4"
                                   >
                                     4. What is the minimum order quantity for
-                                    medical PPE?
+                                    HEALTH CARE PRODUCTS?
                                   </button>
                                 </h2>
                                 <div
@@ -2005,7 +2011,7 @@ const ContactPage = () => {
                                     aria-controls="nestedCollapse-1-6"
                                   >
                                     6. How do you ensure the quality of your
-                                    medical PPE products?
+                                    HEALTH CARE PRODUCTS products?
                                   </button>
                                 </h2>
                                 <div
@@ -2016,13 +2022,13 @@ const ContactPage = () => {
                                 >
                                   <div className="accordion-body">
                                     <p>
-                                      We source our medical PPE products from
-                                      reputable manufacturers who adhere to
-                                      strict quality control standards.
-                                      Additionally, we conduct regular quality
-                                      inspections to ensure that all products
-                                      meet our high standards before they are
-                                      shipped to customers.
+                                      We source our HEALTH CARE PRODUCTS
+                                      products from reputable manufacturers who
+                                      adhere to strict quality control
+                                      standards. Additionally, we conduct
+                                      regular quality inspections to ensure that
+                                      all products meet our high standards
+                                      before they are shipped to customers.
                                     </p>
                                   </div>
                                 </div>
@@ -2041,8 +2047,8 @@ const ContactPage = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-7"
                                   >
-                                    7. What is the lead time for shipping
-                                    medical PPE orders?
+                                    7. What is the lead time for shipping HEALTH
+                                    CARE PRODUCTS orders?
                                   </button>
                                 </h2>
                                 <div
@@ -2053,11 +2059,12 @@ const ContactPage = () => {
                                 >
                                   <div className="accordion-body">
                                     <p>
-                                      The lead time for shipping medical PPE
-                                      orders varies depending on the type of
-                                      product and quantity ordered. Our sales
-                                      team will provide you with an estimated
-                                      lead time when you place your order.
+                                      The lead time for shipping HEALTH CARE
+                                      PRODUCTS orders varies depending on the
+                                      type of product and quantity ordered. Our
+                                      sales team will provide you with an
+                                      estimated lead time when you place your
+                                      order.
                                     </p>
                                   </div>
                                 </div>
@@ -2088,10 +2095,10 @@ const ContactPage = () => {
                                   <div className="accordion-body">
                                     <p>
                                       Yes, we offer expedited shipping options
-                                      for customers who require their medical
-                                      PPE orders to be delivered quickly.
-                                      Additional fees may apply for expedited
-                                      shipping services
+                                      for customers who require their Healthcare
+                                      PPE Products orders to be delivered
+                                      quickly. Additional fees may apply for
+                                      expedited shipping services
                                     </p>
                                   </div>
                                 </div>
@@ -2110,8 +2117,8 @@ const ContactPage = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-9"
                                   >
-                                    9. What is your return policy for medical
-                                    PPE products?
+                                    9. What is your return policy for Healthcare
+                                    PPE Products?
                                   </button>
                                 </h2>
                                 <div
@@ -2123,10 +2130,10 @@ const ContactPage = () => {
                                   <div className="accordion-body">
                                     <p>
                                       We have a flexible return policy for
-                                      defective or damaged medical PPE products.
-                                      Please contact our customer service team
-                                      within a specified timeframe after
-                                      receiving your order to initiate the
+                                      defective or damaged HEALTH CARE PRODUCTS
+                                      products. Please contact our customer
+                                      service team within a specified timeframe
+                                      after receiving your order to initiate the
                                       return process.
                                     </p>
                                   </div>
@@ -2147,7 +2154,7 @@ const ContactPage = () => {
                                     aria-controls="nestedCollapse-1-10"
                                   >
                                     10. Do you offer customization options for
-                                    medical PPE products?
+                                    HEALTH CARE PRODUCTS products?
                                   </button>
                                 </h2>
                                 <div
@@ -2159,11 +2166,11 @@ const ContactPage = () => {
                                   <div className="accordion-body">
                                     <p>
                                       Yes, we offer customization options for
-                                      certain medical PPE products such as masks
-                                      and gowns. Please contact our sales team
-                                      to discuss your customization requirements
-                                      and we will work with you to fulfill your
-                                      needs.
+                                      certain HEALTH CARE PRODUCTS products such
+                                      as masks and gowns. Please contact our
+                                      sales team to discuss your customization
+                                      requirements and we will work with you to
+                                      fulfill your needs.
                                     </p>
                                   </div>
                                 </div>

@@ -325,108 +325,111 @@ const ActivityFour = () => {
       </div>
       {/* ------------Petroleum Products Ends ------------------ */}
       {/* ------------Bottom Content Starts ------------------ */}
-      <div style={{ marginTop: '-4%' }}>
-        <section className="gap no-top core-values">
-          <div className="container" style={{ marginBottom: '-5%' }}>
-            <div className="row">
-              <ul>
-                <li>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                  <div className="data">
-                    <h3>Quality Assurance</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      We are committed to providing high-quality products. All
-                      the Industrial Chemical products that are supplied by us
-                      undergo rigorous quality checks to ensure they meet the
-                      highest standards.
-                    </p>
-                  </div>
-                </li>
-                <br />
-                {/* <li></li> */}
-                <li>
-                  <div className="data">
-                    <h3>Competitive Pricing</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      We understand the importance of cost-effectiveness in your
-                      business. That’s why we offer our products at competitive
-                      prices, ensuring you get the best value for your money.
-                    </p>
-                  </div>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/pricing.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                </li>
-                <li>
-                  <div className="image" data-aos="fade-left">
-                    <figure>
-                      <img
-                        className="w-100"
-                        // src="assets/svg4/Medical PPE 1.svg"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/timely_delivery.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                  <div className="data">
-                    <h3> Timely Delivery</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      We have efficient logistics in place to ensure timely
-                      delivery of your orders. We understand that in your
-                      business, time is of the essence.
-                    </p>
-                  </div>
-                </li>
-                <br />
-                {/* <li></li> */}
-                <li>
-                  <div className="data">
-                    <h3> Customer Support</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      Our dedicated customer support team is always ready to
-                      assist you with any queries or issues. We strive to
-                      provide excellent customer service and ensure your
-                      satisfaction.
-                    </p>
-                  </div>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                </li>
-                <br />
-                {/* <li></li> */}
-              </ul>
+
+      {/* ------------Bottom Content Ends ------------------ */}
+
+      {/* =============================test========================================= */}
+      <>
+        <hr />
+        {/* Blog Style Two Start */}
+        <section className="gap blog-style-two">
+          <div className="heading">
+            <figure>
+              {/* <img src="assets/images/heading-icon.png" alt="heading-icon-22" /> */}
+            </figure>
+            {/* <span>Blog &amp; News</span>
+            <h2>Recent Articles</h2> */}
+          </div>
+          <div className="container">
+            <div className="blog-slider row owl-carousel">
+              <div className="blog-item col-lg-12">
+                {/* <span className="blog-post-num"></span> */}
+                <img
+                  style={{ marginRight: 'auto', marginLeft: 'auto' }}
+                  src="assets/images/activity-four/quality_assurance.png"
+                  alt=""
+                />
+                {/* <span className="blog-date">January 9, 2022</span> */}
+                <h2 style={{ textAlign: 'center' }}>
+                  <a href="javascript:void(0)">Quality Assurance</a>
+                </h2>
+                <p style={{ textAlign: 'justify' }}>
+                  We are committed to providing high-quality products. All the
+                  Industrial Chemical products that are supplied by us undergo
+                  rigorous quality checks to ensure they meet the highest
+                  standards.
+                </p>
+                <a href="javascript:void(0)">
+                  {/* <i className="fa-solid fa-arrow-up-long" /> */}
+                </a>
+              </div>
+              <div className="blog-item col-lg-12">
+                <img src="" alt="" />
+                <span className="blog-post-num"></span>
+                <img
+                  src="assets/images/activity-four/comp_pricing.png"
+                  alt=""
+                />
+                {/* <span className="blog-date">January 9, 2022</span> */}
+                <h2 style={{ textAlign: 'center' }}>
+                  <a href="javascript:void(0)">Competitive Pricing</a>
+                </h2>
+                <p style={{ textAlign: 'justify' }}>
+                  We understand the importance of cost-effectiveness in your
+                  business. That’s why we offer our products at competitive
+                  prices, ensuring you get the best value for your money.
+                </p>
+                <a href="javascript:void(0)">
+                  {/* <i className="fa-solid fa-arrow-up-long" /> */}
+                </a>
+              </div>
+              <div className="blog-item col-lg-12">
+                <img src="" alt="" />
+                <span className="blog-post-num"></span>
+                <img
+                  src="assets/images/activity-four/timely _delivery.png"
+                  alt=""
+                />
+                {/* <span className="blog-date">January 9, 2022</span> */}
+                <h2 style={{ textAlign: 'center' }}>
+                  <a href="javascript:void(0)">Timely Delivery</a>
+                </h2>
+                <p style={{ textAlign: 'justify' }}>
+                  We have efficient logistics in place to ensure timely delivery
+                  of your orders. We understand that in your business, time is
+                  of the essence.
+                </p>
+                <a href="javascript:void(0)">
+                  {/* <i className="fa-solid fa-arrow-up-long" /> */}
+                </a>
+              </div>
+              <div className="blog-item col-lg-12">
+                <img src="" alt="" />
+                <span className="blog-post-num"></span>
+                <img
+                  src="assets/images/activity-four/customer_supp.png"
+                  alt=""
+                />
+                {/* <span className="blog-date">January 9, 2022</span> */}
+                <h2 style={{ textAlign: 'center' }}>
+                  <a href="javascript:void(0)">Customer Support</a>
+                </h2>
+                <p style={{ textAlign: 'justify' }}>
+                  Our dedicated customer support team is always ready to assist
+                  you with any queries or issues. We strive to provide excellent
+                  customer service and ensure your satisfaction.
+                </p>
+                <a href="javascript:void(0)">
+                  {/* <i className="fa-solid fa-arrow-up-long" /> */}
+                </a>
+              </div>
             </div>
           </div>
         </section>
-      </div>
-      {/* ------------Bottom Content Ends ------------------ */}
+        {/* Blog Style Two End */}
+      </>
+
+      {/* =============================test========================================= */}
     </>
   );
 };

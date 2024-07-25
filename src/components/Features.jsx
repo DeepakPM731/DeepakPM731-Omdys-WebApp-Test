@@ -39,7 +39,7 @@ const Features = () => {
                       data-bs-parent="#accordionExample"
                     >
                       <div className="accordion-body">
-                        <p>
+                        <p style={{ textAlign: 'justify' }}>
                           We connect you to a diverse network of vetted
                           suppliers across the globe, ensuring access to the
                           best products at competitive prices.
@@ -67,7 +67,7 @@ const Features = () => {
                       data-bs-parent="#accordionExample"
                     >
                       <div className="accordion-body">
-                        <p>
+                        <p style={{ textAlign: 'justify' }}>
                           Our expertise simplifies the sourcing process, saving
                           you time and resources while navigating complex
                           logistics and regulations.
@@ -95,7 +95,7 @@ const Features = () => {
                       data-bs-parent="#accordionExample"
                     >
                       <div className="accordion-body">
-                        <p>
+                        <p style={{ textAlign: 'justify' }}>
                           We prioritize quality control, implementing rigorous
                           vetting procedures and inspections to guarantee your
                           products meet all your specifications
@@ -123,7 +123,7 @@ const Features = () => {
                       data-bs-parent="#accordionExample"
                     >
                       <div className="accordion-body">
-                        <p>
+                        <p style={{ textAlign: 'justify' }}>
                           Our dedicated team provides personalized support
                           throughout the entire process, from initial sourcing
                           to final delivery, ensuring a seamless experience

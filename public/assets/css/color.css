@@ -65,9 +65,13 @@ button.scrollTopStick.active,
 .service-style-two .service-two-box.last span,
 .certificates .data figure:before,
 .certificates .c-slider .c-main .c-first figure:before,
-.blog-style-two .blog-item .blog-date:before,
-.blog-style-two .blog-item:before,
-.blog-slider .owl-stage .owl-item.active:nth-child(2) .blog-item:before,
+.blog-style-two 
+/* .blog-item */
+ .blog-date:before,
+.blog-style-two 
+/* .blog-item:before, */
+.blog-slider .owl-stage .owl-item.active:nth-child(2)
+ /* .blog-item:before, */
 .estimated-price .est-form .checkk input:checked + label,
 .estimated-price:before,
 .estimated-price:after,

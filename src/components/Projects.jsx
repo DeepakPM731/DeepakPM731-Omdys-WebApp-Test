@@ -45,138 +45,138 @@ const Projects = () => {
               </div>
             </Link>
             <Link to={'/activity-two'}>
-
-            <div className="col-lg-12">
-              <div className="project-post">
-                <figure>
-                  <img
-                    // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+1.svg"
-                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+2.svg"
-                    // src="assets/svg4/Electronic Components 1.svg"
-                    alt="project-img-1"
-                  />
-                </figure>
-                <Link to={'/activity-two'}>
-                  <div className="project-data">
-                    <h3>
-                      <Link to={'/activity-two'}>
-                        <a href="project-detail.html">Electronics Components</a>
-                      </Link>
-                    </h3>
-                    {/* <p>
+              <div className="col-lg-12">
+                <div className="project-post">
+                  <figure>
+                    <img
+                      // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+1.svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+2.svg"
+                      // src="assets/svg4/Electronic Components 1.svg"
+                      alt="project-img-1"
+                    />
+                  </figure>
+                  <Link to={'/activity-two'}>
+                    <div className="project-data">
+                      <h3>
+                        <Link to={'/activity-two'}>
+                          <a href="project-detail.html">
+                            Electronics Components
+                          </a>
+                        </Link>
+                      </h3>
+                      {/* <p>
                     This project was successfully completed against an extremely
                     tight programme.
                   </p> */}
-                    <Link to={'/activity-two'}>
-                      <a className="project-icon" href="">
-                        <i className="fa-solid fa-angles-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </Link>
+                      <Link to={'/activity-two'}>
+                        <a className="project-icon" href="">
+                          <i className="fa-solid fa-angles-right" />
+                        </a>
+                      </Link>
+                    </div>
+                  </Link>
+                </div>
               </div>
-            </div>
             </Link>
             <Link to={'/activity-three'}>
-
-            <div className="col-lg-12">
-              <div className="project-post">
-                <figure>
-                  <img
-                    // src="https://winsfolio.net/html/builty/assets/images/project-img-1.jpg"
-                    // src="assets/svg4/industrial construction tools and equipment (3).svg"
-                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipment+(3).svg"
-                    alt="project-img-2"
-                  />
-                </figure>
-                <Link to={'/activity-three'}>
-                  <div className="project-data">
-                    <h3>
-                      <Link to={'/activity-three'}>
-                        <a href="javascript:void(0)">
-                          Industrial Construction Tools and Equipment
-                        </a>
-                      </Link>
-                    </h3>
-                    {/* <p>
+              <div className="col-lg-12">
+                <div className="project-post">
+                  <figure>
+                    <img
+                      // src="https://winsfolio.net/html/builty/assets/images/project-img-1.jpg"
+                      // src="assets/svg4/industrial construction tools and equipment (3).svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipment+(3).svg"
+                      alt="project-img-2"
+                    />
+                  </figure>
+                  <Link to={'/activity-three'}>
+                    <div className="project-data">
+                      <h3>
+                        <Link to={'/activity-three'}>
+                          <a href="javascript:void(0)">
+                            Industrial Construction Tools and Equipment
+                          </a>
+                        </Link>
+                      </h3>
+                      {/* <p>
             This project was successfully completed against an extremely
             tight programme.
           </p> */}
-                    <Link to={'/activity-three'}>
-                      <a className="project-icon" href="#">
-                        <i className="fa-solid fa-angles-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </Link>
+                      <Link to={'/activity-three'}>
+                        <a className="project-icon" href="#">
+                          <i className="fa-solid fa-angles-right" />
+                        </a>
+                      </Link>
+                    </div>
+                  </Link>
+                </div>
               </div>
-            </div>
             </Link>
             <Link to={'/activity-four'}>
-
-            <div className="col-lg-12">
-              <div className="project-post">
-                <figure>
-                  <img
-                    // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                    alt="project-img-1"
-                  />
-                </figure>
-                <Link to={'/activity-four'}>
-                  <div className="project-data">
-                    <h3>
+              <div className="col-lg-12">
+                <div className="project-post">
+                  <figure>
+                    <img
+                      // src="assets/svg4/petroleum and petrochemical products (2).svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                      alt="project-img-1"
+                    />
+                  </figure>
+                  <Link to={'/activity-four'}>
+                    <div className="project-data">
+                      <h3>
+                        <Link to={'/activity-four'}>
+                          <a href="project-detail.html">
+                            Industrial Chemical Products
+                          </a>
+                        </Link>
+                      </h3>
+                      {/* <p>
+            This project was successfully completed against an extremely
+            tight programme.
+          </p> */}
                       <Link to={'/activity-four'}>
-                        <a href="project-detail.html">
-                          Industrial Chemical Products
+                        <a className="project-icon" href="#">
+                          <i className="fa-solid fa-angles-right" />
                         </a>
                       </Link>
-                    </h3>
-                    {/* <p>
-            This project was successfully completed against an extremely
-            tight programme.
-          </p> */}
-                    <Link to={'/activity-four'}>
-                      <a className="project-icon" href="#">
-                        <i className="fa-solid fa-angles-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </Link>
+                    </div>
+                  </Link>
+                </div>
               </div>
-            </div>
             </Link>
             <Link to={'/activity-five'}>
-
-            <div className="col-lg-12">
-              <div className="project-post">
-                <figure>
-                  <img
-                    // src="assets/svg4/Medical PPE 1.svg"
-                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                    alt="project-img-2"
-                  />
-                </figure>
-                <Link to={'/activity-five'}>
-                  <div className="project-data">
-                    <h3>
-                      <Link to={'/activity-five'}>
-                        <a href="javascript:void(0)">Medical PPE Products</a>
-                      </Link>
-                    </h3>
-                    {/* <p>
+              <div className="col-lg-12">
+                <div className="project-post">
+                  <figure>
+                    <img
+                      // src="assets/svg4/HEALTH CARE PRODUCTS 1.svg"
+                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                      alt="project-img-2"
+                    />
+                  </figure>
+                  <Link to={'/activity-five'}>
+                    <div className="project-data">
+                      <h3>
+                        <Link to={'/activity-five'}>
+                          <a href="javascript:void(0)">
+                            HEALTH CARE PRODUCTS Products
+                          </a>
+                        </Link>
+                      </h3>
+                      {/* <p>
             This project was successfully completed against an extremely
             tight programme.
           </p> */}
-                    <Link to={'/activity-five'}>
-                      <a className="project-icon" href="#">
-                        <i className="fa-solid fa-angles-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </Link>
+                      <Link to={'/activity-five'}>
+                        <a className="project-icon" href="#">
+                          <i className="fa-solid fa-angles-right" />
+                        </a>
+                      </Link>
+                    </div>
+                  </Link>
+                </div>
               </div>
-            </div>
             </Link>
 
             {/* <div className="col-lg-12">

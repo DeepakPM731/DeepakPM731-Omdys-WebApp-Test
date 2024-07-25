@@ -29,7 +29,9 @@ const ActivityFive = () => {
           <div className="container">
             <div className="row">
               <div className="banner-details">
-                <h2 style={{ textAlign: 'center' }}>Trading Of Medical PPE</h2>
+                <h2 style={{ textAlign: 'center' }}>
+                  Trading Of HEALTH CARE PRODUCTS
+                </h2>
                 {/* <p>our values and vaulted us to the top of our industry.</p> */}
               </div>
             </div>
@@ -64,7 +66,7 @@ const ActivityFive = () => {
               <figure style={{ position: 'relative', zIndex: 9 }}>
                 <img
                   className=""
-                  // src="assets/svg4/Medical PPE 2.svg"
+                  // src="assets/svg4/HEALTH CARE PRODUCTS 2.svg"
                   // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+2.svg"
                   src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+22.svg"
                   // src="https://winsfolio.net/html/builty/assets/images/about-h-i-w.jpg"
@@ -96,7 +98,7 @@ const ActivityFive = () => {
                     protective equipment (PPE) in safeguarding frontline workers
                     and healthcare professionals. As a trusted sourcing and
                     trading company, we are committed to providing high-quality
-                    medical PPE products to meet the evolving needs of
+                    HEALTH CARE PRODUCTS products to meet the evolving needs of
                     healthcare facilities, government agencies, businesses, and
                     individuals worldwide.
                   </p>
@@ -315,7 +317,7 @@ const ActivityFive = () => {
                       <figure>
                         <img
                           className="w-100"
-                          // src="assets/svg4/Medical PPE 1.svg"
+                          // src="assets/svg4/HEALTH CARE PRODUCTS 1.svg"
                           src="https://s3.ap-south-1.amazonaws.com/omdys.com/timely_delivery.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                           alt="Core Values Image 1"
@@ -385,11 +387,12 @@ const ActivityFive = () => {
                           // wordSpacing: '-3px',
                         }}
                       >
-                        We provide training on the use of our medical PPE. We
-                        also offer consultation services to help you choose the
-                        right PPE for your specific needs. With our diverse
-                        product range, quality assurance, and dedicated support,
-                        you’ll be well-equipped to make a significant impact.
+                        We provide training on the use of our HEALTH CARE
+                        PRODUCTS. We also offer consultation services to help
+                        you choose the right PPE for your specific needs. With
+                        our diverse product range, quality assurance, and
+                        dedicated support, you’ll be well-equipped to make a
+                        significant impact.
                       </p>
                     </div>
                   </li>

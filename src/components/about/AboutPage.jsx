@@ -20,7 +20,7 @@ const AboutPage = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>About Us</h2>
-                <p>our values and vaulted us to the top of our industry.</p>
+                <p>OUR VALUES HAVE VAULTED US TO THE TOP OF OUR INDUSTRY.</p>
               </div>
             </div>
           </div>
@@ -45,95 +45,131 @@ const AboutPage = () => {
       </div>
 
       {/* <About /> */}
+      {/* --------------test-------------------- */}
 
+      {/* --------------test-------------------- */}
       <>
         {/* About-First Start */}
         <section className="gap about-first">
           <div className="container">
             <div className="row">
-              <h2>
+              <h2 style={{ textAlign: 'justify' }}>
                 “ THINK BEYOND BORDERS, AND TRADE WITH TRUST. YOUR
                 MULTI-FUNCTIONAL GATEWAY – OMDYS INTERNATIONAL. ”
               </h2>
             </div>
           </div>
+
+          {/* ------------------------------------------------------------------------------------------------ */}
           <div className="container">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="who-we-are">
-                  <div>
-                    <h3>Who We Are?</h3>
-                    <p style={{ textAlign: 'justify' }}>
-                      Born in the heart of industrial-Hosur, Tamil Nadu, OMDYS
-                      International LLP is a young and dynamic sourcing and
-                      trading company. With a wealth of experience under our
-                      belt, we have a proven track record of connecting
-                      businesses with the right suppliers and products. Our
-                      expertise lies in understanding your specific needs and
-                      tailoring solutions that maximize your value and minimize
-                      procurement challenges. We connect businesses with the
-                      best suppliers and products, streamlining their
-                      procurement processes and ensuring cost-efficiency.
-                    </p>
-                  </div>
-                  <figure>
-                    <img
-                      // className="w-100"
-                      // src="https://winsfolio.net/html/builty/assets/images/about-d-1.jpg"
-                      // src="assets/svg/1.svg"
-                      // src="assets/svg4/whoweare1.svg"
-                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare1.svg"
-                      className="whoweare"
-                      alt="About Image One"
-                      // width={'500px'}
-                      // height={'780px'}
-                    />
-                  </figure>
-                </div>
-              </div>
-              <div className="col-lg-5 offset-lg-1">
-                <div className="who-we-are space">
-                  <div>
-                    <h3>What's in it for me?</h3>
-                    <ul>
-                      <li>
-                        <i className="fa-solid fa-circle-dot" /> Cost Savings &
-                        Efficiency
-                      </li>
-                      <li>
-                        <i className="fa-solid fa-circle-dot" /> Quality &
-                        Reliability
-                      </li>
-                      <li>
-                        <i className="fa-solid fa-circle-dot" />
-                        Time Savings & Expertise
-                      </li>
-                      <li>
-                        <i className="fa-solid fa-circle-dot" />
-                        One-Stop Solution
-                      </li>
-                      <li>
-                        <i className="fa-solid fa-circle-dot" /> Access to
-                        Exclusive Products & Suppliers
-                      </li>
-                    </ul>
-                  </div>
-                  <figure>
-                    <img
-                      // className="w-100"
-                      // src="https://winsfolio.net/html/builty/assets/images/about-d-2.jpg"
-                      // src="assets/svg4/whoweare2.svg"
-                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare2.svg"
-                      alt="About Image Two "
-                      className="whowearetwo"
-                      // width={'520px'}
-                      // height={'450px'}
-                    />
-                  </figure>
-                </div>
-              </div>
-            </div>
+            <h3
+              style={{
+                fontSize: '24px',
+                color: '#444',
+                fontWeight: 'bold',
+                fontFamily: 'Montserrat',
+                marginBottom: '20px',
+              }}
+            >
+              Who We Are?
+            </h3>
+            <p style={{ textAlign: 'justify' }}>
+              <img
+                // className="w-100"
+
+                src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare1.svg"
+                className="whoweare"
+                alt="About Image One"
+                style={{
+                  float: 'right',
+                  marginLeft: '2%',
+                  // border: '1px dotted black',
+                }}
+              />
+              Born in the heart of industrial-Hosur, Tamil Nadu, OMDYS
+              International LLP is a young and dynamic sourcing and trading
+              company. With a wealth of experience under our belt, we have a
+              proven track record of connecting businesses with the right
+              suppliers and products. Our expertise lies in understanding your
+              specific needs and tailoring solutions that maximize your value
+              and minimize procurement challenges. We connect businesses with
+              the best suppliers and products, streamlining their procurement
+              processes and ensuring cost-efficiency.
+              <br />
+              <br />
+              Our team is dedicated to providing comprehensive sourcing
+              solutions, from identifying reliable suppliers to managing the
+              logistics and delivery of goods. We leverage our extensive network
+              and market knowledge to offer competitive pricing and high-quality
+              products, ensuring that our clients receive the best possible
+              value. At OMDYS International LLP, we believe in building
+              long-term partnerships with our clients by delivering exceptional
+              service and support. Our commitment to excellence and customer
+              satisfaction drives us to continuously innovate and improve our
+              processes, making us a trusted partner in the sourcing and trading
+              industry.
+              <br />
+              <br />
+              <b style={{ fontSize: '24px' }}>Our Main Services Include:</b>
+              <br />
+              <br />
+              <b>Sourcing and Procurement Services: </b>We specialize in
+              understanding your specific needs and tailoring solutions that
+              maximize your value and minimize procurement challenges. We
+              connect businesses with the best suppliers and products,
+              streamlining their procurement processes and ensuring
+              cost-efficiency.
+              <br />
+              <br />
+              <b>Trading of Complete Printing Solutions:</b> We offer a wide
+              range of printing solutions, from commercial printers to
+              specialized printing equipment, catering to various industries and
+              ensuring high-quality outputs.
+              <br />
+              <br />
+              <img
+                // className="w-100"
+
+                src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare2.svg"
+                className="whowearetwo"
+                alt="About Image One"
+                style={{
+                  float: 'right',
+                  marginLeft: '2%',
+                  // border: '1px dotted black',
+                }}
+              />
+              <b>Trading of Industrial Construction Tools and Equipment:</b> We
+              provide a comprehensive selection of construction tools and
+              equipment, supporting the needs of the industrial and construction
+              sectors with reliable and durable products.
+              <br />
+              <br />
+              <b>Trading of Petroleum Products:</b> Our portfolio includes
+              various petroleum products, ensuring quality and competitive
+              pricing to meet the demands of different industries.
+              <br />
+              <br />
+              <b>Trading of Healthcare Products:</b> We supply a range of
+              healthcare products, from Healthcare PPE Products to consumables,
+              ensuring that healthcare providers have access to essential and
+              high-quality items.
+              <br />
+              <br />
+              <b>Trading of Electronics Components:</b> We offer a variety of
+              electronic components, catering to the needs of manufacturers and
+              businesses in the electronics industry with reliable and
+              top-quality products.
+              <br />
+              <br />
+              <b>
+                At OMDYS International LLP, our goal is to simplify your
+                sourcing and trading needs by offering a one-stop solution that
+                ensures quality, efficiency, and cost-effectiveness.
+              </b>
+            </p>
           </div>
+          {/* ------------------------------------------------------------------------------------------------ */}
         </section>
         {/* About-First End */}
 
@@ -147,7 +183,7 @@ const AboutPage = () => {
               <figure>
                 <img src="assets/images/heading-icon.png" alt="Heading Icon" />
               </figure>
-              <span>Plan + Control</span>
+              <span>Organize + Monitor</span>
               <h2>How it Works</h2>
             </div>
             <div className="container">
@@ -167,7 +203,7 @@ const AboutPage = () => {
                   <div className="plans">
                     <div className="y-box d-flex-all">1.</div>
                     <h3>Understand Your Needs</h3>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       We begin by having an in-depth conversation to understand
                       your specific sourcing requirements. This includes the
                       type of products you need, desired quality standards,
@@ -179,7 +215,7 @@ const AboutPage = () => {
                   <div className="plans">
                     <div className="y-box d-flex-all">2.</div>
                     <h3>Supplier Sourcing & Negotiation</h3>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       Our experienced team leverages its extensive network to
                       identify qualified suppliers that meet your criteria. We
                       then negotiate competitive prices and terms on your
@@ -192,7 +228,7 @@ const AboutPage = () => {
                   <div className="plans" style={{ paddingBottom: '60px' }}>
                     <div className="y-box d-flex-all">3.</div>
                     <h3>Quality Control & Assurance</h3>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       We understand the importance of quality. We work closely
                       with our suppliers to ensure products meet your
                       specifications and industry standards. We also conduct
@@ -204,7 +240,7 @@ const AboutPage = () => {
                   <div className="plans" style={{ paddingBottom: '60px' }}>
                     <div className="y-box d-flex-all">4.</div>
                     <h3>Ongoing Support & Partnership</h3>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       We believe in building long-term partnerships with our
                       clients. We offer ongoing support to ensure your sourcing
                       needs are consistently met and provide valuable insights
@@ -240,7 +276,7 @@ const AboutPage = () => {
                       <ul>
                         <li>
                           <i className="fa-solid fa-check" />
-                          <p>
+                          <p style={{ textAlign: 'justify' }}>
                             <b>Cost Savings through Strategic Sourcing:</b>{' '}
                             Discover how our deep market knowledge and supplier
                             network unlock competitive pricing, helping you
@@ -249,7 +285,7 @@ const AboutPage = () => {
                         </li>
                         <li>
                           <i className="fa-solid fa-check" />
-                          <p>
+                          <p style={{ textAlign: 'justify' }}>
                             <b> Quality & Reliability:</b> Peace of Mind
                             Guaranteed: We prioritize quality in every step,
                             ensuring you receive consistent, high-quality
@@ -259,7 +295,7 @@ const AboutPage = () => {
                         </li>
                         <li>
                           <i className="fa-solid fa-check" />
-                          <p>
+                          <p style={{ textAlign: 'justify' }}>
                             <b> Time-Saving Solutions, Effortless Sourcing:</b>{' '}
                             Delegate your sourcing needs to our experienced team
                             and free up your valuable time and resources. We
@@ -269,7 +305,7 @@ const AboutPage = () => {
                         </li>
                         <li>
                           <i className="fa-solid fa-check" />
-                          <p>
+                          <p style={{ textAlign: 'justify' }}>
                             <b>
                               Customized Solutions, Tailored for Your Success:
                             </b>{' '}

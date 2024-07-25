@@ -130,8 +130,7 @@ const Footer = () => {
                     </figure>
                   </div>
                   <p>
-                    Sales representative <span>(+91) 84310 6789 3</span> free
-                    call !
+                    Sales representative <span>(+91) 84310 6789 3</span>
                   </p>
                 </div>
 
@@ -318,7 +317,7 @@ const Footer = () => {
               </div> */}
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-col">
-                  <h3>Callback Request</h3>
+                  <h3>Callback-Request</h3>
                   <p>Request a callback. Enter your Email or Phone.</p>
                   <form onSubmit={sendEmail}>
                     <input
@@ -354,7 +353,10 @@ const Footer = () => {
                 <div className="social-medias">
                   <a href="javascript:void(0)">Facebook</a>
                   <a href="javascript:void(0)">Twitter</a>
-                  <a href="https://www.linkedin.com/company/omdys-international-llp/">
+                  <a
+                    href="https://www.linkedin.com/company/omdys-international-llp/"
+                    target="_blank"
+                  >
                     Linkedin
                   </a>
                 </div>

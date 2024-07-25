@@ -27,11 +27,11 @@ const Activities = () => {
             <div className="banner-details">
               <h2>Our Main Activities</h2>
               <p>
-                We specialize in trading comprehensive printing solutions,
-                importing electronic components, industrial construction tools
-                and equipment, and medical PPE. Our focus is on delivering
-                quality products across these sectors to meet diverse customer
-                needs efficiently.
+                WE SPECIALIZE IN TRADING COMPREHENSIVE PRINTING SOLUTIONS,
+                IMPORTING ELECTRONIC COMPONENTS, INDUSTRIAL CONSTRUCTION TOOLS
+                AND EQUIPMENT, AND HEALTH CARE PRODUCTS. OUR FOCUS IS ON
+                DELIVERING QUALITY PRODUCTS ACROSS THESE SECTORS TO MEET DIVERSE
+                CUSTOMER NEEDS EFFICIENTLY.
               </p>
             </div>
           </div>
@@ -142,17 +142,17 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        // src="assets/svg4/Medical PPE 1.svg"
+                        // src="assets/svg4/HEALTH CARE PRODUCTS 1.svg"
                         src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
                   </div>
                   <div className="data">
-                    <h3> Trading of medical-PPE – Importing</h3>
+                    <h3> Trading of Healthcare PPE Products – Importing</h3>
                     <p>
-                      We import certified medical PPE, meeting the needs of
-                      healthcare facilities and professionals.{' '}
+                      We import certified HEALTH CARE PRODUCTS, meeting the
+                      needs of healthcare facilities and professionals.{' '}
                       {/* <Link to={'/activity-five'}> */}
                       <a href="/activity-five">( Read More )</a>
                       {/* </Link> */}

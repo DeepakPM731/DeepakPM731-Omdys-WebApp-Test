@@ -77,10 +77,11 @@ const ServiceSingle = () => {
                 </div>
               </div>
               <div className="col-lg-6">
-                <div className="data" style={{ marginTop: '-150px' }}>
+                <div className="data" style={{ marginTop: '' }}>
                   {/* <div className="data"> */}
                   <h2>Supplier Identification & Sourcing</h2>
-                  <ul data-aos="fade-down">
+                  {/* <ul data-aos="fade-down"> */}
+                  <ul>
                     <li>
                       <i className="fa-solid fa-check" />
                       <p>
@@ -133,11 +134,12 @@ const ServiceSingle = () => {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6">
-                <div className="data" style={{ marginTop: '-150px' }}>
+                <div className="data" style={{ marginTop: '' }}>
                   {' '}
                   {/* <div className="data"> */}
                   <h2>Product Management</h2>
-                  <ul data-aos="fade-down">
+                  <ul>
+                    {/* <ul data-aos="fade-down"> */}
                     <li>
                       <i className="fa-solid fa-check" />
                       <p>
@@ -177,7 +179,8 @@ const ServiceSingle = () => {
               </div>
               <div className="col-lg-6">
                 <div className="data">
-                  <figure className="servicetwofig" data-aos="fade-right">
+                  <figure className="servicetwofig">
+                    {/* <figure className="servicetwofig" data-aos="fade-right"> */}
                     <img
                       className="w-100"
                       src="https://s3.ap-south-1.amazonaws.com/omdys.com/product_management.png"
@@ -203,7 +206,8 @@ const ServiceSingle = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="data">
-                  <figure className="servicethreefig" data-aos="fade-left">
+                  <figure className="servicethreefig">
+                    {/* <figure className="servicethreefig" data-aos="fade-left"> */}
                     <img
                       className="w-100"
                       src="https://s3.ap-south-1.amazonaws.com/omdys.com/logistics.png"
@@ -214,11 +218,12 @@ const ServiceSingle = () => {
                 </div>
               </div>
               <div className="col-lg-6">
-                <div className="data" style={{ marginTop: '-150px' }}>
+                <div className="data" style={{ marginTop: '' }}>
                   {' '}
                   {/* <div className="data"> */}
                   <h2>Logistics & Shipping</h2>
-                  <ul data-aos="fade-down">
+                  <ul>
+                    {/* <ul data-aos="fade-down"> */}
                     <li>
                       <i className="fa-solid fa-check" />
                       <p>
@@ -272,11 +277,12 @@ const ServiceSingle = () => {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6">
-                <div className="data" style={{ marginTop: '-150px' }}>
+                <div className="data" style={{ marginTop: '' }}>
                   {' '}
                   {/* <div className="data"> */}
                   <h2>Risk Management</h2>
-                  <ul data-aos="fade-down">
+                  <ul>
+                    {/* <ul data-aos="fade-down"> */}
                     <li>
                       <i className="fa-solid fa-check" />
                       <p>
@@ -318,7 +324,8 @@ const ServiceSingle = () => {
               </div>
               <div className="col-lg-6">
                 <div className="data">
-                  <figure className="servicefourfig" data-aos="fade-right">
+                  <figure className="servicefourfig">
+                    {/* <figure className="servicefourfig" data-aos="fade-right"> */}
                     <img
                       className="w-100"
                       src="https://s3.ap-south-1.amazonaws.com/omdys.com/risk_management.png"

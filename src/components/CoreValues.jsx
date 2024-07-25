@@ -27,7 +27,7 @@ const CoreValues = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>Core Values</h2>
-                <p>our values and vaulted us to the top of our industry.</p>
+                <p>OUR VALUES AND VAULTED US TO THE TOP OF OUR INDUSTRY.</p>
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@ const CoreValues = () => {
                   <li>
                     <div className="data">
                       <h3> Integrity & Transparency</h3>
-                      <p>
+                      <p style={{ textAlign: 'justify' }}>
                         We operate with honesty and transparency in all our
                         interactions, from supplier negotiations to client
                         communication. You can trust us to uphold ethical
@@ -95,7 +95,7 @@ const CoreValues = () => {
                     </div>
                     <div className="data">
                       <h3> Expertise & Innovation</h3>
-                      <p>
+                      <p style={{ textAlign: 'justify' }}>
                         Our team combines in-depth market knowledge with a
                         commitment to innovative solutions. We leverage
                         cutting-edge technology and stay ahead of industry
@@ -107,7 +107,7 @@ const CoreValues = () => {
                   <li>
                     <div className="data">
                       <h3>Client-Centricity & Partnership</h3>
-                      <p>
+                      <p style={{ textAlign: 'justify' }}>
                         We don't just source products, we build partnerships. We
                         prioritize understanding your unique needs and goals,
                         tailoring our solutions and exceeding your expectations.
@@ -136,7 +136,7 @@ const CoreValues = () => {
 
           <>
             {/* Innovation Start */}
-            <section className="gap innovation">
+            <section className="gap innovation" style={{ marginTop: '-10%' }}>
               <div className="heading">
                 <span>MAKE A DIFFERENCE</span>
                 <h2>Innovation in Action</h2>
@@ -146,7 +146,7 @@ const CoreValues = () => {
                   <ul>
                     <li style={{ overflow: '' }} data-aos="fade-up-left">
                       <i className="fa-solid fa-check" />
-                      <p>
+                      <p style={{ textAlign: 'justify' }}>
                         <span style={{ color: 'green' }}>
                           <b>
                             <b>AI-Powered Supplier Discovery:</b>
@@ -163,7 +163,7 @@ const CoreValues = () => {
                     </li>
                     <li data-aos="fade-down">
                       <i className="fa-solid fa-check" />
-                      <p>
+                      <p style={{ textAlign: 'justify' }}>
                         <span style={{ color: 'green' }}>
                           <b>
                             {' '}
@@ -179,7 +179,7 @@ const CoreValues = () => {
                     </li>
                     <li data-aos="fade-up-right">
                       <i className="fa-solid fa-check" />
-                      <p>
+                      <p style={{ textAlign: 'justify' }}>
                         <span style={{ color: 'green' }}>
                           <b>
                             {' '}
@@ -195,7 +195,7 @@ const CoreValues = () => {
                     </li>
                     <li data-aos="fade-up-left">
                       <i className="fa-solid fa-check" />
-                      <p>
+                      <p style={{ textAlign: 'justify' }}>
                         <span style={{ color: 'green' }}>
                           <b>
                             <b>Predictive Demand Forecasting: </b>
@@ -211,7 +211,7 @@ const CoreValues = () => {
                     </li>
                     <li data-aos="fade-down">
                       <i className="fa-solid fa-check" />
-                      <p>
+                      <p style={{ textAlign: 'justify' }}>
                         <span style={{ color: 'green' }}>
                           {' '}
                           <b>
@@ -228,7 +228,7 @@ const CoreValues = () => {
                     </li>
                     <li data-aos="fade-up-right">
                       <i className="fa-solid fa-check" />
-                      <p>
+                      <p style={{ textAlign: 'justify' }}>
                         <span style={{ color: 'green' }}>
                           {' '}
                           <b>
@@ -267,7 +267,7 @@ const CoreValues = () => {
                         data-bs-target="#exampleModal1"
                         className="theme-btn"
                       > */}
-                      Build a Project
+                      Contact Us
                       <i className="fa-solid fa-angles-right" />
                       {/* </a> */}
                     </Link>

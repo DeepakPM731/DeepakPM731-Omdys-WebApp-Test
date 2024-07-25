@@ -206,7 +206,7 @@ const Header = () => {
                                   <li>
                                     {/* <Link to={'/activity-five'}> */}
                                     <a href="/activity-five">
-                                      Medical-PPE Supply
+                                      Healthcare PPE Products
                                     </a>
                                     {/* </Link> */}
                                   </li>
@@ -219,7 +219,7 @@ const Header = () => {
                                   </li>
                                 </ul>
                               </li>
-                              <li className="menu-item-has-children">
+                              <li>
                                 <Link to={'/service-single'}>
                                   <a className="tag" href="/service-single">
                                     Services
@@ -533,7 +533,7 @@ const Header = () => {
 
                         <li>
                           {/* <Link to={'/activity-five'}> */}
-                          <a href="/activity-five">Medical-PPE Supply</a>
+                          <a href="/activity-five">Healthcare PPE Products</a>
                           {/* </Link> */}
                         </li>
                         <li>
@@ -622,7 +622,10 @@ const Header = () => {
               <div className="social-medias">
                 <a href="javascript:void(0)">Facebook</a>
                 <a href="javascript:void(0)">Twitter</a>
-                <a href="https://www.linkedin.com/company/omdys-international-llp/">
+                <a
+                  href="https://www.linkedin.com/company/omdys-international-llp/"
+                  target="_blank"
+                >
                   Linkedin
                 </a>
               </div>

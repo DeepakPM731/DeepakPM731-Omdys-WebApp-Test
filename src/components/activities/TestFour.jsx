@@ -378,7 +378,7 @@ const TestFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        // src="assets/svg4/Medical PPE 1.svg"
+                        // src="assets/svg4/HEALTH CARE PRODUCTS 1.svg"
                         src="https://s3.ap-south-1.amazonaws.com/omdys.com/timely_delivery.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                         alt="Core Values Image 1"
