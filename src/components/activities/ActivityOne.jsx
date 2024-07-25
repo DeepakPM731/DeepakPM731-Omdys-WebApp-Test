@@ -48,6 +48,16 @@ const ActivityOne = () => {
           {/* </div> */}
         </section>
       </div>
+      <br />
+      <div className="container" style={{}}>
+        <img
+          className="industry"
+          style={{ width: '100%' }}
+          // src="assets/svg4/petroleum and petrochemical products (2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Printing+Solutions.svg"
+          alt="Our Project One Image 1"
+        />
+      </div>
 
       {/* Banner ends */}
       <div style={{ marginTop: '20px' }}>
@@ -229,7 +239,7 @@ const ActivityOne = () => {
                   </div>
                   <div className="data">
                     <h3> Media Supplies</h3>
-                    <p style={{ fontSize: '18px' }}>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                       Our range of media supplies includes everything from
                       vinyl, and canvas, to banner materials. These are
                       specially designed to work with eco-solvent inks, ensuring
@@ -237,115 +247,124 @@ const ActivityOne = () => {
                     </p>
                   </div>
                 </li>
-                <li>
-                  <div className="data">
-                    <h3> Product Quality</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      We are committed to providing high-quality products. Our
-                      inks are sourced from reputable manufacturers and undergo
-                      rigorous quality checks to ensure they meet the highest
-                      standards
-                    </p>
-                  </div>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                </li>
-                <li>
-                  <div className="image" data-aos="fade-left">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                  <div className="data">
-                    <h3>Technical Support</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      Our dedicated team of experts is always ready to assist
-                      you with any technical issues. We aim to ensure your
-                      printing operations run smoothly.
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div className="data">
-                    <h3>Training</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      We provide comprehensive training on the use of our
-                      eco-solvent, UV, and solvent-based printers and supplies.
-                      This will equip you with the necessary skills to deliver
-                      outstanding printing services.
-                    </p>
-                  </div>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                </li>
-                <li>
-                  <div className="image" data-aos="fade-left">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/sustainability.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                  <div className="data">
-                    <h3>Sustainability</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      We believe in doing business responsibly. Our inks are
-                      environmentally friendly, aligning with our commitment to
-                      sustainability. With our diverse product range and
-                      dedicated support, you’ll be well-equipped to make a
-                      significant impact.
-                    </p>
-                  </div>
-                </li>
-                <li style={{ marginBottom: '-2%' }}>
-                  <div className="data">
-                    <h3>Our Promise</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      By using our products, you are guaranteed 100% technical
-                      support, both online and offline, led by a team of over
-                      17+ experienced engineers.
-                    </p>
-                  </div>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/promise.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                </li>
               </ul>
             </div>
           </div>
         </section>
       </div>
+      {/* -------Bottom starts */}
+      {/* Blog Style Two Start */}
+      <section className="gap blog-style-two" style={{ marginTop: '-8%' }}>
+        <div className="heading">
+          <figure>
+            {/* <img src="assets/images/heading-icon.png" alt="heading-icon-22" /> */}
+          </figure>
+          {/* <span>Blog &amp; News</span>
+            <h2>Recent Articles</h2> */}
+        </div>
+        <div className="container">
+          <div className="blog-slider row owl-carousel">
+            {/* ------blog item----- */}
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+
+              <span className="blog-post-num"></span>
+              <img
+                // style={{ marginRight: 'auto', marginLeft: 'auto' }}
+                src="assets/images/activity-four/quality_assurance.png"
+                alt=""
+              />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Product Quality</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                We are committed to providing high-quality products. Our inks
+                are sourced from reputable manufacturers and undergo rigorous
+                quality checks to ensure they meet the highest standards
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img src="assets/images/activity-four/customer_supp.png" alt="" />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Technical Support</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                Our dedicated team of experts is always ready to assist you with
+                any technical issues. We aim to ensure your printing operations
+                run smoothly.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img src="assets/images/activity-four/training_.png" alt="" />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Training</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                We provide comprehensive training on the use of our eco-solvent,
+                UV, and solvent-based printers and supplies. This will equip you
+                with the necessary skills to deliver outstanding printing
+                services.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img
+                src="assets/images/activity-four/sustainability_.png"
+                alt=""
+              />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Sustainability</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                We believe in doing business responsibly. Our inks are
+                environmentally friendly, aligning with our commitment to
+                sustainability. With our diverse product range and dedicated
+                support, you’ll be well-equipped to make a significant impact.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img src="assets/images/activity-four/promise_.png" alt="" />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Our Promise</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                By using our products, you are guaranteed 100% technical
+                support, both online and offline, led by a team of over 17+
+                experienced engineers.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Blog Style Two End */}
+      {/* -------Bottom ends */}
 
       {/* ============================================================================= */}
     </>

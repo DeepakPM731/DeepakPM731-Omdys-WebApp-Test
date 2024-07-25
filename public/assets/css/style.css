@@ -7146,4 +7146,35 @@ img.light-icon {
     margin-left: auto;
   }
 }
+
+/* ----------------------------------------------- */
+.pipelist {
+  margin-top: -11%;
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 480px) {
+  .petrohead {
+    font-size: 32px;
+    margin-bottom: -10%;
+  }
+  .pipelist {
+    margin-top: -35%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .petrohead {
+    font-size: 32px;
+  }
+  .pipehead {
+  }
+  .pipelist {
+    margin-top: -35%;
+  }
+}
+
 /* -=============================================================================- */

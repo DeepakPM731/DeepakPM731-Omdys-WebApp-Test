@@ -30,7 +30,7 @@ const ActivityFive = () => {
             <div className="row">
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>
-                  Trading Of HEALTH CARE PRODUCTS
+                  Trading Of Health Care Products
                 </h2>
                 {/* <p>our values and vaulted us to the top of our industry.</p> */}
               </div>
@@ -55,79 +55,21 @@ const ActivityFive = () => {
           {/* </div> */}
         </section>
       </div>
-
-      <div className="container mt-5 mb-5">
-        <div className="row">
-          <div className="col-lg-12">
-            <div
-              className="container mb-4"
-              style={{ display: 'flex', justifyContent: 'center' }}
-            >
-              <figure style={{ position: 'relative', zIndex: 9 }}>
-                <img
-                  className=""
-                  // src="assets/svg4/HEALTH CARE PRODUCTS 2.svg"
-                  // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+2.svg"
-                  src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+22.svg"
-                  // src="https://winsfolio.net/html/builty/assets/images/about-h-i-w.jpg"
-                  alt="About How It Works"
-                />
-              </figure>
-            </div>
-            <div className="who-we-are">
-              <div>
-                {/* <h3 className="mb-5 text-center" style={{ fontSize: '48px' }}>
-                  Wide Range of Products
-                </h3> */}
-                {/* <p style={{ textAlign: 'justify' }}> */}
-                <div style={{ textAlign: 'justify' }}>
-                  <p
-                    style={{
-                      fontSize: '20px',
-                      textAlign: 'justify',
-                      margin: 0,
-                      padding: 0,
-                      whiteSpace: 'normal',
-                      wordBreak: 'break-all',
-                      lineHeight: '1.5',
-                      wordSpacing: '0.5px',
-                      hyphens: 'auto',
-                    }}
-                  >
-                    At OMDYS, we understand the critical importance of personal
-                    protective equipment (PPE) in safeguarding frontline workers
-                    and healthcare professionals. As a trusted sourcing and
-                    trading company, we are committed to providing high-quality
-                    HEALTH CARE PRODUCTS products to meet the evolving needs of
-                    healthcare facilities, government agencies, businesses, and
-                    individuals worldwide.
-                  </p>
-                  {/* <br />
-                  <p>
-                    At OMDYS International LLP, we understand the critical role
-                    that electronic components play in today's technology-driven
-                    world. Whether you are a small-scale electronics hobbyist or
-                    a large-scale manufacturer, we have the products and
-                    services to support your projects and businesses.
-                  </p> */}
-                </div>
-              </div>
-              <figure>
-                {/* <img
-                    className="w-100"
-                    src="https://winsfolio.net/html/builty/assets/images/about-d-1.jpg"
-                    alt="About Image One"
-                  /> */}
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
       <br />
-      <hr />
-      <h4 style={{ textAlign: 'center', marginBottom: '5%' }}>
+      <div className="container" style={{}}>
+        <img
+          className="industry"
+          style={{ width: '100%' }}
+          // src="assets/svg4/petroleum and petrochemical products (2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+22.svg"
+          alt="Our Project One Image 1"
+        />
+      </div>
+
+      <br />
+      <h3 style={{ textAlign: 'center', marginBottom: '5%' }}>
         Our Extensive Product Portfolio
-      </h4>
+      </h3>
 
       {/* ---------------test--------------- */}
       <div className="container mt-5 mb-2">
@@ -242,168 +184,103 @@ const ActivityFive = () => {
       </div>
       {/* ---------------test--------------- */}
 
-      <section
-        className=" no-top project-completed our-projects-one"
-        style={{ marginTop: '-5%' }}
-      >
-        <div style={{ marginTop: '20px' }}>
-          <section className="gap no-top core-values">
-            <div className="container" style={{ marginBottom: '-5%' }}>
-              <div className="row">
-                <ul>
-                  <li>
-                    <div className="image" data-aos="fade-left">
-                      <figure>
-                        <img
-                          className="w-100"
-                          // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
-                    </div>
-                    <div className="data">
-                      <h3>Quality Assurance</h3>
-                      <p
-                        style={{
-                          fontSize: '18px',
-                          textAlign: 'justify',
-                          // wordSpacing: '-3px',
-                        }}
-                      >
-                        Remember, the type of PPE needed can vary depending on
-                        the specific job and work environment. Always ensure
-                        that the PPE is appropriate for the task at hand, fits
-                        properly, and meets industry safety standards. Trust
-                        Omdys International Group for all your medical
-                        protection and safety equipment needs.
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="data">
-                      <h3>Competitive Pricing</h3>
-                      <p
-                        style={{
-                          fontSize: '18px',
-                          textAlign: 'justify',
-                          // wordSpacing: '-3px',
-                        }}
-                      >
-                        Remember, the type of PPE needed can vary depending on
-                        the specific job and work environment. Always ensure
-                        that the PPE is appropriate for the task at hand, fits
-                        properly, and meets industry safety standards. Trust
-                        Omdys International Group for all your medical
-                        protection and safety equipment needs.
-                      </p>
-                    </div>
-                    <div className="image" data-aos="fade-right">
-                      <figure>
-                        <img
-                          className="w-100"
-                          // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/pricing.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
-                    </div>
-                  </li>
-                  <hr />
-                  <li>
-                    <div className="image" data-aos="fade-left">
-                      <figure>
-                        <img
-                          className="w-100"
-                          // src="assets/svg4/HEALTH CARE PRODUCTS 1.svg"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/timely_delivery.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
-                    </div>
-                    <div className="data">
-                      <h3> Timely Delivery</h3>
-                      <p
-                        style={{
-                          fontSize: '18px',
-                          textAlign: 'justify',
-                          // wordSpacing: '-4px',
-                        }}
-                      >
-                        We have efficient logistics in place to ensure timely
-                        delivery of your orders. We understand that in the
-                        medical field, time is of the essence.
-                      </p>
-                    </div>
-                  </li>
-                  <hr />
-                  <li>
-                    <div className="data">
-                      <h3> Customer Support</h3>
-                      <p
-                        style={{
-                          fontSize: '18px',
-                          textAlign: 'justify',
-                          // wordSpacing: '-3px',
-                        }}
-                      >
-                        Our dedicated customer support team is always ready to
-                        assist you with any queries or issues. We strive to
-                        provide excellent customer service and ensure your
-                        satisfaction
-                      </p>
-                    </div>
-                    <div className="image" data-aos="fade-right">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="image" data-aos="fade-left">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
-                    </div>
-                    <div className="data">
-                      <h3>Training and Consultation</h3>
-                      <p
-                        style={{
-                          fontSize: '18px',
-                          textAlign: 'justify',
-                          // wordSpacing: '-3px',
-                        }}
-                      >
-                        We provide training on the use of our HEALTH CARE
-                        PRODUCTS. We also offer consultation services to help
-                        you choose the right PPE for your specific needs. With
-                        our diverse product range, quality assurance, and
-                        dedicated support, you’ll be well-equipped to make a
-                        significant impact.
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </section>
+      {/* ---------------------------------------------------- */}
+      <section className="gap blog-style-two" style={{ marginTop: '-8%' }}>
+        <div className="heading">
+          <figure>
+            {/* <img src="assets/images/heading-icon.png" alt="heading-icon-22" /> */}
+          </figure>
+          {/* <span>Blog &amp; News</span>
+            <h2>Recent Articles</h2> */}
         </div>
-        {/* </div>
-        </div> */}
+        <div className="container">
+          <div className="blog-slider row owl-carousel">
+            {/* ------blog item----- */}
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+
+              <span className="blog-post-num"></span>
+              <img
+                // style={{ marginRight: 'auto', marginLeft: 'auto' }}
+                src="assets/images/activity-four/quality_assurance.png"
+                alt=""
+              />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Quality Assurance</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                Remember, the type of PPE needed can vary depending on the
+                specific job and work environment. Always ensure that the PPE is
+                appropriate for the task at hand, fits properly, and meets
+                industry safety standards. Trust Omdys International Group for
+                all your medical protection and safety equipment needs.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img src="assets/images/activity-four/timely _delivery.png" alt="" />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Timely Delivery</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                We have efficient logistics in place to ensure timely delivery
+                of your orders. We understand that in the medical field, time is
+                of the essence.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img
+                src="assets/images/activity-four/customer_supp.png"
+                alt=""
+              />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Customer Support</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                Our dedicated customer support team is always ready to assist
+                you with any queries or issues. We strive to provide excellent
+                customer service and ensure your satisfaction
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img src="assets/images/activity-four/training_.png" alt="" />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Training and Consultation</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                We provide training on the use of our Health care products. We
+                also offer consultation services to help you choose the right
+                PPE for your specific needs. With our diverse product range,
+                quality assurance, and dedicated support, you’ll be
+                well-equipped to make a significant impact.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
+      {/* ---------------------------------------------------- */}
     </>
   );
 };

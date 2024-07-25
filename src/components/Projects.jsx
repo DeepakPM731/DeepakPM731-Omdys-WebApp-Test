@@ -159,9 +159,7 @@ const Projects = () => {
                     <div className="project-data">
                       <h3>
                         <Link to={'/activity-five'}>
-                          <a href="javascript:void(0)">
-                            HEALTH CARE PRODUCTS Products
-                          </a>
+                          <a href="javascript:void(0)">Health Care Products</a>
                         </Link>
                       </h3>
                       {/* <p>

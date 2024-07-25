@@ -47,7 +47,7 @@ const Contact = () => {
                       alt="Circle Text"
                     />
                   </figure>
-                  <Link to={'/contact'}>
+                  <Link to={'/contact-form'}>
                     {/* <a
                       href="javascript:void(0)"
                       data-bs-toggle="modal"
@@ -57,7 +57,7 @@ const Contact = () => {
                     {/* </a> */}
                   </Link>
                 </div>
-                <Link to={'/contact'}>
+                <Link to={'/contact-form'}>
                   <h4
                     style={{
                       fontSize: '35px',

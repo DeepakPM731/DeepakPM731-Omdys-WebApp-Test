@@ -1,5 +1,5 @@
 /* The loader container */
-.loader {
+.loadernews {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -197,4 +197,117 @@
 .radiobtn {
   border-radius: 15px !important;
   padding-left: 14px !important;
+}
+
+/* ---------------------Team----------------------- */
+.tmbg {
+  background-color: #dbdadad5;
+}
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.profile-card {
+  flex: 1 1 30%;
+  max-width: 320px;
+  height: 350px;
+  /* background: #fff; */
+  /* background: #ffee02; */
+  background: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 0 #ccc;
+  transition: 0.3s;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.profile-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px -5px #1b1a1a;
+  background-color: #ffee02;
+}
+
+.profile-icon {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 25px 0 10px 0;
+  text-align: center;
+}
+
+.profile-position {
+  font-size: 20px;
+  color: #777;
+  text-align: center;
+}
+
+.button {
+  margin: 40px 0 0 0;
+  padding: 10px 30px;
+  color: #999;
+  text-decoration: none;
+  border: 1px solid #999;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.button:hover {
+  color: #fff;
+  background: #748dff;
+  border: 1px solid #748dff;
+}
+
+@media screen and (max-width: 1000px) {
+  .profile-card {
+    flex: 1 1 45%;
+  }
+
+  .profile-name {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .profile-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 20px 15px;
+  }
+
+  .profile-name {
+    font-size: 16px;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .profile-name {
+    font-size: 14px;
+  }
+
+  .profile-position {
+    font-size: 12px;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 }

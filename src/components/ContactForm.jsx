@@ -4,10 +4,10 @@ import { Link, useNavigate } from 'react-router-dom';
 import toast, { ToastBar, Toaster } from 'react-hot-toast';
 import emailjs from '@emailjs/browser';
 
-const ContactPage = () => {
+const ContactForm = () => {
   const navigate = useNavigate();
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, document.body.scrollHeight / 7);
   }, []);
 
   // State to manage which accordion is active
@@ -180,7 +180,7 @@ const ContactPage = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>Contact Us</h2>
-                <p>GET IN TOUCH FOR TAILORED COMMODITY TRADING SOLUTIONS</p>
+                <p>Get in Touch for Tailored Commodity Trading Solutions</p>
               </div>
             </div>
           </div>
@@ -3004,4 +3004,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default ContactForm;

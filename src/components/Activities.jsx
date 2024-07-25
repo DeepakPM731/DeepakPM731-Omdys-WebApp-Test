@@ -70,7 +70,7 @@ const Activities = () => {
                 <li data-aos="zoom-in-up">
                   <div className="data">
                     <h3> Trading of complete printing solutions – Importing</h3>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       We provide a wide range of printing solutions, customized
                       to meet various printing needs.
                       {/* <Link to={'/activity-one'}> */}
@@ -102,7 +102,7 @@ const Activities = () => {
                   </div>
                   <div className="data">
                     <h3> Trading of Electronics components – Importing</h3>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       We partner with leading manufacturers to deliver reliable
                       and authentic electronic components for diverse
                       applications. {/* <Link to={'/activity-two'}> */}
@@ -116,7 +116,7 @@ const Activities = () => {
                     <h3>
                       Trading of industrial construction tools and equipment
                     </h3>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       We provide a comprehensive range of certified safety
                       equipment for the construction industry, ensuring worker
                       protection and regulatory compliance.
@@ -150,8 +150,8 @@ const Activities = () => {
                   </div>
                   <div className="data">
                     <h3> Trading of Healthcare PPE Products – Importing</h3>
-                    <p>
-                      We import certified HEALTH CARE PRODUCTS, meeting the
+                    <p style={{ textAlign: 'justify' }}>
+                      We import certified Health care products, meeting the
                       needs of healthcare facilities and professionals.{' '}
                       {/* <Link to={'/activity-five'}> */}
                       <a href="/activity-five">( Read More )</a>
@@ -162,7 +162,7 @@ const Activities = () => {
                 <li data-aos="zoom-in-up">
                   <div className="data">
                     <h3>Trading of Industrial Chemical products</h3>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       We offer expertise in exporting specialized petrochemical
                       mechanical products, ensuring safe and efficient project
                       execution.

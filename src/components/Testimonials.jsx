@@ -42,7 +42,7 @@ const Testimonials = () => {
                     >
                       - Managing Director Kattoorans Engineering and Services
                     </h6>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       "We've been partnering with the management team for years
                       and their commitment to quality and service is unmatched.
                       We wish you all the very best for their new venture OMDYS
@@ -86,7 +86,7 @@ const Testimonials = () => {
                     >
                       - Director Infra Structure Solutions
                     </h6>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       "Their diverse product range and efficient logistics
                       helped us complete our project on time and within budget."
                     </p>
@@ -128,7 +128,7 @@ const Testimonials = () => {
                     >
                       - Managing Director Kattoorans Engineering and Services
                     </h6>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       "We've been partnering with the management team for years
                       and their commitment to quality and service is unmatched.
                       We wish you all the very best for their new venture OMDYS
@@ -171,7 +171,7 @@ const Testimonials = () => {
                     >
                       - Infra Structure Solutions
                     </h6>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       "Their diverse product range and efficient logistics
                       helped us complete our project on time and within budget."
                     </p>
@@ -212,7 +212,7 @@ const Testimonials = () => {
                     >
                       - Managing Director – Kattoorans Engineering and Services
                     </h6>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       "We've been partnering with the management team for years
                       and their commitment to quality and service is unmatched.
                       We wish you all the very best for their new venture OMDYS
@@ -256,7 +256,7 @@ const Testimonials = () => {
                     >
                       - Director Infra Structure Solutions
                     </h6>
-                    <p>
+                    <p style={{ textAlign: 'justify' }}>
                       "Their diverse product range and efficient logistics
                       helped us complete our project on time and within budget."
                     </p>

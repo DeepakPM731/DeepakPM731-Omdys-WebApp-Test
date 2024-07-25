@@ -33,7 +33,7 @@ const News = () => {
   useEffect(() => {
     // const corsAnywhereUrl = 'https://cors-anywhere.herokuapp.com/';
     // const apiUrl = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=${key}`;
-    const apiUrl = `https://gnews.io/api/v4/top-headlines?category=business&lang=en&apikey=${key}1`;
+    const apiUrl = `https://gnews.io/api/v4/top-headlines?category=business&lang=en&apikey=${key}`;
 
     axios
       .get(apiUrl)
@@ -130,8 +130,7 @@ const News = () => {
             <br />
             <div className="container">
               <div className="text-center">
-                {/* Loader */}
-                <div className="loader">
+                <div className="loadernews">
                   <div className="cube">
                     <div className="side"></div>
                     <div className="side"></div>
@@ -157,11 +156,11 @@ const News = () => {
                 <div className="banner-details">
                   <h2>News</h2>
                   <p>
-                    Stay informed with the latest global news and updates. Our
-                    page brings you current events, industry trends, market
-                    insights, and significant developments from around the
-                    world. Keep up with the information that matters most to
-                    your business and interests.
+                    STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
+                    PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET
+                    INSIGHTS, AND SIGNIFICANT DEVELOPMENTS FROM AROUND THE
+                    WORLD. KEEP UP WITH THE INFORMATION THAT MATTERS MOST TO
+                    YOUR BUSINESS AND INTERESTS.
                   </p>
                 </div>
               </div>

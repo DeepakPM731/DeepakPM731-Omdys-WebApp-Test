@@ -129,9 +129,15 @@ const Footer = () => {
                       />
                     </figure>
                   </div>
-                  <p>
-                    Sales representative <span>(+91) 84310 6789 3</span>
-                  </p>
+                  <a
+                    style={{ textDecoration: 'none' }}
+                    href="https://wa.me/+918431067893"
+                    target="_blank"
+                  >
+                    <p>
+                      Sales representative <span>(+91) 84310 6789 3</span>
+                    </p>
+                  </a>
                 </div>
 
                 <Link

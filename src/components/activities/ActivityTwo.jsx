@@ -35,23 +35,14 @@ const ActivityTwo = () => {
         className=""
         style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
       />
-
-      <div
-        // className="container"
-        data-aos="zoom-in"
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          objectFit: 'cover',
-          marginTop: '30px',
-        }}
-      >
+      <br />
+      <div className="container" style={{}}>
         <img
-          // src="assets/svg4/Electronic Components 1.svg"
+          className="industry"
+          style={{ width: '100%' }}
+          // src="assets/svg4/petroleum and petrochemical products (2).svg"
           src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+2.svg"
-          alt=""
-          // width={'100%'}
-          // height={'500px'}
+          alt="Our Project One Image 1"
         />
       </div>
       <div className="heading">
@@ -164,7 +155,7 @@ const ActivityTwo = () => {
                     </div>
                     <div className="data">
                       <h3> Passive Components</h3>
-                      <p style={{ fontSize: '18px' }}>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                         Our selection of passive components includes resistors,
                         capacitors, inductors, and filters to support various
                         circuit designs and applications.
@@ -185,7 +176,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/activec.png"
+                          src="assets/images/activity-four/svg/active.svg"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                           alt="Core Values Image 1"
@@ -229,7 +220,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/sensorsc.png"
+                          src="assets/images/activity-four/svg/sensor_.svg"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                           alt="Core Values Image 1"
@@ -331,72 +322,100 @@ const ActivityTwo = () => {
 
       {/* ----------------------test-------------------------- */}
 
-      {/*============================================================== */}
-      <section
-        className="gap no-top core-values"
-        style={{ marginTop: '-40px' }}
-      >
-        <div className="container" style={{ marginBottom: '-5%' }}>
-          <div className="row">
-            <ul>
-              <li>
-                <div className="image" data-aos="fade-right">
-                  <figure>
-                    <img
-                      className="w-100"
-                      // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                      // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                      alt="Core Values Image 1"
-                    />
-                  </figure>
-                </div>
-                <div className="data">
-                  <h3>Our Commitment to Quality</h3>
-                  <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                    At OMDYS International LLP, we understand the importance of
-                    quality and reliability in electronic components. That's why
-                    we source our products from reputable manufacturers and
-                    authorized distributors known for their commitment to
-                    excellence and adherence to industry standards.
-                    <br />
-                    <br />
-                    Before adding any product to our catalog, our team of
-                    experts conducts rigorous quality assurance checks to ensure
-                    that each component meets our stringent criteria for
-                    performance, reliability, and durability.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div className="data">
-                  <h3>Contact Us</h3>
-                  <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                    Ready to experience the difference with OMDYS International,
-                    Get in touch with us today to discuss your requirements,
-                    request a quote, or learn more about our products and
-                    services. Our dedicated team is here to assist you every
-                    step of the way and help you find the perfect electronic
-                    components for your projects and productions.
-                  </p>
-                </div>
-                <div className="image" data-aos="fade-right">
-                  <figure>
-                    <img
-                      className="w-100"
-                      // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                      src="https://s3.ap-south-1.amazonaws.com/omdys.com/contact_ann.png"
-                      // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                      alt="Core Values Image 1"
-                    />
-                  </figure>
-                </div>
-              </li>
-            </ul>
+      <section className="gap blog-style-two" style={{ marginTop: '-8%' }}>
+        <div className="heading">
+          <figure>
+            {/* <img src="assets/images/heading-icon.png" alt="heading-icon-22" /> */}
+          </figure>
+          {/* <span>Blog &amp; News</span>
+            <h2>Recent Articles</h2> */}
+        </div>
+        <div className="container">
+          <div className="blog-slider row owl-carousel">
+            {/* ------blog item----- */}
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+
+              <span className="blog-post-num"></span>
+              <img
+                // style={{ marginRight: 'auto', marginLeft: 'auto' }}
+                src="assets/images/activity-four/quality_assurance.png"
+                alt=""
+              />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Product Quality</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                At OMDYS International LLP, we understand the importance of
+                quality and reliability in electronic components. That's why we
+                source our products from reputable manufacturers and authorized
+                distributors known for their commitment to excellence and
+                adherence to industry standards.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img src="assets/images/activity-four/customer_supp.png" alt="" />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Technical Support</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                Our dedicated team of experts is always ready to assist you with
+                any technical issues. We aim to ensure your printing operations
+                run smoothly.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img
+                src="assets/images/activity-four/sustainability_.png"
+                alt=""
+              />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Sustainability</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                We believe in doing business responsibly. Our inks are
+                environmentally friendly, aligning with our commitment to
+                sustainability. With our diverse product range and dedicated
+                support, you’ll be well-equipped to make a significant impact.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img src="assets/images/activity-four/promise_.png" alt="" />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Our Promise</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                By using our products, you are guaranteed 100% technical
+                support, both online and offline, led by a team of over 17+
+                experienced engineers.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
           </div>
         </div>
       </section>
-      {/*============================================================== */}
     </>
   );
 };

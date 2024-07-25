@@ -54,8 +54,20 @@ const ActivityThree = () => {
           {/* </div> */}
         </section>
       </div>
-
-      <div className="container mt-5 mb-5">
+      <br />
+      <h3 className="mb-5 text-center" style={{ fontSize: '48px' }}>
+        Wide Range of Products
+      </h3>
+      <div className="container" style={{}}>
+        <img
+          className="industry"
+          style={{ width: '100%' }}
+          // src="assets/svg4/petroleum and petrochemical products (2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipmentimg+(3).png"
+          alt="Our Project One Image 1"
+        />
+      </div>
+      {/* <div className="container mt-5 mb-5">
         <div className="row">
           <div className="col-lg-12">
             <div className="who-we-are">
@@ -70,14 +82,12 @@ const ActivityThree = () => {
                   }}
                 >
                   <img
-                    // src="assets/svg4/industrial construction tools and equipment (2).svg"
-                    // src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipment+(3).svg"
+                  
                     src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipmentimg+(3).png"
                     alt="Our Project One Image 1"
                   />
                 </figure>
                 <br />
-                {/* <p style={{ textAlign: 'justify' }}> */}
                 <p
                   style={{
                     fontSize: '18px',
@@ -102,16 +112,12 @@ const ActivityThree = () => {
                 </p>
               </div>
               <figure>
-                {/* <img
-                    className="w-100"
-                    src="https://winsfolio.net/html/builty/assets/images/about-d-1.jpg"
-                    alt="About Image One"
-                  /> */}
+               
               </figure>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* ============================================================================== */}
       <section className="gap innovation">
@@ -408,135 +414,123 @@ const ActivityThree = () => {
       {/* starts */}
 
       {/* ==========-------------========= */}
-      <div style={{ marginTop: '20px' }}>
-        <section className="gap no-top core-values">
-          <div className="container" style={{ marginBottom: '-5%' }}>
-            <div className="row">
-              <ul>
-                <li>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                  <div className="data">
-                    <h3>Quality Assurance</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      Remember, the type of PPE needed can vary depending on the
-                      specific job and work environment. Always ensure that the
-                      PPE is appropriate for the task at hand, fits properly,
-                      and meets industry safety standards. Trust Omdys
-                      International Group for all your personal protection and
-                      safety equipment needs.
-                    </p>
-                  </div>
-                </li>
-                <br />
-                {/* <li></li> */}
-                <li>
-                  <div className="data">
-                    <h3>Competitive Pricing</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      Remember, the type of PPE needed can vary depending on the
-                      specific job and work environment. Always ensure that the
-                      PPE is appropriate for the task at hand, fits properly,
-                      and meets industry safety standards. Trust Omdys
-                      International Group for all your personal protection and
-                      safety equipment needs.
-                    </p>
-                  </div>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/pricing.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                </li>
-                <li>
-                  <div className="image" data-aos="fade-left">
-                    <figure>
-                      <img
-                        className="w-100"
-                        // src="assets/svg4/HEALTH CARE PRODUCTS 1.svg"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/timely_delivery.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                  <div className="data">
-                    <h3> Timely Delivery</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      We have efficient logistics in place to ensure timely
-                      delivery of your orders. We understand that in your
-                      business, time is of the essence.
-                    </p>
-                  </div>
-                </li>
-                <br />
-                {/* <li></li> */}
-                <li>
-                  <div className="data">
-                    <h3> Customer Support</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      Our dedicated customer support team is always ready to
-                      assist you with any queries or issues. We strive to
-                      provide excellent customer service and ensure your
-                      satisfaction
-                    </p>
-                  </div>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                </li>
-                <br />
-                {/* <li></li> */}
-                <li>
-                  <div className="image" data-aos="fade-left">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                  <div className="data">
-                    <h3>Training and Consultation</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      We provide training on the use of our tools and equipment.
-                      We also offer consultation services to help you choose the
-                      right tools and equipment for your specific needs. With
-                      our diverse product range, quality assurance, and
-                      dedicated support, you’ll be well-equipped to make a
-                      significant impact.
-                    </p>
-                  </div>
-                </li>
-              </ul>
+
+      {/* -------------------------------------------------------------- */}
+      <section className="gap blog-style-two" style={{ marginTop: '-8%' }}>
+        <div className="heading">
+          <figure>
+            {/* <img src="assets/images/heading-icon.png" alt="heading-icon-22" /> */}
+          </figure>
+          {/* <span>Blog &amp; News</span>
+            <h2>Recent Articles</h2> */}
+        </div>
+        <div className="container">
+          <div className="blog-slider row owl-carousel">
+            {/* ------blog item----- */}
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+
+              <span className="blog-post-num"></span>
+              <img
+                // style={{ marginRight: 'auto', marginLeft: 'auto' }}
+                src="assets/images/activity-four/quality_assurance.png"
+                alt=""
+              />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Quality Assurance</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                Remember, the type of PPE needed can vary depending on the
+                specific job and work environment. Always ensure that the PPE is
+                appropriate for the task at hand, fits properly, and meets
+                industry safety standards. Trust Omdys International Group for
+                all your personal protection and safety equipment needs.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img src="assets/images/activity-four/comp_pricing.png" alt="" />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)">Competitive Pricing</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                Remember, the type of PPE needed can vary depending on the
+                specific job and work environment. Always ensure that the PPE is
+                appropriate for the task at hand, fits properly, and meets
+                industry safety standards. Trust Omdys International Group for
+                all your personal protection and safety equipment needs.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img
+                src="assets/images/activity-four/timely _delivery.png"
+                alt=""
+              />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)"> Timely Delivery</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                We have efficient logistics in place to ensure timely delivery
+                of your orders. We understand that in your business, time is of
+                the essence.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img src="assets/images/activity-four/customer_supp.png" alt="" />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)"> Customer Support</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                Our dedicated customer support team is always ready to assist
+                you with any queries or issues. We strive to provide excellent
+                customer service and ensure your satisfaction
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
+            </div>
+            <div className="blog-item col-lg-12">
+              <img src="" alt="" />
+              <span className="blog-post-num"></span>
+              <img src="assets/images/activity-four/training_.png" alt="" />
+              {/* <span className="blog-date">January 9, 2022</span> */}
+              <h2 style={{ textAlign: 'center' }}>
+                <a href="javascript:void(0)"> Training and Consultation</a>
+              </h2>
+              <p style={{ textAlign: 'justify' }}>
+                We provide training on the use of our tools and equipment. We
+                also offer consultation services to help you choose the right
+                tools and equipment for your specific needs. With our diverse
+                product range, quality assurance, and dedicated support, you’ll
+                be well-equipped to make a significant impact.
+              </p>
+              <a href="javascript:void(0)">
+                {/* <i className="fa-solid fa-arrow-up-long" /> */}
+              </a>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+      {/* -------------------------------------------------------------- */}
       {/* ==========-------------========= */}
     </>
   );

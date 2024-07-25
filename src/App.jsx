@@ -27,6 +27,7 @@ import ContactPage from './components/ContactPage';
 import News from './components/News';
 import ServiceSingle from './components/services/ServiceSingle';
 import TestFour from './components/activities/TestFour';
+import ContactForm from './components/ContactForm';
 
 // import Contact from './components/Contact';
 const App = () => {
@@ -39,9 +40,10 @@ const App = () => {
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
-          {/* <Route path="/team" element={<TeamPage />} /> */}
+          <Route path="/team" element={<TeamPage />} />
           <Route path="/core-values" element={<CoreValues />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/contact-form" element={<ContactForm />} />
           <Route path="/news" element={<News />} />
           <Route path="/service-single" element={<ServiceSingle />} />
           <Route path="/service-one" element={<ServiceOne />} />
@@ -55,7 +57,7 @@ const App = () => {
           <Route path="/activity-four" element={<ActivityFour />} />
           <Route path="/activity-five" element={<ActivityFive />} />
           <Route path="/activity-six" element={<ActivitySix />} />
-          <Route path="/activity-test" element={<TestFour  />} />
+          <Route path="/activity-test" element={<TestFour />} />
         </Routes>
         <Footer />
       </Router>
