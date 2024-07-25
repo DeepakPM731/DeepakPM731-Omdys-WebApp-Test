@@ -330,9 +330,8 @@ const ActivityFour = () => {
 
       {/* =============================test========================================= */}
       <>
-        <hr />
         {/* Blog Style Two Start */}
-        <section className="gap blog-style-two">
+        <section className="gap blog-style-two" style={{ marginTop: '-8%' }}>
           <div className="heading">
             <figure>
               {/* <img src="assets/images/heading-icon.png" alt="heading-icon-22" /> */}
@@ -342,10 +341,13 @@ const ActivityFour = () => {
           </div>
           <div className="container">
             <div className="blog-slider row owl-carousel">
+              {/* ------blog item----- */}
               <div className="blog-item col-lg-12">
-                {/* <span className="blog-post-num"></span> */}
+                <img src="" alt="" />
+
+                <span className="blog-post-num"></span>
                 <img
-                  style={{ marginRight: 'auto', marginLeft: 'auto' }}
+                  // style={{ marginRight: 'auto', marginLeft: 'auto' }}
                   src="assets/images/activity-four/quality_assurance.png"
                   alt=""
                 />
