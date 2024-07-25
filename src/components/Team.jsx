@@ -3,7 +3,7 @@ const Team = () => {
     <>
       <br />
       <div className="container">
-        <h2>Meet Our Team</h2>
+        <h2 style={{ textAlign: 'center' }}>Meet Our Team</h2>
         <br />
       </div>
       <div className="tmbg">

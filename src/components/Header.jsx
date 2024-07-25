@@ -416,15 +416,16 @@ const Header = () => {
 
             <div className="mobile-nav" id="mobile-nav">
               <div className="res-log">
-                {/* <Link to={''}> */}
+                <a href="/">
+
                 <img
                   className="responsive-logo"
                   src="assets/images/OMDYS_LOGO_Horizontal.png"
                   width={'230'}
                   height={'85'}
                   alt="Responsive Logo"
-                />
-                {/* </Link> */}
+                  />
+                  </a>
               </div>
               <ul>
                 <li>

@@ -86,7 +86,7 @@ const News = () => {
               <div className="row">
                 <div className="banner-details">
                   <h2>News</h2>
-                  <p>
+                  <p style={{ textAlign: 'justify' }}>
                     STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
                     PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET
                     INSIGHTS, AND SIGNIFICANT DEVELOPMENTS FROM AROUND THE
@@ -155,7 +155,7 @@ const News = () => {
               <div className="row">
                 <div className="banner-details">
                   <h2>News</h2>
-                  <p>
+                  <p style={{ textAlign: 'justify' }}>
                     STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
                     PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET
                     INSIGHTS, AND SIGNIFICANT DEVELOPMENTS FROM AROUND THE

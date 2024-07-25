@@ -371,7 +371,7 @@ const ActivityFour = () => {
       </div>
       {/* -------------------------Fittings and Connectors------------------------ */}
       <h2
-        className="petrohead"
+        className="pipehead"
         style={{
           fontSize: '36px',
           textAlign: 'center',
@@ -389,7 +389,7 @@ const ActivityFour = () => {
           <div className="container" style={{ marginBottom: '-5%' }}>
             <div className="row">
               <ul>
-                <li className="pipelist" style={{ marginTop: '-11%' }}>
+                <li className="pipelist">
                   <div className="data">
                     <h3>Flanges</h3>
                     <p style={{ fontSize: '18px', textAlign: 'justify' }}>
@@ -566,7 +566,7 @@ const ActivityFour = () => {
           <div className="container" style={{ marginBottom: '-5%' }}>
             <div className="row">
               <ul>
-                <li className="pipelist" style={{ marginTop: '-11%' }}>
+                <li className="pipelist">
                   <div className="data">
                     <h3>Ring Joint Gaskets</h3>
                     <p style={{ fontSize: '18px', textAlign: 'justify' }}>
@@ -667,7 +667,7 @@ const ActivityFour = () => {
           <div className="container" style={{ marginBottom: '-5%' }}>
             <div className="row">
               <ul>
-                <li className="pipelist" style={{ marginTop: '-11%' }}>
+                <li className="pipelist">
                   <div className="data">
                     <h3>High-Strength Bolts</h3>
                     <p style={{ fontSize: '18px', textAlign: 'justify' }}>
@@ -768,7 +768,7 @@ const ActivityFour = () => {
           <div className="container" style={{ marginBottom: '-5%' }}>
             <div className="row">
               <ul>
-                <li className="pipelist" style={{ marginTop: '-11%' }}>
+                <li className="pipelist">
                   <div className="data">
                     <h3>Flexible Metal Hoses</h3>
                     <p style={{ fontSize: '18px', textAlign: 'justify' }}>
@@ -869,7 +869,7 @@ const ActivityFour = () => {
           <div className="container" style={{ marginBottom: '-5%' }}>
             <div className="row">
               <ul>
-                <li className="pipelist" style={{ marginTop: '-11%' }}>
+                <li className="pipelist">
                   <div className="data">
                     <h3>Pressure Gauges</h3>
                     <p style={{ fontSize: '18px', textAlign: 'justify' }}>
@@ -970,7 +970,7 @@ const ActivityFour = () => {
           <div className="container" style={{ marginBottom: '-5%' }}>
             <div className="row">
               <ul>
-                <li className="pipelist" style={{ marginTop: '-11%' }}>
+                <li className="pipelist">
                   <div className="data">
                     <h3>Leak Detection Systems</h3>
                     <p style={{ fontSize: '18px', textAlign: 'justify' }}>

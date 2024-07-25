@@ -7,7 +7,7 @@ import emailjs from '@emailjs/browser';
 const ContactForm = () => {
   const navigate = useNavigate();
   useEffect(() => {
-    window.scrollTo(0, document.body.scrollHeight / 7);
+    window.scrollTo(0, document.body.scrollHeight / 6);
   }, []);
 
   // State to manage which accordion is active
@@ -180,7 +180,7 @@ const ContactForm = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>Contact Us</h2>
-                <p>Get in Touch for Tailored Commodity Trading Solutions</p>
+                <p>GET IN TOUCH FOR TAILORED COMMODITY TRADING SOLUTIONS</p>
               </div>
             </div>
           </div>

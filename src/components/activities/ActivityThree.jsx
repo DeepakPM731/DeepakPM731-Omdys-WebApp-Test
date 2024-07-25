@@ -514,7 +514,7 @@ const ActivityThree = () => {
               <img src="assets/images/activity-four/training_.png" alt="" />
               {/* <span className="blog-date">January 9, 2022</span> */}
               <h2 style={{ textAlign: 'center' }}>
-                <a href="javascript:void(0)"> Training and Consultation</a>
+                <a href="javascript:void(0)"> Training</a>
               </h2>
               <p style={{ textAlign: 'justify' }}>
                 We provide training on the use of our tools and equipment. We

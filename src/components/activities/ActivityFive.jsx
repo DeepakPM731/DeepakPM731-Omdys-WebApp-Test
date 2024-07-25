@@ -4,10 +4,6 @@ const ActivityFive = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   useEffect(() => {
     let elements = document.querySelectorAll('[data-aos]');
     for (let i = 0; i < elements.length; i++) {
@@ -223,7 +219,10 @@ const ActivityFive = () => {
             <div className="blog-item col-lg-12">
               <img src="" alt="" />
               <span className="blog-post-num"></span>
-              <img src="assets/images/activity-four/timely _delivery.png" alt="" />
+              <img
+                src="assets/images/activity-four/timely _delivery.png"
+                alt=""
+              />
               {/* <span className="blog-date">January 9, 2022</span> */}
               <h2 style={{ textAlign: 'center' }}>
                 <a href="javascript:void(0)">Timely Delivery</a>
@@ -241,10 +240,7 @@ const ActivityFive = () => {
             <div className="blog-item col-lg-12">
               <img src="" alt="" />
               <span className="blog-post-num"></span>
-              <img
-                src="assets/images/activity-four/customer_supp.png"
-                alt=""
-              />
+              <img src="assets/images/activity-four/customer_supp.png" alt="" />
               {/* <span className="blog-date">January 9, 2022</span> */}
               <h2 style={{ textAlign: 'center' }}>
                 <a href="javascript:void(0)">Customer Support</a>
@@ -264,7 +260,7 @@ const ActivityFive = () => {
               <img src="assets/images/activity-four/training_.png" alt="" />
               {/* <span className="blog-date">January 9, 2022</span> */}
               <h2 style={{ textAlign: 'center' }}>
-                <a href="javascript:void(0)">Training and Consultation</a>
+                <a href="javascript:void(0)">Training</a>
               </h2>
               <p style={{ textAlign: 'justify' }}>
                 We provide training on the use of our Health care products. We
