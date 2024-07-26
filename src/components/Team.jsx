@@ -19,7 +19,8 @@ const Team = () => {
         <div className="profile-container">
           <div className="profile-card">
             <img
-              src="assets/images/activity-four/Pinterest.jpg"
+              src="assets/images/team/PP_.jpg"
+              // src="assets/images/activity-four/Pinterest.jpg"
               alt="image3"
               className="profile-icon"
             />
@@ -31,9 +32,10 @@ const Team = () => {
           </div>
           <div className="profile-card">
             <img
-              src="assets/images/team/PP.jpg"
+              // src="assets/images/team/PP.jpg"
               alt="image3"
               className="profile-icon"
+              src="assets/images/activity-four/Pinterest.jpg"
             />
             <div className="profile-name">Mr Savin Nadh M</div>
             <div className="profile-position">TECHNICAL </div>

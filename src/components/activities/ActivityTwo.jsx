@@ -143,7 +143,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/svg/IC_2.svg"
+                          src="assets/images/activity-four/svg/log/Integrated Circuits (ICs).svg"
                           // src="assets/images/activity-four/ic.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
@@ -157,7 +157,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/passivec.png"
+                          src="assets/images/activity-four/svg/log/Passive Components (2).svg"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                           alt="Core Values Image 1"
@@ -187,8 +187,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/svg/active.svg"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
+                          src="assets/images/activity-four/svg/log/Active Components (2).svg" // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                           alt="Core Values Image 1"
                         />
@@ -200,7 +199,8 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/cables.png"
+                          src="assets/images/activity-four/svg/log/Connectors and Cables.svg"
+                          // src="assets/images/activity-four/cables.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                           alt="Core Values Image 1"
@@ -231,8 +231,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/svg/sensor_.svg"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
+                          src="assets/images/activity-four/svg/log/Sensors and Modules.svg" // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                           alt="Core Values Image 1"
                         />
@@ -244,8 +243,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/leds.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/sustainability.png"
+                          src="assets/images/activity-four/svg/log/LEDs and Displays.svg" // src="https://s3.ap-south-1.amazonaws.com/omdys.com/sustainability.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                           alt="Core Values Image 1"
                         />
@@ -273,8 +271,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/power.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/promise.png"
+                          src="assets/images/activity-four/svg/log/Power Supplies and Batteries.svg" // src="https://s3.ap-south-1.amazonaws.com/omdys.com/promise.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                           alt="Core Values Image 1"
                         />
@@ -286,7 +283,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/relayc.png"
+                          src="assets/images/activity-four/svg/log/Switches and Relays.svg"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/sustainability.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                           alt="Core Values Image 1"
