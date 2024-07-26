@@ -28,6 +28,7 @@ import News from './components/News';
 import ServiceSingle from './components/services/ServiceSingle';
 import TestFour from './components/activities/TestFour';
 import ContactForm from './components/ContactForm';
+import MainServices from './components/services/MainServices';
 
 // import Contact from './components/Contact';
 const App = () => {
@@ -56,6 +57,7 @@ const App = () => {
           <Route path="/contact-form" element={<ContactForm />} />
           <Route path="/news" element={<News />} />
           <Route path="/service-single" element={<ServiceSingle />} />
+          <Route path="/service-main" element={<MainServices />} />
           <Route path="/service-one" element={<ServiceOne />} />
           <Route path="/service-two" element={<ServiceTwo />} />
           <Route path="/service-three" element={<ServiceThree />} />

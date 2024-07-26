@@ -65,7 +65,7 @@ const TeamPage = () => {
               className="profile-icon"
             />
             <div className="profile-name">Mr Deepak P</div>
-            <div className="profile-position">BUSINESS HEAD</div>
+            <div className="profile-position">SALES</div>
             {/* <a href="#" className="button">
               Connect
             </a> */}

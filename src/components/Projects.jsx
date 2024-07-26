@@ -126,7 +126,7 @@ const Projects = () => {
                     <div className="project-data">
                       <h3>
                         <Link to={'/activity-four'}>
-                          <a href="project-detail.html">Oil and Gas Products</a>
+                          <a href="project-detail.html">Oil & Gas Equipment Supply</a>
                         </Link>
                       </h3>
                       {/* <p>

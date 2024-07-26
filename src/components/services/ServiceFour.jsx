@@ -52,69 +52,120 @@ const ServiceFour = () => {
         </section>
       </div>
       {/* service starts */}
-      <section className="gap about-key-benefits">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="data">
-                <figure className="servicefourfig">
-                  <img
-                    className="w-100"
-                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/risk_management.png"
-                    // src="	https://winsfolio.net/html/builty/assets/images/about-k-b.jpg"
-                    alt="About key Benefits"
-                  />
-                </figure>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="data" style={{ marginTop: '-150px' }}>
-                {' '}
-                {/* <div className="data"> */}
-                <h2>Risk Management</h2>
-                <ul data-aos="fade-down">
-                  <li>
-                    <i className="fa-solid fa-check" />
-                    <p>
-                      <b>
-                        {' '}
-                        Identifying and mitigating potential risks throughout
-                        the supply chain, including quality control issues,
-                        production delays, and currency fluctuations.
-                      </b>
-                    </p>
-                  </li>
-                  {/* <li>
+      <>
+        <br />
+        <div className="heading" style={{ marginTop: '', marginBottom: '5%' }}>
+          <figure>
+            <img src="assets/images/heading-icon.png" alt="heading-icon" />
+          </figure>
+          {/* <span>Let us help with our products</span> */}
+          <h2>Risk Management</h2>
+        </div>
+        <div
+          className="container center justify-content-center"
+          style={{ textAlign: 'center' }}
+        >
+          <img
+            className="industry "
+            data-aos="fade-up-left"
+            style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
+            src="assets/images/activity-four/svg/log/Untitled design_.svg"
+            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+            alt="Our Project One Image 1"
+          />
+        </div>
+        {/* service starts */}
+        <section
+          className="gap about-key-benefits"
+          style={{ marginTop: '-8%' }}
+        >
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-12">
+                <div className="data" style={{ marginTop: '' }}>
+                  {' '}
+                  {/* <div className="data"> */}
+                  {/* <h2>Risk Management</h2> */}
+                  <ul>
+                    {/* <ul data-aos="fade-down"> */}
+                    <li>
+                      <i className="fa-solid fa-check" />
+                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
+                        <b>
+                          {' '}
+                          At OMDYS International LLP, we prioritize identifying
+                          and mitigating potential risks throughout the supply
+                          chain, including quality control issues, production
+                          delays, and currency fluctuations.
+                        </b>
+                      </p>
+                    </li>
+                    {/* <li>
                     <i className="fa-solid fa-check" />
                     <p>
                       <b> </b>
                     </p>
                   </li> */}
-                  <li>
-                    <i className="fa-solid fa-check" />
-                    <p>
-                      <b>
-                        Implementing risk management strategies, such as
-                        insurance or alternative suppliers, to minimize
-                        potential losses.
-                      </b>
-                    </p>
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check" />
-                    <p>
-                      <b>
-                        Maintaining compliance with import and export
-                        regulations
-                      </b>
-                    </p>
-                  </li>
-                </ul>
+                    <li>
+                      <i className="fa-solid fa-check" />
+                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
+                        <b>
+                          Our team implements comprehensive risk management
+                          strategies, such as insurance or alternative
+                          suppliers, to minimize potential losses and ensure
+                          business continuity. We maintain strict compliance
+                          with import and export regulations, safeguarding our
+                          operations against legal and financial repercussions.
+                        </b>
+                      </p>
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-check" />
+                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
+                        <b>
+                          By conducting thorough quality control checks, we
+                          ensure that all products meet the highest standards
+                          before reaching our clients. OMDYS International LLP
+                          proactively addresses production delays by maintaining
+                          robust communication with suppliers and monitoring
+                          project timelines closely.
+                        </b>
+                      </p>
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-check" />
+                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
+                        <b>
+                          We employ advanced forecasting tools to manage
+                          currency fluctuations, protecting our clients from
+                          unexpected cost variations. Our risk management
+                          framework includes contingency planning, allowing us
+                          to swiftly adapt to unforeseen challenges in the
+                          supply chain.
+                        </b>
+                      </p>
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-check" />
+                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
+                        <b>
+                          Regular audits and assessments help us identify
+                          potential vulnerabilities in our processes, enabling
+                          us to take corrective actions promptly. At OMDYS
+                          International LLP, we believe that effective risk
+                          management is crucial to delivering reliable and
+                          efficient service to our clients, fostering long-term
+                          partnerships built on trust and dependability.
+                        </b>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </>
     </>
   );
 };

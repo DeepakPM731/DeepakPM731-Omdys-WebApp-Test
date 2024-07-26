@@ -25,7 +25,7 @@ const Activities = () => {
         <div className="container">
           <div className="row">
             <div className="banner-details">
-              <h2>Our Main Activities</h2>
+              <h2>Our Core Business</h2>
               <p>
                 WE SPECIALIZE IN TRADING COMPREHENSIVE PRINTING SOLUTIONS,
                 IMPORTING ELECTRONIC COMPONENTS, INDUSTRIAL CONSTRUCTION TOOLS
@@ -61,15 +61,15 @@ const Activities = () => {
             <figure>
               <img src="assets/images/heading-icon.png" alt="Heading Icon" />
             </figure>
-            <span>Our Main </span>
-            <h2>Activities</h2>
+            <span>Our Core </span>
+            <h2>Business</h2>
           </div>
           <div className="container">
             <div className="row">
               <ul style={{ marginBottom: '-8%' }}>
                 <li data-aos="zoom-in-up">
                   <div className="data">
-                    <h3> Trading of complete printing solutions – Importing</h3>
+                    <h3> Printing Solutions</h3>
                     <p style={{ textAlign: 'justify' }}>
                       We provide a wide range of printing solutions, customized
                       to meet various printing needs.
@@ -101,7 +101,7 @@ const Activities = () => {
                     </figure>
                   </div>
                   <div className="data">
-                    <h3> Trading of Electronics components – Importing</h3>
+                    <h3> Electronics Components </h3>
                     <p style={{ textAlign: 'justify' }}>
                       We partner with leading manufacturers to deliver reliable
                       and authentic electronic components for diverse
@@ -113,9 +113,7 @@ const Activities = () => {
                 </li>
                 <li data-aos="zoom-in-up">
                   <div className="data">
-                    <h3>
-                      Trading of industrial construction tools and equipment
-                    </h3>
+                    <h3>Industrial Construction Tools and Equipment</h3>
                     <p style={{ textAlign: 'justify' }}>
                       We provide a comprehensive range of certified safety
                       equipment for the construction industry, ensuring worker
@@ -149,7 +147,7 @@ const Activities = () => {
                     </figure>
                   </div>
                   <div className="data">
-                    <h3> Trading of Healthcare PPE Products – Importing</h3>
+                    <h3> Health Care PPE Products</h3>
                     <p style={{ textAlign: 'justify' }}>
                       We import certified Health care products, meeting the
                       needs of healthcare facilities and professionals.{' '}
@@ -161,7 +159,7 @@ const Activities = () => {
                 </li>
                 <li data-aos="zoom-in-up">
                   <div className="data">
-                    <h3>Trading of Industrial Chemical products</h3>
+                    <h3>Oil & Gas Equipment Supply</h3>
                     <p style={{ textAlign: 'justify' }}>
                       We offer expertise in exporting specialized petrochemical
                       mechanical products, ensuring safe and efficient project
