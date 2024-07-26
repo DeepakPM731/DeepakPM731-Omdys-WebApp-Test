@@ -680,11 +680,11 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
-                  <Link to={'/service-single'}>
-                    <a href="JavaScript:void(0)" style={{ color: 'white' }}>
+                  {/* <Link to={'/service-single'}> */}
+                    <a href="/service-single" style={{ color: 'white' }}>
                       Services
                     </a>
-                  </Link>
+                  {/* </Link> */}
                   <ul className="sub-menu">
                     <li>
                       <a href="/service-one">

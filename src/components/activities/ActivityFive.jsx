@@ -167,6 +167,20 @@ const ActivityFive = () => {
                       <figure>
                         <img
                           className="w-100"
+                          src="assets/images/activity-four/svg/log/cleaning.svg"
+                          // src="assets/images/activity-four/sanitizer.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="image" data-aos="fade-right">
+                      <figure>
+                        <img
+                          className="w-100"
                           src="assets/images/activity-four/svg/log/Sanitizers and Disinfectants.svg"
                           // src="assets/images/activity-four/sanitizer.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
@@ -174,6 +188,13 @@ const ActivityFive = () => {
                           alt="Core Values Image 1"
                         />
                       </figure>
+                    </div>
+                    <div className="data">
+                      <h3>Cleaning Solutions</h3>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        Hand sanitizers, disinfectant wipes, and surface
+                        disinfectants for maintaining hygiene protocols.
+                      </p>
                     </div>
                   </li>
                 </ul>
