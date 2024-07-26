@@ -6,9 +6,6 @@ import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
   const navigate = useNavigate();
-  useEffect(() => {
-    window.scrollTo(0, document.body.scrollHeight / 6);
-  }, []);
 
   // State to manage which accordion is active
   const [activeAccordion, setActiveAccordion] = useState(0);
@@ -172,45 +169,17 @@ const ContactForm = () => {
             )}
           </Toaster>
           ;
-          <div
-            className="parallax"
-            style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
-          />
-          <div className="container">
-            <div className="row">
-              <div className="banner-details">
-                <h2>Contact Us</h2>
-                <p>GET IN TOUCH FOR TAILORED COMMODITY TRADING SOLUTIONS</p>
-              </div>
-            </div>
-          </div>
-          <div className="breadcrums">
-            <div className="container">
-              <div className="row">
-                <ul>
-                  <li>
-                    <Link to={'/'}>
-                      <i className="fa-solid fa-house" />
-                      <p>Home</p>
-                    </Link>
-                  </li>
-                  <li className="current">
-                    <p>Contact Us</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </section>
         {/* Banner Style One End */}
         {/* Contact Form 2 Start */}
-        <section className="gap contact-form-2">
+        <section className="gap contact-form-2" style={{ paddingTop: '5%' }}>
+          <h2>jhgjh</h2>
           <div className="container">
             <div className="row">
               <div className="col-lg-7">
                 <div className="data">
-                  {/* <span>How can we help?</span>
-                  <h2>Quality &amp; Passion With Contact Form</h2> */}
+                  {/* <span>How can we help?</span> */}
+                  {/* <h2>Quality &amp; Passion With Contact Form</h2> */}
                   <span style={{ fontSize: '18px' }}>
                     <b> How can we help?</b>
                   </span>

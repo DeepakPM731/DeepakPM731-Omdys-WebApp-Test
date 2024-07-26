@@ -50,7 +50,8 @@ const ActivityTwo = () => {
           className="industry"
           style={{ width: '100%' }}
           // src="assets/svg4/petroleum and petrochemical products (2).svg"
-          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+2.svg"
+          src="assets/images/activity-four/svg/Cover_Electronics.svg"
+          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+2.svg"
           alt="Our Project One Image 1"
         />
       </div>
@@ -142,7 +143,8 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/ic.png"
+                          src="assets/images/activity-four/svg/IC_2.svg"
+                          // src="assets/images/activity-four/ic.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                           alt="Core Values Image 1"
