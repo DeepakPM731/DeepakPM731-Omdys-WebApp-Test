@@ -46,6 +46,7 @@ const Articles = () => {
   // console.log(data);
   return (
     <>
+      <br />
       {data.length === 0 ? (
         <>
           <section className="gap no-top blog-style-one">
@@ -121,13 +122,13 @@ const Articles = () => {
                           </h2>
                           <div className="blog-author d-flex-all justify-content-start">
                             <div className="author-img">
-                                <figure>
-                                  <img
-                                    // src="	https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg"
-                                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/arrowright.jpeg"
-                                    alt="Blog Author Img"
-                                  />
-                                </figure>
+                              <figure>
+                                <img
+                                  // src="	https://winsfolio.net/html/builty/assets/images/blog-img-1.jpg"
+                                  src="https://s3.ap-south-1.amazonaws.com/omdys.com/arrowright.jpeg"
+                                  alt="Blog Author Img"
+                                />
+                              </figure>
                             </div>
                             <div className="details">
                               <h3>

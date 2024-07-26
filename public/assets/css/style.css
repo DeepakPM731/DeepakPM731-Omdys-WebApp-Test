@@ -1242,7 +1242,8 @@ button.scrollTopStick:hover i {
   margin-bottom: 50px;
 }
 .about-style-one .about-data-right {
-  padding-top: 130px;
+  /* padding-top: 130px; */
+  padding-top: 0px;
 }
 .about-style-one .about-data-right .about-info {
   padding-left: 110px;
@@ -7147,6 +7148,13 @@ img.light-icon {
   }
 } */
 
+/* --------------------welcome-------------------- */
+@media screen and (max-width: 1600px) {
+  .about-style-one .about-data-right {
+    /* padding-top: 130px; */
+    padding-top: 0px;
+  }
+}
 /* ----------------------------------------------- */
 .pipelist {
   margin-top: -11%;

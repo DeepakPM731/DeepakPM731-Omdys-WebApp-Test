@@ -20,7 +20,7 @@ const AboutPage = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>About Us</h2>
-                <p>OUR VALUES HAVE VAULTED US TO THE TOP OF OUR INDUSTRY.</p>
+                <p>CONNECTING MARKETS, DELIVERING EXCELLENCE</p>
               </div>
             </div>
           </div>
@@ -61,31 +61,31 @@ const AboutPage = () => {
           </div>
 
           {/* ------------------------------------------------------------------------------------------------ */}
+          <div className="container" style={{}}>
+            <img
+              className="industry"
+              style={{ width: '100%' }}
+              // src="assets/svg4/petroleum and petrochemical products (2).svg"
+              src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare1.svg"
+              alt="Our Project One Image 1"
+            />
+          </div>
+          {/* ------------------------------------------------------------------------------------------------ */}
           <div className="container">
-            <h3
+            <br />
+            <h2
               style={{
-                fontSize: '24px',
+                fontSize: '34px',
                 color: '#444',
                 fontWeight: 'bold',
                 fontFamily: 'Montserrat',
                 marginBottom: '20px',
+                textAlign: 'center',
               }}
             >
               Who We Are?
-            </h3>
+            </h2>
             <p style={{ textAlign: 'justify' }}>
-              <img
-                // className="w-100"
-
-                src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare1.svg"
-                className="whoweare"
-                alt="About Image One"
-                style={{
-                  float: 'right',
-                  marginLeft: '2%',
-                  // border: '1px dotted black',
-                }}
-              />
               Born in the heart of industrial-Hosur, Tamil Nadu, OMDYS
               International LLP is a young and dynamic sourcing and trading
               company. With a wealth of experience under our belt, we have a
@@ -110,7 +110,7 @@ const AboutPage = () => {
               industry.
               <br />
               <br />
-              <b style={{ fontSize: '24px' }}>Our Main Services Include:</b>
+              {/* <b style={{ fontSize: '24px' }}>Our Main Services Include:</b>
               <br />
               <br />
               <b>Sourcing and Procurement Services: </b>We specialize in
@@ -128,7 +128,6 @@ const AboutPage = () => {
               <br />
               <br />
               <img
-                // className="w-100"
 
                 src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare2.svg"
                 className="whowearetwo"
@@ -136,7 +135,6 @@ const AboutPage = () => {
                 style={{
                   float: 'right',
                   marginLeft: '2%',
-                  // border: '1px dotted black',
                 }}
               />
               <b>Trading of Industrial Construction Tools and Equipment:</b> We
@@ -166,7 +164,7 @@ const AboutPage = () => {
                 At OMDYS International LLP, our goal is to simplify your
                 sourcing and trading needs by offering a one-stop solution that
                 ensures quality, efficiency, and cost-effectiveness.
-              </b>
+              </b> */}
             </p>
           </div>
           {/* ------------------------------------------------------------------------------------------------ */}

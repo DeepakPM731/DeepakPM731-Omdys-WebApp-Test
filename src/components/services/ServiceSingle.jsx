@@ -181,7 +181,7 @@ const ServiceSingle = () => {
                         <figure>
                           <img
                             className="w-100"
-                            src="https://s3.ap-south-1.amazonaws.com/omdys.com/Printing+Solutions.svg"
+                            src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                             // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
                             // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                             alt="Core Values Image 1"

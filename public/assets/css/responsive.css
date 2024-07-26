@@ -294,7 +294,7 @@
     padding-top: 45px;
   }
   .about-style-one .about-data-right {
-    padding-top: 60px;
+    padding-top: 0px;
   }
   .about-style-one .about-data-right .about-info {
     padding-left: 60px;
@@ -1377,7 +1377,7 @@
     height: 105%;
   }
   .about-style-one .about-data-right {
-    padding-top: 80px;
+    padding-top: 0px;
   }
   .client-review-slider .owl-dots {
     margin-top: 40px;
@@ -2894,7 +2894,7 @@
     line-height: 35px;
   }
   .about-style-one .about-data-right {
-    padding-top: 50px;
+    padding-top: 60px;
   }
   .acc2 .accordion-item button {
     line-height: 20px;

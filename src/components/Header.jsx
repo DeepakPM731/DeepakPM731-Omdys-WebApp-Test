@@ -126,6 +126,14 @@ const Header = () => {
                                   {/* <a href="javascript:void(0)">Core Values</a> */}
                                 </Link>
                               </li>
+                              <li>
+                                <Link to={'javascript:void(0)'}>
+                                  <a className="tag" href="/team">
+                                    {' '}
+                                    Core Team
+                                  </a>
+                                </Link>
+                              </li>
                               {/* <li>
                                 <a href="leadership.html">Leadership</a>
                               </li>
@@ -677,13 +685,21 @@ const Header = () => {
                       </a>
                       {/* </Link> */}
                     </li>
+                    <li>
+                      {/* <Link to={'/core-values'}> */}{' '}
+                      <a href="/team" style={{ color: 'white' }}>
+                        {' '}
+                        Core Team
+                      </a>
+                      {/* </Link> */}
+                    </li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
                   {/* <Link to={'/service-single'}> */}
-                    <a href="/service-single" style={{ color: 'white' }}>
-                      Services
-                    </a>
+                  <a href="/service-single" style={{ color: 'white' }}>
+                    Services
+                  </a>
                   {/* </Link> */}
                   <ul className="sub-menu">
                     <li>
