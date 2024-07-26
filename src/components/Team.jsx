@@ -8,7 +8,7 @@ const Team = () => {
         </figure>
         {/* <span>Let us help with our products</span> */}
         <h2>Meet Our Team</h2>
-        <hr />
+        {/* <hr /> */}
       </div>
       {/* <div className="container">
         <h2 style={{ textAlign: 'center' }}>Meet Our Team</h2>
