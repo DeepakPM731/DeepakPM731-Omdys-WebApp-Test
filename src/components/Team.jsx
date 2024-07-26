@@ -24,19 +24,19 @@ const Team = () => {
               className="profile-icon"
             />
             <div className="profile-name">Mr Manjunathan C</div>
-            <div className="profile-position">ACCOUNTS MANAGER</div>
+            <div className="profile-position">ACCOUNTS </div>
             {/* <a href="#" className="button">
               Connect
             </a> */}
           </div>
           <div className="profile-card">
             <img
-              src="assets/images/activity-four/Pinterest.jpg"
+              src="assets/images/team/PP.jpg"
               alt="image3"
               className="profile-icon"
             />
             <div className="profile-name">Mr Savin Nadh M</div>
-            <div className="profile-position">TECHNICAL MANAGER</div>
+            <div className="profile-position">TECHNICAL </div>
 
             {/* <a href="#" className="button">
               Connect
@@ -44,7 +44,7 @@ const Team = () => {
           </div>
           <div className="profile-card">
             <img
-              src="assets/images/activity-four/Pinterest.jpg"
+              src="assets/images/team/Deepak.jpg"
               alt="image2"
               className="profile-icon"
             />
@@ -57,12 +57,12 @@ const Team = () => {
 
           <div className="profile-card">
             <img
-              src="assets/images/activity-four/Pinterest.jpg"
+              src="assets/images/team/Rajendran.jpg"
               alt="image1"
               className="profile-icon"
             />
             <div className="profile-name">Mr Rajendran M</div>
-            <div className="profile-position">LOGISTIC MANAGER</div>
+            <div className="profile-position">LOGISTICS</div>
             {/* <a href="#" className="button">
               Connect
             </a> */}

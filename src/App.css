@@ -311,3 +311,86 @@
     font-size: 14px;
   }
 }
+
+/* ------------------------contact form banner--------------------- */
+
+.bannercontact {
+  background: black;
+  padding-top: 150px;
+  position: relative;
+  z-index: 0;
+}
+.bannercontact .banner-details h2 {
+  font-size: 60px;
+  color: white;
+}
+.bannercontact .banner-details p {
+  color: #c1c1c1;
+  margin-top: 5px;
+}
+.bannercontact .banner-details {
+  padding-bottom: 75px;
+}
+.bannercontact .breadcrums {
+  border-top: 1px solid #444;
+  padding: 30px 0 28px;
+}
+.bannercontact .breadcrums ul li {
+  display: inline-flex;
+  align-items: flex-end;
+}
+.bannercontact .breadcrums ul li:not(:last-child) {
+  margin-right: 15px;
+}
+.bannercontact .breadcrums ul li i,
+.bannercontact .breadcrums ul li p,
+.bannercontact .breadcrums ul li a {
+  color: #c2c1c1;
+}
+.bannercontact .breadcrums ul li a {
+  display: flex;
+  align-items: flex-end;
+}
+.bannercontact .breadcrums ul li i {
+  font-size: 20px;
+}
+.bannercontact .breadcrums ul li p {
+  line-height: 13px;
+  margin-left: 8px;
+  border-bottom: 1px solid #717070;
+}
+.bannercontact .breadcrums ul li.current p {
+  font-weight: bold;
+}
+.bannercontact .parallax {
+  background-size: contain;
+  background-position: center right;
+  opacity: 0.2;
+  left: 13% !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .bannercontact {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .bannercontact {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bannercontact {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .bannercontact {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .bannercontact {
+    padding-top: 30px;
+  }
+}

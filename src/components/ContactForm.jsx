@@ -152,28 +152,24 @@ const ContactForm = () => {
   return (
     <>
       <>
+        <Toaster>
+          {(t) => (
+            <ToastBar
+              toast={t}
+              style={{
+                ...t.style,
+                animation: t.visible
+                  ? 'custom-enter 3s ease'
+                  : 'custom-exit 1s ease',
+              }}
+            />
+          )}
+        </Toaster>
         {/* Banner Style One Start */}
-        <section className="banner-style-one">
-          {/* <Toaster /> */}
-          <Toaster>
-            {(t) => (
-              <ToastBar
-                toast={t}
-                style={{
-                  ...t.style,
-                  animation: t.visible
-                    ? 'custom-enter 3s ease'
-                    : 'custom-exit 1s ease',
-                }}
-              />
-            )}
-          </Toaster>
-          ;
-        </section>
+        <section className="bannercontact"></section>
         {/* Banner Style One End */}
         {/* Contact Form 2 Start */}
-        <section className="gap contact-form-2" style={{ paddingTop: '5%' }}>
-          <h2>jhgjh</h2>
+        <section className="gap contact-form-2" style={{ paddingTop: '25px' }}>
           <div className="container">
             <div className="row">
               <div className="col-lg-7">

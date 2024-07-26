@@ -27,7 +27,7 @@ const Projects = () => {
                     <div className="project-data">
                       <h3>
                         <Link to={'/activity-one'}>
-                          <a href="">Complete Printing Solutions</a>
+                          <a href="">Printing Solutions</a>
                         </Link>
                       </h3>
                       {/* <p>
@@ -94,7 +94,7 @@ const Projects = () => {
                       <h3>
                         <Link to={'/activity-three'}>
                           <a href="javascript:void(0)">
-                            Industrial Construction Tools and Equipment
+                            Construction Tools and Equipments
                           </a>
                         </Link>
                       </h3>
@@ -126,9 +126,7 @@ const Projects = () => {
                     <div className="project-data">
                       <h3>
                         <Link to={'/activity-four'}>
-                          <a href="project-detail.html">
-                            Industrial Chemical Products
-                          </a>
+                          <a href="project-detail.html">Oil and Gas Products</a>
                         </Link>
                       </h3>
                       {/* <p>
@@ -159,7 +157,9 @@ const Projects = () => {
                     <div className="project-data">
                       <h3>
                         <Link to={'/activity-five'}>
-                          <a href="javascript:void(0)">Health Care Products</a>
+                          <a href="javascript:void(0)">
+                            Health Care PPE Products
+                          </a>
                         </Link>
                       </h3>
                       {/* <p>
