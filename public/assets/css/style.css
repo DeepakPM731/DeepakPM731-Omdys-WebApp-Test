@@ -7140,12 +7140,12 @@ img.light-icon {
   height: 250px;
 }
 /* ------------navbar--------- */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .nav-bar {
     margin-right: auto;
     margin-left: auto;
   }
-}
+} */
 
 /* ----------------------------------------------- */
 .pipelist {

@@ -4,15 +4,15 @@ const ActivityTwo = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
- useEffect(() => {
-   let elements = document.querySelectorAll('[data-aos]');
-   for (let i = 0; i < elements.length; i++) {
-     //if ios remove the attribute
-     if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
-       elements[i].removeAttribute('data-aos');
-     }
-   }
- });
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
+      }
+    }
+  });
 
   return (
     <>
@@ -330,7 +330,14 @@ const ActivityTwo = () => {
       </div>
 
       {/* ----------------------test-------------------------- */}
-
+      <div className="heading" style={{ marginTop: '30px' }}>
+        <figure>
+          <img src="assets/images/heading-icon.png" alt="heading-icon" />
+        </figure>
+        {/* <span>Let us help with our products</span> */}
+        <h2>Why Choose Us?</h2>
+        <hr />
+      </div>
       <section className="gap blog-style-two" style={{ marginTop: '-8%' }}>
         <div className="heading">
           <figure>

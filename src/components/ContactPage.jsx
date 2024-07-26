@@ -90,7 +90,7 @@ const ContactPage = () => {
         formDatas.append('Message', formData.message);
 
         toast.success(
-          'Thank you for your enquiry, Our sales team will contact you soon!',
+          'We have received your enquiry, Our sales team will contact you soon!',
           {
             // position: 'bottom-center',
             position: 'center-right',

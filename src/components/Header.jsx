@@ -166,66 +166,27 @@ const Header = () => {
                             </ul>
                           </li> */}
                           <li className="menu-item-has-children">
-                            <a href="JavaScript:void(0)">Services</a>
+                            <Link to={'/service-single'}>
+                              <a href="JavaScript:void(0)">Services</a>
+                            </Link>
                             <ul className="sub-menu">
-                              <li className="menu-item-has-children">
-                                <Link to={'javascript:void(0)'}>
-                                  <a className="tag" href="/activities">
-                                    Our Main Activities
-                                  </a>
-                                </Link>
-
-                                <ul className="sub-menu">
-                                  <li>
-                                    {/* <Link to={'/activity-one'}> */}
-                                    <a href="/activity-one">
-                                      Printing Solutions
-                                    </a>
-                                    {/* </Link> */}
-                                  </li>
-                                  <li>
-                                    {/* <Link to={'/activity-two'}> */}
-                                    <a href="/activity-two">
-                                      Electronics Components Trading
-                                    </a>
-                                    {/* </Link> */}
-                                  </li>
-                                  <li>
-                                    {/* <Link to={'/activity-three'}> */}
-                                    <a href="/activity-three">
-                                      Industrial Construction Tools and
-                                      Equipment Trading
-                                    </a>
-                                    {/* </Link> */}
-                                  </li>
-                                  {/* <li>
-                                    <a href="/activity-four">
-                                      Industrial Chemical Products Supply
-                                    </a>
-                                  </li> */}
-                                  <li>
-                                    {/* <Link to={'/activity-five'}> */}
-                                    <a href="/activity-five">
-                                      Healthcare PPE Products
-                                    </a>
-                                    {/* </Link> */}
-                                  </li>
-                                  <li>
-                                    {/* <Link to={'/activity-five'}> */}
-                                    <a href="/activity-four">
-                                      Industrial Chemical Products
-                                    </a>
-                                    {/* </Link> */}
-                                  </li>
-                                </ul>
+                              <li>
+                                <a href="/service-one">
+                                  Supplier Identification & Sourcing
+                                </a>
                               </li>
                               <li>
-                                <Link to={'/service-single'}>
-                                  <a className="tag" href="/service-single">
-                                    Services
-                                  </a>
-                                </Link>
-
+                                <a href="/service-two">Product Management</a>
+                              </li>
+                              <li>
+                                <a href="/service-three">
+                                  Logistics & Shipping
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/service-four">Risk Management</a>
+                              </li>
+                              <li>
                                 {/* <ul className="sub-menu">
                                   <li>
                                     
@@ -255,6 +216,267 @@ const Header = () => {
                                   </li>
                                 </ul> */}
                               </li>
+                              {/* <li className="menu-item-has-children">
+                                <a href="javascript:void(0)">Projects</a>
+                                <ul className="sub-menu">
+                                  <li>
+                                    <a href="our-projects-1.html">
+                                      Our Projects One
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="our-projects-2.html">
+                                      Our Projects Two
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="project-detail.html">
+                                      Project Detail
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li> */}
+
+                              <li className="">
+                                {/* <Link to={'/team'}>Team */}
+                                {/* <a className="tag" href="/team">
+                                  <span style={{ marginLeft: '5px' }}>
+                                    Team
+                                  </span>
+                                </a> */}
+                              </li>
+                              {/* </Link> */}
+                              {/* <ul className="sub-menu">
+                                  <li>
+                                    <a href="our-team.html">Our Team</a>
+                                  </li>
+                                  <li>
+                                    <a href="team-detail.html">Team Detail</a>
+                                  </li>
+                                </ul> */}
+
+                              {/* <li>
+                                <a href="login.html">Login &amp; Register</a>
+                              </li> */}
+                            </ul>
+                          </li>
+                          <li className="menu-item-has-children">
+                            <a href="/activities">Products</a>
+                            {/* <ul className="sub-menu">
+                              <li className="menu-item-has-children">
+                                <Link to={'javascript:void(0)'}>
+                                  <a className="tag" href="/activities">
+                                    Our Main Activities
+                                  </a>
+                                </Link> */}
+
+                            <ul className="sub-menu">
+                              <li className="menu-item-has-children">
+                                {/* <Link to={'/activity-one'}> */}
+                                <a href="/activity-one">Printing Solutions</a>
+                                {/* </Link> */}
+                                <ul className="sub-menu">
+                                  <li>
+                                    <a href="/activity-one">Eco-Solvent Inks</a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-one">UV Inks</a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-one">
+                                      Solvent-Based Inks
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-one">
+                                      Printing Equipment
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-one">Media Supplies</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li className="menu-item-has-children">
+                                {/* <Link to={'/activity-two'}> */}
+                                <a href="/activity-two">
+                                  Electronics Components
+                                </a>
+                                {/* </Link> */}
+                                <ul className="sub-menu">
+                                  <li>
+                                    <a href="/activity-two">
+                                      Integrated Circuits (ICs)
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-two">
+                                      Passive Components
+                                    </a>
+                                  </li>
+
+                                  <li>
+                                    <a href="/activity-two">
+                                      Active Components
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-two">
+                                      Connectors and Cables
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-two">
+                                      Sensors and Modules
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-two">
+                                      LEDs and Displays
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-two">
+                                      Power Supplies and Batteries
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-two">
+                                      Switches and Relays
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-two">Semiconductors</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li className="menu-item-has-children">
+                                {/* <Link to={'/activity-three'}> */}
+                                <a href="/activity-three">
+                                  Construction Tools and Equipments
+                                </a>
+                                {/* </Link> */}
+                                <ul className="sub-menu">
+                                  <li>
+                                    <a href="/activity-three">Hand Tools</a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-three">Power Tools</a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-three">
+                                      Gardening Tools
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-three">
+                                      Electrical Tools and Supplies
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-three">
+                                      Plumbing Tools and Supplies
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-three">
+                                      Safety Equipment
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-three">Fasteners</a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-three">
+                                      Building Materials
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-three">
+                                      Hardware Accessories
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                              {/* <li>
+                                    <a href="/activity-four">
+                                      Industrial Chemical Products Supply
+                                    </a>
+                                  </li> */}
+                              <li className="menu-item-has-children">
+                                {/* <Link to={'/activity-five'}> */}
+                                <a href="/activity-five">
+                                  Healthcare PPE Products
+                                </a>
+                                {/* </Link> */}
+                                <ul className="sub-menu">
+                                  <li>
+                                    <a href="/activity-five">Face Masks</a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-five">
+                                      Protective Apparel
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-five">Gloves</a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-five">Eye Protection</a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-five">
+                                      Sanitizers and Disinfectants
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li className="menu-item-has-children">
+                                {/* <Link to={'/activity-five'}> */}
+                                <a href="/activity-four">
+                                  Oil and Gas Products
+                                </a>
+                                {/* </Link> */}
+                                <ul className="sub-menu">
+                                  <li>
+                                    <a href="/activity-four">Valves</a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-four">Pipes</a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-four">
+                                      Fittings and Connectors
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-four">
+                                      Gaskets and Seals
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-four">Bolts and Nuts</a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-four">
+                                      Hoses and Tubing
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/activity-four">
+                                      Instrumentation and Controls
+                                    </a>
+                                  </li>
+                                  {/* <li>
+                                    <a href="/service-four">
+                                      Safety and Maintenance
+                                    </a>
+                                  </li> */}
+                                </ul>
+                                {/* </li>
+                                </ul> */}
+                              </li>
+
                               {/* <li className="menu-item-has-children">
                                 <a href="javascript:void(0)">Projects</a>
                                 <ul className="sub-menu">
@@ -417,15 +639,14 @@ const Header = () => {
             <div className="mobile-nav" id="mobile-nav">
               <div className="res-log">
                 <a href="/">
-
-                <img
-                  className="responsive-logo"
-                  src="assets/images/OMDYS_LOGO_Horizontal.png"
-                  width={'230'}
-                  height={'85'}
-                  alt="Responsive Logo"
+                  <img
+                    className="responsive-logo"
+                    src="assets/images/OMDYS_LOGO_Horizontal.png"
+                    width={'230'}
+                    height={'85'}
+                    alt="Responsive Logo"
                   />
-                  </a>
+                </a>
               </div>
               <ul>
                 <li>
@@ -433,18 +654,6 @@ const Header = () => {
                   <a href="/" style={{ color: 'white' }}>
                     Home
                   </a>
-
-                  {/* <ul className="sub-menu">
-                    <li>
-                      <a href="index.html">Home One</a>
-                    </li>
-                    <li>
-                      <a href="index-2.html">Home Two</a>
-                    </li>
-                    <li>
-                      <a href="index-3.html">Home Three</a>
-                    </li>
-                  </ul> */}
                 </li>
                 <li className="menu-item-has-children">
                   {/* <Link to={'/about'}> */}
@@ -468,91 +677,252 @@ const Header = () => {
                       </a>
                       {/* </Link> */}
                     </li>
-                    {/* <li>
-                      <a href="leadership.html">Leadership</a>
-                    </li>
-                    <li>
-                      <a href="history.html">History</a>
-                    </li> */}
                   </ul>
                 </li>
-                {/* ------------services nav------------ */}
-                {/* <li className="menu-item-has-children">
-                  <a href="JavaScript:void(0)">Services</a>
+                <li className="menu-item-has-children">
+                  <Link to={'/service-single'}>
+                    <a href="JavaScript:void(0)" style={{ color: 'white' }}>
+                      Services
+                    </a>
+                  </Link>
                   <ul className="sub-menu">
-                    <li className="">
-                      <a href="/service-one" style={{ color: 'white' }}>
+                    <li>
+                      <a href="/service-one">
                         Supplier Identification & Sourcing
                       </a>
                     </li>
                     <li>
-                      <a href="/service-two" style={{ color: 'white' }}>
-                        Product Management
-                      </a>
+                      <a href="/service-two">Product Management</a>
                     </li>
                     <li>
-                      <a href="/service-three" style={{ color: 'white' }}>
-                        Logistics & Shipping
-                      </a>
+                      <a href="/service-three">Logistics & Shipping</a>
                     </li>
                     <li>
-                      <a href="/service-four" style={{ color: 'white' }}>
-                        Risk Management
-                      </a>
+                      <a href="/service-four">Risk Management</a>
                     </li>
+                    <li></li>
+
+                    <li className="">
+                      {/* <Link to={'/team'}>Team */}
+                      {/* <a className="tag" href="/team">
+                                  <span style={{ marginLeft: '5px' }}>
+                                    Team
+                                  </span>
+                                </a> */}
+                    </li>
+                    {/* </Link> */}
+                    {/* <ul className="sub-menu">
+                                  <li>
+                                    <a href="our-team.html">Our Team</a>
+                                  </li>
+                                  <li>
+                                    <a href="team-detail.html">Team Detail</a>
+                                  </li>
+                                </ul> */}
+
+                    {/* <li>
+                                <a href="login.html">Login &amp; Register</a>
+                              </li> */}
                   </ul>
-                </li> */}
+                </li>
                 <li className="menu-item-has-children">
-                  <a href="JavaScript:void(0)">Services</a>
+                  <Link to={'/activities'}>
+                    <a href="/activities" style={{ color: 'white' }}>
+                      Products
+                    </a>
+                  </Link>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      {/* <Link to={'/activities'}> */}
-                      <a href="/activities" style={{ color: 'white' }}>
-                        Our Main Activities
+                      {/* <Link to={'/activity-one'}> */}
+                      <a href="/activity-one">Printing Solutions</a>
+                      {/* </Link> */}
+                      <ul className="sub-menu">
+                        <li>
+                          <a href="/activity-one">Eco-Solvent Inks</a>
+                        </li>
+                        <li>
+                          <a href="/activity-one">UV Inks</a>
+                        </li>
+                        <li>
+                          <a href="/activity-one">Solvent-Based Inks</a>
+                        </li>
+                        <li>
+                          <a href="/activity-one">Printing Equipment</a>
+                        </li>
+                        <li>
+                          <a href="/activity-one">Media Supplies</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="menu-item-has-children">
+                      {/* <Link to={'/activity-two'}> */}
+                      <a href="/activity-two">Electronics Components</a>
+                      {/* </Link> */}
+                      <ul className="sub-menu">
+                        <li>
+                          <a href="/activity-two">Integrated Circuits (ICs)</a>
+                        </li>
+                        <li>
+                          <a href="/activity-two">Passive Components</a>
+                        </li>
+
+                        <li>
+                          <a href="/activity-two">Active Components</a>
+                        </li>
+                        <li>
+                          <a href="/activity-two">Connectors and Cables</a>
+                        </li>
+                        <li>
+                          <a href="/activity-two">Sensors and Modules</a>
+                        </li>
+                        <li>
+                          <a href="/activity-two">LEDs and Displays</a>
+                        </li>
+                        <li>
+                          <a href="/activity-two">
+                            Power Supplies and Batteries
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/activity-two">Switches and Relays</a>
+                        </li>
+                        <li>
+                          <a href="/activity-two">Semiconductors</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="menu-item-has-children">
+                      {/* <Link to={'/activity-three'}> */}
+                      <a href="/activity-three">
+                        Construction Tools and Equipments
                       </a>
                       {/* </Link> */}
                       <ul className="sub-menu">
                         <li>
-                          {/* <Link to={'/activity-one'}> */}
-                          <a href="/activity-one">Printing Solutions</a>
-                          {/* </Link> */}
+                          <a href="/activity-three">Hand Tools</a>
                         </li>
                         <li>
-                          {/* <Link to={'/activity-two'}> */}
-                          <a href="/activity-two">
-                            Electronics Components Trading
-                          </a>
-                          {/* </Link> */}
+                          <a href="/activity-three">Power Tools</a>
                         </li>
                         <li>
-                          {/* <Link to={'/activity-three'}> */}
+                          <a href="/activity-three">Gardening Tools</a>
+                        </li>
+                        <li>
                           <a href="/activity-three">
-                            Industrial Construction Tools and Equipment Trading
+                            Electrical Tools and Supplies
                           </a>
-                          {/* </Link> */}
-                        </li>
-
-                        <li>
-                          {/* <Link to={'/activity-five'}> */}
-                          <a href="/activity-five">Healthcare PPE Products</a>
-                          {/* </Link> */}
                         </li>
                         <li>
-                          {/* <Link to={'/activity-five'}> */}
-                          <a href="/activity-four">
-                            Industrial Chemical Products
+                          <a href="/activity-three">
+                            Plumbing Tools and Supplies
                           </a>
-                          {/* </Link> */}
+                        </li>
+                        <li>
+                          <a href="/activity-three">Safety Equipment</a>
+                        </li>
+                        <li>
+                          <a href="/activity-three">Fasteners</a>
+                        </li>
+                        <li>
+                          <a href="/activity-three">Building Materials</a>
+                        </li>
+                        <li>
+                          <a href="/activity-three">Hardware Accessories</a>
                         </li>
                       </ul>
                     </li>
-
+                    {/* <li>
+                                    <a href="/activity-four">
+                                      Industrial Chemical Products Supply
+                                    </a>
+                                  </li> */}
                     <li className="menu-item-has-children">
-                      {/* <Link to={'/activities'}> */}
-                      <a href="/service-single" style={{ color: 'white' }}>
-                        Sevices
-                      </a>
+                      {/* <Link to={'/activity-five'}> */}
+                      <a href="/activity-five">Healthcare PPE Products</a>
+                      {/* </Link> */}
+                      <ul className="sub-menu">
+                        <li>
+                          <a href="/activity-five">Face Masks</a>
+                        </li>
+                        <li>
+                          <a href="/activity-five">Protective Apparel</a>
+                        </li>
+                        <li>
+                          <a href="/activity-five">Gloves</a>
+                        </li>
+                        <li>
+                          <a href="/activity-five">Eye Protection</a>
+                        </li>
+                        <li>
+                          <a href="/activity-five">
+                            Sanitizers and Disinfectants
+                          </a>
+                        </li>
+                      </ul>
                     </li>
+                    <li className="menu-item-has-children">
+                      {/* <Link to={'/activity-five'}> */}
+                      <a href="/activity-four">Oil and Gas Products</a>
+                      {/* </Link> */}
+                      <ul className="sub-menu">
+                        <li>
+                          <a href="/activity-four">Valves</a>
+                        </li>
+                        <li>
+                          <a href="/activity-four">Pipes</a>
+                        </li>
+                        <li>
+                          <a href="/activity-four">Fittings and Connectors</a>
+                        </li>
+                        <li>
+                          <a href="/activity-four">Gaskets and Seals</a>
+                        </li>
+                        <li>
+                          <a href="/activity-four">Bolts and Nuts</a>
+                        </li>
+                        <li>
+                          <a href="/activity-four">Hoses and Tubing</a>
+                        </li>
+                        <li>
+                          <a href="/activity-four">
+                            Instrumentation and Controls
+                          </a>
+                        </li>
+                        {/* <li>
+                                    <a href="/service-four">
+                                      Safety and Maintenance
+                                    </a>
+                                  </li> */}
+                      </ul>
+                      {/* </li>
+                                </ul> */}
+                    </li>
+
+                    {/* <li className="menu-item-has-children">
+                                <a href="javascript:void(0)">Projects</a>
+                                <ul className="sub-menu">
+                                  <li>
+                                    <a href="our-projects-1.html">
+                                      Our Projects One
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="our-projects-2.html">
+                                      Our Projects Two
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="project-detail.html">
+                                      Project Detail
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li> */}
+
+                    <li className="">
+                     
+                    </li>
+                    
                   </ul>
                 </li>
                 <li>

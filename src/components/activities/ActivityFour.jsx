@@ -92,7 +92,14 @@ const ActivityFour = () => {
       {/* ------------Chemical Products Ends ------------------ */}
       {/* ------------Petroleum Products Starts ------------------ */}
       <br />
-      <h2
+      <div className="heading" style={{ marginTop: '30px' }}>
+        <figure>
+          <img src="assets/images/heading-icon.png" alt="heading-icon" />
+        </figure>
+        <span>Let us help with our products</span>
+        <h2>Valves</h2>
+      </div>
+      {/* <h2
         className="petrohead"
         style={{
           fontSize: '36px',
@@ -102,7 +109,7 @@ const ActivityFour = () => {
         }}
       >
         Valves
-      </h2>
+      </h2> */}
       <div className="container">
         {/* <p
           className="twop m-4"
@@ -267,18 +274,13 @@ const ActivityFour = () => {
         </section>
       </div>
       {/* ----------------------------Pipes----------------------------- */}
-      <h2
-        className="petrohead"
-        style={{
-          fontSize: '36px',
-          textAlign: 'center',
-          backgroundColor: 'yellow',
-          padding: '20px',
-          marginBottom: '25px',
-        }}
-      >
-        Pipes
-      </h2>
+      <div className="heading" style={{ marginTop: '30px' }}>
+        <figure>
+          <img src="assets/images/heading-icon.png" alt="heading-icon" />
+        </figure>
+        <span>Let us help with our products</span>
+        <h2>Pipes</h2>
+      </div>
       <br />
       <br />
       <div className="pipehead" style={{ marginTop: '20px' }}>
@@ -370,18 +372,13 @@ const ActivityFour = () => {
         </section>
       </div>
       {/* -------------------------Fittings and Connectors------------------------ */}
-      <h2
-        className="pipehead"
-        style={{
-          fontSize: '36px',
-          textAlign: 'center',
-          backgroundColor: 'yellow',
-          padding: '20px',
-          marginBottom: '25px',
-        }}
-      >
-        Fittings and Connectors
-      </h2>
+      <div className="heading" style={{ marginTop: '30px' }}>
+        <figure>
+          <img src="assets/images/heading-icon.png" alt="heading-icon" />
+        </figure>
+        <span>Let us help with our products</span>
+        <h2>Fittings and Connectors</h2>
+      </div>
       <br />
       <br />
       <div style={{ marginTop: '20px' }}>
@@ -547,18 +544,13 @@ const ActivityFour = () => {
         </section>
       </div>
       {/* -------------------------Gaskets and Seals------------------------ */}
-      <h2
-        className="petrohead"
-        style={{
-          fontSize: '36px',
-          textAlign: 'center',
-          backgroundColor: 'yellow',
-          padding: '20px',
-          marginBottom: '25px',
-        }}
-      >
-        Gaskets and Seals
-      </h2>
+      <div className="heading" style={{ marginTop: '30px' }}>
+        <figure>
+          <img src="assets/images/heading-icon.png" alt="heading-icon" />
+        </figure>
+        <span>Let us help with our products</span>
+        <h2> Gaskets and Seals</h2>
+      </div>
       <br />
       <br />
       <div style={{ marginTop: '20px' }}>
@@ -648,18 +640,13 @@ const ActivityFour = () => {
         </section>
       </div>
       {/* -------------------------Bolts and Nuts------------------------ */}
-      <h2
-        className="petrohead"
-        style={{
-          fontSize: '36px',
-          textAlign: 'center',
-          backgroundColor: 'yellow',
-          padding: '20px',
-          marginBottom: '25px',
-        }}
-      >
-        Bolts and Nuts
-      </h2>
+      <div className="heading" style={{ marginTop: '30px' }}>
+        <figure>
+          <img src="assets/images/heading-icon.png" alt="heading-icon" />
+        </figure>
+        <span>Let us help with our products</span>
+        <h2>Bolts and Nuts</h2>
+      </div>
       <br />
       <br />
       <div style={{ marginTop: '20px' }}>
@@ -749,18 +736,13 @@ const ActivityFour = () => {
         </section>
       </div>
       {/* -------------------------Hoses and Tubing------------------------ */}
-      <h2
-        className="petrohead"
-        style={{
-          fontSize: '36px',
-          textAlign: 'center',
-          backgroundColor: 'yellow',
-          padding: '20px',
-          marginBottom: '25px',
-        }}
-      >
-        Hoses and Tubing
-      </h2>
+      <div className="heading" style={{ marginTop: '30px' }}>
+        <figure>
+          <img src="assets/images/heading-icon.png" alt="heading-icon" />
+        </figure>
+        <span>Let us help with our products</span>
+        <h2>Hoses and Tubing</h2>
+      </div>
       <br />
       <br />
       <div style={{ marginTop: '20px' }}>
@@ -850,18 +832,13 @@ const ActivityFour = () => {
         </section>
       </div>
       {/* -------------------------Instrumentation and Controls------------------------ */}
-      <h2
-        className="petrohead"
-        style={{
-          fontSize: '36px',
-          textAlign: 'center',
-          backgroundColor: 'yellow',
-          padding: '20px',
-          marginBottom: '25px',
-        }}
-      >
-        Instrumentation and Controls
-      </h2>
+      <div className="heading" style={{ marginTop: '30px' }}>
+        <figure>
+          <img src="assets/images/heading-icon.png" alt="heading-icon" />
+        </figure>
+        <span>Let us help with our products</span>
+        <h2>Instrumentation and Controls</h2>
+      </div>
       <br />
       <br />
       <div style={{ marginTop: '20px' }}>
@@ -951,18 +928,13 @@ const ActivityFour = () => {
         </section>
       </div>
       {/* -------------------------Safety and Maintenance------------------------ */}
-      <h2
-        className="petrohead"
-        style={{
-          fontSize: '36px',
-          textAlign: 'center',
-          backgroundColor: 'yellow',
-          padding: '20px',
-          marginBottom: '25px',
-        }}
-      >
-        Safety and Maintenance
-      </h2>
+      <div className="heading" style={{ marginTop: '30px' }}>
+        <figure>
+          <img src="assets/images/heading-icon.png" alt="heading-icon" />
+        </figure>
+        <span>Let us help with our products</span>
+        <h2>Safety and Maintenance</h2>
+      </div>
       <br />
       <br />
       <div style={{ marginTop: '20px' }}>
@@ -1056,6 +1028,15 @@ const ActivityFour = () => {
       {/* =============================test========================================= */}
       <>
         {/* Blog Style Two Start */}
+        <div className="heading" style={{ marginTop: '30px' }}>
+          <figure>
+            <img src="assets/images/heading-icon.png" alt="heading-icon" />
+          </figure>
+          {/* <span>Let us help with our products</span> */}
+          <h2>Why Choose Us?</h2>
+          <hr />
+        </div>
+
         <section className="gap blog-style-two" style={{ marginTop: '-8%' }}>
           <div className="heading">
             <figure>
