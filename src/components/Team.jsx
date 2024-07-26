@@ -2,10 +2,18 @@ const Team = () => {
   return (
     <>
       <br />
-      <div className="container">
+      <div className="heading" style={{ marginTop: '30px' }}>
+        <figure>
+          <img src="assets/images/heading-icon.png" alt="heading-icon" />
+        </figure>
+        {/* <span>Let us help with our products</span> */}
+        <h2>Meet Our Team</h2>
+        <hr />
+      </div>
+      {/* <div className="container">
         <h2 style={{ textAlign: 'center' }}>Meet Our Team</h2>
         <br />
-      </div>
+      </div> */}
       <div className="tmbg">
         <br />
         <div className="profile-container">
