@@ -35,7 +35,8 @@ const Team = () => {
               // src="assets/images/team/PP.jpg"
               alt="image3"
               className="profile-icon"
-              src="assets/images/activity-four/Pinterest.jpg"
+              // src="assets/images/activity-four/Pinterest.jpg"
+              src="assets/images/team/savin.jpg"
             />
             <div className="profile-name">Mr Savin Nadh M</div>
             <div className="profile-position">TECHNICAL </div>

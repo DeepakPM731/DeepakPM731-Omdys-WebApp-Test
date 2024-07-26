@@ -57,6 +57,14 @@ const ServiceSingle = () => {
           </section>
         </div>
         <hr />
+        <div className="heading" style={{ marginTop: '30px' }}>
+          <figure>
+            <img src="assets/images/heading-icon.png" alt="heading-icon" />
+          </figure>
+          {/* <span>Let us help with our products</span> */}
+          <h2>Our Main Services</h2>
+          <hr />
+        </div>
         {/* service starts */}
         <section className="gap about-key-benefits">
           <div className="container">
