@@ -29,7 +29,7 @@ const About = () => {
                 <span>Welcome to Our Company</span>
                 <h2>
                   THINK BEYOND BORDERS, AND TRADE WITH TRUST. YOUR&nbsp;
-                  <nobr>MULTI-FUNCTIONAL</nobr> GATEWAY{' '}
+                 MULTI-FUNCTIONAL GATEWAY
                   <span
                     style={{
                       color: 'red',

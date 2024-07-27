@@ -369,10 +369,12 @@
   left: 13% !important;
 }
 .petroheadline {
-    font-size: 46px;
-    /* margin-bottom: -10%; */
-    
-  }
+  font-size: 46px;
+  /* margin-bottom: -10%; */
+}
+.abouthead {
+  text-align: center;
+}
 @media screen and (max-width: 1200px) {
   .bannercontact {
     padding-top: 30px;
@@ -404,12 +406,19 @@
   .petroheadline {
     font-size: 40px;
   }
+  .abouthead {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 380px) {
   .bannercontact {
     padding-top: 30px;
   }
+
   .petroheadline {
     font-size: 40px;
+  }
+  .abouthead {
+    text-align: center;
   }
 }

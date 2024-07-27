@@ -53,7 +53,7 @@ const AboutPage = () => {
         <section className="gap about-first">
           <div className="container">
             <div className="row">
-              <h2 style={{ textAlign: 'center' }}>
+              <h2 className="abouthead">
                 “ THINK BEYOND BORDERS, AND TRADE WITH TRUST. YOUR
                 MULTI-FUNCTIONAL GATEWAY – OMDYS INTERNATIONAL. ”
               </h2>
