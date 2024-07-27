@@ -1636,7 +1636,8 @@
     padding-top: 60px;
   }
   .banner-style-one .banner-details {
-    padding-bottom: 60px;
+    padding-bottom: 10px;
+    /* padding-bottom: 60px; */
   }
   .banner-style-one .banner-details h2 {
     font-size: 50px;

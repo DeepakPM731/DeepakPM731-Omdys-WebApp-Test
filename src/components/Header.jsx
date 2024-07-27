@@ -290,23 +290,19 @@ const Header = () => {
                                 {/* </Link> */}
                                 <ul className="sub-menu">
                                   <li>
-                                    <a href="/activity-one">Eco-Solvent Inks</a>
+                                    <a href="/ecosolvent">Eco-Solvent Inks</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-one">UV Inks</a>
+                                    <a href="/uv">UV Inks</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-one">
-                                      Solvent-Based Inks
-                                    </a>
+                                    <a href="/solvent">Solvent-Based Inks</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-one">
-                                      Printing Equipment
-                                    </a>
+                                    <a href="/printequip">Printing Equipment</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-one">Media Supplies</a>
+                                    <a href="/media">Media Supplies</a>
                                   </li>
                                 </ul>
                               </li>
@@ -318,20 +314,14 @@ const Header = () => {
                                 {/* </Link> */}
                                 <ul className="sub-menu">
                                   <li>
-                                    <a href="/ic">
-                                      Integrated Circuits (ICs)
-                                    </a>
+                                    <a href="/ic">Integrated Circuits (ICs)</a>
                                   </li>
                                   <li>
-                                    <a href="/passive">
-                                      Passive Components
-                                    </a>
+                                    <a href="/passive">Passive Components</a>
                                   </li>
 
                                   <li>
-                                    <a href="/active">
-                                      Active Components
-                                    </a>
+                                    <a href="/active">Active Components</a>
                                   </li>
                                   <li>
                                     <a href="/connector">
@@ -339,14 +329,10 @@ const Header = () => {
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/sensor">
-                                      Sensors and Modules
-                                    </a>
+                                    <a href="/sensor">Sensors and Modules</a>
                                   </li>
                                   <li>
-                                    <a href="/led">
-                                      LEDs and Displays
-                                    </a>
+                                    <a href="/led">LEDs and Displays</a>
                                   </li>
                                   <li>
                                     <a href="/power">
@@ -354,13 +340,11 @@ const Header = () => {
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/activity-two">
-                                      Switches and Relays
-                                    </a>
+                                    <a href="/switch">Switches and Relays</a>
                                   </li>
-                                  <li>
+                                  {/* <li>
                                     <a href="/semi">Semiconductors</a>
-                                  </li>
+                                  </li> */}
                                 </ul>
                               </li>
                               <li className="menu-item-has-children">
@@ -371,44 +355,40 @@ const Header = () => {
                                 {/* </Link> */}
                                 <ul className="sub-menu">
                                   <li>
-                                    <a href="/activity-three">Hand Tools</a>
+                                    <a href="/hand-tools">Hand Tools</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-three">Power Tools</a>
+                                    <a href="/power-tools">Power Tools</a>
                                   </li>
-                                  <li>
+                                  {/* <li>
                                     <a href="/activity-three">
                                       Gardening Tools
                                     </a>
-                                  </li>
+                                  </li> */}
                                   <li>
-                                    <a href="/activity-three">
-                                      Electrical Tools and Supplies
+                                    <a href="/electrical-tools">
+                                      Electrical Tools
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/activity-three">
-                                      Plumbing Tools and Supplies
-                                    </a>
+                                    <a href="/plumbing-tools">Plumbing Tools</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-three">
-                                      Safety Equipment
-                                    </a>
+                                    <a href="/safety">Safety Equipment</a>
                                   </li>
-                                  <li>
+                                  {/* <li>
                                     <a href="/activity-three">Fasteners</a>
-                                  </li>
-                                  <li>
+                                  </li> */}
+                                  {/* <li>
                                     <a href="/activity-three">
                                       Building Materials
                                     </a>
-                                  </li>
-                                  <li>
+                                  </li> */}
+                                  {/* <li>
                                     <a href="/activity-three">
                                       Hardware Accessories
                                     </a>
-                                  </li>
+                                  </li> */}
                                 </ul>
                               </li>
                               {/* <li>
@@ -452,31 +432,27 @@ const Header = () => {
                                 {/* </Link> */}
                                 <ul className="sub-menu">
                                   <li>
-                                    <a href="/activity-four">Valves</a>
+                                    <a href="/valves">Valves</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-four">Pipes</a>
+                                    <a href="/pipes">Pipes</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-four">
+                                    <a href="/connectors">
                                       Fittings and Connectors
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/activity-four">
-                                      Gaskets and Seals
-                                    </a>
+                                    <a href="/gaskets">Gaskets and Seals</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-four">Bolts and Nuts</a>
+                                    <a href="/bolts">Bolts and Nuts</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-four">
-                                      Hoses and Tubing
-                                    </a>
+                                    <a href="/hoses">Hoses and Tubing</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-four">
+                                    <a href="/instrumentation">
                                       Instrumentation and Controls
                                     </a>
                                   </li>
@@ -763,19 +739,19 @@ const Header = () => {
                       {/* </Link> */}
                       <ul className="sub-menu">
                         <li>
-                          <a href="/activity-one">Eco-Solvent Inks</a>
+                          <a href="/ecosolvent">Eco-Solvent Inks</a>
                         </li>
                         <li>
-                          <a href="/activity-one">UV Inks</a>
+                          <a href="/uv">UV Inks</a>
                         </li>
                         <li>
-                          <a href="/activity-one">Solvent-Based Inks</a>
+                          <a href="/solvent">Solvent-Based Inks</a>
                         </li>
                         <li>
-                          <a href="/activity-one">Printing Equipment</a>
+                          <a href="/printequip">Printing Equipment</a>
                         </li>
                         <li>
-                          <a href="/activity-one">Media Supplies</a>
+                          <a href="/media">Media Supplies</a>
                         </li>
                       </ul>
                     </li>
@@ -785,35 +761,33 @@ const Header = () => {
                       {/* </Link> */}
                       <ul className="sub-menu">
                         <li>
-                          <a href="/activity-two">Integrated Circuits (ICs)</a>
+                          <a href="/ic">Integrated Circuits (ICs)</a>
                         </li>
                         <li>
-                          <a href="/activity-two">Passive Components</a>
+                          <a href="/passive">Passive Components</a>
                         </li>
 
                         <li>
-                          <a href="/activity-two">Active Components</a>
+                          <a href="/active">Active Components</a>
                         </li>
                         <li>
-                          <a href="/activity-two">Connectors and Cables</a>
+                          <a href="/connector">Connectors and Cables</a>
                         </li>
                         <li>
-                          <a href="/activity-two">Sensors and Modules</a>
+                          <a href="/sensor">Sensors and Modules</a>
                         </li>
                         <li>
-                          <a href="/activity-two">LEDs and Displays</a>
+                          <a href="/led">LEDs and Displays</a>
                         </li>
                         <li>
-                          <a href="/activity-two">
-                            Power Supplies and Batteries
-                          </a>
+                          <a href="/power">Power Supplies and Batteries</a>
                         </li>
                         <li>
-                          <a href="/activity-two">Switches and Relays</a>
+                          <a href="/switch">Switches and Relays</a>
                         </li>
-                        <li>
-                          <a href="/activity-two">Semiconductors</a>
-                        </li>
+                        {/* <li>
+                          <a href="/semi">Semiconductors</a>
+                        </li> */}
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
@@ -824,36 +798,32 @@ const Header = () => {
                       {/* </Link> */}
                       <ul className="sub-menu">
                         <li>
-                          <a href="/activity-three">Hand Tools</a>
+                          <a href="/hand-tools">Hand Tools</a>
                         </li>
                         <li>
-                          <a href="/activity-three">Power Tools</a>
+                          <a href="/power-tools">Power Tools</a>
+                        </li>
+                        {/* <li>
+                          <a href="/">Gardening Tools</a>
+                        </li> */}
+                        <li>
+                          <a href="/electrical-tools">Electrical Tools</a>
                         </li>
                         <li>
-                          <a href="/activity-three">Gardening Tools</a>
+                          <a href="/plumbing-tools">Plumbing Tools</a>
                         </li>
                         <li>
-                          <a href="/activity-three">
-                            Electrical Tools and Supplies
-                          </a>
+                          <a href="/safety">Safety Equipment</a>
                         </li>
-                        <li>
-                          <a href="/activity-three">
-                            Plumbing Tools and Supplies
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/activity-three">Safety Equipment</a>
-                        </li>
-                        <li>
+                        {/* <li>
                           <a href="/activity-three">Fasteners</a>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <a href="/activity-three">Building Materials</a>
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <a href="/activity-three">Hardware Accessories</a>
-                        </li>
+                        </li> */}
                       </ul>
                     </li>
                     {/* <li>
@@ -891,25 +861,25 @@ const Header = () => {
                       {/* </Link> */}
                       <ul className="sub-menu">
                         <li>
-                          <a href="/activity-four">Valves</a>
+                          <a href="/valves">Valves</a>
                         </li>
                         <li>
-                          <a href="/activity-four">Pipes</a>
+                          <a href="/pipes">Pipes</a>
                         </li>
                         <li>
-                          <a href="/activity-four">Fittings and Connectors</a>
+                          <a href="/connectors">Fittings and Connectors</a>
                         </li>
                         <li>
-                          <a href="/activity-four">Gaskets and Seals</a>
+                          <a href="/gaskets">Gaskets and Seals</a>
                         </li>
                         <li>
-                          <a href="/activity-four">Bolts and Nuts</a>
+                          <a href="/bolts">Bolts and Nuts</a>
                         </li>
                         <li>
-                          <a href="/activity-four">Hoses and Tubing</a>
+                          <a href="/hoses">Hoses and Tubing</a>
                         </li>
                         <li>
-                          <a href="/activity-four">
+                          <a href="/instrumentation">
                             Instrumentation and Controls
                           </a>
                         </li>

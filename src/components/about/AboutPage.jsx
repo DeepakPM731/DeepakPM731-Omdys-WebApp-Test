@@ -50,7 +50,7 @@ const AboutPage = () => {
       {/* --------------test-------------------- */}
       <>
         {/* About-First Start */}
-        <section className="gap about-first">
+        <section className="gap about-first" style={{ marginTop: '-5%' }}>
           <div className="container">
             <div className="row">
               <h2 className="abouthead">

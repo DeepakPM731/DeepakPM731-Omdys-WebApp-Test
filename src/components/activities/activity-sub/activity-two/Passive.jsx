@@ -20,7 +20,7 @@ const Passive = () => {
               </div>
             </div>
           </div>
-          <div className="breadcrums"></div>
+          {/* <div className="breadcrums"></div> */}
         </section>
       </div>
       <br />
@@ -28,8 +28,8 @@ const Passive = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        {/* <span>Let us help with our products</span> */}
-        <h2>Integrated Circuits (ICs)</h2>
+        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
+        <h2>Passive Components</h2>
       </div>
       <div
         className="container center justify-content-center"
@@ -39,7 +39,7 @@ const Passive = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Supplier Identification & Sourcing_.svg"
+          src="assets/images/activity-four/svg/log/Passive Components__.svg"
           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
           alt="Our Project One Image 1"
         />

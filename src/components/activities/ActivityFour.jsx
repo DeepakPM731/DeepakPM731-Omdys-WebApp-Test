@@ -96,40 +96,11 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>Let us help with our products</span>
+        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
         <h3 className="petroheadline">Valves</h3>
       </div>
-      {/* <h2
-        className="petrohead"
-        style={{
-          fontSize: '36px',
-          textAlign: 'center',
-          backgroundColor: 'yellow',
-          padding: '20px',
-        }}
-      >
-        Valves
-      </h2> */}
+
       <div className="container">
-        {/* <p
-          className="twop m-4"
-          style={{
-            fontSize: '18px',
-            textAlign: 'center',
-          }}
-        >
-          We offer a wide range of petroleum products, including crude oil,
-          gasoline, diesel, jet fuel, and heating oil. Our products are sourced
-          from reliable suppliers,
-          <nobr>ensuring quality and consistency.</nobr>
-        </p>
-        <br />
-        <p style={{ fontSize: '20px', textAlign: 'center' }}>
-          <b>
-            Here is a list of major materials that we can provide / supply to
-            you:
-          </b>
-        </p> */}
         <br />
       </div>
       <div style={{ marginTop: '20px' }}>
@@ -278,7 +249,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>Let us help with our products</span>
+        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
         <h3 className="petroheadline">Pipes</h3>
         <br />
       </div>
@@ -377,7 +348,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>Let us help with our products</span>
+        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
         <h3 className="petroheadline">Fittings and Connectors</h3>
         <br />
       </div>
@@ -550,7 +521,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>Let us help with our products</span>
+        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
         <h3 className="petroheadline"> Gaskets and Seals</h3>
         <br />
       </div>
@@ -647,7 +618,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>Let us help with our products</span>
+        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
         <h3 className="petroheadline">Bolts and Nuts</h3>
         <br />
       </div>
@@ -744,7 +715,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>Let us help with our products</span>
+        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
         <h2>Hoses and Tubing</h2>
         <br />
       </div>
@@ -841,7 +812,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>Let us help with our products</span>
+        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
         <h3 className="petroheadline">Instrumentation and Controls</h3>
         <br />
       </div>
@@ -938,7 +909,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>Let us help with our products</span>
+        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
         <h3 className="petroheadline">Safety and Maintenance</h3>
         <br />
       </div>
@@ -1039,7 +1010,7 @@ const ActivityFour = () => {
           <figure>
             <img src="assets/images/heading-icon.png" alt="heading-icon" />
           </figure>
-          {/* <span>Let us help with our products</span> */}
+          {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
           <h2>Why Choose Us?</h2>
           <hr />
         </div>

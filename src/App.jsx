@@ -38,6 +38,24 @@ import SwitchRelay from './components/activities/activity-sub/activity-two/Switc
 import Led from './components/activities/activity-sub/activity-two/Led';
 import PowerBaterry from './components/activities/activity-sub/activity-two/PowerBaterry';
 import SemiC from './components/activities/activity-sub/activity-two/SemiC';
+import Tools from './components/activities/activity-sub/activity-three/Tools';
+import Valves from './components/activities/activity-sub/activity-four/Valves';
+import Instrumentation from './components/activities/activity-sub/activity-four/Instrumentation';
+import Bolts from './components/activities/activity-sub/activity-four/Bolts';
+import Hoses from './components/activities/activity-sub/activity-four/Hoses';
+import Gaskets from './components/activities/activity-sub/activity-four/Gaskets';
+import Pipes from './components/activities/activity-sub/activity-four/Pipes';
+import Connector from './components/activities/activity-sub/activity-four/Connector';
+import HandTools from './components/activities/activity-sub/activity-three/HandTools';
+import PowerTools from './components/activities/activity-sub/activity-three/PowerTools';
+import ElectricalTools from './components/activities/activity-sub/activity-three/ElectricalTools';
+import PlumbingTools from './components/activities/activity-sub/activity-three/PlumbingTools';
+import Uv from './components/activities/activity-sub/activity-one/Uv';
+import EcoSolvent from './components/activities/activity-sub/activity-one/EcoSolvent';
+import Media from './components/activities/activity-sub/activity-one/Media';
+import PrintingEquip from './components/activities/activity-sub/activity-one/PrintingEquip';
+import Solvent from './components/activities/activity-sub/activity-one/Solvent';
+import Safety from './components/activities/activity-sub/activity-three/Safety';
 
 // import Contact from './components/Contact';
 const App = () => {
@@ -82,6 +100,15 @@ const App = () => {
           <Route path="/activity-test" element={<TestFour />} />
 
           {/* -------------activity-one-sub starts------------ */}
+
+          <Route path="/ecosolvent" element={<EcoSolvent />} />
+          <Route path="/uv" element={<Uv />} />
+          <Route path="/solvent" element={<Solvent />} />
+          <Route path="/printequip" element={<PrintingEquip />} />
+          <Route path="/media" element={<Media />} />
+          {/* -------------activity-one-sub ends------------ */}
+
+          {/* -------------activity-two-sub starts------------ */}
           <Route path="/ic" element={<IC />} />
           <Route path="/active" element={<ActiveC />} />
           <Route path="/passive" element={<Passive />} />
@@ -93,6 +120,25 @@ const App = () => {
           <Route path="/semi" element={<SemiC />} />
 
           {/* -------------activity-sub ends------------ */}
+          {/* -------------activity-three-sub starts------------ */}
+          <Route path="/tools" element={<Tools />} />
+          <Route path="/hand-tools" element={<HandTools />} />
+          <Route path="/power-tools" element={<PowerTools />} />
+          <Route path="/electrical-tools" element={<ElectricalTools />} />
+          <Route path="/plumbing-tools" element={<PlumbingTools />} />
+          <Route path="/safety" element={<Safety />} />
+
+          {/* -------------activity-three-sub starts------------ */}
+          {/* -------------activity-four-sub starts------------ */}
+          <Route path="/valves" element={<Valves />} />
+          <Route path="/pipes" element={<Pipes />} />
+          <Route path="/connectors" element={<Connector />} />
+          <Route path="/gaskets" element={<Gaskets />} />
+          <Route path="/hoses" element={<Hoses />} />
+          <Route path="/bolts" element={<Bolts />} />
+          <Route path="/instrumentation" element={<Instrumentation />} />
+
+          {/* -------------activity-four-sub ends------------ */}
         </Routes>
         <Footer />
       </Router>

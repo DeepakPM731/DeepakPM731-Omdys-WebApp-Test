@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Led = () => {
   return (
@@ -20,7 +20,7 @@ const Led = () => {
               </div>
             </div>
           </div>
-          <div className="breadcrums"></div>
+          {/* <div className="breadcrums"></div> */}
         </section>
       </div>
       <br />
@@ -28,7 +28,7 @@ const Led = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        {/* <span>Let us help with our products</span> */}
+        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
         <h2>LEDs and Displays</h2>
       </div>
       <div
@@ -39,7 +39,7 @@ const Led = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Supplier Identification & Sourcing_.svg"
+          src="assets/images/activity-four/svg/log/LED and Displays__.svg"
           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
           alt="Our Project One Image 1"
         />
@@ -145,6 +145,6 @@ const Led = () => {
       </section>
     </>
   );
-}
+};
 
-export default Led
+export default Led;

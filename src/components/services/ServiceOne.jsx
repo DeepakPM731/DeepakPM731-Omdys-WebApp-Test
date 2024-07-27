@@ -56,7 +56,7 @@ const ServiceOne = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        {/* <span>Let us help with our products</span> */}
+        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
         <h2>Supplier Identification & Sourcing</h2>
       </div>
       <div

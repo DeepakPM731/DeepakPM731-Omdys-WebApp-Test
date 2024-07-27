@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const SwitchRelay = () => {
   return (
@@ -20,7 +20,7 @@ const SwitchRelay = () => {
               </div>
             </div>
           </div>
-          <div className="breadcrums"></div>
+          {/* <div className="breadcrums"></div> */}
         </section>
       </div>
       <br />
@@ -28,7 +28,7 @@ const SwitchRelay = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        {/* <span>Let us help with our products</span> */}
+        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
         <h2>Switches and Relays</h2>
       </div>
       <div
@@ -39,7 +39,7 @@ const SwitchRelay = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Supplier Identification & Sourcing_.svg"
+          src="assets/images/activity-four/svg/log/Switches and Relays__2.svg"
           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
           alt="Our Project One Image 1"
         />
@@ -161,8 +161,23 @@ const SwitchRelay = () => {
           </div>
         </div>
       </section>
+
+      <div
+        className="container center justify-content-center"
+        style={{ textAlign: 'center', marginTop: '-5%' }}
+      >
+        <img
+          className="industry "
+          data-aos="fade-up-left"
+          style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
+          src="assets/images/activity-four/svg/log/Switches and Relays__.svg"
+          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+          alt="Our Project One Image 1"
+        />
+      </div>
+      <br />
     </>
   );
-}
+};
 
-export default SwitchRelay
+export default SwitchRelay;
