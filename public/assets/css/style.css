@@ -4536,7 +4536,8 @@ span.counter {
 }
 .banner-style-one .banner-details {
   /* padding-bottom: 75px; */
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
+  padding-bottom: 0px;
 }
 .banner-style-one .breadcrums {
   border-top: 1px solid #444;

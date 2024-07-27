@@ -45,86 +45,143 @@ const PowerTools = () => {
                 {/* <h2>Supplier Identification & Sourcing</h2> */}
                 {/* <ul data-aos="fade-down"> */}
                 <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                  At OMDYS International LLP, we specialize in sourcing and
-                  supplying a wide range of integrated circuits (ICs) to meet
-                  the diverse needs of our clients in the electronics industry.
-                  From microcontrollers to application-specific ICs, we carry a
-                  wide variety of integrated circuits from leading
-                  manufacturers, ensuring top-quality and reliable performance
-                  for all your electronic applications.
+                  At OMDYS International LLP, we provide a comprehensive range
+                  of high-quality power tools designed to meet the rigorous
+                  demands of professionals in the construction industry. Our
+                  selection includes advanced tools that deliver exceptional
+                  efficiency, power, and reliability for a wide array of
+                  construction tasks.
                   <br />
                   <br />
-                  <b>Microcontrollers (MCUs):</b> Our selection includes
-                  microcontrollers from renowned brands such as Microchip,
-                  STMicroelectronics, and Texas Instruments. These MCUs are
-                  ideal for embedded systems and offer various features like low
-                  power consumption, high processing speed, and integrated
-                  peripherals.
+                  <br />
+                  <h4
+                    style={{
+                      fontSize: '40px',
+                      //   textAlign: 'center',
+                      color: 'black',
+                      //   backgroundColor: 'yellow',
+                    }}
+                  >
+                    Drills
+                  </h4>
+                  <br />
+                  <b>Cordless Drills:</b> These drills are highly portable and
+                  versatile, ideal for a range of drilling applications.
+                  Featuring powerful motors and long-lasting batteries, they
+                  offer the freedom to work without being tethered to a power
+                  source. Designed for ease of use, they provide smooth
+                  operation and adjustable speed settings to handle various
+                  materials with precision.
                   <br />
                   <br />
-                  <b>Digital Signal Processors (DSPs):</b> We provide
-                  high-performance DSPs designed for applications that require
-                  intensive mathematical computations, such as audio processing,
-                  telecommunications, and control systems. Our DSPs come from
-                  leading manufacturers like Analog Devices and Texas
-                  Instruments.
+                  <b>Hammer Drills:</b> Engineered specifically for drilling
+                  into tough materials like concrete, masonry, and brick.
+                  Equipped with a hammering action that delivers rapid, powerful
+                  blows to break through hard surfaces. These drills combine
+                  high torque and durability, making them essential for
+                  heavy-duty construction projects.
                   <br />
                   <br />
-                  <b>Application-Specific Integrated Circuits (ASICs):</b> For
-                  customized solutions, we offer ASICs tailored to specific
-                  applications. These ICs provide optimized performance for
-                  specialized tasks and are sourced from top vendors to ensure
-                  high quality and reliability.
+                  <h4
+                    style={{
+                      fontSize: '40px',
+                      //   textAlign: 'center',
+                      color: 'black',
+                      //   backgroundColor: 'yellow',
+                    }}
+                  >
+                    Saws
+                  </h4>
+                  <br />
+                  <b>Circular Saws:</b> Perfect for making precise straight cuts
+                  in wood, metal, and other materials. Our circular saws are
+                  built with robust motors and adjustable cutting depths,
+                  ensuring clean, accurate cuts and the ability to handle a
+                  variety of cutting tasks with ease.
                   <br />
                   <br />
-                  <b>Power Management ICs (PMICs):</b> Our range of PMICs
-                  includes voltage regulators, battery management ICs, and power
-                  converters from industry leaders like Linear Technology, Maxim
-                  Integrated, and Texas Instruments. These components are
-                  essential for managing and regulating power in electronic
-                  devices.
+                  <b>Jigsaws:</b> Ideal for intricate and curved cuts, jigsaws
+                  offer exceptional maneuverability and control. With variable
+                  speed settings and precision blades, they are perfect for
+                  creating complex shapes and detailed work in various
+                  materials.
                   <br />
                   <br />
-                  <b>Memory ICs:</b> We supply various types of memory ICs,
-                  including DRAM, SRAM, Flash, and EEPROM, from trusted brands
-                  like Micron, Samsung, and SK Hynix. These memory ICs are
-                  critical for data storage and retrieval in electronic systems.
+                  <h4
+                    style={{
+                      fontSize: '40px',
+                      //   textAlign: 'center',
+                      color: 'black',
+                      //   backgroundColor: 'yellow',
+                    }}
+                  >
+                    Grinders
+                  </h4>
+                  <br />
+                  <b>Angle Grinders:</b> Versatile tools used for cutting,
+                  grinding, and polishing metal and other materials. Equipped
+                  with adjustable guards and powerful motors, they provide
+                  excellent control and efficiency for tasks such as removing
+                  welds, smoothing surfaces, and cutting through metal.
                   <br />
                   <br />
-                  <b>Analog ICs:</b> Our catalog features a wide array of analog
-                  ICs such as operational amplifiers, data converters, and
-                  analog switches from companies like Analog Devices, Texas
-                  Instruments, and Maxim Integrated. These components are vital
-                  for signal processing in numerous applications.
+                  <b>Bench Grinders:</b> Designed for sharpening tools,
+                  metalworking, and surface finishing. Featuring large, durable
+                  wheels and stable bases, they are ideal for tasks requiring
+                  consistent and precise grinding, including sharpening chisels
+                  and blades.
                   <br />
                   <br />
-                  <b>Interface ICs:</b> We offer interface ICs including USB,
-                  HDMI, and Ethernet transceivers, as well as level shifters and
-                  protocol converters. These components facilitate communication
-                  between different parts of electronic systems and are sourced
-                  from leading manufacturers.
+                  <h4
+                    style={{
+                      fontSize: '40px',
+                      //   textAlign: 'center',
+                      color: 'black',
+                      //   backgroundColor: 'yellow',
+                    }}
+                  >
+                    Sanders
+                  </h4>
+                  <br />
+                  <b>Belt Sanders:</b> Engineered for rapid material removal and
+                  smoothing large surfaces. Equipped with a continuous sanding
+                  belt and adjustable speed settings, they offer efficient
+                  performance for tasks such as leveling wood and removing old
+                  finishes.
                   <br />
                   <br />
-                  <b>RF and Wireless ICs:</b> For wireless communication
-                  applications, we provide RF transceivers, Bluetooth, Wi-Fi,
-                  and GPS modules from industry giants like Qualcomm, Broadcom,
-                  and Nordic Semiconductor. These ICs ensure reliable and
-                  efficient wireless connectivity.
+                  <b>Orbital Sanders:</b> Perfect for achieving a smooth, fine
+                  finish on surfaces. Featuring a circular sanding motion and a
+                  dust collection system, they provide an even finish while
+                  minimizing dust and debris, making them ideal for final
+                  touches and detailed work.
                   <br />
                   <br />
-                  <b>Sensor ICs:</b> Our inventory includes sensor ICs for
-                  temperature, pressure, humidity, and motion detection. These
-                  sensors are essential for monitoring and control applications
-                  and are sourced from top-tier suppliers like Bosch Sensortec,
-                  Honeywell, and STMicroelectronics.
+                  <h4
+                    style={{
+                      fontSize: '40px',
+                      //   textAlign: 'center',
+                      color: 'black',
+                      //   backgroundColor: 'yellow',
+                    }}
+                  >
+                    Impact Drivers
+                  </h4>
+                  <br />
+                  <b>Cordless Impact Drivers:</b> Deliver high torque and
+                  powerful impacts for driving screws and bolts with ease.
+                  Designed to handle tough fastening tasks, they feature
+                  variable speed settings and ergonomic grips, providing both
+                  strength and control for efficient assembly and construction
+                  work.
                   <br />
                   <br />
-                  At OMDYS International LLP, we are committed to delivering
-                  high-quality integrated circuits that meet the exacting
-                  standards of our clients. Our extensive network and expertise
-                  in sourcing ensure that you receive the best products for your
-                  specific needs, enhancing the performance and reliability of
-                  your electronic systems.
+                  At OMDYS International LLP, our commitment is to provide our
+                  clients with top-of-the-line power tools that enhance
+                  efficiency and productivity on every job. Each tool in our
+                  selection is chosen for its reliability, performance, and
+                  durability, ensuring you have the right equipment to tackle
+                  even the most challenging construction tasks.
                 </p>
               </div>
             </div>

@@ -46,86 +46,106 @@ const ElectricalTools = () => {
                 {/* <h2>Supplier Identification & Sourcing</h2> */}
                 {/* <ul data-aos="fade-down"> */}
                 <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                  At OMDYS International LLP, we specialize in sourcing and
-                  supplying a wide range of integrated circuits (ICs) to meet
-                  the diverse needs of our clients in the electronics industry.
-                  From microcontrollers to application-specific ICs, we carry a
-                  wide variety of integrated circuits from leading
-                  manufacturers, ensuring top-quality and reliable performance
-                  for all your electronic applications.
+                  At OMDYS International LLP, we provide a comprehensive
+                  selection of high-quality electrical tools tailored to meet
+                  the demands of professionals working with electrical systems.
+                  Our tools are crafted to ensure precision, safety, and
+                  efficiency for all your electrical tasks.
                   <br />
                   <br />
-                  <b>Microcontrollers (MCUs):</b> Our selection includes
-                  microcontrollers from renowned brands such as Microchip,
-                  STMicroelectronics, and Texas Instruments. These MCUs are
-                  ideal for embedded systems and offer various features like low
-                  power consumption, high processing speed, and integrated
-                  peripherals.
+                  <br />
+                  <h4
+                    style={{
+                      fontSize: '40px',
+                      //   textAlign: 'center',
+                      color: 'black',
+                      //   backgroundColor: 'yellow',
+                    }}
+                  >
+                    Multimeters
+                  </h4>
+                  <br />
+                  <b>Digital Multimeters:</b> Advanced devices for measuring
+                  voltage, current, and resistance. Our digital multimeters
+                  offer accurate readings and come with a range of features,
+                  including auto-ranging and data hold, to facilitate easy and
+                  precise measurements.
                   <br />
                   <br />
-                  <b>Digital Signal Processors (DSPs):</b> We provide
-                  high-performance DSPs designed for applications that require
-                  intensive mathematical computations, such as audio processing,
-                  telecommunications, and control systems. Our DSPs come from
-                  leading manufacturers like Analog Devices and Texas
-                  Instruments.
+                  <h4
+                    style={{
+                      fontSize: '40px',
+                      //   textAlign: 'center',
+                      color: 'black',
+                      //   backgroundColor: 'yellow',
+                    }}
+                  >
+                    Wire Strippers
+                  </h4>
+                  <br />
+                  <b>Automatic Wire Strippers:</b> Designed for quick and
+                  efficient removal of insulation from wires. The automatic
+                  mechanism adjusts to different wire sizes, allowing you to
+                  strip wires with minimal effort and maximum precision.
                   <br />
                   <br />
-                  <b>Application-Specific Integrated Circuits (ASICs):</b> For
-                  customized solutions, we offer ASICs tailored to specific
-                  applications. These ICs provide optimized performance for
-                  specialized tasks and are sourced from top vendors to ensure
-                  high quality and reliability.
+                  <h4
+                    style={{
+                      fontSize: '40px',
+                      //   textAlign: 'center',
+                      color: 'black',
+                      //   backgroundColor: 'yellow',
+                    }}
+                  >
+                    Circuit Testers
+                  </h4>
+                  <br />
+                  <b>Voltage Testers:</b> Essential for detecting the presence
+                  of electrical current in circuits. Our voltage testers are
+                  designed for safety and ease of use, providing clear
+                  indicators to help you determine live wires and troubleshoot
+                  electrical issues.
                   <br />
                   <br />
-                  <b>Power Management ICs (PMICs):</b> Our range of PMICs
-                  includes voltage regulators, battery management ICs, and power
-                  converters from industry leaders like Linear Technology, Maxim
-                  Integrated, and Texas Instruments. These components are
-                  essential for managing and regulating power in electronic
-                  devices.
+                  <h4
+                    style={{
+                      fontSize: '40px',
+                      //   textAlign: 'center',
+                      color: 'black',
+                      //   backgroundColor: 'yellow',
+                    }}
+                  >
+                    Cable Cutters
+                  </h4>
+                  <br />
+                  <b>Heavy-Duty Cable Cutters:</b> Engineered to cut thick
+                  cables and wires with ease. These cutters feature strong,
+                  precision-ground blades and ergonomic handles for comfortable
+                  use and clean, accurate cuts.
                   <br />
                   <br />
-                  <b>Memory ICs:</b> We supply various types of memory ICs,
-                  including DRAM, SRAM, Flash, and EEPROM, from trusted brands
-                  like Micron, Samsung, and SK Hynix. These memory ICs are
-                  critical for data storage and retrieval in electronic systems.
+                  <h4
+                    style={{
+                      fontSize: '40px',
+                      //   textAlign: 'center',
+                      color: 'black',
+                      //   backgroundColor: 'yellow',
+                    }}
+                  >
+                    Conduit Benders
+                  </h4>
+                  <br />
+                  <b>Handheld Conduit Benders:</b> Ideal for bending electrical
+                  conduit to the desired angle. Our benders offer precise
+                  control and durability, making it easier to create accurate
+                  bends for conduit installations.
                   <br />
                   <br />
-                  <b>Analog ICs:</b> Our catalog features a wide array of analog
-                  ICs such as operational amplifiers, data converters, and
-                  analog switches from companies like Analog Devices, Texas
-                  Instruments, and Maxim Integrated. These components are vital
-                  for signal processing in numerous applications.
-                  <br />
-                  <br />
-                  <b>Interface ICs:</b> We offer interface ICs including USB,
-                  HDMI, and Ethernet transceivers, as well as level shifters and
-                  protocol converters. These components facilitate communication
-                  between different parts of electronic systems and are sourced
-                  from leading manufacturers.
-                  <br />
-                  <br />
-                  <b>RF and Wireless ICs:</b> For wireless communication
-                  applications, we provide RF transceivers, Bluetooth, Wi-Fi,
-                  and GPS modules from industry giants like Qualcomm, Broadcom,
-                  and Nordic Semiconductor. These ICs ensure reliable and
-                  efficient wireless connectivity.
-                  <br />
-                  <br />
-                  <b>Sensor ICs:</b> Our inventory includes sensor ICs for
-                  temperature, pressure, humidity, and motion detection. These
-                  sensors are essential for monitoring and control applications
-                  and are sourced from top-tier suppliers like Bosch Sensortec,
-                  Honeywell, and STMicroelectronics.
-                  <br />
-                  <br />
-                  At OMDYS International LLP, we are committed to delivering
-                  high-quality integrated circuits that meet the exacting
-                  standards of our clients. Our extensive network and expertise
-                  in sourcing ensure that you receive the best products for your
-                  specific needs, enhancing the performance and reliability of
-                  your electronic systems.
+                  At OMDYS International LLP, we are dedicated to supplying
+                  high-quality electrical tools that enhance safety and
+                  efficiency in your electrical work. Our products are selected
+                  from leading brands renowned for their reliability and
+                  performance in the industry.
                 </p>
               </div>
             </div>

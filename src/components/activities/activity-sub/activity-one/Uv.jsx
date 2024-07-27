@@ -9,8 +9,18 @@ const Uv = () => {
             className="parallax"
             style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
           />
-
-          <div className="breadcrums"></div>
+          <div className="container">
+            <div className="row">
+              <div className="banner-details">
+                <h2 style={{ textAlign: 'center' }}>Printing Solutions</h2>
+                {/* <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+                  tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
+                </p> */}
+              </div>
+            </div>
+          </div>
+          {/* <div className="breadcrums"></div> */}
         </section>
       </div>
       <br />
@@ -23,7 +33,7 @@ const Uv = () => {
       </div>
       <div
         className="container center justify-content-center"
-        style={{ textAlign: 'center' }}
+        style={{ textAlign: 'center', marginTop: '-2%' }}
       >
         <img
           className="industry "

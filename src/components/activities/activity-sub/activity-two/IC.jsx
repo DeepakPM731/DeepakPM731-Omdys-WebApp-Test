@@ -12,12 +12,12 @@ const IC = () => {
           <div className="container">
             <div className="row">
               <div className="banner-details">
-                <h2>Electronics Components</h2>
+                <h2 style={{ textAlign: 'center' }}>Electronics Components</h2>
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
                   tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
                 </p> */}
-              </div>
+                </div>
             </div>
           </div>
           {/* <div className="breadcrums"></div> */}
