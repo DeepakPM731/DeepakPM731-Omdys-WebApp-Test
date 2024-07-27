@@ -55,7 +55,7 @@ const ActivityFour = () => {
           <div className="col-lg-12">
             <div className="who-we-are">
               <div>
-                {/* <h3 className="mb-5 text-center" style={{ fontSize: '48px' }}>
+                {/* <h3 className="mb-5 text-center" >
                   Wide Range of Products
                 </h3> */}
                 {/* <p style={{ textAlign: 'justify' }}> */}
@@ -97,7 +97,7 @@ const ActivityFour = () => {
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
         <span>Let us help with our products</span>
-        <h2>Valves</h2>
+        <h3 className="petroheadline">Valves</h3>
       </div>
       {/* <h2
         className="petrohead"
@@ -279,7 +279,8 @@ const ActivityFour = () => {
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
         <span>Let us help with our products</span>
-        <h2>Pipes</h2>
+        <h3 className="petroheadline">Pipes</h3>
+        <br />
       </div>
       <br />
       <br />
@@ -377,7 +378,8 @@ const ActivityFour = () => {
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
         <span>Let us help with our products</span>
-        <h2>Fittings and Connectors</h2>
+        <h3 className="petroheadline">Fittings and Connectors</h3>
+        <br />
       </div>
       <br />
       <br />
@@ -549,7 +551,8 @@ const ActivityFour = () => {
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
         <span>Let us help with our products</span>
-        <h2> Gaskets and Seals</h2>
+        <h3 className="petroheadline"> Gaskets and Seals</h3>
+        <br />
       </div>
       <br />
       <br />
@@ -645,7 +648,8 @@ const ActivityFour = () => {
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
         <span>Let us help with our products</span>
-        <h2>Bolts and Nuts</h2>
+        <h3 className="petroheadline">Bolts and Nuts</h3>
+        <br />
       </div>
       <br />
       <br />
@@ -742,6 +746,7 @@ const ActivityFour = () => {
         </figure>
         <span>Let us help with our products</span>
         <h2>Hoses and Tubing</h2>
+        <br />
       </div>
       <br />
       <br />
@@ -837,7 +842,8 @@ const ActivityFour = () => {
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
         <span>Let us help with our products</span>
-        <h2>Instrumentation and Controls</h2>
+        <h3 className="petroheadline">Instrumentation and Controls</h3>
+        <br />
       </div>
       <br />
       <br />
@@ -933,7 +939,8 @@ const ActivityFour = () => {
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
         <span>Let us help with our products</span>
-        <h2>Safety and Maintenance</h2>
+        <h3 className="petroheadline">Safety and Maintenance</h3>
+        <br />
       </div>
       <br />
       <br />

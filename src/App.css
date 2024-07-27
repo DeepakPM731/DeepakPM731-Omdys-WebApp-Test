@@ -368,29 +368,48 @@
   opacity: 0.2;
   left: 13% !important;
 }
-
+.petroheadline {
+    font-size: 46px;
+    /* margin-bottom: -10%; */
+    
+  }
 @media screen and (max-width: 1200px) {
   .bannercontact {
     padding-top: 30px;
+  }
+  .petroheadline {
+    font-size: 46px;
   }
 }
 @media screen and (max-width: 992px) {
   .bannercontact {
     padding-top: 30px;
   }
+  .petroheadline {
+    font-size: 46px;
+  }
 }
 @media screen and (max-width: 768px) {
   .bannercontact {
     padding-top: 30px;
+  }
+  .petroheadline {
+    font-size: 46px;
   }
 }
 @media screen and (max-width: 480px) {
   .bannercontact {
     padding-top: 30px;
   }
+  .petroheadline {
+    font-size: 40px;
+  }
 }
 @media screen and (max-width: 380px) {
   .bannercontact {
     padding-top: 30px;
+  }
+  .petroheadline {
+    font-size: 40px;
   }
 }

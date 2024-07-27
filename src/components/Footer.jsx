@@ -202,7 +202,7 @@ const Footer = () => {
                           />
                         </g>
                       </svg>
-                      <p>
+                      <p style={{ fontWeight: 'normal' }}>
                         #614, Phase 10, RK Hudco, Hosur, Tamil Nadu, India,
                         635109
                       </p>
@@ -242,7 +242,9 @@ const Footer = () => {
                         target="_blank"
                         // style={{ textShadow: '2px 2px 5px  black' }}
                       >
-                        <p>+91&nbsp;84310&nbsp;6789&nbsp;3</p>
+                        <p style={{ fontWeight: 'normal' }}>
+                          +91&nbsp;84310&nbsp;6789&nbsp;3
+                        </p>
                       </a>
                     </li>
                     <li>
@@ -277,16 +279,19 @@ const Footer = () => {
                           />
                         </g>
                       </svg>
-                      <p>
+                      <p style={{ fontWeight: 'normal' }}>
                         <a
                           style={{
+                            fontWeight: 'normal',
                             textDecoration: 'none',
                             color: '#B7B7b7',
                           }}
                           className="mail"
                           href="mailto:sales@omdys.com"
                         >
-                          sales@omdys.com
+                          <span style={{ fontWeight: 'normal' }}>
+                            sales@omdys.com
+                          </span>
                         </a>
                       </p>
                     </li>
