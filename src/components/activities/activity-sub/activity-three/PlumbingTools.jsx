@@ -9,8 +9,19 @@ const PlumbingTools = () => {
             className="parallax"
             style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
           />
-
-          <div className="breadcrums"></div>
+          <div className="container">
+            <div className="row">
+              <div className="banner-details">
+                <h2 style={{ textAlign: 'center' }}>
+                  Construction Tools & Equipments
+                </h2>
+                {/* <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+                  tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
+                </p> */}
+              </div>
+            </div>
+          </div>
         </section>
       </div>
       <br />

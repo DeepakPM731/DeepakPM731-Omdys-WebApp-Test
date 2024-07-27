@@ -9,33 +9,22 @@ const Bolts = () => {
             className="parallax"
             style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
           />
-          {/* <div className="container">
+          <div className="container">
             <div className="row">
-              <div className="banner-details" style={{ textAlign: 'center' }}>
-                <h2>Industrial Chemical Products</h2>
+              <div className="banner-details">
+                <h2 style={{ textAlign: 'center' }}>
+                  Oil& Gas Equipment Supply
+                </h2>
+                {/* <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+                  tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
+                </p> */}
               </div>
             </div>
-          </div> */}
+          </div>
         </section>
       </div>
       <br />
-      {/* <figure
-        style={{
-          // display: 'flex',
-          // justifyContent: 'center',
-          width: '100vw',
-        }}
-      > */}
-      {/* <div className="container" style={{}}>
-        <img
-          className="industry"
-          style={{ width: '100%' }}
-          // src="assets/svg4/petroleum and petrochemical products (2).svg"
-          src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-          alt="Our Project One Image 1"
-        />
-      </div> */}
-      {/* </figure> */}
 
       {/* ---------Head ends-------- */}
       {/* ------------Chemical Products Starts ------------------ */}

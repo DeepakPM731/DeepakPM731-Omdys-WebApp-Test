@@ -39,7 +39,7 @@ const Counter = () => {
 
         if (elementBottom > viewportTop && elementTop < viewportBottom) {
           if ($this.data('status') === 'yes') {
-            var delayTime = 300; // Delay time in milliseconds
+            var delayTime = 200; // Delay time in milliseconds
             $this.css('opacity', '0.1'); // Set initial opacity to 0
             setTimeout(function () {
               // Fade in with animation

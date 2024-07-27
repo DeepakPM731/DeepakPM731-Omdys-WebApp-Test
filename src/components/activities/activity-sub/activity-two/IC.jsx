@@ -17,7 +17,7 @@ const IC = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
                   tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
                 </p> */}
-                </div>
+              </div>
             </div>
           </div>
           {/* <div className="breadcrums"></div> */}
@@ -39,7 +39,7 @@ const IC = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Integrated Circuits __.svg"
+          src="assets/images/activity-four/svg/log/Integrated Circuits__.svg"
           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
           alt="Our Project One Image 1"
         />

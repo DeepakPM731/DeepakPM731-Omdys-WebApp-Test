@@ -350,7 +350,7 @@ const Header = () => {
                               <li className="menu-item-has-children">
                                 {/* <Link to={'/activity-three'}> */}
                                 <a href="/activity-three">
-                                  Construction Tools and Equipments
+                                  Construction Tools & Equipments
                                 </a>
                                 {/* </Link> */}
                                 <ul className="sub-menu">
@@ -404,21 +404,19 @@ const Header = () => {
                                 {/* </Link> */}
                                 <ul className="sub-menu">
                                   <li>
-                                    <a href="/activity-five">Face Masks</a>
+                                    <a href="/mask">Face Masks</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-five">
-                                      Protective Apparel
-                                    </a>
+                                    <a href="/protective">Protective Apparel</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-five">Gloves</a>
+                                    <a href="/gloves">Gloves</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-five">Eye Protection</a>
+                                    <a href="">Eye Protection</a>
                                   </li>
                                   <li>
-                                    <a href="/activity-five">
+                                    <a href="/sanitizer">
                                       Sanitizers and Disinfectants
                                     </a>
                                   </li>
@@ -793,7 +791,7 @@ const Header = () => {
                     <li className="menu-item-has-children">
                       {/* <Link to={'/activity-three'}> */}
                       <a href="/activity-three">
-                        Construction Tools and Equipments
+                        Construction Tools & Equipments
                       </a>
                       {/* </Link> */}
                       <ul className="sub-menu">
@@ -837,21 +835,19 @@ const Header = () => {
                       {/* </Link> */}
                       <ul className="sub-menu">
                         <li>
-                          <a href="/activity-five">Face Masks</a>
+                          <a href="/mask">Face Masks</a>
                         </li>
                         <li>
-                          <a href="/activity-five">Protective Apparel</a>
+                          <a href="/protective">Protective Apparel</a>
                         </li>
                         <li>
-                          <a href="/activity-five">Gloves</a>
+                          <a href="/gloves">Gloves</a>
                         </li>
                         <li>
-                          <a href="/activity-five">Eye Protection</a>
+                          <a href="">Eye Protection</a>
                         </li>
                         <li>
-                          <a href="/activity-five">
-                            Sanitizers and Disinfectants
-                          </a>
+                          <a href="/sanitizer">Sanitizers and Disinfectants</a>
                         </li>
                       </ul>
                     </li>

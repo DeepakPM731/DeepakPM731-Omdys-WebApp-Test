@@ -168,58 +168,61 @@ const ActivityThree = () => {
                 data-aos="fade-up-left"
               >
                 <i className="fa-solid fa-check" />
-                <p>
-                  <span style={{ color: 'green' }}>
-                    <p
-                      style={{
-                        fontSize: '20px',
-                        fontWeight: '800',
-                        textAlign: 'center',
-                        color: 'green',
-                        // marginTop: '5%',
-                      }}
-                    >
-                      Hand Tools
-                    </p>
+                <a href="/hand-tools">
+                  <p>
+                    <span style={{ color: 'green' }}>
+                      <p
+                        style={{
+                          fontSize: '20px',
+                          fontWeight: '800',
+                          textAlign: 'center',
+                          color: 'green',
+                          // marginTop: '5%',
+                        }}
+                      >
+                        Hand Tools
+                      </p>
+                      <br />
+                      <b>{/* <b> Integrated Circuits (ICs):</b> */}</b>
+                    </span>{' '}
+                    This includes hammers, screwdrivers, pliers, wrenches, and
+                    tape measures.
                     <br />
-                    <b>{/* <b> Integrated Circuits (ICs):</b> */}</b>
-                  </span>{' '}
-                  This includes hammers, screwdrivers, pliers, wrenches, and
-                  tape measures.
-                  <br />
-                  <br />
-                </p>
+                    <br />
+                  </p>
+                </a>
               </li>
               <li style={styles} data-aos="fade-down">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '20px' }}
                 />
-                <p>
-                  <span style={{ color: 'green' }}>
-                    <p
-                      style={{
-                        fontSize: '20px',
-                        fontWeight: '800',
-                        textAlign: 'center',
-                        color: 'green',
-                        // marginTop: '5%',
-                      }}
-                    >
-                      Power Tools
-                    </p>
-                    <br />
-                    <b> {/* <b> Passive Components:</b> */}</b>
-                  </span>{' '}
-                  Drills, circular saws, jigsaws, and angle grinders are some
-                  examples.
-                </p>
+                <a href="/power-tools">
+                  <p>
+                    <span style={{ color: 'green' }}>
+                      <p
+                        style={{
+                          fontSize: '20px',
+                          fontWeight: '800',
+                          textAlign: 'center',
+                          color: 'green',
+                        }}
+                      >
+                        Power Tools
+                      </p>
+                      <br />
+                    </span>{' '}
+                    Drills, circular saws, jigsaws, and angle grinders are some
+                    examples.
+                  </p>
+                </a>
               </li>
-              <li style={styles} data-aos="fade-up-right">
+              {/* <li style={styles} data-aos="fade-up-right">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '20px' }}
                 />
+
                 <p>
                   <span style={{ color: 'green' }}>
                     <p
@@ -228,113 +231,117 @@ const ActivityThree = () => {
                         fontWeight: '800',
                         textAlign: 'center',
                         color: 'green',
-                        // marginTop: '13%',
                       }}
                     >
                       Gardening Tools
                     </p>
                     <br />
-                    <b> {/* <b>Active Components:</b> */}</b>
                   </span>{' '}
                   Shovels, rakes, pruning shears, and garden hoses are typically
                   available.
                 </p>
-              </li>
+              </li> */}
               <li style={styles} data-aos="fade-up-left">
                 <i className="fa-solid fa-check" />
-                <p>
-                  <span style={{ color: 'green' }}>
-                    <p
-                      style={{
-                        fontSize: '20px',
-                        fontWeight: '800',
-                        textAlign: 'center',
-                        color: 'green',
-                        // marginTop: '10%',
-                      }}
-                    >
-                      Electrical Tools and Supplies
-                    </p>
+                <a href="/electrical-tools">
+                  <p>
+                    <span style={{ color: 'green' }}>
+                      <p
+                        style={{
+                          fontSize: '20px',
+                          fontWeight: '800',
+                          textAlign: 'center',
+                          color: 'green',
+                        }}
+                      >
+                        Electrical Tools
+                      </p>
+                      <br />
+                    </span>
+                    This includes wire strippers, voltage testers, extension
+                    cords, and light bulbs.
                     <br />
-                    <b>{/* <b>Connectors and Cables: </b> */}</b>
-                  </span>
-                  This includes wire strippers, voltage testers, extension
-                  cords, and light bulbs.
-                  <br />
-                  <br />
-                </p>
+                    <br />
+                  </p>
+                </a>
               </li>
               <li style={styles} data-aos="fade-down">
                 <i className="fa-solid fa-check" />
-                <p>
-                  <span style={{ color: 'green' }}>
-                    <p
-                      style={{
-                        fontSize: '20px',
-                        fontWeight: '800',
-                        textAlign: 'center',
-                        color: 'green',
-                        // marginTop: '12%',
-                      }}
-                    >
-                      Plumbing Tools and Supplies
-                    </p>
-                    <br /> <b>{/* <b>Sensors and Modules: </b> */}</b>
-                  </span>
-                  Pipe wrenches, pipe cutters, washers, and sealants can be
-                  found.
-                  <br />
-                  <br />
-                </p>
+                <a href="/plumbing-tools">
+                  <p>
+                    <span style={{ color: 'green' }}>
+                      <p
+                        style={{
+                          fontSize: '20px',
+                          fontWeight: '800',
+                          textAlign: 'center',
+                          color: 'green',
+                          // marginTop: '12%',
+                        }}
+                      >
+                        Plumbing Tools
+                      </p>
+                      <br /> <b>{/* <b>Sensors and Modules: </b> */}</b>
+                    </span>
+                    Pipe wrenches, pipe cutters, washers, and sealants can be
+                    found.
+                    <br />
+                    <br />
+                  </p>
+                </a>
               </li>
               <li style={styles} data-aos="fade-up-right">
                 <i className="fa-solid fa-check" />
-                <p>
-                  <span style={{ color: 'green' }}>
-                    <p
-                      style={{
-                        fontSize: '20px',
-                        fontWeight: '800',
-                        textAlign: 'center',
-                        color: 'green',
-                        marginTop: '-6%',
-                      }}
-                    >
-                      Safety Equipment
-                    </p>{' '}
-                    <br />
-                    <b>{/* <b> LEDs and Displays: </b> */}</b>
-                  </span>
-                  Safety glasses, work gloves, earplugs, and hard hats are often
-                  sold.
-                </p>
+                <a href="/safety">
+                  <p>
+                    <span style={{ color: 'green' }}>
+                      <p
+                        style={{
+                          fontSize: '20px',
+                          fontWeight: '800',
+                          textAlign: 'center',
+                          color: 'green',
+                          marginTop: '-6%',
+                        }}
+                      >
+                        Safety Equipment
+                      </p>{' '}
+                      <br />
+                      <b>{/* <b> LEDs and Displays: </b> */}</b>
+                    </span>
+                    Safety glasses, work gloves, earplugs, and hard hats are
+                    often sold.
+                  </p>
+                </a>
               </li>
               <li style={styles} data-aos="fade-up-left">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '20px' }}
                 />
-                <p>
-                  <span style={{ color: 'green' }}>
-                    <p
-                      style={{
-                        fontSize: '20px',
-                        fontWeight: '800',
-                        textAlign: 'center',
-                        color: 'green',
-                        // marginTop: '5%',
-                      }}
-                    >
-                      Fasteners
-                    </p>{' '}
-                    <br />
-                    <b>{/* <b> Power Supplies and Batteries: </b> */}</b>
-                  </span>
-                  Nails, screws, nuts, and bolts of various sizes are typically
-                  available.
-                </p>
+                <a href="/safety">
+                  <p>
+                    <span style={{ color: 'green' }}>
+                      <p
+                        style={{
+                          fontSize: '20px',
+                          fontWeight: '800',
+                          textAlign: 'center',
+                          color: 'green',
+                          // marginTop: '5%',
+                        }}
+                      >
+                        Fasteners
+                      </p>{' '}
+                      <br />
+                      <b>{/* <b> Power Supplies and Batteries: </b> */}</b>
+                    </span>
+                    Nails, screws, nuts, and bolts of various sizes are
+                    typically available.
+                  </p>
+                </a>
               </li>
-              <li style={styles} data-aos="fade-down">
+              {/* <li style={styles} data-aos="fade-down">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '20px' }}
@@ -347,18 +354,16 @@ const ActivityThree = () => {
                         fontWeight: '800',
                         textAlign: 'center',
                         color: 'green',
-                        // marginTop: '5%',
                       }}
                     >
                       Building Materials
                     </p>{' '}
                     <br />
-                    <b>{/* <b> Switches and Relays: </b> */}</b>
                   </span>
                   This can include items like cement, sand, bricks, and tiles.
                 </p>
-              </li>
-              <li style={styles} data-aos="fade-up-right">
+              </li> */}
+              {/* <li style={styles} data-aos="fade-up-right">
                 <i
                   className="fa-solid fa-check"
                   style={{ marginTop: '20px' }}
@@ -371,18 +376,16 @@ const ActivityThree = () => {
                         fontWeight: '800',
                         textAlign: 'center',
                         color: 'green',
-                        // marginTop: '5%',
                       }}
                     >
                       Hardware Accessories
                     </p>{' '}
                     <br />
-                    <b>{/* <b> Semiconductors: </b> */}</b>
                   </span>
                   Items such as hinges, handles, hooks, and shelf brackets are
                   usually available.
                 </p>
-              </li>
+              </li> */}
             </ul>
             <div className="container" style={{ textAlign: '' }}>
               <p

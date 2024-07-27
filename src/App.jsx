@@ -56,8 +56,15 @@ import Media from './components/activities/activity-sub/activity-one/Media';
 import PrintingEquip from './components/activities/activity-sub/activity-one/PrintingEquip';
 import Solvent from './components/activities/activity-sub/activity-one/Solvent';
 import Safety from './components/activities/activity-sub/activity-three/Safety';
+import FaceMask from './components/activities/activity-sub/activity-five/FaceMask';
+import ProtectiveApparel from './components/activities/activity-sub/activity-five/ProtectiveApparel';
+import Gloves from './components/activities/activity-sub/activity-five/Gloves';
+import EyeProtection from './components/activities/activity-sub/activity-five/EyeProtection';
+import Sanitizers from './components/activities/activity-sub/activity-five/Sanitizers';
 
-// import Contact from './components/Contact';
+
+
+
 const App = () => {
   useEffect(() => {
     setTimeout(() => {
@@ -69,6 +76,15 @@ const App = () => {
       });
     }, 100); // Delay initialization
   }, []);
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
+      }
+    }
+  });
   return (
     <>
       <Router>
@@ -139,6 +155,14 @@ const App = () => {
           <Route path="/instrumentation" element={<Instrumentation />} />
 
           {/* -------------activity-four-sub ends------------ */}
+          {/* -------------activity-five-sub starts------------ */}
+          <Route path="/mask" element={<FaceMask />} />
+          <Route path="/protective" element={<ProtectiveApparel />} />
+          <Route path="/gloves" element={<Gloves />} />
+          <Route path="/eye" element={<EyeProtection />} />
+          <Route path="/sanitizer" element={<Sanitizers />} />
+
+          {/* -------------activity-five-sub ends------------ */}
         </Routes>
         <Footer />
       </Router>

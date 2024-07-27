@@ -144,6 +144,7 @@ const ActivityOne = () => {
                       a wide variety of printing tasks. These inks are
                       environmentally friendly and ensure vibrant colors and
                       excellent adhesion on various media types.
+                      <a href="/ecosolvent">( Know More )</a>
                     </p>
                   </div>
                 </li>
@@ -154,6 +155,7 @@ const ActivityOne = () => {
                       Our UV inks are designed for applications that require
                       high print quality and durability. These inks are cured by
                       UV light, making them resistant to fading and weathering.
+                      <a href="/uv">( Know More )</a>
                     </p>
                   </div>
                   <div className="image" data-aos="fade-right">
@@ -188,6 +190,7 @@ const ActivityOne = () => {
                       We supply high-quality solvent-based inks that are ideal
                       for outdoor applications. These inks are durable and
                       resistant to various environmental conditions.
+                      <a href="/solvent">( Know More )</a>
                     </p>
                   </div>
                 </li>
@@ -212,6 +215,7 @@ const ActivityOne = () => {
                       solvent-based printers. These machines are designed for
                       efficiency and reliability, enabling you to deliver
                       high-quality prints to your customers.
+                      <a href="/printequip">( Know More )</a>
                     </p>
                   </div>
                   <div className="image" data-aos="fade-right">
@@ -245,6 +249,7 @@ const ActivityOne = () => {
                       vinyl, and canvas, to banner materials. These are
                       specially designed to work with eco-solvent inks, ensuring
                       high-quality prints every time.
+                      <a href="/media">( Know More )</a>
                     </p>
                   </div>
                 </li>
