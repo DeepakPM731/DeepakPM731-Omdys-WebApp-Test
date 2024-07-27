@@ -54,83 +54,6 @@ const MainServices = () => {
             <div className="container" style={{ marginBottom: '-5%' }}>
               <div className="row">
                 <ul>
-                  <li style={{ marginTop: '-5%' }}>
-                    <div className="data">
-                      <h3>Trading Commodities</h3>
-                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                        Based in the industrial hub of Hosur, Tamil Nadu, we
-                        specialize in sourcing and trading a wide range of
-                        commodities, including pulses and grains. Our extensive
-                        network ensures that businesses receive high-quality raw
-                        materials and essential products at competitive prices,
-                        tailored to their specific needs. Our strategic location
-                        allows us to offer reliable supply chains and efficient
-                        distribution.
-                      </p>
-                    </div>
-                    <div className="image" data-aos="fade-right">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="assets/images/activity-four/svg/log/Trading Commodities_.svg"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="image" data-aos="fade-left">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="assets/images/activity-four/svg/log/Selling Products_.svg"
-                          // src="assets/images/activity-four/gowns.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
-                    </div>
-                    <div className="data">
-                      <h3>Selling Products</h3>
-                      <p style={{ fontSize: '18px' }}>
-                        We offer an extensive variety of products across
-                        multiple industries, focusing on reliability and
-                        cost-effectiveness. Our product range is tailored to
-                        meet the diverse needs of our clients, ensuring they
-                        receive top-quality items that enhance their operations.
-                        From manufacturing to retail, we provide solutions that
-                        are critical to the success of our clients.
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="data">
-                      <h3> Logistics and Timely Delivery</h3>
-                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                        Ensuring timely delivery is a cornerstone of our
-                        operations. We meticulously manage logistics to ensure
-                        that our clients receive their goods as scheduled. Our
-                        robust supply chain solutions are designed to minimize
-                        delays, optimize delivery efficiency, and ensure that
-                        products reach their destinations in perfect condition.
-                      </p>
-                    </div>
-                    <div className="image" data-aos="fade-right">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="assets/images/activity-four/svg/log/Logistics and Timely Delivery_.svg"
-                          // src="assets/images/activity-four/gloves.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
-                    </div>
-                  </li>
                   <li>
                     <div className="image" data-aos="fade-left">
                       <figure>
@@ -267,6 +190,83 @@ const MainServices = () => {
                         projects and industrial sites throughout the region.
                         <a href="/activity-three">( Know More )</a>
                       </p>
+                    </div>
+                  </li>
+                  <li style={{ marginTop: '' }}>
+                    <div className="data">
+                      <h3>Trading Commodities</h3>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        Based in the industrial hub of Hosur, Tamil Nadu, we
+                        specialize in sourcing and trading a wide range of
+                        commodities, including pulses and grains. Our extensive
+                        network ensures that businesses receive high-quality raw
+                        materials and essential products at competitive prices,
+                        tailored to their specific needs. Our strategic location
+                        allows us to offer reliable supply chains and efficient
+                        distribution.
+                      </p>
+                    </div>
+                    <div className="image" data-aos="fade-right">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="assets/images/activity-four/svg/log/Trading Commodities_.svg"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="image" data-aos="fade-left">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="assets/images/activity-four/svg/log/Selling Products_.svg"
+                          // src="assets/images/activity-four/gowns.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
+                    </div>
+                    <div className="data">
+                      <h3>Selling Products</h3>
+                      <p style={{ fontSize: '18px' }}>
+                        We offer an extensive variety of products across
+                        multiple industries, focusing on reliability and
+                        cost-effectiveness. Our product range is tailored to
+                        meet the diverse needs of our clients, ensuring they
+                        receive top-quality items that enhance their operations.
+                        From manufacturing to retail, we provide solutions that
+                        are critical to the success of our clients.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="data">
+                      <h3> Logistics and Timely Delivery</h3>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        Ensuring timely delivery is a cornerstone of our
+                        operations. We meticulously manage logistics to ensure
+                        that our clients receive their goods as scheduled. Our
+                        robust supply chain solutions are designed to minimize
+                        delays, optimize delivery efficiency, and ensure that
+                        products reach their destinations in perfect condition.
+                      </p>
+                    </div>
+                    <div className="image" data-aos="fade-right">
+                      <figure>
+                        <img
+                          className="w-100"
+                          src="assets/images/activity-four/svg/log/Logistics and Timely Delivery_.svg"
+                          // src="assets/images/activity-four/gloves.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
+                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          alt="Core Values Image 1"
+                        />
+                      </figure>
                     </div>
                   </li>
                 </ul>

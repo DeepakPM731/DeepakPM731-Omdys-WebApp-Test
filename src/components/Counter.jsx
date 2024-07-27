@@ -1,5 +1,6 @@
 import AOS from 'aos';
 import { useEffect } from 'react';
+import $ from 'jquery';
 const Counter = () => {
   useEffect(() => {
     AOS.init({
@@ -27,6 +28,38 @@ const Counter = () => {
       AOS.refreshHard();
     };
   }, []);
+  useEffect(() => {
+    const checkIfInView = () => {
+      $('.odometer').each(function () {
+        const $this = $(this);
+        const elementTop = $this.offset().top;
+        const elementBottom = elementTop + $this.outerHeight();
+        const viewportTop = $(window).scrollTop();
+        const viewportBottom = viewportTop + $(window).height();
+
+        if (elementBottom > viewportTop && elementTop < viewportBottom) {
+          if ($this.data('status') === 'yes') {
+            var delayTime = 400; // Delay time in milliseconds
+            $this.css('opacity', '0.1'); // Set initial opacity to 0
+            setTimeout(function () {
+              // Fade in with animation
+              $this.html($this.data('count')).animate({ opacity: 1 }, 'slow');
+            }, delayTime);
+            $this.data('status', 'no');
+          }
+        }
+      });
+    };
+
+    $(document).on('scroll', checkIfInView);
+    checkIfInView(); // Initial check in case the element is already in view
+
+    // Cleanup the scroll event listener on component unmount
+    return () => {
+      $(document).off('scroll', checkIfInView);
+    };
+  }, []);
+
   return (
     <>
       <section className="gap no-top counter-style-one">

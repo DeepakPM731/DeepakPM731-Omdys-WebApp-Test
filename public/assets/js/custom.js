@@ -51,19 +51,23 @@ jQuery(document).ready(function ($) {
 
   // COUNTER
   //   -----oG start----
-  $(document).scroll(function () {
-    $('.odometer').each(function () {
-      var parent_section_postion = $(this).closest('section').position();
-      var parent_section_top = parent_section_postion.top;
-      if ($(document).scrollTop() > parent_section_top - 300) {
-        if ($(this).data('status') == 'yes') {
-          $(this).html($(this).data('count'));
-          $(this).data('status', 'no');
-        }
-      }
-    });
-  });
+  // $(document).scroll(function () {
+  //   $('.odometer').each(function () {
+  //     var parent_section_postion = $(this).closest('section').position();
+  //     var parent_section_top = parent_section_postion.top;
+  //     if ($(document).scrollTop() > parent_section_top - 300) {
+  //       if ($(this).data('status') == 'yes') {
+  //         $(this).html($(this).data('count'));
+  //         $(this).data('status', 'no');
+  //       }
+  //     }
+  //   });
+  // });
   //   -----oG ends----
+  // ----------------------------test----------------------------------------------
+
+  // ----------------------------test----------------------------------------------
+
   // $(document).scroll(function () {
   //     $('.odometer').each(function () {
   //         var parent_section_postion = $(this).closest('section').position();

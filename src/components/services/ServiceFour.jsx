@@ -83,83 +83,37 @@ const ServiceFour = () => {
             <div className="row align-items-center">
               <div className="col-lg-12">
                 <div className="data" style={{ marginTop: '' }}>
-                  {' '}
-                  {/* <div className="data"> */}
+                  <br />
+                  <br />
+                  <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                    At OMDYS International LLP, we prioritize identifying and
+                    mitigating potential risks throughout the supply chain,
+                    including quality control issues, production delays, and
+                    currency fluctuations. Our team implements comprehensive
+                    risk management strategies, such as insurance or alternative
+                    suppliers, to minimize potential losses and ensure business
+                    continuity. We maintain strict compliance with import and
+                    export regulations, safeguarding our operations against
+                    legal and financial repercussions. By conducting thorough
+                    quality control checks, we ensure that all products meet the
+                    highest standards before reaching our clients. OMDYS
+                    International LLP proactively addresses production delays by
+                    maintaining robust communication with suppliers and
+                    monitoring project timelines closely. We employ advanced
+                    forecasting tools to manage currency fluctuations,
+                    protecting our clients from unexpected cost variations. Our
+                    risk management framework includes contingency planning,
+                    allowing us to swiftly adapt to unforeseen challenges in the
+                    supply chain. Regular audits and assessments help us
+                    identify potential vulnerabilities in our processes,
+                    enabling us to take corrective actions promptly. At OMDYS
+                    International LLP, we believe that effective risk management
+                    is crucial to delivering reliable and efficient service to
+                    our clients, fostering long-term partnerships built on trust
+                    and dependability.
+                  </p>
+                  <br /> {/* <div className="data"> */}
                   {/* <h2>Risk Management</h2> */}
-                  <ul>
-                    {/* <ul data-aos="fade-down"> */}
-                    <li>
-                      <i className="fa-solid fa-check" />
-                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                        <b>
-                          {' '}
-                          At OMDYS International LLP, we prioritize identifying
-                          and mitigating potential risks throughout the supply
-                          chain, including quality control issues, production
-                          delays, and currency fluctuations.
-                        </b>
-                      </p>
-                    </li>
-                    {/* <li>
-                    <i className="fa-solid fa-check" />
-                    <p>
-                      <b> </b>
-                    </p>
-                  </li> */}
-                    <li>
-                      <i className="fa-solid fa-check" />
-                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                        <b>
-                          Our team implements comprehensive risk management
-                          strategies, such as insurance or alternative
-                          suppliers, to minimize potential losses and ensure
-                          business continuity. We maintain strict compliance
-                          with import and export regulations, safeguarding our
-                          operations against legal and financial repercussions.
-                        </b>
-                      </p>
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-check" />
-                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                        <b>
-                          By conducting thorough quality control checks, we
-                          ensure that all products meet the highest standards
-                          before reaching our clients. OMDYS International LLP
-                          proactively addresses production delays by maintaining
-                          robust communication with suppliers and monitoring
-                          project timelines closely.
-                        </b>
-                      </p>
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-check" />
-                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                        <b>
-                          We employ advanced forecasting tools to manage
-                          currency fluctuations, protecting our clients from
-                          unexpected cost variations. Our risk management
-                          framework includes contingency planning, allowing us
-                          to swiftly adapt to unforeseen challenges in the
-                          supply chain.
-                        </b>
-                      </p>
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-check" />
-                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                        <b>
-                          Regular audits and assessments help us identify
-                          potential vulnerabilities in our processes, enabling
-                          us to take corrective actions promptly. At OMDYS
-                          International LLP, we believe that effective risk
-                          management is crucial to delivering reliable and
-                          efficient service to our clients, fostering long-term
-                          partnerships built on trust and dependability.
-                        </b>
-                      </p>
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>

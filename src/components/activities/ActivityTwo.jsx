@@ -101,11 +101,11 @@ const ActivityTwo = () => {
         <div className="row align-items-center">
           <div className="col-lg-12">
             <div className="proj-data">
-              <h1 className="mt-4">
-                <a href="" style={{ color: 'black' }}>
+              <h2 className="indushead mt-4">
+                {/* <a href="" style={{ color: 'black' }}> */}
                   Our Product Range
-                </a>
-              </h1>
+                {/* </a> */}
+              </h2>
             </div>
             <div className="container">
               <p

@@ -175,7 +175,7 @@ const Header = () => {
                           </li> */}
                           <li className="menu-item-has-children">
                             <Link to={'JavaScript:void(0)'}>
-                              <a href="/service-single">Services</a>
+                              <a href="javascript:void(0)">Services</a>
                             </Link>
                             <ul className="sub-menu">
                               <li>
@@ -318,38 +318,38 @@ const Header = () => {
                                 {/* </Link> */}
                                 <ul className="sub-menu">
                                   <li>
-                                    <a href="/activity-two">
+                                    <a href="/ic">
                                       Integrated Circuits (ICs)
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/activity-two">
+                                    <a href="/passive">
                                       Passive Components
                                     </a>
                                   </li>
 
                                   <li>
-                                    <a href="/activity-two">
+                                    <a href="/active">
                                       Active Components
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/activity-two">
+                                    <a href="/connector">
                                       Connectors and Cables
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/activity-two">
+                                    <a href="/sensor">
                                       Sensors and Modules
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/activity-two">
+                                    <a href="/led">
                                       LEDs and Displays
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/activity-two">
+                                    <a href="/power">
                                       Power Supplies and Batteries
                                     </a>
                                   </li>
@@ -359,7 +359,7 @@ const Header = () => {
                                     </a>
                                   </li>
                                   <li>
-                                    <a href="/activity-two">Semiconductors</a>
+                                    <a href="/semi">Semiconductors</a>
                                   </li>
                                 </ul>
                               </li>
@@ -703,7 +703,7 @@ const Header = () => {
                 </li>
                 <li className="menu-item-has-children">
                   {/* <Link to={'/service-single'}> */}
-                  <a href="/service-single" style={{ color: 'white' }}>
+                  <a href="javascript:void(0)" style={{ color: 'white' }}>
                     Services
                   </a>
                   {/* </Link> */}

@@ -29,6 +29,15 @@ import ServiceSingle from './components/services/ServiceSingle';
 import TestFour from './components/activities/TestFour';
 import ContactForm from './components/ContactForm';
 import MainServices from './components/services/MainServices';
+import IC from './components/activities/activity-sub/activity-two/IC';
+import ActiveC from './components/activities/activity-sub/activity-two/ActiveC';
+import Passive from './components/activities/activity-sub/activity-two/Passive';
+import Sensor from './components/activities/activity-sub/activity-two/Sensor';
+import Connectors from './components/activities/activity-sub/activity-two/Connectors';
+import SwitchRelay from './components/activities/activity-sub/activity-two/SwitchRelay';
+import Led from './components/activities/activity-sub/activity-two/Led';
+import PowerBaterry from './components/activities/activity-sub/activity-two/PowerBaterry';
+import SemiC from './components/activities/activity-sub/activity-two/SemiC';
 
 // import Contact from './components/Contact';
 const App = () => {
@@ -63,6 +72,7 @@ const App = () => {
           <Route path="/service-three" element={<ServiceThree />} />
           <Route path="/service-four" element={<ServiceFour />} />
           <Route path="/activities" element={<Activities />} />
+
           <Route path="/activity-one" element={<ActivityOne />} />
           <Route path="/activity-two" element={<ActivityTwo />} />
           <Route path="/activity-three" element={<ActivityThree />} />
@@ -70,6 +80,19 @@ const App = () => {
           <Route path="/activity-five" element={<ActivityFive />} />
           <Route path="/activity-six" element={<ActivitySix />} />
           <Route path="/activity-test" element={<TestFour />} />
+
+          {/* -------------activity-one-sub starts------------ */}
+          <Route path="/ic" element={<IC />} />
+          <Route path="/active" element={<ActiveC />} />
+          <Route path="/passive" element={<Passive />} />
+          <Route path="/sensor" element={<Sensor />} />
+          <Route path="/connector" element={<Connectors />} />
+          <Route path="/switch" element={<SwitchRelay />} />
+          <Route path="/led" element={<Led />} />
+          <Route path="/power" element={<PowerBaterry />} />
+          <Route path="/semi" element={<SemiC />} />
+
+          {/* -------------activity-sub ends------------ */}
         </Routes>
         <Footer />
       </Router>

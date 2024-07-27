@@ -89,103 +89,78 @@ const ServiceTwo = () => {
                   <ul>
                     {/* <ul data-aos="fade-down"> */}
                     <li>
-                      <i className="fa-solid fa-check" />
-                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                        <b>
-                          {' '}
-                          Managing Product Specifications: At OMDYS
-                          International LLP, we meticulously manage product
-                          specifications to ensure they meet client requirements
-                          and adhere to industry standards. Our team works
-                          closely with clients to understand their precise needs
-                          and translates them into detailed product
-                          specifications.
-                        </b>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        {' '}
+                        <b>Managing Product Specifications:</b> At OMDYS
+                        International LLP, we meticulously manage product
+                        specifications to ensure they meet client requirements
+                        and adhere to industry standards. Our team works closely
+                        with clients to understand their precise needs and
+                        translates them into detailed product specifications.
                       </p>
                     </li>
 
                     <li>
-                      <i className="fa-solid fa-check" />
-                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                        <b>
-                          Product Sourcing: We leverage our extensive network to
-                          source high-quality products from reliable suppliers
-                          worldwide. Our strategic sourcing practices ensure
-                          that we can provide clients with the best products at
-                          competitive prices.
-                        </b>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        <b>Product Sourcing:</b> We leverage our extensive
+                        network to source high-quality products from reliable
+                        suppliers worldwide. Our strategic sourcing practices
+                        ensure that we can provide clients with the best
+                        products at competitive prices.
                       </p>
                     </li>
                     <li>
-                      <i className="fa-solid fa-check" />
-                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                        <b>
-                          Sampling and Pre-Production Approvals: Before mass
-                          production, we handle the sampling process and secure
-                          pre-production approvals from our clients. This step
-                          ensures that the final product aligns perfectly with
-                          client expectations and specifications.
-                        </b>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        <b> Sampling and Pre-Production Approvals:</b> Before
+                        mass production, we handle the sampling process and
+                        secure pre-production approvals from our clients. This
+                        step ensures that the final product aligns perfectly
+                        with client expectations and specifications.
                       </p>
                     </li>
                     <li>
-                      <i className="fa-solid fa-check" />
-                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                        <b>
-                          Production Monitoring: During the manufacturing
-                          process, we continuously monitor production to ensure
-                          everything is on track. Our proactive approach helps
-                          in identifying and resolving any issues promptly,
-                          maintaining the production schedule
-                        </b>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        <b>Production Monitoring:</b> During the manufacturing
+                        process, we continuously monitor production to ensure
+                        everything is on track. Our proactive approach helps in
+                        identifying and resolving any issues promptly,
+                        maintaining the production schedule
                       </p>
                     </li>
                     <li>
-                      <i className="fa-solid fa-check" />
-                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                        <b>
-                          Quality Control: Ensuring quality is a top priority at
-                          OMDYS International LLP. We implement rigorous quality
-                          control measures throughout the manufacturing process
-                          to ensure that every product meets the highest
-                          standards of quality.
-                        </b>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        <b>Quality Control:</b> Ensuring quality is a top
+                        priority at OMDYS International LLP. We implement
+                        rigorous quality control measures throughout the
+                        manufacturing process to ensure that every product meets
+                        the highest standards of quality.
                       </p>
                     </li>
                     <li>
-                      <i className="fa-solid fa-check" />
-                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                        <b>
-                          Compliance Assurance: We ensure that all products
-                          comply with relevant regulatory and industry
-                          standards. Our compliance assurance process includes
-                          thorough checks and validations to meet international
-                          quality and safety requirements.
-                        </b>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        <b> Compliance Assurance:</b> We ensure that all
+                        products comply with relevant regulatory and industry
+                        standards. Our compliance assurance process includes
+                        thorough checks and validations to meet international
+                        quality and safety requirements.
                       </p>
                     </li>
                     <li>
-                      <i className="fa-solid fa-check" />
-                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                        <b>
-                          Post-Production Support: Our commitment to client
-                          satisfaction extends beyond production. We offer
-                          post-production support, including logistics
-                          management, timely delivery, and addressing any
-                          after-sales queries or issues.
-                        </b>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        <b>Post-Production Support: </b>Our commitment to client
+                        satisfaction extends beyond production. We offer
+                        post-production support, including logistics management,
+                        timely delivery, and addressing any after-sales
+                        queries or issues.
                       </p>
                     </li>
                     <li>
-                      <i className="fa-solid fa-check" />
-                      <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                        <b>
-                          Vendor Coordination: We coordinate closely with
-                          vendors and manufacturers to ensure seamless
-                          communication and efficient production processes. Our
-                          relationships with trusted suppliers enable us to
-                          manage production timelines effectively.
-                        </b>
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        <b>Vendor Coordination:</b> We coordinate closely with
+                        vendors and manufacturers to ensure seamless
+                        communication and efficient production processes. Our
+                        relationships with trusted suppliers enable us to manage
+                        production timelines effectively.
                       </p>
                     </li>
                   </ul>

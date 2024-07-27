@@ -82,75 +82,36 @@ const ServiceOne = () => {
                 {/* <div className="data"> */}
                 {/* <h2>Supplier Identification & Sourcing</h2> */}
                 {/* <ul data-aos="fade-down"> */}
-                <ul>
-                  <li>
-                    <i className="fa-solid fa-check" />
-                    <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                      <b>
-                        {' '}
-                        At OMDYS International LLP, we specialize in identifying
-                        qualified and reliable suppliers based on your specific
-                        needs and current market conditions. Leveraging our
-                        extensive network and market knowledge, we ensure that
-                        each supplier meets the highest standards of quality and
-                        reliability. We conduct detailed supplier audits to
-                        assess capabilities, certifications, and ethical
-                        practices, ensuring that your business partners with
-                        only the best.
-                      </b>
-                    </p>
-                  </li>
-                  {/* <li>
-                    <i className="fa-solid fa-check" />
-                    <p>
-                      <b> </b>
-                    </p>
-                  </li> */}
-                  <li>
-                    <i className="fa-solid fa-check" />
-                    <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                      <b>
-                        Our rigorous vetting process includes evaluating
-                        suppliers' production capacities, quality control
-                        systems, and compliance with industry standards. We
-                        place a strong emphasis on ethical practices, ensuring
-                        that our suppliers adhere to fair labor practices and
-                        environmental regulations. By understanding your unique
-                        requirements, we tailor our sourcing strategy to find
-                        the most suitable suppliers that align with your
-                        business goals.
-                      </b>
-                    </p>
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check" />
-                    <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                      <b>
-                        Negotiating competitive prices and favorable terms with
-                        suppliers on your behalf is a core part of our service.
-                        Our experienced team uses their negotiation skills to
-                        secure the best possible deals, helping you save costs
-                        and improve profitability. We maintain transparent
-                        communication throughout the sourcing process, keeping
-                        you informed every step of the way.
-                      </b>
-                    </p>
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check" />
-                    <p style={{ textAlign: 'justify', fontSize: '14px' }}>
-                      <b>
-                        At OMDYS International LLP, we are committed to building
-                        long-term relationships with both our clients and
-                        suppliers. Our goal is to create a seamless and
-                        efficient supply chain that supports your business
-                        growth. Trust us to be your reliable partner in supplier
-                        identification and sourcing, ensuring quality,
-                        efficiency, and ethical practices in every transaction.
-                      </b>
-                    </p>
-                  </li>
-                </ul>
+                <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                  At OMDYS International LLP, we specialize in identifying
+                  qualified and reliable suppliers based on your specific needs
+                  and current market conditions. Leveraging our extensive
+                  network and market knowledge, we ensure that each supplier
+                  meets the highest standards of quality and reliability. We
+                  conduct detailed supplier audits to assess capabilities,
+                  certifications, and ethical practices, ensuring that your
+                  business partners with only the best. Our rigorous vetting
+                  process includes evaluating suppliers' production capacities,
+                  quality control systems, and compliance with industry
+                  standards. We place a strong emphasis on ethical practices,
+                  ensuring that our suppliers adhere to fair labor practices and
+                  environmental regulations. By understanding your unique
+                  requirements, we tailor our sourcing strategy to find the most
+                  suitable suppliers that align with your business goals.
+                  Negotiating competitive prices and favorable terms with
+                  suppliers on your behalf is a core part of our service. Our
+                  experienced team uses their negotiation skills to secure the
+                  best possible deals, helping you save costs and improve
+                  profitability. We maintain transparent communication
+                  throughout the sourcing process, keeping you informed every
+                  step of the way. At OMDYS International LLP, we are committed
+                  to building long-term relationships with both our clients and
+                  suppliers. Our goal is to create a seamless and efficient
+                  supply chain that supports your business growth. Trust us to
+                  be your reliable partner in supplier identification and
+                  sourcing, ensuring quality, efficiency, and ethical practices
+                  in every transaction.
+                </p>
               </div>
             </div>
           </div>
