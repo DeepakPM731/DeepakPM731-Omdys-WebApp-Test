@@ -1236,7 +1236,7 @@ button.scrollTopStick:hover i {
   font-weight: 900;
 }
 .about-style-one .about-data-right h2 {
-  font-size: 50px;
+  /* font-size: 50px; */
   line-height: 60px;
   margin-top: 10px;
   margin-bottom: 50px;
@@ -2823,18 +2823,27 @@ span.counter {
 .mobile-nav > ul > li {
   position: relative;
   border-bottom: 1px solid #5b5b5b;
-  padding: 10px 0;
+  /* padding: 10px 0; */
+  padding: 0 0;
 }
 .mobile-nav > ul li > a {
-  font-size: 17px;
+  /* font-size: 17px; */
   color: #fff;
   line-height: 26px;
   position: relative;
 }
 .mobile-nav > ul > li > a {
-  font-size: 18px;
+  /* font-size: 18px; */
   line-height: 30px;
   color: #fff;
+}
+.mobile-li-a {
+  font-size: 18px;
+}
+.mobile-li-a-sub {
+  font-size: 17px;
+  background-color: #262626;
+  padding: 0.2rem;
 }
 
 .mobile-nav > ul li.menu-item-has-children ul.sub-menu {
@@ -2865,7 +2874,7 @@ span.counter {
 }
 
 .mobile-nav > ul li.menu-item-has-children.active ul.sub-menu li {
-  padding: 5px 0;
+  padding: 6px 0;
   position: relative;
   line-height: 10px;
 }
@@ -7192,3 +7201,48 @@ img.light-icon {
 }
 
 /* -=============================================================================- */
+
+/* --------------text alignment start------------------- */
+@media screen and (max-width: 1200px) {
+  .about-style-one .about-data-right .about-info p {
+  }
+}
+@media screen and (max-width: 992px) {
+  .about-style-one .about-data-right .about-info p {
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-style-one .about-data-right .about-info p {
+  }
+}
+@media screen and (max-width: 480px) {
+  .about-style-one .about-data-right .about-info p {
+  }
+  .about-data-right h2 {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 375px) {
+  .about-style-one .about-data-right {
+  }
+  .about-style-one .about-data-right .about-info p {
+  }
+  .about-data-right h2 {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 230px) {
+  .about-style-one .about-data-right .about-info p {
+  }
+  .about-data-right h2 {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 180px) {
+  .about-style-one .about-data-right .about-info p {
+  }
+  .about-data-right h2 {
+    text-align: left;
+  }
+}
+/* --------------text alignment end------------------- */

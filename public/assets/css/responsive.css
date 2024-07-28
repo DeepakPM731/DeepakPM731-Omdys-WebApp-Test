@@ -2276,6 +2276,7 @@
     font-size: 16px;
     line-height: 26px;
     height: 55px;
+    padding: 40px 20px;
   }
   .acc2 .accordion-item h2:before {
     display: none;
@@ -2899,6 +2900,7 @@
   }
   .acc2 .accordion-item button {
     line-height: 20px;
+    padding: 50px 20px;
   }
   .featured-slider-one .owl-nav {
     bottom: 4%;
@@ -2978,5 +2980,13 @@
   }
   .team-style-one .owl-item.open.active {
     width: 7% !important;
+  }
+}
+@media (max-width: 230px) {
+  .acc2 .accordion-item button {
+    font-size: 16px;
+    line-height: 26px;
+    height: 55px;
+    padding: 60px 20px;
   }
 }

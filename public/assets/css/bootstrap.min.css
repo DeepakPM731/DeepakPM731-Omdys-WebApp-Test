@@ -3368,7 +3368,7 @@ fieldset:disabled .btn {
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  /* border: 1px solid rgba(0, 0, 0, 0.15); */
   border-radius: 0.25rem;
   /* padding-right: 70px; */
 }
@@ -3553,7 +3553,7 @@ fieldset:disabled .btn {
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: 0.25rem 1rem;
+  padding: 0.85rem 1rem;
   clear: both;
   font-weight: 400;
   color: #212529;
@@ -3562,6 +3562,13 @@ fieldset:disabled .btn {
   white-space: nowrap;
   background-color: transparent;
   border: 0;
+  margin-top: 15px;
+  /* background-color: grey; */
+  background-color: #fbff02;
+  /* background-color: #f8f7f7; */
+  border: 1px solid grey;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
 }
 .dropdown-item:focus,
 .dropdown-item:hover {

@@ -630,8 +630,8 @@ const ContactPage = () => {
                     </li>
                     <li>
                       <a className="tw" href="javascript:void(0)">
-                        <p>Twitter</p>
-                        <i className="fa-brands fa-twitter" />
+                        <p>Instagram</p>
+                        <i className="fa-brands fa-instagram" />
                       </a>
                     </li>
                   </ul>
@@ -648,7 +648,7 @@ const ContactPage = () => {
               <img src="assets/images/heading-icon.png" alt="Heading Icon" />
             </figure>
             <span style={{ fontSize: '22px' }}>Frequently asked questions</span>
-            <h2>Finding Solutions For Your Dream Project</h2>
+            <h2>Finding Solutions For Your Questions</h2>
           </div>
           {/* -------------Buttons starts---------------------- */}
           {/* Button 1 */}
@@ -661,6 +661,7 @@ const ContactPage = () => {
                   type="button"
                   id="dropdownMenuButton"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
+                   
                   aria-haspopup="true"
                   aria-expanded={dropdownOpen}
                   //     style={{
@@ -2997,7 +2998,8 @@ const ContactPage = () => {
           </div>
           {/* ------------------Accordions start----------------- */}
         </section>
-
+        <br />
+        <br />
         {/* Contact Faqs End */}
       </>
     </>

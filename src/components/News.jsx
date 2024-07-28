@@ -120,7 +120,7 @@ const News = () => {
               <figure>
                 <img src="assets/images/heading-icon.png" alt="heading-icon" />
               </figure>
-              <span>Let us Help Guide</span>
+              <span>Global Market News Summary</span>
               <h2>Recent Articles</h2>
             </div>
             <br />

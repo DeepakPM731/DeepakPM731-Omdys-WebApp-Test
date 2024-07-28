@@ -22,16 +22,22 @@ const Footer = () => {
     e.preventDefault();
 
     const newErrors = {};
-    const emailPattern = /\S+@\S+\.\S+/;
+    // const emailPattern = /\S+@\S+\.\S+/;
     const phonePattern = /^[0-9]{10}$/;
 
-    if (!formData.email) {
-      newErrors.email = 'Please enter a valid Email or a 10-digit Phone number';
-    } else if (
-      !emailPattern.test(formData.email) &&
-      !phonePattern.test(formData.email)
-    ) {
-      newErrors.email = 'Please enter a valid Email or a 10-digit Phone number';
+    // if (!formData.email) {
+    //   newErrors.email = 'Please enter a valid Email or a 10-digit Phone number';
+    // } else if (
+    //   !emailPattern.test(formData.email) &&
+    //   !phonePattern.test(formData.email)
+    // ) {
+    //   newErrors.email = 'Please enter a valid Email or a 10-digit Phone number';
+    // }
+
+    if (!formData.phone) {
+      newErrors.phone = 'Please enter a valid 10-digit Phone number';
+    } else if (!phonePattern.test(formData.phone)) {
+      newErrors.phone = 'Please enter a valid 10-digit Phone number';
     }
 
     if (Object.keys(newErrors).length === 0) {
@@ -329,7 +335,7 @@ const Footer = () => {
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-col">
                   <h3>Callback-Request</h3>
-                  <p>Request a callback. Enter your Email or Phone.</p>
+                  <p>Request a callback. Enter your Phone.</p>
                   <form onSubmit={sendEmail}>
                     <input
                       type="text"
@@ -337,7 +343,7 @@ const Footer = () => {
                       id="exampleInputEmailOrPhone"
                       name="email"
                       value={formData.email}
-                      placeholder="Enter Your Email or Phone"
+                      placeholder="Enter Your Phone"
                       onChange={handleInputChange}
                     />
                     <button type="submit">
@@ -363,7 +369,7 @@ const Footer = () => {
                 </p>
                 <div className="social-medias">
                   <a href="javascript:void(0)">Facebook</a>
-                  <a href="javascript:void(0)">Twitter</a>
+                  <a href="javascript:void(0)">Instagram</a>
                   <a
                     href="https://www.linkedin.com/company/omdys-international-llp/"
                     target="_blank"

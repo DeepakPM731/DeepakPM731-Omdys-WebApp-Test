@@ -28,8 +28,8 @@ const About = () => {
               <div className="about-data-right">
                 <span>Welcome to Our Company</span>
                 <h2>
-                  THINK BEYOND BORDERS, AND TRADE WITH TRUST. YOUR&nbsp;
-                 MULTI-FUNCTIONAL GATEWAY
+                  THINK BEYOND BORDERS, AND TRADE WITH TRUST. YOUR
+                  MULTI-FUNCTIONAL GATEWAY
                   <span
                     style={{
                       color: 'red',
@@ -46,7 +46,7 @@ const About = () => {
                 </h2> */}
                 <div className="about-info">
                   {/* <p style="font-size: 14px"> */}
-                  <p style={{ textAlign: 'justify' }}>
+                  <p style={{ textAlign: '' }}>
                     Omdys International LLP, headquartered in Hosur, a
                     significant industrial hub in South India, is a conglomerate
                     involved in various business sectors. We are a trading

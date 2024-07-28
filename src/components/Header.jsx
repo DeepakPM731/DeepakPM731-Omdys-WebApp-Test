@@ -638,36 +638,55 @@ const Header = () => {
               <ul>
                 <li>
                   {/* <li className="menu-item-has-children"> */}
-                  <a href="/" style={{ color: 'white' }}>
+                  <a
+                    href="/"
+                    style={{ color: 'white' }}
+                    className="mobile-li-a"
+                  >
                     Home
                   </a>
                 </li>
                 <li className="menu-item-has-children">
                   {/* <Link to={'/about'}> */}
-                  <a href="javascript:void(0)" style={{ color: 'white' }}>
+                  <a
+                    href="javascript:void(0)"
+                    className="mobile-li-a"
+                    style={{ color: 'white' }}
+                  >
                     About
                   </a>
                   {/* </Link>  */}
                   <ul className="sub-menu">
                     <li>
                       {/* <Link to={'/about'}> */}
-                      <a href="/about" style={{ color: 'white' }}>
+                      <a
+                        href="/about"
+                        className="mobile-li-a-sub"
+                        style={{ color: 'white' }}
+                      >
                         About Company{' '}
                       </a>
                       {/* </Link> */}
                     </li>
                     <li>
-                      <Link to={'/core-values'}>
+                      {/* <Link to={'/core-values'}> */}{' '}
+                      <a
+                        href="/core-values"
+                        className="mobile-li-a-sub"
+                        style={{ color: 'white' }}
+                      >
                         {' '}
-                        <a href="/core-values" style={{ color: 'white' }}>
-                          {' '}
-                          Core Values
-                        </a>
-                      </Link>
+                        Core Values
+                      </a>
+                      {/* </Link> */}
                     </li>
                     <li>
                       {/* <Link to={'/core-values'}> */}{' '}
-                      <a href="/team" style={{ color: 'white' }}>
+                      <a
+                        href="/team"
+                        className="mobile-li-a-sub"
+                        style={{ color: 'white' }}
+                      >
                         {' '}
                         Our Team
                       </a>
@@ -677,27 +696,37 @@ const Header = () => {
                 </li>
                 <li className="menu-item-has-children">
                   {/* <Link to={'/service-single'}> */}
-                  <a href="javascript:void(0)" style={{ color: 'white' }}>
+                  <a
+                    href="javascript:void(0)"
+                    className="mobile-li-a"
+                    style={{ color: 'white' }}
+                  >
                     Services
                   </a>
                   {/* </Link> */}
                   <ul className="sub-menu">
                     <li>
-                      <a href="/service-main">Our Main Services</a>
+                      <a href="/service-main" className="mobile-li-a-sub">
+                        Our Main Services
+                      </a>
                     </li>
                     <li>
-                      <a href="/service-one">
+                      <a href="/service-one" className="mobile-li-a-sub">
                         Supplier Identification & Sourcing
                       </a>
                     </li>
                     <li>
-                      <a href="/service-two">Product Management</a>
+                      <a href="/service-two" className="mobile-li-a-sub">
+                        Product Management
+                      </a>
                     </li>
                     {/* <li>
                       <a href="/service-three">Logistics & Shipping</a>
                     </li> */}
                     <li>
-                      <a href="/service-four">Risk Management</a>
+                      <a href="/service-four" className="mobile-li-a-sub">
+                        Risk Management
+                      </a>
                     </li>
                     <li></li>
 
@@ -726,62 +755,96 @@ const Header = () => {
                 </li>
                 <li className="menu-item-has-children">
                   <Link to={'javascript:void(0)'}>
-                    <a href="/activities" style={{ color: 'white' }}>
+                    <a
+                      href="/activities"
+                      className="mobile-li-a"
+                      style={{ color: 'white' }}
+                    >
                       Products
                     </a>
                   </Link>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
                       {/* <Link to={'/activity-one'}> */}
-                      <a href="/activity-one">Printing Solutions</a>
+                      <a href="/activity-one" className="mobile-li-a-sub">
+                        Printing Solutions
+                      </a>
                       {/* </Link> */}
                       <ul className="sub-menu">
                         <li>
-                          <a href="/ecosolvent">Eco-Solvent Inks</a>
+                          <a href="/ecosolvent" className="mobile-li-a-sub">
+                            Eco-Solvent Inks
+                          </a>
                         </li>
                         <li>
-                          <a href="/uv">UV Inks</a>
+                          <a href="/uv" className="mobile-li-a-sub">
+                            UV Inks
+                          </a>
                         </li>
                         <li>
-                          <a href="/solvent">Solvent-Based Inks</a>
+                          <a href="/solvent" className="mobile-li-a-sub">
+                            Solvent-Based Inks
+                          </a>
                         </li>
                         <li>
-                          <a href="/printequip">Printing Equipment</a>
+                          <a href="/printequip" className="mobile-li-a-sub">
+                            Printing Equipment
+                          </a>
                         </li>
                         <li>
-                          <a href="/media">Media Supplies</a>
+                          <a href="/media" className="mobile-li-a-sub">
+                            Media Supplies
+                          </a>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
                       {/* <Link to={'/activity-two'}> */}
-                      <a href="/activity-two">Electronics Components</a>
+                      <a href="/activity-two" className="mobile-li-a-sub">
+                        Electronics Components
+                      </a>
                       {/* </Link> */}
                       <ul className="sub-menu">
                         <li>
-                          <a href="/ic">Integrated Circuits (ICs)</a>
+                          <a href="/ic" className="mobile-li-a-sub">
+                            Integrated Circuits (ICs)
+                          </a>
                         </li>
                         <li>
-                          <a href="/passive">Passive Components</a>
+                          <a href="/passive" className="mobile-li-a-sub">
+                            Passive Components
+                          </a>
                         </li>
 
                         <li>
-                          <a href="/active">Active Components</a>
+                          <a href="/active" className="mobile-li-a-sub">
+                            Active Components
+                          </a>
                         </li>
                         <li>
-                          <a href="/connector">Connectors and Cables</a>
+                          <a href="/connector" className="mobile-li-a-sub">
+                            Connectors and Cables
+                          </a>
                         </li>
                         <li>
-                          <a href="/sensor">Sensors and Modules</a>
+                          <a href="/sensor" className="mobile-li-a-sub">
+                            Sensors and Modules
+                          </a>
                         </li>
                         <li>
-                          <a href="/led">LEDs and Displays</a>
+                          <a href="/led" className="mobile-li-a-sub">
+                            LEDs and Displays
+                          </a>
                         </li>
                         <li>
-                          <a href="/power">Power Supplies and Batteries</a>
+                          <a href="/power" className="mobile-li-a-sub">
+                            Power Supplies and Batteries
+                          </a>
                         </li>
                         <li>
-                          <a href="/switch">Switches and Relays</a>
+                          <a href="/switch" className="mobile-li-a-sub">
+                            Switches and Relays
+                          </a>
                         </li>
                         {/* <li>
                           <a href="/semi">Semiconductors</a>
@@ -790,28 +853,41 @@ const Header = () => {
                     </li>
                     <li className="menu-item-has-children">
                       {/* <Link to={'/activity-three'}> */}
-                      <a href="/activity-three">
+                      <a href="/activity-three" className="mobile-li-a-sub">
                         Construction Tools & Equipments
                       </a>
                       {/* </Link> */}
                       <ul className="sub-menu">
                         <li>
-                          <a href="/hand-tools">Hand Tools</a>
+                          <a href="/hand-tools" className="mobile-li-a-sub">
+                            Hand Tools
+                          </a>
                         </li>
                         <li>
-                          <a href="/power-tools">Power Tools</a>
+                          <a href="/power-tools" className="mobile-li-a-sub">
+                            Power Tools
+                          </a>
                         </li>
                         {/* <li>
                           <a href="/">Gardening Tools</a>
                         </li> */}
                         <li>
-                          <a href="/electrical-tools">Electrical Tools</a>
+                          <a
+                            href="/electrical-tools"
+                            className="mobile-li-a-sub"
+                          >
+                            Electrical Tools
+                          </a>
                         </li>
                         <li>
-                          <a href="/plumbing-tools">Plumbing Tools</a>
+                          <a href="/plumbing-tools" className="mobile-li-a-sub">
+                            Plumbing Tools
+                          </a>
                         </li>
                         <li>
-                          <a href="/safety">Safety Equipment</a>
+                          <a href="/safety" className="mobile-li-a-sub">
+                            Safety Equipment
+                          </a>
                         </li>
                         {/* <li>
                           <a href="/activity-three">Fasteners</a>
@@ -831,51 +907,80 @@ const Header = () => {
                                   </li> */}
                     <li className="menu-item-has-children">
                       {/* <Link to={'/activity-five'}> */}
-                      <a href="/activity-five">Health Care PPE Products</a>
+                      <a href="/activity-five" className="mobile-li-a-sub">
+                        Health Care PPE Products
+                      </a>
                       {/* </Link> */}
                       <ul className="sub-menu">
                         <li>
-                          <a href="/mask">Face Masks</a>
+                          <a href="/mask" className="mobile-li-a-sub">
+                            Face Masks
+                          </a>
                         </li>
                         <li>
-                          <a href="/protective">Protective Apparel</a>
+                          <a href="/protective" className="mobile-li-a-sub">
+                            Protective Apparel
+                          </a>
                         </li>
                         <li>
-                          <a href="/gloves">Gloves</a>
+                          <a href="/gloves" className="mobile-li-a-sub">
+                            Gloves
+                          </a>
                         </li>
                         <li>
-                          <a href="">Eye Protection</a>
+                          <a href="" className="mobile-li-a-sub">
+                            Eye Protection
+                          </a>
                         </li>
                         <li>
-                          <a href="/sanitizer">Sanitizers and Disinfectants</a>
+                          <a href="/sanitizer" className="mobile-li-a-sub">
+                            Sanitizers and Disinfectants
+                          </a>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
                       {/* <Link to={'/activity-five'}> */}
-                      <a href="/activity-four">Oil & Gas Equipment Supply</a>
+                      <a href="/activity-four" className="mobile-li-a-sub">
+                        Oil & Gas Equipment Supply
+                      </a>
                       {/* </Link> */}
                       <ul className="sub-menu">
                         <li>
-                          <a href="/valves">Valves</a>
+                          <a href="/valves" className="mobile-li-a-sub">
+                            Valves
+                          </a>
                         </li>
                         <li>
-                          <a href="/pipes">Pipes</a>
+                          <a href="/pipes" className="mobile-li-a-sub">
+                            Pipes
+                          </a>
                         </li>
                         <li>
-                          <a href="/connectors">Fittings and Connectors</a>
+                          <a href="/connectors" className="mobile-li-a-sub">
+                            Fittings and Connectors
+                          </a>
                         </li>
                         <li>
-                          <a href="/gaskets">Gaskets and Seals</a>
+                          <a href="/gaskets" className="mobile-li-a-sub">
+                            Gaskets and Seals
+                          </a>
                         </li>
                         <li>
-                          <a href="/bolts">Bolts and Nuts</a>
+                          <a href="/bolts" className="mobile-li-a-sub">
+                            Bolts and Nuts
+                          </a>
                         </li>
                         <li>
-                          <a href="/hoses">Hoses and Tubing</a>
+                          <a href="/hoses" className="mobile-li-a-sub">
+                            Hoses and Tubing
+                          </a>
                         </li>
                         <li>
-                          <a href="/instrumentation">
+                          <a
+                            href="/instrumentation"
+                            className="mobile-li-a-sub"
+                          >
                             Instrumentation and Controls
                           </a>
                         </li>
@@ -915,7 +1020,11 @@ const Header = () => {
                 </li>
                 <li>
                   {/* <Link to={'/news'}> */}
-                  <a href="/news" style={{ color: 'white' }}>
+                  <a
+                    href="/news"
+                    className="mobile-li-a"
+                    style={{ color: 'white' }}
+                  >
                     News
                   </a>
                   {/* </Link> */}
@@ -933,7 +1042,11 @@ const Header = () => {
                 </li>
                 <li>
                   {/* <Link to={'/contact'}> */}
-                  <a href="/contact" style={{ color: 'white' }}>
+                  <a
+                    href="/contact"
+                    className="mobile-li-a"
+                    style={{ color: 'white' }}
+                  >
                     Contact
                   </a>
                   {/* </Link> */}
