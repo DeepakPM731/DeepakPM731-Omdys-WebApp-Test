@@ -265,7 +265,7 @@ const ServiceSingle = () => {
                         <figure>
                           <img
                             className="w-100"
-                            src="assets/images/activity-four/svg/log/Industrial Construction Tools & Equipment_.svg"
+                            src="assets/images/activity-four/svg/log/Industrial Construction Tools & Safety Equipmentsuipment_.svg"
                             // src="assets/images/activity-four/sanitizer.png"
                             // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
                             // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
@@ -274,7 +274,7 @@ const ServiceSingle = () => {
                         </figure>
                       </div>
                       <div className="data">
-                        <h3>Construction Tools & Equipments</h3>
+                        <h3>Construction Tools & Safety Equipmentsuipments</h3>
                         <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                           We import a wide selection of construction tools and
                           equipment essential for the industrial and

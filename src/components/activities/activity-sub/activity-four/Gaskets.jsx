@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Gaskets = () => {
   return (
@@ -13,7 +13,7 @@ const Gaskets = () => {
             <div className="row">
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>
-                  Oil& Gas Equipment Supply
+                  Oil & Gas Equipment Supply
                 </h2>
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
@@ -145,6 +145,6 @@ const Gaskets = () => {
       </div>
     </>
   );
-}
+};
 
-export default Gaskets
+export default Gaskets;

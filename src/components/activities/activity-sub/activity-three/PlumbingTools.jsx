@@ -13,7 +13,7 @@ const PlumbingTools = () => {
             <div className="row">
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>
-                  Construction Tools & Equipments
+                  Construction Tools & Safety Equipments
                 </h2>
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
@@ -45,157 +45,191 @@ const PlumbingTools = () => {
           alt="Our Project One Image 1"
         />
       </div>
-      <section className="gap about-key-benefits" style={{ marginTop: '-4%' }}>
-        <div className="container">
-          <div className="row align-items-center">
-            {/* <div className="col-lg-6"></div> */}
 
-            <div className="col-lg-12">
-              <div className="data" style={{ marginTop: '' }}>
-                {/* <div className="data"> */}
-                {/* <h2>Supplier Identification & Sourcing</h2> */}
-                {/* <ul data-aos="fade-down"> */}
-                <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                  At OMDYS International LLP, we offer an extensive range of
-                  high-quality plumbing tools designed to address the diverse
-                  needs of professionals in the plumbing industry. Our tools are
-                  engineered for reliability and efficiency, ensuring you can
-                  tackle any plumbing task with precision and ease.
-                  <br />
-                  <br />
-                  <br />
-                  <h4
-                    style={{
-                      fontSize: '40px',
-                      //   textAlign: 'center',
-                      color: 'black',
-                      //   backgroundColor: 'yellow',
-                    }}
-                  >
-                    Pipe Wrenches
-                  </h4>
-                  <br />
-                  <b>Heavy-Duty Pipe Wrenches:</b> Constructed with robust
-                  materials to provide a strong grip on pipes. Ideal for turning
-                  and tightening large pipes with precision. These wrenches are
-                  designed for durability and ease of use, even in demanding
-                  conditions.
-                  <br />
-                  <br />
-                  <h4
-                    style={{
-                      fontSize: '40px',
-                      //   textAlign: 'center',
-                      color: 'black',
-                      //   backgroundColor: 'yellow',
-                    }}
-                  >
-                    Plungers
-                  </h4>
-                  <br />
-                  <b>Standard Plungers:</b> Essential for clearing blockages in
-                  drains and toilets. Featuring a high-quality rubber cup and a
-                  sturdy handle, our plungers offer reliable performance for
-                  effectively removing clogs and restoring flow.
-                  <br />
-                  <br />
-                  <h4
-                    style={{
-                      fontSize: '40px',
-                      //   textAlign: 'center',
-                      color: 'black',
-                      //   backgroundColor: 'yellow',
-                    }}
-                  >
-                    Pipe Cutters
-                  </h4>
-                  <br />
-                  <b>Ratchet Pipe Cutters:</b> Engineered for clean and accurate
-                  cuts on various types of pipes, including PVC, copper, and
-                  aluminum. The ratchet mechanism ensures effortless cutting,
-                  making it easier to achieve precise results with minimal
-                  effort.
-                  <br />
-                  <br />
-                  <h4
-                    style={{
-                      fontSize: '40px',
-                      //   textAlign: 'center',
-                      color: 'black',
-                      //   backgroundColor: 'yellow',
-                    }}
-                  >
-                    Pipe Threaders
-                  </h4>
-                  <br />
-                  <b>Manual Pipe Threaders:</b> Designed for creating precise
-                  threads on pipes for fittings. Our threaders are built for
-                  efficiency, allowing you to quickly and accurately thread
-                  pipes to ensure a secure connection.
-                  <br />
-                  <br />
-                  <h4
-                    style={{
-                      fontSize: '40px',
-                      //   textAlign: 'center',
-                      color: 'black',
-                      //   backgroundColor: 'yellow',
-                    }}
-                  >
-                    Plumbing Snakes
-                  </h4>
-                  <br />
-                  <b>Drain Snakes:</b> Perfect for clearing stubborn blockages
-                  in pipes and drains. Our drain snakes come in various sizes
-                  and configurations to handle different types of clogs, from
-                  minor obstructions to more challenging blockages.
-                  <br />
-                  <br />
-                  <h4
-                    style={{
-                      fontSize: '40px',
-                      //   textAlign: 'center',
-                      color: 'black',
-                      //   backgroundColor: 'yellow',
-                    }}
-                  >
-                    Plumber's Torches
-                  </h4>
-                  <br />
-                  <b>Propane Torches:</b> Essential for soldering and welding
-                  pipes. These torches provide a consistent flame for joining
-                  pipes and fittings securely, ensuring a strong and reliable
-                  connection.
-                  <br />
-                  <br />
-                  <h4
-                    style={{
-                      fontSize: '40px',
-                      //   textAlign: 'center',
-                      color: 'black',
-                      //   backgroundColor: 'yellow',
-                    }}
-                  >
-                    Basin Wrenches
-                  </h4>
-                  <br />
-                  <b>Adjustable Basin Wrenches:</b> Designed for reaching and
-                  tightening faucet nuts in tight spaces. The adjustable head
-                  allows for versatile use, making it easier to work in confined
-                  areas with precision.
-                  <br />
-                  <br />
-                  At OMDYS International LLP, our commitment is to provide
-                  high-quality plumbing tools that enhance your productivity and
-                  ensure precision in every job. Our tools are sourced from
-                  trusted brands known for their durability and performance in
-                  the industry.
-                </p>
-              </div>
+      <div style={{ marginTop: '5%' }}>
+        <section className="gap no-top core-values">
+          <div className="container" style={{ marginBottom: '-5%' }}>
+            <div className="row">
+              <ul>
+                <li style={{ marginTop: '-5%' }}>
+                  <div className="data">
+                    <h3>Pipe Wrenches</h3>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      <b>Heavy-Duty Pipe Wrenches:</b> Constructed with robust
+                      materials to provide a strong grip on pipes. Ideal for
+                      turning and tightening large pipes with precision. These
+                      wrenches are designed for durability and ease of use, even
+                      in demanding conditions.
+                    </p>
+                  </div>
+                  <div className="image" data-aos="fade-right">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="assets/images/activity-four/svg/Gate Valves.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                </li>
+                <li>
+                  <div className="image" data-aos="fade-left">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="assets/images/activity-four/svg/Butterfly Valves.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                  <div className="data">
+                    <h3> Plungers</h3>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      <b>Standard Plungers:</b> Essential for clearing blockages
+                      in drains and toilets. Featuring a high-quality rubber cup
+                      and a sturdy handle, our plungers offer reliable
+                      performance for effectively removing clogs and restoring
+                      flow.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div className="data">
+                    <h3> Pipe Cutters</h3>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      <b>Ratchet Pipe Cutters:</b> Engineered for clean and
+                      accurate cuts on various types of pipes, including PVC,
+                      copper, and aluminum. The ratchet mechanism ensures
+                      effortless cutting, making it easier to achieve precise
+                      results with minimal effort.
+                    </p>
+                  </div>
+                  <div className="image" data-aos="fade-right">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="assets/images/activity-four/svg/Globe Valves.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                </li>
+                <li>
+                  <div className="image" data-aos="fade-left">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="assets/images/activity-four/svg/Check Valves.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                  <div className="data">
+                    <h3>Pipe Threaders</h3>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      <b>Manual Pipe Threaders:</b> Designed for creating
+                      precise threads on pipes for fittings. Our threaders are
+                      built for efficiency, allowing you to quickly and
+                      accurately thread pipes to ensure a secure connection.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div className="data">
+                    <h3>Plumbing Snakes</h3>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      <b>Drain Snakes:</b> Perfect for clearing stubborn
+                      blockages in pipes and drains. Our drain snakes come in
+                      various sizes and configurations to handle different types
+                      of clogs, from minor obstructions to more challenging
+                      blockages.
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                  <div className="image" data-aos="fade-left">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="assets/images/activity-four/svg/Ball Valves.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                </li>
+                <li>
+                  <div className="image" data-aos="fade-left">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="assets/images/activity-four/svg/Ball Valves.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                  <div className="data">
+                    <h3>Plumber's Torches</h3>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      <b>Propane Torches:</b> Essential for soldering and
+                      welding pipes. These torches provide a consistent flame
+                      for joining pipes and fittings securely, ensuring a strong
+                      and reliable connection.
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div className="data">
+                    <h3>Basin Wrenches</h3>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      <b>Adjustable Basin Wrenches:</b> Designed for reaching
+                      and tightening faucet nuts in tight spaces. The adjustable
+                      head allows for versatile use, making it easier to work in
+                      confined areas with precision.
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                  <div className="image" data-aos="fade-left">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="assets/images/activity-four/svg/Ball Valves.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
+        </section>
+
+        <div className="container">
+          <p style={{ fontSize: '', textAlign: 'justify' }}>
+            At OMDYS International LLP, our commitment is to provide
+            high-quality plumbing tools that enhance your productivity and
+            ensure precision in every job. Our tools are sourced from trusted
+            brands known for their durability and performance in the industry.
+          </p>
+          <br />
         </div>
-      </section>
+      </div>
     </>
   );
 };

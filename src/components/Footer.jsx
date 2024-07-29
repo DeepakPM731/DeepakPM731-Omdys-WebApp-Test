@@ -34,10 +34,10 @@ const Footer = () => {
     //   newErrors.email = 'Please enter a valid Email or a 10-digit Phone number';
     // }
 
-    if (!formData.phone) {
-      newErrors.phone = 'Please enter a valid 10-digit Phone number';
-    } else if (!phonePattern.test(formData.phone)) {
-      newErrors.phone = 'Please enter a valid 10-digit Phone number';
+    if (!formData.email) {
+      newErrors.email = 'Please enter a valid 10-digit Phone number';
+    } else if (!phonePattern.test(formData.email)) {
+      newErrors.email = 'Please enter a valid 10-digit Phone number';
     }
 
     if (Object.keys(newErrors).length === 0) {

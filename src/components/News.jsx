@@ -85,18 +85,18 @@ const News = () => {
             <div className="container">
               <div className="row">
                 <div className="banner-details">
-                  <h2>News</h2>
-                  <p style={{ textAlign: 'justify' }}>
+                  <h2>Recent Articles</h2>
+                  {/* <p style={{ textAlign: 'justify' }}>
                     STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
                     PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET
                     INSIGHTS, AND SIGNIFICANT DEVELOPMENTS FROM AROUND THE
                     WORLD. KEEP UP WITH THE INFORMATION THAT MATTERS MOST TO
                     YOUR BUSINESS AND INTERESTS.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
-            <div className="breadcrums">
+            {/* <div className="breadcrums">
               <div className="container">
                 <div className="row">
                   <ul>
@@ -106,13 +106,11 @@ const News = () => {
                         <p>Home</p>
                       </Link>
                     </li>
-                    {/* <li className="current">
-                      <p>Contact Us</p>
-                    </li> */}
+                    
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* news starts */}
           </section>
           <section className="gap no-top blog-style-one">
@@ -120,8 +118,17 @@ const News = () => {
               <figure>
                 <img src="assets/images/heading-icon.png" alt="heading-icon" />
               </figure>
-              <span>Global Market News Summary</span>
-              <h2>Recent Articles</h2>
+              {/* <span>Global Market News Summary</span> */}
+              <h2>News</h2>
+              <div className="container">
+                <p style={{ textAlign: 'justify' }}>
+                  STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
+                  PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET
+                  INSIGHTS, AND SIGNIFICANT DEVELOPMENTS FROM AROUND THE WORLD.
+                  KEEP UP WITH THE INFORMATION THAT MATTERS MOST TO YOUR
+                  BUSINESS AND INTERESTS.
+                </p>
+              </div>
             </div>
             <br />
             <br />
@@ -154,18 +161,18 @@ const News = () => {
             <div className="container">
               <div className="row">
                 <div className="banner-details">
-                  <h2>News</h2>
-                  <p style={{ textAlign: 'justify' }}>
+                  <h2>Recent Articles</h2>
+                  {/* <p style={{ textAlign: 'justify' }}>
                     STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
                     PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET
                     INSIGHTS, AND SIGNIFICANT DEVELOPMENTS FROM AROUND THE
                     WORLD. KEEP UP WITH THE INFORMATION THAT MATTERS MOST TO
                     YOUR BUSINESS AND INTERESTS.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
-            <div className="breadcrums">
+            {/* <div className="breadcrums">
               <div className="container">
                 <div className="row">
                   <ul>
@@ -175,13 +182,11 @@ const News = () => {
                         <p>Home</p>
                       </Link>
                     </li>
-                    {/* <li className="current">
-                      <p>Contact Us</p>
-                    </li> */}
+                   
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* news starts */}
           </section>
           <section className="gap no-top blog-style-one">
@@ -190,7 +195,17 @@ const News = () => {
                 <img src="assets/images/heading-icon.png" alt="heading-icon" />
               </figure>
               {/* <span>Let us Help Guide</span> */}
-              <h2>Recent Articles</h2>
+              <h2>News</h2>
+              <div className="container">
+                <p style={{ textAlign: 'justify', marginTop: '-2%' }}>
+                  STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
+                  PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET
+                  INSIGHTS, AND SIGNIFICANT DEVELOPMENTS FROM AROUND THE WORLD.
+                  KEEP UP WITH THE INFORMATION THAT MATTERS MOST TO YOUR
+                  BUSINESS AND INTERESTS.
+                </p>
+              </div>
+              <br />
             </div>
             <div className="container">
               <div className="row">

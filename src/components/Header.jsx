@@ -350,7 +350,7 @@ const Header = () => {
                               <li className="menu-item-has-children">
                                 {/* <Link to={'/activity-three'}> */}
                                 <a href="/activity-three">
-                                  Construction Tools & Equipments
+                                  Construction Tools & Safety Equipments
                                 </a>
                                 {/* </Link> */}
                                 <ul className="sub-menu">
@@ -854,7 +854,7 @@ const Header = () => {
                     <li className="menu-item-has-children">
                       {/* <Link to={'/activity-three'}> */}
                       <a href="/activity-three" className="mobile-li-a-sub">
-                        Construction Tools & Equipments
+                        Construction Tools & Safety Equipments
                       </a>
                       {/* </Link> */}
                       <ul className="sub-menu">

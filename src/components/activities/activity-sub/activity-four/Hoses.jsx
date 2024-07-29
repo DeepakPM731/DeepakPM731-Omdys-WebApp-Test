@@ -13,7 +13,7 @@ const Hoses = () => {
             <div className="row">
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>
-                  Oil& Gas Equipment Supply
+                  Oil & Gas Equipment Supply
                 </h2>
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
