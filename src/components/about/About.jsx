@@ -46,7 +46,7 @@ const About = () => {
                 </h2> */}
                 <div className="about-info">
                   {/* <p style="font-size: 14px"> */}
-                  <p style={{ textAlign: '' }}>
+                  <p className="homeparaone" style={{}}>
                     Omdys International LLP, headquartered in Hosur, a
                     significant industrial hub in South India, is a conglomerate
                     involved in various business sectors. We are a trading
@@ -57,24 +57,8 @@ const About = () => {
                     (Micro, Small, and Medium Enterprises), UDHYAM, and Start-Up
                     India.
                     <br />
-                    We hold an Export-Import license, enabling us to conduct
-                    international trade efficiently and legally. This allows us
-                    to source high-quality products from around the globe and
-                    deliver them to our customers.
-                    <br />
-                    Our team is dedicated to providing excellent customer
-                    service and ensuring that our client's needs are met
-                    promptly and efficiently. We believe in building long-term
-                    relationships with our clients based on trust, transparency,
-                    and mutual growth
-                    <br />
-                    <br />
-                    <span style={{ textAlign: 'end', opacity: '0.7' }}>
-                      <h4>- Chairman</h4>
-                      {/* <h4>OMDYS </h4> */}
-                      <h4>OMDYS Group of Companies </h4>
-                    </span>
                   </p>
+
                   {/* <figure>
                     <img
                       src="https://winsfolio.net/html/builty/assets/images/signature.png"
@@ -85,6 +69,44 @@ const About = () => {
               </div>
             </div>
           </div>
+          <p className="homeparaone" style={{}}>
+            We hold an Export-Import license, enabling us to conduct
+            international trade efficiently and legally. This allows us to
+            source high-quality products from around the globe and deliver them
+            to our customers.
+            <br />
+            Our team is dedicated to providing excellent customer service and
+            ensuring that our client's needs are met promptly and efficiently.
+            We believe in building long-term relationships with our clients
+            based on trust, transparency, and mutual growth
+            <br />
+            <br />
+            <span style={{ textAlign: 'end', opacity: '0.7' }}>
+              <h4
+                style={{
+                  fontSize: '16px',
+                  fontStyle: 'Montserrat',
+                  lineHeight: '26px',
+                  fontWeight: 'bold',
+                  textAlign: 'end',
+                }}
+              >
+                - CHAIRMAN
+              </h4>
+              {/* <h4>OMDYS </h4> */}
+              <h4
+                style={{
+                  fontSize: '16px',
+                  fontStyle: 'Montserrat',
+                  lineHeight: '26px',
+                  fontWeight: 'bold',
+                  textAlign: 'end',
+                }}
+              >
+                OMDYS GROUP OF COMPANIES{' '}
+              </h4>
+            </span>
+          </p>
         </div>
       </section>
     </>

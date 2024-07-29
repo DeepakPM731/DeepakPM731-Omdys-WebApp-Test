@@ -82,8 +82,8 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        // src="assets/svg4/Printing Solutions.svg"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Printing+Solutions.svg"
+                        src="assets/images/activity-four/svg/common/Printing Solutions.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Printing+Solutions.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -94,8 +94,8 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        // src="assets/svg4/Electronic Components 1.svg"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+2.svg"
+                        src="assets/images/activity-four/svg/common/Electronics Components.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+2.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -127,8 +127,8 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        // src="assets/svg4/industrial construction tools and equipment (3).svg"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipment+(3).svg"
+                        src="assets/images/activity-four/svg/common/Industrial Construction Tools & Equipment.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipment+(3).svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -140,7 +140,7 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        // src="assets/svg4/HEALTH CARE PRODUCTS 1.svg"
+                        // src="assets/images/activity-four/svg/common/Health Care PPE.svg"
                         src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                         alt="Core Values Image 1"
                       />
@@ -171,7 +171,8 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="assets/images/activity-four/svg/common/Oil and Gas.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

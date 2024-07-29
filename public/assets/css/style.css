@@ -7203,35 +7203,56 @@ img.light-icon {
 /* -=============================================================================- */
 
 /* --------------text alignment start------------------- */
+ .homeparaone{
+    text-align: justify;
+  }
 @media screen and (max-width: 1200px) {
+  .homeparaone{
+    text-align: justify;
+  }
   .about-style-one .about-data-right .about-info p {
   }
 }
 @media screen and (max-width: 992px) {
+   .homeparaone{
+    text-align: justify;
+  }
   .about-style-one .about-data-right .about-info p {
   }
 }
 @media screen and (max-width: 768px) {
+   .homeparaone{
+    text-align: justify;
+  }
   .about-style-one .about-data-right .about-info p {
   }
 }
 @media screen and (max-width: 480px) {
+   .homeparaone{
+    text-align: left;
+  }
   .about-style-one .about-data-right .about-info p {
   }
   .about-data-right h2 {
-    text-align: left;
+    /* text-align: left; */
   }
 }
 @media screen and (max-width: 375px) {
+   .homeparaone{
+    text-align: left;
+  }
   .about-style-one .about-data-right {
   }
   .about-style-one .about-data-right .about-info p {
   }
   .about-data-right h2 {
-    text-align: left;
+    /* text-align: left; */
   }
 }
 @media screen and (max-width: 230px) {
+   .homeparaone{
+    text-align: left;
+  }
   .about-style-one .about-data-right .about-info p {
   }
   .about-data-right h2 {
@@ -7239,6 +7260,9 @@ img.light-icon {
   }
 }
 @media screen and (max-width: 180px) {
+   .homeparaone{
+    text-align: left;
+  }
   .about-style-one .about-data-right .about-info p {
   }
   .about-data-right h2 {

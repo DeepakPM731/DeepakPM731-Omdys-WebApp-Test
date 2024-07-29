@@ -76,7 +76,7 @@ const FaceMask = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
+                        src="assets/images/activity-four/svg/health/Health Care - Surgical Mask.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
@@ -134,7 +134,7 @@ const FaceMask = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
+                        src="assets/images/activity-four/svg/health/Health Care - N95 Respirators.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
@@ -147,7 +147,7 @@ const FaceMask = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
+                        src="assets/images/activity-four/svg/health/Health Care - KN95 Mask.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
@@ -191,70 +191,105 @@ const FaceMask = () => {
               <ul>
                 <li style={{ marginTop: '-5%' }}>
                   <div className="data">
-                    <h4></h4>
+                    <h4>FFP2 Masks</h4>
                     <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      <b>FFP2 Masks:</b> Equivalent to N95 and KN95 masks, these
-                      European standard masks filter at least 94% of airborne
+                      <b>Description:</b> FFP2 masks are equivalent to N95 and
+                      KN95 masks, conforming to European standards for
+                      respiratory protection. They filter out at least 94% of
+                      airborne particles.
+                      <br />
+                      <b>Uses:</b> Used in healthcare and public settings for
+                      protection against airborne particles and pathogens.
+                      <br />
+                      <b>Features:</b> Typically feature ear loops or headbands
+                      for easy wearing, an adjustable nose clip to ensure a snug
+                      fit, and multiple layers of non-woven fabric for enhanced
+                      filtration and comfort.
+                      <br />
+                      <br />
+                    </p>
+                  </div>
+                  <div className="image" data-aos="fade-right">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="assets/images/activity-four/svg/health/Health Care - FFP2 Masks.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                </li>
+                <li style={{ marginTop: '' }}>
+                  <div className="image" data-aos="fade-right">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="assets/images/activity-four/svg/health/Health Care - FFP3 Masks.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
+                  <div className="data">
+                    {/* <h3 style={{ textAlign: 'center', fontSize: '34px' }}>
+                      Eye and Face Protection
+                    </h3> */}
+                    <h4>FFP3 Masks</h4>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      <b>Description:</b> FFP3 masks offer the highest level of
+                      protection among the FFP mask standards, conforming to
+                      European standards for respiratory protection. They filter
+                      out at least 99% of airborne particles.
+                      <br />
+                      <b>Uses:</b> Used in healthcare and industrial settings
+                      where exposure to hazardous particles is high, providing
+                      maximum protection against airborne particles and
+                      pathogens.
+                      <br />
+                      <b>Features:</b> Typically feature a robust design with
+                      multiple layers of filtration material, adjustable nose
+                      clips for a secure fit, and comfortable headbands or ear
+                      loops. Some FFP3 masks also include an exhalation valve to
+                      reduce breathing resistance and increase comfort
+                      during extended use.
+                      <br />
+                    </p>
+                  </div>
+                </li>
+                <li style={{ marginTop: '' }}>
+                  <div className="data">
+                    {/* <h3 style={{ textAlign: 'center', fontSize: '34px' }}>
+                      Eye and Face Protection
+                    </h3> */}
+                    <h4>Reusable Cloth Masks</h4>
+                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                      <b>Description:</b> Reusable cloth masks are designed for
+                      everyday use, providing a sustainable and eco-friendly
+                      option for respiratory protection. They are made from
+                      multiple layers of fabric to filter out airborne
                       particles.
                       <br />
+                      <b>Uses:</b> Suitable for use in public settings,
+                      workplaces, and outdoor activities to help reduce the
+                      spread of respiratory droplets and provide a barrier
+                      against pollutants.
                       <br />
+                      <b>Features:</b> Typically feature adjustable ear loops or
+                      ties for a comfortable fit, a flexible nose wire to ensure
+                      a secure seal, and multiple layers of breathable fabric.
+                      Many reusable cloth masks are also washable and reusable,
+                      making them a cost-effective and environmentally
+                      friendly option.
                     </p>
                   </div>
                   <div className="image" data-aos="fade-right">
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                </li>
-                <li style={{ marginTop: '' }}>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                  <div className="data">
-                    {/* <h3 style={{ textAlign: 'center', fontSize: '34px' }}>
-                      Eye and Face Protection
-                    </h3> */}
-                    <h4></h4>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      <b>FFP3 Masks:</b> Provide a higher level of protection,
-                      filtering at least 99% of airborne particles. Used in
-                      high-risk settings.
-                      <br />
-                    </p>
-                  </div>
-                </li>
-                <li style={{ marginTop: '' }}>
-                  <div className="data">
-                    {/* <h3 style={{ textAlign: 'center', fontSize: '34px' }}>
-                      Eye and Face Protection
-                    </h3> */}
-                    <h4></h4>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      <b>Reusable Cloth Masks:</b> Made from various fabrics,
-                      often with multiple layers. Suitable for general public
-                      use and can be washed and reused.
-                      <br />
-                    </p>
-                  </div>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
+                        src="assets/images/activity-four/svg/health/Health Care - Reusable Cloth Masks.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
