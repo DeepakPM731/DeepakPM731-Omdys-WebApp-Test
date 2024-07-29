@@ -26,7 +26,7 @@ const Activities = () => {
           <div className="row">
             <div className="banner-details">
               <h2>Our Core Business</h2>
-              <p>
+              <p style={{textAlign:''}}>
                 WE SPECIALIZE IN TRADING COMPREHENSIVE PRINTING SOLUTIONS,
                 IMPORTING ELECTRONIC COMPONENTS, INDUSTRIAL CONSTRUCTION TOOLS
                 AND EQUIPMENT, AND HEALTH CARE PRODUCTS. OUR FOCUS IS ON

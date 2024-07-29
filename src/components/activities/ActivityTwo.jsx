@@ -30,7 +30,7 @@ const ActivityTwo = () => {
             <div className="row">
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>
-                  Trading Of Electronics Components
+                  Electronics Components
                 </h2>
               </div>
             </div>

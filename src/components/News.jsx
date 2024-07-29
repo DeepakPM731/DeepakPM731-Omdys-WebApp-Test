@@ -85,7 +85,7 @@ const News = () => {
             <div className="container">
               <div className="row">
                 <div className="banner-details">
-                  <h2>Recent Articles</h2>
+                  <h2 style={{ textAlign: 'center' }}>Recent Articles</h2>
                   {/* <p style={{ textAlign: 'justify' }}>
                     STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
                     PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET
@@ -120,7 +120,7 @@ const News = () => {
               </figure>
               {/* <span>Global Market News Summary</span> */}
               <h2>News</h2>
-              <div className="container">
+              {/* <div className="container">
                 <p style={{ textAlign: 'justify' }}>
                   STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
                   PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET
@@ -128,7 +128,7 @@ const News = () => {
                   KEEP UP WITH THE INFORMATION THAT MATTERS MOST TO YOUR
                   BUSINESS AND INTERESTS.
                 </p>
-              </div>
+              </div> */}
             </div>
             <br />
             <br />
