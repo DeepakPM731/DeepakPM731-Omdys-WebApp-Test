@@ -32,23 +32,7 @@ const ServiceTwo = () => {
               </div>
             </div>
           </div>
-          <div className="breadcrums">
-            {/* <div className="container">
-              <div className="row">
-                <ul>
-                  <li>
-                    <a href="index.html">
-                      <i className="fa-solid fa-house" />
-                      <p>Home</p>
-                    </a>
-                  </li>
-                  <li className="current">
-                    <p>About Us</p>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
-          </div>
+          {/* <div className="breadcrums"></div> */}
         </section>
       </div>
       {/* service starts */}

@@ -32,23 +32,7 @@ const ServiceFour = () => {
               </div>
             </div>
           </div>
-          <div className="breadcrums">
-            {/* <div className="container">
-              <div className="row">
-                <ul>
-                  <li>
-                    <a href="index.html">
-                      <i className="fa-solid fa-house" />
-                      <p>Home</p>
-                    </a>
-                  </li>
-                  <li className="current">
-                    <p>About Us</p>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
-          </div>
+          {/* <div className="breadcrums"></div> */}
         </section>
       </div>
       {/* service starts */}
@@ -83,7 +67,6 @@ const ServiceFour = () => {
             <div className="row align-items-center">
               <div className="col-lg-12">
                 <div className="data" style={{ marginTop: '' }}>
-                  <br />
                   <br />
                   <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                     At OMDYS International LLP, we prioritize identifying and

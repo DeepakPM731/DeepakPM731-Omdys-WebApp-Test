@@ -32,7 +32,7 @@ const MainServices = () => {
               </div>
             </div>
           </div>
-          <div className="breadcrums"></div>
+          {/* <div className="breadcrums"></div> */}
         </section>
       </div>
       <hr />
@@ -76,6 +76,7 @@ const MainServices = () => {
                         high-quality outputs and improved operational
                         efficiency. Our strategic location facilitates smooth
                         import and distribution across India.
+                        <br />
                         <a href="/activity-one">( Know More )</a>
                       </p>
                     </div>
@@ -92,6 +93,7 @@ const MainServices = () => {
                         allows us to meet the diverse needs of these industries,
                         providing essential materials that support their
                         operations.
+                        <br />
                         <a href="/activity-four">( Know More )</a>
                       </p>
                     </div>
@@ -107,6 +109,7 @@ const MainServices = () => {
                       </figure>
                     </div>
                   </li>
+                  <br />
 
                   <li>
                     <div className="image" data-aos="fade-right">
@@ -132,6 +135,7 @@ const MainServices = () => {
                         enables us to efficiently manage the import and
                         distribution of these critical supplies to hospitals and
                         healthcare facilities across India.
+                        <br />
                         <a href="/activity-five">( Know More )</a>
                       </p>
                     </div>
@@ -149,6 +153,7 @@ const MainServices = () => {
                         activity, we are well-positioned to supply these
                         components to a broad range of clients, supporting
                         innovation and production in the electronics sector.
+                        <br />
                         <a href="/activity-two">( Know More )</a>
                       </p>
                     </div>
@@ -170,7 +175,7 @@ const MainServices = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/svg/log/Industrial Construction Tools & Safety Equipmentsuipment_.svg"
+                          src="assets/images/activity-four/svg/log/Industrial Construction Tools & Equipment_.svg"
                           // src="assets/images/activity-four/sanitizer.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
                           // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
@@ -179,7 +184,7 @@ const MainServices = () => {
                       </figure>
                     </div>
                     <div className="data">
-                      <h3>Construction Tools & Safety Equipmentsuipments</h3>
+                      <h3>Construction Tools & Safety Equipments</h3>
                       <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                         We import a wide selection of construction tools and
                         equipment essential for the industrial and construction
@@ -188,6 +193,7 @@ const MainServices = () => {
                         Leveraging our strategic position, we efficiently
                         distribute these tools and equipment to construction
                         projects and industrial sites throughout the region.
+                        <br />
                         <a href="/activity-three">( Know More )</a>
                       </p>
                     </div>

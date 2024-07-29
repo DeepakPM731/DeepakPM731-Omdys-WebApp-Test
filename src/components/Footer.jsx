@@ -151,7 +151,7 @@ const Footer = () => {
                   className="theme-btn"
                   style={{ alignItems: 'center' }}
                 >
-                  Place your enquiry <i className="fa-solid fa-angles-right" />
+                  Submit your Enquiry <i className="fa-solid fa-angles-right" />
                 </Link>
               </div>
             </div>
