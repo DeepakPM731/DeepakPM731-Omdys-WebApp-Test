@@ -446,11 +446,12 @@ button.scrollTopStick.active:before,
 }
 .theme-btn:after {
   content: '';
-  width: 30px;
-  /* width: 45px; */
+  /* width: 30px; */
+  width: 45px;
   height: 100%;
   position: absolute;
   top: -2px;
+  /* right: -32px; */
   right: -32px;
   background: transparent;
   border-left: 0 solid transparent;
@@ -458,6 +459,37 @@ button.scrollTopStick.active:before,
   border-top: 65px solid #ffee02;
   /* border-top: 65px solid #33cc33; */
 }
+/* ----------footer button-------- */
+.footerbtn {
+  content: '';
+  width: 45px;
+  height: 100%;
+  position: absolute;
+  top: -2px;
+
+  right: -37px ;
+  background: transparent;
+  border-left: 0 solid transparent;
+  border-right: 35px solid transparent ;
+  border-top: 80px solid #ffee02 ;
+}
+@media (max-width: 480px) {
+  .footerbtn{
+ border-top: 55px solid #ffee02;
+  }
+}
+@media (max-width: 767px) {
+    .footerbtn{
+    border-top: 59px solid #ffee02;
+  }
+}
+@media (max-width: 992px) {
+    .footerbtn{
+    border-top: 65px solid #ffee02;
+  }
+}
+/* ----------footer button-------- */
+
 .desktop-nav .nav-bar .extras .theme-btn.simple:after {
   display: none;
 }
@@ -4934,7 +4966,6 @@ span.counter {
 }
 .contact-form-2 .info ul.social-medias li .in:hover {
   background: #cd486b;
-  
 }
 .contact-form-2 .info ul.social-medias li .fb:hover {
   background: #4267b2;

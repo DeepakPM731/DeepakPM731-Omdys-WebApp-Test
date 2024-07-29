@@ -149,6 +149,7 @@ const Footer = () => {
                 <Link
                   to={'/contact'}
                   className="theme-btn"
+                  id="footerbtn"
                   style={{ alignItems: 'center' }}
                 >
                   Submit your Enquiry <i className="fa-solid fa-angles-right" />

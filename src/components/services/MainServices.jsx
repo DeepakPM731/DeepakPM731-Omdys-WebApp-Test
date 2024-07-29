@@ -54,6 +54,7 @@ const MainServices = () => {
             <div className="container" style={{ marginBottom: '-5%' }}>
               <div className="row">
                 <ul>
+                  <br />
                   <li>
                     <div className="image" data-aos="fade-left">
                       <figure>
@@ -109,6 +110,7 @@ const MainServices = () => {
                       </figure>
                     </div>
                   </li>
+                  <br />
                   <br />
 
                   <li>
