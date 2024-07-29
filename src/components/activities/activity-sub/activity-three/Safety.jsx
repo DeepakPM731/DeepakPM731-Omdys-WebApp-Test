@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Safety = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+    useEffect(() => {
+      let elements = document.querySelectorAll('[data-aos]');
+      for (let i = 0; i < elements.length; i++) {
+        //if ios remove the attribute
+        if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+          elements[i].removeAttribute('data-aos');
+        }
+      }
+    });
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>
@@ -344,6 +356,17 @@ const Safety = () => {
             <div className="row">
               <ul>
                 <li style={{ marginTop: '-5%' }}>
+                  <div className="image" data-aos="fade-right">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="assets/images/activity-four/svg/Gate Valves.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
                   <div className="data">
                     {/* <h3 style={{ textAlign: 'center', fontSize: '34px' }}>
                       Head Protection
@@ -368,17 +391,6 @@ const Safety = () => {
                       <br />
                     </p>
                   </div>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
                 </li>
               </ul>
             </div>
@@ -396,17 +408,6 @@ const Safety = () => {
             <div className="row">
               <ul>
                 <li style={{ marginTop: '-5%' }}>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
                   <div className="data">
                     <h4>Knee Pads</h4>
                     <p style={{ fontSize: '18px', textAlign: 'justify' }}>
@@ -421,8 +422,30 @@ const Safety = () => {
                     </p>
                     <br />
                   </div>
+                  <div className="image" data-aos="fade-right">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="assets/images/activity-four/svg/Gate Valves.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
                 </li>
                 <li style={{ marginTop: '' }}>
+                  <div className="image" data-aos="fade-right">
+                    <figure>
+                      <img
+                        className="w-100"
+                        src="assets/images/activity-four/svg/Gate Valves.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        alt="Core Values Image 1"
+                      />
+                    </figure>
+                  </div>
                   <div className="data">
                     {/* <h3 style={{ textAlign: 'center', fontSize: '34px' }}>
                       Eye and Face Protection
@@ -435,17 +458,6 @@ const Safety = () => {
                       stability and comfort.
                       <br />
                     </p>
-                  </div>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
                   </div>
                 </li>
               </ul>

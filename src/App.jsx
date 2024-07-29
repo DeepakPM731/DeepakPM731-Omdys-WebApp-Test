@@ -62,9 +62,6 @@ import Gloves from './components/activities/activity-sub/activity-five/Gloves';
 import EyeProtection from './components/activities/activity-sub/activity-five/EyeProtection';
 import Sanitizers from './components/activities/activity-sub/activity-five/Sanitizers';
 
-
-
-
 const App = () => {
   useEffect(() => {
     setTimeout(() => {
@@ -85,6 +82,7 @@ const App = () => {
       }
     }
   });
+
   return (
     <>
       <Router>

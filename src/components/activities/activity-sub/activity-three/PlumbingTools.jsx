@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const PlumbingTools = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+    useEffect(() => {
+      let elements = document.querySelectorAll('[data-aos]');
+      for (let i = 0; i < elements.length; i++) {
+        //if ios remove the attribute
+        if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+          elements[i].removeAttribute('data-aos');
+        }
+      }
+    });
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>
@@ -66,7 +78,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
+                        src="assets/images/activity-four/svg/construction/Plumbing Tools - Heavy-Duty Pipe Wrenches.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
@@ -79,7 +91,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Butterfly Valves.svg"
+                        src="assets/images/activity-four/svg/construction/Plumbing Tools - Standard Plungers.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                         alt="Core Values Image 1"
@@ -112,7 +124,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Globe Valves.svg"
+                        src="assets/images/activity-four/svg/construction/Plumbing Tools - Ratchet Pipe Cutters.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                         alt="Core Values Image 1"
@@ -125,7 +137,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Check Valves.svg"
+                        src="assets/images/activity-four/svg/construction/Plumbing Tools - Manual Pipe Threaders.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
@@ -159,7 +171,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Ball Valves.svg"
+                        src="assets/images/activity-four/svg/construction/Plumbing Tools - Drain Snakes.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
@@ -172,7 +184,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Ball Valves.svg"
+                        src="assets/images/activity-four/svg/construction/Plumbing Tools - Propane Torches.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
@@ -207,7 +219,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Ball Valves.svg"
+                        src="assets/images/activity-four/svg/construction/Plumbing Tools - Basin Wrenches.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"

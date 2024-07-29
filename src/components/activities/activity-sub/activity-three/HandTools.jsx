@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const HandTools = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+    useEffect(() => {
+      let elements = document.querySelectorAll('[data-aos]');
+      for (let i = 0; i < elements.length; i++) {
+        //if ios remove the attribute
+        if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+          elements[i].removeAttribute('data-aos');
+        }
+      }
+    });
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>
@@ -224,7 +236,7 @@ const HandTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
+                        src="assets/images/activity-four/svg/construction/Hand Tools - Hammers.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
@@ -237,7 +249,7 @@ const HandTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Butterfly Valves.svg"
+                        src="assets/images/activity-four/svg/construction/Hand Tools - Screwdrivers.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                         alt="Core Values Image 1"
@@ -288,7 +300,7 @@ const HandTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Globe Valves.svg"
+                        src="assets/images/activity-four/svg/construction/Hand Tools - Wrenches.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                         alt="Core Values Image 1"
@@ -301,7 +313,7 @@ const HandTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Check Valves.svg"
+                        src="assets/images/activity-four/svg/construction/Hand Tools - Pliers.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
@@ -351,7 +363,7 @@ const HandTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Ball Valves.svg"
+                        src="assets/images/activity-four/svg/construction/Hand Tools - Measuring Tools.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
