@@ -74,6 +74,7 @@ const Activities = () => {
                       We provide a wide range of printing solutions, customized
                       to meet various printing needs.
                       {/* <Link to={'/activity-one'}> */}
+                      <br />
                       <a href="/activity-one">( Read More )</a>
                       {/* </Link> */}
                     </p>
@@ -106,6 +107,7 @@ const Activities = () => {
                       We partner with leading manufacturers to deliver reliable
                       and authentic electronic components for diverse
                       applications. {/* <Link to={'/activity-two'}> */}
+                      <br />
                       <a href="/activity-two">( Read More )</a>
                       {/* </Link> */}
                     </p>
@@ -119,6 +121,7 @@ const Activities = () => {
                       equipment for the construction industry, ensuring worker
                       protection and regulatory compliance.
                       {/* <Link to={'/activity-three'}> */}
+                      <br />
                       <a href="/activity-three">( Read More )</a>
                       {/* </Link> */}
                     </p>
@@ -152,6 +155,7 @@ const Activities = () => {
                       We import certified Health care products, meeting the
                       needs of healthcare facilities and professionals.{' '}
                       {/* <Link to={'/activity-five'}> */}
+                      <br />
                       <a href="/activity-five">( Read More )</a>
                       {/* </Link> */}
                     </p>
@@ -164,6 +168,7 @@ const Activities = () => {
                       We offer expertise in exporting specialized petrochemical
                       mechanical products, ensuring safe and efficient project
                       execution.
+                      <br />
                       <a href="/activity-four">( Read More )</a>
                     </p>
                   </div>

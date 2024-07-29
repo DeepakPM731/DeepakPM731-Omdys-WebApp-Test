@@ -594,9 +594,19 @@ const ContactForm = () => {
                       </a>
                     </li>
                     <li>
-                      <a className="tw" href="javascript:void(0)">
-                        <p>Twitter</p>
-                        <i className="fa-brands fa-twitter" />
+                      <a className="in" href="javascript:void(0)">
+                        <p>Instagram</p>
+                        <i className="fa-brands fa-instagram" />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="fb"
+                        href="https://www.linkedin.com/company/omdys-international-llp/"
+                        target="_blank"
+                      >
+                        <p>LinkedIn</p>
+                        <i className="fa-brands fa-linkedin" />
                       </a>
                     </li>
                   </ul>

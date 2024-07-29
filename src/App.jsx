@@ -61,6 +61,7 @@ import ProtectiveApparel from './components/activities/activity-sub/activity-fiv
 import Gloves from './components/activities/activity-sub/activity-five/Gloves';
 import EyeProtection from './components/activities/activity-sub/activity-five/EyeProtection';
 import Sanitizers from './components/activities/activity-sub/activity-five/Sanitizers';
+import CleaningSolution from './components/activities/activity-sub/activity-five/CleaningSolution';
 
 const App = () => {
   useEffect(() => {
@@ -159,6 +160,7 @@ const App = () => {
           <Route path="/gloves" element={<Gloves />} />
           <Route path="/eye" element={<EyeProtection />} />
           <Route path="/sanitizer" element={<Sanitizers />} />
+          <Route path="/cleaning" element={<CleaningSolution />} />
 
           {/* -------------activity-five-sub ends------------ */}
         </Routes>

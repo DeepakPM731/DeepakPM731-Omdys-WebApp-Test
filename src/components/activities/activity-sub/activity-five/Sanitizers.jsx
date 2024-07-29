@@ -41,7 +41,7 @@ const Sanitizers = () => {
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
         {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
-        <h2>Sanitizers</h2>
+        <h2>Sanitizers & Disinfectant </h2>
       </div>
       <div
         className="container center justify-content-center"
@@ -61,7 +61,7 @@ const Sanitizers = () => {
       <hr />
       <div style={{ marginTop: '' }}>
         <h3 style={{ textAlign: 'center', fontSize: '34px' }}>
-          Types of Medical Gloves
+          Types of Sanitizers and Disinfectants
         </h3>
         <br />
         <br />

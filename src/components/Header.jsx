@@ -284,28 +284,51 @@ const Header = () => {
                                 </Link> */}
 
                             <ul className="sub-menu">
+                              {/* Oil & Gas Equipment Supply */}
+
                               <li className="menu-item-has-children">
-                                {/* <Link to={'/activity-one'}> */}
-                                <a href="/activity-one">Printing Solutions</a>
+                                {/* <Link to={'/activity-five'}> */}
+                                <a href="/activity-four">
+                                  Oil & Gas Equipments Supply
+                                </a>
                                 {/* </Link> */}
                                 <ul className="sub-menu">
                                   <li>
-                                    <a href="/ecosolvent">Eco-Solvent Inks</a>
+                                    <a href="/valves">Valves</a>
                                   </li>
                                   <li>
-                                    <a href="/uv">UV Inks</a>
+                                    <a href="/pipes">Pipes</a>
                                   </li>
                                   <li>
-                                    <a href="/solvent">Solvent-Based Inks</a>
+                                    <a href="/connectors">
+                                      Fittings and Connectors
+                                    </a>
                                   </li>
                                   <li>
-                                    <a href="/printequip">Printing Equipment</a>
+                                    <a href="/gaskets">Gaskets and Seals</a>
                                   </li>
                                   <li>
-                                    <a href="/media">Media Supplies</a>
+                                    <a href="/bolts">Bolts and Nuts</a>
                                   </li>
+                                  <li>
+                                    <a href="/hoses">Hoses and Tubing</a>
+                                  </li>
+                                  <li>
+                                    <a href="/instrumentation">
+                                      Instrumentation and Controls
+                                    </a>
+                                  </li>
+                                  {/* <li>
+                                    <a href="/service-four">
+                                      Safety and Maintenance
+                                    </a>
+                                  </li> */}
                                 </ul>
+                                {/* </li>
+                                </ul> */}
                               </li>
+                              {/* Electronics Components */}
+
                               <li className="menu-item-has-children">
                                 {/* <Link to={'/activity-two'}> */}
                                 <a href="/activity-two">
@@ -347,6 +370,39 @@ const Header = () => {
                                   </li> */}
                                 </ul>
                               </li>
+                              {/* Health Care PPE Products */}
+
+                              <li className="menu-item-has-children">
+                                {/* <Link to={'/activity-five'}> */}
+                                <a href="/activity-five">
+                                  Health Care PPE Products
+                                </a>
+                                {/* </Link> */}
+                                <ul className="sub-menu">
+                                  <li>
+                                    <a href="/mask">Face Masks</a>
+                                  </li>
+                                  <li>
+                                    <a href="/protective">Protective Apparel</a>
+                                  </li>
+                                  <li>
+                                    <a href="/gloves">Gloves</a>
+                                  </li>
+                                  <li>
+                                    <a href="/eye">Eye Protection</a>
+                                  </li>
+                                  <li>
+                                    <a href="/sanitizer">
+                                      Sanitizers & Disinfectants
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="/cleaning">Cleaning Solutions</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              {/* Construction Tools & Safety Equipments */}
+
                               <li className="menu-item-has-children">
                                 {/* <Link to={'/activity-three'}> */}
                                 <a href="/activity-three">
@@ -391,139 +447,42 @@ const Header = () => {
                                   </li> */}
                                 </ul>
                               </li>
-                              {/* <li>
-                                    <a href="/activity-four">
-                                      Industrial Chemical Products Supply
-                                    </a>
-                                  </li> */}
+                              {/* printing solutions */}
+
                               <li className="menu-item-has-children">
-                                {/* <Link to={'/activity-five'}> */}
-                                <a href="/activity-five">
-                                  Health Care PPE Products
-                                </a>
-                                {/* </Link> */}
+                                <a href="/activity-one">Printing Solutions</a>
                                 <ul className="sub-menu">
                                   <li>
-                                    <a href="/mask">Face Masks</a>
+                                    <a href="/ecosolvent">Eco-Solvent Inks</a>
                                   </li>
                                   <li>
-                                    <a href="/protective">Protective Apparel</a>
+                                    <a href="/uv">UV Inks</a>
                                   </li>
                                   <li>
-                                    <a href="/gloves">Gloves</a>
+                                    <a href="/solvent">Solvent-Based Inks</a>
                                   </li>
                                   <li>
-                                    <a href="">Eye Protection</a>
+                                    <a href="/printequip">Printing Equipment</a>
                                   </li>
                                   <li>
-                                    <a href="/sanitizer">
-                                      Sanitizers and Disinfectants
-                                    </a>
+                                    <a href="/media">Media Supplies</a>
                                   </li>
                                 </ul>
-                              </li>
-                              <li className="menu-item-has-children">
-                                {/* <Link to={'/activity-five'}> */}
-                                <a href="/activity-four">
-                                  Oil & Gas Equipments Supply
-                                </a>
-                                {/* </Link> */}
-                                <ul className="sub-menu">
-                                  <li>
-                                    <a href="/valves">Valves</a>
-                                  </li>
-                                  <li>
-                                    <a href="/pipes">Pipes</a>
-                                  </li>
-                                  <li>
-                                    <a href="/connectors">
-                                      Fittings and Connectors
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="/gaskets">Gaskets and Seals</a>
-                                  </li>
-                                  <li>
-                                    <a href="/bolts">Bolts and Nuts</a>
-                                  </li>
-                                  <li>
-                                    <a href="/hoses">Hoses and Tubing</a>
-                                  </li>
-                                  <li>
-                                    <a href="/instrumentation">
-                                      Instrumentation and Controls
-                                    </a>
-                                  </li>
-                                  {/* <li>
-                                    <a href="/service-four">
-                                      Safety and Maintenance
-                                    </a>
-                                  </li> */}
-                                </ul>
-                                {/* </li>
-                                </ul> */}
                               </li>
 
-                              {/* <li className="menu-item-has-children">
-                                <a href="javascript:void(0)">Projects</a>
-                                <ul className="sub-menu">
-                                  <li>
-                                    <a href="our-projects-1.html">
-                                      Our Projects One
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="our-projects-2.html">
-                                      Our Projects Two
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="project-detail.html">
-                                      Project Detail
-                                    </a>
-                                  </li>
-                                </ul>
-                              </li> */}
+                              
 
                               <li className="">
-                                {/* <Link to={'/team'}>Team */}
-                                {/* <a className="tag" href="/team">
-                                  <span style={{ marginLeft: '5px' }}>
-                                    Team
-                                  </span>
-                                </a> */}
+                               
                               </li>
-                              {/* </Link> */}
-                              {/* <ul className="sub-menu">
-                                  <li>
-                                    <a href="our-team.html">Our Team</a>
-                                  </li>
-                                  <li>
-                                    <a href="team-detail.html">Team Detail</a>
-                                  </li>
-                                </ul> */}
-
-                              {/* <li>
-                                <a href="login.html">Login &amp; Register</a>
-                              </li> */}
+                              
                             </ul>
                           </li>
-                          {/* <li className="menu-item-has-children"> */}
                           <li className="">
                             <Link to={'/news'}>
                               <a href="">News</a>
                             </Link>
-                            {/* <ul className="sub-menu">
-                              <li>
-                                <a href="our-blog-1.html">Our Blog One</a>
-                              </li>
-                              <li>
-                                <a href="our-blog-2.html">Our Blog Two</a>
-                              </li>
-                              <li>
-                                <a href="blog-detail.html">Blog Detail</a>
-                              </li>
-                            </ul> */}
+                            
                           </li>
                           <li>
                             <Link to={'/contact'}>
@@ -532,13 +491,7 @@ const Header = () => {
                           </li>
                         </ul>
                         <div className="extras">
-                          {/* <div className="theme-color">
-                            <img
-                              src="assets/images/sun.png"
-                              alt=""
-                              id="theme-icon"
-                            />
-                          </div> */}
+                          
                           <a
                             href="javascript:void(0)"
                             id="mobile-menu"
@@ -764,181 +717,7 @@ const Header = () => {
                     </a>
                   </Link>
                   <ul className="sub-menu">
-                    <li className="menu-item-has-children">
-                      {/* <Link to={'/activity-one'}> */}
-                      <a href="/activity-one" className="mobile-li-a-sub">
-                        Printing Solutions
-                      </a>
-                      {/* </Link> */}
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="/ecosolvent" className="mobile-li-a-sub">
-                            Eco-Solvent Inks
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/uv" className="mobile-li-a-sub">
-                            UV Inks
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/solvent" className="mobile-li-a-sub">
-                            Solvent-Based Inks
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/printequip" className="mobile-li-a-sub">
-                            Printing Equipment
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/media" className="mobile-li-a-sub">
-                            Media Supplies
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item-has-children">
-                      {/* <Link to={'/activity-two'}> */}
-                      <a href="/activity-two" className="mobile-li-a-sub">
-                        Electronics Components
-                      </a>
-                      {/* </Link> */}
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="/ic" className="mobile-li-a-sub">
-                            Integrated Circuits (ICs)
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/passive" className="mobile-li-a-sub">
-                            Passive Components
-                          </a>
-                        </li>
-
-                        <li>
-                          <a href="/active" className="mobile-li-a-sub">
-                            Active Components
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/connector" className="mobile-li-a-sub">
-                            Connectors and Cables
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/sensor" className="mobile-li-a-sub">
-                            Sensors and Modules
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/led" className="mobile-li-a-sub">
-                            LEDs and Displays
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/power" className="mobile-li-a-sub">
-                            Power Supplies and Batteries
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/switch" className="mobile-li-a-sub">
-                            Switches and Relays
-                          </a>
-                        </li>
-                        {/* <li>
-                          <a href="/semi">Semiconductors</a>
-                        </li> */}
-                      </ul>
-                    </li>
-                    <li className="menu-item-has-children">
-                      {/* <Link to={'/activity-three'}> */}
-                      <a href="/activity-three" className="mobile-li-a-sub">
-                        Construction Tools & Safety Equipments
-                      </a>
-                      {/* </Link> */}
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="/hand-tools" className="mobile-li-a-sub">
-                            Hand Tools
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/power-tools" className="mobile-li-a-sub">
-                            Power Tools
-                          </a>
-                        </li>
-                        {/* <li>
-                          <a href="/">Gardening Tools</a>
-                        </li> */}
-                        <li>
-                          <a
-                            href="/electrical-tools"
-                            className="mobile-li-a-sub"
-                          >
-                            Electrical Tools
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/plumbing-tools" className="mobile-li-a-sub">
-                            Plumbing Tools
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/safety" className="mobile-li-a-sub">
-                            Safety Equipment
-                          </a>
-                        </li>
-                        {/* <li>
-                          <a href="/activity-three">Fasteners</a>
-                        </li> */}
-                        {/* <li>
-                          <a href="/activity-three">Building Materials</a>
-                        </li> */}
-                        {/* <li>
-                          <a href="/activity-three">Hardware Accessories</a>
-                        </li> */}
-                      </ul>
-                    </li>
-                    {/* <li>
-                                    <a href="/activity-four">
-                                      Industrial Chemical Products Supply
-                                    </a>
-                                  </li> */}
-                    <li className="menu-item-has-children">
-                      {/* <Link to={'/activity-five'}> */}
-                      <a href="/activity-five" className="mobile-li-a-sub">
-                        Health Care PPE Products
-                      </a>
-                      {/* </Link> */}
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="/mask" className="mobile-li-a-sub">
-                            Face Masks
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/protective" className="mobile-li-a-sub">
-                            Protective Apparel
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/gloves" className="mobile-li-a-sub">
-                            Gloves
-                          </a>
-                        </li>
-                        <li>
-                          <a href="" className="mobile-li-a-sub">
-                            Eye Protection
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/sanitizer" className="mobile-li-a-sub">
-                            Sanitizers and Disinfectants
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
+                    {/* Oil & Gas Equipment Supply */}
                     <li className="menu-item-has-children">
                       {/* <Link to={'/activity-five'}> */}
                       <a href="/activity-four" className="mobile-li-a-sub">
@@ -993,27 +772,186 @@ const Header = () => {
                       {/* </li>
                                 </ul> */}
                     </li>
+                    {/* Electronics Components */}
+                    <li className="menu-item-has-children">
+                      {/* <Link to={'/activity-two'}> */}
+                      <a href="/activity-two" className="mobile-li-a-sub">
+                        Electronics Components
+                      </a>
+                      {/* </Link> */}
+                      <ul className="sub-menu">
+                        <li>
+                          <a href="/ic" className="mobile-li-a-sub">
+                            Integrated Circuits (ICs)
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/passive" className="mobile-li-a-sub">
+                            Passive Components
+                          </a>
+                        </li>
 
-                    {/* <li className="menu-item-has-children">
-                                <a href="javascript:void(0)">Projects</a>
-                                <ul className="sub-menu">
-                                  <li>
-                                    <a href="our-projects-1.html">
-                                      Our Projects One
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="our-projects-2.html">
-                                      Our Projects Two
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="project-detail.html">
-                                      Project Detail
-                                    </a>
-                                  </li>
-                                </ul>
-                              </li> */}
+                        <li>
+                          <a href="/active" className="mobile-li-a-sub">
+                            Active Components
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/connector" className="mobile-li-a-sub">
+                            Connectors and Cables
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/sensor" className="mobile-li-a-sub">
+                            Sensors and Modules
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/led" className="mobile-li-a-sub">
+                            LEDs and Displays
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/power" className="mobile-li-a-sub">
+                            Power Supplies and Batteries
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/switch" className="mobile-li-a-sub">
+                            Switches and Relays
+                          </a>
+                        </li>
+                        {/* <li>
+                          <a href="/semi">Semiconductors</a>
+                        </li> */}
+                      </ul>
+                    </li>
+                    {/* Health Care PPE Products */}
+                    <li className="menu-item-has-children">
+                      {/* <Link to={'/activity-five'}> */}
+                      <a href="/activity-five" className="mobile-li-a-sub">
+                        Health Care PPE Products
+                      </a>
+                      {/* </Link> */}
+                      <ul className="sub-menu">
+                        <li>
+                          <a href="/mask" className="mobile-li-a-sub">
+                            Face Masks
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/protective" className="mobile-li-a-sub">
+                            Protective Apparel
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/gloves" className="mobile-li-a-sub">
+                            Gloves
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/eye" className="mobile-li-a-sub">
+                            Eye Protection
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/sanitizer" className="mobile-li-a-sub">
+                            Sanitizers & Disinfectants
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/cleaning" className="mobile-li-a-sub">
+                            Cleaning Solutions
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    {/* Construction Tools & Safety Equipments */}
+
+                    <li className="menu-item-has-children">
+                      {/* <Link to={'/activity-three'}> */}
+                      <a href="/activity-three" className="mobile-li-a-sub">
+                        Construction Tools & Safety Equipments
+                      </a>
+                      {/* </Link> */}
+                      <ul className="sub-menu">
+                        <li>
+                          <a href="/hand-tools" className="mobile-li-a-sub">
+                            Hand Tools
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/power-tools" className="mobile-li-a-sub">
+                            Power Tools
+                          </a>
+                        </li>
+                        {/* <li>
+                          <a href="/">Gardening Tools</a>
+                        </li> */}
+                        <li>
+                          <a
+                            href="/electrical-tools"
+                            className="mobile-li-a-sub"
+                          >
+                            Electrical Tools
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/plumbing-tools" className="mobile-li-a-sub">
+                            Plumbing Tools
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/safety" className="mobile-li-a-sub">
+                            Safety Equipment
+                          </a>
+                        </li>
+                        {/* <li>
+                          <a href="/activity-three">Fasteners</a>
+                        </li> */}
+                        {/* <li>
+                          <a href="/activity-three">Building Materials</a>
+                        </li> */}
+                        {/* <li>
+                          <a href="/activity-three">Hardware Accessories</a>
+                        </li> */}
+                      </ul>
+                    </li>
+                    {/* printing solutions */}
+                    <li className="menu-item-has-children">
+                      {/* <Link to={'/activity-one'}> */}
+                      <a href="/activity-one" className="mobile-li-a-sub">
+                        Printing Solutions
+                      </a>
+                      {/* </Link> */}
+                      <ul className="sub-menu">
+                        <li>
+                          <a href="/ecosolvent" className="mobile-li-a-sub">
+                            Eco-Solvent Inks
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/uv" className="mobile-li-a-sub">
+                            UV Inks
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/solvent" className="mobile-li-a-sub">
+                            Solvent-Based Inks
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/printequip" className="mobile-li-a-sub">
+                            Printing Equipment
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/media" className="mobile-li-a-sub">
+                            Media Supplies
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
 
                     <li className=""></li>
                   </ul>

@@ -144,6 +144,7 @@ const ActivityOne = () => {
                       a wide variety of printing tasks. These inks are
                       environmentally friendly and ensure vibrant colors and
                       excellent adhesion on various media types.
+                      <br />
                       <a href="/ecosolvent">( Know More )</a>
                     </p>
                   </div>
@@ -155,6 +156,7 @@ const ActivityOne = () => {
                       Our UV inks are designed for applications that require
                       high print quality and durability. These inks are cured by
                       UV light, making them resistant to fading and weathering.
+                      <br />
                       <a href="/uv">( Know More )</a>
                     </p>
                   </div>
@@ -190,6 +192,7 @@ const ActivityOne = () => {
                       We supply high-quality solvent-based inks that are ideal
                       for outdoor applications. These inks are durable and
                       resistant to various environmental conditions.
+                      <br />
                       <a href="/solvent">( Know More )</a>
                     </p>
                   </div>
@@ -215,6 +218,7 @@ const ActivityOne = () => {
                       solvent-based printers. These machines are designed for
                       efficiency and reliability, enabling you to deliver
                       high-quality prints to your customers.
+                      <br />
                       <a href="/printequip">( Know More )</a>
                     </p>
                   </div>
@@ -249,6 +253,7 @@ const ActivityOne = () => {
                       vinyl, and canvas, to banner materials. These are
                       specially designed to work with eco-solvent inks, ensuring
                       high-quality prints every time.
+                      <br />
                       <a href="/media">( Know More )</a>
                     </p>
                   </div>

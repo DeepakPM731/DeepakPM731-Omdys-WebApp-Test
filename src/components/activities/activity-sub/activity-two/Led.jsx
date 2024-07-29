@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react';
 
 const Led = () => {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
-    useEffect(() => {
-      let elements = document.querySelectorAll('[data-aos]');
-      for (let i = 0; i < elements.length; i++) {
-        //if ios remove the attribute
-        if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
-          elements[i].removeAttribute('data-aos');
-        }
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
       }
-    });
+    }
+  });
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>
@@ -24,7 +24,7 @@ const Led = () => {
           <div className="container">
             <div className="row">
               <div className="banner-details">
-                <h2 style={{ textAlign: 'center' }}>LEDs and Displays</h2>
+                <h2 style={{ textAlign: 'center' }}>Electronics Components</h2>
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
                   tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!

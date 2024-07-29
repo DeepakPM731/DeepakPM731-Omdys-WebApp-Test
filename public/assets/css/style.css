@@ -4191,6 +4191,9 @@ span.counter {
 .team-style-two .team-data .team-social-media a.tw:hover:before {
   background: #00acee;
 }
+.team-style-two .team-data .team-social-media a.in:hover:before {
+  background: #cd486b;
+}
 .team-style-two .team-data .team-social-media a i {
   font-size: 16px;
   color: black;
@@ -4928,6 +4931,10 @@ span.counter {
 }
 .contact-form-2 .info ul.social-medias li .tw:hover {
   background: #5089cf;
+}
+.contact-form-2 .info ul.social-medias li .in:hover {
+  background: #cd486b;
+  
 }
 .contact-form-2 .info ul.social-medias li .fb:hover {
   background: #4267b2;
@@ -7203,32 +7210,32 @@ img.light-icon {
 /* -=============================================================================- */
 
 /* --------------text alignment start------------------- */
- .homeparaone{
-    text-align: justify;
-  }
+.homeparaone {
+  text-align: justify;
+}
 @media screen and (max-width: 1200px) {
-  .homeparaone{
+  .homeparaone {
     text-align: justify;
   }
   .about-style-one .about-data-right .about-info p {
   }
 }
 @media screen and (max-width: 992px) {
-   .homeparaone{
+  .homeparaone {
     text-align: justify;
   }
   .about-style-one .about-data-right .about-info p {
   }
 }
 @media screen and (max-width: 768px) {
-   .homeparaone{
+  .homeparaone {
     text-align: justify;
   }
   .about-style-one .about-data-right .about-info p {
   }
 }
 @media screen and (max-width: 480px) {
-   .homeparaone{
+  .homeparaone {
     text-align: left;
   }
   .about-style-one .about-data-right .about-info p {
@@ -7238,7 +7245,7 @@ img.light-icon {
   }
 }
 @media screen and (max-width: 375px) {
-   .homeparaone{
+  .homeparaone {
     text-align: left;
   }
   .about-style-one .about-data-right {
@@ -7250,7 +7257,7 @@ img.light-icon {
   }
 }
 @media screen and (max-width: 230px) {
-   .homeparaone{
+  .homeparaone {
     text-align: left;
   }
   .about-style-one .about-data-right .about-info p {
@@ -7260,7 +7267,7 @@ img.light-icon {
   }
 }
 @media screen and (max-width: 180px) {
-   .homeparaone{
+  .homeparaone {
     text-align: left;
   }
   .about-style-one .about-data-right .about-info p {

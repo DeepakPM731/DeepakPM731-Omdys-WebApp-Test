@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react';
 
 const Media = () => {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
-    useEffect(() => {
-      let elements = document.querySelectorAll('[data-aos]');
-      for (let i = 0; i < elements.length; i++) {
-        //if ios remove the attribute
-        if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
-          elements[i].removeAttribute('data-aos');
-        }
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
       }
-    });
+    }
+  });
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>
@@ -74,8 +74,7 @@ const Media = () => {
                   quality effectively.
                   <br />
                   <br />
-                  <b>Flex Printing Media:</b>
-                  <br />
+                  <h4>Flex Printing Media</h4>
                   <br />
                   <b>Vinyl Banners:</b>
                   <br />
@@ -134,8 +133,8 @@ const Media = () => {
                   projects.
                   <br />
                   <br />
-                  <b>UV Printing Media:</b>
                   <br />
+                  <h4>UV Printing Media</h4>
                   <br />
                   <b>Acrylic Sheets:</b>
                   <br />
@@ -202,8 +201,8 @@ const Media = () => {
                   a popular choice for budget-conscious projects.
                   <br />
                   <br />
-                  <b>Advantages of Media for Flex and UV Printing:</b>
                   <br />
+                  <h4>Advantages of Media for Flex and UV Printing</h4>
                   <br />
                   <b>Price-Wise Advantages:</b> The available media options
                   cater to different budget requirements. From economical

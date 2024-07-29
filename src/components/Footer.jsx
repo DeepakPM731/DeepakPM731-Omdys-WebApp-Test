@@ -46,7 +46,7 @@ const Footer = () => {
         formDatas.append('Email / Phone', formData.email);
 
         toast.success(
-          'Thank you for your enquiry, Our sales team will contact you soon!',
+          "Thank you for your callback request. We'll get in touch with you shortly.",
           {
             position: 'center-right',
             duration: 3000,

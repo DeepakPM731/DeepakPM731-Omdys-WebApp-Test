@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react';
 
 const PrintingEquip = () => {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
-    useEffect(() => {
-      let elements = document.querySelectorAll('[data-aos]');
-      for (let i = 0; i < elements.length; i++) {
-        //if ios remove the attribute
-        if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
-          elements[i].removeAttribute('data-aos');
-        }
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
       }
-    });
+    }
+  });
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>
@@ -75,7 +75,7 @@ const PrintingEquip = () => {
                   efficiency, and versatility for a wide range of applications.
                   <br />
                   <br />
-                  <b>Flex Printing Machines:</b>
+                  <h4>Flex Printing Machines</h4>
                   <br />
                   Flex printing machines are renowned for their ability to
                   produce vibrant, durable prints on flexible materials such as
@@ -102,7 +102,8 @@ const PrintingEquip = () => {
                   substrates, including vinyl, mesh, and canvas.
                   <br />
                   <br />
-                  <b>UV Hybrid Printing Machines:</b>
+                  <br />
+                  <h4>UV Hybrid Printing Machines</h4>
                   <br />
                   UV hybrid printers combine the best of both UV and traditional
                   printing technologies, offering unparalleled versatility and
@@ -131,7 +132,8 @@ const PrintingEquip = () => {
                   production without compromising on quality.
                   <br />
                   <br />
-                  <b>Leading Exporters of Large Format Printers:</b>
+                  <br />
+                  <h4>Leading Exporters of Large Format Printers</h4>
                   <br />
                   The global market for large format printers is highly
                   competitive, with several countries leading in the export of
@@ -159,6 +161,8 @@ const PrintingEquip = () => {
                   solutions.
                   <br />
                   <br />
+                  </p>
+
                   <div
                     className="container center justify-content-center"
                     style={{ textAlign: 'center' }}
@@ -176,6 +180,7 @@ const PrintingEquip = () => {
                       alt="Our Project One Image 1"
                     />
                   </div>
+                  <p>
                   <br />
                   At OMDYS International LLP, we are dedicated to providing our
                   clients with the best large format printing solutions

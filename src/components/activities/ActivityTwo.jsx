@@ -136,7 +136,9 @@ const ActivityTwo = () => {
                       <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                         From microcontrollers to application-specific ICs, we
                         carry a wide variety of integrated circuits from leading
-                        manufacturers. <a href="/ic">( Know More )</a>
+                        manufacturers.
+                        <br />
+                         <a href="/ic">( Know More )</a>
                       </p>
                     </div>
                     <div className="image" data-aos="fade-right">
@@ -170,6 +172,7 @@ const ActivityTwo = () => {
                         Our selection of passive components includes resistors,
                         capacitors, inductors, and filters to support various
                         circuit designs and applications.{' '}
+                        <br />
                         <a href="/passive">( Know More )</a>
                       </p>
                     </div>
@@ -182,6 +185,7 @@ const ActivityTwo = () => {
                         as transistors, diodes, thyristors, and voltage
                         regulators to meet your requirements for signal
                         processing and amplification.{' '}
+                        <br />
                         <a href="/active">( Know More )</a>
                       </p>
                     </div>
@@ -215,7 +219,9 @@ const ActivityTwo = () => {
                         Whether you need standard connectors or custom cable
                         assemblies, we offer a diverse range of connectors,
                         cables, and harnesses for seamless integration into your
-                        projects. <a href="/connector">( Know More )</a>
+                        projects. 
+                        <br />
+                        <a href="/connector">( Know More )</a>
                       </p>
                     </div>
                   </li>
@@ -226,7 +232,9 @@ const ActivityTwo = () => {
                         Explore our selection of sensors and sensor modules for
                         measuring and monitoring various environmental
                         parameters, including temperature, humidity, pressure,
-                        and motion. <a href="/sensor">( Know More )</a>
+                        and motion.
+                        <br />
+                         <a href="/sensor">( Know More )</a>
                       </p>
                     </div>
                     <div className="image" data-aos="fade-right">
@@ -257,6 +265,7 @@ const ActivityTwo = () => {
                         Illuminate your projects with our selection of LEDs, LCD
                         displays, OLED displays, and segment displays available
                         in different sizes, colors, and configurations.{' '}
+                        <br />
                         <a href="/led">( Know More )</a>
                       </p>
                     </div>
@@ -268,6 +277,7 @@ const ActivityTwo = () => {
                         Ensure reliable power delivery with our range of power
                         supplies, batteries, chargers, and DC-DC converters
                         designed for diverse applications.{' '}
+                        <br />
                         <a href="/power">( Know More )</a>
                       </p>
                     </div>
@@ -300,6 +310,7 @@ const ActivityTwo = () => {
                         Find the right switches, relays, and contactors for your
                         control and automation needs, including tactile
                         switches, rocker switches, and electromechanical relays.{' '}
+                        <br />
                         <a href="/switch">( Know More )</a>
                       </p>
                     </div>

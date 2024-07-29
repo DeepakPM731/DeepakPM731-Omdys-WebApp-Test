@@ -79,7 +79,19 @@ const ActivityFive = () => {
                     <div className="data">
                       <h3>Face Masks</h3>
                       <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                        Surgical masks, N95 respirators, KN95 masks, and more.
+                        At OMDYS International LLP, we offer a variety of face
+                        masks to ensure optimal protection and comfort. Our
+                        selection includes surgical masks for basic protection
+                        against droplets and splashes, N95 respirators that
+                        filter at least 95% of airborne particles for healthcare
+                        settings, and KN95 masks with similar filtration
+                        efficiency. We also provide FFP2 and FFP3 masks, which
+                        meet European standards for high filtration, and
+                        reusable cloth masks for eco-friendly, everyday use. All
+                        our masks adhere to stringent quality standards to
+                        ensure safety and reliability.
+                        <br />
+                        <a href="/mask">( Know More )</a>
                       </p>
                     </div>
                     <div className="image" data-aos="fade-right">
@@ -109,8 +121,19 @@ const ActivityFive = () => {
                     </div>
                     <div className="data">
                       <h3> Protective Apparel</h3>
-                      <p style={{ fontSize: '18px' }}>
-                        Disposable gowns, coveralls, aprons, and lab coats.
+                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
+                        At OMDYS International LLP, we provide a range of
+                        protective apparel designed for safety and comfort. Our
+                        offerings include disposable gowns for barrier
+                        protection, coveralls for full-body coverage, aprons for
+                        splash protection, and lab coats for everyday use in
+                        medical settings. Each item is made from high-quality
+                        materials to ensure durability and ease of use. Our
+                        protective apparel meets rigorous quality standards,
+                        providing reliable protection against contaminants and
+                        maintaining hygiene in healthcare environments.
+                        <br />
+                        <a href="/protective">( Know More )</a>
                       </p>
                     </div>
                   </li>
@@ -118,8 +141,19 @@ const ActivityFive = () => {
                     <div className="data">
                       <h3> Gloves</h3>
                       <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                        Latex, nitrile, and vinyl gloves for medical and
-                        non-medical use.
+                        At OMDYS International LLP, we offer a variety of gloves
+                        designed to meet diverse medical needs. Our range
+                        includes latex gloves known for their flexibility and
+                        comfort, nitrile gloves that provide excellent puncture
+                        resistance and are ideal for those with latex allergies,
+                        and vinyl gloves which are cost-effective and suitable
+                        for short-term use. Each type is crafted from
+                        high-quality materials to ensure safety and durability.
+                        Our gloves meet stringent quality standards, providing
+                        reliable protection and maintaining hygiene in
+                        healthcare settings.
+                        <br />
+                        <a href="/gloves">( Know More )</a>
                       </p>
                     </div>
                     <div className="image" data-aos="fade-right">
@@ -150,17 +184,38 @@ const ActivityFive = () => {
                     <div className="data">
                       <h3>Eye Protection</h3>
                       <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                        Safety goggles and face shields to protect against
-                        splashes and airborne particles.
+                        At OMDYS International LLP, we offer high-quality eye
+                        protection solutions designed for medical field use and
+                        hospitals. Our range includes safety goggles that
+                        provide a secure fit and protect against splashes and
+                        airborne particles, and face shields that offer
+                        full-face coverage for added protection. Both are made
+                        from durable materials to ensure long-lasting use and
+                        comfort. Adhering to stringent quality standards, our
+                        eye protection products help maintain safety and hygiene
+                        in healthcare environments.
+                        <br />
+                        <a href="/eye">( Know More )</a>
                       </p>
                     </div>
                   </li>
                   <li>
                     <div className="data">
-                      <h3>Sanitizers and Disinfectants</h3>
+                      <h3>Sanitizers & Disinfectants</h3>
                       <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                        Hand sanitizers, disinfectant wipes, and surface
-                        disinfectants for maintaining hygiene protocols.
+                        At OMDYS International LLP, we provide a comprehensive
+                        range of sanitizers and disinfectants essential for
+                        maintaining hygiene protocols in hospitals and medical
+                        fields. Our products include hand sanitizers for quick
+                        and effective hand hygiene, disinfectant wipes for
+                        convenient surface cleaning, and surface disinfectants
+                        that ensure thorough sanitation of various surfaces.
+                        Formulated to meet stringent quality standards, our
+                        sanitizers and disinfectants help prevent the spread of
+                        infections and maintain a safe, clean environment in
+                        healthcare setting.
+                        <br />
+                        <a href="/sanitizer">( Know More )</a>
                       </p>
                     </div>
                     <div className="image" data-aos="fade-right">
@@ -192,8 +247,19 @@ const ActivityFive = () => {
                     <div className="data">
                       <h3>Cleaning Solutions</h3>
                       <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                        Hand sanitizers, disinfectant wipes, and surface
-                        disinfectants for maintaining hygiene protocols.
+                        At OMDYS International LLP, we offer a range of cleaning
+                        solutions essential for maintaining hygiene protocols in
+                        hospitals and medical facilities. Our products include
+                        toilet cleaners for effective removal of stains and
+                        germs, floor cleaners that ensure thorough sanitation
+                        and safety, glass cleaners for streak-free visibility on
+                        windows and surfaces, and surface cleaners for general
+                        cleaning and disinfection. Each solution is formulated
+                        to meet rigorous quality standards, ensuring efficient
+                        cleaning and effective hygiene maintenance in
+                        healthcare environments.
+                        <br />
+                        <a href="/cleaning">( Know More )</a>
                       </p>
                     </div>
                   </li>
