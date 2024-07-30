@@ -13,16 +13,7 @@ const ServiceSingle = () => {
       }
     }
   });
-  useEffect(() => {
-    setTimeout(() => {
-      window.$('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        items: 1,
-      });
-    }, 100); // Delay initialization
-  }, []);
+
   return (
     <>
       {/* ---------------- */}

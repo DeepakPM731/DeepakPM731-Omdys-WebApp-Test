@@ -1,4 +1,18 @@
+import { useEffect } from 'react';
+
 const CSR = () => {
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
+      }
+    }
+  }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>
@@ -126,7 +140,7 @@ const CSR = () => {
             </p>
           </div>
 
-          <p style={{ marginTop: '1%' }}>
+          <p style={{ marginTop: '4%' }}>
             #OMDYScares #CSR #SustainableBusiness #CommunityDevelopment
           </p>
         </div>

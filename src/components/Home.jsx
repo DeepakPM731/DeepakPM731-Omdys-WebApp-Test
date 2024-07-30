@@ -26,7 +26,7 @@ const Home = () => {
         nav: true,
         items: 1,
       });
-    }, 100); // Delay initialization
+    }, 300); // Delay initialization
   }, []);
   const handleScrollTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });

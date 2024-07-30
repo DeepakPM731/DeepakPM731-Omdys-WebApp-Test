@@ -75,9 +75,8 @@ const App = () => {
         nav: true,
         items: 1,
       });
-    }, 100); // Delay initialization
+    }, 300); // Delay initialization
   }, []);
-  
 
   return (
     <>

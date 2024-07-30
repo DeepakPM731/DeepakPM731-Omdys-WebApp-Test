@@ -54,7 +54,7 @@ const TermConditions = () => {
         <br />
         <h4 style={{ marginBottom: '1%' }}>Products and Services:</h4>
         <p>We offer a range of products and services, including:</p>
-        <ul style={{ listStyleType: 'circle' }}>
+        <ul style={{ listStyleType: 'circle', marginLeft: '' }}>
           <li
             style={{
               fontSize: '18px',
