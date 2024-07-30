@@ -27,7 +27,7 @@ const TermConditions = () => {
       <br />
       <div className="container">
         {/* <h2>Terms and Conditions</h2> */}
-        <h4>Introduction</h4>
+        <h4 style={{ marginBottom: '1%' }}>Introduction:</h4>
         <p style={{ textAlign: 'justify' }}>
           Welcome to OMDYS International LLP, a multi-functional trading company
           headquartered in Hosur, the largest industrial hub in Tamil Nadu. Our
@@ -40,49 +40,74 @@ const TermConditions = () => {
         </p>
         <br />
 
-        <h4>Company Information</h4>
+        <h4 style={{ marginBottom: '1%' }}>Company Information:</h4>
         <p>
           OMDYS International Trading LLP is a multi-segment trading company
           based in India. We hold a valid import-export code.
         </p>
         <br />
-        <h4>Use of Website</h4>
+        <h4 style={{ marginBottom: '1%' }}>Use of Website:</h4>
         <p>
           You may use our website for lawful purposes only. Do not use it to
           violate any local, state, national, or international law.
         </p>
         <br />
-        <h4>Products and Services</h4>
+        <h4 style={{ marginBottom: '1%' }}>Products and Services:</h4>
         <p>We offer a range of products and services, including:</p>
-        <ul>
+        <ul style={{ listStyleType: 'circle' }}>
           <li
-            style={{ fontSize: '18px', marginLeft: '5%', fontWeight: 'bold' }}
+            style={{
+              fontSize: '18px',
+              marginLeft: '5%',
+              fontWeight: 'bold',
+              listStyleType: 'circle',
+            }}
           >
             <a href="">Printing Solutions</a>
           </li>
           <li
-            style={{ fontSize: '18px', marginLeft: '5%', fontWeight: 'bold' }}
+            style={{
+              fontSize: '18px',
+              marginLeft: '5%',
+              fontWeight: 'bold',
+              listStyleType: 'circle',
+            }}
           >
-            <a href="">Oil & Gas EQuipments Supply</a>
+            <a href="">Oil & Gas Equipments Supply</a>
           </li>
           <li
-            style={{ fontSize: '18px', marginLeft: '5%', fontWeight: 'bold' }}
+            style={{
+              fontSize: '18px',
+              marginLeft: '5%',
+              fontWeight: 'bold',
+              listStyleType: 'circle',
+            }}
           >
             <a href="">Health Care PPE Products</a>
           </li>
           <li
-            style={{ fontSize: '18px', marginLeft: '5%', fontWeight: 'bold' }}
+            style={{
+              fontSize: '18px',
+              marginLeft: '5%',
+              fontWeight: 'bold',
+              listStyleType: 'circle',
+            }}
           >
             <a href="">Electronics Components</a>
           </li>
           <li
-            style={{ fontSize: '18px', marginLeft: '5%', fontWeight: 'bold' }}
+            style={{
+              fontSize: '18px',
+              marginLeft: '5%',
+              fontWeight: 'bold',
+              listStyleType: 'circle',
+            }}
           >
             <a href="">Construction Tools & Safety Equipments</a>
           </li>
         </ul>
         <br />
-        <h4>Orders and Payments</h4>
+        <h4 style={{ marginBottom: '1%' }}>Orders and Payments:</h4>
         <p style={{ textAlign: 'justify' }}>
           All orders are subject to acceptance and product availability. We
           reserve the right to reject or cancel any order due to stock
@@ -96,14 +121,14 @@ const TermConditions = () => {
           the payment process.
         </p>
         <br />
-        <h4>Shipping and Delivery</h4>
+        <h4 style={{ marginBottom: '1%' }}>Shipping and Delivery:</h4>
         <p>
           We strive to deliver products on time. However, delivery times may
           vary due to unforeseen circumstances.
         </p>
         <br />
-        <h4>Returns and Refunds</h4>
-        <p>
+        <h4 style={{ marginBottom: '1%' }}>Returns and Refunds:</h4>
+        <p style={{ marginLeft: '4%' }}>
           <b>Condition of Returned Items:</b> Returned items must be in their
           original condition, unused, and with all original packaging and
           accessories.
@@ -137,25 +162,25 @@ const TermConditions = () => {
           to arrange exchanges.
         </p>
         <br />
-        <h4>Intellectual Property</h4>
+        <h4 style={{ marginBottom: '1%' }}>Intellectual Property:</h4>
         <p>
           All content on this website, including text, graphics, logos, and
           images, is the property of OMDYS International Trading LLP.
         </p>
         <br />
-        <h4>Limitation of Liability</h4>
+        <h4 style={{ marginBottom: '1%' }}>Limitation of Liability:</h4>
         <p>
           OMDYS International Trading LLP is not liable for any damages arising
           from the use of this website or the products sold.
         </p>
         <br />
-        <h4>Changes to Terms</h4>
+        <h4 style={{ marginBottom: '1%' }}>Changes to Terms:</h4>
         <p>
           We may update these terms and conditions from time to time. Please
           review them regularly.
         </p>
         <br />
-        <h4>Contact Us</h4>
+        <h4 style={{ marginBottom: '1%' }}>Contact Us:</h4>
         <p>
           For any questions or concerns, please contact us at{' '}
           <a href="mailto:info.omdys@gmail.com">info.omdys@gmail.com</a>.

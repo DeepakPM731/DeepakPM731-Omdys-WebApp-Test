@@ -53,8 +53,8 @@ const ElectricalTools = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Electrical Tools__.svg"
-          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools__.svg"
+          // src="assets/images/activity-four/svg/log/Electrical Tools__.svg"
           alt="Our Project One Image 1"
         />
       </div>
@@ -79,9 +79,8 @@ const ElectricalTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/construction/Electrical Tools - Multimeters.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Multimeters.svg"
+                        // src="assets/images/activity-four/svg/construction/Electrical Tools - Multimeters.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -92,9 +91,8 @@ const ElectricalTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/construction/Electrical Tools - Wire Strippers.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Wire+Strippers.svg"
+                        // src="assets/images/activity-four/svg/construction/Electrical Tools - Wire Strippers.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -124,9 +122,9 @@ const ElectricalTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/construction/Electrical Tools - Voltage Tester.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Voltage+Tester.svg"
+                        // src="assets/images/activity-four/svg/construction/Electrical Tools - Voltage Tester.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -137,9 +135,9 @@ const ElectricalTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/construction/Electrical Tools - Cable Cutters.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Cable+Cutters.svg"
+                        // src="assets/images/activity-four/svg/construction/Electrical Tools - Cable Cutters.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -170,9 +168,9 @@ const ElectricalTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/construction/Electrical Tools - Handheld Conduit Benders.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Handheld+Conduit+Benders.svg"
+                        // src="assets/images/activity-four/svg/construction/Electrical Tools - Handheld Conduit Benders.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>

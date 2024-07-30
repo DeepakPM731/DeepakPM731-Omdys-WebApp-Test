@@ -52,8 +52,8 @@ const PowerTools = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Power Tools__.svg"
-          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools__.svg"
+          // src="assets/images/activity-four/svg/log/Power Tools__.svg"
           alt="Our Project One Image 1"
         />
       </div>
@@ -88,9 +88,9 @@ const PowerTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/construction/Power Tools - Drills.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Drills.svg"
+                        // src="assets/images/activity-four/svg/construction/Power Tools - Drills.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -101,9 +101,9 @@ const PowerTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/construction/Power Tools - Saws.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Saws.svg"
+                        // src="assets/images/activity-four/svg/construction/Power Tools - Saws.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -149,9 +149,9 @@ const PowerTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/construction/Power Tools - Grinders.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Grinders.svg"
+                        // src="assets/images/activity-four/svg/construction/Power Tools - Grinders.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -162,9 +162,9 @@ const PowerTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/construction/Power Tools - Sanders.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Sanders.svg"
+                        // src="assets/images/activity-four/svg/construction/Power Tools - Sanders.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -205,9 +205,9 @@ const PowerTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/construction/Power Tools - Impact Drivers.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Impact+Drivers.svg"
+                        // src="assets/images/activity-four/svg/construction/Power Tools - Impact Drivers.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>

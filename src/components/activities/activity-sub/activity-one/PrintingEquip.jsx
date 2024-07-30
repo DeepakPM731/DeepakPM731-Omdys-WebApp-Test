@@ -51,8 +51,8 @@ const PrintingEquip = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Printing Machines__.svg"
-          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Printing+Machines__.svg"
+          // src="assets/images/activity-four/svg/log/Printing Machines__.svg"
           alt="Our Project One Image 1"
         />
       </div>
@@ -161,26 +161,26 @@ const PrintingEquip = () => {
                   solutions.
                   <br />
                   <br />
-                  </p>
+                </p>
 
-                  <div
-                    className="container center justify-content-center"
-                    style={{ textAlign: 'center' }}
-                  >
-                    <img
-                      className="industry "
-                      data-aos="fade-up-left"
-                      style={{
-                        width: '100%',
-                        textAlign: 'center',
-                        objectFit: 'stretch',
-                      }}
-                      src="assets/images/activity-four/svg/log/Printing Machines__2.svg"
-                      // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                      alt="Our Project One Image 1"
-                    />
-                  </div>
-                  <p>
+                <div
+                  className="container center justify-content-center"
+                  style={{ textAlign: 'center' }}
+                >
+                  <img
+                    className="industry "
+                    data-aos="fade-up-left"
+                    style={{
+                      width: '100%',
+                      textAlign: 'center',
+                      objectFit: 'stretch',
+                    }}
+                    src="assets/images/activity-four/svg/log/Printing Machines__2.svg"
+                    // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                    alt="Our Project One Image 1"
+                  />
+                </div>
+                <p>
                   <br />
                   At OMDYS International LLP, we are dedicated to providing our
                   clients with the best large format printing solutions

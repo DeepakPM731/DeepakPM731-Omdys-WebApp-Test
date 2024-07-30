@@ -52,8 +52,8 @@ const Safety = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Saftey equipment's__.svg"
-          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+equipment's__.svg"
+          // src="assets/images/activity-four/svg/log/Saftey equipment's__.svg"
           alt="Our Project One Image 1"
         />
       </div>
@@ -100,9 +100,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - Hard Hats.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+Hard+Hats.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - Hard Hats.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -128,9 +128,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - Eye Protection Glasses.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+Eye+Protection+Glasses.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - Eye Protection Glasses.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -182,9 +182,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - Face Shields.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+Face+Shields.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - Face Shields.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -211,9 +211,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - Ear Plugs.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+Ear+Plugs.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - Ear Plugs.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -257,9 +257,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - Ear Muffs.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+Ear+Muffs.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - Ear Muffs.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -284,9 +284,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - Dust Masks.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+Dust+Masks.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - Dust Masks.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -331,9 +331,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - Respirators.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+Respirators.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - Respirators.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -360,9 +360,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - Work Gloves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+Work+Gloves.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - Work Gloves.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -426,9 +426,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - Knee Pads.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+Knee+Pads.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - Knee Pads.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -439,9 +439,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - Lumbar Support Belts.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+Lumbar+Support+Belts.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - Lumbar Support Belts.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -504,9 +504,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Safety Boots.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Safety+Boots.svg"
+                        // src="assets/images/activity-four/svg/safety/Safety Boots.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -532,9 +532,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - Harnesses.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+Harnesses.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - Harnesses.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -578,9 +578,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - Lanyards and Lifelines.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+Lanyards+and+Lifelines.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - Lanyards and Lifelines.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -605,9 +605,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - High-Visibility Clothing.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+High-Visibility+Clothing.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - High-Visibility Clothing.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -651,9 +651,9 @@ const Safety = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/safety/Saftey - Coveralls.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Saftey+-+Coveralls.svg"
+                        // src="assets/images/activity-four/svg/safety/Saftey - Coveralls.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>

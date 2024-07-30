@@ -113,7 +113,7 @@ jQuery(document).ready(function ($) {
       margin: 12,
       dots: true,
       autoplay: true,
-      autoplayTimeout: 5000,
+      autoplayTimeout: 7000,
       loop: true,
       //   autoplayHoverPause: false,
       responsive: {

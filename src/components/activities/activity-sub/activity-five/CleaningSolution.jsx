@@ -39,8 +39,8 @@ const CleaningSolution = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Cleaning Solutions.svg"
-          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Cleaning+Solutions.svg"
+          // src="assets/images/activity-four/svg/log/Cleaning Solutions.svg"
           alt="Our Project One Image 1"
         />
       </div>
@@ -62,7 +62,8 @@ const CleaningSolution = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Toilet Cleaner.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Toilet+Cleaner.svg"
+                        // src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Toilet Cleaner.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -116,7 +117,8 @@ const CleaningSolution = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Floor Cleaner.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Floor+Cleaner.svg"
+                        // src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Floor Cleaner.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -127,7 +129,8 @@ const CleaningSolution = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Glass Cleaner.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Glass+Cleaner.svg"
+                        // src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Glass Cleaner.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -183,7 +186,8 @@ const CleaningSolution = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Phenol.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Phenol.svg"
+                        // src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Phenol.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -194,7 +198,8 @@ const CleaningSolution = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Bleaching Powder.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Bleaching+Powder.svg"
+                        // src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Bleaching Powder.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -245,7 +250,8 @@ const CleaningSolution = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Hydrogen Peroxide.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Hydrogen+Peroxide.svg"
+                        // src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Hydrogen Peroxide.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

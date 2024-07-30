@@ -51,8 +51,8 @@ const Gloves = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Medical Hand Gloves__.svg"
-          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Medical+Hand+Gloves__.svg"
+          // src="assets/images/activity-four/svg/log/Medical Hand Gloves__.svg"
           alt="Our Project One Image 1"
         />
       </div>
@@ -74,9 +74,8 @@ const Gloves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/gloves/Health Care - Latex Gloves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Latex+Gloves.svg"
+                        // src="assets/images/activity-four/svg/gloves/Health Care - Latex Gloves.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -127,9 +126,8 @@ const Gloves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/gloves/Health Care - Nitrile Gloves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Nitrile+Gloves.svg"
+                        // src="assets/images/activity-four/svg/gloves/Health Care - Nitrile Gloves.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -140,9 +138,8 @@ const Gloves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/gloves/Health Care - Vinyl Gloves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Vinyl+Gloves.svg"
+                        // src="assets/images/activity-four/svg/gloves/Health Care - Vinyl Gloves.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

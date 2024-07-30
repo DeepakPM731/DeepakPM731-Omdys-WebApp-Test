@@ -51,8 +51,8 @@ const Sanitizers = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Sanitizers and Disinfectants__2.svg"
-          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Sanitizers+and+Disinfectants__2.svg"
+          // src="assets/images/activity-four/svg/log/Sanitizers and Disinfectants__2.svg"
           alt="Our Project One Image 1"
         />
       </div>
@@ -74,7 +74,8 @@ const Sanitizers = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Hand Sanitizers.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Hand+Sanitizers.svg"
+                        // src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Hand Sanitizers.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -126,7 +127,8 @@ const Sanitizers = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Disinfectant Wipes.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Disinfectant+Wipes.svg"
+                        // src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Disinfectant Wipes.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -137,7 +139,8 @@ const Sanitizers = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Surface Disinfectants.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Surface+Disinfectants.svg"
+                        // src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Surface Disinfectants.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

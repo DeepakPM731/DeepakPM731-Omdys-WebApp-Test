@@ -39,7 +39,8 @@ const EyeProtection = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/eye/Eye Protection.svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Eye+Protection.svg"
+          // src="assets/images/activity-four/svg/eye/Eye Protection.svg"
           alt="Our Project One Image 1"
         />
       </div>
@@ -61,7 +62,8 @@ const EyeProtection = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/eye/Health Care - Saftey Goggles.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Saftey+Goggles.svg"
+                        // src="assets/images/activity-four/svg/eye/Health Care - Saftey Goggles.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -115,7 +117,7 @@ const EyeProtection = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/eye/Health Care - Face Shield.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Face+Shield.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
