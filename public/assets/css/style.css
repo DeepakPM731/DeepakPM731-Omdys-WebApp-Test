@@ -467,24 +467,24 @@ button.scrollTopStick.active:before,
   position: absolute;
   top: -2px;
 
-  right: -37px ;
+  right: -37px;
   background: transparent;
   border-left: 0 solid transparent;
-  border-right: 35px solid transparent ;
-  border-top: 80px solid #ffee02 ;
+  border-right: 35px solid transparent;
+  border-top: 80px solid #ffee02;
 }
 @media (max-width: 480px) {
-  .footerbtn{
- border-top: 55px solid #ffee02;
+  .footerbtn {
+    border-top: 55px solid #ffee02;
   }
 }
 @media (max-width: 767px) {
-    .footerbtn{
+  .footerbtn {
     border-top: 59px solid #ffee02;
   }
 }
 @media (max-width: 992px) {
-    .footerbtn{
+  .footerbtn {
     border-top: 65px solid #ffee02;
   }
 }
@@ -1524,6 +1524,10 @@ span.counter {
 .team-style-one .team-data .team-social-media a.tw:hover:before {
   background: #00acee;
 }
+.team-style-one .team-data .team-social-media a.ws:hover:before {
+  background: #25d366;
+}
+
 .team-style-one .team-data .team-social-media a i {
   font-size: 16px;
   color: black;
@@ -4969,6 +4973,9 @@ span.counter {
 }
 .contact-form-2 .info ul.social-medias li .fb:hover {
   background: #4267b2;
+}
+.contact-form-2 .info ul.social-medias li .ws:hover {
+  background: #25d366;
 }
 ul.social-medias {
   margin-top: 30px;

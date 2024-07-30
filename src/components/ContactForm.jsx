@@ -609,6 +609,16 @@ const ContactForm = () => {
                         <i className="fa-brands fa-linkedin" />
                       </a>
                     </li>
+                    <li>
+                      <a
+                        className="ws"
+                        href="https://wa.me/+918431067893"
+                        target="_blank"
+                      >
+                        <p>Whatsapp</p>
+                        <i className="fa-brands fa-whatsapp" />
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -764,6 +774,22 @@ const ContactForm = () => {
                     }}
                   >
                     Industrial Construction Tools and Equipment
+                  </button>
+                  <button
+                    className={`dropdown-item ${
+                      activeAccordion === 4 ? 'active' : ''
+                    }`}
+                    onClick={() =>
+                      handleAccordionToggle(4, 'Oil & Gas Equipments Supply')
+                    }
+                    style={{
+                      whiteSpace: 'normal' /* Allow the text to wrap */,
+                      wordWrap: 'break-word',
+                      fontWeight: '600',
+                      textAlign: 'center',
+                    }}
+                  >
+                    Oil & Gas Equipments Supply
                   </button>
                   {/* <button
                     className={`dropdown-item ${
@@ -2168,7 +2194,7 @@ const ContactForm = () => {
                             }
                             aria-controls="collapse-4"
                           >
-                            Industrial Chemical Products
+                            Oil & Gas Equipment Supply
                           </button>
                         </h2>
                         <div
@@ -2196,8 +2222,9 @@ const ContactForm = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-1"
                                   >
-                                    1. What types of Industrial Chemical
-                                    mechanical parts do you source?
+                                    1.What types of valves do you offer for the
+                                    oil and gas industry, and what standards do
+                                    they meet?
                                   </button>
                                 </h2>
                                 <div
@@ -2208,12 +2235,11 @@ const ContactForm = () => {
                                 >
                                   <div className="accordion-body">
                                     <p>
-                                      We specialize in sourcing a wide range of
-                                      mechanical parts and components used in
-                                      the Industrial Chemical industries,
-                                      including valves, pumps, pipes, fittings,
-                                      compressors, and filtration systems, among
-                                      others.
+                                      We offer gate valves, ball valves,
+                                      butterfly valves, globe valves, and check
+                                      valves, all complying with relevant ISO
+                                      and API standards to ensure safety and
+                                      reliability.
                                     </p>
                                   </div>
                                 </div>
@@ -2232,8 +2258,8 @@ const ContactForm = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-2"
                                   >
-                                    2. Do you offer customized solutions for
-                                    specific project requirements?
+                                    2. How can your ball valves benefit my
+                                    petroleum operations?
                                   </button>
                                 </h2>
                                 <div
@@ -2244,12 +2270,12 @@ const ContactForm = () => {
                                 >
                                   <div className="accordion-body">
                                     <p>
-                                      Yes, we understand that each project may
-                                      have unique requirements. Our team works
-                                      closely with clients to provide customized
-                                      solutions tailored to their specific
-                                      needs, ensuring optimal performance and
-                                      compatibility with existing systems.
+                                      Our ball valves provide low-pressure drop
+                                      and high flow capacity, making them
+                                      suitable for both liquid and gaseous
+                                      applications. They comply with ISO 17292
+                                      and API 608 standards for robust
+                                      performance.
                                     </p>
                                   </div>
                                 </div>
@@ -2268,8 +2294,8 @@ const ContactForm = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-3"
                                   >
-                                    3. How do you ensure the quality of the
-                                    parts and components you source?
+                                    3. What makes your butterfly valves a good
+                                    choice for large-volume applications?
                                   </button>
                                 </h2>
                                 <div
@@ -2280,14 +2306,11 @@ const ContactForm = () => {
                                 >
                                   <div className="accordion-body">
                                     <p>
-                                      We have established rigorous quality
-                                      control processes and standards to ensure
-                                      that all parts and components sourced meet
-                                      industry specifications and standards. We
-                                      work with reputable manufacturers and
-                                      suppliers who adhere to international
-                                      quality assurance protocols and
-                                      certifications.
+                                      Our butterfly valves are lightweight,
+                                      compact, and offer quick operation,
+                                      adhering to ISO 5752 and API 609
+                                      standards, making them ideal for handling
+                                      various types of fluids.
                                     </p>
                                   </div>
                                 </div>
@@ -2306,8 +2329,8 @@ const ContactForm = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-4"
                                   >
-                                    4. What is the lead time for sourcing and
-                                    delivering products to GCC countries?
+                                    4. Why should I choose your stainless steel
+                                    pipes for corrosive environments?
                                   </button>
                                 </h2>
                                 <div
@@ -2319,13 +2342,12 @@ const ContactForm = () => {
                                   <div className="accordion-body">
                                     <p>
                                       The lead time for sourcing and delivering
-                                      products varies depending on the specific
-                                      requirements and availability of the
-                                      items. However, we strive to expedite the
-                                      sourcing process and work closely with
-                                      reliable logistics partners to ensure
-                                      timely delivery to our clients in GCC
-                                      countries
+                                      Our stainless steel pipes are highly
+                                      resistant to corrosion, ensuring longevity
+                                      and reliability. They meet ISO 1127 and
+                                      ASTM A312 standards, making them perfect
+                                      for environments where chemical reactions
+                                      could degrade other materials.
                                     </p>
                                   </div>
                                 </div>
@@ -2344,7 +2366,8 @@ const ContactForm = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-5"
                                   >
-                                    5. What are your payment terms and methods?
+                                    5. How do your check valves help in
+                                    maintaining system integrity?
                                   </button>
                                 </h2>
                                 <div
@@ -2355,13 +2378,11 @@ const ContactForm = () => {
                                 >
                                   <div className="accordion-body">
                                     <p>
-                                      We offer flexible payment terms to
-                                      accommodate our clients' preferences and
-                                      project requirements. Payment methods
-                                      include bank transfers, letters of credit
-                                      (LC), and other secure payment mechanisms,
-                                      ensuring transparency and security in
-                                      financial transactions.
+                                      Our check valves prevent backflow and
+                                      ensure unidirectional flow of fluids,
+                                      complying with ISO 14313 and API 594
+                                      standards, crucial for maintaining system
+                                      integrity and protecting equipment.
                                     </p>
                                   </div>
                                 </div>
@@ -2380,8 +2401,8 @@ const ContactForm = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-6"
                                   >
-                                    6. Do you provide after-sales support and
-                                    maintenance services?
+                                    6. What types of flanges do you offer, and
+                                    what standards do they meet?
                                   </button>
                                 </h2>
                                 <div
@@ -2392,14 +2413,11 @@ const ContactForm = () => {
                                 >
                                   <div className="accordion-body">
                                     <p>
-                                      Yes, we value long-term relationships with
-                                      our clients and offer comprehensive
-                                      after-sales support and maintenance
-                                      services to ensure the optimal performance
-                                      and longevity of the products supplied.
-                                      Our team is readily available to address
-                                      any queries or issues that may arise
-                                      post-delivery.
+                                      We offer various types of flanges such as
+                                      weld neck, slip-on, and blind flanges. All
+                                      our flanges comply with ISO 7005-1 and
+                                      ANSI B16.5 standards, ensuring reliable,
+                                      leak-proof connections.
                                     </p>
                                   </div>
                                 </div>
@@ -2418,8 +2436,8 @@ const ContactForm = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-7"
                                   >
-                                    7. Are your products compliant with GCC
-                                    regulatory standards and requirements?
+                                    7. Can your flexible metal hoses handle
+                                    high-pressure environments?
                                   </button>
                                 </h2>
                                 <div
@@ -2430,13 +2448,11 @@ const ContactForm = () => {
                                 >
                                   <div className="accordion-body">
                                     <p>
-                                      Yes, we ensure that all products sourced
-                                      comply with relevant GCC regulatory
-                                      standards and requirements. We stay
-                                      updated on regulatory changes and work
-                                      closely with manufacturers and suppliers
-                                      to ensure compliance with local
-                                      regulations and specifications.
+                                      Yes, our flexible metal hoses are designed
+                                      to absorb vibration, compensate for
+                                      misalignment, and handle a variety of
+                                      fluids and gases. They comply with ISO
+                                      10380 and API 570 standards.
                                     </p>
                                   </div>
                                 </div>
@@ -2455,8 +2471,9 @@ const ContactForm = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-8"
                                   >
-                                    8. Can you assist with customs clearance and
-                                    documentation for imports to GCC countries?{' '}
+                                    8. What measures do you take to ensure the
+                                    durability of your bolts and nuts in
+                                    high-stress applications?{' '}
                                   </button>
                                 </h2>
                                 <div
@@ -2467,13 +2484,12 @@ const ContactForm = () => {
                                 >
                                   <div className="accordion-body">
                                     <p>
-                                      Absolutely, we have extensive experience
-                                      in handling customs clearance and
-                                      documentation requirements for imports to
-                                      GCC countries. Our team is well-versed in
-                                      local customs procedures and regulations,
-                                      ensuring smooth and hassle-free clearance
-                                      of goods.
+                                      Our high-strength bolts and nuts comply
+                                      with ISO 898-1 and ASTM standards,
+                                      ensuring they provide robust and secure
+                                      fastening solutions critical for
+                                      maintaining structural integrity in
+                                      petroleum operations.
                                     </p>
                                   </div>
                                 </div>
@@ -2492,8 +2508,9 @@ const ContactForm = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-9"
                                   >
-                                    9. What sets your sourcing company apart
-                                    from others in the industry?
+                                    9. How do your pressure gauges ensure safe
+                                    and efficient operation in oil and gas
+                                    systems?
                                   </button>
                                 </h2>
                                 <div
@@ -2504,13 +2521,10 @@ const ContactForm = () => {
                                 >
                                   <div className="accordion-body">
                                     <p>
-                                      Our sourcing company stands out due to our
-                                      commitment to quality, reliability, and
-                                      customer satisfaction. We prioritize
-                                      transparency, integrity, and efficiency in
-                                      all our dealings, striving to exceed our
-                                      clients' expectations and deliver
-                                      value-added solutions for their projects.
+                                      Our pressure gauges provide accurate and
+                                      reliable measurements, helping to prevent
+                                      overpressure situations. They comply with
+                                      ISO 5171 and ASME B40.100 standards.
                                     </p>
                                   </div>
                                 </div>
@@ -2529,8 +2543,9 @@ const ContactForm = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-10"
                                   >
-                                    10. How can we initiate the sourcing process
-                                    with your company?
+                                    10. What corrosion protection products do
+                                    you offer, and how do they extend the life
+                                    of my equipment?
                                   </button>
                                 </h2>
                                 <div
@@ -2541,12 +2556,12 @@ const ContactForm = () => {
                                 >
                                   <div className="accordion-body">
                                     <p>
-                                      To initiate the sourcing process, simply
-                                      reach out to our dedicated team with your
-                                      requirements and project specifications.
-                                      We will promptly assess your needs and
-                                      provide tailored solutions to meet your
-                                      objectives effectively.
+                                      We offer coatings and anodes that prevent
+                                      corrosion, extending the life of your
+                                      equipment. Our products meet ISO 12944 and
+                                      NACE MR0175 standards, ensuring
+                                      long-lasting protection for metal
+                                      components in harsh conditions.
                                     </p>
                                   </div>
                                 </div>
@@ -2972,7 +2987,9 @@ const ContactForm = () => {
           </div>
           {/* ------------------Accordions start----------------- */}
         </section>
-
+<br />
+<br />
+<br />
         {/* Contact Faqs End */}
       </>
     </>

@@ -62,6 +62,8 @@ import Gloves from './components/activities/activity-sub/activity-five/Gloves';
 import EyeProtection from './components/activities/activity-sub/activity-five/EyeProtection';
 import Sanitizers from './components/activities/activity-sub/activity-five/Sanitizers';
 import CleaningSolution from './components/activities/activity-sub/activity-five/CleaningSolution';
+import CSR from './components/CSR';
+import TermConditions from './components/TermConditions';
 
 const App = () => {
   useEffect(() => {
@@ -74,7 +76,6 @@ const App = () => {
       });
     }, 100); // Delay initialization
   }, []);
- 
 
   return (
     <>
@@ -105,6 +106,9 @@ const App = () => {
           <Route path="/activity-five" element={<ActivityFive />} />
           <Route path="/activity-six" element={<ActivitySix />} />
           <Route path="/activity-test" element={<TestFour />} />
+
+          <Route path="/csr" element={<CSR />} />
+          <Route path="/terms" element={<TermConditions />} />
 
           {/* -------------activity-one-sub starts------------ */}
 

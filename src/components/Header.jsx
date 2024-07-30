@@ -128,6 +128,14 @@ const Header = () => {
                               </li>
                               <li>
                                 <Link to={'javascript:void(0)'}>
+                                  <a className="tag" href="/csr">
+                                    CSR
+                                  </a>
+                                  {/* <a href="javascript:void(0)">Core Values</a> */}
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to={'javascript:void(0)'}>
                                   <a className="tag" href="/team">
                                     {' '}
                                     Our Team
@@ -630,6 +638,18 @@ const Header = () => {
                       >
                         {' '}
                         Core Values
+                      </a>
+                      {/* </Link> */}
+                    </li>
+                    <li>
+                      {/* <Link to={'/core-values'}> */}{' '}
+                      <a
+                        href="/csr"
+                        className="mobile-li-a-sub"
+                        style={{ color: 'white' }}
+                      >
+                        {' '}
+                        CSR
                       </a>
                       {/* </Link> */}
                     </li>

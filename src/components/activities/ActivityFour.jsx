@@ -26,7 +26,7 @@ const ActivityFour = () => {
           <div className="container">
             <div className="row">
               <div className="banner-details" style={{ textAlign: 'center' }}>
-                <h2>Industrial Chemical Products</h2>
+                <h2>Oil & Gas Equipments Supply</h2>
               </div>
             </div>
           </div>
