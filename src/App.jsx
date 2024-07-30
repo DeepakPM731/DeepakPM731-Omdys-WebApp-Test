@@ -77,6 +77,15 @@ const App = () => {
       });
     }, 100); // Delay initialization
   }, []);
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
+      }
+    }
+  });
 
   return (
     <>
