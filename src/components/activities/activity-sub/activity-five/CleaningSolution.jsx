@@ -62,9 +62,7 @@ const CleaningSolution = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Toilet Cleaner.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -118,9 +116,7 @@ const CleaningSolution = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Floor Cleaner.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -131,9 +127,7 @@ const CleaningSolution = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Glass Cleaner.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -189,9 +183,7 @@ const CleaningSolution = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Phenol.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -202,9 +194,7 @@ const CleaningSolution = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Bleaching Powder.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -255,44 +245,10 @@ const CleaningSolution = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Hydrogen Peroxide.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
-                  </div>
-                </li>
-                <li style={{ marginTop: '' }}>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                  <div className="data">
-                    {/* <h3 style={{ textAlign: 'center', fontSize: '34px' }}>
-                      Eye and Face Protection
-                    </h3> */}
-                    <h4>Quaternary Ammonium Compounds (Quats)</h4>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      <b>Description:</b> A group of disinfectants known for
-                      their strong bactericidal and virucidal properties.
-                      <br />
-                      <b>Uses:</b> Used for disinfecting floors, surfaces, and
-                      equipment in healthcare settings.
-                      <br />
-                      <b>Features:</b> Non-corrosive, effective in low
-                      concentrations, and safe for use on most surfaces.
-                      <br />
-                      <br />
-                      <br />
-                    </p>
                   </div>
                 </li>
               </ul>

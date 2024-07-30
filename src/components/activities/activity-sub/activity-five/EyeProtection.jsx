@@ -39,8 +39,7 @@ const EyeProtection = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Medical Hand Gloves__.svg"
-          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+          src="assets/images/activity-four/svg/eye/Eye Protection.svg"
           alt="Our Project One Image 1"
         />
       </div>
@@ -62,9 +61,7 @@ const EyeProtection = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="assets/images/activity-four/svg/eye/Health Care - Saftey Goggles.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -105,7 +102,7 @@ const EyeProtection = () => {
                       care units, and other areas where there is a high risk of
                       exposure to infectious agents.
                       <br />
-                      <b>Features:</b> AAdjustable headbands for a comfortable
+                      <b>Features:</b> Adjustable headbands for a comfortable
                       fit, anti-fog coatings to maintain clarity, and
                       compatibility with other personal protective equipment
                       (PPE) such as masks and respirators.
@@ -118,9 +115,7 @@ const EyeProtection = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="assets/images/activity-four/svg/eye/Health Care - Face Shield.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

@@ -91,9 +91,7 @@ const Gaskets = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Ring Joint Gaskets.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Ring+Joint+Gaskets.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -104,9 +102,7 @@ const Gaskets = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Spiral Wound Gaskets.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Spiral+Wound+Gaskets.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -142,9 +138,7 @@ const Gaskets = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Non-Asbestos Gaskets.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Non-Asbestos+Gaskets.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

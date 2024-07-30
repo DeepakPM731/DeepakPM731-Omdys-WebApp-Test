@@ -51,8 +51,8 @@ const SwitchRelay = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Switches and Relays__2.svg"
-          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Switches+and+Relays__2.svg"
+          // src="assets/images/activity-four/svg/log/Switches and Relays__2.svg"
           alt="Our Project One Image 1"
         />
       </div>

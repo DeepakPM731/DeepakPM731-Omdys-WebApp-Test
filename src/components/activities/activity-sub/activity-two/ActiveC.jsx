@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react';
 
 const ActiveC = () => {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
-    useEffect(() => {
-      let elements = document.querySelectorAll('[data-aos]');
-      for (let i = 0; i < elements.length; i++) {
-        //if ios remove the attribute
-        if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
-          elements[i].removeAttribute('data-aos');
-        }
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
       }
-    });
+    }
+  });
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>
@@ -51,8 +51,8 @@ const ActiveC = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Active Components__.svg"
-          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Active+Components__.svg"
+          // src="assets/images/activity-four/svg/log/Active Components__.svg"
           alt="Our Project One Image 1"
         />
       </div>

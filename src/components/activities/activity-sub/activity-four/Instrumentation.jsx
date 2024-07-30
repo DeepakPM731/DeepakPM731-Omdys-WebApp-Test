@@ -91,9 +91,7 @@ const Instrumentation = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Pressure gauges.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Pressure+gauges.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -104,9 +102,7 @@ const Instrumentation = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Temperature Sensors.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Temperature+Sensors.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -142,9 +138,7 @@ const Instrumentation = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Flow Meters.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Flow+Meters.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

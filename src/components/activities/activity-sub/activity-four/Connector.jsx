@@ -92,9 +92,7 @@ const Connector = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Flanges.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Flanges.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -105,9 +103,7 @@ const Connector = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Couplings.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Couplings.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -143,9 +139,7 @@ const Connector = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Elbows.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Elbows.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -156,9 +150,7 @@ const Connector = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Tees and Crosses.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Tees+and+Crosses.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -193,7 +185,7 @@ const Connector = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Reducers.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Reducers.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                         alt="Core Values Image 1"
@@ -206,9 +198,7 @@ const Connector = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Unions.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Unions.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

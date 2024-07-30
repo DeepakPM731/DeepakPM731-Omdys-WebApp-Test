@@ -29,9 +29,7 @@ const ActivityTwo = () => {
           <div className="container">
             <div className="row">
               <div className="banner-details">
-                <h2 style={{ textAlign: 'center' }}>
-                  Electronics Components
-                </h2>
+                <h2 style={{ textAlign: 'center' }}>Electronics Components</h2>
               </div>
             </div>
           </div>
@@ -49,9 +47,8 @@ const ActivityTwo = () => {
         <img
           className="industry"
           style={{ width: '100%' }}
-          // src="assets/svg4/petroleum and petrochemical products (2).svg"
-          src="assets/images/activity-four/svg/Cover_Electronics.svg"
-          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+2.svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Cover_Electronics.svg"
+          // src="assets/images/activity-four/svg/Cover_Electronics.svg"
           alt="Our Project One Image 1"
         />
       </div>
@@ -138,17 +135,16 @@ const ActivityTwo = () => {
                         carry a wide variety of integrated circuits from leading
                         manufacturers.
                         <br />
-                         <a href="/ic">( Know More )</a>
+                        <a href="/ic">( Know More )</a>
                       </p>
                     </div>
                     <div className="image" data-aos="fade-right">
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/svg/log/Integrated Circuits (ICs).svg"
-                          // src="assets/images/activity-four/ic.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Integrated+Circuits+(ICs).svg"
+                          // src="assets/images/activity-four/svg/log/Integrated Circuits (ICs).svg"
+
                           alt="Core Values Image 1"
                         />
                       </figure>
@@ -159,9 +155,9 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/svg/log/Passive Components (2).svg"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Passive+Components+(2).svg"
+                          // src="assets/images/activity-four/svg/log/Passive Components (2).svg"
+
                           alt="Core Values Image 1"
                         />
                       </figure>
@@ -171,8 +167,7 @@ const ActivityTwo = () => {
                       <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                         Our selection of passive components includes resistors,
                         capacitors, inductors, and filters to support various
-                        circuit designs and applications.{' '}
-                        <br />
+                        circuit designs and applications. <br />
                         <a href="/passive">( Know More )</a>
                       </p>
                     </div>
@@ -184,8 +179,7 @@ const ActivityTwo = () => {
                         We stock a comprehensive range of active components such
                         as transistors, diodes, thyristors, and voltage
                         regulators to meet your requirements for signal
-                        processing and amplification.{' '}
-                        <br />
+                        processing and amplification. <br />
                         <a href="/active">( Know More )</a>
                       </p>
                     </div>
@@ -193,8 +187,8 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/svg/log/Active Components (2).svg" // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Active+Components+(2).svg"
+                          // src="assets/images/activity-four/svg/log/Active Components (2).svg"
                           alt="Core Values Image 1"
                         />
                       </figure>
@@ -205,10 +199,8 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/svg/log/Connectors and Cables.svg"
-                          // src="assets/images/activity-four/cables.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Connectors+and+Cables.svg"
+                          // src="assets/images/activity-four/svg/log/Connectors and Cables.svg"
                           alt="Core Values Image 1"
                         />
                       </figure>
@@ -219,7 +211,7 @@ const ActivityTwo = () => {
                         Whether you need standard connectors or custom cable
                         assemblies, we offer a diverse range of connectors,
                         cables, and harnesses for seamless integration into your
-                        projects. 
+                        projects.
                         <br />
                         <a href="/connector">( Know More )</a>
                       </p>
@@ -234,15 +226,15 @@ const ActivityTwo = () => {
                         parameters, including temperature, humidity, pressure,
                         and motion.
                         <br />
-                         <a href="/sensor">( Know More )</a>
+                        <a href="/sensor">( Know More )</a>
                       </p>
                     </div>
                     <div className="image" data-aos="fade-right">
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/svg/log/Sensors and Modules.svg" // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Sensors+and+Modules.svg"
+                          // src="assets/images/activity-four/svg/log/Sensors and Modules.svg"
                           alt="Core Values Image 1"
                         />
                       </figure>
@@ -253,8 +245,8 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/svg/log/LEDs and Displays.svg" // src="https://s3.ap-south-1.amazonaws.com/omdys.com/sustainability.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/LEDs+and+Displays.svg"
+                          // src="assets/images/activity-four/svg/log/LEDs and Displays.svg"
                           alt="Core Values Image 1"
                         />
                       </figure>
@@ -264,8 +256,7 @@ const ActivityTwo = () => {
                       <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                         Illuminate your projects with our selection of LEDs, LCD
                         displays, OLED displays, and segment displays available
-                        in different sizes, colors, and configurations.{' '}
-                        <br />
+                        in different sizes, colors, and configurations. <br />
                         <a href="/led">( Know More )</a>
                       </p>
                     </div>
@@ -276,8 +267,7 @@ const ActivityTwo = () => {
                       <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                         Ensure reliable power delivery with our range of power
                         supplies, batteries, chargers, and DC-DC converters
-                        designed for diverse applications.{' '}
-                        <br />
+                        designed for diverse applications. <br />
                         <a href="/power">( Know More )</a>
                       </p>
                     </div>
@@ -285,8 +275,8 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/svg/log/Power Supplies and Batteries.svg" // src="https://s3.ap-south-1.amazonaws.com/omdys.com/promise.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Supplies+and+Batteries.svg"
+                          // src="assets/images/activity-four/svg/log/Power Supplies and Batteries.svg"
                           alt="Core Values Image 1"
                         />
                       </figure>
@@ -297,9 +287,8 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="assets/images/activity-four/svg/log/Switches and Relays.svg"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/sustainability.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Switches+and+Relays.svg"
+                          // src="assets/images/activity-four/svg/log/Switches and Relays.svg"
                           alt="Core Values Image 1"
                         />
                       </figure>

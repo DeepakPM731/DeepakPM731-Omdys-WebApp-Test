@@ -83,8 +83,8 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/common/Printing Solutions.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Printing+Solutions.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Printing+Solutions_.svg"
+                        // src="assets/images/activity-four/svg/common/Printing Solutions.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -95,8 +95,8 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/common/Electronics Components.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Electronic+Components+2.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electronics+Components_.svg"
+                        // src="assets/images/activity-four/svg/common/Electronics Components.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -115,7 +115,7 @@ const Activities = () => {
                 </li>
                 <li>
                   <div className="data">
-                    <h3>Industrial Construction Tools and Equipment</h3>
+                    <h3>Construction Tools & Safety Equipments</h3>
                     <p style={{ textAlign: 'justify' }}>
                       We provide a comprehensive range of certified safety
                       equipment for the construction industry, ensuring worker
@@ -130,8 +130,8 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/common/Industrial Construction Tools & Equipment.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipment+(3).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Industrial+Construction+Tools+%26+Equipment_.svg"
+                        // src="assets/images/activity-four/svg/common/Industrial Construction Tools & Equipment.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -176,8 +176,8 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/common/Oil and Gas.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Oil+and+Gas_.svg"
+                        // src="assets/images/activity-four/svg/common/Oil and Gas.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

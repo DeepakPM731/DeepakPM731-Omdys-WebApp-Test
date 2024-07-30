@@ -128,9 +128,9 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Gate+Valves.svg"
+                        // src="assets/images/activity-four/svg/Gate Valves.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -141,9 +141,9 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Butterfly Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Butterfly+Valves.svg"
+                        // src="assets/images/activity-four/svg/Butterfly Valves.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -180,9 +180,9 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Globe Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Globe+Valves.svg"
+                        // src="assets/images/activity-four/svg/Globe Valves.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -193,9 +193,9 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Check Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Check+Valves.svg"
+                        // src="assets/images/activity-four/svg/Check Valves.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -231,9 +231,9 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Ball Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Ball+Valves.svg"
+                        // src="assets/images/activity-four/svg/Ball Valves.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -278,9 +278,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Steel Pipes.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Steel+Pipes.svg"
+                        // src="assets/images/activity-four/svg/Steel Pipes.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -291,9 +290,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Stainless Steel Pipes.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Stainless+Steel+Pipes.svg"
+                        // src="assets/images/activity-four/svg/Stainless Steel Pipes.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -330,9 +328,9 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Alloy Pipes.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Alloy+Pipes.svg"
+                        // src="assets/images/activity-four/svg/Alloy Pipes.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -377,9 +375,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Flanges.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Flanges.svg"
+                        // src="assets/images/activity-four/svg/Flanges.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -390,9 +387,9 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Couplings.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Couplings.svg"
+                        // src="assets/images/activity-four/svg/Couplings.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -428,9 +425,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Elbows.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Elbows.svg"
+                        // src="assets/images/activity-four/svg/Elbows.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -441,9 +437,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Tees and Crosses.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Tees+and+Crosses.svg"
+                        // src="assets/images/activity-four/svg/Tees and Crosses.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -478,9 +473,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Reducers.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Reducers.svg"
+                        // src="assets/images/activity-four/svg/Reducers.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -491,9 +485,9 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Unions.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Unions.svg"
+                        // src="assets/images/activity-four/svg/Unions.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -549,9 +543,9 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Ring Joint Gaskets.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Ring+Joint+Gaskets.svg"
+                        // src="assets/images/activity-four/svg/Ring Joint Gaskets.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -562,9 +556,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Spiral Wound Gaskets.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Spiral+Wound+Gaskets.svg"
+                        // src="assets/images/activity-four/svg/Spiral Wound Gaskets.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -600,9 +593,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Non-Asbestos Gaskets.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Non-Asbestos+Gaskets.svg"
+                        // src="assets/images/activity-four/svg/Non-Asbestos Gaskets.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -647,9 +639,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/High-Strength Bolts.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/High-Strength+Bolts.svg"
+                        // src="assets/images/activity-four/svg/High-Strength Bolts.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -660,9 +651,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Stud Bolts.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Stud+Bolts.svg"
+                        // src="assets/images/activity-four/svg/Stud Bolts.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -697,9 +687,9 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Hex Nuts.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Hex+Nuts.svg"
+                        // src="assets/images/activity-four/svg/Hex Nuts.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -743,9 +733,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Flexible metal hoses.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Flexible+metal+hoses.svg"
+                        // src="assets/images/activity-four/svg/Flexible metal hoses.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -756,9 +745,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Rubber Hoses.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Rubber+Hoses.svg"
+                        // src="assets/images/activity-four/svg/Rubber Hoses.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -794,9 +782,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/PTFE Hoses.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/PTFE+Hoses.svg"
+                        // src="assets/images/activity-four/svg/PTFE Hoses.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -840,9 +827,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Pressure gauges.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Pressure+gauges.svg"
+                        // src="assets/images/activity-four/svg/Pressure gauges.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -853,9 +839,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Temperature Sensors.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Temperature+Sensors.svg"
+                        // src="assets/images/activity-four/svg/Temperature Sensors.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -891,9 +876,8 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Flow Meters.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Flow+Meters.svg"
+                        // src="assets/images/activity-four/svg/Flow Meters.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -937,9 +921,9 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Leak Detection Systems.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Leak+Detection+Systems.svg"
+                        // src="assets/images/activity-four/svg/Leak Detection Systems.svg"
+                        
                         alt="Core Values Image 1"
                       />
                     </figure>

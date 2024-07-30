@@ -51,8 +51,8 @@ const ProtectiveApparel = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Protective Apparel__.svg"
-          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Protective+Apparel__.svg"
+          // src="assets/images/activity-four/svg/log/Protective Apparel__.svg"
           alt="Our Project One Image 1"
         />
       </div>
@@ -76,9 +76,8 @@ const ProtectiveApparel = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/protective/Health Care - Disposable Gowns.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Disposable+Gowns.svg"
+                        // src="assets/images/activity-four/svg/protective/Health Care - Disposable Gowns.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -125,9 +124,9 @@ const ProtectiveApparel = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/protective/Health Care - Coveralls.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Coveralls.svg"
+                        // src="assets/images/activity-four/svg/protective/Health Care - Coveralls.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -138,9 +137,8 @@ const ProtectiveApparel = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/protective/Health Care - Aprons.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Aprons.svg"
+                        // src="assets/images/activity-four/svg/protective/Health Care - Aprons.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -183,8 +181,7 @@ const ProtectiveApparel = () => {
                       <img
                         className="w-100"
                         src="assets/images/activity-four/svg/protective/Health Care - Lab Coats.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        // src="assets/images/activity-four/svg/protective/Health Care - Lab Coats.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -211,7 +208,7 @@ const ProtectiveApparel = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/protective/Health Care - Disposable Gowns.svg"
+                        src="assets/images/activity-four/svg/protective/Health Care - Other Protective Apparel.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"

@@ -64,9 +64,10 @@ const MainServices = () => {
                   <li>
                     <div className="image">
                       {renderImage(
-                        'assets/images/activity-four/svg/log/Printing Solutions_.svg',
+                        'https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Printing+Solutions_.svg',
                         'Core Values Image 1',
                         'fade-left'
+                        // 'assets/images/activity-four/svg/log/Printing Solutions_.svg',
                       )}
                     </div>
                     <div className="data">
@@ -102,9 +103,10 @@ const MainServices = () => {
                     </div>
                     <div className="image">
                       {renderImage(
-                        'assets/images/activity-four/svg/log/Oil and Gas_.svg',
+                        'https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Oil+and+Gas_.svg',
                         'Core Values Image 1',
                         'fade-left'
+                        // 'assets/images/activity-four/svg/log/Oil and Gas_.svg',
                       )}
                     </div>
                   </li>
@@ -114,9 +116,10 @@ const MainServices = () => {
                   <li>
                     <div className="image">
                       {renderImage(
-                        'assets/images/activity-four/svg/log/Health Care PPE_.svg',
+                        'https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+PPE_.svg',
                         'Core Values Image 1',
                         'fade-right'
+                        // 'assets/images/activity-four/svg/log/Health Care PPE_.svg',
                       )}
                     </div>
                     <div className="data">
@@ -154,18 +157,20 @@ const MainServices = () => {
                     </div>
                     <div className="image">
                       {renderImage(
-                        'assets/images/activity-four/svg/log/Electronics Components_.svg',
+                        'https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electronics+Components_.svg',
                         'Core Values Image 1',
                         'fade-right'
+                        // 'assets/images/activity-four/svg/log/Electronics Components_.svg',
                       )}
                     </div>
                   </li>
                   <li>
                     <div className="image">
                       {renderImage(
-                        'assets/images/activity-four/svg/log/Industrial Construction Tools & Equipment_.svg',
+                        'https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Industrial+Construction+Tools+%26+Equipment_.svg',
                         'Core Values Image 1',
                         'fade-right'
+                        // 'assets/images/activity-four/svg/log/Industrial Construction Tools & Equipment_.svg',
                       )}
                     </div>
                     <div className="data">
@@ -199,18 +204,20 @@ const MainServices = () => {
                     </div>
                     <div className="image">
                       {renderImage(
-                        'assets/images/activity-four/svg/log/Trading Commodities_.svg',
+                        'https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Trading+Commodities_.svg',
                         'Core Values Image 1',
                         'fade-right'
+                        // 'assets/images/activity-four/svg/log/Trading Commodities_.svg',
                       )}
                     </div>
                   </li>
                   <li>
                     <div className="image">
                       {renderImage(
-                        'assets/images/activity-four/svg/log/Selling Products_.svg',
+                        'https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Selling+Products_.svg',
                         'Core Values Image 1',
                         'fade-left'
+                        // 'assets/images/activity-four/svg/log/Selling Products_.svg',
                       )}
                     </div>
                     <div className="data">
@@ -240,9 +247,10 @@ const MainServices = () => {
                     </div>
                     <div className="image">
                       {renderImage(
-                        'assets/images/activity-four/svg/log/Logistics and Timely Delivery_.svg',
+                        'https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Logistics+and+Timely+Delivery_.svg  ',
                         'Core Values Image 1',
                         'fade-right'
+                        // 'assets/images/activity-four/svg/log/Logistics and Timely Delivery_.svg',
                       )}
                     </div>
                   </li>

@@ -74,9 +74,7 @@ const Sanitizers = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Hand Sanitizers.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -128,9 +126,7 @@ const Sanitizers = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Disinfectant Wipes.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -141,9 +137,7 @@ const Sanitizers = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Surface Disinfectants.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

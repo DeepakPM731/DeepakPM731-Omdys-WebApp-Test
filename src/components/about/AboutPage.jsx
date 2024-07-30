@@ -24,7 +24,7 @@ const AboutPage = () => {
               </div>
             </div>
           </div>
-          <div className="breadcrums">
+          {/* <div className="breadcrums">
             <div className="container">
               <div className="row">
                 <ul>
@@ -40,7 +40,7 @@ const AboutPage = () => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
       </div>
 

@@ -91,9 +91,7 @@ const Hoses = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Flexible metal hoses.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Flexible+metal+hoses.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -104,9 +102,7 @@ const Hoses = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Rubber Hoses.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Rubber+Hoses.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -142,9 +138,7 @@ const Hoses = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/PTFE Hoses.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/PTFE+Hoses.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

@@ -60,7 +60,6 @@ const Gloves = () => {
       {/* -------------------------------------- */}
       <hr />
       <div style={{ marginTop: '' }}>
-
         <h3 style={{ textAlign: 'center', fontSize: '34px' }}>
           Types of Medical Gloves
         </h3>
@@ -75,7 +74,7 @@ const Gloves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
+                        src="assets/images/activity-four/svg/gloves/Health Care - Latex Gloves.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
@@ -128,7 +127,7 @@ const Gloves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
+                        src="assets/images/activity-four/svg/gloves/Health Care - Nitrile Gloves.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"
@@ -141,7 +140,7 @@ const Gloves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/Gate Valves.svg"
+                        src="assets/images/activity-four/svg/gloves/Health Care - Vinyl Gloves.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
                         alt="Core Values Image 1"

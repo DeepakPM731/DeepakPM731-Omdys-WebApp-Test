@@ -34,11 +34,11 @@ const Projects = () => {
                     This project was successfully completed against an extremely
                     tight programme.
                   </p> */}
-                      <Link to={'/activity-one'}>
-                        <a className="project-icon" href="">
-                          <i className="fa-solid fa-angles-right" />
-                        </a>
-                      </Link>
+                      {/* <Link to={'javascript:void(0)'}> */}
+                      <a className="project-icon" href="/activity-one">
+                        <i className="fa-solid fa-angles-right" />
+                      </a>
+                      {/* </Link> */}
                     </div>
                   </Link>
                 </div>
@@ -58,21 +58,19 @@ const Projects = () => {
                   <Link to={'/activity-two'}>
                     <div className="project-data">
                       <h3>
-                        <Link to={'/activity-two'}>
-                          <a href="project-detail.html">
-                            Electronics Components
-                          </a>
-                        </Link>
+                        {/* <Link to={'/activity-two'}> */}
+                        <a href="/activity-two">Electronics Components</a>
+                        {/* </Link> */}
                       </h3>
                       {/* <p>
                     This project was successfully completed against an extremely
                     tight programme.
                   </p> */}
-                      <Link to={'/activity-two'}>
-                        <a className="project-icon" href="">
-                          <i className="fa-solid fa-angles-right" />
-                        </a>
-                      </Link>
+                      {/* <Link to={'/activity-two'}> */}
+                      <a className="project-icon" href="/activity-two">
+                        <i className="fa-solid fa-angles-right" />
+                      </a>
+                      {/* </Link> */}
                     </div>
                   </Link>
                 </div>
@@ -92,21 +90,21 @@ const Projects = () => {
                   <Link to={'/activity-three'}>
                     <div className="project-data">
                       <h3>
-                        <Link to={'/activity-three'}>
-                          <a href="javascript:void(0)">
-                            Construction Tools and Equipments
-                          </a>
-                        </Link>
+                        {/* <Link to={'/activity-three'}> */}
+                        <a href="/activity-three">
+                          Construction Tools and Equipments
+                        </a>
+                        {/* </Link> */}
                       </h3>
                       {/* <p>
             This project was successfully completed against an extremely
             tight programme.
           </p> */}
-                      <Link to={'/activity-three'}>
-                        <a className="project-icon" href="#">
-                          <i className="fa-solid fa-angles-right" />
-                        </a>
-                      </Link>
+                      {/* <Link to={'/activity-three'}> */}
+                      <a className="project-icon" href="/activity-three">
+                        <i className="fa-solid fa-angles-right" />
+                      </a>
+                      {/* </Link> */}
                     </div>
                   </Link>
                 </div>
@@ -126,18 +124,20 @@ const Projects = () => {
                     <div className="project-data">
                       <h3>
                         <Link to={'/activity-four'}>
-                          <a href="project-detail.html">Oil & Gas Equipment Supply</a>
+                          <a href="/activity-four">
+                            Oil & Gas Equipment Supply
+                          </a>
                         </Link>
                       </h3>
                       {/* <p>
             This project was successfully completed against an extremely
             tight programme.
           </p> */}
-                      <Link to={'/activity-four'}>
-                        <a className="project-icon" href="#">
-                          <i className="fa-solid fa-angles-right" />
-                        </a>
-                      </Link>
+                      {/* <Link to={'/activity-four'}> */}
+                      <a className="project-icon" href="/activity-four">
+                        <i className="fa-solid fa-angles-right" />
+                      </a>
+                      {/* </Link> */}
                     </div>
                   </Link>
                 </div>
@@ -156,21 +156,19 @@ const Projects = () => {
                   <Link to={'/activity-five'}>
                     <div className="project-data">
                       <h3>
-                        <Link to={'/activity-five'}>
-                          <a href="javascript:void(0)">
-                            Health Care PPE Products
-                          </a>
-                        </Link>
+                        {/* <Link to={'/activity-five'}> */}
+                        <a href="/activity-five">Health Care PPE Products</a>
+                        {/* </Link> */}
                       </h3>
                       {/* <p>
             This project was successfully completed against an extremely
             tight programme.
           </p> */}
-                      <Link to={'/activity-five'}>
-                        <a className="project-icon" href="#">
+                      {/* <Link to={'/activity-five'}> */}
+                        <a className="project-icon" href="/activity-five">
                           <i className="fa-solid fa-angles-right" />
                         </a>
-                      </Link>
+                      {/* </Link> */}
                     </div>
                   </Link>
                 </div>

@@ -51,8 +51,8 @@ const FaceMask = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/log/Face Mask__.svg"
-          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Face+Mask__.svg"
+          // src="assets/images/activity-four/svg/log/Face Mask__.svg"
           alt="Our Project One Image 1"
         />
       </div>
@@ -76,9 +76,8 @@ const FaceMask = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/health/Health Care - Surgical Mask.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Surgical+Mask.svg"
+                        // src="assets/images/activity-four/svg/health/Health Care - Surgical Mask.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -134,9 +133,8 @@ const FaceMask = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/health/Health Care - N95 Respirators.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+N95+Respirators.svg"
+                        // src="assets/images/activity-four/svg/health/Health Care - N95 Respirators.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -147,9 +145,8 @@ const FaceMask = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/health/Health Care - KN95 Mask.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+KN95+Mask.svg"
+                        // src="assets/images/activity-four/svg/health/Health Care - KN95 Mask.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -213,9 +210,9 @@ const FaceMask = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/health/Health Care - FFP2 Masks.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+FFP2+Masks.svg"
+                        // src="assets/images/activity-four/svg/health/Health Care - FFP2 Masks.svg"
+
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -226,9 +223,8 @@ const FaceMask = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/health/Health Care - FFP3 Masks.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+FFP3+Masks.svg"
+                        // src="assets/images/activity-four/svg/health/Health Care - FFP3 Masks.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -289,9 +285,8 @@ const FaceMask = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="assets/images/activity-four/svg/health/Health Care - Reusable Cloth Masks.svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Reusable+Cloth+Masks.svg"
+                        // src="assets/images/activity-four/svg/health/Health Care - Reusable Cloth Masks.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
