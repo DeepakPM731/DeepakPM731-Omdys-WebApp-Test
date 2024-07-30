@@ -633,7 +633,7 @@ const ContactForm = () => {
               <img src="assets/images/heading-icon.png" alt="Heading Icon" />
             </figure>
             <span style={{ fontSize: '22px' }}>Frequently asked questions</span>
-            <h2>Finding Solutions For Your Dream Project</h2>
+            <h2>Finding Solutions For Your Questions</h2>
           </div>
           {/* -------------Buttons starts---------------------- */}
           {/* Button 1 */}
@@ -2987,9 +2987,9 @@ const ContactForm = () => {
           </div>
           {/* ------------------Accordions start----------------- */}
         </section>
-<br />
-<br />
-<br />
+        <br />
+        <br />
+        <br />
         {/* Contact Faqs End */}
       </>
     </>

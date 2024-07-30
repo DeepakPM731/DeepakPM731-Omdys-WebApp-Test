@@ -204,6 +204,12 @@
 /* ---------------------Team----------------------- */
 .tmbg {
   background-color: #dbdadad5;
+  /* background: #ffee02;
+  background: repeating-radial-gradient(
+    ellipse farthest-corner at center center,
+    #ffee02 0%,
+    #212529 100%
+  ); */
 }
 .profile-container {
   display: flex;
@@ -212,7 +218,9 @@
   gap: 20px;
   padding: 20px;
 }
+/* .bgimg {
 
+} */
 .profile-card {
   flex: 1 1 30%;
   max-width: 320px;
@@ -220,6 +228,10 @@
   /* background: #fff; */
   /* background: #ffee02; */
   background: white;
+  /* background-image: url('/assets/images/heading-icon.png');
+  background-repeat: no-repeat;
+  background-size: auto; */
+  align-items: center;
   padding: 20px;
   display: flex;
   flex-direction: column;

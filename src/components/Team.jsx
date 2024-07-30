@@ -17,7 +17,7 @@ const Team = () => {
       <div className="tmbg">
         <br />
         <div className="profile-container">
-          <div className="profile-card">
+          <div className="profile-card" style={{ backgroundColor: 'red' }}>
             <img
               src="assets/images/team/PP_.jpg"
               // src="assets/images/activity-four/Pinterest.jpg"
@@ -28,8 +28,9 @@ const Team = () => {
             <div className="profile-position">ACCOUNTS </div>
             {/* <a href="#" className="button">
               Connect
-            </a> */}
+              </a> */}
           </div>
+
           <div className="profile-card">
             <img
               // src="assets/images/team/PP.jpg"
@@ -73,6 +74,7 @@ const Team = () => {
         </div>
         <br />
       </div>
+            
     </>
   );
 };

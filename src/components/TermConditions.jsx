@@ -28,9 +28,15 @@ const TermConditions = () => {
       <div className="container">
         {/* <h2>Terms and Conditions</h2> */}
         <h4>Introduction</h4>
-        <p>
-          Welcome to OMDYS International Trading LLP. By using our website, you
-          agree to these terms and conditions.
+        <p style={{ textAlign: 'justify' }}>
+          Welcome to OMDYS International LLP, a multi-functional trading company
+          headquartered in Hosur, the largest industrial hub in Tamil Nadu. Our
+          company is dedicated to providing a wide range of products and
+          services to meet the diverse needs of our clients. By accessing and
+          using our website, you agree to abide by these terms and conditions.
+          We encourage you to review them carefully as they govern your use of
+          our site and the services we offer. Thank you for choosing OMDYS
+          International LLP as your trusted trading partner.
         </p>
         <br />
 
@@ -50,53 +56,44 @@ const TermConditions = () => {
         <p>We offer a range of products and services, including:</p>
         <ul>
           <li
-            style={{ fontSize: '20px', marginLeft: '5%', fontWeight: 'bold' }}
+            style={{ fontSize: '18px', marginLeft: '5%', fontWeight: 'bold' }}
           >
-            Trading of commodities
+            <a href="">Printing Solutions</a>
           </li>
           <li
-            style={{ fontSize: '20px', marginLeft: '5%', fontWeight: 'bold' }}
+            style={{ fontSize: '18px', marginLeft: '5%', fontWeight: 'bold' }}
           >
-            Selling various products
+            <a href="">Oil & Gas EQuipments Supply</a>
           </li>
           <li
-            style={{ fontSize: '20px', marginLeft: '5%', fontWeight: 'bold' }}
+            style={{ fontSize: '18px', marginLeft: '5%', fontWeight: 'bold' }}
           >
-            Timely delivery arrangements
+            <a href="">Health Care PPE Products</a>
           </li>
           <li
-            style={{ fontSize: '20px', marginLeft: '5%', fontWeight: 'bold' }}
+            style={{ fontSize: '18px', marginLeft: '5%', fontWeight: 'bold' }}
           >
-            Importing:{' '}
-            <span style={{ fontSize: '18px' }}>
-              <a href="">Printing Solutions</a>,{' '}
-              <a href="">Oil & Gas EQuipments Supply</a>,{' '}
-              <a href="">Health Care PPE Products</a>,{' '}
-              <a href="">Electronics Components</a>,{' '}
-              <a href="">Construction Tools & Safety Equipments</a>
-            </span>
-            {/* <li style={{ fontSize: '16px', marginLeft: '10%' }}>
-              <a href="">Printing Solutions</a>
-            </li>
-            <li style={{ fontSize: '16px', marginLeft: '10%' }}>
-              <a href="">Oil & Gas EQuipments Supply</a>
-            </li>
-            <li style={{ fontSize: '16px', marginLeft: '10%' }}>
-              <a href="">Health Care PPE Products</a>
-            </li>
-            <li style={{ fontSize: '16px', marginLeft: '10%' }}>
-              <a href="">Electronics Components</a>
-            </li>
-            <li style={{ fontSize: '16px', marginLeft: '10%' }}>
-              <a href="">Construction Tools & Safety Equipments</a>
-            </li> */}
+            <a href="">Electronics Components</a>
+          </li>
+          <li
+            style={{ fontSize: '18px', marginLeft: '5%', fontWeight: 'bold' }}
+          >
+            <a href="">Construction Tools & Safety Equipments</a>
           </li>
         </ul>
         <br />
         <h4>Orders and Payments</h4>
-        <p>
-          All orders are subject to acceptance and availability. Payments must
-          be made in full before shipment.
+        <p style={{ textAlign: 'justify' }}>
+          All orders are subject to acceptance and product availability. We
+          reserve the right to reject or cancel any order due to stock
+          limitations or other reasons. Payments must be made in full before the
+          order is shipped, and all transactions should be directed to the
+          designated OMDYS bank account. We accept various payment methods,
+          including bank transfers, credit/debit cards, and other secure online
+          payment options. Please ensure that all payments are correctly
+          processed to avoid delays in order fulfillment. Additionally,
+          customers are responsible for any bank charges or fees incurred during
+          the payment process.
         </p>
         <br />
         <h4>Shipping and Delivery</h4>
@@ -107,15 +104,37 @@ const TermConditions = () => {
         <br />
         <h4>Returns and Refunds</h4>
         <p>
-          Returns are accepted within 30 days of receipt. Refunds will be
-          processed after we receive the returned items in good condition.
-        </p>
-        <br />
-        <h4>Privacy</h4>
-        <p>
-          We respect your privacy. Personal information collected on this
-          website will be used solely for the purposes of fulfilling orders and
-          improving our services.
+          <b>Condition of Returned Items:</b> Returned items must be in their
+          original condition, unused, and with all original packaging and
+          accessories.
+          <br />
+          <b>Refund Process:</b> Refunds are typically processed within 5-10
+          business days after the returned items are received and inspected. The
+          refund will be issued using the original payment method.
+          <br />
+          <b>Restocking Fees:</b> A restocking fee may be applied to certain
+          returns, especially for large or customized orders. This fee will be
+          deducted from the refund amount.
+          <br />
+          <b>Shipping Costs:</b> Shipping costs for the return may be the
+          responsibility of the customer unless the return is due to a defect or
+          error on the company's part. For international returns, additional
+          customs duties and taxes may apply.
+          <br />
+          <b>Exceptions:</b> Certain items may not be eligible for return or
+          refund, such as perishable goods, hazardous materials, or items on
+          final sale. Specific exclusions will be noted on the product page.
+          <br />
+          <b>Damaged or Defective Items:</b> If an item arrives damaged or
+          defective, the company will provide a replacement or full refund,
+          including return shipping costs. International Returns: For
+          international returns, the company may provide specific instructions
+          to facilitate the return process, including customs declarations and
+          handling.
+          <br />
+          <b>Exchange Policy:</b> Exchanges may be offered for certain products,
+          depending on availability. Customers should contact customer service
+          to arrange exchanges.
         </p>
         <br />
         <h4>Intellectual Property</h4>

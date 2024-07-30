@@ -10,7 +10,7 @@ const CoreValues = () => {
         elements[i].removeAttribute('data-aos');
       }
     }
-  }, []);
+  });
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -86,7 +86,8 @@ const CoreValues = () => {
                     </div>
                   </li>
                   <li>
-                    <div className="image" data-aos="fade-up-right">
+                    <div className="image" >
+                    {/* <div className="image" data-aos="fade-up-right"> */}
                       <figure>
                         <img
                           className="w-100"
@@ -117,7 +118,8 @@ const CoreValues = () => {
                         extension of your team.
                       </p>
                     </div>
-                    <div className="image" data-aos="fade-up-left">
+                    <div className="image">
+                    {/* <div className="image" data-aos="fade-up-left"> */}
                       <figure>
                         <img
                           className="w-100"

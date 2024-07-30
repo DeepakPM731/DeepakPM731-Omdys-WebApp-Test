@@ -30,20 +30,35 @@ const TeamPage = () => {
       <div className="tmbg">
         <br />
         <div className="profile-container">
-          <div className="profile-card">
+          <div className="profile-card" style={{ position: 'relative' }}>
+            {' '}
+            {/* <div className="bgimg" style={{}}> */}
             <img
               src="assets/images/team/PP_.jpg"
               // src="assets/images/activity-four/Pinterest.jpg"
               alt="image3"
               className="profile-icon"
+              style={{ marginTop: '1px' }}
             />
+            {/* </div> */}
             <div className="profile-name">Mr Manjunathan C</div>
             <div className="profile-position">ACCOUNTS </div>
             {/* <a href="#" className="button">
               Connect
             </a> */}
+            <div
+              style={{
+                textAlign: 'end',
+                position: 'absolute',
+                right: '5px',
+                bottom: '5px',
+              }}
+            >
+              <img src="/assets/images/heading-icon.png" alt="" />
+            </div>
           </div>
-          <div className="profile-card">
+
+          <div className="profile-card" style={{ position: 'relative' }}>
             <img
               // src="assets/images/team/PP.jpg"
               alt="image3"
@@ -57,8 +72,18 @@ const TeamPage = () => {
             {/* <a href="#" className="button">
               Connect
             </a> */}
+            <div
+              style={{
+                textAlign: 'end',
+                position: 'absolute',
+                right: '5px',
+                bottom: '5px',
+              }}
+            >
+              <img src="/assets/images/heading-icon.png" alt="" />
+            </div>
           </div>
-          <div className="profile-card">
+          <div className="profile-card" style={{ position: 'relative' }}>
             <img
               src="assets/images/team/Deepak.jpg"
               alt="image2"
@@ -69,9 +94,19 @@ const TeamPage = () => {
             {/* <a href="#" className="button">
               Connect
             </a> */}
+            <div
+              style={{
+                textAlign: 'end',
+                position: 'absolute',
+                right: '5px',
+                bottom: '5px',
+              }}
+            >
+              <img src="/assets/images/heading-icon.png" alt="" />
+            </div>
           </div>
 
-          <div className="profile-card">
+          <div className="profile-card" style={{ position: 'relative' }}>
             <img
               src="assets/images/team/Rajendran.jpg"
               alt="image1"
@@ -82,6 +117,16 @@ const TeamPage = () => {
             {/* <a href="#" className="button">
               Connect
             </a> */}
+            <div
+              style={{
+                textAlign: 'end',
+                position: 'absolute',
+                right: '5px',
+                bottom: '5px',
+              }}
+            >
+              <img src="/assets/images/heading-icon.png" alt="" />
+            </div>
           </div>
         </div>
         <br />
