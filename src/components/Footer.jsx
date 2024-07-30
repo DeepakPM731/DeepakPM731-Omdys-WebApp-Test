@@ -368,6 +368,15 @@ const Footer = () => {
                   </a>{' '}
                   All rights reserved
                 </p>
+                <p style={{ fontSize: '16px' }}>
+                  {' '}
+                  <a href="/terms">Terms & Conditions</a>
+                </p>
+                <p style={{ fontSize: '16px' }}>
+                  {' '}
+                  <a href="/privacy">Privacy Policy</a>
+                </p>
+                <br />
                 <div className="social-medias">
                   <a href="javascript:void(0)">Facebook</a>
                   <a href="javascript:void(0)">Instagram</a>

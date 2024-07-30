@@ -64,6 +64,7 @@ import Sanitizers from './components/activities/activity-sub/activity-five/Sanit
 import CleaningSolution from './components/activities/activity-sub/activity-five/CleaningSolution';
 import CSR from './components/CSR';
 import TermConditions from './components/TermConditions';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 const App = () => {
   useEffect(() => {
@@ -109,6 +110,7 @@ const App = () => {
 
           <Route path="/csr" element={<CSR />} />
           <Route path="/terms" element={<TermConditions />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
 
           {/* -------------activity-one-sub starts------------ */}
 

@@ -10,7 +10,7 @@ const CoreValues = () => {
         elements[i].removeAttribute('data-aos');
       }
     }
-  },[]);
+  }, []);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -32,7 +32,7 @@ const CoreValues = () => {
               </div>
             </div>
           </div>
-          <div className="breadcrums">
+          {/* <div className="breadcrums">
             <div className="container">
               <div className="row">
                 <ul>
@@ -48,7 +48,7 @@ const CoreValues = () => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
         {/* Banner Style One End */}
         <div style={{ marginTop: '20px' }}>
@@ -74,7 +74,8 @@ const CoreValues = () => {
                         transaction
                       </p>
                     </div>
-                    <div className="image" data-aos="fade-up-left">
+                    <div className="image">
+                      {/* <div className="image" data-aos="fade-up-left"> */}
                       <figure>
                         <img
                           className="w-100"
@@ -145,7 +146,8 @@ const CoreValues = () => {
               <div className="container">
                 <div className="row">
                   <ul>
-                    <li style={{ overflow: '' }} data-aos="fade-up-left">
+                    <li>
+                      {/* <li data-aos="fade-up-left"> */}
                       <i className="fa-solid fa-check" />
                       <p style={{ textAlign: 'justify' }}>
                         <span style={{ color: 'green' }}>
@@ -162,7 +164,8 @@ const CoreValues = () => {
                         <br />
                       </p>
                     </li>
-                    <li data-aos="fade-down">
+                    <li>
+                      {/* <li data-aos="fade-down"> */}
                       <i className="fa-solid fa-check" />
                       <p style={{ textAlign: 'justify' }}>
                         <span style={{ color: 'green' }}>
@@ -178,7 +181,8 @@ const CoreValues = () => {
                         sourcing practices, and environmental impact.
                       </p>
                     </li>
-                    <li data-aos="fade-up-right">
+                    <li>
+                      {/* <li data-aos="fade-up-right"> */}
                       <i className="fa-solid fa-check" />
                       <p style={{ textAlign: 'justify' }}>
                         <span style={{ color: 'green' }}>
@@ -194,7 +198,8 @@ const CoreValues = () => {
                         significant cost savings and improved profitability.
                       </p>
                     </li>
-                    <li data-aos="fade-up-left">
+                    <li>
+                      {/* <li data-aos="fade-up-left"> */}
                       <i className="fa-solid fa-check" />
                       <p style={{ textAlign: 'justify' }}>
                         <span style={{ color: 'green' }}>
@@ -210,7 +215,8 @@ const CoreValues = () => {
                         <br />
                       </p>
                     </li>
-                    <li data-aos="fade-down">
+                    <li>
+                      {/* <li data-aos="fade-down"> */}
                       <i className="fa-solid fa-check" />
                       <p style={{ textAlign: 'justify' }}>
                         <span style={{ color: 'green' }}>
@@ -227,7 +233,8 @@ const CoreValues = () => {
                         <br />
                       </p>
                     </li>
-                    <li data-aos="fade-up-right">
+                    <li>
+                      {/* <li data-aos="fade-up-right"> */}
                       <i className="fa-solid fa-check" />
                       <p style={{ textAlign: 'justify' }}>
                         <span style={{ color: 'green' }}>
