@@ -1,9 +1,7 @@
 import { useEffect } from 'react';
 
 const ServiceOne = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  
   useEffect(() => {
     let elements = document.querySelectorAll('[data-aos]');
     for (let i = 0; i < elements.length; i++) {
@@ -12,7 +10,10 @@ const ServiceOne = () => {
         elements[i].removeAttribute('data-aos');
       }
     }
-  });
+  },[]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>

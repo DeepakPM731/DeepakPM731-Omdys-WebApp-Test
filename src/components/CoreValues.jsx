@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom';
 
 const CoreValues = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-  useEffect(() => {
     let elements = document.querySelectorAll('[data-aos]');
     for (let i = 0; i < elements.length; i++) {
       //if ios remove the attribute
@@ -13,7 +10,11 @@ const CoreValues = () => {
         elements[i].removeAttribute('data-aos');
       }
     }
-  });
+  },[]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <>
@@ -251,7 +252,7 @@ const CoreValues = () => {
 
           <section className="cta-section">
             <div className="container">
-              <div className="row align-items-center" data-aos="fade-left">
+              <div className="row align-items-center">
                 <div className="col-lg-7">
                   <div className="cta-data">
                     <h2>Ready to work together?</h2>
@@ -274,7 +275,7 @@ const CoreValues = () => {
                   </div>
                 </div>
                 <div className="col-lg-5">
-                  <div className="cta-data">
+                  <div className="cta-data" data-aos="fade-left">
                     <figure style={{ marginLeft: '100px' }}>
                       <img
                         src="https://s3.ap-south-1.amazonaws.com/omdys.com/work_together.png"

@@ -187,6 +187,7 @@ const ActivityThree = () => {
                     </span>{' '}
                     This includes hammers, screwdrivers, pliers, wrenches, and
                     tape measures.
+                    <a href="/hand-tools">( Know More )</a>
                     <br />
                     <br />
                   </p>
@@ -210,10 +211,12 @@ const ActivityThree = () => {
                       >
                         Power Tools
                       </p>
+
                       <br />
                     </span>{' '}
                     Drills, circular saws, jigsaws, and angle grinders are some
                     examples.
+                    <a href="/power-tools">( Know More )</a>
                   </p>
                 </a>
               </li>
@@ -260,6 +263,7 @@ const ActivityThree = () => {
                     </span>
                     This includes wire strippers, voltage testers, extension
                     cords, and light bulbs.
+                    <a href="/electrical-tools">( Know More )</a>
                     <br />
                     <br />
                   </p>
@@ -285,6 +289,7 @@ const ActivityThree = () => {
                     </span>
                     Pipe wrenches, pipe cutters, washers, and sealants can be
                     found.
+                    <a href="/plumbing-tools">( Know More )</a>
                     <br />
                     <br />
                   </p>
@@ -311,6 +316,7 @@ const ActivityThree = () => {
                     </span>
                     Safety glasses, work gloves, earplugs, and hard hats are
                     often sold.
+                    <a href="/safety">( Know More )</a>
                   </p>
                 </a>
               </li>
@@ -338,6 +344,7 @@ const ActivityThree = () => {
                     </span>
                     Nails, screws, nuts, and bolts of various sizes are
                     typically available.
+                    <a href="/safety">( Know More )</a>
                   </p>
                 </a>
               </li>

@@ -33,6 +33,7 @@ const ContactPage = () => {
     message: '',
   });
   // division: 'Select Division',
+  console.log(formData);
 
   const [errors, setErrors] = useState({});
 
@@ -171,7 +172,7 @@ const ContactPage = () => {
               />
             )}
           </Toaster>
-          ;
+
           <div
             className="parallax"
             style={{ backgroundImage: 'url(assets/images/pattren-3.png)' }}
@@ -184,7 +185,7 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-          <div className="breadcrums">
+          {/* <div className="breadcrums">
             <div className="container">
               <div className="row">
                 <ul>
@@ -200,7 +201,7 @@ const ContactPage = () => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
         {/* Banner Style One End */}
         {/* Contact Form 2 Start */}
@@ -289,7 +290,7 @@ const ContactPage = () => {
                         </div>
                       )}
                     </div>
-
+                    {/* --------------------------radio button------------------- */}
                     <div
                       className="row g-0"
                       style={{
@@ -382,7 +383,7 @@ const ContactPage = () => {
                           htmlFor="division3"
                           style={{ fontWeight: 'normal', color: '#6C757D' }}
                         >
-                          Industrial Construction Tools and Equipment
+                          Industrial Construction Tools and Equipments
                         </h6>
                       </div>
                       <div className="form-check">
@@ -418,6 +419,32 @@ const ContactPage = () => {
                           {errors.division}
                         </div>
                       )}
+
+                      <div className="form-check">
+                        <input
+                          className="form-check-input radiobtn"
+                          type="radio"
+                          name="division"
+                          id="division5"
+                          value="Oil & Gas Equipments Supply"
+                          checked={
+                            formData.division === 'Oil & Gas Equipments Supply'
+                          }
+                          onChange={(e) =>
+                            setFormData({
+                              ...formData,
+                              [e.target.name]: e.target.value,
+                            })
+                          }
+                        />
+                        <h6
+                          className="form-check-label"
+                          htmlFor="division5"
+                          style={{ fontWeight: 'normal', color: '#6C757D' }}
+                        >
+                          Oil & Gas Equipments Supply
+                        </h6>
+                      </div>
                     </div>
 
                     <div className="row g-0">
@@ -635,7 +662,11 @@ const ContactPage = () => {
                       </a>
                     </li>
                     <li>
-                      <a className="fb" href="https://www.linkedin.com/company/omdys-international-llp/" target='_blank'>
+                      <a
+                        className="fb"
+                        href="https://www.linkedin.com/company/omdys-international-llp/"
+                        target="_blank"
+                      >
                         <p>LinkedIn</p>
                         <i className="fa-brands fa-linkedin" />
                       </a>

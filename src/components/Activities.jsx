@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom';
 
 const Activities = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-  useEffect(() => {
     let elements = document.querySelectorAll('[data-aos]');
     for (let i = 0; i < elements.length; i++) {
       //if ios remove the attribute
@@ -14,6 +11,9 @@ const Activities = () => {
       }
     }
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       {/* Banner Style One Start */}
@@ -26,7 +26,7 @@ const Activities = () => {
           <div className="row">
             <div className="banner-details">
               <h2>Our Core Business</h2>
-              <p style={{textAlign:''}}>
+              <p style={{ textAlign: '' }}>
                 WE SPECIALIZE IN TRADING COMPREHENSIVE PRINTING SOLUTIONS,
                 IMPORTING ELECTRONIC COMPONENTS, INDUSTRIAL CONSTRUCTION TOOLS
                 AND EQUIPMENT, AND HEALTH CARE PRODUCTS. OUR FOCUS IS ON
@@ -67,7 +67,7 @@ const Activities = () => {
           <div className="container">
             <div className="row">
               <ul style={{ marginBottom: '-8%' }}>
-                <li data-aos="zoom-in-up">
+                <li>
                   <div className="data">
                     <h3> Printing Solutions</h3>
                     <p style={{ textAlign: 'justify' }}>
@@ -79,7 +79,7 @@ const Activities = () => {
                       {/* </Link> */}
                     </p>
                   </div>
-                  <div className="image">
+                  <div className="image" data-aos="zoom-in-up">
                     <figure>
                       <img
                         className="w-100"
@@ -90,8 +90,8 @@ const Activities = () => {
                     </figure>
                   </div>
                 </li>
-                <li data-aos="zoom-in-up">
-                  <div className="image">
+                <li>
+                  <div className="image" data-aos="zoom-in-up">
                     <figure>
                       <img
                         className="w-100"
@@ -113,7 +113,7 @@ const Activities = () => {
                     </p>
                   </div>
                 </li>
-                <li data-aos="zoom-in-up">
+                <li>
                   <div className="data">
                     <h3>Industrial Construction Tools and Equipment</h3>
                     <p style={{ textAlign: 'justify' }}>
@@ -126,7 +126,7 @@ const Activities = () => {
                       {/* </Link> */}
                     </p>
                   </div>
-                  <div className="image">
+                  <div className="image" data-aos="zoom-in-up">
                     <figure>
                       <img
                         className="w-100"
@@ -138,8 +138,8 @@ const Activities = () => {
                   </div>
                 </li>
 
-                <li data-aos="zoom-in-up">
-                  <div className="image">
+                <li>
+                  <div className="image" data-aos="zoom-in-up">
                     <figure>
                       <img
                         className="w-100"
@@ -161,7 +161,7 @@ const Activities = () => {
                     </p>
                   </div>
                 </li>
-                <li data-aos="zoom-in-up">
+                <li>
                   <div className="data">
                     <h3>Oil & Gas Equipment Supply</h3>
                     <p style={{ textAlign: 'justify' }}>
@@ -172,7 +172,7 @@ const Activities = () => {
                       <a href="/activity-four">( Read More )</a>
                     </p>
                   </div>
-                  <div className="image">
+                  <div className="image" data-aos="zoom-in-up">
                     <figure>
                       <img
                         className="w-100"

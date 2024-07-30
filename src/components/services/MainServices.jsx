@@ -2,9 +2,6 @@ import { useEffect } from 'react';
 
 const MainServices = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-  useEffect(() => {
     let elements = document.querySelectorAll('[data-aos]');
     for (let i = 0; i < elements.length; i++) {
       //if ios remove the attribute
@@ -12,7 +9,10 @@ const MainServices = () => {
         elements[i].removeAttribute('data-aos');
       }
     }
-  });
+  }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>
