@@ -197,6 +197,7 @@
 .radiobtn {
   border-radius: 15px !important;
   padding-left: 14px !important;
+  background: #f0f0f0 !important;
 }
 
 /* ---------------------Team----------------------- */
