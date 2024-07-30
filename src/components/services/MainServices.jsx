@@ -1,18 +1,31 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
+
+const isIOS = () => {
+  return /iPad|iPhone|iPod/.test(navigator.userAgent);
+};
 
 const MainServices = () => {
   useEffect(() => {
-    let elements = document.querySelectorAll('[data-aos]');
-    for (let i = 0; i < elements.length; i++) {
-      //if ios remove the attribute
-      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
-        elements[i].removeAttribute('data-aos');
-      }
+    if (isIOS()) {
+      let elements = document.querySelectorAll('[data-aos]');
+      elements.forEach((element) => element.removeAttribute('data-aos'));
     }
-  }, []);
-  useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const renderImage = (src, alt, aos) => {
+    return (
+      <figure>
+        <img
+          className="w-100"
+          src={src}
+          alt={alt}
+          {...(isIOS() ? {} : { 'data-aos': aos })}
+        />
+      </figure>
+    );
+  };
+
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>
@@ -25,14 +38,9 @@ const MainServices = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>Services</h2>
-                {/* <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                  tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
-                </p> */}
               </div>
             </div>
           </div>
-          {/* <div className="breadcrums"></div> */}
         </section>
       </div>
       <hr />
@@ -43,11 +51,9 @@ const MainServices = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
         <h2>Our Main Services</h2>
       </div>
 
-      {/* ---------------------------------------------------- */}
       <div className="container mt-5 mb-2">
         <div style={{ marginTop: '20px' }}>
           <section className="gap no-top core-values">
@@ -56,16 +62,12 @@ const MainServices = () => {
                 <ul>
                   <br />
                   <li>
-                    <div className="image" data-aos="fade-left">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="assets/images/activity-four/svg/log/Printing Solutions_.svg"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
+                    <div className="image">
+                      {renderImage(
+                        'assets/images/activity-four/svg/log/Printing Solutions_.svg',
+                        'Core Values Image 1',
+                        'fade-left'
+                      )}
                     </div>
                     <div className="data">
                       <h3>Printing Solutions</h3>
@@ -98,33 +100,24 @@ const MainServices = () => {
                         <a href="/activity-four">( Know More )</a>
                       </p>
                     </div>
-                    <div className="image" data-aos="fade-left">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="assets/images/activity-four/svg/log/Oil and Gas_.svg"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
+                    <div className="image">
+                      {renderImage(
+                        'assets/images/activity-four/svg/log/Oil and Gas_.svg',
+                        'Core Values Image 1',
+                        'fade-left'
+                      )}
                     </div>
                   </li>
                   <br />
                   <br />
 
                   <li>
-                    <div className="image" data-aos="fade-right">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="assets/images/activity-four/svg/log/Health Care PPE_.svg"
-                          // src="assets/images/activity-four/sanitizer.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
+                    <div className="image">
+                      {renderImage(
+                        'assets/images/activity-four/svg/log/Health Care PPE_.svg',
+                        'Core Values Image 1',
+                        'fade-right'
+                      )}
                     </div>
                     <div className="data">
                       <h3>Health Care PPE Products</h3>
@@ -154,36 +147,26 @@ const MainServices = () => {
                         systems. Located in a region known for its industrial
                         activity, we are well-positioned to supply these
                         components to a broad range of clients, supporting
-                        innovation and production in the electronics sector.
+                        innovation and production in the electronics sector.
                         <br />
                         <a href="/activity-two">( Know More )</a>
                       </p>
                     </div>
-                    <div className="image" data-aos="fade-right">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="assets/images/activity-four/svg/log/Electronics Components_.svg"
-                          // src="assets/images/activity-four/sanitizer.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
+                    <div className="image">
+                      {renderImage(
+                        'assets/images/activity-four/svg/log/Electronics Components_.svg',
+                        'Core Values Image 1',
+                        'fade-right'
+                      )}
                     </div>
                   </li>
                   <li>
-                    <div className="image" data-aos="fade-right">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="assets/images/activity-four/svg/log/Industrial Construction Tools & Equipment_.svg"
-                          // src="assets/images/activity-four/sanitizer.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
+                    <div className="image">
+                      {renderImage(
+                        'assets/images/activity-four/svg/log/Industrial Construction Tools & Equipment_.svg',
+                        'Core Values Image 1',
+                        'fade-right'
+                      )}
                     </div>
                     <div className="data">
                       <h3>Construction Tools & Safety Equipments</h3>
@@ -214,30 +197,21 @@ const MainServices = () => {
                         distribution.
                       </p>
                     </div>
-                    <div className="image" data-aos="fade-right">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="assets/images/activity-four/svg/log/Trading Commodities_.svg"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
+                    <div className="image">
+                      {renderImage(
+                        'assets/images/activity-four/svg/log/Trading Commodities_.svg',
+                        'Core Values Image 1',
+                        'fade-right'
+                      )}
                     </div>
                   </li>
                   <li>
-                    <div className="image" data-aos="fade-left">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="assets/images/activity-four/svg/log/Selling Products_.svg"
-                          // src="assets/images/activity-four/gowns.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
+                    <div className="image">
+                      {renderImage(
+                        'assets/images/activity-four/svg/log/Selling Products_.svg',
+                        'Core Values Image 1',
+                        'fade-left'
+                      )}
                     </div>
                     <div className="data">
                       <h3>Selling Products</h3>
@@ -264,17 +238,12 @@ const MainServices = () => {
                         products reach their destinations in perfect condition.
                       </p>
                     </div>
-                    <div className="image" data-aos="fade-right">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="assets/images/activity-four/svg/log/Logistics and Timely Delivery_.svg"
-                          // src="assets/images/activity-four/gloves.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
+                    <div className="image">
+                      {renderImage(
+                        'assets/images/activity-four/svg/log/Logistics and Timely Delivery_.svg',
+                        'Core Values Image 1',
+                        'fade-right'
+                      )}
                     </div>
                   </li>
                 </ul>
