@@ -1,8 +1,40 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 const Projects = () => {
+  useEffect(() => {
+    setTimeout(() => {
+      window.$('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        items: 1,
+      });
+    }, 300); // Delay initialization
+  }, []);
+  useEffect(() => {
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+
+    if (isIOS) {
+      document.querySelector('.slider-controls').style.display = 'none';
+    }
+  }, []);
+  const slideButtons = document.querySelectorAll('.slidebtn');
+
+  slideButtons.forEach((button) => {
+    button.addEventListener('touchstart', function () {
+      this.style.backgroundColor = '#ffee02';
+      this.style.color = 'black';
+    });
+
+    button.addEventListener('touchend', function () {
+      setTimeout(() => {
+        this.style.backgroundColor = ''; // Revert to original color
+        this.style.color = ''; // Revert to original color
+      }, 200); // Adjust timeout as needed
+    });
+  });
   return (
     <>
       <section className="gap project-style-one light-bg-color">
@@ -10,7 +42,7 @@ const Projects = () => {
           <figure>
             <img src="assets/images/heading-icon.png" alt="Heading Icon" />
           </figure>
-          <span>Company Projects</span>
+          <span>Trade Operations</span>
           <h2>Our Main Activities</h2>
         </div>
         <div className="container">
@@ -38,9 +70,9 @@ const Projects = () => {
                     tight programme.
                   </p> */}
                       {/* <Link to={'javascript:void(0)'}> */}
-                      <a className="project-icon" href="/activity-one">
+                      {/* <a className="project-icon" href="/activity-one">
                         <i className="fa-solid fa-angles-right" />
-                      </a>
+                      </a> */}
                       {/* </Link> */}
                     </div>
                   </Link>
@@ -70,9 +102,9 @@ const Projects = () => {
                     tight programme.
                   </p> */}
                       {/* <Link to={'/activity-two'}> */}
-                      <a className="project-icon" href="/activity-two">
+                      {/* <a className="project-icon" href="/activity-two">
                         <i className="fa-solid fa-angles-right" />
-                      </a>
+                      </a> */}
                       {/* </Link> */}
                     </div>
                   </Link>
@@ -100,13 +132,13 @@ const Projects = () => {
                         {/* </Link> */}
                       </h3>
                       {/* <p>
-            This project was successfully completed against an extremely
-            tight programme.
-          </p> */}
+                        This project was successfully completed against an extremely
+                        tight programme.
+                      </p> */}
                       {/* <Link to={'/activity-three'}> */}
-                      <a className="project-icon" href="/activity-three">
+                      {/* <a className="project-icon" href="/activity-three">
                         <i className="fa-solid fa-angles-right" />
-                      </a>
+                      </a> */}
                       {/* </Link> */}
                     </div>
                   </Link>
@@ -133,13 +165,13 @@ const Projects = () => {
                         </Link>
                       </h3>
                       {/* <p>
-            This project was successfully completed against an extremely
-            tight programme.
-          </p> */}
+                            This project was successfully completed against an extremely
+                            tight programme.
+                        </p> */}
                       {/* <Link to={'/activity-four'}> */}
-                      <a className="project-icon" href="/activity-four">
+                      {/* <a className="project-icon" href="/activity-four">
                         <i className="fa-solid fa-angles-right" />
-                      </a>
+                      </a> */}
                       {/* </Link> */}
                     </div>
                   </Link>
@@ -164,13 +196,13 @@ const Projects = () => {
                         {/* </Link> */}
                       </h3>
                       {/* <p>
-            This project was successfully completed against an extremely
-            tight programme.
-          </p> */}
+                          This project was successfully completed against an extremely
+                          tight programme.
+                        </p> */}
                       {/* <Link to={'/activity-five'}> */}
-                      <a className="project-icon" href="/activity-five">
+                      {/* <a className="project-icon" href="/activity-five">
                         <i className="fa-solid fa-angles-right" />
-                      </a>
+                      </a> */}
                       {/* </Link> */}
                     </div>
                   </Link>
@@ -179,73 +211,91 @@ const Projects = () => {
             </Link>
 
             {/* <div className="col-lg-12">
-              <div className="project-post">
-                <figure>
-                  <img
-                    src="assets/svg4/Pulses & Grains.svg"
-                    alt="project-img-2"
-                  />
-                </figure>
-                <div className="project-data">
-                  <h3>
-                    <Link to={'/activity-six'}>
-                      <a href="javascript:void(0)">Pulses and Grains</a>
-                    </Link>
-                  </h3>
+                      <div className="project-post">
+                        <figure>
+                          <img
+                            src="assets/svg4/Pulses & Grains.svg"
+                            alt="project-img-2"
+                          />
+                        </figure>
+                        <div className="project-data">
+                          <h3>
+                            <Link to={'/activity-six'}>
+                              <a href="javascript:void(0)">Pulses and Grains</a>
+                            </Link>
+                          </h3>
 
-                  <Link to={'/activity-six'}>
-                    <a className="project-icon" href="#">
-                      <i className="fa-solid fa-angles-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div> */}
+                          <Link to={'/activity-six'}>
+                            <a className="project-icon" href="#">
+                              <i className="fa-solid fa-angles-right" />
+                            </a>
+                          </Link>
+                        </div>
+                      </div>
+                    </div> */}
             {/* <div className="col-lg-12">
-              <div className="project-post">
-                <figure>
-                  <img
-                    src="https://via.placeholder.com/640x395"
-                    alt="project-img-1"
-                  />
-                </figure>
-                <div className="project-data">
-                  <h3>
-                    <a href="project-detail.html">Life Science Center</a>
-                  </h3>
-                  <p>
-                    This project was successfully completed against an extremely
-                    tight programme.
-                  </p>
-                  <a className="project-icon" href="#">
-                    <i className="fa-solid fa-angles-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="project-post">
-                <figure>
-                  <img
-                    src="https://via.placeholder.com/640x395"
-                    alt="project-img-2"
-                  />
-                </figure>
-                <div className="project-data">
-                  <h3>
-                    <a href="javascript:void(0)">Home building renovation</a>
-                  </h3>
-                  <p>
-                    This project was successfully completed against an extremely
-                    tight programme.
-                  </p>
-                  <a className="project-icon" href="#">
-                    <i className="fa-solid fa-angles-right" />
-                  </a>
-                </div>
-              </div>
-            </div> */}
+                      <div className="project-post">
+                        <figure>
+                          <img
+                            src="https://via.placeholder.com/640x395"
+                            alt="project-img-1"
+                          />
+                        </figure>
+                        <div className="project-data">
+                          <h3>
+                            <a href="project-detail.html">Life Science Center</a>
+                          </h3>
+                          <p>
+                            This project was successfully completed against an extremely
+                            tight programme.
+                          </p>
+                          <a className="project-icon" href="#">
+                            <i className="fa-solid fa-angles-right" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-12">
+                      <div className="project-post">
+                        <figure>
+                          <img
+                            src="https://via.placeholder.com/640x395"
+                            alt="project-img-2"
+                          />
+                        </figure>
+                        <div className="project-data">
+                          <h3>
+                            <a href="javascript:void(0)">Home building renovation</a>
+                          </h3>
+                          <p>
+                            This project was successfully completed against an extremely
+                            tight programme.
+                          </p>
+                          <a className="project-icon" href="#">
+                            <i className="fa-solid fa-angles-right" />
+                          </a>
+                        </div>
+                      </div>
+                    </div> */}
           </div>
+          <center style={{ marginTop: '1%' }}>
+            <div className="slider-controls">
+              <button
+                id="prevSlide"
+                className="btn btn-white slidebtn  m-2 p-3"
+                style={{ border: '1px solid black' }}
+              >
+                <i className="fa-solid fa-angles-left" />
+              </button>
+              <button
+                id="nextSlide"
+                className="btn btn-white slidebtn m-2 p-3"
+                style={{ border: '1px solid black' }}
+              >
+                <i className="fa-solid fa-angles-right" />
+              </button>
+            </div>
+          </center>
         </div>
       </section>
     </>

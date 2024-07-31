@@ -107,15 +107,40 @@ jQuery(document).ready(function ($) {
   // });
 
   // Project Style One
+  // -----og------
+  // if ($('.project-slider.owl-carousel')[0]) {
+  //   $('.project-slider.owl-carousel').owlCarousel({
+  //     items: 2,
+  //     margin: 12,
+  //     dots: true,
+  //     autoplay: true,
+  //     autoplayTimeout: 7000,
+  //     loop: true,
+  //     //   autoplayHoverPause: false,
+  //     responsive: {
+  //       0: {
+  //         items: 1,
+  //         dots: false,
+  //       },
+  //       425: {
+  //         items: 1,
+  //       },
+  //       1050: {
+  //         items: 2,
+  //       },
+  //     },
+  //   });
+  // }
+  // $(document).ready(function () {
   if ($('.project-slider.owl-carousel')[0]) {
-    $('.project-slider.owl-carousel').owlCarousel({
+    const owl = $('.project-slider.owl-carousel');
+    owl.owlCarousel({
       items: 2,
       margin: 12,
       dots: true,
       autoplay: true,
       autoplayTimeout: 7000,
       loop: true,
-      //   autoplayHoverPause: false,
       responsive: {
         0: {
           items: 1,
@@ -129,7 +154,19 @@ jQuery(document).ready(function ($) {
         },
       },
     });
+    // --------------next
+    $('#nextSlide').on('click touchstart', function (e) {
+      e.preventDefault();
+      owl.trigger('next.owl.carousel');
+    });
+    // --------------prev
+
+    $('#prevSlide').on('click touchstart', function (e) {
+      e.preventDefault();
+      owl.trigger('prev.owl.carousel');
+    });
   }
+  // });
 
   // Team Slider
   if ($('.team-slider')[0]) {

@@ -1784,7 +1784,7 @@ span.counter {
   top: 0;
   left: 0;
   z-index: -1;
-  border: 2px solid;
+  border: 5px solid;
   transform: skew(-23deg, 0deg);
 }
 .featured-slider-one .owl-nav button.owl-prev:hover:before,

@@ -2,63 +2,36 @@
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-  // useEffect(() => {
-  //   console.log('hoiiii');
-  //   // Event handler for mobile menu toggle
-  //   const handleMobileMenuClick = (event) => {
-  //     const mobileMenu = document.getElementById('mobile-nav');
-  //     const mobileMenuButton = document.getElementById('mobile-menu');
-  //     if (mobileMenu && mobileMenuButton) {
-  //       mobileMenu.classList.toggle('open');
-  //       mobileMenuButton.classList.toggle('open');
-  //     }
-  //   };
+ document.addEventListener('DOMContentLoaded', () => {
+   const menuContainer = document.querySelector('.mobile-nav ul'); // Parent container of the menu items
 
-  //   // Event handler for desktop menu toggle
-  //   const handleDesktopMenuClick = (event) => {
-  //     const desktopMenu = document.querySelector('.desktop-menu');
-  //     const desktopMenuButton = document.getElementById('desktop-menu');
-  //     if (desktopMenu && desktopMenuButton) {
-  //       desktopMenu.classList.toggle('open');
-  //       desktopMenuButton.classList.toggle('open');
-  //     }
-  //   };
+   menuContainer.addEventListener('click', function (e) {
+     const clickedItem = e.target.closest('li.menu-item-has-children'); // Get the closest menu item
 
-  //   // Event handler for close button
-  //   const handleResCrossClick = (event) => {
-  //     const mobileMenu = document.getElementById('mobile-nav');
-  //     const mobileMenuButton = document.getElementById('mobile-menu');
-  //     if (mobileMenu && mobileMenuButton) {
-  //       mobileMenu.classList.remove('open');
-  //       mobileMenuButton.classList.remove('open');
-  //     }
-  //   };
+     if (!clickedItem) return; // Exit if clicked element is not a menu item
 
-  //   // Attach event handlers
-  //   document.addEventListener('click', (event) => {
-  //     // Mobile menu toggle
-  //     if (event.target.matches('#mobile-menu')) {
-  //       handleMobileMenuClick(event);
-  //     }
+     // If the clicked item is already active, just toggle it
+     if (clickedItem.classList.contains('active')) {
+       clickedItem.classList.remove('active');
+     } else {
+       // Remove 'active' class from all other menu items
+       menuContainer
+         .querySelectorAll('li.menu-item-has-children.active')
+         .forEach((item) => {
+           item.classList.remove('active');
+         });
 
-  //     // Desktop menu toggle
-  //     if (event.target.matches('#desktop-menu')) {
-  //       handleDesktopMenuClick(event);
-  //     }
+       // Add 'active' class to the clicked item
+       clickedItem.classList.add('active');
+     }
 
-  //     // Close button
-  //     if (event.target.matches('#res-cross')) {
-  //       handleResCrossClick(event);
-  //     }
-  //   });
+     // Prevent the default action and stop event propagation
+     e.preventDefault();
+     e.stopPropagation();
+   });
+ });
 
-  //   // Clean up event listeners when the component is unmounted
-  //   return () => {
-  //     document.removeEventListener('click', handleMobileMenuClick);
-  //     document.removeEventListener('click', handleDesktopMenuClick);
-  //     document.removeEventListener('click', handleResCrossClick);
-  //   };
-  // }, []);
+
   return (
     <>
       <header className="header-style-one">
@@ -107,7 +80,9 @@ const Header = () => {
                           <li className="menu-item-has-children">
                             {/* <Link to={'/about'}> */}
 
-                            <a href="/about">About</a>
+                            <a className="linktag" href="/about">
+                              About
+                            </a>
                             {/* <a href="javascript:void(0)">About</a> */}
                             {/* </Link> */}
                             <ul className="sub-menu">
@@ -478,19 +453,13 @@ const Header = () => {
                                 </ul>
                               </li>
 
-                              
-
-                              <li className="">
-                               
-                              </li>
-                              
+                              <li className=""></li>
                             </ul>
                           </li>
                           <li className="">
                             <Link to={'/news'}>
                               <a href="">News</a>
                             </Link>
-                            
                           </li>
                           <li>
                             <Link to={'/contact'}>
@@ -499,7 +468,6 @@ const Header = () => {
                           </li>
                         </ul>
                         <div className="extras">
-                          
                           <a
                             href="javascript:void(0)"
                             id="mobile-menu"
@@ -702,28 +670,6 @@ const Header = () => {
                       </a>
                     </li>
                     <li></li>
-
-                    <li className="">
-                      {/* <Link to={'/team'}>Team */}
-                      {/* <a className="tag" href="/team">
-                                  <span style={{ marginLeft: '5px' }}>
-                                    Team
-                                  </span>
-                                </a> */}
-                    </li>
-                    {/* </Link> */}
-                    {/* <ul className="sub-menu">
-                                  <li>
-                                    <a href="our-team.html">Our Team</a>
-                                  </li>
-                                  <li>
-                                    <a href="team-detail.html">Team Detail</a>
-                                  </li>
-                                </ul> */}
-
-                    {/* <li>
-                                <a href="login.html">Login &amp; Register</a>
-                              </li> */}
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
@@ -926,15 +872,6 @@ const Header = () => {
                             Safety Equipment
                           </a>
                         </li>
-                        {/* <li>
-                          <a href="/activity-three">Fasteners</a>
-                        </li> */}
-                        {/* <li>
-                          <a href="/activity-three">Building Materials</a>
-                        </li> */}
-                        {/* <li>
-                          <a href="/activity-three">Hardware Accessories</a>
-                        </li> */}
                       </ul>
                     </li>
                     {/* printing solutions */}
@@ -985,18 +922,6 @@ const Header = () => {
                   >
                     News
                   </a>
-                  {/* </Link> */}
-                  {/* <ul className="sub-menu">
-                    <li>
-                      <a href="our-blog-1.html">Our Blog One</a>
-                    </li>
-                    <li>
-                      <a href="our-blog-2.html">Our Blog Two</a>
-                    </li>
-                    <li>
-                      <a href="blog-detail.html">Blog Detail</a>
-                    </li>
-                  </ul> */}
                 </li>
                 <li>
                   {/* <Link to={'/contact'}> */}
@@ -1016,20 +941,6 @@ const Header = () => {
               <h2>
                 Think Products, Think Us{' '}
                 <span style={{ color: '#33cc33' }}>&nbsp;&nbsp;-OMDYS</span>
-                {/* <span>
-                  <img
-                    src="assets/images/OMDYS LOGO - Horizontal - Without ICON.png"
-                    alt=""
-                    width={'319px'}
-                    height={'100px'}
-                    style={{
-                      padding: '15px',
-                      filter: ' grayscale(100%)',
-                      //   backgroundColor: 'black',
-                      //   objectFit: 'cover',
-                    }}
-                  />
-                </span> */}
               </h2>
               <p className="des">
                 Sourcing products can be a nightmare. Let us find the highest

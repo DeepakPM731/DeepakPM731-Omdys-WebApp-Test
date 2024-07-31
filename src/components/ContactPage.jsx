@@ -1804,7 +1804,10 @@ const ContactPage = () => {
                                       found to be defective or does not meet
                                       specifications, we will work with our
                                       clients to facilitate returns and
-                                      replacements as needed.
+                                      replacements as needed.For more
+                                      information, please follow the link for
+                                      complete details on the return process:{' '}
+                                      <a href="/terms">Terms & Conditions</a>
                                     </p>
                                   </div>
                                 </div>
@@ -2188,7 +2191,10 @@ const ContactPage = () => {
                                       products. Please contact our customer
                                       service team within a specified timeframe
                                       after receiving your order to initiate the
-                                      return process.
+                                      return process.For more information,
+                                      please follow the link for complete
+                                      details on the return process:{' '}
+                                      <a href="/terms">Terms & Conditions</a>
                                     </p>
                                   </div>
                                 </div>

@@ -63,27 +63,7 @@ const TermConditions = () => {
               listStyleType: 'circle',
             }}
           >
-            <a href="">Printing Solutions</a>
-          </li>
-          <li
-            style={{
-              fontSize: '18px',
-              marginLeft: '5%',
-              fontWeight: 'bold',
-              listStyleType: 'circle',
-            }}
-          >
             <a href="">Oil & Gas Equipments Supply</a>
-          </li>
-          <li
-            style={{
-              fontSize: '18px',
-              marginLeft: '5%',
-              fontWeight: 'bold',
-              listStyleType: 'circle',
-            }}
-          >
-            <a href="">Health Care PPE Products</a>
           </li>
           <li
             style={{
@@ -103,7 +83,28 @@ const TermConditions = () => {
               listStyleType: 'circle',
             }}
           >
+            <a href="">Health Care PPE Products</a>
+          </li>
+
+          <li
+            style={{
+              fontSize: '18px',
+              marginLeft: '5%',
+              fontWeight: 'bold',
+              listStyleType: 'circle',
+            }}
+          >
             <a href="">Construction Tools & Safety Equipments</a>
+          </li>
+          <li
+            style={{
+              fontSize: '18px',
+              marginLeft: '5%',
+              fontWeight: 'bold',
+              listStyleType: 'circle',
+            }}
+          >
+            <a href="">Printing Solutions</a>
           </li>
         </ul>
         <br />
