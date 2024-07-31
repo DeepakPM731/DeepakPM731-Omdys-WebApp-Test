@@ -75,6 +75,7 @@ const About = () => {
             source high-quality products from around the globe and deliver them
             to our customers.
             <br />
+            <br />
             Our team is dedicated to providing excellent customer service and
             ensuring that our client's needs are met promptly and efficiently.
             We believe in building long-term relationships with our clients

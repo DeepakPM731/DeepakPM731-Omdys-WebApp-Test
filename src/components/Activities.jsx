@@ -27,11 +27,13 @@ const Activities = () => {
             <div className="banner-details">
               <h2>Our Core Business</h2>
               <p style={{ textAlign: '' }}>
-                WE SPECIALIZE IN TRADING COMPREHENSIVE PRINTING SOLUTIONS,
-                IMPORTING ELECTRONIC COMPONENTS, INDUSTRIAL CONSTRUCTION TOOLS
-                AND EQUIPMENT, AND HEALTH CARE PRODUCTS. OUR FOCUS IS ON
-                DELIVERING QUALITY PRODUCTS ACROSS THESE SECTORS TO MEET DIVERSE
-                CUSTOMER NEEDS EFFICIENTLY.
+                We specialize in trading comprehensive printing solutions,
+                importing electronic components, industrial construction tools
+                and equipment, and health care products. Our focus is on
+                delivering quality products across these sectors to meet diverse
+                customer needs efficiently.
+                <br />
+                <br />
               </p>
             </div>
           </div>

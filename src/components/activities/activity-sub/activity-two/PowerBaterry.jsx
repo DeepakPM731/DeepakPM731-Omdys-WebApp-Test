@@ -25,6 +25,7 @@ const PowerBaterry = () => {
             <div className="row">
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>Electronics Components</h2>
+                <br />
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
                   tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!

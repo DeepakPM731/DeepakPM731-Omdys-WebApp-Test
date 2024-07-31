@@ -26,6 +26,7 @@ const ServiceOne = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>Services</h2>
+                <br />
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
                   tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!

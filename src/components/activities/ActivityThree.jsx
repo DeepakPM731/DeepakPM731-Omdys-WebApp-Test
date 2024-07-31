@@ -31,6 +31,7 @@ const ActivityThree = () => {
                 <h2 style={{ textAlign: 'center' }}>
                   Tools and Equipment Supply
                 </h2>
+                <br />
                 {/* <p>our values and vaulted us to the top of our industry.</p> */}
               </div>
             </div>

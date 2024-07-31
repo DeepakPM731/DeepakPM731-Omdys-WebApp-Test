@@ -25,6 +25,7 @@ const ServiceFour = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>Services</h2>
+                <br />
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
                   tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
@@ -66,7 +67,7 @@ const ServiceFour = () => {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-12">
-                <div className="data" style={{ marginTop: '' }}>
+                <div className="data" style={{ marginBottom: '-3%' }}>
                   <br />
                   <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                     At OMDYS International LLP, we prioritize identifying and
@@ -95,7 +96,7 @@ const ServiceFour = () => {
                     our clients, fostering long-term partnerships built on trust
                     and dependability.
                   </p>
-                  <br /> {/* <div className="data"> */}
+                  {/* <div className="data"> */}
                   {/* <h2>Risk Management</h2> */}
                 </div>
               </div>

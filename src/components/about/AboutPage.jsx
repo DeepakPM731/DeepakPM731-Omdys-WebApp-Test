@@ -21,6 +21,7 @@ const AboutPage = () => {
               <div className="banner-details">
                 <h2>About Us</h2>
                 <p>CONNECTING MARKETS, DELIVERING EXCELLENCE</p>
+                <br />
               </div>
             </div>
           </div>

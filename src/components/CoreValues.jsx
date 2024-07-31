@@ -28,7 +28,8 @@ const CoreValues = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>Core Values</h2>
-                <p>OUR VALUES AND VAULTED US TO THE TOP OF OUR INDUSTRY.</p>
+                <p>Our values have vaulted us to the top of our industry.</p>
+                <br />
               </div>
             </div>
           </div>
@@ -57,7 +58,7 @@ const CoreValues = () => {
               <figure>
                 <img src="assets/images/heading-icon.png" alt="Heading Icon" />
               </figure>
-              <span>MAKE A DIFFERENCE</span>
+              {/* <span>MAKE A DIFFERENCE</span> */}
               <h2>Our Core Values</h2>
             </div>
             <div className="container">
@@ -86,8 +87,8 @@ const CoreValues = () => {
                     </div>
                   </li>
                   <li>
-                    <div className="image" >
-                    {/* <div className="image" data-aos="fade-up-right"> */}
+                    <div className="image">
+                      {/* <div className="image" data-aos="fade-up-right"> */}
                       <figure>
                         <img
                           className="w-100"
@@ -119,7 +120,7 @@ const CoreValues = () => {
                       </p>
                     </div>
                     <div className="image">
-                    {/* <div className="image" data-aos="fade-up-left"> */}
+                      {/* <div className="image" data-aos="fade-up-left"> */}
                       <figure>
                         <img
                           className="w-100"

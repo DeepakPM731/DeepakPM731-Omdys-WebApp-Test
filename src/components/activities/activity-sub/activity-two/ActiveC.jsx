@@ -42,6 +42,7 @@ const ActiveC = () => {
         </figure>
         {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
         <h2>Active Components</h2>
+        <br />
       </div>
       <div
         className="container center justify-content-center"

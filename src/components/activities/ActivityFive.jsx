@@ -27,6 +27,7 @@ const ActivityFive = () => {
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>
                   Health Care PPE Products
+                  <br />
                 </h2>
                 {/* <p>our values and vaulted us to the top of our industry.</p> */}
               </div>

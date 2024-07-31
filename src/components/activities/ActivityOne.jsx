@@ -25,6 +25,7 @@ const ActivityOne = () => {
             <div className="row">
               <div className="banner-details" style={{ textAlign: 'center' }}>
                 <h2>Comprehensive Printing Solutions</h2>
+                <br />
                 {/* <p>our values and vaulted us to the top of our industry.</p> */}
               </div>
             </div>

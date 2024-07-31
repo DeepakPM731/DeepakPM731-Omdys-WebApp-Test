@@ -27,6 +27,7 @@ const PlumbingTools = () => {
                 <h2 style={{ textAlign: 'center' }}>
                   Construction Tools & Safety Equipments
                 </h2>
+                <br />
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
                   tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!

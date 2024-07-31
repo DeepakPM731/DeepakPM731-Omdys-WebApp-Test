@@ -1,4 +1,7 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 const Projects = () => {
   return (
     <>
@@ -165,9 +168,9 @@ const Projects = () => {
             tight programme.
           </p> */}
                       {/* <Link to={'/activity-five'}> */}
-                        <a className="project-icon" href="/activity-five">
-                          <i className="fa-solid fa-angles-right" />
-                        </a>
+                      <a className="project-icon" href="/activity-five">
+                        <i className="fa-solid fa-angles-right" />
+                      </a>
                       {/* </Link> */}
                     </div>
                   </Link>

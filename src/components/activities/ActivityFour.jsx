@@ -27,6 +27,7 @@ const ActivityFour = () => {
             <div className="row">
               <div className="banner-details" style={{ textAlign: 'center' }}>
                 <h2>Oil & Gas Equipments Supply</h2>
+                <br />
               </div>
             </div>
           </div>
@@ -249,7 +250,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
+        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
         <h3 className="petroheadline">Pipes</h3>
         <br />
       </div>
@@ -346,7 +347,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
+        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
         <h3 className="petroheadline">Fittings and Connectors</h3>
         <br />
       </div>
@@ -515,7 +516,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
+        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
         <h3 className="petroheadline"> Gaskets and Seals</h3>
         <br />
       </div>
@@ -610,7 +611,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
+        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
         <h3 className="petroheadline">Bolts and Nuts</h3>
         <br />
       </div>
@@ -705,7 +706,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
+        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
         <h2>Hoses and Tubing</h2>
         <br />
       </div>
@@ -799,7 +800,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
+        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
         <h3 className="petroheadline">Instrumentation and Controls</h3>
         <br />
       </div>
@@ -893,7 +894,7 @@ const ActivityFour = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        <span>LET'S HELP YOU WITH OUR PRODUCTS</span>
+        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
         <h3 className="petroheadline">Safety and Maintenance</h3>
         <br />
       </div>
@@ -929,15 +930,10 @@ const ActivityFour = () => {
                     </figure>
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <div className="image" data-aos="fade-left">
                     <figure>
-                      {/* <img
-                        className="w-100"
-                        src="assets/images/activity-four/svg/Corrosion Protection Products.svg"
-                        
-                        alt="Core Values Image 1"
-                      /> */}
+                      
                     </figure>
                   </div>
                   <div className="data">
@@ -953,8 +949,8 @@ const ActivityFour = () => {
                       petroleum infrastructure as per GCC norms.
                     </p>
                   </div>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <div className="data">
                     <h3>Maintenance Tools</h3>
                     <p style={{ fontSize: '18px', textAlign: 'justify' }}>
@@ -970,15 +966,10 @@ const ActivityFour = () => {
                   </div>
                   <div className="image" data-aos="fade-right">
                     <figure>
-                      {/* <img
-                        className="w-100"
-                        src="assets/images/activity-four/svg/Maintenance Tools.svg"
-                       
-                        alt="Core Values Image 1"
-                      /> */}
+                      
                     </figure>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

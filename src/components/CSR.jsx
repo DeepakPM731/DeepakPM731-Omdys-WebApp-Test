@@ -25,6 +25,7 @@ const CSR = () => {
             <div className="row">
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>C S R</h2>
+                <br />
                 {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
                   tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
@@ -54,7 +55,7 @@ const CSR = () => {
         <h3 style={{ textAlign: 'left', marginBottom: '1%' }}>
           OMDYS: Trading with a Purpose
         </h3>
-        <p style={{ fontSize: '22px', textAlign: 'left' }}>
+        <p style={{ fontSize: '22px', textAlign: 'justify' }}>
           OMDYS International LLP believes in more than just business. We are
           committed to making a positive impact on the communities we serve.
         </p>

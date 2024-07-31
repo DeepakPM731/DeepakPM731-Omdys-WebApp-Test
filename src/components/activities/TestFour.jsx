@@ -27,6 +27,7 @@ const TestFour = () => {
             <div className="row">
               <div className="banner-details" style={{ textAlign: 'center' }}>
                 <h2>Industrial Chemical Products</h2>
+                <br />
               </div>
             </div>
           </div>

@@ -85,7 +85,8 @@ const News = () => {
             <div className="container">
               <div className="row">
                 <div className="banner-details">
-                  <h2 style={{ textAlign: 'center' }}>Recent Articles</h2>
+                  <h2 style={{  }}>Recent Articles</h2>
+                  <br />
                   {/* <p style={{ textAlign: 'justify' }}>
                     STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
                     PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET
@@ -161,7 +162,8 @@ const News = () => {
             <div className="container">
               <div className="row">
                 <div className="banner-details">
-                  <h2>Recent Articles</h2>
+                  <h2 style={{  }}>Recent Articles</h2>
+                  <br />
                   {/* <p style={{ textAlign: 'justify' }}>
                     STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
                     PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET

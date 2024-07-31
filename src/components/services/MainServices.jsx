@@ -38,6 +38,7 @@ const MainServices = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>Services</h2>
+                <br />
               </div>
             </div>
           </div>

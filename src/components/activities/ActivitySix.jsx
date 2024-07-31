@@ -18,6 +18,7 @@ const ActivitySix = () => {
                 <h2 style={{ textAlign: 'center' }}>
                   Trading of Pulses and Grains – Exporting
                 </h2>
+                <br />
                 {/* <p>our values and vaulted us to the top of our industry.</p> */}
               </div>
             </div>

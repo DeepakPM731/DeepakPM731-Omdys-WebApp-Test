@@ -42,6 +42,7 @@ const Connectors = () => {
         </figure>
         {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
         <h2>Connectors and Cables</h2>
+        <br />
       </div>
       <div
         className="container center justify-content-center"
