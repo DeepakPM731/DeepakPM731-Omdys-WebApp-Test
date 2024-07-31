@@ -93,7 +93,7 @@ const Connector = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Flanges.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Flanges_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -104,7 +104,7 @@ const Connector = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Couplings.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Couplings_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -140,7 +140,7 @@ const Connector = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Elbows.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Elbows_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -151,7 +151,7 @@ const Connector = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Tees+and+Crosses.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Tees+and+Crosses_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -186,7 +186,7 @@ const Connector = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Reducers.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Reducers_.svg"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
                         // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
                         alt="Core Values Image 1"
@@ -199,7 +199,7 @@ const Connector = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Unions.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Unions_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

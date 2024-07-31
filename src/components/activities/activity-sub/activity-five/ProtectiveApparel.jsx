@@ -77,7 +77,7 @@ const ProtectiveApparel = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Disposable+Gowns.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Disposable+Gowns_.svg"
                         // src="assets/images/activity-four/svg/protective/Health Care - Disposable Gowns.svg"
                         alt="Core Values Image 1"
                       />
@@ -125,7 +125,7 @@ const ProtectiveApparel = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Coveralls.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Coveralls_.svg"
                         // src="assets/images/activity-four/svg/protective/Health Care - Coveralls.svg"
 
                         alt="Core Values Image 1"
@@ -138,7 +138,7 @@ const ProtectiveApparel = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Aprons.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Aprons_.svg"
                         // src="assets/images/activity-four/svg/protective/Health Care - Aprons.svg"
                         alt="Core Values Image 1"
                       />
@@ -181,7 +181,7 @@ const ProtectiveApparel = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Lab+Coats.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Lab+Coats_.svg"
                         // src="assets/images/activity-four/svg/protective/Health Care - Lab Coats.svg"
                         alt="Core Values Image 1"
                       />
@@ -209,7 +209,7 @@ const ProtectiveApparel = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Other+Protective+Apparel.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Other+Protective+Apparel_.svg"
                         // src="assets/images/activity-four/svg/protective/Health Care - Other Protective Apparel.svg"
                         alt="Core Values Image 1"
                       />

@@ -482,6 +482,7 @@ li.menu-item-has-children.active a.mobile-li-a {
   color: #ff0000 !important;
 }
 
+.mobile-nav > ul > li > a:hover,
 .mobile-nav > ul > li > a:focus,
 .mobile-nav > ul > li > a:active {
   color: #ff0000 !important;

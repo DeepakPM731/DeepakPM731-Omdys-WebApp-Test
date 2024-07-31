@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react';
 
 const Valves = () => {
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
-    useEffect(() => {
-      let elements = document.querySelectorAll('[data-aos]');
-      for (let i = 0; i < elements.length; i++) {
-        //if ios remove the attribute
-        if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
-          elements[i].removeAttribute('data-aos');
-        }
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
       }
-    });
+    }
+  });
   return (
     <>
       <div>
@@ -96,7 +96,7 @@ const Valves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Gate+Valves.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Gate+Valves_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -107,7 +107,7 @@ const Valves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Butterfly+Valves.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Butterfly+Valves_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -144,7 +144,7 @@ const Valves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Globe+Valves.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Globe+Valves_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -155,7 +155,7 @@ const Valves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Check+Valves.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Check+Valves_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -191,7 +191,7 @@ const Valves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Ball+Valves.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Ball+Valves_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

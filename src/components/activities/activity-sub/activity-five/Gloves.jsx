@@ -75,7 +75,7 @@ const Gloves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Latex+Gloves.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Latex+Gloves_.svg"
                         // src="assets/images/activity-four/svg/gloves/Health Care - Latex Gloves.svg"
                         alt="Core Values Image 1"
                       />
@@ -127,7 +127,7 @@ const Gloves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Nitrile+Gloves.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Nitrile+Gloves_.svg"
                         // src="assets/images/activity-four/svg/gloves/Health Care - Nitrile Gloves.svg"
                         alt="Core Values Image 1"
                       />
@@ -139,7 +139,7 @@ const Gloves = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Vinyl+Gloves.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Vinyl+Gloves_.svg"
                         // src="assets/images/activity-four/svg/gloves/Health Care - Vinyl Gloves.svg"
                         alt="Core Values Image 1"
                       />

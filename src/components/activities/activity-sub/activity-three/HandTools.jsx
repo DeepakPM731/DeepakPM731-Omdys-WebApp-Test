@@ -90,7 +90,7 @@ const HandTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Hand+Tools+-+Hammers.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Hand+Tools+-+Hammers_.svg"
                         // src="assets/images/activity-four/svg/construction/Hand Tools - Hammers.svg"
 
                         alt="Core Values Image 1"
@@ -103,7 +103,7 @@ const HandTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Hand+Tools+-+Screwdrivers.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Hand+Tools+-+Screwdrivers_.svg"
                         // src="assets/images/activity-four/svg/construction/Hand Tools - Screwdrivers.svg"
                         alt="Core Values Image 1"
                       />
@@ -153,7 +153,7 @@ const HandTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Hand+Tools+-+Wrenches.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Hand+Tools+-+Wrenches_.svg"
                         // src="assets/images/activity-four/svg/construction/Hand Tools - Wrenches.svg"
                         alt="Core Values Image 1"
                       />
@@ -165,7 +165,7 @@ const HandTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Hand+Tools+-+Pliers.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Hand+Tools+-+Pliers_.svg"
                         // src="assets/images/activity-four/svg/construction/Hand Tools - Pliers.svg"
                         alt="Core Values Image 1"
                       />
@@ -214,7 +214,7 @@ const HandTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Hand+Tools+-+Measuring+Tools.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Hand+Tools+-+Measuring+Tools_.svg"
                         // src="assets/images/activity-four/svg/construction/Hand Tools - Measuring Tools.svg"
                         alt="Core Values Image 1"
                       />

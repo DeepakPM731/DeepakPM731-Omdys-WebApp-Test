@@ -80,7 +80,7 @@ const ElectricalTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Multimeters.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Multimeters_.svg"
                         // src="assets/images/activity-four/svg/construction/Electrical Tools - Multimeters.svg"
                         alt="Core Values Image 1"
                       />
@@ -92,7 +92,7 @@ const ElectricalTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Wire+Strippers.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Wire+Strippers_.svg"
                         // src="assets/images/activity-four/svg/construction/Electrical Tools - Wire Strippers.svg"
                         alt="Core Values Image 1"
                       />
@@ -123,7 +123,7 @@ const ElectricalTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Voltage+Tester.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Voltage+Tester_.svg"
                         // src="assets/images/activity-four/svg/construction/Electrical Tools - Voltage Tester.svg"
 
                         alt="Core Values Image 1"
@@ -136,7 +136,7 @@ const ElectricalTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Cable+Cutters.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Cable+Cutters_.svg"
                         // src="assets/images/activity-four/svg/construction/Electrical Tools - Cable Cutters.svg"
 
                         alt="Core Values Image 1"
@@ -169,7 +169,7 @@ const ElectricalTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Handheld+Conduit+Benders.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electrical+Tools+-+Handheld+Conduit+Benders_.svg"
                         // src="assets/images/activity-four/svg/construction/Electrical Tools - Handheld Conduit Benders.svg"
 
                         alt="Core Values Image 1"

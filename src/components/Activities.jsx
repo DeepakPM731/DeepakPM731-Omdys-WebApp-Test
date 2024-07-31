@@ -26,15 +26,7 @@ const Activities = () => {
           <div className="row">
             <div className="banner-details">
               <h2>Our Core Business</h2>
-              <p style={{ textAlign: '' }}>
-                We specialize in trading comprehensive printing solutions,
-                importing electronic components, industrial construction tools
-                and equipment, and health care products. Our focus is on
-                delivering quality products across these sectors to meet diverse
-                customer needs efficiently.
-                <br />
-                <br />
-              </p>
+              <br />
             </div>
           </div>
         </div>
@@ -65,13 +57,22 @@ const Activities = () => {
             </figure>
             <span>Our Core </span>
             <h2>Business</h2>
+            <div className="container">
+              <p style={{ textAlign: '', marginTop: '-3%' }}>
+                We specialize in trading comprehensive printing solutions,
+                importing electronic components, industrial construction tools
+                and equipment, and health care products. Our focus is on
+                delivering quality products across these sectors to meet diverse
+                customer needs efficiently.
+              </p>
+            </div>
           </div>
           <div className="container">
             <div className="row">
               <ul style={{ marginBottom: '-8%' }}>
                 <li>
                   <div className="data">
-                    <h3>Oil & Gas Equipment Supply</h3>
+                    <h3>Oil & Gas Equipments Supply</h3>
                     <p style={{ textAlign: 'justify' }}>
                       We offer expertise in exporting specialized petrochemical
                       mechanical products, ensuring safe and efficient project
@@ -96,7 +97,8 @@ const Activities = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electronics+Components_.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Cover_Electronics.svg"
+                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Electronics+Components_.svg"
                         // src="assets/images/activity-four/svg/common/Electronics Components.svg"
                         alt="Core Values Image 1"
                       />

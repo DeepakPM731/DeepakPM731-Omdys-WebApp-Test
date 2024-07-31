@@ -75,7 +75,7 @@ const Sanitizers = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Hand+Sanitizers.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Hand+Sanitizers_.svg"
                         // src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Hand Sanitizers.svg"
                         alt="Core Values Image 1"
                       />
@@ -128,7 +128,7 @@ const Sanitizers = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Disinfectant+Wipes.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Disinfectant+Wipes_.svg"
                         // src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Disinfectant Wipes.svg"
                         alt="Core Values Image 1"
                       />
@@ -140,7 +140,7 @@ const Sanitizers = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Surface+Disinfectants.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Surface+Disinfectants_.svg"
                         // src="assets/images/activity-four/svg/Cleaning & Sanitizers/Health Care - Surface Disinfectants.svg"
                         alt="Core Values Image 1"
                       />

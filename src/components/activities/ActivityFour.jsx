@@ -129,9 +129,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Gate+Valves.svg"
-                        // src="assets/images/activity-four/svg/Gate Valves.svg"
-
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Gate+Valves_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -142,7 +140,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Butterfly+Valves.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Butterfly+Valves_.svg"
                         // src="assets/images/activity-four/svg/Butterfly Valves.svg"
 
                         alt="Core Values Image 1"
@@ -181,9 +179,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Globe+Valves.svg"
-                        // src="assets/images/activity-four/svg/Globe Valves.svg"
-
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Globe+Valves_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -194,9 +190,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Check+Valves.svg"
-                        // src="assets/images/activity-four/svg/Check Valves.svg"
-
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Check+Valves_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -232,9 +226,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Ball+Valves.svg"
-                        // src="assets/images/activity-four/svg/Ball Valves.svg"
-
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Ball+Valves_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -279,8 +271,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Steel+Pipes.svg"
-                        // src="assets/images/activity-four/svg/Steel Pipes.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Steel+Pipes_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -291,8 +282,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Stainless+Steel+Pipes.svg"
-                        // src="assets/images/activity-four/svg/Stainless Steel Pipes.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Stainless+Steel+Pipes_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -329,9 +319,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Alloy+Pipes.svg"
-                        // src="assets/images/activity-four/svg/Alloy Pipes.svg"
-
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Alloy+Pipes_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -376,8 +364,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Flanges.svg"
-                        // src="assets/images/activity-four/svg/Flanges.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Flanges_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -388,9 +375,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Couplings.svg"
-                        // src="assets/images/activity-four/svg/Couplings.svg"
-
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Couplings_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -426,8 +411,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Elbows.svg"
-                        // src="assets/images/activity-four/svg/Elbows.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Elbows_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -438,7 +422,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Tees+and+Crosses.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Tees+and+Crosses_.svg"
                         // src="assets/images/activity-four/svg/Tees and Crosses.svg"
                         alt="Core Values Image 1"
                       />
@@ -474,7 +458,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Reducers.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Reducers_.svg"
                         // src="assets/images/activity-four/svg/Reducers.svg"
                         alt="Core Values Image 1"
                       />
@@ -486,7 +470,7 @@ const ActivityFour = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Unions.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Unions_.svg"
                         // src="assets/images/activity-four/svg/Unions.svg"
 
                         alt="Core Values Image 1"
@@ -924,7 +908,7 @@ const ActivityFour = () => {
                         className="w-100"
                         src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Leak+Detection+Systems.svg"
                         // src="assets/images/activity-four/svg/Leak Detection Systems.svg"
-                        
+
                         alt="Core Values Image 1"
                       />
                     </figure>

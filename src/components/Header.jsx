@@ -1,36 +1,9 @@
 // import { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
- document.addEventListener('DOMContentLoaded', () => {
-   const menuContainer = document.querySelector('.mobile-nav ul'); // Parent container of the menu items
-
-   menuContainer.addEventListener('click', function (e) {
-     const clickedItem = e.target.closest('li.menu-item-has-children'); // Get the closest menu item
-
-     if (!clickedItem) return; // Exit if clicked element is not a menu item
-
-     // If the clicked item is already active, just toggle it
-     if (clickedItem.classList.contains('active')) {
-       clickedItem.classList.remove('active');
-     } else {
-       // Remove 'active' class from all other menu items
-       menuContainer
-         .querySelectorAll('li.menu-item-has-children.active')
-         .forEach((item) => {
-           item.classList.remove('active');
-         });
-
-       // Add 'active' class to the clicked item
-       clickedItem.classList.add('active');
-     }
-
-     // Prevent the default action and stop event propagation
-     e.preventDefault();
-     e.stopPropagation();
-   });
- });
-
+  // ---------------------------------------
 
   return (
     <>
@@ -65,17 +38,6 @@ const Header = () => {
                           <li className="">
                             {/* <li className="menu-item-has-children"> */}
                             <a href="/">Home</a>
-                            {/* <ul className="sub-menu">
-                              <li>
-                                <a href="index.html">Home One</a>
-                              </li>
-                              <li>
-                                <a href="index-2.html">Home Two</a>
-                              </li>
-                              <li>
-                                <a href="index-3.html">Home Three</a>
-                              </li>
-                            </ul> */}
                           </li>
                           <li className="menu-item-has-children">
                             {/* <Link to={'/about'}> */}
@@ -551,7 +513,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-
+            {/* -------------mobile--------------------------- */}
             <div className="mobile-nav" id="mobile-nav">
               <div className="res-log">
                 <a href="/">
@@ -675,7 +637,7 @@ const Header = () => {
                 <li className="menu-item-has-children">
                   <Link to={'javascript:void(0)'}>
                     <a
-                      href="/activities"
+                      href="javascript:void(0)"
                       className="mobile-li-a"
                       style={{ color: 'white' }}
                     >
@@ -937,6 +899,7 @@ const Header = () => {
               </ul>
               <a href="javascript:void(0)" id="res-cross" />
             </div>
+            {/* ----------------------desktop menu-------------------------------------- */}
             <div className="mobile-nav desktop-menu">
               <h2>
                 Think Products, Think Us{' '}

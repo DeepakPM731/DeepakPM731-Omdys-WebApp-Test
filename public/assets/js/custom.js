@@ -724,6 +724,11 @@ jQuery(document).ready(function ($) {
   //         }
   //     });
 
+  // ----------------test navbar---------------
+ 
+
+  // ----------------test navbar---------------
+
   // Preloader
   $(window).on('load', function () {
     $('body').addClass('page-loaded');

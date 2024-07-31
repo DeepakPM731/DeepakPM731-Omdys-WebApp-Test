@@ -63,7 +63,7 @@ const EyeProtection = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Saftey+Goggles.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Saftey+Goggles_.svg"
                         // src="assets/images/activity-four/svg/eye/Health Care - Saftey Goggles.svg"
                         alt="Core Values Image 1"
                       />
@@ -118,7 +118,7 @@ const EyeProtection = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Face+Shield.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Health+Care+-+Face+Shield_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

@@ -28,7 +28,7 @@ const CoreValues = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>Core Values</h2>
-                <p>Our values have vaulted us to the top of our industry.</p>
+                <p>OUR VALUES HAVE VAULTED US TO THE TOP OF OUR INDUSTRY.</p>
                 <br />
               </div>
             </div>

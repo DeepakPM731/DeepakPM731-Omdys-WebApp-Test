@@ -79,7 +79,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Heavy-Duty+Pipe+Wrenches.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Heavy-Duty+Pipe+Wrenches_.svg"
                         // src="assets/images/activity-four/svg/construction/Plumbing Tools - Heavy-Duty Pipe Wrenches.svg"
                         alt="Core Values Image 1"
                       />
@@ -91,7 +91,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Standard+Plungers.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Standard+Plungers_.svg"
                         // src="assets/images/activity-four/svg/construction/Plumbing Tools - Standard Plungers.svg"
                         alt="Core Values Image 1"
                       />
@@ -123,7 +123,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Ratchet+Pipe+Cutters.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Ratchet+Pipe+Cutters_.svg"
                         // src="assets/images/activity-four/svg/construction/Plumbing Tools - Ratchet Pipe Cutters.svg"
 
                         alt="Core Values Image 1"
@@ -136,7 +136,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Manual+Pipe+Threaders.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Manual+Pipe+Threaders_.svg"
                         // src="assets/images/activity-four/svg/construction/Plumbing Tools - Manual Pipe Threaders.svg"
 
                         alt="Core Values Image 1"
@@ -170,7 +170,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Drain+Snakes.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Drain+Snakes_.svg"
                         // src="assets/images/activity-four/svg/construction/Plumbing Tools - Drain Snakes.svg"
 
                         alt="Core Values Image 1"
@@ -183,7 +183,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Propane+Torches.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Propane+Torches_.svg"
                         // src="assets/images/activity-four/svg/construction/Plumbing Tools - Propane Torches.svg"
 
                         alt="Core Values Image 1"
@@ -218,7 +218,7 @@ const PlumbingTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Basin+Wrenches.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Plumbing+Tools+-+Basin+Wrenches_.svg"
                         // src="assets/images/activity-four/svg/construction/Plumbing Tools - Basin Wrenches.svg"
 
                         alt="Core Values Image 1"

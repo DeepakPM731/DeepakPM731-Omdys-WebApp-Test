@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const TermConditions = () => {
+  const returnsRef = useRef(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const section = params.get('section');
+
+    if (section === 'returns') {
+      returnsRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [location]);
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>
@@ -121,7 +133,7 @@ const TermConditions = () => {
           customers are responsible for any bank charges or fees incurred during
           the payment process.
         </p>
-        <br />
+        <br ref={returnsRef} />
         <h4 style={{ marginBottom: '1%' }}>Shipping and Delivery:</h4>
         <p>
           We strive to deliver products on time. However, delivery times may

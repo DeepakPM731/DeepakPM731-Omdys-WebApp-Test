@@ -93,7 +93,7 @@ const Pipes = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Steel+Pipes.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Steel+Pipes_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -104,7 +104,7 @@ const Pipes = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Stainless+Steel+Pipes.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Stainless+Steel+Pipes_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -141,7 +141,7 @@ const Pipes = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Alloy+Pipes.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Alloy+Pipes_.svg"
                         alt="Core Values Image 1"
                       />
                     </figure>

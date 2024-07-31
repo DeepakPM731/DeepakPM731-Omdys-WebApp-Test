@@ -143,9 +143,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Integrated+Circuits+(ICs).svg"
-                          // src="assets/images/activity-four/svg/log/Integrated Circuits (ICs).svg"
-
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Integrated+Circuits+(ICs)_-.svg"
                           alt="Core Values Image 1"
                         />
                       </figure>
@@ -156,7 +154,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Passive+Components+(2).svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Passive+Components+(2)_-.svg"
                           // src="assets/images/activity-four/svg/log/Passive Components (2).svg"
 
                           alt="Core Values Image 1"
@@ -188,7 +186,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Active+Components+(2).svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Active+Components_-.svg"
                           // src="assets/images/activity-four/svg/log/Active Components (2).svg"
                           alt="Core Values Image 1"
                         />
@@ -200,7 +198,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Connectors+and+Cables.svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Connectors+and+Cables_-.svg"
                           // src="assets/images/activity-four/svg/log/Connectors and Cables.svg"
                           alt="Core Values Image 1"
                         />
@@ -234,7 +232,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Sensors+and+Modules.svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Sensors+and+Modules-%2B.svg"
                           // src="assets/images/activity-four/svg/log/Sensors and Modules.svg"
                           alt="Core Values Image 1"
                         />
@@ -246,7 +244,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/LEDs+and+Displays.svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/LEDs+and+Displays_-.svg"
                           // src="assets/images/activity-four/svg/log/LEDs and Displays.svg"
                           alt="Core Values Image 1"
                         />
@@ -276,7 +274,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Supplies+and+Batteries.svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Supplies+and+Batteries-_.svg"
                           // src="assets/images/activity-four/svg/log/Power Supplies and Batteries.svg"
                           alt="Core Values Image 1"
                         />
@@ -288,7 +286,7 @@ const ActivityTwo = () => {
                       <figure>
                         <img
                           className="w-100"
-                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Switches+and+Relays.svg"
+                          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Switches+and+Relays_-.svg"
                           // src="assets/images/activity-four/svg/log/Switches and Relays.svg"
                           alt="Core Values Image 1"
                         />

@@ -89,7 +89,7 @@ const PowerTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Drills.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Drills_.svg"
                         // src="assets/images/activity-four/svg/construction/Power Tools - Drills.svg"
 
                         alt="Core Values Image 1"
@@ -102,7 +102,7 @@ const PowerTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Saws.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Saws_.svg"
                         // src="assets/images/activity-four/svg/construction/Power Tools - Saws.svg"
 
                         alt="Core Values Image 1"
@@ -150,7 +150,7 @@ const PowerTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Grinders.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Grinders_.svg"
                         // src="assets/images/activity-four/svg/construction/Power Tools - Grinders.svg"
 
                         alt="Core Values Image 1"
@@ -163,7 +163,7 @@ const PowerTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Sanders.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Sanders_.svg"
                         // src="assets/images/activity-four/svg/construction/Power Tools - Sanders.svg"
 
                         alt="Core Values Image 1"
@@ -206,7 +206,7 @@ const PowerTools = () => {
                     <figure>
                       <img
                         className="w-100"
-                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Impact+Drivers.svg"
+                        src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/Power+Tools+-+Impact+Drivers_.svg"
                         // src="assets/images/activity-four/svg/construction/Power Tools - Impact Drivers.svg"
 
                         alt="Core Values Image 1"
