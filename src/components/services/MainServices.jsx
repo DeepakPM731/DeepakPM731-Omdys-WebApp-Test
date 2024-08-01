@@ -90,14 +90,14 @@ const MainServices = () => {
                     <div className="data">
                       <h3>Oil & Gas Equipment Supply</h3>
                       <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                        Our portfolio includes various petroleum and
-                        petrochemical products, imported to ensure quality and
-                        competitive pricing. These products are vital for
-                        industries such as energy, manufacturing, and
-                        transportation. Our expertise in sourcing and logistics
-                        allows us to meet the diverse needs of these industries,
-                        providing essential materials that support their
-                        operations.
+                        We specialize in exporting a range of petroleum and
+                        petrochemical products to GCC and other Asian countries,
+                        ensuring high quality and competitive pricing. These
+                        products are crucial for industries like energy,
+                        manufacturing, and transportation. Our expertise in
+                        sourcing and logistics enables us to meet the diverse
+                        needs of these industries, supplying essential materials
+                        that support their operations.
                         <br />
                         <a href="/activity-four">( Know More )</a>
                       </p>
@@ -177,13 +177,14 @@ const MainServices = () => {
                     <div className="data">
                       <h3>Construction Tools & Safety Equipments</h3>
                       <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                        We import a wide selection of construction tools and
+                        We export a wide selection of construction tools and
                         equipment essential for the industrial and construction
-                        sectors. Known for their reliability and durability, our
-                        products adhere to international quality standards.
-                        Leveraging our strategic position, we efficiently
-                        distribute these tools and equipment to construction
-                        projects and industrial sites throughout the region.
+                        sectors to GCC and other Asian countries. Known for
+                        their reliability and durability, our products meet
+                        international quality standards. Leveraging our
+                        strategic position, we efficiently distribute these
+                        tools and equipment to construction projects and
+                        industrial sites across the region.
                         <br />
                         <a href="/activity-three">( Know More )</a>
                       </p>

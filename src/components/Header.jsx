@@ -218,7 +218,8 @@ const Header = () => {
                           </li>
                           <li className="menu-item-has-children">
                             <Link to={'javascript:void(0)'}>
-                              <a href="/activities">Products</a>
+                              <a href="javascript:void(0)">Products</a>
+                              {/* <a href="/activities">Products</a> */}
                             </Link>
                             {/* <ul className="sub-menu">
                               <li className="menu-item-has-children">
@@ -233,7 +234,8 @@ const Header = () => {
 
                               <li className="menu-item-has-children">
                                 {/* <Link to={'/activity-five'}> */}
-                                <a href="/activity-four">
+                                <a href="javascript:void(0)">
+                                  {/* <a href="/activity-four"> */}
                                   Oil & Gas Equipments Supply
                                 </a>
                                 {/* </Link> */}
@@ -276,7 +278,8 @@ const Header = () => {
 
                               <li className="menu-item-has-children">
                                 {/* <Link to={'/activity-two'}> */}
-                                <a href="/activity-two">
+                                <a href="javascript:void(0)">
+                                  {/* <a href="/activity-two"> */}
                                   Electronics Components
                                 </a>
                                 {/* </Link> */}
@@ -319,7 +322,8 @@ const Header = () => {
 
                               <li className="menu-item-has-children">
                                 {/* <Link to={'/activity-five'}> */}
-                                <a href="/activity-five">
+                                {/* <a href="/activity-five"> */}
+                                <a href="javascript:void(0)">
                                   Health Care PPE Products
                                 </a>
                                 {/* </Link> */}
@@ -350,7 +354,8 @@ const Header = () => {
 
                               <li className="menu-item-has-children">
                                 {/* <Link to={'/activity-three'}> */}
-                                <a href="/activity-three">
+                                {/* <a href="/activity-three"> */}
+                                <a href="javascript:void(0)">
                                   Construction Tools & Safety Equipments
                                 </a>
                                 {/* </Link> */}
@@ -395,7 +400,10 @@ const Header = () => {
                               {/* printing solutions */}
 
                               <li className="menu-item-has-children">
-                                <a href="/activity-one">Printing Solutions</a>
+                                {/* <a href="/activity-one">Printing Solutions</a> */}
+                                <a href="javascript:void(0)">
+                                  Printing Solutions
+                                </a>
                                 <ul className="sub-menu">
                                   <li>
                                     <a href="/ecosolvent">Eco-Solvent Inks</a>

@@ -136,8 +136,8 @@ const CSR = () => {
             <h4 style={{ marginTop: '10px' }}>Ethical Business</h4>
             <p>
               {' '}
-              We conduct our business with integrity and transparency. By
-              working together, we can build a brighter future for all.
+              We conduct business with integrity and transparency, working
+              together to build a brighter future.
             </p>
           </div>
 
