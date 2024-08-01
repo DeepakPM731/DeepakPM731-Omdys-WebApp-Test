@@ -151,7 +151,9 @@ const ContactForm = () => {
       setErrors(newErrors);
     }
   };
-
+  const handleShowReturns = () => {
+    window.open('/terms?section=returns', '_blank');
+  };
   return (
     <>
       <>
@@ -1747,7 +1749,8 @@ const ContactForm = () => {
                                       replacements as needed. For more
                                       information, please follow the link for
                                       complete details on the return process:{' '}
-                                      <span
+                                      <a
+                                        href=""
                                         style={{
                                           color: 'blue',
                                           fontWeight: 'bold',
@@ -1756,7 +1759,7 @@ const ContactForm = () => {
                                         onClick={handleShowReturns}
                                       >
                                         Returns & Refunds
-                                      </span>
+                                      </a>
                                     </p>
                                   </div>
                                 </div>
@@ -2142,7 +2145,8 @@ const ContactForm = () => {
                                       return process. For more information,
                                       please follow the link for complete
                                       details on the return process:{' '}
-                                      <span
+                                      <a
+                                        href=""
                                         style={{
                                           color: 'blue',
                                           fontWeight: 'bold',
@@ -2151,7 +2155,7 @@ const ContactForm = () => {
                                         onClick={handleShowReturns}
                                       >
                                         Returns & Refunds
-                                      </span>
+                                      </a>
                                     </p>
                                   </div>
                                 </div>

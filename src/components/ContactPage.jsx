@@ -1809,7 +1809,8 @@ const ContactPage = () => {
                                       replacements as needed. For more
                                       information, please follow the link for
                                       complete details on the return process:{' '}
-                                      <span
+                                      <a
+                                        href=""
                                         style={{
                                           color: 'blue',
                                           fontWeight: 'bold',
@@ -1818,7 +1819,7 @@ const ContactPage = () => {
                                         onClick={handleShowReturns}
                                       >
                                         Returns & Refunds
-                                      </span>
+                                      </a>
                                     </p>
                                   </div>
                                 </div>
@@ -2204,7 +2205,8 @@ const ContactPage = () => {
                                       return process. For more information,
                                       please follow the link for complete
                                       details on the return process:{' '}
-                                      <span
+                                      <a
+                                        href=""
                                         style={{
                                           color: 'blue',
                                           fontWeight: 'bold',
@@ -2213,7 +2215,7 @@ const ContactPage = () => {
                                         onClick={handleShowReturns}
                                       >
                                         Returns & Refunds
-                                      </span>
+                                      </a>
                                     </p>
                                   </div>
                                 </div>
@@ -2688,8 +2690,8 @@ const ContactPage = () => {
                                     aria-expanded="false"
                                     aria-controls="nestedCollapse-1-1"
                                   >
-                                    1. What types of construction tools and safety
-                                    equipment do you source?
+                                    1. What types of construction tools and
+                                    safety equipment do you source?
                                   </button>
                                 </h2>
                                 <div
