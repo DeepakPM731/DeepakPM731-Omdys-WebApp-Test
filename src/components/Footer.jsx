@@ -378,8 +378,15 @@ const Footer = () => {
                 </p>
                 <br />
                 <div className="social-medias">
-                  <a href="javascript:void(0)">Facebook</a>
-                  <a href="javascript:void(0)">Instagram</a>
+                  <a
+                    href="https://www.facebook.com/people/OMDYS-International-LLP/61563817135198/"
+                    target="_blank"
+                  >
+                    Facebook
+                  </a>
+                  <a href="https://www.instagram.com/omdys_international/" target='_blank'>
+                    Instagram
+                  </a>
                   <a
                     href="https://www.linkedin.com/company/omdys-international-llp/"
                     target="_blank"

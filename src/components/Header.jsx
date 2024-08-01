@@ -938,8 +938,16 @@ const Header = () => {
                 >
                   Linkedin
                 </a>
-                <a href="">Facebook</a>
-                <a href="" style={{ borderBottom: ' 1px solid #6a6a6a' }}>
+                <a
+                  href="https://www.facebook.com/people/OMDYS-International-LLP/61563817135198/"
+                  target="_blank"
+                >
+                  Facebook
+                </a>
+                <a
+                  href="https://www.instagram.com/omdys_international/" target='_blank'
+                  style={{ borderBottom: ' 1px solid #6a6a6a' }}
+                >
                   Instagram
                 </a>
               </div>

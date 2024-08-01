@@ -653,13 +653,13 @@ const ContactPage = () => {
                   </ul>
                   <ul className="social-medias">
                     <li>
-                      <a className="fb" href="javascript:void(0)">
+                      <a className="fb" href="https://www.facebook.com/people/OMDYS-International-LLP/61563817135198/" target='_blank'>
                         <p>Facebook</p>
                         <i className="fa-brands fa-facebook" />
                       </a>
                     </li>
                     <li>
-                      <a className="in" href="javascript:void(0)">
+                      <a className="in" href="https://www.instagram.com/omdys_international/" target='_blank'>
                         <p>Instagram</p>
                         <i className="fa-brands fa-instagram" />
                       </a>

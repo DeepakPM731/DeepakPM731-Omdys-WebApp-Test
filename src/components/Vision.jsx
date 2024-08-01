@@ -22,9 +22,9 @@ const Vision = () => {
                   <a href="javascript:void(0)">AIM</a>
                 </h3>
                 <p>
-                  To be the trusted partner for seamless international trade,
-                  exceeding customer expectations by delivering high-quality
-                  products and exceptional service at competitive prices
+                  To be the trusted partner in domestic and international trade,
+                  exceeding expectations with high-quality products, exceptional
+                  service, and competitive prices.
                 </p>
                 <a className="icon" href="javascript:void(0)">
                   <i className="fa-solid fa-angles-right" />
@@ -49,8 +49,9 @@ const Vision = () => {
                   <a href="javascript:void(0)">VISION</a>
                 </h3>
                 <p>
-                  To empower our clients to achieve their business goals through
-                  unparalleled expertise and unwavering dedication
+                  To empower our clients in achieving their business goals with
+                  our unmatched expertise and steadfast dedication to their
+                  success and satisfaction
                 </p>
                 <a className="icon" href="javascript:void(0)">
                   <i className="fa-solid fa-angles-right" />
@@ -75,8 +76,9 @@ const Vision = () => {
                   <a href="javascript:void(0)">PROMISE</a>
                 </h3>
                 <p>
-                  Your global trading partner, committed to delivering
-                  exceptional value and seamless experiences
+                  Your global trading partner, dedicated to delivering
+                  exceptional value and providing seamless, unparalleled
+                  experiences in every transaction.
                 </p>
                 <a className="icon" href="javascript:void(0)">
                   <i className="fa-solid fa-angles-right" />
