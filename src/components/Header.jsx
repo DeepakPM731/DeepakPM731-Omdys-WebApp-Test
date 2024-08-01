@@ -917,20 +917,22 @@ const Header = () => {
                 />
               </figure>
               <h3>Get in touch</h3>
-              <a href="tel:+91 84310 6789 3">
+              <a href="tel:+91 84310 6789 3" target="">
                 <p className="num">+91 84310 6789 3</p>
               </a>
               <p className="adrs">
                 #614, Phase 10, RK Hudco,Hosur, Tamil Nadu, India
               </p>
               <div className="social-medias">
-                <a href="javascript:void(0)">Facebook</a>
-                <a href="javascript:void(0)">Twitter</a>
                 <a
                   href="https://www.linkedin.com/company/omdys-international-llp/"
                   target="_blank"
                 >
                   Linkedin
+                </a>
+                <a href="">Facebook</a>
+                <a href="" style={{ borderBottom: ' 1px solid #6a6a6a' }}>
+                  Instagram
                 </a>
               </div>
             </div>
