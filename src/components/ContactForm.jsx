@@ -711,19 +711,24 @@ const ContactForm = () => {
                   //   overflowY: 'hidden', // Default to hidden scrolling
                   // }}
                 >
-                  <button
-                    className={`dropdown-item ${
-                      activeAccordion === 1 ? 'active' : ''
-                    }`}
-                    onClick={() =>
-                      handleAccordionToggle(1, 'Printing Solutions')
-                    }
-                    style={{ fontWeight: '600', textAlign: 'center' }}
-                  >
-                    Printing Solutions
-                  </button>
                   {/* <hr style={{ marginTop: '-8px' }} /> */}
                   {/* Repeat the same for other buttons */}
+                  <button
+                    className={`dropdown-item ${
+                      activeAccordion === 4 ? 'active' : ''
+                    }`}
+                    onClick={() =>
+                      handleAccordionToggle(4, 'Oil & Gas Equipments Supply')
+                    }
+                    style={{
+                      whiteSpace: 'normal' /* Allow the text to wrap */,
+                      wordWrap: 'break-word',
+                      fontWeight: '600',
+                      textAlign: 'center',
+                    }}
+                  >
+                    Oil & Gas Equipments Supply
+                  </button>
                   <button
                     className={`dropdown-item ${
                       activeAccordion === 2 ? 'active' : ''
@@ -749,16 +754,7 @@ const ContactForm = () => {
                   </button>
                   {/* <hr style={{ marginTop: '-8px' }} /> */}
                   {/* Repeat the same for the remaining buttons */}
-                  {/* <button
-                    className={`dropdown-item ${
-                      activeAccordion === 4 ? 'active' : ''
-                    }`}
-                    onClick={() =>
-                      handleAccordionToggle(4, 'Industrial Chemical Products')
-                    }
-                  >
-                    Industrial Chemical Products
-                  </button> */}
+
                   <button
                     className={`dropdown-item ${
                       activeAccordion === 5 ? 'active' : ''
@@ -766,7 +762,7 @@ const ContactForm = () => {
                     onClick={() =>
                       handleAccordionToggle(
                         5,
-                        'Industrial Construction Tools and Equipment'
+                        'Construction Tools and Safety Equipment'
                       )
                     }
                     style={{
@@ -776,23 +772,19 @@ const ContactForm = () => {
                       textAlign: 'center',
                     }}
                   >
-                    Industrial Construction Tools and Equipment
+                    Construction Tools and Safety Equipments
                   </button>
+
                   <button
                     className={`dropdown-item ${
-                      activeAccordion === 4 ? 'active' : ''
+                      activeAccordion === 1 ? 'active' : ''
                     }`}
                     onClick={() =>
-                      handleAccordionToggle(4, 'Oil & Gas Equipments Supply')
+                      handleAccordionToggle(1, 'Printing Solutions')
                     }
-                    style={{
-                      whiteSpace: 'normal' /* Allow the text to wrap */,
-                      wordWrap: 'break-word',
-                      fontWeight: '600',
-                      textAlign: 'center',
-                    }}
+                    style={{ fontWeight: '600', textAlign: 'center' }}
                   >
-                    Oil & Gas Equipments Supply
+                    Printing Solutions
                   </button>
                   {/* <button
                     className={`dropdown-item ${
@@ -820,10 +812,9 @@ const ContactForm = () => {
                     {activeAccordion === 1 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-1">
-                          <button
+                          {/* <button
                             className="accordion-button"
                             type="button"
-                            // onClick={() => handleAccordionToggle(1)}
                             aria-expanded={
                               activeAccordion === 1 ? 'true' : 'false'
                             }
@@ -831,7 +822,7 @@ const ContactForm = () => {
                             style={{}}
                           >
                             Printing Solutions
-                          </button>
+                          </button> */}
                         </h2>
                         <div
                           id="collapse-1"
@@ -1450,17 +1441,16 @@ const ContactForm = () => {
                     {activeAccordion === 2 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-2">
-                          <button
+                          {/* <button
                             className="accordion-button"
                             type="button"
-                            // onClick={() => handleAccordionToggle(2)}
                             aria-expanded={
                               activeAccordion === 2 ? 'true' : 'false'
                             }
                             aria-controls="collapse-2"
                           >
                             Electronics components
-                          </button>
+                          </button> */}
                         </h2>
                         <div
                           id="collapse-2"
@@ -1747,7 +1737,7 @@ const ContactForm = () => {
                                   data-bs-parent="#nestedAccordion-1"
                                 >
                                   <div className="accordion-body">
-                                    <p>
+                                    <p style={{}}>
                                       We have a comprehensive return policy in
                                       place to address any issues with the
                                       components we supply. If a component is
@@ -1757,7 +1747,16 @@ const ContactForm = () => {
                                       replacements as needed. For more
                                       information, please follow the link for
                                       complete details on the return process:{' '}
-                                      <a href="/terms">Terms & Conditions</a>
+                                      <span
+                                        style={{
+                                          color: 'blue',
+                                          fontWeight: 'bold',
+                                          fontSize: '16px',
+                                        }}
+                                        onClick={handleShowReturns}
+                                      >
+                                        Returns & Refunds
+                                      </span>
                                     </p>
                                   </div>
                                 </div>
@@ -1808,17 +1807,16 @@ const ContactForm = () => {
                     {activeAccordion === 3 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-3">
-                          <button
+                          {/* <button
                             className="accordion-button"
                             type="button"
-                            // onClick={() => handleAccordionToggle(3)}
                             aria-expanded={
                               activeAccordion === 3 ? 'true' : 'false'
                             }
                             aria-controls="collapse-3"
                           >
                             Health Care Products
-                          </button>
+                          </button> */}
                         </h2>
                         <div
                           id="collapse-3"
@@ -2144,7 +2142,16 @@ const ContactForm = () => {
                                       return process. For more information,
                                       please follow the link for complete
                                       details on the return process:{' '}
-                                      <a href="/terms">Terms & Conditions</a>
+                                      <span
+                                        style={{
+                                          color: 'blue',
+                                          fontWeight: 'bold',
+                                          fontSize: '16px',
+                                        }}
+                                        onClick={handleShowReturns}
+                                      >
+                                        Returns & Refunds
+                                      </span>
                                     </p>
                                   </div>
                                 </div>
@@ -2194,17 +2201,16 @@ const ContactForm = () => {
                     {activeAccordion === 4 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-4">
-                          <button
+                          {/* <button
                             className="accordion-button"
                             type="button"
-                            // onClick={() => handleAccordionToggle(4)}
                             aria-expanded={
                               activeAccordion === 4 ? 'true' : 'false'
                             }
                             aria-controls="collapse-4"
                           >
                             Oil & Gas Equipment Supply
-                          </button>
+                          </button> */}
                         </h2>
                         <div
                           id="collapse-4"
@@ -2584,17 +2590,16 @@ const ContactForm = () => {
                     {activeAccordion === 5 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-5">
-                          <button
+                          {/* <button
                             className="accordion-button"
                             type="button"
-                            // onClick={() => handleAccordionToggle(5)}
                             aria-expanded={
                               activeAccordion === 5 ? 'true' : 'false'
                             }
                             aria-controls="collapse-5"
                           >
-                            Industrial Construction Tools and Equipment's
-                          </button>
+                            Construction Tools and Safety Equipment's
+                          </button> */}
                         </h2>
                         <div
                           id="collapse-5"
@@ -2622,7 +2627,7 @@ const ContactForm = () => {
                                     aria-controls="nestedCollapse-1-1"
                                   >
                                     1. What types of construction tools and
-                                    equipment do you source?
+                                    safety equipment do you source?
                                   </button>
                                 </h2>
                                 <div
