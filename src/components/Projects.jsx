@@ -11,7 +11,7 @@ const Projects = () => {
         nav: true,
         items: 1,
       });
-    }, 300); // Delay initialization
+    }, 300); 
   }, []);
   useEffect(() => {
     const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);

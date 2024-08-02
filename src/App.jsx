@@ -67,18 +67,11 @@ import TermConditions from './components/TermConditions';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Chat from './components/Chat';
 import Redirections from './components/Redirections';
+import Testimonials from './components/Testimonials';
 
 const App = () => {
   const [showChat, setShowChat] = useState(false);
   useEffect(() => {
-    setTimeout(() => {
-      window.$('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        items: 1,
-      });
-    }, 300); // Delay initialization
     const currentTime = new Date().getTime();
     sessionStorage.setItem('entryTime', currentTime.toString());
 
@@ -107,7 +100,7 @@ const App = () => {
         nav: true,
         items: 1,
       });
-    }, 300); // Delay initialization
+    }, 300); 
   }, []);
 
   return (
@@ -131,6 +124,7 @@ const App = () => {
           <Route path="/service-three" element={<ServiceThree />} />
           <Route path="/service-four" element={<ServiceFour />} />
           <Route path="/activities" element={<Activities />} />
+          <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/chat" element={<Chat />} />
           <Route path="/connect" element={<Redirections />} />
 

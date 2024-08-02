@@ -436,6 +436,14 @@
     text-align: center;
   }
 }
+@media screen and (min-width: 480px) {
+  .testimonialPara {
+    margin-left: 6%;
+  }
+}
+/* .testimonialPara {
+    margin-left: 6%;
+  } */
 /* ------------------slide button--------------------- */
 /* #nextSlide:hover {
   background-color: #ffee02; 
