@@ -1,7 +1,7 @@
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import {
   BrowserRouter as Router,
   Routes,
@@ -65,8 +65,39 @@ import CleaningSolution from './components/activities/activity-sub/activity-five
 import CSR from './components/CSR';
 import TermConditions from './components/TermConditions';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import Chat from './components/Chat';
 
 const App = () => {
+  const [showChat, setShowChat] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      window.$('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        items: 1,
+      });
+    }, 300); // Delay initialization
+    const currentTime = new Date().getTime();
+    sessionStorage.setItem('entryTime', currentTime.toString());
+
+    const checkChatVisibility = () => {
+      const storedTime = parseInt(sessionStorage.getItem('entryTime'), 10);
+      const currentTime = new Date().getTime();
+      const timeDifference = (currentTime - storedTime) / 1000; // Convert to seconds
+
+      if (timeDifference >= 10) {
+        setShowChat(true);
+      } else {
+        setTimeout(() => {
+          setShowChat(true);
+        }, (10 - timeDifference) * 1000);
+      }
+    };
+
+    checkChatVisibility();
+  }, []);
+
   useEffect(() => {
     setTimeout(() => {
       window.$('.owl-carousel').owlCarousel({
@@ -99,6 +130,7 @@ const App = () => {
           <Route path="/service-three" element={<ServiceThree />} />
           <Route path="/service-four" element={<ServiceFour />} />
           <Route path="/activities" element={<Activities />} />
+          <Route path="/chat" element={<Chat />} />
 
           <Route path="/activity-one" element={<ActivityOne />} />
           <Route path="/activity-two" element={<ActivityTwo />} />
@@ -162,6 +194,8 @@ const App = () => {
 
           {/* -------------activity-five-sub ends------------ */}
         </Routes>
+        <Chat />
+        {/* {showChat && <Chat />} */}
         <Footer />
       </Router>
     </>

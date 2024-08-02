@@ -1117,8 +1117,8 @@ button.scrollTopStick {
   border-radius: 100%;
   border: 0;
   position: fixed;
-  bottom: 50px;
-  right: 50px;
+  bottom: 20px;
+  left: 50px;
   opacity: 0;
   visibility: hidden;
   transform: translateY(30px);
