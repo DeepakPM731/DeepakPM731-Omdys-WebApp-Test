@@ -66,6 +66,7 @@ import CSR from './components/CSR';
 import TermConditions from './components/TermConditions';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Chat from './components/Chat';
+import Redirections from './components/Redirections';
 
 const App = () => {
   const [showChat, setShowChat] = useState(false);
@@ -131,6 +132,7 @@ const App = () => {
           <Route path="/service-four" element={<ServiceFour />} />
           <Route path="/activities" element={<Activities />} />
           <Route path="/chat" element={<Chat />} />
+          <Route path="/connect" element={<Redirections />} />
 
           <Route path="/activity-one" element={<ActivityOne />} />
           <Route path="/activity-two" element={<ActivityTwo />} />
