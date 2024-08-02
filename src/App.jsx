@@ -70,28 +70,69 @@ import Redirections from './components/Redirections';
 import Testimonials from './components/Testimonials';
 
 const App = () => {
+  // const [showChat, setShowChat] = useState(false);
+  // useEffect(() => {
+  //   const currentTime = new Date().getTime();
+  //   sessionStorage.setItem('entryTime', currentTime.toString());
+
+  //   const checkChatVisibility = () => {
+  //     const storedTime = parseInt(sessionStorage.getItem('entryTime'), 10);
+  //     const currentTime = new Date().getTime();
+  //     const timeDifference = (currentTime - storedTime) / 1000; // Convert to seconds
+
+  //     if (timeDifference >= 5) {
+  //       setShowChat(true);
+  //     } else {
+  //       setTimeout(() => {
+  //         setShowChat(true);
+  //       }, (5 - timeDifference) * 1000);
+  //     }
+  //   };
+
+  //   checkChatVisibility();
+  // }, []);
+  // =======================================
+
   const [showChat, setShowChat] = useState(false);
+
   useEffect(() => {
     const currentTime = new Date().getTime();
-    sessionStorage.setItem('entryTime', currentTime.toString());
+
+    // Check if 'chatVisible' is already set in sessionStorage
+    const chatVisible = sessionStorage.getItem('chatVisible');
+
+    // If 'chatVisible' is not set, store the entry time
+    if (!chatVisible) {
+      sessionStorage.setItem('entryTime', currentTime.toString());
+    }
 
     const checkChatVisibility = () => {
+      // If chatVisible is set to 'true', show chat immediately
+      if (chatVisible === 'true') {
+        setShowChat(true);
+        return;
+      }
+
       const storedTime = parseInt(sessionStorage.getItem('entryTime'), 10);
       const currentTime = new Date().getTime();
-      const timeDifference = (currentTime - storedTime) / 1000; // Convert to seconds
+      const timeDifference = (currentTime - storedTime) / 1000;
 
       if (timeDifference >= 10) {
         setShowChat(true);
+
+        sessionStorage.setItem('chatVisible', 'true');
       } else {
         setTimeout(() => {
           setShowChat(true);
+
+          sessionStorage.setItem('chatVisible', 'true');
         }, (10 - timeDifference) * 1000);
       }
     };
 
     checkChatVisibility();
   }, []);
-
+  // =======================================
   useEffect(() => {
     setTimeout(() => {
       window.$('.owl-carousel').owlCarousel({
@@ -100,7 +141,7 @@ const App = () => {
         nav: true,
         items: 1,
       });
-    }, 300); 
+    }, 300);
   }, []);
 
   return (
@@ -190,8 +231,8 @@ const App = () => {
 
           {/* -------------activity-five-sub ends------------ */}
         </Routes>
-        <Chat />
-        {/* {showChat && <Chat />} */}
+        {/* <Chat /> */}
+        {showChat && <Chat />}
         <Footer />
       </Router>
     </>
