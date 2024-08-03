@@ -2,16 +2,16 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const Testimonials = () => {
-    useEffect(() => {
-      setTimeout(() => {
-        window.$('.owl-carousel').owlCarousel({
-          loop: true,
-          margin: 10,
-          nav: true,
-          items: 1,
-        });
-      }, 300);
-    }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      window.$('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        items: 1,
+      });
+    }, 300);
+  }, []);
   return (
     <>
       <section className="gap project-style-one light-bg-color">
@@ -72,7 +72,6 @@ const Testimonials = () => {
                     OMDYS International LLP success in all their
                     future endeavors
                   </p>
-                  {/* <br /> */}
 
                   <a className="project-icon" href="javascript:void(0)">
                     <i className="fa-solid fa-angles-right" />
@@ -133,7 +132,6 @@ const Testimonials = () => {
                     partner. We highly recommend OMDYS International LLP and
                     wish them continued success in all their future endeavors
                   </p>
-                  {/* <br /> */}
 
                   <a className="project-icon" href="javascript:void(0)">
                     <i className="fa-solid fa-angles-right" />
@@ -141,12 +139,12 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-12">
+            {/* --------Noushad------- */}
+            {/* <div className="col-lg-12">
               <div className="project-post">
                 <figure>
                   <img
                     src="/assets/images/testimonials/1.svg"
-                    // src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
                     alt="project-img-2"
                     width={'300px'}
                     height={'300px'}
@@ -155,30 +153,7 @@ const Testimonials = () => {
                 </figure>
 
                 <div className="project-data">
-                  {/* <h3>
-                      
-                        <a href="javascript:void(0)">Mr Vipin P Varghese</a>
-                     
-                    </h3>
-                    <h6
-                      style={{
-                        textDecoration: 'none',
-                        color: 'grey',
-                        fontWeight: '500',
-                      }}
-                    >
-                      - Managing Director Kattoorans Engineering and Services,
-                    </h6>
-                    <h6
-                      style={{
-                        textDecoration: 'none',
-                        color: 'grey',
-                        fontWeight: '500',
-                      }}
-                    >
-                      {' '}
-                      &nbsp; &nbsp;BPCL - Vendor
-                    </h6> */}
+                 
                   <p
                     className="testimonialPara"
                     style={{
@@ -196,15 +171,17 @@ const Testimonials = () => {
                     professionalism. We highly recommend them for their reliable
                     and effective service.
                   </p>
-                  {/* <br /> */}
 
                   <a className="project-icon" href="javascript:void(0)">
                     <i className="fa-solid fa-angles-right" />
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-12">
+            </div> */}
+            {/* --------------------Noushad ends---------------- */}
+
+            {/* --------------------vipin vargheese---------------- */}
+            {/* <div className="col-lg-12">
               <div className="project-post">
                 <figure>
                   <img
@@ -235,16 +212,16 @@ const Testimonials = () => {
                     partnership and recommend them for their excellent service
                     and dependability.
                   </p>
-                  {/* <br /> */}
 
                   <a className="project-icon" href="javascript:void(0)">
                     <i className="fa-solid fa-angles-right" />
                   </a>
-                  {/* <br /> */}
                 </div>
               </div>
-            </div>
+            </div> */}
+            {/* ----------------------------vipin ends----------------------------- */}
 
+            
             {/* <div className="col-lg-12">
               <div className="project-post">
                 <figure>
