@@ -20,7 +20,8 @@ const Header = () => {
                           <figure>
                             <img
                               //   src="assets/images/Builty-Logo.svg"
-                              src="assets/images/OMDYS_LOGO_Horizontal.png"
+                              // src="assets/images/OMDYS_LOGO_Horizontal.png"
+                              src="assets/images/OMDYS LOGO - Horizontal-R.png"
                               //   width={'306'}
                               //   height={'75'}
                               width={'326'}
@@ -527,7 +528,8 @@ const Header = () => {
                 <a href="/">
                   <img
                     className="responsive-logo"
-                    src="assets/images/OMDYS_LOGO_Horizontal.png"
+                    // src="assets/images/OMDYS_LOGO_Horizontal.png"
+                    src="assets/images/OMDYS LOGO - Horizontal-R.png"
                     width={'230'}
                     height={'85'}
                     alt="Responsive Logo"
@@ -945,7 +947,8 @@ const Header = () => {
                   Facebook
                 </a>
                 <a
-                  href="https://www.instagram.com/omdys_international/" target='_blank'
+                  href="https://www.instagram.com/omdys_international/"
+                  target="_blank"
                   style={{ borderBottom: ' 1px solid #6a6a6a' }}
                 >
                   Instagram

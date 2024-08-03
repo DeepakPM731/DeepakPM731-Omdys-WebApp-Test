@@ -111,7 +111,8 @@ const Footer = () => {
                 <div className="footer-logo">
                   <a href="/">
                     <img
-                      src="assets/images/OMDYS_LOGO_Horizontal.png"
+                      // src="assets/images/OMDYS_LOGO_Horizontal.png"
+                      src="assets/images/OMDYS LOGO - Horizontal-R.png"
                       alt="logoo"
                       // width={'253'}
                       // height={'93'}
@@ -384,7 +385,10 @@ const Footer = () => {
                   >
                     Facebook
                   </a>
-                  <a href="https://www.instagram.com/omdys_international/" target='_blank'>
+                  <a
+                    href="https://www.instagram.com/omdys_international/"
+                    target="_blank"
+                  >
                     Instagram
                   </a>
                   <a
