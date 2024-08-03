@@ -210,7 +210,7 @@ const Testimonials = () => {
             </div>
             {/* ---------shamsudheen ends------- */}
 
-            {/* ---------Devarajan ------- */}
+            {/* ---------Devaraj ------- */}
             <div className="col-lg-12">
               <div className="project-post">
                 <figure>
@@ -256,14 +256,15 @@ const Testimonials = () => {
                       marginTop: '-6%',
                     }}
                   >
-                    OMDYS consistently provides timely supply and stock
-                    availability of high-quality, no-smell flex printing inks.
-                    Their technical expertise in repairing flex printing
-                    machinery is outstanding, ensuring minimal downtime. The
-                    inks' superior quality has enhanced our print outputs
-                    significantly. We are impressed with their reliable service
-                    and technical capabilities. Missing lines have disappeared,
-                    showcasing their commitment to excellence.
+                    OMDYS is our go-to for timely and reliable supply of
+                    premium, odorless flex printing inks. Their products always
+                    meets our demands, and their expertise in repairing flex
+                    printing machines ensures our operations run smoothly. The
+                    high-quality inks have significantly improved our prints,
+                    with no more missing lines. We appreciate their exceptional
+                    service and technical proficiency.
+                    <br />
+                    <br />
                   </p>
 
                   <a className="project-icon" href="javascript:void(0)">
