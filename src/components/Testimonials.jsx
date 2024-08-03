@@ -24,6 +24,7 @@ const Testimonials = () => {
         </div>
         <div className="container">
           <div className="row project-slider owl-carousel">
+            {/* -----------nazar---------- */}
             <div className="col-lg-12">
               <div className="project-post">
                 <figure>
@@ -63,14 +64,14 @@ const Testimonials = () => {
                       marginTop: '-6%',
                     }}
                   >
-                    It has been a privilege to work with OMDYS since 2014. Our
-                    collaborations on projects across Doha and Qatar have been
-                    incredibly successful. At Zoom Group of Companies, spanning
-                    trading, fabrications, and construction, we are consistently
-                    impressed with OMDYS's quality and punctuality. Their
-                    commitment to excellence sets them apart. We proudly wish
-                    OMDYS International LLP success in all their
-                    future endeavors
+                    Since 2014, working with OMDYS has been a privilege. Our
+                    successful collaborations on projects across Doha, Qatar,
+                    have greatly benefited from their high-quality materials and
+                    timely deliveries. At Zoom Group of Companies, where we
+                    focus on fabrication and construction, we are consistently
+                    impressed by OMDYS's exceptional service and commitment to
+                    excellence. We wish OMDYS International LLP continued
+                    success in the future.
                   </p>
 
                   <a className="project-icon" href="javascript:void(0)">
@@ -79,6 +80,9 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
+            {/* ------nazar ends------- */}
+
+            {/* ---------aneesh------ */}
             <div className="col-lg-12">
               <div className="project-post">
                 <figure>
@@ -124,13 +128,14 @@ const Testimonials = () => {
                       marginTop: '-6%',
                     }}
                   >
-                    I am pleased to commend OMDYS International LLP for their
-                    exceptional service and seamless cooperation. They
-                    consistently deliver high-quality products with remarkable
-                    punctuality, consistently surpassing our expectations. Their
-                    professionalism and reliability make them an invaluable
-                    partner. We highly recommend OMDYS International LLP and
-                    wish them continued success in all their future endeavors
+                    I am pleased to praise OMDYS International LLP for their
+                    excellent service in sourcing high-quality materials at
+                    competitive prices from India and other global markets.
+                    Their prompt delivery and efficient export services have
+                    been crucial to our business success. OMDYS consistently
+                    delivers top-notch products, ensuring we get the best return
+                    on our investment. Their professionalism and dedication to
+                    quality make them a trustworthy partner.
                   </p>
 
                   <a className="project-icon" href="javascript:void(0)">
@@ -139,6 +144,136 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
+            {/* ---------aneesh ends------ */}
+
+            {/* ---------shamsudheen------- */}
+            <div className="col-lg-12">
+              <div className="project-post">
+                <figure>
+                  <img
+                    // src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
+                    src="/assets/images/testimonials/5.svg"
+                    alt="project-img-1"
+                    width={'300px'}
+                    height={'300px'}
+                    style={{ objectFit: 'contain', backgroundColor: '#FFFFFF' }}
+                  />
+                </figure>
+
+                <div className="project-data">
+                  {/* <h3>
+                      
+                        <a href="project-detail.html">Mr Muhammed Aneesh </a>
+                     
+                    </h3>
+                    <h6
+                      style={{
+                        textDecoration: 'none',
+                        color: 'grey',
+                        fontWeight: '500',
+                      }}
+                    >
+                      - Managing Director Profixo Trading and Contracting,
+                    </h6>
+                    <h6
+                      style={{
+                        textDecoration: 'none',
+                        color: 'grey',
+                        fontWeight: '500',
+                      }}
+                    >
+                      &nbsp; &nbsp;Doha - State of Qatar
+                    </h6> */}
+                  <p
+                    className="testimonialPara"
+                    style={{
+                      textAlign: 'justify',
+                      fontSize: '14px',
+                      marginTop: '-6%',
+                    }}
+                  >
+                    OMDYS consistently provides timely supply and stock
+                    availability of high-quality, no-smell flex printing inks.
+                    Their technical expertise in repairing flex printing
+                    machinery is outstanding, ensuring minimal downtime. The
+                    inks' superior quality has enhanced our print outputs
+                    significantly. We are impressed with their reliable service
+                    and technical capabilities. Missing lines have disappeared,
+                    showcasing their commitment to excellence.
+                  </p>
+
+                  <a className="project-icon" href="javascript:void(0)">
+                    <i className="fa-solid fa-angles-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* ---------shamsudheen ends------- */}
+
+            {/* ---------Devarajan ------- */}
+            <div className="col-lg-12">
+              <div className="project-post">
+                <figure>
+                  <img
+                    // src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
+                    src="/assets/images/testimonials/6.svg"
+                    alt="project-img-1"
+                    width={'300px'}
+                    height={'300px'}
+                    style={{ objectFit: 'contain', backgroundColor: '#FFFFFF' }}
+                  />
+                </figure>
+
+                <div className="project-data">
+                  {/* <h3>
+                      
+                        <a href="project-detail.html">Mr Muhammed Aneesh </a>
+                     
+                    </h3>
+                    <h6
+                      style={{
+                        textDecoration: 'none',
+                        color: 'grey',
+                        fontWeight: '500',
+                      }}
+                    >
+                      - Managing Director Profixo Trading and Contracting,
+                    </h6>
+                    <h6
+                      style={{
+                        textDecoration: 'none',
+                        color: 'grey',
+                        fontWeight: '500',
+                      }}
+                    >
+                      &nbsp; &nbsp;Doha - State of Qatar
+                    </h6> */}
+                  <p
+                    className="testimonialPara"
+                    style={{
+                      textAlign: 'justify',
+                      fontSize: '14px',
+                      marginTop: '-6%',
+                    }}
+                  >
+                    OMDYS consistently provides timely supply and stock
+                    availability of high-quality, no-smell flex printing inks.
+                    Their technical expertise in repairing flex printing
+                    machinery is outstanding, ensuring minimal downtime. The
+                    inks' superior quality has enhanced our print outputs
+                    significantly. We are impressed with their reliable service
+                    and technical capabilities. Missing lines have disappeared,
+                    showcasing their commitment to excellence.
+                  </p>
+
+                  <a className="project-icon" href="javascript:void(0)">
+                    <i className="fa-solid fa-angles-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* ---------Devarajan  ends------- */}
+
             {/* --------Noushad------- */}
             {/* <div className="col-lg-12">
               <div className="project-post">
@@ -221,48 +356,6 @@ const Testimonials = () => {
             </div> */}
             {/* ----------------------------vipin ends----------------------------- */}
 
-            
-            {/* <div className="col-lg-12">
-              <div className="project-post">
-                <figure>
-                  <img
-                   
-                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
-                 
-                    alt="project-img-1"
-                    width={'300px'}
-                    height={'200px'}
-                  />
-                </figure>
-                
-                  <div className="project-data">
-                    <h3>
-                      
-                        <a href="project-detail.html">Mr Syed Asad </a>
-                     
-                    </h3>
-                    <h6
-                      style={{
-                        textDecoration: 'none',
-                        color: 'grey',
-                        fontWeight: '500',
-                      }}
-                    >
-                      - Director Infra Structure Solutions
-                    </h6>
-                    <p style={{ textAlign: 'justify' }}>
-                      "Their diverse product range and efficient logistics
-                      helped us complete our project on time and within budget."
-                    </p>
-                    
-                      <a className="project-icon" href="">
-                        <i className="fa-solid fa-angles-right" />
-                      </a>
-                   
-                  </div>
-               
-              </div>
-            </div> */}
             {/* <div className="col-lg-12">
               <div className="project-post">
                 <figure>
@@ -283,50 +376,6 @@ const Testimonials = () => {
                       <i className="fa-solid fa-angles-right" />
                     </a>
                  
-                </div>
-              </div>
-            </div> */}
-            {/* <div className="col-lg-12">
-              <div className="project-post">
-                <figure>
-                  <img
-                    src="https://via.placeholder.com/640x395"
-                    alt="project-img-1"
-                  />
-                </figure>
-                <div className="project-data">
-                  <h3>
-                    <a href="project-detail.html">Life Science Center</a>
-                  </h3>
-                  <p>
-                    This project was successfully completed against an extremely
-                    tight programme.
-                  </p>
-                  <a className="project-icon" href="#">
-                    <i className="fa-solid fa-angles-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="project-post">
-                <figure>
-                  <img
-                    src="https://via.placeholder.com/640x395"
-                    alt="project-img-2"
-                  />
-                </figure>
-                <div className="project-data">
-                  <h3>
-                    <a href="javascript:void(0)">Home building renovation</a>
-                  </h3>
-                  <p>
-                    This project was successfully completed against an extremely
-                    tight programme.
-                  </p>
-                  <a className="project-icon" href="#">
-                    <i className="fa-solid fa-angles-right" />
-                  </a>
                 </div>
               </div>
             </div> */}
