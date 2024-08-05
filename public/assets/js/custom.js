@@ -603,54 +603,132 @@ jQuery(document).ready(function ($) {
   //     event.stopPropagation();
   //   }
   // );
-  // -----------working-1----------
-  // $(document).on(
-  //   'click',
-  //   '.mobile-nav .menu-item-has-children',
-  //   function (event) {
-  //     event.preventDefault(); // Prevent default anchor behavior
 
-  //     // Close any currently open submenu
-  //     $('.mobile-nav .menu-item-has-children').removeClass('active');
+  // --------------------------mobile header working perfect header-----------------------
 
-  //     // Open the clicked submenu
-  //     $(this).closest('.menu-item-has-children').toggleClass('active');
+  // --------------------------working perfect header-----------------------
+  // =================================================================================================================
+  // Handle clicks on the link within li
+  $(document).on(
+    'click',
+    '.mobile-nav .menu-item-has-children > a',
+    function (event) {
+      const $parentLi = $(this).closest('.menu-item-has-children');
 
-  //     event.stopPropagation();
-  //   }
-  // );
-  // ----------------------working2-----------------
+      // If the clicked item has a submenu and it's not the currently active one
+      if ($parentLi.hasClass('active')) {
+        $parentLi.removeClass('active');
+      } else {
+        $parentLi.siblings('.menu-item-has-children').removeClass('active');
+        $parentLi.addClass('active');
+      }
+
+      // Prevent default behavior only if there's a submenu
+      if ($parentLi.children('.sub-menu').length > 0) {
+        event.preventDefault(); // Prevent navigation for parent items
+      }
+
+      event.stopPropagation();
+    }
+  );
+
+  // Handle clicks on the entire li
   $(document).on(
     'click',
     '.mobile-nav .menu-item-has-children',
     function (event) {
-      event.preventDefault(); // Prevent default anchor behavior
+      // Check if the click target is a link or submenu item
+      const $target = $(event.target);
+      const $parentLi = $(this);
 
-      const $parentLi = $(this).closest('.menu-item-has-children');
+      // If clicked target is a link or inside submenu, do nothing
+      if ($target.is('a') || $target.closest('.sub-menu').length > 0) {
+        return;
+      }
 
+      // Toggle active class based on whether the clicked item has a submenu
       if ($parentLi.hasClass('active')) {
-        // If the clicked item is already active, remove the active class to close it
         $parentLi.removeClass('active');
       } else {
-        // If the clicked item is not active, close other active items and open the clicked one
-        $('.mobile-nav .menu-item-has-children').removeClass('active');
+        $parentLi.siblings('.menu-item-has-children').removeClass('active');
         $parentLi.addClass('active');
       }
 
       event.stopPropagation();
     }
   );
+
+  // =================================================================================================================
+
+  // Handle clicks on the link within li
+  $(document).on(
+    'click',
+    '.mobile-nav .menu-item-has-children > a',
+    function (event) {
+      // If the clicked link has no submenu, allow navigation
+      const $parentLi = $(this).closest('.menu-item-has-children');
+      if ($parentLi.children('.sub-menu').length === 0) {
+        return; // Do nothing, let the link navigate
+      }
+
+      // Prevent default behavior only if there's a submenu
+      event.preventDefault(); // Prevent navigation for parent items
+      event.stopPropagation();
+    }
+  );
+
   // Handle mobile menu toggle
-  $(document).on('click ', '#mobile-menu ', function () {
+  $(document).on('click', '#mobile-menu', function () {
     $(this).toggleClass('open');
     $('#mobile-nav').toggleClass('open');
   });
 
+  // Handle closing mobile menu
+  $(document).on('click', '#res-cross', function () {
+    $('#mobile-nav').removeClass('open');
+    $('#mobile-menu').removeClass('open');
+  });
+
+  // Handle mobile menu toggle
+  $(document).on('click', '#mobile-menu', function () {
+    $(this).toggleClass('open');
+    $('#mobile-nav').toggleClass('open');
+  });
+
+  // Handle closing mobile menu
+  $(document).on('click', '#res-cross', function () {
+    $('#mobile-nav').removeClass('open');
+    $('#mobile-menu').removeClass('open');
+  });
+
+  // --------------------------try3-----------------------
+  // Handle mobile menu toggle
+  $(document).on('click', '#mobile-menu', function () {
+    $(this).toggleClass('open');
+    $('#mobile-nav').toggleClass('open');
+  });
+  // -------------------------try2-----------------------
+
   // Handle desktop menu toggle
-  $(document).on('click ', '#desktop-menu', function () {
+  // $(document).on('click ', '#desktop-menu', function () {
+  //   $(this).toggleClass('open');
+  //   $('.desktop-menu').toggleClass('open');
+  // });
+  // ------------------try-----------------
+  $(document).on('click', function (event) {
+    // Check if the click was outside the #desktop-menu or .desktop-menu
+    if (!$(event.target).closest('#desktop-menu, .desktop-menu').length) {
+      // Remove the 'open' class if it was clicked outside
+      $('#desktop-menu').removeClass('open');
+      $('.desktop-menu').removeClass('open');
+    }
+  });
+
+  $(document).on('click', '#desktop-menu', function () {
     $(this).toggleClass('open');
     $('.desktop-menu').toggleClass('open');
   });
+  // ------------------try-----------------
 
   // Handle closing mobile menu
   $(document).on('click ', '#res-cross', function () {
