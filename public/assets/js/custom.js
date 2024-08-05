@@ -595,11 +595,48 @@ jQuery(document).ready(function ($) {
   // });
   // --------------------------------------------
   // -----------------2nd norm try---------------------------
+  // $(document).on(
+  //   'click',
+  //   '.mobile-nav .menu-item-has-children',
+  //   function (event) {
+  //     $(this).toggleClass('active');
+  //     event.stopPropagation();
+  //   }
+  // );
+  // -----------working-1----------
+  // $(document).on(
+  //   'click',
+  //   '.mobile-nav .menu-item-has-children',
+  //   function (event) {
+  //     event.preventDefault(); // Prevent default anchor behavior
+
+  //     // Close any currently open submenu
+  //     $('.mobile-nav .menu-item-has-children').removeClass('active');
+
+  //     // Open the clicked submenu
+  //     $(this).closest('.menu-item-has-children').toggleClass('active');
+
+  //     event.stopPropagation();
+  //   }
+  // );
+  // ----------------------working2-----------------
   $(document).on(
     'click',
     '.mobile-nav .menu-item-has-children',
     function (event) {
-      $(this).toggleClass('active');
+      event.preventDefault(); // Prevent default anchor behavior
+
+      const $parentLi = $(this).closest('.menu-item-has-children');
+
+      if ($parentLi.hasClass('active')) {
+        // If the clicked item is already active, remove the active class to close it
+        $parentLi.removeClass('active');
+      } else {
+        // If the clicked item is not active, close other active items and open the clicked one
+        $('.mobile-nav .menu-item-has-children').removeClass('active');
+        $parentLi.addClass('active');
+      }
+
       event.stopPropagation();
     }
   );
@@ -725,7 +762,6 @@ jQuery(document).ready(function ($) {
   //     });
 
   // ----------------test navbar---------------
- 
 
   // ----------------test navbar---------------
 
