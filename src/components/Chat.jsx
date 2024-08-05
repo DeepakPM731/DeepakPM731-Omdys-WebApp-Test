@@ -37,23 +37,18 @@ const Chat = () => {
   //   })(document, window.kommunicate || {});
   // }, []);
   useEffect(() => {
-    // Create a script element
     const script = document.createElement('script');
 
-    // Set the attributes of the script
     script.src = 'https://www.chatbase.co/embed.min.js';
     script.defer = true;
 
-    // Define the embedded chatbot config
     window.embeddedChatbotConfig = {
       chatbotId: '7kNnzIPitqGuv7JjJ0Mb1',
       domain: 'www.chatbase.co',
     };
 
-    // Append the script to the body
     document.body.appendChild(script);
 
-    // Clean up by removing the script when the component is unmounted
     return () => {
       document.body.removeChild(script);
     };
