@@ -231,7 +231,7 @@ const App = () => {
 
           {/* -------------activity-five-sub ends------------ */}
         </Routes>
-        <Chat />
+        {/* <Chat /> */}
         {/* {showChat && <Chat />} */}
         <Footer />
       </Router>

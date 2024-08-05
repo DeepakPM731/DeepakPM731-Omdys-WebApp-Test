@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 
 const Chat = () => {
+  // ===================================dialogflow/kommunicate.io=========================
   // useEffect(() => {
   //   (function (d, m) {
   //     var kommunicateSettings = {
@@ -36,6 +37,8 @@ const Chat = () => {
   //     };
   //   })(document, window.kommunicate || {});
   // }, []);
+
+  //  ====================================chatbase=================================
   useEffect(() => {
     const script = document.createElement('script');
 
@@ -53,6 +56,26 @@ const Chat = () => {
       document.body.removeChild(script);
     };
   }, []);
+  // ======================================zoho======================================
+  // useEffect(() => {
+  //   const script = document.createElement('script');
+  //   script.id = 'zsiqscript';
+  //   script.src =
+  //     'https://salesiq.zohopublic.in/widget?wc=siqcbc353e50860b75c98fe92ae9e6135acda0401735983037cab82ba061d3247e1';
+  //   script.defer = true;
+
+  //   // Initialize Zoho SalesIQ
+  //   window.$zoho = window.$zoho || {};
+  //   window.$zoho.salesiq = window.$zoho.salesiq || { ready: function () {} };
+
+  //   // Append the script to the document body
+  //   document.body.appendChild(script);
+
+  //   // Cleanup function to remove the script if the component unmounts
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   };
+  // }, []);
 
   return '';
 };
