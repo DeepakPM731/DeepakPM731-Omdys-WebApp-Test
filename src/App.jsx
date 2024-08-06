@@ -68,6 +68,7 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import Chat from './components/Chat';
 import Redirections from './components/Redirections';
 import Testimonials from './components/Testimonials';
+import Chatbot from './components/Chatbot';
 
 const App = () => {
   // const [showChat, setShowChat] = useState(false);
@@ -167,6 +168,7 @@ const App = () => {
           <Route path="/activities" element={<Activities />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/chat" element={<Chat />} />
+          <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/connect" element={<Redirections />} />
 
           <Route path="/activity-one" element={<ActivityOne />} />

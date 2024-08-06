@@ -3,59 +3,59 @@ import { useEffect } from 'react';
 
 const Chat = () => {
   // ===================================dialogflow/kommunicate.io=========================
-  // useEffect(() => {
-  //   (function (d, m) {
-  //     var kommunicateSettings = {
-  //       appId: '2406f142ddc754b669ab586f404305d55',
-  //       popupWidget: true,
-  //       automaticChatOpenOnNavigation: true,
-  //     };
-  //     var s = document.createElement('script');
-  //     s.type = 'text/javascript';
-  //     s.async = true;
-  //     s.src = 'https://widget.kommunicate.io/v2/kommunicate.app';
-  //     var h = document.getElementsByTagName('head')[0];
-  //     h.appendChild(s);
-  //     window.kommunicate = m;
-  //     m._globals = kommunicateSettings;
+  useEffect(() => {
+    (function (d, m) {
+      var kommunicateSettings = {
+        appId: '2406f142ddc754b669ab586f404305d55',
+        popupWidget: true,
+        automaticChatOpenOnNavigation: true,
+      };
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = 'https://widget.kommunicate.io/v2/kommunicate.app';
+      var h = document.getElementsByTagName('head')[0];
+      h.appendChild(s);
+      window.kommunicate = m;
+      m._globals = kommunicateSettings;
 
-  //     s.onload = function () {
-  //       var style = document.createElement('style');
-  //       style.innerHTML = `
-  //         #kommunicate-widget-iframe {
-  //             margin-bottom: -10px !important;
+      s.onload = function () {
+        var style = document.createElement('style');
+        style.innerHTML = `
+          #kommunicate-widget-iframe {
+              margin-bottom: -10px !important;
 
-  //           }
-  //           @media (max-width: 425px) {
-  //           #kommunicate-widget-iframe {
-  //             margin-bottom: -2% !important;
-  //             margin-right: -20px !important;
-  //           }
-  //         }
-  //       `;
-  //       document.head.appendChild(style);
-  //     };
-  //   })(document, window.kommunicate || {});
-  // }, []);
+            }
+            @media (max-width: 425px) {
+            #kommunicate-widget-iframe {
+              margin-bottom: -2% !important;
+              margin-right: -20px !important;
+            }
+          }
+        `;
+        document.head.appendChild(style);
+      };
+    })(document, window.kommunicate || {});
+  }, []);
 
   //  ====================================chatbase=================================
-  useEffect(() => {
-    const script = document.createElement('script');
+  // useEffect(() => {
+  //   const script = document.createElement('script');
 
-    script.src = 'https://www.chatbase.co/embed.min.js';
-    script.defer = true;
+  //   script.src = 'https://www.chatbase.co/embed.min.js';
+  //   script.defer = true;
 
-    window.embeddedChatbotConfig = {
-      chatbotId: '7kNnzIPitqGuv7JjJ0Mb1',
-      domain: 'www.chatbase.co',
-    };
+  //   window.embeddedChatbotConfig = {
+  //     chatbotId: '7kNnzIPitqGuv7JjJ0Mb1',
+  //     domain: 'www.chatbase.co',
+  //   };
 
-    document.body.appendChild(script);
+  //   document.body.appendChild(script);
 
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   };
+  // }, []);
   // ======================================zoho======================================
   // useEffect(() => {
   //   const script = document.createElement('script');
