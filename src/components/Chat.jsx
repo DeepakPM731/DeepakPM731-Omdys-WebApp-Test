@@ -35,9 +35,10 @@ const Chat = () => {
       </div>
       <div className="chatbot-icon" onClick={toggleChatbot}>
         <img
-          // src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSLrukrV1xZUuwFdA97kt1T9B-3DN8ebL5lg&s"
-          src="https://icon-library.com/images/chatbot-icon/chatbot-icon-12.jpg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/Activities+Sub/bot+image.jpg"
+          // src="https://icon-library.com/images/chatbot-icon/chatbot-icon-12.jpg"
           alt="Chatbot Icon"
+          style={{ borderRadius: '60%' }}
         />
       </div>
     </div>
