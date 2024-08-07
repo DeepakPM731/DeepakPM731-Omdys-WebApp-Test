@@ -168,14 +168,14 @@ const App = () => {
           <Route path="/service-four" element={<ServiceFour />} />
           <Route path="/activities" element={<Activities />} />
           <Route path="/testimonials" element={<Testimonials />} />
-          <Route path="/chat" element={<Chat />} />
+          {/* <Route path="/chat" element={<Chat />} /> */}
           <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/connect" element={<Redirections />} />
-          <Route path="/activity-one" element={<ActivityOne />} />
-          <Route path="/activity-two" element={<ActivityTwo />} />
-          <Route path="/activity-three" element={<ActivityThree />} />
-          <Route path="/activity-four" element={<ActivityFour />} />
-          <Route path="/activity-five" element={<ActivityFive />} />
+          <Route path="/printing-solutions" element={<ActivityOne />} />
+          <Route path="/electronics" element={<ActivityTwo />} />
+          <Route path="/tools-equip" element={<ActivityThree />} />
+          <Route path="/oil-gas" element={<ActivityFour />} />
+          <Route path="/health-care" element={<ActivityFive />} />
           <Route path="/activity-six" element={<ActivitySix />} />
           <Route path="/activity-test" element={<TestFour />} />
           <Route path="/csr" element={<CSR />} />

@@ -78,7 +78,7 @@ const Activities = () => {
                       mechanical products, ensuring safe and efficient project
                       execution.
                       <br />
-                      <a href="/activity-four">( Read More )</a>
+                      <a href="/oil-gas">( Read More )</a>
                     </p>
                   </div>
                   <div className="image" data-aos="zoom-in-up">
@@ -109,9 +109,9 @@ const Activities = () => {
                     <p style={{ textAlign: 'justify' }}>
                       We partner with leading manufacturers to deliver reliable
                       and authentic electronic components for diverse
-                      applications. {/* <Link to={'/activity-two'}> */}
+                      applications. {/* <Link to={'/electronics'}> */}
                       <br />
-                      <a href="/activity-two">( Read More )</a>
+                      <a href="/electronics">( Read More )</a>
                       {/* </Link> */}
                     </p>
                   </div>
@@ -122,9 +122,9 @@ const Activities = () => {
                     <p style={{ textAlign: 'justify' }}>
                       We import certified Health care products, meeting the
                       needs of healthcare facilities and professionals.{' '}
-                      {/* <Link to={'/activity-five'}> */}
+                      {/* <Link to={'/health-care'}> */}
                       <br />
-                      <a href="/activity-five">( Read More )</a>
+                      <a href="/health-care">( Read More )</a>
                       {/* </Link> */}
                     </p>
                   </div>
@@ -156,9 +156,9 @@ const Activities = () => {
                       We provide a comprehensive range of certified safety
                       equipment for the construction industry, ensuring worker
                       protection and regulatory compliance.
-                      {/* <Link to={'/activity-three'}> */}
+                      {/* <Link to={'/tools-equip'}> */}
                       <br />
-                      <a href="/activity-three">( Read More )</a>
+                      <a href="/tools-equip">( Read More )</a>
                       {/* </Link> */}
                     </p>
                   </div>
@@ -169,9 +169,9 @@ const Activities = () => {
                     <p style={{ textAlign: 'justify' }}>
                       We provide a wide range of printing solutions, customized
                       to meet various printing needs.
-                      {/* <Link to={'/activity-one'}> */}
+                      {/* <Link to={'/printing-solutions'}> */}
                       <br />
-                      <a href="/activity-one">( Read More )</a>
+                      <a href="/printing-solutions">( Read More )</a>
                       {/* </Link> */}
                     </p>
                   </div>

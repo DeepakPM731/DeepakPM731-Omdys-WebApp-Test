@@ -82,7 +82,7 @@ const MainServices = () => {
                         efficiency. Our strategic location facilitates smooth
                         import and distribution across India.
                         <br />
-                        <a href="/activity-one">( Know More )</a>
+                        <a href="/printing-solutions">( Know More )</a>
                       </p>
                     </div>
                   </li>
@@ -99,7 +99,7 @@ const MainServices = () => {
                         needs of these industries, supplying essential materials
                         that support their operations.
                         <br />
-                        <a href="/activity-four">( Know More )</a>
+                        <a href="/oil-gas">( Know More )</a>
                       </p>
                     </div>
                     <div className="image">
@@ -135,7 +135,7 @@ const MainServices = () => {
                         distribution of these critical supplies to hospitals and
                         healthcare facilities across India.
                         <br />
-                        <a href="/activity-five">( Know More )</a>
+                        <a href="/health-care">( Know More )</a>
                       </p>
                     </div>
                   </li>
@@ -153,7 +153,7 @@ const MainServices = () => {
                         components to a broad range of clients, supporting
                         innovation and production in the electronics sector.
                         <br />
-                        <a href="/activity-two">( Know More )</a>
+                        <a href="/electronics">( Know More )</a>
                       </p>
                     </div>
                     <div className="image">
@@ -186,7 +186,7 @@ const MainServices = () => {
                         tools and equipment to construction projects and
                         industrial sites across the region.
                         <br />
-                        <a href="/activity-three">( Know More )</a>
+                        <a href="/tools-equip">( Know More )</a>
                       </p>
                     </div>
                   </li>

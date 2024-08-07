@@ -234,9 +234,9 @@ const Header = () => {
                               {/* Oil & Gas Equipment Supply */}
 
                               <li className="menu-item-has-children">
-                                {/* <Link to={'/activity-five'}> */}
+                                {/* <Link to={'/health-care'}> */}
                                 <a href="javascript:void(0)">
-                                  {/* <a href="/activity-four"> */}
+                                  {/* <a href="/oil-gas"> */}
                                   Oil & Gas Equipments Supply
                                 </a>
                                 {/* </Link> */}
@@ -278,9 +278,9 @@ const Header = () => {
                               {/* Electronics Components */}
 
                               <li className="menu-item-has-children">
-                                {/* <Link to={'/activity-two'}> */}
+                                {/* <Link to={'/electronics'}> */}
                                 <a href="javascript:void(0)">
-                                  {/* <a href="/activity-two"> */}
+                                  {/* <a href="/electronics"> */}
                                   Electronics Components
                                 </a>
                                 {/* </Link> */}
@@ -322,8 +322,8 @@ const Header = () => {
                               {/* Health Care PPE Products */}
 
                               <li className="menu-item-has-children">
-                                {/* <Link to={'/activity-five'}> */}
-                                {/* <a href="/activity-five"> */}
+                                {/* <Link to={'/health-care'}> */}
+                                {/* <a href="/health-care"> */}
                                 <a href="javascript:void(0)">
                                   Health Care PPE Products
                                 </a>
@@ -354,8 +354,8 @@ const Header = () => {
                               {/* Construction Tools & Safety Equipments */}
 
                               <li className="menu-item-has-children">
-                                {/* <Link to={'/activity-three'}> */}
-                                {/* <a href="/activity-three"> */}
+                                {/* <Link to={'/tools-equip'}> */}
+                                {/* <a href="/tools-equip"> */}
                                 <a href="javascript:void(0)">
                                   Construction Tools & Safety Equipments
                                 </a>
@@ -368,7 +368,7 @@ const Header = () => {
                                     <a href="/power-tools">Power Tools</a>
                                   </li>
                                   {/* <li>
-                                    <a href="/activity-three">
+                                    <a href="/tools-equip">
                                       Gardening Tools
                                     </a>
                                   </li> */}
@@ -384,15 +384,15 @@ const Header = () => {
                                     <a href="/safety">Safety Equipment</a>
                                   </li>
                                   {/* <li>
-                                    <a href="/activity-three">Fasteners</a>
+                                    <a href="/tools-equip">Fasteners</a>
                                   </li> */}
                                   {/* <li>
-                                    <a href="/activity-three">
+                                    <a href="/tools-equip">
                                       Building Materials
                                     </a>
                                   </li> */}
                                   {/* <li>
-                                    <a href="/activity-three">
+                                    <a href="/tools-equip">
                                       Hardware Accessories
                                     </a>
                                   </li> */}
@@ -401,7 +401,7 @@ const Header = () => {
                               {/* printing solutions */}
 
                               <li className="menu-item-has-children">
-                                {/* <a href="/activity-one">Printing Solutions</a> */}
+                                {/* <a href="/printing-solutions">Printing Solutions</a> */}
                                 <a href="javascript:void(0)">
                                   Printing Solutions
                                 </a>
@@ -657,9 +657,9 @@ const Header = () => {
                   <ul className="sub-menu">
                     {/* Oil & Gas Equipment Supply */}
                     <li className="menu-item-has-children">
-                      {/* <Link to={'/activity-five'}> */}
+                      {/* <Link to={'/health-care'}> */}
                       <a href="javascript:void(0)" className="mobile-li-a-sub">
-                        {/* <a href="/activity-four" className="mobile-li-a-sub"> */}
+                        {/* <a href="/oil-gas" className="mobile-li-a-sub"> */}
                         Oil & Gas Equipment Supply
                       </a>
                       {/* </Link> */}
@@ -713,9 +713,9 @@ const Header = () => {
                     </li>
                     {/* Electronics Components */}
                     <li className="menu-item-has-children">
-                      {/* <Link to={'/activity-two'}> */}
+                      {/* <Link to={'/electronics'}> */}
                       <a href="javascript:void(0)" className="mobile-li-a-sub">
-                        {/* <a href="/activity-two" className="mobile-li-a-sub"> */}
+                        {/* <a href="/electronics" className="mobile-li-a-sub"> */}
                         Electronics Components
                       </a>
                       {/* </Link> */}
@@ -768,9 +768,9 @@ const Header = () => {
                     </li>
                     {/* Health Care PPE Products */}
                     <li className="menu-item-has-children">
-                      {/* <Link to={'/activity-five'}> */}
+                      {/* <Link to={'/health-care'}> */}
                       <a href="javascript:void(0)" className="mobile-li-a-sub">
-                        {/* <a href="/activity-five" className="mobile-li-a-sub"> */}
+                        {/* <a href="/health-care" className="mobile-li-a-sub"> */}
                         Health Care PPE Products
                       </a>
                       {/* </Link> */}
@@ -810,9 +810,9 @@ const Header = () => {
                     {/* Construction Tools & Safety Equipments */}
 
                     <li className="menu-item-has-children">
-                      {/* <Link to={'/activity-three'}> */}
+                      {/* <Link to={'/tools-equip'}> */}
                       <a href="javascript:void(0)" className="mobile-li-a-sub">
-                        {/* <a href="/activity-three" className="mobile-li-a-sub"> */}
+                        {/* <a href="/tools-equip" className="mobile-li-a-sub"> */}
                         Construction Tools & Safety Equipments
                       </a>
                       {/* </Link> */}
@@ -852,9 +852,9 @@ const Header = () => {
                     </li>
                     {/* printing solutions */}
                     <li className="menu-item-has-children">
-                      {/* <Link to={'/activity-one'}> */}
+                      {/* <Link to={'/printing-solutions'}> */}
                       <a href="javascript:void(0)" className="mobile-li-a-sub">
-                        {/* <a href="/activity-one" className="mobile-li-a-sub"> */}
+                        {/* <a href="/printing-solutions" className="mobile-li-a-sub"> */}
                         Printing Solutions
                       </a>
                       {/* </Link> */}

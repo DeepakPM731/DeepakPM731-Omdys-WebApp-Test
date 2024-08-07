@@ -11,7 +11,7 @@ const Projects = () => {
         nav: true,
         items: 1,
       });
-    }, 300); 
+    }, 300);
   }, []);
   useEffect(() => {
     const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
@@ -47,7 +47,7 @@ const Projects = () => {
         </div>
         <div className="container">
           <div className="row project-slider owl-carousel">
-            <Link to={'/activity-one'}>
+            <Link to={'/printing-solutions'}>
               <div className="col-lg-12">
                 <div className="project-post">
                   <figure>
@@ -58,10 +58,10 @@ const Projects = () => {
                       alt="project-img-1"
                     />
                   </figure>
-                  <Link to={'/activity-one'}>
+                  <Link to={'/printing-solutions'}>
                     <div className="project-data">
                       <h3>
-                        <Link to={'/activity-one'}>
+                        <Link to={'/printing-solutions'}>
                           <a href="">Printing Solutions</a>
                         </Link>
                       </h3>
@@ -70,7 +70,7 @@ const Projects = () => {
                 </div>
               </div>
             </Link>
-            <Link to={'/activity-two'}>
+            <Link to={'/electronics'}>
               <div className="col-lg-12">
                 <div className="project-post">
                   <figure>
@@ -81,11 +81,11 @@ const Projects = () => {
                       alt="project-img-1"
                     />
                   </figure>
-                  <Link to={'/activity-two'}>
+                  <Link to={'/electronics'}>
                     <div className="project-data">
                       <h3>
-                        {/* <Link to={'/activity-two'}> */}
-                        <a href="/activity-two">Electronics Components</a>
+                        {/* <Link to={'/electronics'}> */}
+                        <a href="/electronics">Electronics Components</a>
                         {/* </Link> */}
                       </h3>
                     </div>
@@ -93,7 +93,7 @@ const Projects = () => {
                 </div>
               </div>
             </Link>
-            <Link to={'/activity-three'}>
+            <Link to={'/tools-equip'}>
               <div className="col-lg-12">
                 <div className="project-post">
                   <figure>
@@ -104,11 +104,11 @@ const Projects = () => {
                       alt="project-img-2"
                     />
                   </figure>
-                  <Link to={'/activity-three'}>
+                  <Link to={'/tools-equip'}>
                     <div className="project-data">
                       <h3>
-                        {/* <Link to={'/activity-three'}> */}
-                        <a href="/activity-three">
+                        {/* <Link to={'/tools-equip'}> */}
+                        <a href="/tools-equip">
                           Construction Tools and Equipments
                         </a>
                         {/* </Link> */}
@@ -118,7 +118,7 @@ const Projects = () => {
                 </div>
               </div>
             </Link>
-            <Link to={'/activity-four'}>
+            <Link to={'/oil-gas'}>
               <div className="col-lg-12">
                 <div className="project-post">
                   <figure>
@@ -128,13 +128,11 @@ const Projects = () => {
                       alt="project-img-1"
                     />
                   </figure>
-                  <Link to={'/activity-four'}>
+                  <Link to={'/oil-gas'}>
                     <div className="project-data">
                       <h3>
-                        <Link to={'/activity-four'}>
-                          <a href="/activity-four">
-                            Oil & Gas Equipment Supply
-                          </a>
+                        <Link to={'/oil-gas'}>
+                          <a href="/oil-gas">Oil & Gas Equipment Supply</a>
                         </Link>
                       </h3>
                     </div>
@@ -142,7 +140,7 @@ const Projects = () => {
                 </div>
               </div>
             </Link>
-            <Link to={'/activity-five'}>
+            <Link to={'/health-care'}>
               <div className="col-lg-12">
                 <div className="project-post">
                   <figure>
@@ -152,11 +150,11 @@ const Projects = () => {
                       alt="project-img-2"
                     />
                   </figure>
-                  <Link to={'/activity-five'}>
+                  <Link to={'/health-care'}>
                     <div className="project-data">
                       <h3>
-                        {/* <Link to={'/activity-five'}> */}
-                        <a href="/activity-five">Health Care PPE Products</a>
+                        {/* <Link to={'/health-care'}> */}
+                        <a href="/health-care">Health Care PPE Products</a>
                         {/* </Link> */}
                       </h3>
                     </div>

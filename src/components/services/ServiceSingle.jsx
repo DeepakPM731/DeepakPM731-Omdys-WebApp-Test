@@ -162,7 +162,7 @@ const ServiceSingle = () => {
                           high-quality outputs and improved operational
                           efficiency. Our strategic location facilitates smooth
                           import and distribution across India.
-                          <a href="/activity-one">( Know More )</a>
+                          <a href="/printing-solutions">( Know More )</a>
                         </p>
                       </div>
                     </li>
@@ -178,7 +178,7 @@ const ServiceSingle = () => {
                           logistics allows us to meet the diverse needs of these
                           industries, providing essential materials that support
                           their operations.
-                          <a href="/activity-four">( Know More )</a>
+                          <a href="/oil-gas">( Know More )</a>
                         </p>
                       </div>
                       <div className="image" data-aos="fade-left">
@@ -218,7 +218,7 @@ const ServiceSingle = () => {
                           location enables us to efficiently manage the import
                           and distribution of these critical supplies to
                           hospitals and healthcare facilities across India.
-                          <a href="/activity-five">( Know More )</a>
+                          <a href="/health-care">( Know More )</a>
                         </p>
                       </div>
                     </li>
@@ -236,7 +236,7 @@ const ServiceSingle = () => {
                           these components to a broad range of clients,
                           supporting innovation and production in the
                           electronics sector.
-                          <a href="/activity-two">( Know More )</a>
+                          <a href="/electronics">( Know More )</a>
                         </p>
                       </div>
                       <div className="image" data-aos="fade-right">
@@ -276,7 +276,7 @@ const ServiceSingle = () => {
                           we efficiently distribute these tools and equipment to
                           construction projects and industrial sites throughout
                           the region.
-                          <a href="/activity-three">( Know More )</a>
+                          <a href="/tools-equip">( Know More )</a>
                         </p>
                       </div>
                     </li>
