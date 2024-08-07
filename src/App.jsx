@@ -69,6 +69,7 @@ import Chat from './components/Chat';
 import Redirections from './components/Redirections';
 import Testimonials from './components/Testimonials';
 import Chatbot from './components/Chatbot';
+import NotFound from './components/NotFound';
 
 const App = () => {
   // const [showChat, setShowChat] = useState(false);
@@ -170,7 +171,6 @@ const App = () => {
           <Route path="/chat" element={<Chat />} />
           <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/connect" element={<Redirections />} />
-
           <Route path="/activity-one" element={<ActivityOne />} />
           <Route path="/activity-two" element={<ActivityTwo />} />
           <Route path="/activity-three" element={<ActivityThree />} />
@@ -178,20 +178,16 @@ const App = () => {
           <Route path="/activity-five" element={<ActivityFive />} />
           <Route path="/activity-six" element={<ActivitySix />} />
           <Route path="/activity-test" element={<TestFour />} />
-
           <Route path="/csr" element={<CSR />} />
           <Route path="/terms" element={<TermConditions />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
-
           {/* -------------activity-one-sub starts------------ */}
-
           <Route path="/ecosolvent" element={<EcoSolvent />} />
           <Route path="/uv" element={<Uv />} />
           <Route path="/solvent" element={<Solvent />} />
           <Route path="/printequip" element={<PrintingEquip />} />
           <Route path="/media" element={<Media />} />
           {/* -------------activity-one-sub ends------------ */}
-
           {/* -------------activity-two-sub starts------------ */}
           <Route path="/ic" element={<IC />} />
           <Route path="/active" element={<ActiveC />} />
@@ -202,7 +198,6 @@ const App = () => {
           <Route path="/led" element={<Led />} />
           <Route path="/power" element={<PowerBaterry />} />
           <Route path="/semi" element={<SemiC />} />
-
           {/* -------------activity-sub ends------------ */}
           {/* -------------activity-three-sub starts------------ */}
           <Route path="/tools" element={<Tools />} />
@@ -211,7 +206,6 @@ const App = () => {
           <Route path="/electrical-tools" element={<ElectricalTools />} />
           <Route path="/plumbing-tools" element={<PlumbingTools />} />
           <Route path="/safety" element={<Safety />} />
-
           {/* -------------activity-three-sub starts------------ */}
           {/* -------------activity-four-sub starts------------ */}
           <Route path="/valves" element={<Valves />} />
@@ -221,7 +215,6 @@ const App = () => {
           <Route path="/hoses" element={<Hoses />} />
           <Route path="/bolts" element={<Bolts />} />
           <Route path="/instrumentation" element={<Instrumentation />} />
-
           {/* -------------activity-four-sub ends------------ */}
           {/* -------------activity-five-sub starts------------ */}
           <Route path="/mask" element={<FaceMask />} />
@@ -230,8 +223,9 @@ const App = () => {
           <Route path="/eye" element={<EyeProtection />} />
           <Route path="/sanitizer" element={<Sanitizers />} />
           <Route path="/cleaning" element={<CleaningSolution />} />
-
           {/* -------------activity-five-sub ends------------ */}
+          {/* -------------NOt Found------------ */}
+          <Route path="*" element={<NotFound />} /> {/* 404 Route */}
         </Routes>
         {/* <Chat /> */}
         {/* {showChat && <Chat />} */}

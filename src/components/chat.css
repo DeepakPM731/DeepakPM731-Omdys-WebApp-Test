@@ -1,0 +1,33 @@
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.chatbot-icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.chatbot-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.chatbot-iframe {
+    display: none;
+    position: absolute;
+    bottom: 80px; /* Adjust to position the iframe above the icon */
+    right: 0;
+    width: 350px;
+    height: 430px;
+    transition: transform 0.3s ease;
+}
+
+.chatbot-iframe.open {
+    display: block;
+}

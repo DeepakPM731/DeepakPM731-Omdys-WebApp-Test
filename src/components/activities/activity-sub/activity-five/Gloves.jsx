@@ -62,7 +62,7 @@ const Gloves = () => {
       <hr />
       <div style={{ marginTop: '' }}>
         <h3 style={{ textAlign: 'center', fontSize: '34px' }}>
-          Types of Medical Gloves
+          Types of Gloves
         </h3>
         <br />
         <br />
