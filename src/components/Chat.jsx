@@ -13,7 +13,8 @@ const Chat = () => {
     <div className="chatbot-container">
       <div className={`chatbot-iframe ${isOpen ? 'open' : ''}`}>
         <iframe
-          height="430"
+          height="530"
+          // height="430"
           width="350"
           src="https://console.dialogflow.com/api-client/demo/embedded/63ace6e7-bafb-4523-b532-43d1e76968d4"
           title="Chatbot"
@@ -28,9 +29,13 @@ const Chat = () => {
           //   boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', // Add a shadow
           // }}
         ></iframe>
+        <button className="chatbot-close-button" onClick={toggleChatbot}>
+          X
+        </button>
       </div>
       <div className="chatbot-icon" onClick={toggleChatbot}>
         <img
+          // src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSLrukrV1xZUuwFdA97kt1T9B-3DN8ebL5lg&s"
           src="https://icon-library.com/images/chatbot-icon/chatbot-icon-12.jpg"
           alt="Chatbot Icon"
         />
