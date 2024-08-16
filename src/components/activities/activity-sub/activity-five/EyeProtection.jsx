@@ -1,6 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const EyeProtection = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {
+    let elements = document.querySelectorAll('[data-aos]');
+    for (let i = 0; i < elements.length; i++) {
+      //if ios remove the attribute
+      if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+        elements[i].removeAttribute('data-aos');
+      }
+    }
+  });
   return (
     <>
       <div style={{ marginBottom: '-30px' }}>
@@ -13,11 +25,9 @@ const EyeProtection = () => {
             <div className="row">
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>Health Care Products</h2>
-               
               </div>
             </div>
           </div>
-         
         </section>
       </div>
       <br />
@@ -46,10 +56,9 @@ const EyeProtection = () => {
       {/* -------------------------------------- */}
       <hr />
       <div style={{ marginTop: '' }}>
-        <h3 style={{ textAlign: 'center', fontSize: '34px' }}>
+        <h3 className="acthdm4" style={{ textAlign: 'center' }}>
           Types of Eye Protection
         </h3>
-        <br />
         <br />
         <section className="gap no-top core-values">
           <div className="container" style={{ marginBottom: '' }}>
@@ -129,9 +138,7 @@ const EyeProtection = () => {
 
       <div className="container" style={{ marginTop: '-5%' }}>
         <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-          <b style={{ fontSize: '34px' }}>
-            Quality Standards Applicable in India:
-          </b>
+          <b className="actsubhd">Quality Standards:</b>
           <br />
           <br />
           <div style={{ marginLeft: '10%' }}>
@@ -204,7 +211,7 @@ const EyeProtection = () => {
 
         <p style={{ fontSize: '18px', textAlign: 'justify', marginTop: '' }}>
           <br />
-          <b style={{ fontSize: '34px' }}>Importance of Quality Standards:</b>
+          <b className="actsubhd">Importance of Quality Standards:</b>
           <br />
           <br />
           Adhering to these quality standards ensures that our eye protection

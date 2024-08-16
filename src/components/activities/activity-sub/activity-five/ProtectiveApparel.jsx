@@ -26,11 +26,9 @@ const ProtectiveApparel = () => {
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>Health Care Products</h2>
                 <br />
-              
               </div>
             </div>
           </div>
-          
         </section>
       </div>
       <br />
@@ -60,16 +58,13 @@ const ProtectiveApparel = () => {
       <div style={{ marginTop: '' }}>
         {/* ---------Eye protection-------- */}
 
-        <h3 style={{ textAlign: 'center', fontSize: '34px' }}>
-          Types of Medical Protective Apparel
-        </h3>
-        <br />
+        <h3 className="acthdm">Types of Medical Protective Apparel</h3>
         <br />
         <section className="gap no-top core-values">
           <div className="container" style={{ marginBottom: '' }}>
             <div className="row">
               <ul>
-                <li style={{ marginTop: '-5%' }}>
+                <li style={{ marginTop: '-2%' }}>
                   <div className="image" data-aos="fade-right">
                     <figure>
                       <img
@@ -192,16 +187,15 @@ const ProtectiveApparel = () => {
 
         {/* ---------Hearing protection-------- */}
 
-        <h3 style={{ textAlign: 'center', fontSize: '34px', marginTop: '-6%' }}>
+        <h3 className="acthdm2" style={{ marginTop: '-6%' }}>
           Other Protective Apparel
         </h3>
-        <br />
         <br />
         <section className="gap no-top core-values">
           <div className="container" style={{ marginBottom: '' }}>
             <div className="row">
               <ul>
-                <li style={{ marginTop: '-5%' }}>
+                <li style={{ marginTop: '-2%' }}>
                   <div className="image" data-aos="fade-right">
                     <figure>
                       <img
@@ -235,7 +229,7 @@ const ProtectiveApparel = () => {
 
       <div className="container" style={{ marginTop: '-5%' }}>
         <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-          <b style={{ fontSize: '34px' }}>Quality Standards:</b>
+          <b className="actsubhd">Quality Standards:</b>
           <br />
           <br />
           <div style={{ marginLeft: '10%' }}>
@@ -274,7 +268,7 @@ const ProtectiveApparel = () => {
 
         <p style={{ fontSize: '18px', textAlign: 'justify', marginTop: '' }}>
           <br />
-          <b style={{ fontSize: '34px' }}>Importance of Quality Standards:</b>
+          <b className="actsubhd">Importance of Quality Standards:</b>
           <br />
           <br />
           Adhering to these quality standards ensures that medical protective

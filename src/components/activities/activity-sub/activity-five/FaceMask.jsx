@@ -26,11 +26,9 @@ const FaceMask = () => {
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>Health Care Products</h2>
                 <br />
-              
               </div>
             </div>
           </div>
-          
         </section>
       </div>
       <br />
@@ -60,16 +58,13 @@ const FaceMask = () => {
       <div style={{ marginTop: '' }}>
         {/* ---------Eye protection-------- */}
 
-        <h3 style={{ textAlign: 'center', fontSize: '34px' }}>
-          Types of Medical Face Masks
-        </h3>
-        <br />
-        <br />
+        <h3 className="acthdm">Types of Medical Face Masks</h3>
+        {/* <br /> */}
         <section className="gap no-top core-values">
           <div className="container" style={{ marginBottom: '' }}>
             <div className="row">
               <ul>
-                <li style={{ marginTop: '-5%' }}>
+                <li style={{ marginTop: '-2%' }}>
                   <div className="image" data-aos="fade-right">
                     <figure>
                       <img
@@ -175,16 +170,13 @@ const FaceMask = () => {
 
         {/* ---------Hearing protection-------- */}
 
-        <h3 style={{ textAlign: 'center', fontSize: '34px', marginTop: '-6%' }}>
-          Other Respirators and Masks
-        </h3>
-        <br />
+        <h3 className='acthd' style={{ textAlign: 'center' }}>Other Respirators and Masks</h3>
         <br />
         <section className="gap no-top core-values">
           <div className="container" style={{ marginBottom: '' }}>
             <div className="row">
               <ul>
-                <li style={{ marginTop: '-5%' }}>
+                <li style={{ marginTop: '-2%' }}>
                   <div className="data">
                     <h4>FFP2 Masks</h4>
                     <p style={{ fontSize: '18px', textAlign: 'justify' }}>
@@ -296,7 +288,7 @@ const FaceMask = () => {
         </section>
         <div className="container" style={{ marginTop: '-5%' }}>
           <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-            <b style={{ fontSize: '34px' }}>Quality Standards:</b>
+            <b className="actsubhd">Quality Standards:</b>
             <br />
             <br />
             <div style={{ marginLeft: '10%' }}>
@@ -329,7 +321,7 @@ const FaceMask = () => {
 
           <p style={{ fontSize: '18px', textAlign: 'justify', marginTop: '' }}>
             <br />
-            <b style={{ fontSize: '34px' }}>Importance of Quality Standards:</b>
+            <b className="actsubhd">Importance of Quality Standards:</b>
             <br />
             <br />
             Adherence to quality standards ensures that medical face masks
