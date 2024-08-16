@@ -32,10 +32,7 @@ const ServiceSingle = () => {
                 <div className="banner-details">
                   <h2>Services</h2>
                   <br />
-                  {/* <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                  tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
-                </p> */}
+                  
                 </div>
               </div>
             </div>
@@ -80,8 +77,7 @@ const ServiceSingle = () => {
                           <img
                             className="w-100"
                             src="assets/images/activity-four/svg/log/Trading Commodities_.svg"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                            
                             alt="Core Values Image 1"
                           />
                         </figure>
@@ -93,9 +89,7 @@ const ServiceSingle = () => {
                           <img
                             className="w-100"
                             src="assets/images/activity-four/svg/log/Selling Products_.svg"
-                            // src="assets/images/activity-four/gowns.png"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                            
                             alt="Core Values Image 1"
                           />
                         </figure>
@@ -132,9 +126,7 @@ const ServiceSingle = () => {
                           <img
                             className="w-100"
                             src="assets/images/activity-four/svg/log/Logistics and Timely Delivery_.svg"
-                            // src="assets/images/activity-four/gloves.png"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/quality_assuranceann.png"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                            
                             alt="Core Values Image 1"
                           />
                         </figure>
@@ -146,8 +138,7 @@ const ServiceSingle = () => {
                           <img
                             className="w-100"
                             src="assets/images/activity-four/svg/log/Printing Solutions_.svg"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                           
                             alt="Core Values Image 1"
                           />
                         </figure>
@@ -186,8 +177,7 @@ const ServiceSingle = () => {
                           <img
                             className="w-100"
                             src="assets/images/activity-four/svg/log/Oil and Gas_.svg"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/customer_support.png"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                           
                             alt="Core Values Image 1"
                           />
                         </figure>
@@ -200,9 +190,7 @@ const ServiceSingle = () => {
                           <img
                             className="w-100"
                             src="assets/images/activity-four/svg/log/Health Care PPE_.svg"
-                            // src="assets/images/activity-four/sanitizer.png"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                           
                             alt="Core Values Image 1"
                           />
                         </figure>
@@ -244,9 +232,7 @@ const ServiceSingle = () => {
                           <img
                             className="w-100"
                             src="assets/images/activity-four/svg/log/Electronics Components_.svg"
-                            // src="assets/images/activity-four/sanitizer.png"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                           
                             alt="Core Values Image 1"
                           />
                         </figure>
@@ -258,9 +244,7 @@ const ServiceSingle = () => {
                           <img
                             className="w-100"
                             src="assets/images/activity-four/svg/log/Industrial Construction Tools & Safety Equipmentsuipment_.svg"
-                            // src="assets/images/activity-four/sanitizer.png"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/training_ann.png"
-                            // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                            
                             alt="Core Values Image 1"
                           />
                         </figure>
@@ -319,9 +303,7 @@ const ServiceSingle = () => {
 
               <div className="col-lg-12">
                 <div className="data" style={{ marginTop: '' }}>
-                  {/* <div className="data"> */}
-                  {/* <h2>Supplier Identification & Sourcing</h2> */}
-                  {/* <ul data-aos="fade-down"> */}
+                  
                   <ul>
                     <li>
                       <i className="fa-solid fa-check" />
@@ -340,12 +322,7 @@ const ServiceSingle = () => {
                         </b>
                       </p>
                     </li>
-                    {/* <li>
-                    <i className="fa-solid fa-check" />
-                    <p>
-                      <b> </b>
-                    </p>
-                  </li> */}
+                    
                     <li>
                       <i className="fa-solid fa-check" />
                       <p style={{ textAlign: 'justify', fontSize: '14px' }}>
@@ -431,10 +408,9 @@ const ServiceSingle = () => {
               <div className="col-lg-12">
                 <div className="data" style={{ marginTop: '' }}>
                   {' '}
-                  {/* <div className="data"> */}
-                  {/* <h2>Product Management</h2> */}
+                  
                   <ul>
-                    {/* <ul data-aos="fade-down"> */}
+                    
                     <li>
                       <i className="fa-solid fa-check" />
                       <p style={{ textAlign: 'justify', fontSize: '14px' }}>
@@ -576,10 +552,9 @@ const ServiceSingle = () => {
               <div className="col-lg-12">
                 <div className="data" style={{ marginTop: '' }}>
                   {' '}
-                  {/* <div className="data"> */}
-                  {/* <h2>Risk Management</h2> */}
+                 
                   <ul>
-                    {/* <ul data-aos="fade-down"> */}
+                    
                     <li>
                       <i className="fa-solid fa-check" />
                       <p style={{ textAlign: 'justify', fontSize: '14px' }}>
@@ -592,12 +567,7 @@ const ServiceSingle = () => {
                         </b>
                       </p>
                     </li>
-                    {/* <li>
-                    <i className="fa-solid fa-check" />
-                    <p>
-                      <b> </b>
-                    </p>
-                  </li> */}
+                    
                     <li>
                       <i className="fa-solid fa-check" />
                       <p style={{ textAlign: 'justify', fontSize: '14px' }}>

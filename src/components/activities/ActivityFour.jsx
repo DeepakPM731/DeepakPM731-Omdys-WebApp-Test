@@ -34,13 +34,7 @@ const ActivityFour = () => {
         </section>
       </div>
       <br />
-      {/* <figure
-        style={{
-          // display: 'flex',
-          // justifyContent: 'center',
-          width: '100vw',
-        }}
-      > */}
+      
       <div className="container" style={{}}>
         <img
           className="industry"
@@ -56,10 +50,7 @@ const ActivityFour = () => {
           <div className="col-lg-12">
             <div className="who-we-are">
               <div>
-                {/* <h3 className="mb-5 text-center" >
-                  Wide Range of Products
-                </h3> */}
-                {/* <p style={{ textAlign: 'justify' }}> */}
+               
                 <p
                   style={{
                     fontSize: '18px',
@@ -89,9 +80,7 @@ const ActivityFour = () => {
         {/* <hr /> */}
       </div>
       {/* ---------Head ends-------- */}
-      {/* ------------Chemical Products Starts ------------------ */}
-      {/* ------------Chemical Products Ends ------------------ */}
-      {/* ------------Petroleum Products Starts ------------------ */}
+      
       <br />
       <div className="heading" style={{ marginTop: '30px' }}>
         <figure>
@@ -914,54 +903,14 @@ const ActivityFour = () => {
                     </figure>
                   </div>
                 </li>
-                {/* <li>
-                  <div className="image" data-aos="fade-left">
-                    <figure>
-                      
-                    </figure>
-                  </div>
-                  <div className="data">
-                    <h3> Corrosion Protection Products</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      Include coatings and anodes that prevent corrosion,
-                      extending the life of equipment. They are essential for
-                      protecting metal components from the harsh conditions of
-                      the petroleum industry. Corrosion protection products meet
-                      ISO 12944 and NACE MR0175 standards, ensuring they provide
-                      effective, long-lasting protection critical for
-                      maintaining the structural integrity and performance of
-                      petroleum infrastructure as per GCC norms.
-                    </p>
-                  </div>
-                </li> */}
-                {/* <li>
-                  <div className="data">
-                    <h3>Maintenance Tools</h3>
-                    <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                      Specialized tools designed for the installation, repair,
-                      and upkeep of pipelines and machinery. These tools ensure
-                      that maintenance tasks are carried out efficiently and
-                      safely. Maintenance tools comply with ISO 9001 and ASME
-                      B30 standards, ensuring they provide reliable,
-                      high-quality solutions essential for maintaining the
-                      operational efficiency and safety of petroleum facilities
-                      as per GCC regulations.
-                    </p>
-                  </div>
-                  <div className="image" data-aos="fade-right">
-                    <figure>
-                      
-                    </figure>
-                  </div>
-                </li> */}
+                
+                
               </ul>
             </div>
           </div>
         </section>
       </div>
-      {/* ------------Petroleum Products Ends ------------------ */}
-      {/* ------------Bottom Content Starts ------------------ */}
-      {/* ------------Bottom Content Ends ------------------ */}
+     
       {/* =============================test========================================= */}
       <>
         {/* Blog Style Two Start */}
@@ -977,10 +926,9 @@ const ActivityFour = () => {
         <section className="gap blog-style-two" style={{ marginTop: '-8%' }}>
           <div className="heading">
             <figure>
-              {/* <img src="assets/images/heading-icon.png" alt="heading-icon-22" /> */}
+              
             </figure>
-            {/* <span>Blog &amp; News</span>
-            <h2>Recent Articles</h2> */}
+           
           </div>
           <div className="container">
             <div className="blog-slider row owl-carousel">
@@ -990,11 +938,11 @@ const ActivityFour = () => {
 
                 <span className="blog-post-num"></span>
                 <img
-                  // style={{ marginRight: 'auto', marginLeft: 'auto' }}
+                  
                   src="assets/images/activity-four/quality_assurance.png"
                   alt=""
                 />
-                {/* <span className="blog-date">January 9, 2022</span> */}
+                
                 <h2 style={{ textAlign: 'center' }}>
                   <a href="javascript:void(0)">Quality Assurance</a>
                 </h2>
@@ -1005,7 +953,7 @@ const ActivityFour = () => {
                   standards.
                 </p>
                 <a href="javascript:void(0)">
-                  {/* <i className="fa-solid fa-arrow-up-long" /> */}
+                
                 </a>
               </div>
               <div className="blog-item col-lg-12">
@@ -1015,7 +963,7 @@ const ActivityFour = () => {
                   src="assets/images/activity-four/comp_pricing.png"
                   alt=""
                 />
-                {/* <span className="blog-date">January 9, 2022</span> */}
+                
                 <h2 style={{ textAlign: 'center' }}>
                   <a href="javascript:void(0)">Competitive Pricing</a>
                 </h2>
@@ -1025,7 +973,7 @@ const ActivityFour = () => {
                   prices, ensuring you get the best value for your money.
                 </p>
                 <a href="javascript:void(0)">
-                  {/* <i className="fa-solid fa-arrow-up-long" /> */}
+                 
                 </a>
               </div>
               <div className="blog-item col-lg-12">
@@ -1035,7 +983,7 @@ const ActivityFour = () => {
                   src="assets/images/activity-four/timely _delivery.png"
                   alt=""
                 />
-                {/* <span className="blog-date">January 9, 2022</span> */}
+                
                 <h2 style={{ textAlign: 'center' }}>
                   <a href="javascript:void(0)">Timely Delivery</a>
                 </h2>
@@ -1071,7 +1019,7 @@ const ActivityFour = () => {
             </div>
           </div>
         </section>
-        {/* Blog Style Two End */}
+        
       </>
       {/* =============================test========================================= */}
     </>

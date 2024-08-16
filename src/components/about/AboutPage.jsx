@@ -25,23 +25,7 @@ const AboutPage = () => {
               </div>
             </div>
           </div>
-          {/* <div className="breadcrums">
-            <div className="container">
-              <div className="row">
-                <ul>
-                  <li>
-                    <a href="/">
-                      <i className="fa-solid fa-house" />
-                      <p>Home</p>
-                    </a>
-                  </li>
-                  <li className="current">
-                    <p>About Us</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div> */}
+        
         </section>
       </div>
 
@@ -111,61 +95,7 @@ const AboutPage = () => {
               industry.
               <br />
               <br />
-              {/* <b style={{ fontSize: '24px' }}>Our Main Services Include:</b>
-              <br />
-              <br />
-              <b>Sourcing and Procurement Services: </b>We specialize in
-              understanding your specific needs and tailoring solutions that
-              maximize your value and minimize procurement challenges. We
-              connect businesses with the best suppliers and products,
-              streamlining their procurement processes and ensuring
-              cost-efficiency.
-              <br />
-              <br />
-              <b>Trading of Complete Printing Solutions:</b> We offer a wide
-              range of printing solutions, from commercial printers to
-              specialized printing equipment, catering to various industries and
-              ensuring high-quality outputs.
-              <br />
-              <br />
-              <img
-
-                src="https://s3.ap-south-1.amazonaws.com/omdys.com/whoweare2.svg"
-                className="whowearetwo"
-                alt="About Image One"
-                style={{
-                  float: 'right',
-                  marginLeft: '2%',
-                }}
-              />
-              <b>Trading of Industrial Construction Tools and Equipment:</b> We
-              provide a comprehensive selection of construction tools and
-              equipment, supporting the needs of the industrial and construction
-              sectors with reliable and durable products.
-              <br />
-              <br />
-              <b>Trading of Petroleum Products:</b> Our portfolio includes
-              various petroleum products, ensuring quality and competitive
-              pricing to meet the demands of different industries.
-              <br />
-              <br />
-              <b>Trading of Healthcare Products:</b> We supply a range of
-              healthcare products, from Healthcare PPE Products to consumables,
-              ensuring that healthcare providers have access to essential and
-              high-quality items.
-              <br />
-              <br />
-              <b>Trading of Electronics Components:</b> We offer a variety of
-              electronic components, catering to the needs of manufacturers and
-              businesses in the electronics industry with reliable and
-              top-quality products.
-              <br />
-              <br />
-              <b>
-                At OMDYS International LLP, our goal is to simplify your
-                sourcing and trading needs by offering a one-stop solution that
-                ensures quality, efficiency, and cost-effectiveness.
-              </b> */}
+              
             </p>
           </div>
           {/* ------------------------------------------------------------------------------------------------ */}

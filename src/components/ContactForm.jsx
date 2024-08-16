@@ -32,18 +32,17 @@ const ContactForm = () => {
     subject: '',
     message: '',
   });
-  // division: 'Select Division',
+  
 
   const [errors, setErrors] = useState({});
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    // console.log('Name:', name);
-    // console.log('Value:', value);
+   
     setFormData({ ...formData, [name]: value });
-    // Clear the error message for the current field
+    
     setErrors({ ...errors, [name]: '' });
-    // console.log(formData);
+    
   };
   useEffect(() => {
     // console.log('Form Data:', formData);
@@ -61,24 +60,15 @@ const ContactForm = () => {
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = 'Please enter a valid email';
     }
-    // if (!formData.phone) {
-    //   newErrors.phone = 'Please enter your phone number';
-    // }
+   
     if (!/^\d{10}$/.test(formData.phone)) {
       newErrors.phone = 'Please enter a valid phone number';
     }
-    // else if (!/^\d{10}$/.test(formData.phone)) {
-    //   newErrors.phone = 'Phone number must be exactly 10 digits';
-    // }
+    
     if (!formData.division) {
       newErrors.division = 'Please select a division';
     }
-    // if (!formData.subject) {
-    //   newErrors.subject = 'Please enter a subject';
-    // }
-    // if (!formData.message) {
-    //   newErrors.message = 'Please enter your message';
-    // }
+  
     if (Object.keys(newErrors).length === 0) {
       try {
         const formDatas = new FormData();
@@ -92,7 +82,7 @@ const ContactForm = () => {
         toast.success(
           'Thank you for your enquiry, Our sales team will contact you soon!',
           {
-            // position: 'bottom-center',
+            
             position: 'center-right',
             duration: 3000,
             style: {
@@ -115,7 +105,7 @@ const ContactForm = () => {
           .catch((error) => {
             console.log(error);
           });
-        // console.log('Form submitted:', formData);
+        
         emailjs
           .sendForm('service_oskoz46', 'template_9ydwb45', e.target, {
             publicKey: 'FQX6Jy3MX8KCj-ib7',
@@ -140,10 +130,10 @@ const ContactForm = () => {
             },
             (error) => {
               console.log('FAILED...', error.text);
-              // console.log('222222');
+              
             }
           );
-        // navigate('/activities');
+        
       } catch (error) {
         console.log(error);
       }
@@ -170,17 +160,15 @@ const ContactForm = () => {
             />
           )}
         </Toaster>
-        {/* Banner Style One Start */}
+       
         <section className="bannercontact"></section>
-        {/* Banner Style One End */}
-        {/* Contact Form 2 Start */}
+       
         <section className="gap contact-form-2" style={{ paddingTop: '25px' }}>
           <div className="container">
             <div className="row">
               <div className="col-lg-7">
                 <div className="data">
-                  {/* <span>How can we help?</span> */}
-                  {/* <h2>Quality &amp; Passion With Contact Form</h2> */}
+                 
                   <span style={{ fontSize: '18px' }}>
                     <b> How can we help?</b>
                   </span>
@@ -394,17 +382,13 @@ const ContactForm = () => {
                       <input
                         type="text"
                         className={'form-control'}
-                        // className={`form-control ${
-                        //   errors.subject && 'is-invalid'
-                        // }`}
+                       
                         name="subject"
                         value={formData.subject}
                         placeholder="Subject"
                         onChange={handleInputChange}
                       />
-                      {/* {errors.subject && (
-                        <div className="invalid-feedback">{errors.subject}</div>
-                      )} */}
+                      
                     </div>
                     <div className="row g-0">
                       <textarea
@@ -444,12 +428,7 @@ const ContactForm = () => {
                     </figure>
                     <h3>Mr Deepak Ponnarassery</h3>
                     <p>Business Head</p>
-                    {/* <figure>
-                      <img
-                        src="assets/images/signature.png"
-                        alt="Signature Image"
-                      />
-                    </figure> */}
+                    
                   </div>
                 </div>
                 <div className="info">
@@ -587,7 +566,7 @@ const ContactForm = () => {
                         >
                           <p>sales@omdys.com</p>
                         </a>
-                        {/* <p>username@domain.com</p> */}
+                        
                       </div>
                     </li>
                   </ul>
@@ -657,37 +636,7 @@ const ContactForm = () => {
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   aria-haspopup="true"
                   aria-expanded={dropdownOpen}
-                  //     style={{
-                  //       color: '#ffFAFAFA',
-                  //       fontSize: '16px',
-                  //       boxShadow: '0 4px 8px rgba(255, 0, 0, 0.5)',
-                  //       transition: 'transform 0.5s ease',
-                  //       background: dropdownOpen ? '#ff0000f0' : '',
-                  //       border: dropdownOpen
-                  //         ? '1px solid #ff0000f0'
-                  //         : '1px solid transparent',
-                  //       width: '450px',
-                  // maxWidth: '100%',
-
-                  //         paddingTop:'15px',
-                  //         paddingBottom:'15px'
-                  //     }}
-                  //  style={{
-                  //               color: '#ffFAFAFA',
-                  //               fontSize: '16px',
-                  //               boxShadow: '0 4px 8px rgba(255, 0, 0, 0.5)',
-                  //               transition: 'transform 0.5s ease',
-                  //               background: dropdownOpen ? '#ff0000f0' : '',
-                  //               border: dropdownOpen
-                  //                 ? '1px solid #ff0000f0'
-                  //                 : '1px solid transparent',
-                  //               width: '450px',
-                  //               maxWidth: '100%',
-                  //               paddingTop: '15px',
-                  //               paddingBottom: '15px',
-                  //               whiteSpace: 'nowrap',
-                  //               overflowY: 'auto',
-                  //             }}
+                 
 
                   style={{
                     background: dropdownOpen ? '#ffee02' : '',
@@ -698,27 +647,16 @@ const ContactForm = () => {
                     whiteSpace: 'normal',
                     wordWrap: 'break-word',
                   }}
-                  // style={{
-                  //   background: dropdownOpen ? '#ff0000f0' : '',
-                  //   border: dropdownOpen
-                  //     ? '1px solid #ff0000f0'
-                  //     : '1px solid transparent',
-                  //   fontWeight: 'bold',
-                  // }}
+                 
                 >
                   {selectedCategory}
                 </button>
                 <div
                   className={`dropdown-menu${dropdownOpen ? ' show' : ''}`}
                   aria-labelledby="dropdownMenuButton"
-                  // style={{
-                  //   width: '100%', // Set width to 100%
-                  //   maxWidth: '450px', // Maximum width
-                  //   overflowY: 'hidden', // Default to hidden scrolling
-                  // }}
+                  
                 >
-                  {/* <hr style={{ marginTop: '-8px' }} /> */}
-                  {/* Repeat the same for other buttons */}
+                  
                   <button
                     className={`dropdown-item ${
                       activeAccordion === 4 ? 'active' : ''
@@ -746,7 +684,7 @@ const ContactForm = () => {
                   >
                     Electronics Components
                   </button>
-                  {/* <hr style={{ marginTop: '-8px' }} /> */}
+                  
                   <button
                     className={`dropdown-item ${
                       activeAccordion === 3 ? 'active' : ''
@@ -758,8 +696,7 @@ const ContactForm = () => {
                   >
                     Healthcare PPE Products
                   </button>
-                  {/* <hr style={{ marginTop: '-8px' }} /> */}
-                  {/* Repeat the same for the remaining buttons */}
+                  
 
                   <button
                     className={`dropdown-item ${
@@ -792,16 +729,7 @@ const ContactForm = () => {
                   >
                     Printing Solutions
                   </button>
-                  {/* <button
-                    className={`dropdown-item ${
-                      activeAccordion === 6 ? 'active' : ''
-                    }`}
-                    onClick={() =>
-                      handleAccordionToggle(6, 'Pulses and Grains')
-                    }
-                  >
-                    Pulses and Grains
-                  </button> */}
+                 
                 </div>
               </div>
             </div>
@@ -818,17 +746,7 @@ const ContactForm = () => {
                     {activeAccordion === 1 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-1">
-                          {/* <button
-                            className="accordion-button"
-                            type="button"
-                            aria-expanded={
-                              activeAccordion === 1 ? 'true' : 'false'
-                            }
-                            aria-controls="collapse-1"
-                            style={{}}
-                          >
-                            Printing Solutions
-                          </button> */}
+                          
                         </h2>
                         <div
                           id="collapse-1"
@@ -1814,16 +1732,7 @@ const ContactForm = () => {
                     {activeAccordion === 3 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-3">
-                          {/* <button
-                            className="accordion-button"
-                            type="button"
-                            aria-expanded={
-                              activeAccordion === 3 ? 'true' : 'false'
-                            }
-                            aria-controls="collapse-3"
-                          >
-                            Health Care Products
-                          </button> */}
+                          
                         </h2>
                         <div
                           id="collapse-3"
@@ -2209,16 +2118,7 @@ const ContactForm = () => {
                     {activeAccordion === 4 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-4">
-                          {/* <button
-                            className="accordion-button"
-                            type="button"
-                            aria-expanded={
-                              activeAccordion === 4 ? 'true' : 'false'
-                            }
-                            aria-controls="collapse-4"
-                          >
-                            Oil & Gas Equipment Supply
-                          </button> */}
+                          
                         </h2>
                         <div
                           id="collapse-4"
@@ -2598,16 +2498,7 @@ const ContactForm = () => {
                     {activeAccordion === 5 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-5">
-                          {/* <button
-                            className="accordion-button"
-                            type="button"
-                            aria-expanded={
-                              activeAccordion === 5 ? 'true' : 'false'
-                            }
-                            aria-controls="collapse-5"
-                          >
-                            Construction Tools and Safety Equipment's
-                          </button> */}
+                          
                         </h2>
                         <div
                           id="collapse-5"

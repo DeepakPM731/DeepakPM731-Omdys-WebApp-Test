@@ -25,10 +25,7 @@ const Tools = () => {
             <div className="row">
               <div className="banner-details">
                 <h2>Tools</h2>
-                {/* <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                  tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
-                </p> */}
+               
               </div>
             </div>
           </div>
@@ -63,9 +60,7 @@ const Tools = () => {
 
             <div className="col-lg-12">
               <div className="data" style={{ marginTop: '' }}>
-                {/* <div className="data"> */}
-                {/* <h2>Supplier Identification & Sourcing</h2> */}
-                {/* <ul data-aos="fade-down"> */}
+               
                 <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                   At OMDYS International LLP, we specialize in sourcing and
                   supplying a wide range of integrated circuits (ICs) to meet

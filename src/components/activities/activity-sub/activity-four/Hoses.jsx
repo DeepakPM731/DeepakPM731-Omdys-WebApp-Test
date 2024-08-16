@@ -28,38 +28,17 @@ const Hoses = () => {
                   Oil & Gas Equipment Supply
                 </h2>
                 <br />
-                {/* <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                  tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
-                </p> */}
+                
               </div>
             </div>
           </div>
         </section>
       </div>
       <br />
-      {/* <figure
-        style={{
-          // display: 'flex',
-          // justifyContent: 'center',
-          width: '100vw',
-        }}
-      > */}
-      {/* <div className="container" style={{}}>
-        <img
-          className="industry"
-          style={{ width: '100%' }}
-          // src="assets/svg4/petroleum and petrochemical products (2).svg"
-          src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
-          alt="Our Project One Image 1"
-        />
-      </div> */}
-      {/* </figure> */}
+      
 
       {/* ---------Head ends-------- */}
-      {/* ------------Chemical Products Starts ------------------ */}
-      {/* ------------Chemical Products Ends ------------------ */}
-      {/* ------------Petroleum Products Starts ------------------ */}
+   
       <div className="heading" style={{ marginTop: '' }}>
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />

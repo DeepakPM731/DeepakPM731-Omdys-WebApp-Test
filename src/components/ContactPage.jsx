@@ -6,9 +6,7 @@ import emailjs from '@emailjs/browser';
 
 const ContactPage = () => {
   const navigate = useNavigate();
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
+ 
 
   // State to manage which accordion is active
   const [activeAccordion, setActiveAccordion] = useState(0);
@@ -39,8 +37,7 @@ const ContactPage = () => {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    // console.log('Name:', name);
-    // console.log('Value:', value);
+   
     setFormData({ ...formData, [name]: value });
     // Clear the error message for the current field
     setErrors({ ...errors, [name]: '' });
@@ -62,24 +59,17 @@ const ContactPage = () => {
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = 'Please enter a valid email';
     }
-    // if (!formData.phone) {
-    //   newErrors.phone = 'Please enter your phone number';
+   
     // }
     if (!/^\d{10}$/.test(formData.phone)) {
       newErrors.phone = 'Please enter a valid phone number';
     }
-    // else if (!/^\d{10}$/.test(formData.phone)) {
-    //   newErrors.phone = 'Phone number must be exactly 10 digits';
-    // }
+   
+    
     if (!formData.division) {
       newErrors.division = 'Please select a division';
     }
-    // if (!formData.subject) {
-    //   newErrors.subject = 'Please enter a subject';
-    // }
-    // if (!formData.message) {
-    //   newErrors.message = 'Please enter your message';
-    // }
+    
     if (Object.keys(newErrors).length === 0) {
       try {
         const formDatas = new FormData();
@@ -144,7 +134,7 @@ const ContactPage = () => {
               // console.log('222222');
             }
           );
-        // navigate('/activities');
+        
       } catch (error) {
         console.log(error);
       }
@@ -188,23 +178,7 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-          {/* <div className="breadcrums">
-            <div className="container">
-              <div className="row">
-                <ul>
-                  <li>
-                    <Link to={'/'}>
-                      <i className="fa-solid fa-house" />
-                      <p>Home</p>
-                    </Link>
-                  </li>
-                  <li className="current">
-                    <p>Contact Us</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div> */}
+         
         </section>
         {/* Banner Style One End */}
         {/* Contact Form 2 Start */}
@@ -454,17 +428,13 @@ const ContactPage = () => {
                       <input
                         type="text"
                         className={'form-control'}
-                        // className={`form-control ${
-                        //   errors.subject && 'is-invalid'
-                        // }`}
+                        
                         name="subject"
                         value={formData.subject}
                         placeholder="Subject"
                         onChange={handleInputChange}
                       />
-                      {/* {errors.subject && (
-                        <div className="invalid-feedback">{errors.subject}</div>
-                      )} */}
+                      
                     </div>
                     <div className="row g-0">
                       <textarea
@@ -504,12 +474,7 @@ const ContactPage = () => {
                     </figure>
                     <h3>Mr Deepak Ponnarassery</h3>
                     <p>Business Head</p>
-                    {/* <figure>
-                      <img
-                        src="assets/images/signature.png"
-                        alt="Signature Image"
-                      />
-                    </figure> */}
+                   
                   </div>
                 </div>
                 <div className="info">
@@ -595,8 +560,7 @@ const ContactPage = () => {
                         <a href="tel:+91 84310 6789 3">
                           <p className="num">(+91) 84310 6789 3</p>
                         </a>
-                        {/* <p>(+91) 84310 6789 3</p> */}
-                        {/* <p>Fax: (+182) 50 318 47 07</p> */}
+                        
                       </div>
                     </li>
                     <li>
@@ -713,37 +677,7 @@ const ContactPage = () => {
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   aria-haspopup="true"
                   aria-expanded={dropdownOpen}
-                  //     style={{
-                  //       color: '#ffFAFAFA',
-                  //       fontSize: '16px',
-                  //       boxShadow: '0 4px 8px rgba(255, 0, 0, 0.5)',
-                  //       transition: 'transform 0.5s ease',
-                  //       background: dropdownOpen ? '#ff0000f0' : '',
-                  //       border: dropdownOpen
-                  //         ? '1px solid #ff0000f0'
-                  //         : '1px solid transparent',
-                  //       width: '450px',
-                  // maxWidth: '100%',
-
-                  //         paddingTop:'15px',
-                  //         paddingBottom:'15px'
-                  //     }}
-                  //  style={{
-                  //               color: '#ffFAFAFA',
-                  //               fontSize: '16px',
-                  //               boxShadow: '0 4px 8px rgba(255, 0, 0, 0.5)',
-                  //               transition: 'transform 0.5s ease',
-                  //               background: dropdownOpen ? '#ff0000f0' : '',
-                  //               border: dropdownOpen
-                  //                 ? '1px solid #ff0000f0'
-                  //                 : '1px solid transparent',
-                  //               width: '450px',
-                  //               maxWidth: '100%',
-                  //               paddingTop: '15px',
-                  //               paddingBottom: '15px',
-                  //               whiteSpace: 'nowrap',
-                  //               overflowY: 'auto',
-                  //             }}
+                  
 
                   style={{
                     background: dropdownOpen ? '#ffee02' : '',
@@ -754,27 +688,16 @@ const ContactPage = () => {
                     whiteSpace: 'normal',
                     wordWrap: 'break-word',
                   }}
-                  // style={{
-                  //   background: dropdownOpen ? '#ff0000f0' : '',
-                  //   border: dropdownOpen
-                  //     ? '1px solid #ff0000f0'
-                  //     : '1px solid transparent',
-                  //   fontWeight: 'bold',
-                  // }}
+                  
                 >
                   {selectedCategory}
                 </button>
                 <div
                   className={`dropdown-menu${dropdownOpen ? ' show' : ''}`}
                   aria-labelledby="dropdownMenuButton"
-                  // style={{
-                  //   width: '100%', // Set width to 100%
-                  //   maxWidth: '450px', // Maximum width
-                  //   overflowY: 'hidden', // Default to hidden scrolling
-                  // }}
+                  
                 >
-                  {/* <hr style={{ marginTop: '-8px' }} /> */}
-                  {/* Repeat the same for other buttons */}
+                
                   <button
                     className={`dropdown-item ${
                       activeAccordion === 4 ? 'active' : ''
@@ -814,8 +737,7 @@ const ContactPage = () => {
                   >
                     Healthcare PPE Products
                   </button>
-                  {/* <hr style={{ marginTop: '-8px' }} /> */}
-                  {/* Repeat the same for the remaining buttons */}
+                  
 
                   <button
                     className={`dropdown-item ${
@@ -828,7 +750,7 @@ const ContactPage = () => {
                       )
                     }
                     style={{
-                      whiteSpace: 'normal' /* Allow the text to wrap */,
+                      whiteSpace: 'normal' ,
                       wordWrap: 'break-word',
                       fontWeight: '600',
                       textAlign: 'center',
@@ -848,16 +770,7 @@ const ContactPage = () => {
                   >
                     Printing Solutions
                   </button>
-                  {/* <button
-                    className={`dropdown-item ${
-                      activeAccordion === 6 ? 'active' : ''
-                    }`}
-                    onClick={() =>
-                      handleAccordionToggle(6, 'Pulses and Grains')
-                    }
-                  >
-                    Pulses and Grains
-                  </button> */}
+                  
                 </div>
               </div>
             </div>
@@ -874,17 +787,7 @@ const ContactPage = () => {
                     {activeAccordion === 1 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-1">
-                          {/* <button
-                            className="accordion-button"
-                            type="button"
-                            aria-expanded={
-                              activeAccordion === 1 ? 'true' : 'false'
-                            }
-                            aria-controls="collapse-1"
-                            style={{}}
-                          >
-                            Printing Solutions
-                          </button> */}
+                         
                         </h2>
                         <div
                           id="collapse-1"
@@ -1503,16 +1406,7 @@ const ContactPage = () => {
                     {activeAccordion === 2 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-2">
-                          {/* <button
-                            className="accordion-button"
-                            type="button"
-                            aria-expanded={
-                              activeAccordion === 2 ? 'true' : 'false'
-                            }
-                            aria-controls="collapse-2"
-                          >
-                            Electronics components
-                          </button> */}
+                          
                         </h2>
                         <div
                           id="collapse-2"
@@ -1870,16 +1764,7 @@ const ContactPage = () => {
                     {activeAccordion === 3 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-3">
-                          {/* <button
-                            className="accordion-button"
-                            type="button"
-                            aria-expanded={
-                              activeAccordion === 3 ? 'true' : 'false'
-                            }
-                            aria-controls="collapse-3"
-                          >
-                            Health Care Products
-                          </button> */}
+                         
                         </h2>
                         <div
                           id="collapse-3"
@@ -2265,16 +2150,7 @@ const ContactPage = () => {
                     {activeAccordion === 4 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-4">
-                          {/* <button
-                            className="accordion-button"
-                            type="button"
-                            aria-expanded={
-                              activeAccordion === 4 ? 'true' : 'false'
-                            }
-                            aria-controls="collapse-4"
-                          >
-                            Oil & Gas Equipment Supply
-                          </button> */}
+                          
                         </h2>
                         <div
                           id="collapse-4"
@@ -2654,16 +2530,7 @@ const ContactPage = () => {
                     {activeAccordion === 5 && (
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="heading-5">
-                          {/* <button
-                            className="accordion-button"
-                            type="button"
-                            aria-expanded={
-                              activeAccordion === 5 ? 'true' : 'false'
-                            }
-                            aria-controls="collapse-5"
-                          >
-                            Construction Tools and Safety Equipment's
-                          </button> */}
+                          
                         </h2>
                         <div
                           id="collapse-5"
@@ -3034,7 +2901,7 @@ const ContactPage = () => {
                           <button
                             className="accordion-button"
                             type="button"
-                            // onClick={() => handleAccordionToggle(6)}
+                            
                             aria-expanded={
                               activeAccordion === 6 ? 'true' : 'false'
                             }

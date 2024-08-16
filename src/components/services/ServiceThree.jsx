@@ -26,14 +26,11 @@ const ServiceThree = () => {
               <div className="banner-details">
                 <h2>Services</h2>
                 <br />
-                {/* <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                  tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
-                </p> */}
+                
               </div>
             </div>
           </div>
-          {/* <div className="breadcrums"></div> */}
+          
         </section>
       </div>
       {/* service starts */}
@@ -55,7 +52,7 @@ const ServiceThree = () => {
             <div className="col-lg-6">
               <div className="data" style={{ marginTop: '-150px' }}>
                 {' '}
-                {/* <div className="data"> */}
+               
                 <h2>Logistics & Shipping</h2>
                 <ul data-aos="fade-down">
                   <li>
@@ -69,12 +66,7 @@ const ServiceThree = () => {
                       </b>
                     </p>
                   </li>
-                  {/* <li>
-                    <i className="fa-solid fa-check" />
-                    <p>
-                      <b> </b>
-                    </p>
-                  </li> */}
+                  
                   <li>
                     <i className="fa-solid fa-check" />
                     <p>

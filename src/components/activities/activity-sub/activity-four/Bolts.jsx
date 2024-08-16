@@ -28,10 +28,7 @@ const Bolts = () => {
                   Oil & Gas Equipment Supply
                 </h2>
                 <br />
-                {/* <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                  tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
-                </p> */}
+                
               </div>
             </div>
           </div>
@@ -40,9 +37,7 @@ const Bolts = () => {
       <br />
 
       {/* ---------Head ends-------- */}
-      {/* ------------Chemical Products Starts ------------------ */}
-      {/* ------------Chemical Products Ends ------------------ */}
-      {/* ------------Petroleum Products Starts ------------------ */}
+  
       <div className="heading" style={{ marginTop: '' }}>
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />

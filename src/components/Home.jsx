@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 
+
 import About from './about/About';
 import Articles from './Articles';
 import Clients from './Clients';
@@ -36,26 +37,28 @@ const Home = () => {
 
   return (
     <>
-      <Slider />
-      <Vision />
-      <About />
-      <Counter />
-      <Projects />
-      {/* <Team /> */}
-      <Features />
-      {/* <Clients /> */}
-      <Contact />
-      {/* <Review /> */}
-      <Testimonials />
-      <Articles />
+      <>
+        <Slider />
+        <Vision />
+        <About />
+        <Counter />
+        <Projects />
+        {/* <Team /> */}
+        <Features />
+        {/* <Clients /> */}
+        <Contact />
+        {/* <Review /> */}
+        <Testimonials />
+        <Articles />
 
-      <button
-        id="scrollTop"
-        className="scrollTopStick"
-        onClick={handleScrollTop}
-      >
-        <i className="fa-solid fa-arrow-up"></i>
-      </button>
+        <button
+          id="scrollTop"
+          className="scrollTopStick"
+          onClick={handleScrollTop}
+        >
+          <i className="fa-solid fa-arrow-up"></i>
+        </button>
+      </>
     </>
   );
 };

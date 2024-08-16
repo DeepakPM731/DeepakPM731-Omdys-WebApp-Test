@@ -10,29 +10,9 @@ const News = () => {
 
   const key = import.meta.env.VITE_API_KEY;
 
-  // useEffect(() => {
-  //   axios
-  //     .get(
-  //       'https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=ebb12aa1ab2f471b9c3e45d77717b73c',
-  //       {
-  //         headers: {
-  //           'access-control-allow-origin': '*',
-  //           'Content-Type': 'application/json; charset=UTF-8',
-  //         },
-  //       }
-  //     )
-  //     .then((data) => {
-  //       console.log(data);
-  //       setData(data.data.articles);
-  //     })
-  //     .catch((error) => {
-  //       console.log(error);
-  //     });
-  // }, []);
 
   useEffect(() => {
-    // const corsAnywhereUrl = 'https://cors-anywhere.herokuapp.com/';
-    // const apiUrl = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=${key}`;
+   
     const apiUrl = `https://gnews.io/api/v4/top-headlines?category=business&lang=en&apikey=${key}`;
 
     axios
@@ -97,21 +77,7 @@ const News = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="breadcrums">
-              <div className="container">
-                <div className="row">
-                  <ul>
-                    <li>
-                      <Link to={'/'}>
-                        <i className="fa-solid fa-house" />
-                        <p>Home</p>
-                      </Link>
-                    </li>
-                    
-                  </ul>
-                </div>
-              </div>
-            </div> */}
+           
             {/* news starts */}
           </section>
           <section className="gap no-top blog-style-one">
@@ -121,15 +87,7 @@ const News = () => {
               </figure>
               {/* <span>Global Market News Summary</span> */}
               <h2>News</h2>
-              {/* <div className="container">
-                <p style={{ textAlign: 'justify' }}>
-                  STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
-                  PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET
-                  INSIGHTS, AND SIGNIFICANT DEVELOPMENTS FROM AROUND THE WORLD.
-                  KEEP UP WITH THE INFORMATION THAT MATTERS MOST TO YOUR
-                  BUSINESS AND INTERESTS.
-                </p>
-              </div> */}
+              
             </div>
             <br />
             <br />
@@ -164,31 +122,11 @@ const News = () => {
                 <div className="banner-details">
                   <h2 style={{  }}>Recent Articles</h2>
                   <br />
-                  {/* <p style={{ textAlign: 'justify' }}>
-                    STAY INFORMED WITH THE LATEST GLOBAL NEWS AND UPDATES. OUR
-                    PAGE BRINGS YOU CURRENT EVENTS, INDUSTRY TRENDS, MARKET
-                    INSIGHTS, AND SIGNIFICANT DEVELOPMENTS FROM AROUND THE
-                    WORLD. KEEP UP WITH THE INFORMATION THAT MATTERS MOST TO
-                    YOUR BUSINESS AND INTERESTS.
-                  </p> */}
+                  
                 </div>
               </div>
             </div>
-            {/* <div className="breadcrums">
-              <div className="container">
-                <div className="row">
-                  <ul>
-                    <li>
-                      <Link to={'/'}>
-                        <i className="fa-solid fa-house" />
-                        <p>Home</p>
-                      </Link>
-                    </li>
-                   
-                  </ul>
-                </div>
-              </div>
-            </div> */}
+           
             {/* news starts */}
           </section>
           <section className="gap no-top blog-style-one">
@@ -239,8 +177,7 @@ const News = () => {
                           <span className="blog-date">
                             {news.formattedDate}
                           </span>
-                          {/* <span className="blog-date">{news.publishedAt}</span> */}
-                          {/* <span className="blog-date">January 9, 2022</span> */}
+                          
                           <h2>
                             <a href={news.url} target="_blank">
                               {news.title}
@@ -271,83 +208,7 @@ const News = () => {
                   </>
                 ))}
 
-                {/* <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="blog-post">
-                <div className="blog-image">
-                  <figure>
-                    <img
-                      src="https://winsfolio.net/html/builty/assets/images/blog-img-2.jpg"
-                      alt="blog-img-2"
-                    />
-                  </figure>
-                  <a href="blog-detail.html">
-                    <i className="fa-solid fa-angles-right" />
-                  </a>
-                </div>
-                <div className="blog-data">
-                  <span className="blog-date">January 9, 2022</span>
-                  <h2>
-                    <a href="blog-detail.html">
-                      Seven Mistakes To Avoid During Construction
-                    </a>
-                  </h2>
-                  <div className="blog-author d-flex-all justify-content-start">
-                    <div className="author-img">
-                      <figure>
-                        <img
-                          src="	https://winsfolio.net/html/builty/assets/images/blog-author-img.jpg"
-                          alt="Blog Author Img"
-                        />
-                      </figure>
-                    </div>
-                    <div className="details">
-                      <h3>
-                        <span>by</span> Jakki James
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="blog-post">
-                <div className="blog-image">
-                  <figure>
-                    <img
-                      src="https://winsfolio.net/html/builty/assets/images/blog-img-3.jpg"
-                      alt="blog-img-3"
-                    />
-                  </figure>
-                  <a href="blog-detail.html">
-                    <i className="fa-solid fa-angles-right" />
-                  </a>
-                </div>
-                <div className="blog-data">
-                  <span className="blog-date">January 9, 2022</span>
-                  <h2>
-                    <a href="blog-detail.html">
-                      Build Climate Change-Resilient Infrastructure
-                    </a>
-                  </h2>
-                  <div className="blog-author d-flex-all justify-content-start">
-                    <div className="author-img">
-                      <figure>
-                        <img
-                          src="	https://winsfolio.net/html/builty/assets/images/blog-author-img.jpg
-"
-                          alt="Blog Author Img 1"
-                        />
-                      </figure>
-                    </div>
-                    <div className="details">
-                      <h3>
-                        <span>by</span> Jakki James
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> */}
+               
               </div>
               <div className="common-btn">
                 <a

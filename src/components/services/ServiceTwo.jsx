@@ -69,10 +69,9 @@ const ServiceTwo = () => {
               <div className="col-lg-12">
                 <div className="data" style={{ marginTop: '' }}>
                   {' '}
-                  {/* <div className="data"> */}
-                  {/* <h2>Product Management</h2> */}
+                 
                   <ul>
-                    {/* <ul data-aos="fade-down"> */}
+                    
                     <li>
                       <p style={{ fontSize: '18px', textAlign: 'justify' }}>
                         {' '}

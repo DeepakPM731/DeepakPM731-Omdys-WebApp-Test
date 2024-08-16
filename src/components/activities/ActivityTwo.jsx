@@ -16,9 +16,7 @@ const ActivityTwo = () => {
 
   return (
     <>
-      {/* =========================================================== */}
-
-      {/* =========================================================== */}
+     
 
       <div>
         <section className="banner-style-one">
@@ -303,29 +301,7 @@ const ActivityTwo = () => {
                       </p>
                     </div>
                   </li>
-                  {/* <li style={{ marginBottom: '-2%' }}>
-                    <div className="data">
-                      <h3>Semiconductors</h3>
-                      <p style={{ fontSize: '18px', textAlign: 'justify' }}>
-                        Browse through our collection of discrete
-                        semiconductors, including power MOSFETs, IGBTs, Schottky
-                        diodes, and voltage regulators, for efficient power
-                        management and control.{' '}
-                        <a href="/semi">( Know More )</a>
-                      </p>
-                    </div>
-                    <div className="image" data-aos="fade-right">
-                      <figure>
-                        <img
-                          className="w-100"
-                          src="assets/images/activity-four/semiconductor.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/promise.png"
-                          // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
-                          alt="Core Values Image 1"
-                        />
-                      </figure>
-                    </div>
-                  </li> */}
+                 
                 </ul>
               </div>
             </div>

@@ -26,28 +26,12 @@ const ActivityOne = () => {
               <div className="banner-details" style={{ textAlign: 'center' }}>
                 <h2>Comprehensive Printing Solutions</h2>
                 <br />
-                {/* <p>our values and vaulted us to the top of our industry.</p> */}
+                
               </div>
             </div>
           </div>
 
-          {/* <div className="breadcrums"> */}
-          {/* <div className="container">
-              <div className="row">
-                <ul>
-                  <li>
-                    <a href="/">
-                      <i className="fa-solid fa-house" />
-                      <p>Home</p>
-                    </a>
-                  </li>
-                  <li className="current">
-                    <p>About Us</p>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
-          {/* </div> */}
+          
         </section>
       </div>
       <br />
@@ -68,13 +52,12 @@ const ActivityOne = () => {
             <br />
             <p
               className=""
-              // className="text-center"
-              // style={{ fontSize: '20px', textAlign: 'justify' }}
+              
               style={{
                 fontSize: '18px',
                 textAlign: 'justify',
                 margin: '0 auto' /* to center align */,
-                // maxWidth: '600px' /* optional: adjust as needed */,
+                
                 padding: 0,
                 whiteSpace: 'normal',
                 wordBreak: 'break-all',
@@ -166,9 +149,7 @@ const ActivityOne = () => {
                       <img
                         className="w-100"
                         src="assets/images/uv-inkanna.png"
-                        // src="assets/svg4/petroleum and petrochemical products (2).svg"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/uv_inkann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                       
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -181,8 +162,7 @@ const ActivityOne = () => {
                         className="w-100"
                         // src="assets/svg4/HEALTH CARE PRODUCTS 1.svg"
                         src="assets/images/solvent_inks_annna.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/eco_solvent_inkann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                       
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -227,9 +207,9 @@ const ActivityOne = () => {
                     <figure>
                       <img
                         className="w-100"
-                        // src="assets/svg4/petroleum and petrochemical products (2).svg"
+                        
                         src="https://s3.ap-south-1.amazonaws.com/omdys.com/printing_equipann.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/petroleum+and+petrochemical+products+(2).svg"
+                        
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -242,7 +222,7 @@ const ActivityOne = () => {
                         className="w-100"
                         // src="assets/svg4/HEALTH CARE PRODUCTS 1.svg"
                         src="https://s3.ap-south-1.amazonaws.com/omdys.com/media_suppliesannn.png"
-                        // src="https://s3.ap-south-1.amazonaws.com/omdys.com/Medical+PPE+1.svg"
+                        
                         alt="Core Values Image 1"
                       />
                     </figure>
@@ -270,17 +250,16 @@ const ActivityOne = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
+        
         <h2>Why Choose Us?</h2>
         <hr />
       </div>
       <section className="gap blog-style-two" style={{ marginTop: '-8%' }}>
         <div className="heading">
           <figure>
-            {/* <img src="assets/images/heading-icon.png" alt="heading-icon-22" /> */}
+           
           </figure>
-          {/* <span>Blog &amp; News</span>
-            <h2>Recent Articles</h2> */}
+          
         </div>
         <div className="container">
           <div className="blog-slider row owl-carousel">

@@ -70,6 +70,7 @@ import Redirections from './components/Redirections';
 import Testimonials from './components/Testimonials';
 import Chatbot from './components/Chatbot';
 import NotFound from './components/NotFound';
+import Loader from './components/Loader';
 
 const App = () => {
   // const [showChat, setShowChat] = useState(false);

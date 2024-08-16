@@ -18,26 +18,7 @@ const Contact = () => {
                 <h3 style={{ marginBottom: '20px' }}>Our Business </h3>
                 <h2 style={{ fontSize: '80px' }}>Starts Here</h2>
                 <div>
-                  {/* <h1 style={{ color: 'white', fontSize: 45 }}>
-                    Get a free quote!
-                  </h1>
-                  <br />
-                  <h2 style={{ color: 'white', fontSize: 30 }}>
-                    Explore our products
-                  </h2>
-                  <br />
-                  <h2 style={{ color: 'white', fontSize: 25 }}>
-                    Contact us today
-                  </h2> */}
-                  {/* <h4
-                    style={{
-                      fontSize: '35px',
-                      color: 'white',
-                      fontWeight: '600',
-                    }}
-                  >
-                    Place Your Enquiry
-                  </h4> */}
+                 
                 </div>
                 <div className="bbtn">
                   <figure>
@@ -48,11 +29,7 @@ const Contact = () => {
                     />
                   </figure>
                   <Link to={'/contact-form'}>
-                    {/* <a
-                      href="javascript:void(0)"
-                      data-bs-toggle="modal"
-                      data-bs-target="#exampleModal1"
-                    > */}
+                    
                     <i className="fa-solid fa-arrow-up-long" />
                     {/* </a> */}
                   </Link>

@@ -25,14 +25,7 @@ const Footer = () => {
     // const emailPattern = /\S+@\S+\.\S+/;
     const phonePattern = /^[0-9]{10}$/;
 
-    // if (!formData.email) {
-    //   newErrors.email = 'Please enter a valid Email or a 10-digit Phone number';
-    // } else if (
-    //   !emailPattern.test(formData.email) &&
-    //   !phonePattern.test(formData.email)
-    // ) {
-    //   newErrors.email = 'Please enter a valid Email or a 10-digit Phone number';
-    // }
+   
 
     if (!formData.email) {
       newErrors.email = 'Please enter a valid 10-digit Phone number';
@@ -306,34 +299,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              {/* <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="footer-col">
-                  <h3>Callback Request</h3>
-                  <p>Request a callback. Enter your Email or Phone.</p>
-                  <form onSubmit={sendEmail}>
-                    <input
-                      type="text"
-                      className={`form-control ${errors.email && 'is-invalid'}`}
-                      id="exampleInputEmail1"
-                      name="email"
-                      value={formData.email}
-                      placeholder="Enter Your Email/Phone"
-                      onChange={handleInputChange}
-                    />
-                    <button type="submit">
-                      <i className="fa-solid fa-arrow-up-long" />
-                    </button>
-                  </form>
-                  {errors.email && (
-                    <div
-                      className="invalid-feedback"
-                      style={{ fontSize: '20px' }}
-                    >
-                      {errors.email}
-                    </div>
-                  )}
-                </div>
-              </div> */}
+              
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-col">
                   <h3>Callback-Request</h3>

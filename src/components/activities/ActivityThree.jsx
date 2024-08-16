@@ -32,27 +32,11 @@ const ActivityThree = () => {
                   Tools and Equipment Supply
                 </h2>
                 <br />
-                {/* <p>our values and vaulted us to the top of our industry.</p> */}
+                
               </div>
             </div>
           </div>
-          {/* <div className="breadcrums"> */}
-          {/* <div className="container">
-              <div className="row">
-                <ul>
-                  <li>
-                    <a href="/">
-                      <i className="fa-solid fa-house" />
-                      <p>Home</p>
-                    </a>
-                  </li>
-                  <li className="current">
-                    <p>About Us</p>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
-          {/* </div> */}
+          
         </section>
       </div>
       <br />
@@ -68,78 +52,12 @@ const ActivityThree = () => {
           alt="Our Project One Image 1"
         />
       </div>
-      {/* <div className="container mt-5 mb-5">
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="who-we-are">
-              <div>
-                <h3 className="mb-5 text-center" style={{ fontSize: '48px' }}>
-                  Wide Range of Products
-                </h3>
-                <figure
-                  style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                  }}
-                >
-                  <img
-                  
-                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/industrial+construction+tools+and+equipmentimg+(3).png"
-                    alt="Our Project One Image 1"
-                  />
-                </figure>
-                <br />
-                <p
-                  style={{
-                    fontSize: '18px',
-                    textAlign: 'justify',
-                    margin: 0,
-                    padding: 0,
-                    whiteSpace: 'normal',
-                    wordBreak: 'break-all',
-                    lineHeight: '1.5',
-                    wordSpacing: '0.5px',
-                    hyphens: 'auto',
-                  }}
-                >
-                  We offer a broad selection of tools and equipment, ensuring
-                  that our customers have the best resources tailored to their
-                  unique needs. Our unwavering commitment to quality and
-                  customer satisfaction distinguishes us in the industry. We are
-                  dedicated to delivering top-tier products and services that
-                  enhance our customers’ operations. Our product portfolio
-                  includes everything from hand tools, and power tools, to
-                  specialized equipment.
-                </p>
-              </div>
-              <figure>
-               
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div> */}
+      
 
       {/* ============================================================================== */}
       <section className="gap innovation">
         <div className="heading">
-          {/* <div className="container" style={{ textAlign: 'justify' }}>
-            <p style={{ fontSize: '20px', textAlign: 'justify' }}>
-              Welcome to our Electronics Components Sourcing wing, your one-stop
-              destination for all your electronic component needs. We specialize
-              in sourcing and trading a wide range of electronic components to
-              meet the diverse requirements of our clients.
-            </p>
-            <br />
-            <p style={{ fontSize: '20px', textAlign: 'justify' }}>
-              At OMDYS International LLP, we understand the critical role that
-              electronic components play in today's technology-driven world.
-              Whether you are a small-scale electronics hobbyist or a
-              large-scale manufacturer, we have the products and services to
-              support your projects and businesses.
-            </p>
-          </div> */}
-          {/* <br /> */}
+         
           <div className="row align-items-center" style={{ marginTop: '-5%' }}>
             <div className="col-lg-12">
               <div className="proj-data">
@@ -150,11 +68,7 @@ const ActivityThree = () => {
                 </h1>
               </div>
               <div className="container">
-                {/* <p className="m-4" style={{ fontSize: '20px' }}>
-                  At OMDYS International LLP, we offer an extensive range of
-                  electronic components to cater to diverse needs and
-                  applications. Our product catalogue includes:
-                </p> */}
+              
               </div>
             </div>
           </div>
@@ -221,30 +135,7 @@ const ActivityThree = () => {
                   </p>
                 </a>
               </li>
-              {/* <li style={styles} data-aos="fade-up-right">
-                <i
-                  className="fa-solid fa-check"
-                  style={{ marginTop: '20px' }}
-                />
-
-                <p>
-                  <span style={{ color: 'green' }}>
-                    <p
-                      style={{
-                        fontSize: '20px',
-                        fontWeight: '800',
-                        textAlign: 'center',
-                        color: 'green',
-                      }}
-                    >
-                      Gardening Tools
-                    </p>
-                    <br />
-                  </span>{' '}
-                  Shovels, rakes, pruning shears, and garden hoses are typically
-                  available.
-                </p>
-              </li> */}
+              
               <li style={styles} data-aos="fade-up-left">
                 <i className="fa-solid fa-check" />
                 <a href="/electrical-tools">
@@ -349,51 +240,7 @@ const ActivityThree = () => {
                   </p>
                 </a>
               </li>
-              {/* <li style={styles} data-aos="fade-down">
-                <i
-                  className="fa-solid fa-check"
-                  style={{ marginTop: '20px' }}
-                />
-                <p>
-                  <span style={{ color: 'green' }}>
-                    <p
-                      style={{
-                        fontSize: '20px',
-                        fontWeight: '800',
-                        textAlign: 'center',
-                        color: 'green',
-                      }}
-                    >
-                      Building Materials
-                    </p>{' '}
-                    <br />
-                  </span>
-                  This can include items like cement, sand, bricks, and tiles.
-                </p>
-              </li> */}
-              {/* <li style={styles} data-aos="fade-up-right">
-                <i
-                  className="fa-solid fa-check"
-                  style={{ marginTop: '20px' }}
-                />
-                <p>
-                  <span style={{ color: 'green' }}>
-                    <p
-                      style={{
-                        fontSize: '20px',
-                        fontWeight: '800',
-                        textAlign: 'center',
-                        color: 'green',
-                      }}
-                    >
-                      Hardware Accessories
-                    </p>{' '}
-                    <br />
-                  </span>
-                  Items such as hinges, handles, hooks, and shelf brackets are
-                  usually available.
-                </p>
-              </li> */}
+              
             </ul>
             <div className="container" style={{ textAlign: '' }}>
               <p
@@ -431,17 +278,16 @@ const ActivityThree = () => {
         <figure>
           <img src="assets/images/heading-icon.png" alt="heading-icon" />
         </figure>
-        {/* <span>LET'S HELP YOU WITH OUR PRODUCTS</span> */}
+       
         <h2>Why Choose Us?</h2>
         <hr />
       </div>
       <section className="gap blog-style-two" style={{ marginTop: '-8%' }}>
         <div className="heading">
           <figure>
-            {/* <img src="assets/images/heading-icon.png" alt="heading-icon-22" /> */}
+            
           </figure>
-          {/* <span>Blog &amp; News</span>
-            <h2>Recent Articles</h2> */}
+          
         </div>
         <div className="container">
           <div className="blog-slider row owl-carousel">

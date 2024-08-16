@@ -1,11 +1,13 @@
 .chatbot-container {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
   z-index: 1000;
 }
 
+/* Independent positioning for the chat icon */
 .chatbot-icon {
+  position: fixed; /* Position independently */
+  bottom: 9px; /* Adjust the icon's position */
+  right: 13px; /* Adjust the icon's position */
   width: 60px;
   height: 60px;
   cursor: pointer;
@@ -18,29 +20,15 @@
   object-fit: contain;
 }
 
+/* Independent positioning for the iframe */
 .chatbot-iframe {
   display: none;
-  position: absolute;
-  bottom: 30px; /* Adjust to position the iframe above the icon */
-  right: 0;
+  position: fixed; /* Change to fixed to avoid moving with the icon */
+  bottom: 156px; /* Position above the icon */
+  right: 26px; /* Align with the icon's right position */
   width: 350px;
   height: 430px;
   transition: transform 0.3s ease;
-}
-
-.chatbot-iframe.open {
-  display: block;
-}
-
-.chatbot-container {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
-
-.chatbot-iframe {
-  position: relative;
-  display: none;
 }
 
 .chatbot-iframe.open {
@@ -63,8 +51,4 @@
 
 .chatbot-close-button:hover {
   background-color: #ff0000;
-}
-
-.chatbot-icon {
-  cursor: pointer;
 }

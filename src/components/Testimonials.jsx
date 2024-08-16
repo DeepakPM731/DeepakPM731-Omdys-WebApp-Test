@@ -161,29 +161,7 @@ const Testimonials = () => {
                 </figure>
 
                 <div className="project-data">
-                  {/* <h3>
-                      
-                        <a href="project-detail.html">Mr Muhammed Aneesh </a>
-                     
-                    </h3>
-                    <h6
-                      style={{
-                        textDecoration: 'none',
-                        color: 'grey',
-                        fontWeight: '500',
-                      }}
-                    >
-                      - Managing Director Profixo Trading and Contracting,
-                    </h6>
-                    <h6
-                      style={{
-                        textDecoration: 'none',
-                        color: 'grey',
-                        fontWeight: '500',
-                      }}
-                    >
-                      &nbsp; &nbsp;Doha - State of Qatar
-                    </h6> */}
+                  
                   <p
                     className="testimonialPara"
                     style={{

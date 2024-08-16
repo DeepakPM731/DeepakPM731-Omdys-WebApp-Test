@@ -29,27 +29,11 @@ const ActivityFive = () => {
                   Health Care PPE Products
                   <br />
                 </h2>
-                {/* <p>our values and vaulted us to the top of our industry.</p> */}
+               
               </div>
             </div>
           </div>
-          {/* <div className="breadcrums"> */}
-          {/* <div className="container">
-              <div className="row">
-                <ul>
-                  <li>
-                    <a href="/">
-                      <i className="fa-solid fa-house" />
-                      <p>Home</p>
-                    </a>
-                  </li>
-                  <li className="current">
-                    <p>About Us</p>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
-          {/* </div> */}
+          
         </section>
       </div>
       <br />
@@ -272,10 +256,9 @@ const ActivityFive = () => {
       <section className="gap blog-style-two" style={{ marginTop: '-8%' }}>
         <div className="heading">
           <figure>
-            {/* <img src="assets/images/heading-icon.png" alt="heading-icon-22" /> */}
+            
           </figure>
-          {/* <span>Blog &amp; News</span>
-            <h2>Recent Articles</h2> */}
+          
         </div>
         <div className="container">
           <div className="blog-slider row owl-carousel">

@@ -8,11 +8,23 @@ const Chat = () => {
   const toggleChatbot = () => {
     setIsOpen(!isOpen);
   };
-
+  useEffect(() => {
+    document.addEventListener('DOMContentLoaded', function () {
+      const iframe = document.querySelector('iframe');
+      iframe.addEventListener('load', function () {
+        iframe.contentWindow.document.body.innerHTML =
+          iframe.contentWindow.document.body.innerHTML.replace(
+            /(https:\/\/[^\s]+)/g,
+            '<a href="$1" target="_blank">$1</a>'
+          );
+      });
+    });
+  }, []);
   return (
     <div className="chatbot-container">
       <div className={`chatbot-iframe ${isOpen ? 'open' : ''}`}>
         <iframe
+          allow="microphone;"
           height="530"
           // height="430"
           width="350"
@@ -23,11 +35,7 @@ const Chat = () => {
             borderRadius: '10px',
             boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
           }}
-          // style={{
-          //   border: '2px solid #007bff', // Add a custom border color
-          //   borderRadius: '10px', // Add rounded corners
-          //   boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', // Add a shadow
-          // }}
+         
         ></iframe>
         <button className="chatbot-close-button" onClick={toggleChatbot}>
           X

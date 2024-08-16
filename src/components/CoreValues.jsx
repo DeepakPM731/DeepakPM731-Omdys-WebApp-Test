@@ -33,23 +33,7 @@ const CoreValues = () => {
               </div>
             </div>
           </div>
-          {/* <div className="breadcrums">
-            <div className="container">
-              <div className="row">
-                <ul>
-                  <li>
-                    <a href="/">
-                      <i className="fa-solid fa-house" />
-                      <p>Home</p>
-                    </a>
-                  </li>
-                  <li className="current">
-                    <p>Core Values</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div> */}
+         
         </section>
         {/* Banner Style One End */}
         <div style={{ marginTop: '20px' }}>
@@ -272,15 +256,10 @@ const CoreValues = () => {
                       <br /> your business goals. We're ready when you are.
                     </p>
                     <Link to={'/contact'} className="theme-btn">
-                      {/* <a
-                        href=""
-                        data-bs-toggle="modal"
-                        data-bs-target="#exampleModal1"
-                        className="theme-btn"
-                      > */}
+                      
                       Contact Us
                       <i className="fa-solid fa-angles-right" />
-                      {/* </a> */}
+                      
                     </Link>
                   </div>
                 </div>
@@ -289,8 +268,7 @@ const CoreValues = () => {
                     <figure style={{ marginLeft: '100px' }}>
                       <img
                         src="https://s3.ap-south-1.amazonaws.com/omdys.com/work_together.png"
-                        // src="/assets/images/work_together.png"
-                        // src="https://winsfolio.net/html/builty/assets/images/building-2.png"
+                        
                         alt="Building-2 Pic"
                       />
                     </figure>

@@ -30,23 +30,7 @@ const Activities = () => {
             </div>
           </div>
         </div>
-        {/* <div className="breadcrums">
-          <div className="container"> */}
-        {/* <div className="row">
-              <ul>
-                <li>
-                  <a href="/">
-                    <i className="fa-solid fa-house" />
-                    <p>Home</p>
-                  </a>
-                </li>
-                <li className="current">
-                  <p>Our Main Activities</p>
-                </li>
-              </ul>
-            </div> */}
-        {/* </div>
-        </div> */}
+        
       </section>
       {/* Banner Style One End */}
       <div style={{ marginTop: '20px' }}>
@@ -187,26 +171,7 @@ const Activities = () => {
                   </div>
                 </li>
 
-                {/* <li>
-                  <div className="image">
-                    <figure>
-                      <img
-                        className="w-100"
-                        src="assets/svg4/Pulses & Grains.svg"
-                        alt="Core Values Image 1"
-                      />
-                    </figure>
-                  </div>
-                  <div className="data">
-                    <h3> Trading of pulses and grains – Exporting</h3>
-                    <p>
-                      We source and export premium pulses and grains, adhering
-                      to the strictest quality standards and international
-                      regulations.
-                      <Link to={'/activity-six'}>( Read More )</Link>
-                    </p>
-                  </div>
-                </li> */}
+                
               </ul>
             </div>
           </div>

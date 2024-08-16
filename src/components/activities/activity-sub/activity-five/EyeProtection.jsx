@@ -13,14 +13,11 @@ const EyeProtection = () => {
             <div className="row">
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>Health Care Products</h2>
-                {/* <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
-                  tenetur culpa rerum, ipsam odio voluptatem excepturi quasi!
-                </p> */}
+               
               </div>
             </div>
           </div>
-          {/* <div className="breadcrums"></div> */}
+         
         </section>
       </div>
       <br />

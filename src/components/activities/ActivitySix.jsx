@@ -23,23 +23,7 @@ const ActivitySix = () => {
               </div>
             </div>
           </div>
-          {/* <div className="breadcrums"> */}
-          {/* <div className="container">
-              <div className="row">
-                <ul>
-                  <li>
-                    <a href="/">
-                      <i className="fa-solid fa-house" />
-                      <p>Home</p>
-                    </a>
-                  </li>
-                  <li className="current">
-                    <p>About Us</p>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
-          {/* </div> */}
+       
         </section>
       </div>
 
@@ -48,10 +32,7 @@ const ActivitySix = () => {
           <div className="col-lg-12">
             <div className="who-we-are">
               <div>
-                {/* <h3 className="mb-5 text-center" style={{ fontSize: '48px' }}>
-                  Wide Range of Products
-                </h3> */}
-                {/* <p style={{ textAlign: 'justify' }}> */}
+                
                 <div style={{ textAlign: 'justify' }}>
                   <p style={{ fontSize: '20px', textAlign: 'justify' }}>
                     At OMDYS International LLP we take pride in being a premier
@@ -62,14 +43,7 @@ const ActivitySix = () => {
                     quality, reliability, and customer satisfaction sets us
                     apart in the industry.
                   </p>
-                  {/* <br />
-                  <p>
-                    At OMDYS International LLP, we understand the critical role
-                    that electronic components play in today's technology-driven
-                    world. Whether you are a small-scale electronics hobbyist or
-                    a large-scale manufacturer, we have the products and
-                    services to support your projects and businesses.
-                  </p> */}
+                  
                 </div>
               </div>
               <figure>
@@ -116,14 +90,7 @@ const ActivitySix = () => {
                   includes:
                 </p>
 
-                {/* <p className="m-4" style={{ fontSize: '20px' }}>
-                All our PPE products undergo rigorous testing and certification
-                to ensure compliance with global regulatory requirements,
-                including FDA, CE, ISO, and ASTM standards. Whether it's
-                surgical masks, respirators, gloves, or protective apparel, you
-                can trust OMDYS to deliver PPE solutions that meet or exceed
-                industry benchmarks for safety and performance.
-              </p> */}
+              
 
                 <div className="prj-post mb-2">
                   <div className="container">
@@ -191,11 +158,7 @@ const ActivitySix = () => {
                         <br />
                       </p>
                     </div>
-                    {/* <p className="mx-1 my-2" style={{ fontSize: '20px' }}>
-                      Trust OMDYS International LLP for all your HEALTH CARE PRODUCTS
-                      sourcing requirements. Together, let's prioritize safety
-                      and protect what matters most.
-                    </p> */}
+                    
                   </div>
                 </div>
               </div>
@@ -236,9 +199,7 @@ const ActivitySix = () => {
                   </div>
                 </div>
                 <p className="m-4" style={{ fontSize: '20px' }}>
-                  {/* Our selection of passive components includes resistors,
-                  capacitors, inductors, and filters to support various circuit
-                  designs and applications. */}
+                  
                   With a robust distribution network spanning across continents,
                   we have the capability to serve customers worldwide. Whether
                   you're based in Asia, Europe, North America, or beyond, we can
@@ -261,9 +222,7 @@ const ActivitySix = () => {
                   </div>
                 </div>
                 <p className="m-4" style={{ fontSize: '20px' }}>
-                  {/* Our selection of passive components includes resistors,
-                  capacitors, inductors, and filters to support various circuit
-                  designs and applications. */}
+                  
                   We understand that each customer has unique requirements and
                   preferences. That's why we offer customized solutions tailored
                   to your specific needs. Whether you require bulk packaging,
@@ -339,8 +298,7 @@ const ActivitySix = () => {
             </div>
           </div>
         </section>
-        {/* </div>
-        </div> */}
+       
       </section>
     </>
   );
