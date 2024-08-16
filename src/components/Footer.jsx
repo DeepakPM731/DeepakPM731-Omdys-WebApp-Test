@@ -16,7 +16,7 @@ const Footer = () => {
     setFormData({ ...formData, [name]: value });
     setErrors({ ...errors, [name]: '' });
   };
-  console.log(formData);
+  // console.log(formData);
 
   const sendEmail = async (e) => {
     e.preventDefault();
@@ -58,13 +58,13 @@ const Footer = () => {
             formDatas
           )
           .then((data) => {
-            console.log(data);
+            // console.log(data);
           })
           .catch((error) => {
-            console.log(error);
+            // console.log(error);
           });
       } catch (error) {
-        console.log(error);
+        // console.log(error);
       }
     } else {
       setErrors(newErrors);

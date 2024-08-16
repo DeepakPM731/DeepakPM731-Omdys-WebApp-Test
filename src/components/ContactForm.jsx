@@ -100,10 +100,10 @@ const ContactForm = () => {
             formDatas
           )
           .then((data) => {
-            console.log(data);
+            // console.log(data);
           })
           .catch((error) => {
-            console.log(error);
+            // console.log(error);
           });
         
         emailjs
@@ -112,11 +112,11 @@ const ContactForm = () => {
           })
           .then(
             () => {
-              console.log('SUCCESS!');
+              // console.log('SUCCESS!');
               e.target.reset();
             },
             (error) => {
-              console.log('FAILED...', error.text);
+              // console.log('FAILED...', error.text);
             }
           );
         emailjs
@@ -125,17 +125,17 @@ const ContactForm = () => {
           })
           .then(
             () => {
-              console.log('SUCCESS!');
+              // console.log('SUCCESS!');
               e.target.reset();
             },
             (error) => {
-              console.log('FAILED...', error.text);
+              // console.log('FAILED...', error.text);
               
             }
           );
         
       } catch (error) {
-        console.log(error);
+        // console.log(error);
       }
     } else {
       setErrors(newErrors);

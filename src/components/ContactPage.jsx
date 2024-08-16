@@ -6,7 +6,6 @@ import emailjs from '@emailjs/browser';
 
 const ContactPage = () => {
   const navigate = useNavigate();
- 
 
   // State to manage which accordion is active
   const [activeAccordion, setActiveAccordion] = useState(0);
@@ -31,13 +30,13 @@ const ContactPage = () => {
     message: '',
   });
   // division: 'Select Division',
-  console.log(formData);
+  // console.log(formData);
 
   const [errors, setErrors] = useState({});
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-   
+
     setFormData({ ...formData, [name]: value });
     // Clear the error message for the current field
     setErrors({ ...errors, [name]: '' });
@@ -59,17 +58,16 @@ const ContactPage = () => {
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = 'Please enter a valid email';
     }
-   
+
     // }
     if (!/^\d{10}$/.test(formData.phone)) {
       newErrors.phone = 'Please enter a valid phone number';
     }
-   
-    
+
     if (!formData.division) {
       newErrors.division = 'Please select a division';
     }
-    
+
     if (Object.keys(newErrors).length === 0) {
       try {
         const formDatas = new FormData();
@@ -101,10 +99,10 @@ const ContactPage = () => {
             formDatas
           )
           .then((data) => {
-            console.log(data);
+            // console.log(data);
           })
           .catch((error) => {
-            console.log(error);
+            // console.log(error);
           });
         // console.log('Form submitted:', formData);
         emailjs
@@ -113,11 +111,11 @@ const ContactPage = () => {
           })
           .then(
             () => {
-              console.log('SUCCESS!');
+              // console.log('SUCCESS!');
               e.target.reset();
             },
             (error) => {
-              console.log('FAILED...', error.text);
+              // console.log('FAILED...', error.text);
             }
           );
         emailjs
@@ -126,17 +124,16 @@ const ContactPage = () => {
           })
           .then(
             () => {
-              console.log('SUCCESS!');
+              // console.log('SUCCESS!');
               e.target.reset();
             },
             (error) => {
-              console.log('FAILED...', error.text);
+              // console.log('FAILED...', error.text);
               // console.log('222222');
             }
           );
-        
       } catch (error) {
-        console.log(error);
+        // console.log(error);
       }
     } else {
       setErrors(newErrors);
@@ -178,7 +175,6 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-         
         </section>
         {/* Banner Style One End */}
         {/* Contact Form 2 Start */}
@@ -343,7 +339,7 @@ const ContactPage = () => {
                           type="radio"
                           name="division"
                           id="division3"
-                          value=" Construction Tools and Safety Equipments"
+                          value="Construction Tools and Safety Equipments"
                           checked={
                             formData.division ===
                             'Construction Tools and Safety Equipments'
@@ -360,7 +356,7 @@ const ContactPage = () => {
                           htmlFor="division3"
                           style={{ fontWeight: 'normal', color: '#6C757D' }}
                         >
-                          Construction Tools and Safety Equipments
+                          Construction Tools and Safety Equipmentss
                         </h6>
                       </div>
                       <div className="form-check">
@@ -428,13 +424,11 @@ const ContactPage = () => {
                       <input
                         type="text"
                         className={'form-control'}
-                        
                         name="subject"
                         value={formData.subject}
                         placeholder="Subject"
                         onChange={handleInputChange}
                       />
-                      
                     </div>
                     <div className="row g-0">
                       <textarea
@@ -474,7 +468,6 @@ const ContactPage = () => {
                     </figure>
                     <h3>Mr Deepak Ponnarassery</h3>
                     <p>Business Head</p>
-                   
                   </div>
                 </div>
                 <div className="info">
@@ -560,7 +553,6 @@ const ContactPage = () => {
                         <a href="tel:+91 84310 6789 3">
                           <p className="num">(+91) 84310 6789 3</p>
                         </a>
-                        
                       </div>
                     </li>
                     <li>
@@ -617,13 +609,21 @@ const ContactPage = () => {
                   </ul>
                   <ul className="social-medias">
                     <li>
-                      <a className="fb" href="https://www.facebook.com/people/OMDYS-International-LLP/61563817135198/" target='_blank'>
+                      <a
+                        className="fb"
+                        href="https://www.facebook.com/people/OMDYS-International-LLP/61563817135198/"
+                        target="_blank"
+                      >
                         <p>Facebook</p>
                         <i className="fa-brands fa-facebook" />
                       </a>
                     </li>
                     <li>
-                      <a className="in" href="https://www.instagram.com/omdys_international/" target='_blank'>
+                      <a
+                        className="in"
+                        href="https://www.instagram.com/omdys_international/"
+                        target="_blank"
+                      >
                         <p>Instagram</p>
                         <i className="fa-brands fa-instagram" />
                       </a>
@@ -677,8 +677,6 @@ const ContactPage = () => {
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   aria-haspopup="true"
                   aria-expanded={dropdownOpen}
-                  
-
                   style={{
                     background: dropdownOpen ? '#ffee02' : '',
                     border: dropdownOpen
@@ -688,16 +686,13 @@ const ContactPage = () => {
                     whiteSpace: 'normal',
                     wordWrap: 'break-word',
                   }}
-                  
                 >
                   {selectedCategory}
                 </button>
                 <div
                   className={`dropdown-menu${dropdownOpen ? ' show' : ''}`}
                   aria-labelledby="dropdownMenuButton"
-                  
                 >
-                
                   <button
                     className={`dropdown-item ${
                       activeAccordion === 4 ? 'active' : ''
@@ -737,7 +732,6 @@ const ContactPage = () => {
                   >
                     Healthcare PPE Products
                   </button>
-                  
 
                   <button
                     className={`dropdown-item ${
@@ -750,7 +744,7 @@ const ContactPage = () => {
                       )
                     }
                     style={{
-                      whiteSpace: 'normal' ,
+                      whiteSpace: 'normal',
                       wordWrap: 'break-word',
                       fontWeight: '600',
                       textAlign: 'center',
@@ -770,7 +764,6 @@ const ContactPage = () => {
                   >
                     Printing Solutions
                   </button>
-                  
                 </div>
               </div>
             </div>
@@ -786,9 +779,7 @@ const ContactPage = () => {
                     {/* Main Accordion 1 */}
                     {activeAccordion === 1 && (
                       <div className="accordion-item">
-                        <h2 className="accordion-header" id="heading-1">
-                         
-                        </h2>
+                        <h2 className="accordion-header" id="heading-1"></h2>
                         <div
                           id="collapse-1"
                           className={`accordion-collapse collapse ${
@@ -1405,9 +1396,7 @@ const ContactPage = () => {
                     {/* Main Accordion 2 */}
                     {activeAccordion === 2 && (
                       <div className="accordion-item">
-                        <h2 className="accordion-header" id="heading-2">
-                          
-                        </h2>
+                        <h2 className="accordion-header" id="heading-2"></h2>
                         <div
                           id="collapse-2"
                           className={`accordion-collapse collapse ${
@@ -1763,9 +1752,7 @@ const ContactPage = () => {
                     {/* Main Accordion 3 */}
                     {activeAccordion === 3 && (
                       <div className="accordion-item">
-                        <h2 className="accordion-header" id="heading-3">
-                         
-                        </h2>
+                        <h2 className="accordion-header" id="heading-3"></h2>
                         <div
                           id="collapse-3"
                           className={`accordion-collapse collapse ${
@@ -2149,9 +2136,7 @@ const ContactPage = () => {
                     {/* Main Accordion 4 */}
                     {activeAccordion === 4 && (
                       <div className="accordion-item">
-                        <h2 className="accordion-header" id="heading-4">
-                          
-                        </h2>
+                        <h2 className="accordion-header" id="heading-4"></h2>
                         <div
                           id="collapse-4"
                           className={`accordion-collapse collapse ${
@@ -2529,9 +2514,7 @@ const ContactPage = () => {
                     {/* Main Accordion 5 */}
                     {activeAccordion === 5 && (
                       <div className="accordion-item">
-                        <h2 className="accordion-header" id="heading-5">
-                          
-                        </h2>
+                        <h2 className="accordion-header" id="heading-5"></h2>
                         <div
                           id="collapse-5"
                           className={`accordion-collapse collapse ${
@@ -2901,7 +2884,6 @@ const ContactPage = () => {
                           <button
                             className="accordion-button"
                             type="button"
-                            
                             aria-expanded={
                               activeAccordion === 6 ? 'true' : 'false'
                             }

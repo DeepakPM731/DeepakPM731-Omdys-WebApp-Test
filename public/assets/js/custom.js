@@ -502,27 +502,27 @@ jQuery(document).ready(function ($) {
     if (m_index == 0) {
       $('.c-cards .card').removeClass('active');
       $($('.c-cards .card:nth-child(1)')).addClass('active');
-      console.log('yes');
+      // console.log('yes');
     }
     if (m_index == 1) {
       $('.c-cards .card').removeClass('active');
       $($('.c-cards .card:nth-child(2)')).addClass('active');
-      console.log('yes');
+      // console.log('yes');
     }
     if (m_index == 2) {
       $('.c-cards .card').removeClass('active');
       $($('.c-cards .card:nth-child(3)')).addClass('active');
-      console.log('yes');
+      // console.log('yes');
     }
     if (m_index == 3) {
       $('.c-cards .card').removeClass('active');
       $($('.c-cards .card:nth-child(4)')).addClass('active');
-      console.log('yes');
+      // console.log('yes');
     }
     if (m_index == 4) {
       $('.c-cards .card').removeClass('active');
       $($('.c-cards .card:nth-child(5)')).addClass('active');
-      console.log('yes');
+      // console.log('yes');
     }
   });
 
@@ -770,7 +770,7 @@ jQuery(document).ready(function ($) {
   if ($('.map-pin')[0]) {
     $('.map-pin').on('mouseover', function () {
       $('.map-pin').toggleClass('active');
-      console.log('yes');
+      // console.log('yes');
     });
   }
 
