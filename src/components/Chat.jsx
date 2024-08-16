@@ -4,7 +4,7 @@ import './chat.css';
 
 const Chat = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const key = import.meta.env.VITE_CHATBOT_KEY;
   const toggleChatbot = () => {
     setIsOpen(!isOpen);
   };
@@ -28,14 +28,13 @@ const Chat = () => {
           height="530"
           // height="430"
           width="350"
-          src="https://console.dialogflow.com/api-client/demo/embedded/63ace6e7-bafb-4523-b532-43d1e76968d4"
+          src={key}
           title="Chatbot"
           style={{
             border: '1px solid black',
             borderRadius: '10px',
             boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
           }}
-         
         ></iframe>
         <button className="chatbot-close-button" onClick={toggleChatbot}>
           X
