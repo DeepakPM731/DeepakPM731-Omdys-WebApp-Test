@@ -95,7 +95,7 @@ const App = () => {
   //   checkChatVisibility();
   // }, []);
   // =======================================
-
+ 
   const [showChat, setShowChat] = useState(false);
 
   useEffect(() => {
@@ -198,87 +198,89 @@ const App = () => {
   return (
     <>
       <Router>
-        <ScrollToTop />
-        <Header />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<AboutPage />} />
-          {/* <Route path="/contact" element={<Contact />} /> */}
-          <Route path="/team" element={<TeamPage />} />
-          <Route path="/core-values" element={<CoreValues />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/contact-form" element={<ContactForm />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/service-single" element={<ServiceSingle />} />
-          <Route path="/service-main" element={<MainServices />} />
-          <Route path="/service-one" element={<ServiceOne />} />
-          <Route path="/service-two" element={<ServiceTwo />} />
-          <Route path="/service-three" element={<ServiceThree />} />
-          <Route path="/service-four" element={<ServiceFour />} />
-          <Route path="/activities" element={<Activities />} />
-          <Route path="/testimonials" element={<Testimonials />} />
-          {/* <Route path="/chat" element={<Chat />} /> */}
-          <Route path="/chatbot" element={<Chatbot />} />
-          <Route path="/connect" element={<Redirections />} />
-          <Route path="/printing-solutions" element={<ActivityOne />} />
-          <Route path="/electronics" element={<ActivityTwo />} />
-          <Route path="/tools-equip" element={<ActivityThree />} />
-          <Route path="/oil-gas" element={<ActivityFour />} />
-          <Route path="/health-care" element={<ActivityFive />} />
-          <Route path="/activity-six" element={<ActivitySix />} />
-          <Route path="/activity-test" element={<TestFour />} />
-          <Route path="/csr" element={<CSR />} />
-          <Route path="/terms" element={<TermConditions />} />
-          <Route path="/privacy" element={<PrivacyPolicy />} />
-          {/* -------------activity-one-sub starts------------ */}
-          <Route path="/ecosolvent" element={<EcoSolvent />} />
-          <Route path="/uv" element={<Uv />} />
-          <Route path="/solvent" element={<Solvent />} />
-          <Route path="/printequip" element={<PrintingEquip />} />
-          <Route path="/media" element={<Media />} />
-          {/* -------------activity-one-sub ends------------ */}
-          {/* -------------activity-two-sub starts------------ */}
-          <Route path="/ic" element={<IC />} />
-          <Route path="/active" element={<ActiveC />} />
-          <Route path="/passive" element={<Passive />} />
-          <Route path="/sensor" element={<Sensor />} />
-          <Route path="/connector" element={<Connectors />} />
-          <Route path="/switch" element={<SwitchRelay />} />
-          <Route path="/led" element={<Led />} />
-          <Route path="/power" element={<PowerBaterry />} />
-          <Route path="/semi" element={<SemiC />} />
-          {/* -------------activity-sub ends------------ */}
-          {/* -------------activity-three-sub starts------------ */}
-          <Route path="/tools" element={<Tools />} />
-          <Route path="/hand-tools" element={<HandTools />} />
-          <Route path="/power-tools" element={<PowerTools />} />
-          <Route path="/electrical-tools" element={<ElectricalTools />} />
-          <Route path="/plumbing-tools" element={<PlumbingTools />} />
-          <Route path="/safety" element={<Safety />} />
-          {/* -------------activity-three-sub starts------------ */}
-          {/* -------------activity-four-sub starts------------ */}
-          <Route path="/valves" element={<Valves />} />
-          <Route path="/pipes" element={<Pipes />} />
-          <Route path="/connectors" element={<Connector />} />
-          <Route path="/gaskets" element={<Gaskets />} />
-          <Route path="/hoses" element={<Hoses />} />
-          <Route path="/bolts" element={<Bolts />} />
-          <Route path="/instrumentation" element={<Instrumentation />} />
-          {/* -------------activity-four-sub ends------------ */}
-          {/* -------------activity-five-sub starts------------ */}
-          <Route path="/mask" element={<FaceMask />} />
-          <Route path="/protective" element={<ProtectiveApparel />} />
-          <Route path="/gloves" element={<Gloves />} />
-          <Route path="/eye" element={<EyeProtection />} />
-          <Route path="/sanitizer" element={<Sanitizers />} />
-          <Route path="/cleaning" element={<CleaningSolution />} />
-          {/* -------------activity-five-sub ends------------ */}
-          {/* -------------NOt Found------------ */}
-          <Route path="*" element={<NotFound />} /> {/* 404 Route */}
-        </Routes>
-        {/* <Chat /> */}
-        {/* {showChat && <Chat />} */}
-        <Footer />
+        <>
+          <ScrollToTop />
+          <Header />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/about" element={<AboutPage />} />
+            {/* <Route path="/contact" element={<Contact />} /> */}
+            <Route path="/team" element={<TeamPage />} />
+            <Route path="/core-values" element={<CoreValues />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/contact-form" element={<ContactForm />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/service-single" element={<ServiceSingle />} />
+            <Route path="/service-main" element={<MainServices />} />
+            <Route path="/service-one" element={<ServiceOne />} />
+            <Route path="/service-two" element={<ServiceTwo />} />
+            <Route path="/service-three" element={<ServiceThree />} />
+            <Route path="/service-four" element={<ServiceFour />} />
+            <Route path="/activities" element={<Activities />} />
+            <Route path="/testimonials" element={<Testimonials />} />
+            {/* <Route path="/chat" element={<Chat />} /> */}
+            <Route path="/chatbot" element={<Chatbot />} />
+            <Route path="/connect" element={<Redirections />} />
+            <Route path="/printing-solutions" element={<ActivityOne />} />
+            <Route path="/electronics" element={<ActivityTwo />} />
+            <Route path="/tools-equip" element={<ActivityThree />} />
+            <Route path="/oil-gas" element={<ActivityFour />} />
+            <Route path="/health-care" element={<ActivityFive />} />
+            <Route path="/activity-six" element={<ActivitySix />} />
+            <Route path="/activity-test" element={<TestFour />} />
+            <Route path="/csr" element={<CSR />} />
+            <Route path="/terms" element={<TermConditions />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
+            {/* -------------activity-one-sub starts------------ */}
+            <Route path="/ecosolvent" element={<EcoSolvent />} />
+            <Route path="/uv" element={<Uv />} />
+            <Route path="/solvent" element={<Solvent />} />
+            <Route path="/printequip" element={<PrintingEquip />} />
+            <Route path="/media" element={<Media />} />
+            {/* -------------activity-one-sub ends------------ */}
+            {/* -------------activity-two-sub starts------------ */}
+            <Route path="/ic" element={<IC />} />
+            <Route path="/active" element={<ActiveC />} />
+            <Route path="/passive" element={<Passive />} />
+            <Route path="/sensor" element={<Sensor />} />
+            <Route path="/connector" element={<Connectors />} />
+            <Route path="/switch" element={<SwitchRelay />} />
+            <Route path="/led" element={<Led />} />
+            <Route path="/power" element={<PowerBaterry />} />
+            <Route path="/semi" element={<SemiC />} />
+            {/* -------------activity-sub ends------------ */}
+            {/* -------------activity-three-sub starts------------ */}
+            <Route path="/tools" element={<Tools />} />
+            <Route path="/hand-tools" element={<HandTools />} />
+            <Route path="/power-tools" element={<PowerTools />} />
+            <Route path="/electrical-tools" element={<ElectricalTools />} />
+            <Route path="/plumbing-tools" element={<PlumbingTools />} />
+            <Route path="/safety" element={<Safety />} />
+            {/* -------------activity-three-sub starts------------ */}
+            {/* -------------activity-four-sub starts------------ */}
+            <Route path="/valves" element={<Valves />} />
+            <Route path="/pipes" element={<Pipes />} />
+            <Route path="/connectors" element={<Connector />} />
+            <Route path="/gaskets" element={<Gaskets />} />
+            <Route path="/hoses" element={<Hoses />} />
+            <Route path="/bolts" element={<Bolts />} />
+            <Route path="/instrumentation" element={<Instrumentation />} />
+            {/* -------------activity-four-sub ends------------ */}
+            {/* -------------activity-five-sub starts------------ */}
+            <Route path="/mask" element={<FaceMask />} />
+            <Route path="/protective" element={<ProtectiveApparel />} />
+            <Route path="/gloves" element={<Gloves />} />
+            <Route path="/eye" element={<EyeProtection />} />
+            <Route path="/sanitizer" element={<Sanitizers />} />
+            <Route path="/cleaning" element={<CleaningSolution />} />
+            {/* -------------activity-five-sub ends------------ */}
+            {/* -------------NOt Found------------ */}
+            <Route path="*" element={<NotFound />} /> {/* 404 Route */}
+          </Routes>
+          {/* <Chat /> */}
+          {/* {showChat && <Chat />} */}
+          <Footer />
+        </>
       </Router>
     </>
   );

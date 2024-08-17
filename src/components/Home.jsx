@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 
-
 import About from './about/About';
 import Articles from './Articles';
 import Clients from './Clients';
@@ -35,29 +34,59 @@ const Home = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  // --------------preloader on every browser---------------
+
+  const [isBrowser, setisBrowser] = useState(true);
+  const [isHidden, setIsHidden] = useState(true);
+  useEffect(() => {
+    const Browser = typeof InstallTrigger !== 'undefined';
+
+    setisBrowser(true);
+
+    if (Browser) {
+      setTimeout(() => {
+        setIsHidden(false);
+      }, 5000);
+    } else {
+      setTimeout(() => {
+        setIsHidden(false);
+      }, 1000);
+    }
+  }, []);
+
   return (
     <>
       <>
-        <Slider />
-        <Vision />
-        <About />
-        <Counter />
-        <Projects />
-        {/* <Team /> */}
-        <Features />
-        {/* <Clients /> */}
-        <Contact />
-        {/* <Review /> */}
-        <Testimonials />
-        <Articles />
+        {isBrowser && isHidden && (
+          <div className="fullscreen-overlay">
+            <div className="loading-text">
+              <Loader />
+            </div>
+          </div>
+        )}
 
-        <button
-          id="scrollTop"
-          className="scrollTopStick"
-          onClick={handleScrollTop}
-        >
-          <i className="fa-solid fa-arrow-up"></i>
-        </button>
+        <div className={isBrowser && isHidden ? 'hide' : ''}>
+          <Slider />
+          <Vision />
+          <About />
+          <Counter />
+          <Projects />
+          {/* <Team /> */}
+          <Features />
+          {/* <Clients /> */}
+          <Contact />
+          {/* <Review /> */}
+          <Testimonials />
+          <Articles />
+
+          <button
+            id="scrollTop"
+            className="scrollTopStick"
+            onClick={handleScrollTop}
+          >
+            <i className="fa-solid fa-arrow-up"></i>
+          </button>
+        </div>
       </>
     </>
   );

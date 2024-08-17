@@ -1,22 +1,26 @@
 import './Loader.css'; // Import CSS for styling the loader
-// import PuffLoader from 'react-spinners/PuffLoader';
+import PuffLoader from 'react-spinners/PuffLoader';
 
 const Loader = () => {
   return (
     <>
-      <div className="loader-container">
+      {/* <div className="loader-container">
         <div className="loader"></div>
-      </div>
-      {/* <div
-        className="container "
+      </div> */}
+      <div
+        className="container"
         style={{
+          height: '100vh',
+
           display: 'flex',
           justifyContent: 'center',
-          alignContent: 'center',
+          alignItems: 'center',
         }}
       >
-        <PuffLoader color="#fd0707" size={150} />
-      </div> */}
+        <div className="item">
+          <PuffLoader color="#fd0707" size={250} />
+        </div>
+      </div>
     </>
   );
 };

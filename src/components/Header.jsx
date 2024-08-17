@@ -19,13 +19,12 @@ const Header = () => {
                         <a href="/">
                           <figure>
                             <img
-                              
                               src="assets/images/OMDYS LOGO - Horizontal-R.png"
                               //   width={'306'}
                               //   height={'75'}
                               width={'326'}
                               height={'80'}
-                              alt="logoo"
+                              alt=""
                             />
                           </figure>
                         </a>
@@ -45,7 +44,7 @@ const Header = () => {
                             <a className="linktag" href="/about">
                               About
                             </a>
-                           
+
                             <ul className="sub-menu">
                               <li>
                                 <Link to={'javascript:void(0)'}>
@@ -78,11 +77,10 @@ const Header = () => {
                                   </a>
                                 </Link>
                               </li>
-                            
                             </ul>
                           </li>
                           {/* -----------services nav----------- */}
-                         
+
                           <li className="menu-item-has-children">
                             <Link to={'JavaScript:void(0)'}>
                               <a href="javascript:void(0)">Services</a>
@@ -99,21 +97,13 @@ const Header = () => {
                               <li>
                                 <a href="/service-two">Product Management</a>
                               </li>
-                            
+
                               <li>
                                 <a href="/service-four">Risk Management</a>
                               </li>
-                              <li>
-                                
-                              </li>
-                              
+                              <li></li>
 
-                              <li className="">
-                               
-                              </li>
-                              
-
-                              
+                              <li className=""></li>
                             </ul>
                           </li>
                           <li className="menu-item-has-children">
@@ -121,7 +111,6 @@ const Header = () => {
                               <a href="javascript:void(0)">Products</a>
                               {/* <a href="/activities">Products</a> */}
                             </Link>
-                           
 
                             <ul className="sub-menu">
                               {/* Oil & Gas Equipment Supply */}
@@ -595,9 +584,7 @@ const Header = () => {
                             Instrumentation and Controls
                           </a>
                         </li>
-                        
                       </ul>
-                     
                     </li>
                     {/* Electronics Components */}
                     <li className="menu-item-has-children">
