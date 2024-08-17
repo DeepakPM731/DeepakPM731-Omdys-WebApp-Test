@@ -146,53 +146,54 @@ const App = () => {
       });
     }, 300);
   }, []);
-  useEffect(() => {
-    // disabling easy access to developer tools
-    document.addEventListener('contextmenu', (e) => {
-      e.preventDefault();
-    });
-    const disableDevToolsShortcuts = (e) => {
-      // Disable F12
-      if (e.key === 'F12') {
-        e.preventDefault();
-      }
 
-      // Disable Ctrl+Shift+I or Cmd+Option+I
-      if (
-        (e.ctrlKey && e.shiftKey && e.key === 'I') ||
-        (e.metaKey && e.altKey && e.key === 'I')
-      ) {
-        e.preventDefault();
-      }
+  // useEffect(() => {
+  //   // disabling easy access to developer tools
+  //   document.addEventListener('contextmenu', (e) => {
+  //     e.preventDefault();
+  //   });
+  //   const disableDevToolsShortcuts = (e) => {
+  //     // Disable F12
+  //     if (e.key === 'F12') {
+  //       e.preventDefault();
+  //     }
 
-      // Disable Ctrl+Shift+C or Cmd+Option+C (for element inspection)
-      if (
-        (e.ctrlKey && e.shiftKey && e.key === 'C') ||
-        (e.metaKey && e.altKey && e.key === 'C')
-      ) {
-        e.preventDefault();
-      }
+  //     // Disable Ctrl+Shift+I or Cmd+Option+I
+  //     if (
+  //       (e.ctrlKey && e.shiftKey && e.key === 'I') ||
+  //       (e.metaKey && e.altKey && e.key === 'I')
+  //     ) {
+  //       e.preventDefault();
+  //     }
 
-      // Disable Ctrl+Shift+J or Cmd+Option+J (for opening console)
-      if (
-        (e.ctrlKey && e.shiftKey && e.key === 'J') ||
-        (e.metaKey && e.altKey && e.key === 'J')
-      ) {
-        e.preventDefault();
-      }
+  //     // Disable Ctrl+Shift+C or Cmd+Option+C (for element inspection)
+  //     if (
+  //       (e.ctrlKey && e.shiftKey && e.key === 'C') ||
+  //       (e.metaKey && e.altKey && e.key === 'C')
+  //     ) {
+  //       e.preventDefault();
+  //     }
 
-      // Disable Ctrl+U (for viewing source code)
-      if (e.ctrlKey && e.key === 'U') {
-        e.preventDefault();
-      }
-    };
+  //     // Disable Ctrl+Shift+J or Cmd+Option+J (for opening console)
+  //     if (
+  //       (e.ctrlKey && e.shiftKey && e.key === 'J') ||
+  //       (e.metaKey && e.altKey && e.key === 'J')
+  //     ) {
+  //       e.preventDefault();
+  //     }
 
-    window.addEventListener('keydown', disableDevToolsShortcuts);
+  //     // Disable Ctrl+U (for viewing source code)
+  //     if (e.ctrlKey && e.key === 'U') {
+  //       e.preventDefault();
+  //     }
+  //   };
 
-    return () => {
-      window.removeEventListener('keydown', disableDevToolsShortcuts);
-    };
-  }, []);
+  //   window.addEventListener('keydown', disableDevToolsShortcuts);
+
+  //   return () => {
+  //     window.removeEventListener('keydown', disableDevToolsShortcuts);
+  //   };
+  // }, []);
 
   return (
     <>
