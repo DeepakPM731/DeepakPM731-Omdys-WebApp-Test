@@ -64,7 +64,7 @@ const FaceMask = () => {
           <div className="container" style={{ marginBottom: '' }}>
             <div className="row">
               <ul>
-                <li style={{ marginTop: '-2%' }}>
+                <li style={{ marginTop: '0%' }}>
                   <div className="image" data-aos="fade-right">
                     <figure>
                       <img
@@ -170,7 +170,9 @@ const FaceMask = () => {
 
         {/* ---------Hearing protection-------- */}
 
-        <h3 className='acthd' style={{ textAlign: 'center' }}>Other Respirators and Masks</h3>
+        <h3 className="acthd" style={{ textAlign: 'center' }}>
+          Other Respirators and Masks
+        </h3>
         <br />
         <section className="gap no-top core-values">
           <div className="container" style={{ marginBottom: '' }}>

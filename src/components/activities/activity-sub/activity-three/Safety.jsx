@@ -25,10 +25,9 @@ const Safety = () => {
             <div className="row">
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>
-                  Construction Tools & Safety Equipmentsuipments
+                  Construction Tools & Safety Equipments
                 </h2>
                 <br />
-               
               </div>
             </div>
           </div>

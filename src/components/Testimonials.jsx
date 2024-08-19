@@ -29,9 +29,10 @@ const Testimonials = () => {
               <div className="project-post">
                 <figure>
                   <img
-                    src="/assets/images/testimonials/2.svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/testimonial2.svg"
+                    // src="/assets/images/testimonials/2.svg"
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
-                    alt="project-img-1"
+                    alt=""
                     width={'300px'}
                     height={'300px'}
                     style={{ objectFit: 'contain', backgroundColor: '#FFFFFF' }}
@@ -88,8 +89,9 @@ const Testimonials = () => {
                 <figure>
                   <img
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
-                    src="/assets/images/testimonials/3.svg"
-                    alt="project-img-1"
+                    // src="/assets/images/testimonials/3.svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/testimonial3.svg"
+                    alt=""
                     width={'300px'}
                     height={'300px'}
                     style={{ objectFit: 'contain', backgroundColor: '#FFFFFF' }}
@@ -152,8 +154,9 @@ const Testimonials = () => {
                 <figure>
                   <img
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
-                    src="/assets/images/testimonials/5.svg"
-                    alt="project-img-1"
+                    // src="/assets/images/testimonials/5.svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/testimonial5.svg"
+                    alt=""
                     width={'300px'}
                     height={'300px'}
                     style={{ objectFit: 'contain', backgroundColor: '#FFFFFF' }}
@@ -161,7 +164,6 @@ const Testimonials = () => {
                 </figure>
 
                 <div className="project-data">
-                  
                   <p
                     className="testimonialPara"
                     style={{
@@ -194,8 +196,9 @@ const Testimonials = () => {
                 <figure>
                   <img
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
-                    src="/assets/images/testimonials/6.svg"
-                    alt="project-img-1"
+                    // src="/assets/images/testimonials/6.svg"
+                    src="https://s3.ap-south-1.amazonaws.com/omdys.com/testimonial6.svg"
+                    alt=""
                     width={'300px'}
                     height={'300px'}
                     style={{ objectFit: 'contain', backgroundColor: '#FFFFFF' }}
@@ -301,7 +304,7 @@ const Testimonials = () => {
                   <img
                     src="/assets/images/testimonials/4.svg"
                     // src="https://s3.ap-south-1.amazonaws.com/omdys.com/user_default3.png"
-                    alt="project-img-1"
+                    alt=""
                     width={'300px'}
                     height={'300px'}
                     style={{ objectFit: 'contain', backgroundColor: '#FFFFFF' }}

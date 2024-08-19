@@ -26,11 +26,9 @@ const CSR = () => {
               <div className="banner-details">
                 <h2 style={{ textAlign: 'center' }}>C S R</h2>
                 <br />
-               
               </div>
             </div>
           </div>
-          
         </section>
       </div>
       <br />
@@ -43,7 +41,8 @@ const CSR = () => {
           className="industry "
           data-aos="fade-up-left"
           style={{ width: '100%', textAlign: 'center', objectFit: 'stretch' }}
-          src="assets/images/activity-four/svg/csr/CSR.svg"
+          src="https://s3.ap-south-1.amazonaws.com/omdys.com/CSR.svg"
+          // src="assets/images/activity-four/svg/csr/CSR.svg"
           alt="Our Project One Image 1"
         />
 
@@ -78,7 +77,8 @@ const CSR = () => {
           >
             <img
               style={{ borderRadius: '', width: '200px', marginTop: '10px' }}
-              src="assets/images/activity-four/svg/csr/CSR - 1.svg"
+              src="https://s3.ap-south-1.amazonaws.com/omdys.com/CSR+-+1.svg"
+              // src="assets/images/activity-four/svg/csr/CSR - 1.svg"
               alt="Core Values Image 1"
             />
             <br />
@@ -102,7 +102,8 @@ const CSR = () => {
           >
             <img
               style={{ borderRadius: '', width: '200px', marginTop: '10px' }}
-              src="assets/images/activity-four/svg/csr/CSR - 2.svg"
+              src="https://s3.ap-south-1.amazonaws.com/omdys.com/CSR+-+2.svg"
+              // src="assets/images/activity-four/svg/csr/CSR - 2.svg"
               alt="Core Values Image 1"
             />
             <br />
@@ -126,7 +127,8 @@ const CSR = () => {
           >
             <img
               style={{ borderRadius: '', width: '200px', marginTop: '10px' }}
-              src="assets/images/activity-four/svg/csr/CSR - 3.svg"
+              // src="assets/images/activity-four/svg/csr/CSR - 3.svg"
+              src="https://s3.ap-south-1.amazonaws.com/omdys.com/CSR+-+3.svg"
               alt="Core Values Image 1"
             />
             <br />
