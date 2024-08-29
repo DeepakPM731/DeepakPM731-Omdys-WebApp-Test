@@ -10,6 +10,12 @@ const ContactForm = () => {
   }, []);
   const navigate = useNavigate();
 
+
+// const TEMPLATE_ONE_KEY = VITE_TEMPLATE_ONE_KEY;
+// const TEMPLATE_TWO_KEY =VITE_TEMPLATE_TWO_KEY
+// const SERVICE_KEY =VITE_SERVICE_KEY
+// const PUBLIC_KEY =VITE_PUBLIC_KEY
+
   // State to manage which accordion is active
   const [activeAccordion, setActiveAccordion] = useState(0);
   const [selectedCategory, setSelectedCategory] = useState(
