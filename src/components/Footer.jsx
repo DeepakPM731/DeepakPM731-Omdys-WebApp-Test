@@ -6,7 +6,7 @@ import axios from 'axios';
 
 const Footer = () => {
   // const form = useRef();
-
+  const GSHEET_API_TWO = import.meta.env.VITE_GSHEET_API_TWO;
   // const [formData, setFormData] = useState({ email: '' });
   // const [errors, setErrors] = useState({});
   const [formData, setFormData] = useState({ email: '' });
@@ -24,8 +24,6 @@ const Footer = () => {
     const newErrors = {};
     // const emailPattern = /\S+@\S+\.\S+/;
     const phonePattern = /^[0-9]{10}$/;
-
-   
 
     if (!formData.email) {
       newErrors.email = 'Please enter a valid 10-digit Phone number';
@@ -53,10 +51,7 @@ const Footer = () => {
         );
 
         await axios
-          .post(
-            'https://script.google.com/macros/s/AKfycbw0P0feQILBfXIL85aRxuOEsJZBYyVnSJhWUeUwNpV2JQEkTAxI3DZL8i_H8toY2Cxn6g/exec',
-            formDatas
-          )
+          .post(GSHEET_API_TWO, formDatas)
           .then((data) => {
             // console.log(data);
           })
@@ -299,7 +294,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              
+
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-col">
                   <h3>Callback-Request</h3>

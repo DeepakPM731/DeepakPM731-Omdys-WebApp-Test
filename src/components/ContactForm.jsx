@@ -10,11 +10,11 @@ const ContactForm = () => {
   }, []);
   const navigate = useNavigate();
 
-
-// const TEMPLATE_ONE_KEY = VITE_TEMPLATE_ONE_KEY;
-// const TEMPLATE_TWO_KEY =VITE_TEMPLATE_TWO_KEY
-// const SERVICE_KEY =VITE_SERVICE_KEY
-// const PUBLIC_KEY =VITE_PUBLIC_KEY
+  const GSHEET_API = import.meta.env.VITE_GSHEET_API;
+  const TEMPLATE_ONE_KEY = import.meta.env.VITE_TEMPLATE_ONE_KEY;
+  const TEMPLATE_TWO_KEY = import.meta.env.VITE_TEMPLATE_TWO_KEY;
+  const SERVICE_KEY = import.meta.env.VITE_SERVICE_KEY;
+  const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
   // State to manage which accordion is active
   const [activeAccordion, setActiveAccordion] = useState(0);
@@ -38,17 +38,15 @@ const ContactForm = () => {
     subject: '',
     message: '',
   });
-  
 
   const [errors, setErrors] = useState({});
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-   
+
     setFormData({ ...formData, [name]: value });
-    
+
     setErrors({ ...errors, [name]: '' });
-    
   };
   useEffect(() => {
     // console.log('Form Data:', formData);
@@ -66,15 +64,15 @@ const ContactForm = () => {
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = 'Please enter a valid email';
     }
-   
+
     if (!/^\d{10}$/.test(formData.phone)) {
       newErrors.phone = 'Please enter a valid phone number';
     }
-    
+
     if (!formData.division) {
       newErrors.division = 'Please select a division';
     }
-  
+
     if (Object.keys(newErrors).length === 0) {
       try {
         const formDatas = new FormData();
@@ -88,7 +86,6 @@ const ContactForm = () => {
         toast.success(
           'Thank you for your enquiry, Our sales team will contact you soon!',
           {
-            
             position: 'center-right',
             duration: 3000,
             style: {
@@ -101,20 +98,17 @@ const ContactForm = () => {
         );
 
         await axios
-          .post(
-            'https://script.google.com/macros/s/AKfycbyyqpleAcg9DYWdEMZftRDPIbQNuOXx1o1xIDF7u3gz5EQqckONwEcbFj16TdME-2O4/exec',
-            formDatas
-          )
+          .post(GSHEET_API, formDatas)
           .then((data) => {
             // console.log(data);
           })
           .catch((error) => {
             // console.log(error);
           });
-        
+
         emailjs
-          .sendForm('service_oskoz46', 'template_9ydwb45', e.target, {
-            publicKey: 'FQX6Jy3MX8KCj-ib7',
+          .sendForm(SERVICE_KEY, TEMPLATE_ONE_KEY, e.target, {
+            publicKey: PUBLIC_KEY,
           })
           .then(
             () => {
@@ -126,8 +120,8 @@ const ContactForm = () => {
             }
           );
         emailjs
-          .sendForm('service_oskoz46', 'template_tgl7sj1', e.target, {
-            publicKey: 'FQX6Jy3MX8KCj-ib7',
+          .sendForm(SERVICE_KEY, TEMPLATE_TWO_KEY, e.target, {
+            publicKey: PUBLIC_KEY,
           })
           .then(
             () => {
@@ -136,10 +130,8 @@ const ContactForm = () => {
             },
             (error) => {
               // console.log('FAILED...', error.text);
-              
             }
           );
-        
       } catch (error) {
         // console.log(error);
       }
@@ -166,15 +158,14 @@ const ContactForm = () => {
             />
           )}
         </Toaster>
-       
+
         <section className="bannercontact"></section>
-       
+
         <section className="gap contact-form-2" style={{ paddingTop: '25px' }}>
           <div className="container">
             <div className="row">
               <div className="col-lg-7">
                 <div className="data">
-                 
                   <span style={{ fontSize: '18px' }}>
                     <b> How can we help?</b>
                   </span>
@@ -388,13 +379,11 @@ const ContactForm = () => {
                       <input
                         type="text"
                         className={'form-control'}
-                       
                         name="subject"
                         value={formData.subject}
                         placeholder="Subject"
                         onChange={handleInputChange}
                       />
-                      
                     </div>
                     <div className="row g-0">
                       <textarea
@@ -434,7 +423,6 @@ const ContactForm = () => {
                     </figure>
                     <h3>Mr Deepak Ponnarassery</h3>
                     <p>Business Head</p>
-                    
                   </div>
                 </div>
                 <div className="info">
@@ -572,7 +560,6 @@ const ContactForm = () => {
                         >
                           <p>sales@omdys.com</p>
                         </a>
-                        
                       </div>
                     </li>
                   </ul>
@@ -588,7 +575,11 @@ const ContactForm = () => {
                       </a>
                     </li>
                     <li>
-                      <a className="in" href="https://www.instagram.com/omdys_international/" target='_blank'>
+                      <a
+                        className="in"
+                        href="https://www.instagram.com/omdys_international/"
+                        target="_blank"
+                      >
                         <p>Instagram</p>
                         <i className="fa-brands fa-instagram" />
                       </a>
@@ -642,8 +633,6 @@ const ContactForm = () => {
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   aria-haspopup="true"
                   aria-expanded={dropdownOpen}
-                 
-
                   style={{
                     background: dropdownOpen ? '#ffee02' : '',
                     border: dropdownOpen
@@ -653,16 +642,13 @@ const ContactForm = () => {
                     whiteSpace: 'normal',
                     wordWrap: 'break-word',
                   }}
-                 
                 >
                   {selectedCategory}
                 </button>
                 <div
                   className={`dropdown-menu${dropdownOpen ? ' show' : ''}`}
                   aria-labelledby="dropdownMenuButton"
-                  
                 >
-                  
                   <button
                     className={`dropdown-item ${
                       activeAccordion === 4 ? 'active' : ''
@@ -690,7 +676,7 @@ const ContactForm = () => {
                   >
                     Electronics Components
                   </button>
-                  
+
                   <button
                     className={`dropdown-item ${
                       activeAccordion === 3 ? 'active' : ''
@@ -702,7 +688,6 @@ const ContactForm = () => {
                   >
                     Healthcare PPE Products
                   </button>
-                  
 
                   <button
                     className={`dropdown-item ${
@@ -735,7 +720,6 @@ const ContactForm = () => {
                   >
                     Printing Solutions
                   </button>
-                 
                 </div>
               </div>
             </div>
@@ -751,9 +735,7 @@ const ContactForm = () => {
                     {/* Main Accordion 1 */}
                     {activeAccordion === 1 && (
                       <div className="accordion-item">
-                        <h2 className="accordion-header" id="heading-1">
-                          
-                        </h2>
+                        <h2 className="accordion-header" id="heading-1"></h2>
                         <div
                           id="collapse-1"
                           className={`accordion-collapse collapse ${
@@ -1737,9 +1719,7 @@ const ContactForm = () => {
                     {/* Main Accordion 3 */}
                     {activeAccordion === 3 && (
                       <div className="accordion-item">
-                        <h2 className="accordion-header" id="heading-3">
-                          
-                        </h2>
+                        <h2 className="accordion-header" id="heading-3"></h2>
                         <div
                           id="collapse-3"
                           className={`accordion-collapse collapse ${
@@ -2123,9 +2103,7 @@ const ContactForm = () => {
                     {/* Main Accordion 4 */}
                     {activeAccordion === 4 && (
                       <div className="accordion-item">
-                        <h2 className="accordion-header" id="heading-4">
-                          
-                        </h2>
+                        <h2 className="accordion-header" id="heading-4"></h2>
                         <div
                           id="collapse-4"
                           className={`accordion-collapse collapse ${
@@ -2503,9 +2481,7 @@ const ContactForm = () => {
                     {/* Main Accordion 5 */}
                     {activeAccordion === 5 && (
                       <div className="accordion-item">
-                        <h2 className="accordion-header" id="heading-5">
-                          
-                        </h2>
+                        <h2 className="accordion-header" id="heading-5"></h2>
                         <div
                           id="collapse-5"
                           className={`accordion-collapse collapse ${

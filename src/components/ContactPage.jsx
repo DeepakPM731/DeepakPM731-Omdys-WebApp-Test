@@ -7,10 +7,11 @@ import emailjs from '@emailjs/browser';
 const ContactPage = () => {
   const navigate = useNavigate();
 
-// const TEMPLATE_ONE_KEY = VITE_TEMPLATE_ONE_KEY;
-// const TEMPLATE_TWO_KEY =VITE_TEMPLATE_TWO_KEY
-// const SERVICE_KEY =VITE_SERVICE_KEY
-// const PUBLIC_KEY =VITE_PUBLIC_KEY
+  const GSHEET_API = import.meta.env.VITE_GSHEET_API;
+  const TEMPLATE_ONE_KEY = import.meta.env.VITE_TEMPLATE_ONE_KEY;
+  const TEMPLATE_TWO_KEY = import.meta.env.VITE_TEMPLATE_TWO_KEY;
+  const SERVICE_KEY = import.meta.env.VITE_SERVICE_KEY;
+  const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
   // State to manage which accordion is active
   const [activeAccordion, setActiveAccordion] = useState(0);
@@ -99,10 +100,7 @@ const ContactPage = () => {
         );
 
         await axios
-          .post(
-            'https://script.google.com/macros/s/AKfycbyyqpleAcg9DYWdEMZftRDPIbQNuOXx1o1xIDF7u3gz5EQqckONwEcbFj16TdME-2O4/exec',
-            formDatas
-          )
+          .post(GSHEET_API, formDatas)
           .then((data) => {
             // console.log(data);
           })
@@ -111,8 +109,8 @@ const ContactPage = () => {
           });
         // console.log('Form submitted:', formData);
         emailjs
-          .sendForm('service_oskoz46', 'template_9ydwb45', e.target, {
-            publicKey: 'FQX6Jy3MX8KCj-ib7',
+          .sendForm(SERVICE_KEY, TEMPLATE_ONE_KEY, e.target, {
+            publicKey: PUBLIC_KEY,
           })
           .then(
             () => {
@@ -124,8 +122,8 @@ const ContactPage = () => {
             }
           );
         emailjs
-          .sendForm('service_oskoz46', 'template_tgl7sj1', e.target, {
-            publicKey: 'FQX6Jy3MX8KCj-ib7',
+          .sendForm(SERVICE_KEY, TEMPLATE_TWO_KEY, e.target, {
+            publicKey: PUBLIC_KEY,
           })
           .then(
             () => {
